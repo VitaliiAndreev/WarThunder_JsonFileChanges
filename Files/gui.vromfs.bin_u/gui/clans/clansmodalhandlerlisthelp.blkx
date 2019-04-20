@@ -1,0 +1,74 @@
+{
+  "tdiv": [
+    {
+      "pos": "50%@rw-50%w, 50%@rh - 7@helpInterval"
+    },
+    {
+      "position": "relative"
+    },
+    {
+      "flow": "vertical"
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_dr_era_column_header",
+        "width": "@shopWidthMax",
+        "text": "#multiplayer/dr_era1"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_members_cnt",
+        "width": "@shopWidthMax",
+        "margin-left": "0.5*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/members_cnt"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_air_kills",
+        "width": "@shopWidthMax",
+        "margin-left": "1*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/air_kills"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_ground_kills",
+        "width": "@shopWidthMax",
+        "margin-left": "1.5*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/ground_kills"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_deaths",
+        "width": "@shopWidthMax",
+        "margin-left": "2*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/deaths"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_time_pvp_played",
+        "width": "@shopWidthMax",
+        "margin-left": "2.5*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/time_pvp_played"
+      }
+    },
+    {
+      "controlsHelpTextArea": {
+        "id": "hint_activity",
+        "width": "@shopWidthMax",
+        "margin-left": "3.5*0.22@scrn_tgt",
+        "margin-top": "@helpInterval",
+        "text": "#multiplayer/activity/squadron"
+      }
+    }
+  ]
+}

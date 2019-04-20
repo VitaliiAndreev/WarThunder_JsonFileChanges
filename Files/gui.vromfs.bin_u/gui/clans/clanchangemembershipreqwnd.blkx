@@ -1,0 +1,44 @@
+{
+  "root": {
+    "background-color": "@shadeBackgroundColor",
+    "type": "big",
+    "frame": {
+      "width": "0.9*@sf",
+      "height": "0.4*@sf",
+      "pos": "0.5pw-0.5w, 0.5ph-0.5h",
+      "position": "absolute",
+      "flow": "vertical",
+      "class": "wndNav",
+      "frame_header": {
+        "Button_close": {
+          "id": "btn_back"
+        },
+        "activeText": {
+          "id": "title_text",
+          "caption": "yes",
+          "text": "#clan/changeMembershipRequirementsTitle"
+        }
+      },
+      "tdiv": {
+        "size": "pw, fh",
+        "flow": "vertical",
+        "id": "contentBody"
+      },
+      "navBar": {
+        "navRight": {
+          "Button_text": {
+            "visualStyle": "secondary",
+            "pos": "pw-w, 0",
+            "position": "relative",
+            "text": "#clan/btnSaveMembershipRequirements",
+            "tooltip": "#clan/btnSaveMembershipRequirements",
+            "_on_click": "onApply",
+            "btnName": "A",
+            "buttonWink": [],
+            "ButtonImg": []
+          }
+        }
+      }
+    }
+  }
+}

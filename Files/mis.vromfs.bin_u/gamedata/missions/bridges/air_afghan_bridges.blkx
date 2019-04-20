@@ -1,0 +1,630 @@
+{
+  "selected_tag": "",
+  "bin_dump_file": "",
+  "mission_settings": {
+    "atmosphere": {
+      "pressure": 760.0,
+      "temperature": 0.0
+    },
+    "stars": {
+      "latitude": 48.0,
+      "longitude": 44.0,
+      "year": 1940,
+      "month": 1,
+      "day": 15,
+      "time": 12.0
+    },
+    "player": {
+      "army": 1,
+      "wing": "armada_01"
+    },
+    "player_teamB": {
+      "army": 2
+    },
+    "mission": {
+      "name": "untitled",
+      "level": "levels/air_afghan.bin",
+      "type": "campaign",
+      "restoreType": "attempts",
+      "optionalTakeOff": false,
+      "campaign": "pacific",
+      "environment": "Day",
+      "weather": "hazy",
+      "missionDebriefing": "",
+      "missionBriefing": "",
+      "windDirection": [1.0,0.0,0.0],
+      "tags": [],
+      "missionType": {
+        "_Dom": false,
+        "_Conq": false,
+        "_Bttl": false,
+        "_Bto": false,
+        "_Flc": false,
+        "_v1_race_straight": false,
+        "_v1_race_inverted": false,
+        "_v2_race_straight": false,
+        "_v2_race_inverted": false,
+        "_Conq1": false,
+        "_Conq2": false,
+        "_Conq3": false,
+        "_Conq4": false,
+        "_Conq5": false,
+        "_Conq6": false,
+        "_DBttl": false,
+        "_DBttlA": false,
+        "_DBttlB": false,
+        "_CnvA": false,
+        "_CnvB": false,
+        "_ArtDA": false,
+        "_ArtDB": false
+      }
+    },
+    "cover_points": [],
+    "aiParams": {
+      "aiEffectivenessViscosity": 90.0,
+      "effectivenessDistances": [2500.0,7000.0]
+    },
+    "spectator_points": []
+  },
+  "imports": [],
+  "triggers": {
+    "isCategory": true,
+    "is_enabled": true
+  },
+  "mission_objectives": {
+    "isCategory": true,
+    "is_enabled": true
+  },
+  "variables": [],
+  "dialogs": [],
+  "airfields": [],
+  "effects": [],
+  "units": [
+    {
+      "structures": {
+        "name": "medium_bridges_01",
+        "tm": [
+          [-0.754049,0.0,-0.656926],
+          [0.0,1.0,0.0],
+          [0.51618,0.0,-0.592496],
+          [-4268.83,1500.11,5933.25]
+        ],
+        "unit_class": "beton_simple_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_02",
+        "tm": [
+          [1.24986,0.0,-0.0240879],
+          [0.0,1.25,0.0],
+          [0.0189283,0.0,0.982077],
+          [-568.975,1496.38,15868.9]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 2,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_03",
+        "tm": [
+          [0.473548,0.0,-1.15692],
+          [0.0,1.25,0.0],
+          [0.909055,0.0,0.37209],
+          [-7211.5,1496.39,22877.3]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_04",
+        "tm": [
+          [0.845915,0.0,-0.584262],
+          [0.0,1.25,0.0],
+          [0.386597,0.0,0.559726],
+          [-9423.86,1529.83,24919.4]
+        ],
+        "unit_class": "beton_simple_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_05",
+        "tm": [
+          [-0.614916,0.0,-0.823901],
+          [0.0,1.25,0.0],
+          [0.54516,0.0,-0.40688],
+          [-6910.9,1698.19,27565.4]
+        ],
+        "unit_class": "beton_simple_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_06",
+        "tm": [
+          [0.371373,0.0,-0.958653],
+          [0.0,1.25,0.0],
+          [0.634324,0.0,0.24573],
+          [-2340.92,1617.02,31140.0]
+        ],
+        "unit_class": "beton_simple_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_07",
+        "tm": [
+          [1.24944,0.0,-0.0401583],
+          [0.0,1.25,0.0],
+          [0.0315557,0.0,0.981752],
+          [-13622.7,1582.92,-563.366]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_08",
+        "tm": [
+          [0.932959,0.0,0.83205],
+          [0.0,1.25,0.0],
+          [-0.653784,0.0,0.733075],
+          [-14250.6,1617.2,-5628.0]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_09",
+        "tm": [
+          [1.14662,0.0401966,0.63134],
+          [-0.0403529,1.24933,-0.00625569],
+          [-0.53948,-0.012515,0.980587],
+          [-18855.5,1820.73,-15299.6]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_10",
+        "tm": [
+          [-0.0171715,0.0401966,1.30883],
+          [-0.0134789,1.24933,-0.0385462],
+          [-1.1191,-0.012515,-0.0142966],
+          [-3302.48,1494.69,-36130.0]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_11",
+        "tm": [
+          [0.465871,0.0401966,1.22323],
+          [-0.0267228,1.24933,-0.0308769],
+          [-0.711701,-0.00851709,0.271334],
+          [-2515.71,1497.89,-33412.9]
+        ],
+        "unit_class": "beton_simple_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 2,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_12",
+        "tm": [
+          [-1.29353,0.0401966,0.200297],
+          [0.0357744,1.24933,-0.0196896],
+          [-0.171642,-0.012515,-1.10595],
+          [-14262.8,1497.05,-35212.3]
+        ],
+        "unit_class": "beton_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_13",
+        "tm": [
+          [-1.29243,0.0401966,-0.207234],
+          [0.0400961,1.24933,-0.0077329],
+          [0.176811,-0.012515,-1.10514],
+          [-15509.1,1495.11,-35416.3]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    },
+    {
+      "structures": {
+        "name": "medium_bridges_14",
+        "tm": [
+          [-1.30201,0.0401966,0.13456],
+          [0.0367253,1.24933,-0.0178534],
+          [-0.115437,-0.012515,-1.11322],
+          [-16956.1,1497.31,-35035.9]
+        ],
+        "unit_class": "bridge_road_br",
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 0,
+          "count": 1,
+          "formation_type": "cols",
+          "formation_div": 3,
+          "formation_step": [0.7,0.0],
+          "formation_noise": [0.0,0.0],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "stealthRadius": 0.0,
+          "setStealth": true,
+          "targetableByAi": false
+        },
+        "way": []
+      }
+    }
+  ],
+  "areas": [],
+  "objLayers": [
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    }
+  ],
+  "wayPoints": []
+}

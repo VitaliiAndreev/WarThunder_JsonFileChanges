@@ -1,0 +1,54 @@
+{
+  "normal": {
+    "nullPos": [0,0],
+    "path": "#ui/gameuiskin#cursor"
+  },
+  "onButton": {
+    "nullPos": [0,0],
+    "path": "#ui/gameuiskin#cursor"
+  },
+  "invisible": {
+    "nullPos": [0,0],
+    "path": "#ui/gameuiskin#cursor_invisible"
+  },
+  "decalCursor": {
+    "nullPos": [0,0],
+    "path": "#ui/gameuiskin#decalCursor"
+  },
+  "decalCursor_noway": {
+    "nullPos": [0,0],
+    "path": "#ui/gameuiskin#decalCursor_noway"
+  },
+  "resize-top": {
+    "nullPos": [5,10],
+    "path": "#ui/gameuiskin#cursor_size_vert"
+  },
+  "resize-bottom": {
+    "nullPos": [5,10],
+    "path": "#ui/gameuiskin#cursor_size_vert"
+  },
+  "resize-right": {
+    "nullPos": [10,5],
+    "path": "#ui/gameuiskin#cursor_size_hor"
+  },
+  "resize-left": {
+    "nullPos": [10,5],
+    "path": "#ui/gameuiskin#cursor_size_hor"
+  },
+  "resize-left-top": {
+    "nullPos": [8,8],
+    "path": "#ui/gameuiskin#cursor_size_diag_left"
+  },
+  "resize-right-bottom": {
+    "nullPos": [8,8],
+    "path": "#ui/gameuiskin#cursor_size_diag_left"
+  },
+  "resize-left-bottom": {
+    "nullPos": [8,8],
+    "path": "#ui/gameuiskin#cursor_size_diag_right"
+  },
+  "resize-right-top": {
+    "nullPos": [8,8],
+    "path": "#ui/gameuiskin#cursor_size_diag_right"
+  }
+}
