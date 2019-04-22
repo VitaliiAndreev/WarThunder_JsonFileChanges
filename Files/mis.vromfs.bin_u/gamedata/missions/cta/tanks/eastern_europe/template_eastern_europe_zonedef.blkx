@@ -1,0 +1,4742 @@
+{
+  "selected_tag": "",
+  "bin_dump_file": "",
+  "mission_settings": {
+    "atmosphere": {
+      "pressure": 760.0,
+      "temperature": 30.0
+    },
+    "player": {
+      "army": 1,
+      "wing": ""
+    },
+    "player_teamB": {
+      "army": 2
+    },
+    "mission": {
+      "name": "guadalcanal_Bttl",
+      "level": "levels/avg_eastern_europe.bin",
+      "type": "domination",
+      "restoreType": "attempts",
+      "optionalTakeOff": false,
+      "campaign": "pacific",
+      "environment": "Day",
+      "weather": "hazy",
+      "missionDebriefing": "",
+      "missionBriefing": "",
+      "chapter": "air_ground_battles",
+      "country_axis": "germany",
+      "country_allies": "ussr",
+      "tags": [],
+      "missionType": {
+        "_Dom": false,
+        "_Conq": false,
+        "_Bttl": false,
+        "_Bto": false,
+        "_race_straight": false,
+        "_race_inverted": false,
+        "_Flc": false,
+        "_v1_race_straight": false,
+        "_v1_race_inverted": false,
+        "_v2_race_straight": false,
+        "_v2_race_inverted": false,
+        "_Conq1": false,
+        "_Conq2": false,
+        "_Conq3": false,
+        "_Conq4": false,
+        "_Conq5": false,
+        "_Conq6": false,
+        "_DBttlA": false,
+        "_DBttlB": false,
+        "_CnvA": false,
+        "_CnvB": false,
+        "_ArtDA": false,
+        "_ArtDB": false
+      }
+    },
+    "cover_points": [],
+    "aiParams": {
+      "aiEffectivenessViscosity": 90.0,
+      "effectivenessDistances": [2500.0,7000.0]
+    },
+    "spectator_points": [],
+    "briefing": {
+      "place_loc": "",
+      "date_loc": "",
+      "objective_loc": "",
+      "music": "action_01"
+    }
+  },
+  "imports": {
+    "import_record": {
+      "file": "gameData/missions/templates/tank_templates/ai_base_defense_template.blk",
+      "importAreas": true,
+      "importUnits": true,
+      "importTriggers": true,
+      "importMissionObjectives": true,
+      "importWayPoints": true,
+      "showAreas": true,
+      "showUnits": true,
+      "showTriggers": true,
+      "showMissionObjectives": true,
+      "showWayPoints": true,
+      "excludes": []
+    }
+  },
+  "triggers": {
+    "isCategory": true,
+    "is_enabled": true
+  },
+  "mission_objectives": {
+    "isCategory": true,
+    "is_enabled": true
+  },
+  "variables": [],
+  "dialogs": [],
+  "airfields": [],
+  "effects": [],
+  "units": [
+    {
+      "objectGroups": {
+        "name": "t1_trench01",
+        "tm": [
+          [-0.00190032,0.0,-0.999999],
+          [0.0,1.0,0.0],
+          [0.999999,0.0,-0.00190032],
+          [2653.5,1.92304,1749.45]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench02",
+        "tm": [
+          [-0.0348777,0.0,-0.999391],
+          [0.0,1.0,0.0],
+          [0.999391,0.0,-0.0348777],
+          [2611.8,1.85,1626.75]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench03",
+        "tm": [
+          [-0.0409632,0.0,-0.999161],
+          [0.0,1.0,0.0],
+          [0.999161,0.0,-0.0409632],
+          [2613.8,1.85,1605.9]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench04",
+        "tm": [
+          [0.135745,0.0,-0.990745],
+          [0.0,1.0,0.0],
+          [0.990745,0.0,0.135745],
+          [2655.56,1.876,1713.46]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench06",
+        "tm": [
+          [0.113835,0.0,-0.993499],
+          [0.0,1.0,0.0],
+          [0.993499,0.0,0.113835],
+          [2662.14,1.98491,1732.32]
+        ],
+        "unit_class": "det_trench_system_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench08",
+        "tm": [
+          [0.6115,0.0,-0.791246],
+          [0.0,1.0,0.0],
+          [0.791246,0.0,0.6115],
+          [2595.3,1.85,1879.3]
+        ],
+        "unit_class": "det_trench_system_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench09",
+        "tm": [
+          [0.279256,0.0,-0.960216],
+          [0.0,1.0,0.0],
+          [0.960216,0.0,0.279256],
+          [2580.51,1.85,1903.5]
+        ],
+        "unit_class": "det_trench_half_b_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench10",
+        "tm": [
+          [0.15685,0.0,-0.987623],
+          [0.0,1.0,0.0],
+          [0.987623,0.0,0.15685],
+          [2592.45,3.15,1730.2]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench11",
+        "tm": [
+          [-0.366681,0.0,-0.930346],
+          [0.0,1.0,0.0],
+          [0.930346,0.0,-0.366681],
+          [2509.74,1.84918,2054.28]
+        ],
+        "unit_class": "det_trench_system_e_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench12",
+        "tm": [
+          [-0.339338,0.0,-0.940664],
+          [0.0,1.0,0.0],
+          [0.940664,0.0,-0.339338],
+          [2598.78,3.33916,1757.46]
+        ],
+        "unit_class": "det_trench_system_d_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench13",
+        "tm": [
+          [0.0555144,0.0,-0.998458],
+          [0.0,1.0,0.0],
+          [0.998458,0.0,0.0555144],
+          [2593.85,3.95731,1781.55]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun01",
+        "tm": [
+          [-0.851427,0.0,-0.52447],
+          [0.0,1.0,0.0],
+          [0.52447,0.0,-0.851427],
+          [2620.9,1.85,1605.95]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun02",
+        "tm": [
+          [-0.735505,0.0,-0.677517],
+          [0.0,1.0,0.0],
+          [0.677517,0.0,-0.735505],
+          [2600.05,1.85,1787.14]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun03",
+        "tm": [
+          [-0.998938,0.0,-0.0460601],
+          [0.0,1.0,0.0],
+          [0.0460601,0.0,-0.998938],
+          [2618.75,1.85,1627.18]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun04",
+        "tm": [
+          [-0.998277,0.0,0.0586686],
+          [0.0,1.0,0.0],
+          [-0.0586686,0.0,-0.998277],
+          [2600.78,1.85,1727.99]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun05",
+        "tm": [
+          [-0.978625,0.0,-0.205653],
+          [0.0,1.0,0.0],
+          [0.205653,0.0,-0.978625],
+          [2663.4,1.9,1714.5]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun06",
+        "tm": [
+          [-0.997303,0.0,-0.0733888],
+          [0.0,1.0,0.0],
+          [0.0733888,0.0,-0.997303],
+          [2675.35,2.72046,1724.25]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun07",
+        "tm": [
+          [-0.999436,0.0,0.0335623],
+          [0.0,1.0,0.0],
+          [-0.0335623,0.0,-0.999436],
+          [2579.75,1.85,1700.25]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun08",
+        "tm": [
+          [-0.951431,0.0,-0.307861],
+          [0.0,1.0,0.0],
+          [0.307861,0.0,-0.951431],
+          [2587.26,1.85,1905.77]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun09",
+        "tm": [
+          [-0.825758,0.0,-0.564023],
+          [0.0,1.0,0.0],
+          [0.564023,0.0,-0.825758],
+          [2610.82,1.85,1880.18]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun10",
+        "tm": [
+          [-0.902538,0.0,0.43061],
+          [0.0,1.0,0.0],
+          [-0.43061,0.0,-0.902538],
+          [2663.7,2.08119,1747.45]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun11",
+        "tm": [
+          [-0.981446,0.0,-0.19173],
+          [0.0,1.0,0.0],
+          [0.19173,0.0,-0.981446],
+          [2597.03,1.85,1897.34]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun12",
+        "tm": [
+          [-0.99997,0.0,-0.00765797],
+          [0.0,1.0,0.0],
+          [0.00765797,0.0,-0.99997],
+          [2603.21,1.85,1887.76]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun13",
+        "tm": [
+          [-0.937499,0.0,-0.347982],
+          [0.0,1.0,0.0],
+          [0.347982,0.0,-0.937499],
+          [2608.79,1.85001,1739.7]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun14",
+        "tm": [
+          [-0.941382,0.0,0.337337],
+          [0.0,1.0,0.0],
+          [-0.337337,0.0,-0.941382],
+          [2677.09,2.92453,1735.88]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun15",
+        "tm": [
+          [-0.987312,0.0,-0.158789],
+          [0.0,1.0,0.0],
+          [0.158789,0.0,-0.987312],
+          [2611.1,1.85001,1756.34]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun16",
+        "tm": [
+          [-0.828261,0.0,-0.56034],
+          [0.0,1.0,0.0],
+          [0.56034,0.0,-0.828261],
+          [2608.4,1.85001,1774.7]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "squad": {
+        "name": "t1_zoneDef_sq",
+        "tm": [
+          [0.708862,0.0,0.705347],
+          [0.0,1.0,0.0],
+          [-0.705347,0.0,0.708862],
+          [2544.36,1.85,1892.22]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_antiTankGun01"
+          },
+          {
+            "squad_members": "t1_antiTankGun02"
+          },
+          {
+            "squad_members": "t1_antiTankGun03"
+          },
+          {
+            "squad_members": "t1_antiTankGun04"
+          },
+          {
+            "squad_members": "t1_antiTankGun05"
+          },
+          {
+            "squad_members": "t1_antiTankGun06"
+          },
+          {
+            "squad_members": "t1_antiTankGun07"
+          },
+          {
+            "squad_members": "t1_antiTankGun08"
+          },
+          {
+            "squad_members": "t1_antiTankGun09"
+          },
+          {
+            "squad_members": "t1_antiTankGun10"
+          },
+          {
+            "squad_members": "t1_antiTankGun11"
+          },
+          {
+            "squad_members": "t1_antiTankGun12"
+          },
+          {
+            "squad_members": "t1_antiTankGun13"
+          },
+          {
+            "squad_members": "t1_antiTankGun14"
+          },
+          {
+            "squad_members": "t1_antiTankGun15"
+          },
+          {
+            "squad_members": "t1_antiTankGun16"
+          },
+          {
+            "squad_members": "t1_antiTankGun17"
+          },
+          {
+            "squad_members": "t1_antiTankGun18"
+          },
+          {
+            "squad_members": "t1_antiTankGun19"
+          },
+          {
+            "squad_members": "t1_antiTankGun20"
+          }
+        ]
+      }
+    },
+    {
+      "squad": {
+        "name": "t1_trench_sq",
+        "tm": [
+          [0.708862,0.0,0.705347],
+          [0.0,1.0,0.0],
+          [-0.705347,0.0,0.708862],
+          [2521.93,1.85,1894.3]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_trench01"
+          },
+          {
+            "squad_members": "t1_trench02"
+          },
+          {
+            "squad_members": "t1_trench03"
+          },
+          {
+            "squad_members": "t1_trench04"
+          },
+          {
+            "squad_members": "t1_trench06"
+          },
+          {
+            "squad_members": "t1_trench08"
+          },
+          {
+            "squad_members": "t1_trench09"
+          },
+          {
+            "squad_members": "t1_trench10"
+          },
+          {
+            "squad_members": "t1_trench11"
+          },
+          {
+            "squad_members": "t1_trench12"
+          },
+          {
+            "squad_members": "t1_trench13"
+          },
+          {
+            "squad_members": "t1_trench14"
+          },
+          {
+            "squad_members": "t1_trench15"
+          },
+          {
+            "squad_members": "t1_trench16"
+          }
+        ]
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench14",
+        "tm": [
+          [0.519463,0.0,-0.854494],
+          [0.0,1.0,0.0],
+          [0.854494,0.0,0.519463],
+          [2515.85,1.85,2010.2]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench15",
+        "tm": [
+          [0.368311,0.0,-0.929701],
+          [0.0,1.0,0.0],
+          [0.929701,0.0,0.368311],
+          [2506.58,1.85,2031.11]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench16",
+        "tm": [
+          [-0.454484,0.0,-0.890753],
+          [0.0,1.0,0.0],
+          [0.890753,0.0,-0.454484],
+          [2572.75,1.85,1703.95]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench01",
+        "tm": [
+          [-0.152983,0.0,0.98823],
+          [0.0,1.0,0.0],
+          [-0.988229,0.0,-0.152981],
+          [1666.55,6.75,1368.95]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench02",
+        "tm": [
+          [-0.352917,0.0,0.935654],
+          [0.0,1.0,0.0],
+          [-0.935654,0.0,-0.352917],
+          [1641.04,1.85,1599.19]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench03",
+        "tm": [
+          [0.238022,0.0,0.97126],
+          [0.0,1.0,0.0],
+          [-0.97126,0.0,0.238022],
+          [1641.2,1.85,1576.1]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench04",
+        "tm": [
+          [0.10335,0.0,0.994646],
+          [0.0,1.0,0.0],
+          [-0.994646,0.0,0.10335],
+          [1711.3,1.87148,1463.55]
+        ],
+        "unit_class": "det_trench_half_b_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench05",
+        "tm": [
+          [-0.337962,0.0,0.94116],
+          [0.0,1.0,0.0],
+          [-0.94116,0.0,-0.337962],
+          [1633.2,1.85,1628.5]
+        ],
+        "unit_class": "det_trench_system_e_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench06",
+        "tm": [
+          [0.139664,0.0,0.990198],
+          [0.0,1.0,0.0],
+          [-0.990198,0.0,0.139664],
+          [1631.6,1.85,1614.55]
+        ],
+        "unit_class": "det_trench_system_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench07",
+        "tm": [
+          [-0.797783,0.0,0.602945],
+          [0.0,1.0,0.0],
+          [-0.602945,0.0,-0.797783],
+          [1692.76,11.7884,1172.8]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench08",
+        "tm": [
+          [-0.225717,0.0,0.974194],
+          [0.0,1.0,0.0],
+          [-0.974194,0.0,-0.225717],
+          [1592.59,8.58476,1298.12]
+        ],
+        "unit_class": "det_trench_system_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench09",
+        "tm": [
+          [-0.360753,0.0,0.932661],
+          [0.0,1.0,0.0],
+          [-0.932661,0.0,-0.360753],
+          [1594.09,7.31822,1324.24]
+        ],
+        "unit_class": "det_trench_half_b_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench10",
+        "tm": [
+          [-0.510368,0.0,0.859955],
+          [0.0,1.0,0.0],
+          [-0.859955,0.0,-0.510368],
+          [1669.79,11.2272,1216.28]
+        ],
+        "unit_class": "det_trench_half_a_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench11",
+        "tm": [
+          [-0.373541,0.0,0.927613],
+          [0.0,1.0,0.0],
+          [-0.927613,0.0,-0.373541],
+          [1639.22,11.0442,1249.21]
+        ],
+        "unit_class": "det_trench_system_e_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench12",
+        "tm": [
+          [-0.138719,0.0,0.990332],
+          [0.0,1.0,0.0],
+          [-0.990332,0.0,-0.138719],
+          [1675.27,11.4997,1188.43]
+        ],
+        "unit_class": "det_trench_system_d_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench13",
+        "tm": [
+          [-0.535391,0.0,0.844604],
+          [0.0,1.0,0.0],
+          [-0.844605,0.0,-0.53539],
+          [1627.22,10.0796,1274.03]
+        ],
+        "unit_class": "det_trench_half_c_onground",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "squad": {
+        "name": "t2_trench_sq",
+        "tm": [
+          [-0.842246,0.0,0.539093],
+          [0.0,1.0,0.0],
+          [-0.539093,0.0,-0.842246],
+          [1598.66,51.3783,1498.33]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_trench01"
+          },
+          {
+            "squad_members": "t2_trench02"
+          },
+          {
+            "squad_members": "t2_trench03"
+          },
+          {
+            "squad_members": "t2_trench04"
+          },
+          {
+            "squad_members": "t2_trench05"
+          },
+          {
+            "squad_members": "t2_trench06"
+          },
+          {
+            "squad_members": "t2_trench07"
+          },
+          {
+            "squad_members": "t2_trench08"
+          },
+          {
+            "squad_members": "t2_trench09"
+          },
+          {
+            "squad_members": "t2_trench10"
+          },
+          {
+            "squad_members": "t2_trench11"
+          },
+          {
+            "squad_members": "t2_trench12"
+          },
+          {
+            "squad_members": "t2_trench13"
+          }
+        ]
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun01",
+        "tm": [
+          [0.93843,0.0,0.34547],
+          [0.0,1.0,0.0],
+          [-0.34547,0.0,0.93843],
+          [1624.31,10.6207,1248.63]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun02",
+        "tm": [
+          [0.836362,0.0,0.548176],
+          [0.0,1.0,0.0],
+          [-0.548176,0.0,0.836362],
+          [1672.03,12.3404,1170.36]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun03",
+        "tm": [
+          [0.830243,0.0,0.557399],
+          [0.0,1.0,0.0],
+          [-0.557399,0.0,0.830243],
+          [1657.22,12.0009,1194.96]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun04",
+        "tm": [
+          [0.933856,0.0,0.357649],
+          [0.0,1.0,0.0],
+          [-0.357649,0.0,0.933856],
+          [1661.5,11.7093,1212.0]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun05",
+        "tm": [
+          [0.999375,0.0,-0.0353776],
+          [0.0,1.0,0.0],
+          [0.0353776,0.0,0.999375],
+          [1578.95,8.90127,1285.39]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun06",
+        "tm": [
+          [0.946722,0.0,0.32205],
+          [0.0,1.0,0.0],
+          [-0.32205,0.0,0.946722],
+          [1629.86,11.1354,1236.33]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun07",
+        "tm": [
+          [0.67961,0.0,0.733572],
+          [0.0,1.0,0.0],
+          [-0.733572,0.0,0.67961],
+          [1687.43,12.7676,1163.72]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun08",
+        "tm": [
+          [0.999339,0.0,0.0363686],
+          [0.0,1.0,0.0],
+          [-0.0363686,0.0,0.999339],
+          [1579.65,7.54774,1324.53]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun09",
+        "tm": [
+          [0.88564,0.0,-0.46437],
+          [0.0,1.0,0.0],
+          [0.46437,0.0,0.88564],
+          [1634.79,1.85,1578.49]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun10",
+        "tm": [
+          [0.93768,0.0,0.347496],
+          [0.0,1.0,0.0],
+          [-0.347496,0.0,0.93768],
+          [1634.99,1.85,1596.27]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun11",
+        "tm": [
+          [0.992564,0.0,0.12171],
+          [0.0,1.0,0.0],
+          [-0.12171,0.0,0.992564],
+          [1615.45,10.0601,1272.66]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun12",
+        "tm": [
+          [0.943884,0.0,0.330277],
+          [0.0,1.0,0.0],
+          [-0.330277,0.0,0.943884],
+          [1577.19,8.36483,1298.98]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun13",
+        "tm": [
+          [0.810991,0.0,-0.585058],
+          [0.0,1.0,0.0],
+          [0.585058,0.0,0.810991],
+          [1620.85,1.85,1633.4]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun14",
+        "tm": [
+          [0.969259,0.0,-0.246043],
+          [0.0,1.0,0.0],
+          [0.246043,0.0,0.969259],
+          [1618.54,1.85,1621.14]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun15",
+        "tm": [
+          [0.996183,0.0,0.0873032],
+          [0.0,1.0,0.0],
+          [-0.0873032,0.0,0.996183],
+          [1702.0,1.87786,1462.85]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun16",
+        "tm": [
+          [0.996273,0.0,0.0862781],
+          [0.0,1.0,0.0],
+          [-0.0862781,0.0,0.996273],
+          [1656.35,6.36333,1368.25]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "squad": {
+        "name": "t2_zoneDef_sq",
+        "tm": [
+          [-0.842246,0.0,0.539093],
+          [0.0,1.0,0.0],
+          [-0.539093,0.0,-0.842246],
+          [1590.12,51.3783,1509.08]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_antiTankGun01"
+          },
+          {
+            "squad_members": "t2_antiTankGun02"
+          },
+          {
+            "squad_members": "t2_antiTankGun03"
+          },
+          {
+            "squad_members": "t2_antiTankGun04"
+          },
+          {
+            "squad_members": "t2_antiTankGun05"
+          },
+          {
+            "squad_members": "t2_antiTankGun06"
+          },
+          {
+            "squad_members": "t2_antiTankGun07"
+          },
+          {
+            "squad_members": "t2_antiTankGun08"
+          },
+          {
+            "squad_members": "t2_antiTankGun09"
+          },
+          {
+            "squad_members": "t2_antiTankGun10"
+          },
+          {
+            "squad_members": "t2_antiTankGun11"
+          },
+          {
+            "squad_members": "t2_antiTankGun12"
+          },
+          {
+            "squad_members": "t2_antiTankGun13"
+          },
+          {
+            "squad_members": "t2_antiTankGun14"
+          },
+          {
+            "squad_members": "t2_antiTankGun15"
+          },
+          {
+            "squad_members": "t2_antiTankGun16"
+          },
+          {
+            "squad_members": "t2_antiTankGun17"
+          },
+          {
+            "squad_members": "t2_antiTankGun18"
+          },
+          {
+            "squad_members": "t2_antiTankGun19"
+          },
+          {
+            "squad_members": "t2_antiTankGun20"
+          }
+        ]
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_05",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2619.1,1.85,1635.0]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_17",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1665.05,6.45,1346.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_20",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1665.75,6.45,1356.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_23",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1666.35,6.45,1365.6]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_26",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1667.0,6.45,1374.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_29",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1667.65,6.45,1384.35]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_32",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1699.55,1.9,1444.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_35",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1708.65,1.9,1448.35]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_38",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1718.5,1.85896,1453.35]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_41",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1724.25,1.85,1457.7]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_44",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1720.9,1.85,1465.95]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_47",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1627.5,1.75,1558.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_50",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1636.0,1.75,1557.2]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_53",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1636.95,1.75,1565.85]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_56",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1644.7,1.75,1560.75]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_59",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1654.1,1.75,1565.25]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_62",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1662.6,1.75,1570.85]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_65",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1661.25,1.75,1579.7]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_68",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1658.1,1.75,1589.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_71",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1654.05,1.75,1580.25]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_74",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1646.65,1.75,1607.6]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_77",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1644.45,1.75,1616.6]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_80",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1643.3,1.75,1626.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_83",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1643.0,1.75,1635.65]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_86",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1640.5,1.75,1641.3]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_89",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1631.8,1.75,1642.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_92",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1622.6,1.75,1644.35]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_95",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1614.05,1.75,1647.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_98",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1608.35,1.75,1648.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_101",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1633.6,1.75,1632.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_104",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1634.25,1.75,1623.15]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_107",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1637.85,1.75,1612.95]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_110",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1629.55,1.75,1613.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_113",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1620.6,1.75,1612.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_116",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1620.2,1.75,1625.2]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_119",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1614.25,1.75,1632.55]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_122",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1607.7,1.75,1639.7]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_125",
+        "tm": [
+          [0.997673,0.0,-0.068183],
+          [0.0,1.0,0.0],
+          [0.068183,0.0,0.997673],
+          [1619.2,1.75,1636.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_08",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2584.35,1.85,1600.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_11",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2581.4,1.85,1699.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_14",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2572.2,1.85,1699.15]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_21",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2570.1,1.85,1692.15]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_30",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2582.2,1.85,1731.85]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_39",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2577.6,1.85,1773.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_48",
+        "tm": [
+          [0.793353,0.0,-0.608761],
+          [0.0,1.0,0.0],
+          [0.608761,0.0,0.793353],
+          [2612.45,1.85,1737.15]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_57",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2635.4,1.85,1713.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_66",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2631.45,1.85,1725.75]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_75",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2627.75,1.85,1737.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_84",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2623.5,1.85,1749.15]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_93",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2619.6,1.85,1760.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_102",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2615.75,1.85,1772.2]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_111",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2611.55,1.85,1784.2]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_120",
+        "tm": [
+          [0.884876,0.0,-0.465826],
+          [0.0,1.0,0.0],
+          [0.465826,0.0,0.884876],
+          [2608.65,1.85,1794.55]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_127",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2604.6,1.85,1854.65]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_130",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2602.55,1.85,1860.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_133",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2597.75,1.85,1854.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_136",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2612.7,1.85,1859.45]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_139",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2591.8,1.85,1862.05]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_142",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2587.75,1.85,1869.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_145",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2592.65,1.85,1872.7]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_148",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2593.05,1.85,1877.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_151",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2601.05,1.85,1870.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_154",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2595.05,1.85,1889.2]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_157",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2590.9,1.85,1899.0]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_160",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2587.6,1.85,1907.95]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_163",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2601.1,1.85,1899.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_166",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2607.25,1.85,1901.7]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_169",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2610.55,1.85,1889.65]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_172",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2616.75,1.85,1877.9]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_175",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2582.1,1.85,1882.25]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_178",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2582.45,1.85,1892.6]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_181",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2574.85,1.85,1903.65]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_184",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2572.85,1.85,1912.4]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_187",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2571.0,1.85,1920.35]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_190",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2520.67,1.84998,2001.99]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_193",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2514.85,1.85,2003.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_196",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2499.8,1.85,2011.75]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_199",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2502.55,1.85,2031.95]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_202",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2515.4,1.85,2036.85]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_205",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2503.3,1.85,2041.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_208",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2502.6,1.85,2056.5]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_211",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2500.05,1.85,2072.8]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_214",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2531.1,3.0,2073.65]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_217",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2545.15,1.84879,2024.85]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "notree_220",
+        "tm": [
+          [0.948205,0.0,0.317658],
+          [0.0,1.0,0.0],
+          [-0.317658,0.0,0.948205],
+          [2530.3,1.85,2013.3]
+        ],
+        "unit_class": "noTreeObjectGroup10",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun17",
+        "tm": [
+          [-0.984868,0.0,-0.173297],
+          [0.0,1.0,0.0],
+          [0.173297,0.0,-0.984868],
+          [2525.06,1.85001,2015.56]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun18",
+        "tm": [
+          [-0.998938,0.0,-0.0460601],
+          [0.0,1.0,0.0],
+          [0.0460601,0.0,-0.998938],
+          [2626.75,1.85,1618.8]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun19",
+        "tm": [
+          [-0.975266,0.0,0.221033],
+          [0.0,1.0,0.0],
+          [-0.221033,0.0,-0.975266],
+          [2522.63,1.85001,2050.22]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t1_antiTankGun20",
+        "tm": [
+          [-0.993761,0.0,-0.111527],
+          [0.0,1.0,0.0],
+          [0.111527,0.0,-0.993761],
+          [2518.64,1.85001,2034.32]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 1,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun17",
+        "tm": [
+          [0.966976,0.0,0.254866],
+          [0.0,1.0,0.0],
+          [-0.254866,0.0,0.966976],
+          [1578.23,8.36483,1313.11]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun18",
+        "tm": [
+          [0.992163,0.0,0.12495],
+          [0.0,1.0,0.0],
+          [-0.12495,0.0,0.992163],
+          [1614.21,10.6207,1258.28]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun19",
+        "tm": [
+          [0.90554,0.0,0.424259],
+          [0.0,1.0,0.0],
+          [-0.424259,0.0,0.90554],
+          [1660.34,12.3404,1180.02]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    },
+    {
+      "tankModels": {
+        "name": "t2_antiTankGun20",
+        "tm": [
+          [0.931385,0.0,0.364033],
+          [0.0,1.0,0.0],
+          [-0.364033,0.0,0.931385],
+          [1619.93,1.84998,1603.02]
+        ],
+        "unit_class": "germ_sdkfz_9_flak37",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 0,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will",
+          "targetableByAi": false,
+          "unitReplacementType": "antiTankGun"
+        },
+        "way": []
+      }
+    }
+  ],
+  "areas": {
+    "notree_04": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2619.1,1.85,1635.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_16": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1665.05,6.45,1346.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_19": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1665.75,6.45,1356.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_22": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1666.35,6.45,1365.6]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_25": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1667.0,6.45,1374.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_28": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1667.65,6.45,1384.35]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_31": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1699.55,1.9,1444.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_34": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1708.65,1.9,1448.35]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_37": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1718.5,1.85896,1453.35]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_40": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1724.25,1.85,1457.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_43": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1720.9,1.85,1465.95]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_46": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1627.5,1.75,1558.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_49": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1636.0,1.75,1557.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_52": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1636.95,1.75,1565.85]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_55": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1644.7,1.75,1560.75]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_58": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1654.1,1.75,1565.25]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_61": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1662.6,1.75,1570.85]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_64": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1661.25,1.75,1579.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_67": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1658.1,1.75,1589.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_70": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1654.05,1.75,1580.25]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_73": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1646.65,1.75,1607.6]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_76": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1644.45,1.75,1616.6]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_79": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1643.3,1.75,1626.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_82": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1643.0,1.75,1635.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_85": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1640.5,1.75,1641.3]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_88": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1631.8,1.75,1642.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_91": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1622.6,1.75,1644.35]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_94": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1614.05,1.75,1647.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_97": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1608.35,1.75,1648.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_100": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1633.6,1.75,1632.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_103": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1634.25,1.75,1623.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_106": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1637.85,1.75,1612.95]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_109": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1629.55,1.75,1613.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_112": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1620.6,1.75,1612.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_115": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1620.2,1.75,1625.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_118": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1614.25,1.75,1632.55]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_121": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1607.7,1.75,1639.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_124": {
+      "type": "Box",
+      "tm": [
+        [-9.97673,0.0,0.68183],
+        [0.0,10.0,0.0],
+        [-0.68183,0.0,-9.97673],
+        [1619.2,1.75,1636.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_07": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2584.35,1.85,1600.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_10": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2581.4,1.85,1699.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_13": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2572.2,1.85,1699.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_18": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2570.1,1.85,1692.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_27": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2582.2,1.85,1731.85]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_36": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2577.6,1.85,1773.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_45": {
+      "type": "Box",
+      "tm": [
+        [-7.93353,0.0,6.08761],
+        [0.0,10.0,0.0],
+        [-6.08761,0.0,-7.93353],
+        [2612.45,1.85,1737.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_54": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2635.4,1.85,1713.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_63": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2631.45,1.85,1725.75]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_72": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2627.75,1.85,1737.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_81": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2623.5,1.85,1749.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_90": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2619.6,1.85,1760.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_99": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2615.75,1.85,1772.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_108": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2611.55,1.85,1784.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_117": {
+      "type": "Box",
+      "tm": [
+        [-8.84876,0.0,4.65826],
+        [0.0,10.0,0.0],
+        [-4.65826,0.0,-8.84876],
+        [2608.65,1.85,1794.55]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_126": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2604.6,1.85,1854.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_129": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2602.55,1.85,1860.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_132": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2597.75,1.85,1854.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_135": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2612.7,1.85,1859.45]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_138": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2591.8,1.85,1862.05]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_141": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2587.75,1.85,1869.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_144": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2592.65,1.85,1872.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_147": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2593.05,1.85,1877.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_150": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2601.05,1.85,1870.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_153": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2595.05,1.85,1889.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_156": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2590.9,1.85,1899.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_159": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2587.6,1.85,1907.95]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_162": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2601.1,1.85,1899.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_165": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2607.25,1.85,1901.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_168": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2610.55,1.85,1889.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_171": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2616.75,1.85,1877.9]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_174": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2582.1,1.85,1882.25]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_177": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2582.45,1.85,1892.6]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_180": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2574.85,1.85,1903.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_183": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2572.85,1.85,1912.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_186": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2571.0,1.85,1920.35]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_189": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2520.67,1.84998,2001.99]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_192": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2514.85,1.85,2003.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_195": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2499.8,1.85,2011.75]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_198": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2502.55,1.85,2031.95]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_201": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2515.4,1.85,2036.85]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_204": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2503.3,1.85,2041.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_207": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2502.6,1.85,2056.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_210": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2500.05,1.85,2072.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_213": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2531.1,3.0,2073.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_216": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2545.15,1.84879,2024.85]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "notree_219": {
+      "type": "Box",
+      "tm": [
+        [-9.48205,0.0,-3.17659],
+        [0.0,10.0,0.0],
+        [3.17658,0.0,-9.48205],
+        [2530.3,1.85,2013.3]
+      ],
+      "objLayer": 0,
+      "props": []
+    }
+  },
+  "objLayers": [
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    }
+  ],
+  "wayPoints": []
+}

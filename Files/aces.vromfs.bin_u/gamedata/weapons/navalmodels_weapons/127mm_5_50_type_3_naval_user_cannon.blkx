@@ -1,0 +1,153 @@
+{
+  "cannon": true,
+  "weaponType": -1,
+  "bUseHookAsRel": true,
+  "emitColor": [1.0,1.0,0.0],
+  "emitI": 10.0,
+  "emitR": 3.0,
+  "emitTime": 0.03,
+  "aimMinDist": 0.05,
+  "aimMaxDist": 15000.0,
+  "maxDeltaAngle": 0.4,
+  "maxDeltaAngleVertical": 0.018,
+  "attackMaxDist": 12000.0,
+  "shotFreq": 0.17,
+  "traceFreq": 4,
+  "bEnablePause": false,
+  "bullets": -1,
+  "bulletsCluster": 1,
+  "fxType": "200mm_gun_flame",
+  "fxGroundDust": "water_shock_wave",
+  "shouldCollideWithRendinsts": true,
+  "sound_path": "ships/weapon_common/cannons",
+  "sound": "130mm_b13",
+  "sound_inside": "130mm_b13_interior",
+  "sfxReloadBullet": "grd_cannon_reload",
+  "fxMultipleSpawn": true,
+  "isBulletBelt": false,
+  "notUseDefaultBulletInGui": true,
+  "bullet": {
+    "bulletCount": 40,
+    "mass": 23.0,
+    "explosiveType": "shimose",
+    "explosiveMass": 1.78,
+    "caliber": 0.127,
+    "speed": 911.0,
+    "speedDispersion": 0.05,
+    "maxDistance": 25000.0,
+    "bulletType": "he_frag_tank",
+    "bulletName": "127mm_type_0",
+    "hitPowerMult": 55.0,
+    "relativeVelHitShift": [300.0,1000.0],
+    "nearArmorPower": [47.0,150.0],
+    "midArmorPower": [45.0,600.0],
+    "farArmorPower": [43.0,2000.0],
+    "relativeVelArmorShift": [200.0,1000.0],
+    "fuseDelayDist": 0.0,
+    "ricochetEffect": "cannon_ricochet",
+    "waterCollisionEffect": "120-203_he_water_splash",
+    "waterFxScale": [0.8,0.8],
+    "hitpower": {
+      "HitPower0m": [1.0,500.0],
+      "HitPower1000m": [0.9,1000.0],
+      "HitPower1500m": [0.65,1500.0],
+      "HitPower2500m": [0.5,2500.0],
+      "HitPower10000m": [0.0,10000.0]
+    },
+    "visual": {
+      "range_percent_of_ammo": [100.0,0.0],
+      "traceFreq": 1,
+      "tracer": "100mmRed",
+      "trail": "black"
+    },
+    "collisions": {
+      "default": {
+        "fx": "art_ground_splash",
+        "fxScale": [1.0,1.0]
+      },
+      "steel": {
+        "fx": "ps_hit_150mm_cumulative",
+        "fxScale": [3.9,3.9]
+      },
+      "armor": {
+        "fx": "ps_hit_150mm_cumulative",
+        "fxScale": [3.9,3.9]
+      },
+      "wood": {
+        "fx": "cannon_hit_ship_cumulative",
+        "fxScale": [2.0,2.0]
+      },
+      "buildings": {
+        "fx": "122_he_stone_splash",
+        "fxScale": [0.8,1.2]
+      },
+      "beton": {
+        "fx": "122_he_stone_splash",
+        "fxScale": [0.8,1.2]
+      }
+    }
+  },
+  "127mm_japan_HE": {
+    "bullet": {
+      "bulletCount": 40,
+      "mass": 23.0,
+      "explosiveType": "shimose",
+      "explosiveMass": 1.78,
+      "caliber": 0.127,
+      "speed": 911.0,
+      "speedDispersion": 0.05,
+      "maxDistance": 25000.0,
+      "bulletType": "he_frag_tank",
+      "bulletName": "127mm_type_0",
+      "hitPowerMult": 55.0,
+      "relativeVelHitShift": [300.0,1000.0],
+      "nearArmorPower": [47.0,150.0],
+      "midArmorPower": [45.0,600.0],
+      "farArmorPower": [43.0,2000.0],
+      "relativeVelArmorShift": [200.0,1000.0],
+      "fuseDelayDist": 0.0,
+      "ricochetEffect": "cannon_ricochet",
+      "waterCollisionEffect": "120-203_he_water_splash",
+      "waterFxScale": [0.8,0.8],
+      "hitpower": {
+        "HitPower0m": [1.0,500.0],
+        "HitPower1000m": [0.9,1000.0],
+        "HitPower1500m": [0.65,1500.0],
+        "HitPower2500m": [0.5,2500.0],
+        "HitPower10000m": [0.0,10000.0]
+      },
+      "visual": {
+        "range_percent_of_ammo": [100.0,0.0],
+        "traceFreq": 1,
+        "tracer": "100mmRed",
+        "trail": "black"
+      },
+      "collisions": {
+        "default": {
+          "fx": "art_ground_splash",
+          "fxScale": [1.0,1.0]
+        },
+        "steel": {
+          "fx": "ps_hit_150mm_cumulative",
+          "fxScale": [3.9,3.9]
+        },
+        "armor": {
+          "fx": "ps_hit_150mm_cumulative",
+          "fxScale": [3.9,3.9]
+        },
+        "wood": {
+          "fx": "cannon_hit_ship_cumulative",
+          "fxScale": [2.0,2.0]
+        },
+        "buildings": {
+          "fx": "122_he_stone_splash",
+          "fxScale": [0.8,1.2]
+        },
+        "beton": {
+          "fx": "122_he_stone_splash",
+          "fxScale": [0.8,1.2]
+        }
+      }
+    }
+  }
+}
