@@ -2273,9 +2273,7 @@
     "improved_optics": [],
     "85mm_ussr_APCBC": [],
     "85mm_ussr_HVAP": [],
-    "85mm_ussr_HEAT_FS": {
-      "modCostMul": 4.0
-    },
+    "85mm_ussr_HEAT_FS": [],
     "85mm_APCBC_ammo_pack": {
       "tier": 1
     },

@@ -2523,12 +2523,8 @@
       },
       "115mm_APDS_FS_ammo_pack": [],
       "115mm_HEAT_FS_ammo_pack": [],
-      "115mm_ussr_APDS_FS": {
-        "modCostMul": 1.1
-      },
-      "115mm_ussr_HEAT_FS": {
-        "modCostMul": 4.0
-      },
+      "115mm_ussr_APDS_FS": [],
+      "115mm_ussr_HEAT_FS": [],
       "115mm_ussr_HE": []
     }
   },

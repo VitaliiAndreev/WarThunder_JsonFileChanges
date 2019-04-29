@@ -2760,12 +2760,8 @@
       "125mm_ussr_3BM15_APDS_FS_ammo_pack": [],
       "125mm_ussr_3BM12_APDS_FS_ammo_pack": [],
       "125mm_ussr_3BK12_HEAT_FS_ammo_pack": [],
-      "125mm_ussr_3BM15_APDS_FS": {
-        "modCostMul": 2.2
-      },
-      "125mm_ussr_3BM12_APDS_FS": {
-        "modCostMul": 1.5
-      },
+      "125mm_ussr_3BM15_APDS_FS": [],
+      "125mm_ussr_3BM12_APDS_FS": [],
       "125mm_ussr_3BK12_HEAT_FS": [],
       "125mm_ussr_HE": [],
       "tank_smoke_screen_system_mod": {

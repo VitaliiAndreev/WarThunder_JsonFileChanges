@@ -2631,9 +2631,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_ger"
       },
       "modern_tank_laser_rangefinder": [],
-      "120mm_NATO_APDS_FS": {
-        "modCostMul": 2.2
-      },
+      "120mm_NATO_APDS_FS": [],
       "120mm_NATO_APDS_FS_ammo_pack": [],
       "120mm_NATO_HEAT_FS": [],
       "tank_smoke_screen_system_mod": {

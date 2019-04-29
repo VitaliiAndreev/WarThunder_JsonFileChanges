@@ -2841,13 +2841,9 @@
       },
       "modern_tank_laser_rangefinder": [],
       "120mm_britain_L37A7_HESH": [],
-      "120mm_britain_L26_APDSFS": {
-        "modCostMul": 2.2
-      },
+      "120mm_britain_L26_APDSFS": [],
       "120mm_britain_L26_APDSFS_ammo_pack": [],
-      "120mm_britain_Smoke": {
-        "modCostMul": 0.5
-      },
+      "120mm_britain_Smoke": [],
       "120mm_britain_Smoke_ammo_pack": {
         "tier": 3
       },

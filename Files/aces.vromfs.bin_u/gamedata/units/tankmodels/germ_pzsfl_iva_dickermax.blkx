@@ -613,6 +613,10 @@
         "gun_mask_dm": {
           "armorThickness": 50.0,
           "hp": 2000.0
+        },
+        "gun_barrel_armor_dm": {
+          "variableThickness": true,
+          "armorThickness": 50.0
         }
       },
       "chassis": {
@@ -2678,9 +2682,7 @@
       },
       "105mm_kwk_46_APCBC_ammo_pack": [],
       "105mm_germany_HE": [],
-      "105mm_germany_APCBC": {
-        "modCostMul": 1.5
-      }
+      "105mm_germany_APCBC": []
     }
   },
   {

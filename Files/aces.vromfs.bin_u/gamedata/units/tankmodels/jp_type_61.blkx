@@ -2548,9 +2548,7 @@
       },
       "90mm_jp_M82_APCBC_ammo_pack": [],
       "90mm_jp_M82_APCBC": [],
-      "90mm_jp_M431_HEAT": {
-        "modCostMul": 4.0
-      },
+      "90mm_jp_M431_HEAT": [],
       "90mm_jp_M431_HEAT_ammo_pack": [],
       "90mm_jp_M71_HE": [],
       "90mm_us_M313_Smoke": [],

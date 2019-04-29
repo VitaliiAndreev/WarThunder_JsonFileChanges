@@ -580,8 +580,8 @@
       }
     },
     "Compressor": {
-      "IsControllable": true,
-      "Type": 1,
+      "IsControllable": false,
+      "Type": 2,
       "NumSteps": 2,
       "RPM0": 600.0,
       "ATA0": 0.902,

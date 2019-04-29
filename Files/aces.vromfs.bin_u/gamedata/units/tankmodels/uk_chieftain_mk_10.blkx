@@ -2618,13 +2618,9 @@
         "image": "#ui/gameuiskin#tank_reinforcement_uk"
       },
       "120mm_britain_L37A7_HESH": [],
-      "120mm_britain_L23_APDSFS": {
-        "modCostMul": 2.0
-      },
+      "120mm_britain_L23_APDSFS": [],
       "120mm_britain_L23_APDSFS_ammo_pack": [],
-      "120mm_britain_Smoke": {
-        "modCostMul": 0.5
-      },
+      "120mm_britain_Smoke": [],
       "120mm_britain_Smoke_ammo_pack": [],
       "modern_tank_laser_rangefinder": [],
       "art_support": [],

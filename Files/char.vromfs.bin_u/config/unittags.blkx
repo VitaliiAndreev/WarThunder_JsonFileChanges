@@ -2041,7 +2041,7 @@
       "ally": true,
       "country_france": true,
       "type_bomber": true,
-      "type_frontline_bomber": true,
+      "type_torpedo": true,
       "bomberview": true,
       "mediterranean": true,
       "western_front": true,

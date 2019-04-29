@@ -1655,12 +1655,8 @@
       },
       "122mm_APDS_ammo_pack": [],
       "122mm_HEAT_ZBK_ammo_pack": [],
-      "122mm_ussr_APDS": {
-        "modCostMul": 1.1
-      },
-      "122mm_ussr_HEAT_ZBK": {
-        "modCostMul": 4.0
-      },
+      "122mm_ussr_APDS": [],
+      "122mm_ussr_HEAT_ZBK": [],
       "122mm_ussr_HE": [],
       "tank_smoke_screen_system_mod": {
         "tier": 3,

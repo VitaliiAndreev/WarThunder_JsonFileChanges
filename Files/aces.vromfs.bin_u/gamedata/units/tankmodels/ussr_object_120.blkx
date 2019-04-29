@@ -2629,9 +2629,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_ussr"
       },
       "152mm_M69_HE": [],
-      "152mm_M69_APDS_FS": {
-        "modCostMul": 2.0
-      },
+      "152mm_M69_APDS_FS": [],
       "152mm_M69_APDS_FS_ammo_pack": []
     }
   },

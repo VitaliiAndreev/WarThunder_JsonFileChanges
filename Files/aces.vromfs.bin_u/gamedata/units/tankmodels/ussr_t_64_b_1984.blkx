@@ -2955,13 +2955,10 @@
         "tier": 3
       },
       "125mm_ussr_3BM42_APDS_FS_ammo_pack": [],
-      "125mm_ussr_3BM42_APDS_FS": {
-        "modCostMul": 2.2
-      },
+      "125mm_ussr_3BM42_APDS_FS": [],
       "125mm_ussr_3BK18M_HEAT_FS": [],
       "125mm_ussr_HE": [],
       "125mm_ussr_ATGM": {
-        "modCostMul": 1.5,
         "maxToRespawn": 5
       },
       "modern_tank_laser_rangefinder": {

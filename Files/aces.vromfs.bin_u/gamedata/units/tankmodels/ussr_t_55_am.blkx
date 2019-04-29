@@ -2610,20 +2610,12 @@
       "100mm_BR412D_ammo_pack": [],
       "100mm_ussr_Smoke_ammo_pack": [],
       "100mm_3BK17M_ammo_pack": [],
-      "100mm_ussr_Smoke": {
-        "modCostMul": 0.6
-      },
+      "100mm_ussr_Smoke": [],
       "100mm_ussr_BR412D": [],
-      "100mm_ussr_3BK25": {
-        "modCostMul": 2.0
-      },
-      "100mm_ussr_3BK17M": {
-        "modCostMul": 1.6
-      },
+      "100mm_ussr_3BK25": [],
+      "100mm_ussr_3BK17M": [],
       "100mm_ussr_HE": [],
-      "100mm_ussr_ATGM": {
-        "modCostMul": 3.0
-      },
+      "100mm_ussr_ATGM": [],
       "100mm_ussr_ATGM_ammo_pack": [],
       "art_support": [],
       "modern_tank_laser_rangefinder": {

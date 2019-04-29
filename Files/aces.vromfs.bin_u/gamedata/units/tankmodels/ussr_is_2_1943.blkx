@@ -1698,9 +1698,7 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_ussr"
       },
-      "122mm_ussr_APHE": {
-        "modCostMul": 1.5
-      },
+      "122mm_ussr_APHE": [],
       "122mm_APHE_ammo_pack": [],
       "122mm_ussr_HE": []
     }

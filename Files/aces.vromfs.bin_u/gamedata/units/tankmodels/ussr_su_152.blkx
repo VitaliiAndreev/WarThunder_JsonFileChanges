@@ -1912,9 +1912,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_ussr"
       },
       "152mm_ussr_HE": [],
-      "152mm_ussr_APHEBC": {
-        "modCostMul": 1.5
-      },
+      "152mm_ussr_APHEBC": [],
       "152mm_ussr_APHEBC_ammo_pack": []
     }
   },

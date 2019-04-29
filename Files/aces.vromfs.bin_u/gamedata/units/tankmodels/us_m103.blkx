@@ -2559,9 +2559,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_us"
       },
       "120mm_usa_M356_HE": [],
-      "120mm_usa_M469_HEAT": {
-        "modCostMul": 4.5
-      },
+      "120mm_usa_M469_HEAT": [],
       "120mm_usa_M469_HEAT_ammo_pack": [],
       "120mm_us_M357_Smoke": [],
       "120mm_us_M357_Smoke_ammo_pack": [],

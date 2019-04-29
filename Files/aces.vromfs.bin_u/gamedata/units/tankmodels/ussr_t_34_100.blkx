@@ -2567,9 +2567,7 @@
       },
       "100mm_APHE_ammo_pack": [],
       "100mm_ussr_Smoke_ammo_pack": [],
-      "100mm_APCBC_ammo_pack": {
-        "modCostMul": 2.0
-      },
+      "100mm_APCBC_ammo_pack": [],
       "100mm_ussr_APHE": [],
       "100mm_ussr_APCBC": [],
       "100mm_ussr_Smoke": [],

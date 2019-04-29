@@ -2092,9 +2092,7 @@
       },
       "75mm_type94_HE": [],
       "75mm_type2_HEAT_ammo_pack": [],
-      "75mm_type2_HEAT": {
-        "modCostMul": 2.0
-      },
+      "75mm_type2_HEAT": [],
       "75mm_jp_Smoke": [],
       "75mm_jp_Smoke_ammo_pack": []
     }

@@ -1512,9 +1512,7 @@
       },
       "152mm_ussr_HE": [],
       "152mm_ussr_M64_APBC": [],
-      "152mm_ussr_M64_HEAT": {
-        "modCostMul": 2.0
-      },
+      "152mm_ussr_M64_HEAT": [],
       "152mm_ussr_M64_HEAT_ammo_pack": [],
       "tank_rangefinder": [],
       "tank_smoke_screen_system_mod": {

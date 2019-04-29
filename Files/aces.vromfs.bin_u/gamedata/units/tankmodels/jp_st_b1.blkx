@@ -2574,7 +2574,7 @@
       "105mm_usa_HESH": [],
       "105mm_usa_HESH_ammo_pack": [],
       "105mm_usa_HEAT_FS": {
-        "modCostMul": 4.0
+        "modCostMul": 2.0
       },
       "105mm_usa_HEAT_FS_ammo_pack": [],
       "105mm_us_M416_Smoke": [],

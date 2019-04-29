@@ -2420,9 +2420,7 @@
       "tank_rangefinder": [],
       "airstrike": [],
       "improved_optics": [],
-      "85mm_ussr_HEAT_FS": {
-        "modCostMul": 4.0
-      },
+      "85mm_ussr_HEAT_FS": [],
       "85mm_HEAT_FS_ammo_pack": [],
       "85mm_ussr_HE": [],
       "tank_smoke_screen_system_mod": {

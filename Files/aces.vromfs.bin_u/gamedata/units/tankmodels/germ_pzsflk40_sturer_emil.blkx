@@ -2663,9 +2663,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_ger"
       },
       "128mm_ger_HE": [],
-      "128mm_ger_APCBC": {
-        "modCostMul": 1.5
-      },
+      "128mm_ger_APCBC": [],
       "128mm_ger_APCBC_ammo_pack": []
     }
   },

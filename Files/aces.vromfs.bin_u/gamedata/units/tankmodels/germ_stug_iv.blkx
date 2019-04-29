@@ -2151,13 +2151,9 @@
         "image": "#ui/gameuiskin#tank_reinforcement_ussr"
       },
       "152mm_ussr_HE": [],
-      "152mm_ussr_APHEBC": {
-        "modCostMul": 1.5
-      },
+      "152mm_ussr_APHEBC": [],
       "152mm_ussr_APHEBC_ammo_pack": [],
-      "152mm_ussr_HEAT": {
-        "modCostMul": 2.0
-      },
+      "152mm_ussr_HEAT": [],
       "152mm_ussr_HEAT_ammo_pack": []
     }
   },

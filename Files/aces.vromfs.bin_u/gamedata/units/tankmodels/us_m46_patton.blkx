@@ -2642,9 +2642,7 @@
       "90mm_us_M304_APCR": [],
       "90mm_us_M332_APCR_ammo_pack": [],
       "90mm_us_M332_APCR": [],
-      "90mm_us_T108_HEAT": {
-        "modCostMul": 2.0
-      },
+      "90mm_us_T108_HEAT": [],
       "90mm_us_T108_HEAT_ammo_pack": [],
       "90mm_us_M71_HE": [],
       "90mm_us_M313_Smoke": [],

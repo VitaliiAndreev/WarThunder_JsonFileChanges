@@ -2937,15 +2937,11 @@
       },
       "105mm_fr_CN105_HEAT": [],
       "105mm_fr_CN105_HE": [],
-      "105mm_fr_CN105_Smoke": {
-        "modCostMul": 0.65
-      },
+      "105mm_fr_CN105_Smoke": [],
       "105mm_fr_CN105_Smoke_ammo_pack": {
         "tier": 1
       },
-      "105mm_fr_CN105_APDSFS": {
-        "modCostMul": 2.05
-      },
+      "105mm_fr_CN105_APDSFS": [],
       "105mm_fr_CN105_APDSFS_ammo_pack": []
     }
   },

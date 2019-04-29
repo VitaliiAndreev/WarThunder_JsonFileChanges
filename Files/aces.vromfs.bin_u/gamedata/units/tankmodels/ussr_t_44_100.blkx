@@ -2464,12 +2464,8 @@
       },
       "100mm_ussr_APHE": [],
       "100mm_ussr_Smoke": [],
-      "100mm_ussr_APCBC": {
-        "modCostMul": 2.0
-      },
-      "100mm_ussr_APCR": {
-        "modCostMul": 1.5
-      },
+      "100mm_ussr_APCBC": [],
+      "100mm_ussr_APCR": [],
       "100mm_ussr_HE": [],
       "tank_smoke_screen_system_mod": {
         "tier": 3,

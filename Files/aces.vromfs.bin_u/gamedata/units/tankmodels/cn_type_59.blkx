@@ -2464,18 +2464,10 @@
         "tier": 4
       },
       "100mm_ussr_APHE": [],
-      "100mm_ussr_APCBC": {
-        "modCostMul": 2.0
-      },
-      "100mm_ussr_APCR": {
-        "modCostMul": 1.3
-      },
-      "100mm_ussr_APDS": {
-        "modCostMul": 1.6
-      },
-      "100mm_cn_HEAT": {
-        "modCostMul": 4.5
-      },
+      "100mm_ussr_APCBC": [],
+      "100mm_ussr_APCR": [],
+      "100mm_ussr_APDS": [],
+      "100mm_cn_HEAT": [],
       "100mm_ussr_HE": []
     }
   },

@@ -2861,15 +2861,11 @@
       "105mm_usa_HESH_ammo_pack": {
         "tier": 1
       },
-      "105mm_usa_HEAT_FS": {
-        "modCostMul": 1.6
-      },
+      "105mm_usa_HEAT_FS": [],
       "105mm_usa_HEAT_FS_ammo_pack": {
         "tier": 2
       },
-      "105mm_usa_M735_APDS_FS": {
-        "modCostMul": 3.15
-      },
+      "105mm_usa_M735_APDS_FS": [],
       "105mm_usa_M735_APDS_FS_ammo_pack": [],
       "105mm_us_M416_Smoke": [],
       "105mm_us_M416_Smoke_ammo_pack": [],

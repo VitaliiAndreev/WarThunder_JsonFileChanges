@@ -2564,9 +2564,7 @@
       "75mm_ger_Smoke_ammo_pack": [],
       "128mm_ger_APC": [],
       "128mm_ger_HE": [],
-      "128mm_ger_APCBC": {
-        "modCostMul": 1.5
-      },
+      "128mm_ger_APCBC": [],
       "128mm_ger_APCBC_ammo_pack": [],
       "tank_smoke_screen_system_mod": {
         "tier": 4,

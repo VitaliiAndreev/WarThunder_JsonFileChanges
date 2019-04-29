@@ -3139,14 +3139,10 @@
         "tier": 2
       },
       "115mm_ussr_ATGM_ammo_pack": [],
-      "115mm_ussr_APDS_FS": {
-        "modCostMul": 2.2
-      },
+      "115mm_ussr_APDS_FS": [],
       "115mm_ussr_HEAT_FS": [],
       "115mm_ussr_HE": [],
-      "115mm_ussr_ATGM": {
-        "modCostMul": 1.5
-      }
+      "115mm_ussr_ATGM": []
     }
   },
   {

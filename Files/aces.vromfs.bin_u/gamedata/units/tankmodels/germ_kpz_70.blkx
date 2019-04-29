@@ -2745,13 +2745,9 @@
       },
       "152mm_usa_XM578E1_APDS_FS_ammo_pack": [],
       "152mm_XM410E1_Smoke_ammo_pack": [],
-      "152mm_usa_XM578E1_APDS_FS": {
-        "modCostMul": 1.3
-      },
+      "152mm_usa_XM578E1_APDS_FS": [],
       "152mm_M409A1_HEAT": [],
-      "152mm_XM410E1_Smoke": {
-        "modCostMul": 0.5
-      },
+      "152mm_XM410E1_Smoke": [],
       "152mm_usa_MGM61C_HEAT": [],
       "modern_tank_laser_rangefinder": [],
       "tank_smoke_screen_system_mod": {

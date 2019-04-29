@@ -2691,9 +2691,7 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_jp"
       },
-      "120mm_NATO_APDS_FS": {
-        "modCostMul": 2.2
-      },
+      "120mm_NATO_APDS_FS": [],
       "120mm_NATO_APDS_FS_ammo_pack": {
         "tier": 4
       },

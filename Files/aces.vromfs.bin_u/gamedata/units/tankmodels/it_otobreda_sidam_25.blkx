@@ -2710,9 +2710,7 @@
         "image": "#ui/gameuiskin#tank_reinforcement_it"
       },
       "25mm_kba_HE": [],
-      "25mm_kba_APDS": {
-        "modCostMul": 8.5
-      },
+      "25mm_kba_APDS": [],
       "25mm_kba_APDS_ammo_pack": []
     }
   },
