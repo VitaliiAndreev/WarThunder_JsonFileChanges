@@ -51,13 +51,13 @@
     "maxRevSpeed": 0.0
   },
   {
-    "maxAngSpeed": 0.0
+    "maxAngSpeed": 20.0
   },
   {
     "maxAccel": 0.0
   },
   {
-    "maxDecel": 0.0
+    "maxDecel": 10.0
   },
   {
     "maxAngAccel0": 0.0
@@ -1561,7 +1561,7 @@
     "MetaParts": {
       "body": [
         {
-          "hp": 10000.0
+          "hp": 800.0
         },
         {
           "part": "superstructure_side_dm"
@@ -1594,21 +1594,6 @@
           "part": "body_bottom_dm"
         },
         {
-          "fireParamsPreset": "default_metapart"
-        },
-        {
-          "fireParams": {
-            "fireDamagePower": 1.0,
-            "maxTankFireTime": [20.0,30.0],
-            "firePart": "transmission_dm"
-          }
-        }
-      ],
-      "turret": [
-        {
-          "hp": 10000.0
-        },
-        {
           "part": "turret_top_dm"
         },
         {
@@ -1631,6 +1616,33 @@
         },
         {
           "fireParamsPreset": "default_metapart"
+        },
+        {
+          "effect": {
+            "conditionDamageType": "explosion",
+            "expl": 1.0,
+            "conditionDamage": 0.5,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "cumulative",
+            "expl": 1.0,
+            "conditionDamage": 100.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 109.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         },
         {
           "fireParams": {

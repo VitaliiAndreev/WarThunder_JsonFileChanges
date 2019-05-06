@@ -19,6 +19,32 @@
     "costGold": -1,
     "hideUntilUnlocked": true
   },
+  "fr_amx_50_surblinde/fr_camo_desert_storm": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_amx_50_surblinde/fr_camo_green_brown": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_amx_50_surblinde/fr_camo_green_brown"
+  },
+  "fr_amx_50_surblinde/fr_camo_green_sand_brown": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_amx_50_surblinde/fr_camo_jaune_sahara": {
+    "category": "tanks_france",
+    "costGold": 200,
+    "unlock": "fr_amx_50_surblinde/fr_camo_jaune_sahara"
+  },
+  "fr_amx_50_surblinde/fr_camo_winter_base": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
+  "fr_amx_50_surblinde/fr_camo_winter_green_white": {
+    "category": "tanks_france",
+    "unlock": "fr_amx_50_surblinde/fr_camo_winter_green_white"
+  },
   "germ_vsw_flak_41/blots": {
     "category": "tanks_germany",
     "costGold": 200

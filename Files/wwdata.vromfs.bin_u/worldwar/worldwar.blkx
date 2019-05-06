@@ -411,7 +411,7 @@
       "armyGroupTextSize": 0.1
     },
     {
-      "armyGroupTextColor": "#ffff0040"
+      "armyGroupTextColor": "#ffff0000"
     },
     {
       "fontSymbol": "hud"

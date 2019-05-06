@@ -21833,6 +21833,114 @@
   },
   {
     "unlockable": {
+      "id": "fr_amx_50_surblinde/fr_camo_jaune_sahara",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_france",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 301
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "fr_amx_50_surblinde"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "fr_amx_50_surblinde/fr_camo_green_brown",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_france",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 559
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "fr_amx_50_surblinde"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "fr_amx_50_surblinde/fr_camo_winter_green_white",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_france",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 430
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "fr_amx_50_surblinde"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "fr_amx_50_foch/fr_camo_jaune_sahara",
       "type": "skin",
       "chapter": "skins",

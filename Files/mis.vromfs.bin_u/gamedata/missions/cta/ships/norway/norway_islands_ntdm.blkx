@@ -129,8 +129,8 @@
       "locName": "missions/_NTdm;norway/name",
       "locDesc": "norway/desc;missions/_NTdm/desc",
       "scoreLimit": 18000,
-      "timeLimit": 20,
-      "deathPenaltyMul": 0.0,
+      "timeLimit": 35,
+      "deathPenaltyMul": 1.0,
       "country_axis": "usa",
       "country_allies": "germany",
       "missionType": {

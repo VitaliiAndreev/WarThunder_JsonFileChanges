@@ -17070,166 +17070,6 @@
   },
   {
     "dmg": {
-      "name": "sandbag_a",
-      "destroyedModelName": "sandbag_a_destr_phobj",
-      "destructionImpulse": 10000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.3,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_a",
-      "destroyedModelName": "sandbags_a_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_b",
-      "destroyedModelName": "sandbags_b_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_c",
-      "destroyedModelName": "sandbags_c_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_d",
-      "destroyedModelName": "sandbags_d_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_e",
-      "destroyedModelName": "sandbags_e_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_f",
-      "destroyedModelName": "sandbags_f_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_j",
-      "destroyedModelName": "sandbags_j_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "sand"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbag_a_snow",
-      "destroyedModelName": "sandbag_a_destr_phobj",
-      "destructionImpulse": 10000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.3,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_a_snow",
-      "destroyedModelName": "sandbags_a_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_b_snow",
-      "destroyedModelName": "sandbags_b_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_c_snow",
-      "destroyedModelName": "sandbags_c_destr_phobj",
-      "destructionImpulse": 30000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_d_snow",
-      "destroyedModelName": "sandbags_d_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_e_snow",
-      "destroyedModelName": "sandbags_e_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_f_snow",
-      "destroyedModelName": "sandbags_f_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
-      "name": "sandbags_j_snow",
-      "destroyedModelName": "sandbags_j_destr_phobj",
-      "destructionImpulse": 20000.0,
-      "fx": "ad_sand",
-      "fxScale": 0.6,
-      "material": "snow"
-    }
-  },
-  {
-    "dmg": {
       "name": "factory_crane_a_rail_a",
       "destroyedModelName": "factory_crane_a_rail_a_destr_phobj",
       "destructionImpulse": 70000.0,
@@ -34838,6 +34678,150 @@
         "fx": "ad_haystack",
         "fxScale": 0.7,
         "dmPreset": "hay_props"
+      },
+      "sandbag_a": {
+        "physRes": "sandbag_a_destr_phobj",
+        "hp": 4.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.3,
+        "material": "sand"
+      },
+      "sandbags_a": {
+        "physRes": "sandbags_a_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_b": {
+        "physRes": "sandbags_b_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_c": {
+        "physRes": "sandbags_c_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_d": {
+        "physRes": "sandbags_d_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_e": {
+        "physRes": "sandbags_e_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_f": {
+        "physRes": "sandbags_f_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbags_j": {
+        "physRes": "sandbags_j_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "sand"
+      },
+      "sandbag_a_snow": {
+        "physRes": "sandbag_a_destr_phobj",
+        "hp": 4.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.3,
+        "material": "snow"
+      },
+      "sandbags_a_snow": {
+        "physRes": "sandbags_a_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_b_snow": {
+        "physRes": "sandbags_b_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_c_snow": {
+        "physRes": "sandbags_c_destr_phobj",
+        "hp": 15.0,
+        "isParent": false,
+        "impulseThreshold": 1.5,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_d_snow": {
+        "physRes": "sandbags_d_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_e_snow": {
+        "physRes": "sandbags_e_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_f_snow": {
+        "physRes": "sandbags_f_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
+      },
+      "sandbags_j_snow": {
+        "physRes": "sandbags_j_destr_phobj",
+        "hp": 10.0,
+        "isParent": false,
+        "impulseThreshold": 0.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6,
+        "material": "snow"
       },
       "sandboxs_a": {
         "nextRes": "sandboxs_a_dmg",

@@ -186,6 +186,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_zoneDef_sq"
           },
           {
@@ -211,6 +214,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_zoneDef_sq"
           },
           {
@@ -229,12 +235,12 @@
       "tankModels": {
         "name": "t1_antiTankGun16",
         "tm": [
-          [0.826092,0.0,-0.563536],
+          [0.546701,0.0,-0.837328],
           [0.0,1.0,0.0],
-          [0.563536,0.0,0.826092],
-          [1321.6,61.65,3179.04]
+          [0.837328,0.0,0.546701],
+          [1316.14,61.65,3174.67]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -267,12 +273,12 @@
       "objectGroups": {
         "name": "t1_trench01",
         "tm": [
-          [0.420669,0.0,0.907214],
+          [0.931292,0.0,-0.364273],
           [0.0,1.0,0.0],
-          [-0.907214,0.0,0.420669],
-          [1369.13,66.9104,3326.91]
+          [0.364273,0.0,0.931292],
+          [1354.75,66.9,3325.0]
         ],
-        "unit_class": "det_trench_half_a",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -284,12 +290,12 @@
       "objectGroups": {
         "name": "t1_trench02",
         "tm": [
-          [0.246611,0.0763347,0.966103],
-          [0.0,0.996893,-0.0787675],
-          [-0.969114,0.0194249,0.245845],
-          [1344.73,65.6181,3292.46]
+          [-0.881393,0.0763347,0.466174],
+          [0.0765735,0.996893,-0.0184612],
+          [-0.466135,0.0194249,-0.8845],
+          [1341.9,65.6,3315.45]
         ],
-        "unit_class": "det_trench_system_b",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -301,12 +307,12 @@
       "objectGroups": {
         "name": "t1_trench04",
         "tm": [
-          [0.381641,0.0,0.924311],
+          [-0.81729,0.0,0.576228],
           [0.0,1.0,0.0],
-          [-0.924311,0.0,0.381641],
-          [1338.3,61.9767,3238.12]
+          [-0.576228,0.0,-0.81729],
+          [1324.85,62.0,3271.1]
         ],
-        "unit_class": "det_trench_system_d_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -318,12 +324,12 @@
       "objectGroups": {
         "name": "t1_trench05",
         "tm": [
-          [0.441073,0.0,0.897472],
+          [0.637737,0.0,-0.770255],
           [0.0,1.0,0.0],
-          [-0.897472,0.0,0.441073],
-          [1331.58,61.6434,3195.77]
+          [0.770255,0.0,0.637737],
+          [1341.17,61.6434,3188.68]
         ],
-        "unit_class": "det_trench_system_c_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -335,12 +341,12 @@
       "objectGroups": {
         "name": "t1_trench06",
         "tm": [
-          [0.610789,0.0,0.791793],
+          [-0.80128,0.0,0.598289],
           [0.0,1.0,0.0],
-          [-0.791793,0.0,0.610789],
+          [-0.598289,0.0,-0.80128],
           [1326.66,61.7154,3175.62]
         ],
-        "unit_class": "det_trench_half_c_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -352,12 +358,12 @@
       "objectGroups": {
         "name": "t1_trench07",
         "tm": [
-          [0.951699,0.0,0.307033],
+          [0.464356,0.0,-0.885649],
           [0.0,1.0,0.0],
-          [-0.307033,0.0,0.951699],
-          [1301.64,61.6824,3167.81]
+          [0.885649,0.0,0.464356],
+          [1313.91,61.6824,3164.63]
         ],
-        "unit_class": "det_trench_system_a_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -369,12 +375,12 @@
       "objectGroups": {
         "name": "t1_trench08",
         "tm": [
-          [0.5061,0.0,0.862474],
+          [-0.722341,0.0,0.691536],
           [0.0,1.0,0.0],
-          [-0.862474,0.0,0.5061],
-          [1287.91,62.3108,3133.93]
+          [-0.691536,0.0,-0.722341],
+          [1287.37,62.3108,3140.13]
         ],
-        "unit_class": "det_trench_half_b",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -386,12 +392,12 @@
       "objectGroups": {
         "name": "t1_trench09",
         "tm": [
-          [0.830901,0.0,0.55642],
+          [0.846658,0.0,-0.532138],
           [0.0,1.0,0.0],
-          [-0.55642,0.0,0.830901],
-          [1270.24,62.5403,3119.72]
+          [0.532138,0.0,0.846658],
+          [1273.47,62.5403,3125.15]
         ],
-        "unit_class": "det_trench_system_e",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -403,12 +409,12 @@
       "objectGroups": {
         "name": "t1_trench10",
         "tm": [
-          [0.872453,0.0,0.488697],
+          [0.997188,0.0,-0.0749393],
           [0.0,1.0,0.0],
-          [-0.488697,0.0,0.872453],
-          [1205.19,62.1492,3123.77]
+          [0.0749393,0.0,0.997188],
+          [1221.48,62.1492,3122.78]
         ],
-        "unit_class": "det_trench_system_d_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -420,12 +426,12 @@
       "objectGroups": {
         "name": "t1_trench11",
         "tm": [
-          [0.553187,-0.0329842,0.832404],
-          [0.0,0.999216,0.0395941],
-          [-0.833057,-0.021903,0.552753],
-          [1225.34,63.6576,3090.09]
+          [-0.432987,-0.0329842,0.900797],
+          [-0.0340376,0.999216,0.020227],
+          [-0.900757,-0.021903,-0.43377],
+          [1228.34,63.6576,3086.85]
         ],
-        "unit_class": "det_trench_half_c",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 1,
@@ -437,12 +443,12 @@
       "objectGroups": {
         "name": "t2_trench01",
         "tm": [
-          [-0.521167,0.0,-0.853454],
+          [0.946564,0.0,-0.322513],
           [0.0,1.0,0.0],
-          [0.853454,0.0,-0.521167],
-          [3046.4,56.3618,2088.24]
+          [0.322513,0.0,0.946564],
+          [3063.56,56.3618,2099.85]
         ],
-        "unit_class": "det_trench_half_c_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -454,12 +460,12 @@
       "objectGroups": {
         "name": "t2_trench02",
         "tm": [
-          [-0.801066,0.0,-0.598577],
+          [-0.728587,0.0,0.684954],
           [0.0,1.0,0.0],
-          [0.598577,0.0,-0.801066],
-          [3004.26,58.4324,2002.78]
+          [-0.684954,0.0,-0.728587],
+          [3012.53,58.4324,2012.26]
         ],
-        "unit_class": "det_trench_system_e_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -471,12 +477,12 @@
       "objectGroups": {
         "name": "t2_trench03",
         "tm": [
-          [-0.967245,0.0,-0.253843],
+          [-0.495535,0.0,0.868587],
           [0.0,1.0,0.0],
-          [0.253843,0.0,-0.967245],
-          [2906.05,55.1501,1916.1]
+          [-0.868587,0.0,-0.495535],
+          [2937.88,55.1501,1931.71]
         ],
-        "unit_class": "det_trench_half_a_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -488,12 +494,12 @@
       "objectGroups": {
         "name": "t2_trench04",
         "tm": [
-          [-0.965709,0.0,-0.259628],
+          [-0.707699,0.0,0.706515],
           [0.0,1.0,0.0],
-          [0.259628,0.0,-0.965709],
-          [2775.06,55.5038,1872.51]
+          [-0.706515,0.0,-0.707699],
+          [2775.73,55.5038,1870.53]
         ],
-        "unit_class": "det_trench_half_a",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -505,12 +511,12 @@
       "objectGroups": {
         "name": "t2_trench05",
         "tm": [
-          [-0.581123,0.0,-0.813816],
+          [-0.882705,0.0,0.469927],
           [0.0,1.0,0.0],
-          [0.813816,0.0,-0.581123],
-          [2744.02,54.6979,1797.72]
+          [-0.469927,0.0,-0.882705],
+          [2760.21,54.6979,1793.81]
         ],
-        "unit_class": "det_trench_system_e_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -522,12 +528,12 @@
       "objectGroups": {
         "name": "t2_trench06",
         "tm": [
-          [0.0118251,0.0,-0.99993],
+          [-0.950094,0.0,-0.311963],
           [0.0,1.0,0.0],
-          [0.99993,0.0,0.0118251],
-          [2687.0,50.8236,1711.18]
+          [0.311963,0.0,-0.950094],
+          [2705.3,50.8236,1706.98]
         ],
-        "unit_class": "det_trench_system_d_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -539,12 +545,12 @@
       "objectGroups": {
         "name": "t2_trench07",
         "tm": [
-          [0.170532,0.0,-0.985352],
+          [0.996465,0.0,0.0840039],
           [0.0,1.0,0.0],
-          [0.985352,0.0,0.170532],
-          [2762.97,52.6391,1710.96]
+          [-0.0840039,0.0,0.996465],
+          [2779.44,52.6391,1706.4]
         ],
-        "unit_class": "det_trench_half_a_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -556,12 +562,12 @@
       "objectGroups": {
         "name": "t2_trench08",
         "tm": [
-          [0.318955,-0.0871562,-0.943754],
-          [0.0,0.995763,-0.0919593],
-          [0.94777,0.0293308,0.317603],
-          [2794.43,55.6309,1725.65]
+          [-0.852349,-0.0871562,-0.51566],
+          [-0.0897795,0.995763,-0.0199036],
+          [0.51521,0.0293308,-0.856562],
+          [2773.19,55.6309,1746.46]
         ],
-        "unit_class": "det_trench_half_a",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -573,12 +579,12 @@
       "objectGroups": {
         "name": "t2_trench09",
         "tm": [
-          [-0.159645,0.0,-0.987175],
+          [-0.969505,0.0,0.245075],
           [0.0,1.0,0.0],
-          [0.987175,0.0,-0.159645],
-          [2781.18,52.2001,1679.91]
+          [-0.245075,0.0,-0.969505],
+          [2777.0,52.2001,1680.93]
         ],
-        "unit_class": "det_trench_half_c_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -590,12 +596,12 @@
       "objectGroups": {
         "name": "t2_trench10",
         "tm": [
-          [-0.371168,0.0,-0.928566],
+          [-0.969069,0.0,0.24679],
           [0.0,1.0,0.0],
-          [0.928566,0.0,-0.371168],
-          [2756.22,51.4032,1667.53]
+          [-0.24679,0.0,-0.969069],
+          [2754.03,51.4032,1670.46]
         ],
-        "unit_class": "det_trench_system_c_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -607,12 +613,12 @@
       "objectGroups": {
         "name": "t2_trench11",
         "tm": [
-          [-0.526733,0.0298741,-0.849506],
-          [-0.0112895,0.999048,0.0421331],
-          [0.849956,0.0317834,-0.525894],
-          [2963.72,56.326,1973.71]
+          [-0.472327,0.0298741,0.880917],
+          [0.0421331,0.999048,-0.0112895],
+          [-0.880415,0.0317834,-0.473137],
+          [2958.07,56.326,1957.8]
         ],
-        "unit_class": "det_trench_half_c_onground",
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -624,12 +630,12 @@
       "objectGroups": {
         "name": "t2_trench12",
         "tm": [
-          [-0.936577,0.0,-0.350464],
+          [0.182505,0.0,-0.983206],
           [0.0,1.0,0.0],
-          [0.350464,0.0,-0.936577],
-          [2925.56,55.0001,1923.4]
+          [0.983206,0.0,0.182505],
+          [2903.43,55.0001,1920.02]
         ],
-        "unit_class": "det_trench_half_b_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -641,12 +647,12 @@
       "objectGroups": {
         "name": "t2_trench13",
         "tm": [
-          [-0.801066,0.0,-0.598577],
+          [0.605087,0.0,-0.79616],
           [0.0,1.0,0.0],
-          [0.598577,0.0,-0.801066],
-          [3026.56,58.1434,2020.49]
+          [0.79616,0.0,0.605087],
+          [3023.93,58.1434,2022.39]
         ],
-        "unit_class": "det_trench_system_d_onground",
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
         "objLayer": 2,
         "props": {
           "army": 2,
@@ -664,6 +670,9 @@
           [1451.12,80.716,3272.71]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_trench01"
           },
@@ -696,6 +705,27 @@
           },
           {
             "squad_members": "t1_trench11"
+          },
+          {
+            "squad_members": "t1_trench12"
+          },
+          {
+            "squad_members": "t1_trench13"
+          },
+          {
+            "squad_members": "t1_trench14"
+          },
+          {
+            "squad_members": "t1_trench15"
+          },
+          {
+            "squad_members": "t1_trench16"
+          },
+          {
+            "squad_members": "t1_trench17"
+          },
+          {
+            "squad_members": "t1_trench18"
           }
         ]
       }
@@ -710,6 +740,9 @@
           [2839.15,54.9862,1403.39]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_trench01"
           },
@@ -748,6 +781,27 @@
           },
           {
             "squad_members": "t2_trench13"
+          },
+          {
+            "squad_members": "t2_trench14"
+          },
+          {
+            "squad_members": "t2_trench15"
+          },
+          {
+            "squad_members": "t2_trench16"
+          },
+          {
+            "squad_members": "t2_trench17"
+          },
+          {
+            "squad_members": "t2_trench18"
+          },
+          {
+            "squad_members": "t2_trench19"
+          },
+          {
+            "squad_members": "t2_trench20"
           }
         ]
       }
@@ -756,12 +810,12 @@
       "tankModels": {
         "name": "t1_antiTankGun01",
         "tm": [
-          [0.997496,0.0,-0.0707143],
+          [0.999955,0.0,0.00945646],
           [0.0,1.0,0.0],
-          [0.0707143,0.0,0.997496],
-          [1360.81,66.9506,3336.2]
+          [-0.00945646,0.0,0.999955],
+          [1349.5,67.4315,3336.6]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -794,12 +848,12 @@
       "tankModels": {
         "name": "t1_antiTankGun02",
         "tm": [
-          [0.980137,0.0,-0.198317],
+          [0.924264,0.0,-0.381752],
           [0.0,1.0,0.0],
-          [0.198317,0.0,0.980137],
-          [1361.17,66.6986,3325.33]
+          [0.381752,0.0,0.924264],
+          [1351.9,66.6986,3326.2]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -832,12 +886,12 @@
       "tankModels": {
         "name": "t1_antiTankGun03",
         "tm": [
-          [0.999149,0.0,0.0412405],
+          [0.960102,0.0,-0.279651],
           [0.0,1.0,0.0],
-          [-0.0412405,0.0,0.999149],
-          [1335.28,65.1506,3306.17]
+          [0.279651,0.0,0.960102],
+          [1338.05,66.1,3301.8]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -870,12 +924,12 @@
       "tankModels": {
         "name": "t1_antiTankGun04",
         "tm": [
-          [0.936303,0.0,-0.35119],
+          [0.701179,0.0,-0.712984],
           [0.0,1.0,0.0],
-          [0.35119,0.0,0.936303],
-          [1332.77,65.4137,3296.74]
+          [0.712984,0.0,0.701179],
+          [1331.8,65.4,3295.65]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -908,12 +962,12 @@
       "tankModels": {
         "name": "t1_antiTankGun05",
         "tm": [
-          [0.995213,0.0,0.0977142],
+          [0.693482,0.0,-0.720472],
           [0.0,1.0,0.0],
-          [-0.0977142,0.0,0.995213],
-          [1329.24,62.403,3245.85]
+          [0.720472,0.0,0.693482],
+          [1315.35,62.4,3266.5]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -946,12 +1000,12 @@
       "tankModels": {
         "name": "t1_antiTankGun06",
         "tm": [
-          [0.942671,0.0,-0.333723],
+          [0.749047,0.0,-0.662517],
           [0.0,1.0,0.0],
-          [0.333723,0.0,0.942671],
-          [1327.0,61.9006,3236.5]
+          [0.662517,0.0,0.749047],
+          [1311.7,61.9,3257.25]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -984,12 +1038,12 @@
       "tankModels": {
         "name": "t1_antiTankGun07",
         "tm": [
-          [0.932711,0.0,-0.360624],
+          [0.737312,0.0,-0.675552],
           [0.0,1.0,0.0],
-          [0.360624,0.0,0.932711],
-          [1322.46,61.5168,3203.21]
+          [0.675552,0.0,0.737312],
+          [1332.12,61.5168,3184.67]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1022,12 +1076,12 @@
       "tankModels": {
         "name": "t1_antiTankGun08",
         "tm": [
-          [0.813222,0.0,-0.581953],
+          [0.601319,0.0,-0.799009],
           [0.0,1.0,0.0],
-          [0.581953,0.0,0.813222],
-          [1319.62,61.5176,3191.54]
+          [0.799009,0.0,0.601319],
+          [1339.12,61.5176,3190.99]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1060,12 +1114,12 @@
       "tankModels": {
         "name": "t1_antiTankGun09",
         "tm": [
-          [0.857287,0.0,-0.514836],
+          [0.473004,0.0,-0.881059],
           [0.0,1.0,0.0],
-          [0.514836,0.0,0.857287],
-          [1302.05,61.5598,3181.1]
+          [0.881059,0.0,0.473004],
+          [1311.78,61.5598,3167.53]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1098,12 +1152,12 @@
       "tankModels": {
         "name": "t1_antiTankGun10",
         "tm": [
-          [0.826255,0.0,-0.563295],
+          [0.74041,0.0,-0.672154],
           [0.0,1.0,0.0],
-          [0.563295,0.0,0.826255],
-          [1278.76,61.4684,3140.82]
+          [0.672154,0.0,0.74041],
+          [1278.05,61.4684,3134.36]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1136,12 +1190,12 @@
       "tankModels": {
         "name": "t1_antiTankGun11",
         "tm": [
-          [0.264766,0.0,-0.964312],
+          [0.424492,0.0,-0.905431],
           [0.0,1.0,0.0],
-          [0.964312,0.0,0.264766],
-          [1258.23,61.4485,3127.44]
+          [0.905431,0.0,0.424492],
+          [1262.46,61.4485,3122.42]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1174,12 +1228,12 @@
       "tankModels": {
         "name": "t1_antiTankGun12",
         "tm": [
-          [0.74683,0.0,-0.665015],
+          [0.99609,0.0,-0.0883475],
           [0.0,1.0,0.0],
-          [0.665015,0.0,0.74683],
-          [1209.3,61.5006,3141.73]
+          [0.0883475,0.0,0.99609],
+          [1218.07,61.5006,3123.29]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1212,12 +1266,12 @@
       "tankModels": {
         "name": "t1_antiTankGun13",
         "tm": [
-          [0.7258,0.0,-0.687904],
+          [0.732617,0.0,-0.680639],
           [0.0,1.0,0.0],
-          [0.687904,0.0,0.7258],
-          [1198.17,61.8337,3137.35]
+          [0.680639,0.0,0.732617],
+          [1241.05,61.8337,3115.26]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1250,12 +1304,12 @@
       "tankModels": {
         "name": "t1_antiTankGun14",
         "tm": [
-          [0.752128,0.0,-0.659016],
+          [0.930558,0.0,-0.366143],
           [0.0,1.0,0.0],
-          [0.659016,0.0,0.752128],
-          [1192.78,62.0571,3128.18]
+          [0.366143,0.0,0.930558],
+          [1212.79,62.0571,3110.07]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1291,9 +1345,9 @@
           [0.759418,0.0,-0.650603],
           [0.0,1.0,0.0],
           [0.650603,0.0,0.759418],
-          [1213.92,63.3006,3091.13]
+          [1216.35,63.3006,3080.43]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1332,6 +1386,9 @@
           [1424.81,62.934,3254.12]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_antiTankGun01"
           },
@@ -1399,12 +1456,12 @@
       "tankModels": {
         "name": "t2_antiTankGun01",
         "tm": [
-          [-0.961662,0.0,0.274237],
+          [-0.92398,0.0,0.38244],
           [0.0,1.0,0.0],
-          [-0.274237,0.0,-0.961662],
-          [3055.82,58.0892,2086.45]
+          [-0.38244,0.0,-0.92398],
+          [3056.78,58.0892,2086.42]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1437,12 +1494,12 @@
       "tankModels": {
         "name": "t2_antiTankGun02",
         "tm": [
-          [-0.973861,0.0,0.227141],
+          [-0.692051,0.0,0.721848],
           [0.0,1.0,0.0],
-          [-0.227141,0.0,-0.973861],
-          [3029.71,57.9497,2007.39]
+          [-0.721848,0.0,-0.692051],
+          [3043.59,57.9497,2037.47]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1478,9 +1535,9 @@
           [-0.580619,0.0,0.814175],
           [0.0,1.0,0.0],
           [-0.814175,0.0,-0.580619],
-          [3036.18,57.8997,2015.68]
+          [3034.3,57.8997,2025.95]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1513,12 +1570,12 @@
       "tankModels": {
         "name": "t2_antiTankGun04",
         "tm": [
-          [-0.427465,0.0,0.904031],
+          [-0.740884,0.0,0.671632],
           [0.0,1.0,0.0],
-          [-0.904031,0.0,-0.427465],
-          [3018.48,57.5997,2000.03]
+          [-0.671632,0.0,-0.740884],
+          [3014.74,58.5138,2010.26]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1551,12 +1608,12 @@
       "tankModels": {
         "name": "t2_antiTankGun05",
         "tm": [
-          [-0.37106,0.0,0.928609],
+          [-0.161277,0.0,0.986909],
           [0.0,1.0,0.0],
-          [-0.928609,0.0,-0.37106],
-          [2908.81,55.1497,1909.26]
+          [-0.986909,0.0,-0.161277],
+          [2914.35,55.1497,1918.84]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1589,12 +1646,12 @@
       "tankModels": {
         "name": "t2_antiTankGun06",
         "tm": [
-          [-0.244978,0.0,0.969527],
+          [-0.525182,0.0,0.850988],
           [0.0,1.0,0.0],
-          [-0.969527,0.0,-0.244978],
-          [2929.15,55.0997,1913.98]
+          [-0.850988,0.0,-0.525182],
+          [2938.76,55.0997,1930.57]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1627,12 +1684,12 @@
       "tankModels": {
         "name": "t2_antiTankGun07",
         "tm": [
-          [-0.82779,0.0,0.561038],
+          [-0.686737,0.0,0.726906],
           [0.0,1.0,0.0],
-          [-0.561038,0.0,-0.82779],
-          [2777.87,56.0395,1867.57]
+          [-0.726906,0.0,-0.686737],
+          [2776.66,56.0395,1869.37]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1665,12 +1722,12 @@
       "tankModels": {
         "name": "t2_antiTankGun08",
         "tm": [
-          [-0.746494,0.0417128,0.664083],
-          [0.0396481,0.999048,-0.0181846],
-          [-0.66421,0.012755,-0.747437],
-          [2970.82,55.4004,1968.38]
+          [-0.435537,0.0417128,0.899204],
+          [0.0296711,0.999048,-0.0319731],
+          [-0.899682,0.012755,-0.43636],
+          [2958.84,55.4004,1956.06]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1703,12 +1760,12 @@
       "tankModels": {
         "name": "t2_antiTankGun09",
         "tm": [
-          [-0.939329,0.0,0.343017],
+          [-0.976066,0.0,0.217475],
           [0.0,1.0,0.0],
-          [-0.343017,0.0,-0.939329],
-          [2767.2,51.2497,1662.35]
+          [-0.217475,0.0,-0.976066],
+          [2756.44,51.2497,1670.03]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1741,12 +1798,12 @@
       "tankModels": {
         "name": "t2_antiTankGun10",
         "tm": [
-          [-0.916701,0.0,0.399573],
+          [-0.856704,0.0,0.515808],
           [0.0,1.0,0.0],
-          [-0.399573,0.0,-0.916701],
-          [2756.07,55.9674,1797.15]
+          [-0.515808,0.0,-0.856704],
+          [2761.41,56.577,1793.01]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1779,12 +1836,12 @@
       "tankModels": {
         "name": "t2_antiTankGun11",
         "tm": [
-          [-0.999558,0.0,-0.0297041],
+          [-0.998343,0.0,0.0575261],
           [0.0,1.0,0.0],
-          [0.0297041,0.0,-0.999558],
-          [2752.55,56.4503,1789.47]
+          [-0.0575261,0.0,-0.998343],
+          [2776.07,56.4503,1828.94]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1817,12 +1874,12 @@
       "tankModels": {
         "name": "t2_antiTankGun12",
         "tm": [
-          [-0.834367,0.0,-0.551209],
+          [-0.961502,0.0,-0.274798],
           [0.0,1.0,0.0],
-          [0.551209,0.0,-0.834367],
-          [2698.65,50.7245,1706.31]
+          [0.274798,0.0,-0.961502],
+          [2706.91,50.1916,1707.55]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1855,12 +1912,12 @@
       "tankModels": {
         "name": "t2_antiTankGun13",
         "tm": [
-          [-0.999118,0.0,0.0419915],
+          [-0.976647,0.0,0.214849],
           [0.0,1.0,0.0],
-          [-0.0419915,0.0,-0.999118],
-          [2788.4,53.1997,1679.28]
+          [-0.214849,0.0,-0.976647],
+          [2780.66,53.1997,1680.51]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1893,12 +1950,12 @@
       "tankModels": {
         "name": "t2_antiTankGun14",
         "tm": [
-          [-0.883716,0.0,-0.468023],
+          [-0.995552,0.0,-0.0942134],
           [0.0,1.0,0.0],
-          [0.468023,0.0,-0.883716],
-          [2775.92,52.7997,1707.25]
+          [0.0942134,0.0,-0.995552],
+          [2779.55,53.8907,1717.15]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1931,12 +1988,12 @@
       "tankModels": {
         "name": "t2_antiTankGun15",
         "tm": [
-          [-0.817125,0.0,-0.576459],
+          [-0.965007,0.0,-0.262221],
           [0.0,1.0,0.0],
-          [0.576459,0.0,-0.817125],
-          [2802.69,55.9535,1733.88]
+          [0.262221,0.0,-0.965007],
+          [2791.49,55.9535,1734.3]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -1972,9 +2029,9 @@
           [-0.974456,0.0,-0.224574],
           [0.0,1.0,0.0],
           [0.224574,0.0,-0.974456],
-          [2806.69,55.5238,1725.38]
+          [2786.8,55.5238,1689.05]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -2013,6 +2070,9 @@
           [2810.67,55.2423,1408.18]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_antiTankGun01"
           },
@@ -2974,6 +3034,9 @@
           [1670.26,68.4448,3495.27]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_artillery01"
           },
@@ -3948,6 +4011,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_tankModels_01"
           },
           {
@@ -4920,6 +4986,9 @@
           [3173.6,52.5946,1603.58]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_artillery01"
           },
@@ -5894,6 +5963,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_tankModels_01"
           },
           {
@@ -6010,12 +6082,12 @@
       "tankModels": {
         "name": "t2_antiTankGun17",
         "tm": [
-          [-0.711466,0.0,0.70272],
+          [-0.821923,0.0,0.569597],
           [0.0,1.0,0.0],
-          [-0.70272,0.0,-0.711466],
-          [3051.58,57.5556,2077.52]
+          [-0.569597,0.0,-0.821923],
+          [3045.31,57.5556,2078.75]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6048,12 +6120,12 @@
       "tankModels": {
         "name": "t2_antiTankGun18",
         "tm": [
-          [-0.955976,0.0,0.293441],
+          [-0.797961,0.0,0.602707],
           [0.0,1.0,0.0],
-          [-0.293441,0.0,-0.955976],
-          [3008.84,57.5997,1991.83]
+          [-0.602707,0.0,-0.797961],
+          [3005.03,58.4002,1999.58]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6080,35 +6152,18 @@
           "unitReplacementType": "antiTankGun"
         },
         "way": []
-      }
-    },
-    {
-      "objectGroups": {
-        "name": "notree02",
-        "tm": [
-          [1.0,0.0,0.0],
-          [0.0,1.0,0.0],
-          [0.0,0.0,1.0],
-          [2745.64,55.8622,1795.46]
-        ],
-        "unit_class": "noTreeObjectGroup25",
-        "objLayer": 2,
-        "props": {
-          "army": 2,
-          "active": true
-        }
       }
     },
     {
       "tankModels": {
         "name": "t2_antiTankGun19",
         "tm": [
-          [-0.981424,0.0,0.191849],
+          [-0.945863,0.0,-0.324566],
           [0.0,1.0,0.0],
-          [-0.191849,0.0,-0.981424],
-          [2697.09,50.7245,1717.81]
+          [0.324566,0.0,-0.945863],
+          [2703.14,50.2599,1719.94]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6135,52 +6190,18 @@
           "unitReplacementType": "antiTankGun"
         },
         "way": []
-      }
-    },
-    {
-      "objectGroups": {
-        "name": "notree05",
-        "tm": [
-          [1.0,0.0,0.0],
-          [0.0,1.0,0.0],
-          [0.0,0.0,1.0],
-          [2689.06,50.6824,1710.94]
-        ],
-        "unit_class": "noTreeObjectGroup25",
-        "objLayer": 2,
-        "props": {
-          "army": 2,
-          "active": true
-        }
-      }
-    },
-    {
-      "objectGroups": {
-        "name": "notree08",
-        "tm": [
-          [1.0,0.0,0.0],
-          [0.0,1.0,0.0],
-          [0.0,0.0,1.0],
-          [2786.74,50.6824,1678.67]
-        ],
-        "unit_class": "noTreeObjectGroup25",
-        "objLayer": 2,
-        "props": {
-          "army": 2,
-          "active": true
-        }
       }
     },
     {
       "tankModels": {
         "name": "t2_antiTankGun20",
         "tm": [
-          [-0.935272,0.0,-0.353928],
+          [-0.836498,0.0,-0.547968],
           [0.0,1.0,0.0],
-          [0.353928,0.0,-0.935272],
-          [2769.15,52.7997,1715.47]
+          [0.547968,0.0,-0.836498],
+          [2774.69,55.8526,1747.47]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6210,32 +6231,15 @@
       }
     },
     {
-      "objectGroups": {
-        "name": "notree09",
-        "tm": [
-          [0.857097,0.0,-0.515154],
-          [0.0,1.0,0.0],
-          [0.515154,0.0,0.857097],
-          [2777.86,55.8622,1871.56]
-        ],
-        "unit_class": "noTreeObjectGroup25",
-        "objLayer": 2,
-        "props": {
-          "army": 2,
-          "active": true
-        }
-      }
-    },
-    {
       "tankModels": {
         "name": "t1_antiTankGun17",
         "tm": [
-          [0.77191,0.0,-0.635729],
+          [0.653246,0.0,-0.757143],
           [0.0,1.0,0.0],
-          [0.635729,0.0,0.77191],
-          [1326.29,64.5795,3288.45]
+          [0.757143,0.0,0.653246],
+          [1327.65,64.6,3287.25]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6268,12 +6272,12 @@
       "tankModels": {
         "name": "t1_antiTankGun18",
         "tm": [
-          [0.579218,0.0,-0.815171],
+          [0.741873,0.0,-0.670539],
           [0.0,1.0,0.0],
-          [0.815171,0.0,0.579218],
-          [1288.87,61.5598,3177.49]
+          [0.670539,0.0,0.741873],
+          [1289.66,61.5598,3159.34]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6306,12 +6310,12 @@
       "tankModels": {
         "name": "t1_antiTankGun19",
         "tm": [
-          [0.871085,0.0,-0.491131],
+          [0.919472,0.0,-0.393156],
           [0.0,1.0,0.0],
-          [0.491131,0.0,0.871085],
-          [1219.14,63.3006,3098.2]
+          [0.393156,0.0,0.919472],
+          [1229.09,62.4812,3096.35]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6344,12 +6348,12 @@
       "tankModels": {
         "name": "t1_antiTankGun20",
         "tm": [
-          [0.652646,0.0,-0.757662],
+          [0.860289,0.0,-0.509805],
           [0.0,1.0,0.0],
-          [0.757662,0.0,0.652646],
-          [1269.47,61.4485,3133.58]
+          [0.509805,0.0,0.860289],
+          [1269.83,61.4485,3127.5]
         ],
-        "unit_class": "germ_sdkfz_9_flak37",
+        "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -6445,6 +6449,261 @@
           "active": true
         }
       }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench03",
+        "tm": [
+          [0.99987,0.0,-0.0160832],
+          [0.0,1.0,0.0],
+          [0.0160832,0.0,0.99987],
+          [1352.42,67.4056,3336.99]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench12",
+        "tm": [
+          [0.954701,0.0,-0.297566],
+          [0.0,1.0,0.0],
+          [0.297566,0.0,0.954701],
+          [1340.65,66.9,3300.9]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench13",
+        "tm": [
+          [0.652048,0.0,-0.758178],
+          [0.0,1.0,0.0],
+          [0.758178,0.0,0.652048],
+          [1330.45,66.9,3284.1]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench14",
+        "tm": [
+          [0.717586,0.0,-0.69647],
+          [0.0,1.0,0.0],
+          [0.69647,0.0,0.717586],
+          [1313.55,66.9,3255.65]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench15",
+        "tm": [
+          [-0.710464,0.0,0.703733],
+          [0.0,1.0,0.0],
+          [-0.703733,0.0,-0.710464],
+          [1298.91,61.7154,3164.61]
+        ],
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench16",
+        "tm": [
+          [-0.539773,0.0,0.84181],
+          [0.0,1.0,0.0],
+          [-0.84181,0.0,-0.539773],
+          [1250.45,62.3108,3125.56]
+        ],
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench17",
+        "tm": [
+          [0.651083,0.0,-0.759007],
+          [0.0,1.0,0.0],
+          [0.759007,0.0,0.651083],
+          [1244.66,62.5403,3111.8]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t1_trench18",
+        "tm": [
+          [0.949924,0.0,-0.31248],
+          [0.0,1.0,0.0],
+          [0.31248,0.0,0.949924],
+          [1215.76,62.1492,3109.01]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 1,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench14",
+        "tm": [
+          [-0.892007,0.0,0.45202],
+          [0.0,1.0,0.0],
+          [-0.45202,0.0,-0.892007],
+          [3054.18,56.3618,2087.63]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench15",
+        "tm": [
+          [-0.832392,0.0,0.554186],
+          [0.0,1.0,0.0],
+          [-0.554186,0.0,-0.832392],
+          [3043.12,56.3618,2080.75]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench16",
+        "tm": [
+          [-0.695162,0.0,0.718854],
+          [0.0,1.0,0.0],
+          [-0.718854,0.0,-0.695162],
+          [3040.95,58.1434,2040.12]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench17",
+        "tm": [
+          [-0.785512,0.0,0.618847],
+          [0.0,1.0,0.0],
+          [-0.618847,0.0,-0.785512],
+          [3003.29,58.4324,2001.03]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench18",
+        "tm": [
+          [0.990196,0.0,-0.139684],
+          [0.0,1.0,0.0],
+          [0.139684,0.0,0.990196],
+          [2769.23,54.6979,1816.18]
+        ],
+        "unit_class": "rendinst_fortification_sand_trench_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench19",
+        "tm": [
+          [-0.950094,0.0,-0.311963],
+          [0.0,1.0,0.0],
+          [0.311963,0.0,-0.950094],
+          [2701.52,50.8236,1719.38]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench20",
+        "tm": [
+          [-0.956768,-0.0871562,-0.277485],
+          [-0.0918718,0.995763,0.0040112],
+          [0.27596,0.0293308,-0.960722],
+          [2790.21,55.6309,1733.91]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
     }
   ],
   "areas": {
@@ -6523,50 +6782,6 @@
         [2008.35,14.55,2055.05]
       ],
       "objLayer": 4,
-      "props": []
-    },
-    "notree01": {
-      "type": "Box",
-      "tm": [
-        [-25.0,0.0,0.0],
-        [0.0,15.0,0.0],
-        [0.0,0.0,-25.0],
-        [2745.64,55.8622,1795.46]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "notree04": {
-      "type": "Box",
-      "tm": [
-        [-25.0,0.0,0.0],
-        [0.0,15.0,0.0],
-        [0.0,0.0,-25.0],
-        [2689.06,50.6824,1710.94]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "notree07": {
-      "type": "Box",
-      "tm": [
-        [-25.0,0.0,0.0],
-        [0.0,15.0,0.0],
-        [0.0,0.0,-25.0],
-        [2786.74,50.6824,1678.67]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "notree06": {
-      "type": "Box",
-      "tm": [
-        [-21.4274,0.0,12.8789],
-        [0.0,15.0,0.0],
-        [-12.8789,0.0,-21.4274],
-        [2777.86,55.8622,1871.56]
-      ],
-      "objLayer": 0,
       "props": []
     },
     "notree11": {

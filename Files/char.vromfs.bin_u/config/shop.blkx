@@ -2063,6 +2063,12 @@
             "rank": 1,
             "reqAir": ""
           },
+          "h-75a-2_finland": {
+            "rank": 1,
+            "showOnlyWhenBought": true,
+            "reqAir": "",
+            "gift": "msi_notebook"
+          },
           "il_2_1942_luftwaffe": {
             "rank": 2,
             "reqAir": ""
@@ -5677,6 +5683,12 @@
         "range": {
           "fr_lorraine_155": {
             "rank": 3,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
+          },
+          "fr_amx_50_surblinde": {
+            "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
             "showOnlyWhenBought": true
