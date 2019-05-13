@@ -15,6 +15,9 @@
         "position": "absolute"
       },
       {
+        "class": "wndNav"
+      },
+      {
         "width": "1@scrn_tgt"
       },
       {
@@ -33,7 +36,7 @@
           "id": "txt_icon",
           "display": "hide",
           "width": "pw",
-          "pos": "50%pw-50%w,0.05@scrn_tgt",
+          "pos": "50%pw-50%w, 0",
           "position": "relative",
           "text": "#options/chooseProfileImage"
         }
@@ -42,6 +45,7 @@
         "Button_text": {
           "id": "btn_pref_img",
           "pos": "50%pw-50%w, 0.005@scrn_tgt",
+          "margin-bottom": "0.04@scrn_tgt",
           "position": "relative",
           "_on_click": "onChangePilotIcon",
           "class": "profileImg",
@@ -54,109 +58,77 @@
       {
         "textAreaCentered": {
           "width": "pw",
-          "pos": "50%pw-50%w,0.04@scrn_tgt",
+          "pos": "50%pw-50%w, 0",
           "position": "relative",
           "text": "#options/chooseControllerType"
         }
       },
       {
-        "table": {
-          "id": "controls-options-table",
-          "size": "pw",
-          "pos": "50%pw-50%w, 0.005@scrn_tgt",
-          "position": "relative",
-          "class": "optionsTable",
-          "baseRow": "yes",
-          "focus": "yes",
-          "padding-bottom": "0.05@scrn_tgt",
-          "behavior": "OptionsNavigator",
-          "cur_col": "0",
-          "cur_row": "0",
-          "cur_min": "1",
-          "num_rows": "-1",
-          "on_dbl_click": "onControlTypeApply",
-          "tr": [
-            {
-              "css-hier-invalidate": "all"
-            },
-            {
-              "style": "size:pw,13.5*@scrn_tgt/100.0;"
-            },
-            {
-              "td": {
-                "width": "50%pw"
-              }
-            },
-            {
-              "td": {
-                "cellType": "right",
-                "width": "50%pw",
-                "padding-left": "@optPad",
-                "HorizontalListBox": [
-                  {
-                    "id": "controlType"
-                  },
-                  {
-                    "useParentHeight": "yes"
-                  },
-                  {
-                    "pos": "-50%w,50%ph-50%h"
-                  },
-                  {
-                    "position": "absolute"
-                  },
-                  {
-                    "class": "choice3"
-                  },
-                  {
-                    "shopFilter": {
-                      "id": "ct_mouse",
-                      "selected": "yes",
-                      "shopFilterImg": {
-                        "background-image": "#ui/gameuiskin#ct_mouse"
-                      },
-                      "shopFilterText": {
-                        "text": "#controlType/mouse"
-                      }
-                    }
-                  },
-                  {
-                    "shopFilter": {
-                      "id": "ct_xinput",
-                      "shopFilterImg": {
-                        "background-image": "#ui/gameuiskin#ct_xinput"
-                      },
-                      "shopFilterText": {
-                        "text": "#controlType/xinput"
-                      }
-                    }
-                  },
-                  {
-                    "shopFilter": {
-                      "id": "ct_own",
-                      "shopFilterImg": {
-                        "background-image": "#ui/gameuiskin#ct_own"
-                      },
-                      "shopFilterText": {
-                        "text": "#controlType/own"
-                      }
-                    }
-                  }
-                ]
+        "HorizontalListBox": [
+          {
+            "id": "controlType"
+          },
+          {
+            "pos": "50%pw-50%w, 0.005@scrn_tgt"
+          },
+          {
+            "position": "relative"
+          },
+          {
+            "height": "13.5*@scrn_tgt/100.0"
+          },
+          {
+            "class": "choice3"
+          },
+          {
+            "shopFilter": {
+              "id": "ct_mouse",
+              "selected": "yes",
+              "useParentHeight": "yes",
+              "shopFilterImg": {
+                "background-image": "#ui/gameuiskin#ct_mouse"
+              },
+              "shopFilterText": {
+                "text": "#controlType/mouse"
               }
             }
-          ]
-        }
+          },
+          {
+            "shopFilter": {
+              "id": "ct_xinput",
+              "useParentHeight": "yes",
+              "shopFilterImg": {
+                "background-image": "#ui/gameuiskin#ct_xinput"
+              },
+              "shopFilterText": {
+                "text": "#controlType/xinput"
+              }
+            }
+          },
+          {
+            "shopFilter": {
+              "id": "ct_own",
+              "useParentHeight": "yes",
+              "shopFilterImg": {
+                "background-image": "#ui/gameuiskin#ct_own"
+              },
+              "shopFilterText": {
+                "text": "#controlType/own"
+              }
+            }
+          }
+        ]
       },
       {
-        "tdiv": {
-          "position": "absolute",
-          "pos": "pw-w, ph-h-3",
-          "Button_text": {
-            "text": "#mainmenu/btnApply",
-            "btnName": "A",
-            "on_click": "onControlTypeApply",
-            "ButtonImg": []
+        "navBar": {
+          "navRight": {
+            "Button_text": {
+              "text": "#mainmenu/btnApply",
+              "position": "absolute",
+              "btnName": "A",
+              "on_click": "onControlTypeApply",
+              "ButtonImg": []
+            }
           }
         }
       }

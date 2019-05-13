@@ -978,5 +978,9 @@
         }
       }
     ]
+  },
+  "DummyButton": {
+    "btnName": "A",
+    "on_click": "onUserLogAction"
   }
 }

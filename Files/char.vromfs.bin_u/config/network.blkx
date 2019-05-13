@@ -247,6 +247,18 @@
       }
     },
     {
+      "userstat": {
+        "servers": [
+          {
+            "url": "https://userstat-sv-lx-109.gaijin.net:443/char"
+          },
+          {
+            "url": "https://userstat-sv-lx-110.gaijin.net:443/char"
+          }
+        ]
+      }
+    },
+    {
       "ugc_settings": {
         "ugcServerUrl": "https://ugcinfo-proxy.gaijin.net/char"
       }
@@ -451,6 +463,18 @@
           }
         ]
       }
+    },
+    {
+      "userstat": {
+        "servers": [
+          {
+            "url": "https://char-dev-01.gaijin.net:3443/char"
+          },
+          {
+            "url": "https://char-dev-02.gaijin.net:3443/char"
+          }
+        ]
+      }
     }
   ],
   "dev": [
@@ -519,6 +543,18 @@
           },
           {
             "url": "https://char-dev-11.warthunder.com:443/char"
+          }
+        ]
+      }
+    },
+    {
+      "userstat": {
+        "servers": [
+          {
+            "url": "https://char-dev-01.gaijin.net:3443/char"
+          },
+          {
+            "url": "https://char-dev-02.gaijin.net:3443/char"
           }
         ]
       }
@@ -708,6 +744,13 @@
             "url": "https://wt-test-char-master.gaijin.lan:10443/char"
           }
         ]
+      }
+    },
+    {
+      "userstat": {
+        "servers": {
+          "url": "http://test-char-01.gaijin.lan:13080/char"
+        }
       }
     }
   ],

@@ -85,59 +85,34 @@
         }
       ],
       "tdiv": {
-        "id": "lb_wrap",
+        "id": "lb_table_nest",
         "width": "pw",
-        "height": "fh",
-        "animated_wait_icon": {
-          "id": "msgWaitAnimation",
-          "position": "relative",
-          "pos": "50%pw-50%w, 50%ph - 50%h",
-          "background-rotation": "0",
-          "behavior": "increment",
-          "inc-target": "background-rotation",
-          "inc-factor": "120"
-        },
-        "textAreaCentered": {
-          "id": "no_leaderboads_text",
-          "position": "absolute",
-          "pos": "50%pw-50%w, 50%ph - 50%h",
-          "text": "#mainmenu/no_leaderboards",
-          "display": "hide"
-        },
-        "table": {
-          "id": "lb_table",
-          "pos": "0, 3*@sf/@pf_outdated",
-          "position": "relative",
-          "width": "pw",
-          "behavior": "TableNavigator",
-          "class": "lbTable",
-          "text-valign": "center",
-          "text-halign": "center",
-          "navigatorShortcuts": "yes",
-          "mouse-focusable": "yes",
-          "on_click": "onSelect",
-          "on_dbl_click": "onUserDblClick",
-          "on_r_click": "onUserRClick",
-          "on_wrap_up": "onWrapUp",
-          "on_wrap_down": "onWrapDown",
-          "focus": "yes",
-          "cur_row": "1",
-          "cur_col": "0",
-          "num_rows": "-1",
-          "selfFocusBorder": "yes"
-        }
+        "height": "fh"
       },
       "navBar": {
-        "navLeft": {
-          "Button_text": {
-            "id": "btn_membership_req",
-            "text": "#clan/btn_membership_req",
-            "on_click": "onMembershipReq",
-            "tooltip": "",
-            "btnName": "X",
-            "ButtonImg": []
+        "navLeft": [
+          {
+            "Button_text": {
+              "id": "btn_membership_req",
+              "text": "#clan/btn_membership_req",
+              "on_click": "onMembershipReq",
+              "tooltip": "",
+              "btnName": "X",
+              "ButtonImg": []
+            }
+          },
+          {
+            "Button_text": {
+              "id": "btn_ww_rewards",
+              "text": "#worldwar/btn_rewards",
+              "on_click": "onRewards",
+              "enable": "no",
+              "tooltip": "",
+              "btnName": "Y",
+              "ButtonImg": []
+            }
           }
-        },
+        ],
         "navMiddle": {
           "id": "paginator_place"
         },

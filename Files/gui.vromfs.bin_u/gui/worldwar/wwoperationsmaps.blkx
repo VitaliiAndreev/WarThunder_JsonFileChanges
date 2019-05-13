@@ -268,16 +268,39 @@
         {
           "navBar": {
             "style": "size:pw, 1@navBarBattleButtonHeight; pos:pw/2-w/2, ph-h;",
-            "navLeft": {
-              "height": "ph",
-              "Button_text": {
-                "id": "btn_back",
-                "text": "#mainmenu/btnBack",
-                "btnName": "B",
-                "_on_click": "goBack",
-                "ButtonImg": []
+            "navLeft": [
+              {
+                "height": "ph"
+              },
+              {
+                "Button_text": {
+                  "id": "btn_back",
+                  "text": "#mainmenu/btnBack",
+                  "btnName": "B",
+                  "_on_click": "goBack",
+                  "ButtonImg": []
+                }
+              },
+              {
+                "Button_text": {
+                  "id": "btn_ww_url",
+                  "text": "",
+                  "btnName": "LB",
+                  "externalLink": "yes",
+                  "link": "",
+                  "on_click": "onMsgLink",
+                  "display": "hide",
+                  "enable": "no",
+                  "hideText": "yes",
+                  "ButtonImg": [],
+                  "btnText": {
+                    "id": "btn_ww_url_text",
+                    "text": "",
+                    "underline": []
+                  }
+                }
               }
-            },
+            ],
             "navRight": [
               {
                 "activeText": {

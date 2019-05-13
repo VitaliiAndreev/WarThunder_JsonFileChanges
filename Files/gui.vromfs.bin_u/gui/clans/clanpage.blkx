@@ -389,13 +389,14 @@
   },
   {
     "table": {
-      "id": "clan-membersList",
+      "id": "clan_members_list",
       "size": "pw, fh",
       "class": "lbTable",
       "behavior": "TableNavigator",
       "text-valign": "center",
       "text-halign": "center",
       "navigatorShortcuts": "yes",
+      "mouse-focusable": "yes",
       "selfFocusBorder": "yes",
       "selectOnAttach": "no",
       "on_click": "onSelect",
@@ -408,6 +409,12 @@
       "overflow-y": "auto",
       "on_wrap_up": "onWrapUp",
       "on_wrap_down": "onWrapDown"
+    }
+  },
+  {
+    "tdiv": {
+      "id": "lb_table_nest",
+      "size": "pw, fh"
     }
   },
   {

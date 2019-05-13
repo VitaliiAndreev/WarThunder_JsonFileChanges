@@ -84,13 +84,19 @@
           "weaponCount": 0
         },
         "uk_17_pdr_m10_achilles": {
-          "count": 20,
+          "count": 12,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_a27m_cromwell_1": {
           "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -108,13 +114,13 @@
           "weaponCount": 0
         },
         "uk_sherman_II": {
-          "count": 20,
+          "count": 16,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_sherman_vc_firefly": {
-          "count": 32,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -162,13 +168,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -222,13 +246,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -282,13 +324,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -342,13 +402,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -402,13 +480,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -467,14 +563,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -527,14 +641,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -587,14 +719,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -647,14 +797,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -707,14 +875,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -767,14 +953,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -827,14 +1031,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -887,14 +1109,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -947,14 +1187,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1007,14 +1265,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1067,14 +1343,32 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_17_pdr_m10_achilles": {
+          "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_crusader_aa_mk_2": {
           "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "uk_sherman_II": {
+          "count": 7,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "uk_sherman_vc_firefly": {
-          "count": 30,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1122,13 +1416,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1398,13 +1710,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1457,20 +1787,26 @@
       },
       "units": {
         "all": false,
+        "germ_panzerjager_panther": {
+          "count": 2,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 44,
+          "count": 36,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_pzkpfw_VI_ausf_h1_tiger": {
-          "count": 8,
+          "count": 6,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_pzkpfw_V_ausf_g_panther": {
-          "count": 8,
+          "count": 6,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1488,7 +1824,7 @@
           "weaponCount": 0
         },
         "germ_stug_III_ausf_G": {
-          "count": 24,
+          "count": 34,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1548,13 +1884,19 @@
           "weaponCount": 0
         },
         "uk_17_pdr_m10_achilles": {
-          "count": 20,
+          "count": 12,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_a27m_cromwell_1": {
           "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1572,13 +1914,13 @@
           "weaponCount": 0
         },
         "uk_sherman_II": {
-          "count": 20,
+          "count": 16,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_sherman_vc_firefly": {
-          "count": 32,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1632,13 +1974,19 @@
           "weaponCount": 0
         },
         "uk_17_pdr_m10_achilles": {
-          "count": 20,
+          "count": 12,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_a27m_cromwell_1": {
           "count": 8,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "uk_a30_challenger": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1656,13 +2004,13 @@
           "weaponCount": 0
         },
         "uk_sherman_II": {
-          "count": 20,
+          "count": 16,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "uk_sherman_vc_firefly": {
-          "count": 32,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1710,13 +2058,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1770,13 +2136,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1830,13 +2214,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1890,13 +2292,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1950,13 +2370,31 @@
       "units": {
         "all": false,
         "germ_pzkpfw_IV_ausf_H": {
-          "count": 30,
+          "count": 19,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_pzkpfw_V_ausf_g_panther": {
+          "count": 2,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "germ_sdkfz_6_2_flak36": {
           "count": 20,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_sdkfz_9_flak37": {
+          "count": 6,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
+        "germ_stug_III_ausf_G": {
+          "count": 8,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2023,12 +2461,6 @@
                 "inactiveCount": 0,
                 "weaponPreset": "",
                 "weaponCount": 0
-              },
-              "do_217m_1": {
-                "count": 40,
-                "inactiveCount": 0,
-                "weaponPreset": "",
-                "weaponCount": 0
               }
             },
             "cooldownUnits": []
@@ -2040,7 +2472,7 @@
     {
       "item": {
         "specs": {
-          "size": 160,
+          "size": 140,
           "side": "SIDE_1",
           "pos": [27.3,3.57143]
         },
@@ -2054,7 +2486,7 @@
             "units": {
               "all": false,
               "mosquito_fb_mk6": {
-                "count": 80,
+                "count": 60,
                 "inactiveCount": 0,
                 "weaponPreset": "",
                 "weaponCount": 0
@@ -2230,110 +2662,6 @@
         }
       }
     },
-    "britain_bomber": {
-      "armyNameTemplate": "britain_bomber",
-      "army": {
-        "name": "britain_bomber",
-        "morale": 75,
-        "entrenchEndMillisec": 0,
-        "suppliesEndMillisec": 0,
-        "stoppedAtMillisec": 0,
-        "targetName": "",
-        "iconOverride": "bomber",
-        "owner": {
-          "side": "SIDE_1",
-          "country": "country_britain",
-          "armyGroupIdx": 0
-        },
-        "specs": {
-          "battleStartRadiusN": 1.15,
-          "battleStartRadiusF": 1.15,
-          "unitType": "UT_AIR",
-          "spawnStampMillisec": 0,
-          "isDead": false,
-          "deathReason": "MERGED_WITH_AIRFIELD",
-          "flags": 0
-        },
-        "pathTracker": {
-          "status": "ES_WAIT_FOR_PATH",
-          "nextPathIdx": 0,
-          "pos": [6.96681,9.07816],
-          "moveType": "EMT_MOVE",
-          "path": {
-            "startTime": 0,
-            "points": []
-          }
-        },
-        "units": {
-          "all": false,
-          "lancaster_mk1": {
-            "count": 40,
-            "inactiveCount": 0,
-            "weaponPreset": "",
-            "weaponCount": 0
-          }
-        },
-        "artilleryAmmo": {
-          "ammo": 0,
-          "nextAmmoRefillMillisec": 0
-        },
-        "postponedCasualties": {
-          "all": false
-        }
-      }
-    },
-    "britain_bomber_initial": {
-      "armyNameTemplate": "britain_bomber_initial",
-      "army": {
-        "name": "britain_bomber_initial",
-        "morale": 75,
-        "entrenchEndMillisec": 0,
-        "suppliesEndMillisec": 0,
-        "stoppedAtMillisec": 0,
-        "targetName": "",
-        "iconOverride": "bomber",
-        "owner": {
-          "side": "SIDE_1",
-          "country": "country_britain",
-          "armyGroupIdx": 0
-        },
-        "specs": {
-          "battleStartRadiusN": 1.15,
-          "battleStartRadiusF": 1.15,
-          "unitType": "UT_AIR",
-          "spawnStampMillisec": 0,
-          "isDead": false,
-          "deathReason": "MERGED_WITH_AIRFIELD",
-          "flags": 0
-        },
-        "pathTracker": {
-          "status": "ES_WAIT_FOR_PATH",
-          "nextPathIdx": 0,
-          "pos": [6.96681,9.07816],
-          "moveType": "EMT_MOVE",
-          "path": {
-            "startTime": 0,
-            "points": []
-          }
-        },
-        "units": {
-          "all": false,
-          "lancaster_mk1": {
-            "count": 40,
-            "inactiveCount": 0,
-            "weaponPreset": "",
-            "weaponCount": 0
-          }
-        },
-        "artilleryAmmo": {
-          "ammo": 0,
-          "nextAmmoRefillMillisec": 0
-        },
-        "postponedCasualties": {
-          "all": false
-        }
-      }
-    },
     "britain_common": {
       "armyNameTemplate": "britain_common",
       "army": {
@@ -2377,13 +2705,19 @@
             "weaponCount": 0
           },
           "uk_17_pdr_m10_achilles": {
-            "count": 20,
+            "count": 12,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "uk_a27m_cromwell_1": {
             "count": 8,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "uk_a30_challenger": {
+            "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2401,13 +2735,13 @@
             "weaponCount": 0
           },
           "uk_sherman_II": {
-            "count": 20,
+            "count": 16,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "uk_sherman_vc_firefly": {
-            "count": 32,
+            "count": 24,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2465,13 +2799,19 @@
             "weaponCount": 0
           },
           "uk_17_pdr_m10_achilles": {
-            "count": 20,
+            "count": 12,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "uk_a27m_cromwell_1": {
             "count": 8,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "uk_a30_challenger": {
+            "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2489,13 +2829,13 @@
             "weaponCount": 0
           },
           "uk_sherman_II": {
-            "count": 20,
+            "count": 16,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "uk_sherman_vc_firefly": {
-            "count": 32,
+            "count": 24,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2547,13 +2887,13 @@
         "units": {
           "all": false,
           "spitfire_ix": {
-            "count": 20,
+            "count": 40,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "typhoon_mk1b_late": {
-            "count": 20,
+            "count": 40,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2610,14 +2950,32 @@
             "weaponPreset": "",
             "weaponCount": 0
           },
+          "uk_17_pdr_m10_achilles": {
+            "count": 8,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "uk_a30_challenger": {
+            "count": 10,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
           "uk_crusader_aa_mk_2": {
             "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
+          "uk_sherman_II": {
+            "count": 7,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
           "uk_sherman_vc_firefly": {
-            "count": 30,
+            "count": 10,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2727,59 +3085,7 @@
         "units": {
           "all": false,
           "fw-190f-8": {
-            "count": 30,
-            "inactiveCount": 0,
-            "weaponPreset": "",
-            "weaponCount": 0
-          }
-        },
-        "artilleryAmmo": {
-          "ammo": 0,
-          "nextAmmoRefillMillisec": 0
-        },
-        "postponedCasualties": {
-          "all": false
-        }
-      }
-    },
-    "germany_bomber": {
-      "armyNameTemplate": "germany_bomber",
-      "army": {
-        "name": "germany_bomber",
-        "morale": 75,
-        "entrenchEndMillisec": 0,
-        "suppliesEndMillisec": 0,
-        "stoppedAtMillisec": 0,
-        "targetName": "",
-        "iconOverride": "bomber",
-        "owner": {
-          "side": "SIDE_2",
-          "country": "country_germany",
-          "armyGroupIdx": 0
-        },
-        "specs": {
-          "battleStartRadiusN": 1.15,
-          "battleStartRadiusF": 1.15,
-          "unitType": "UT_AIR",
-          "spawnStampMillisec": 0,
-          "isDead": false,
-          "deathReason": "MERGED_WITH_AIRFIELD",
-          "flags": 0
-        },
-        "pathTracker": {
-          "status": "ES_WAIT_FOR_PATH",
-          "nextPathIdx": 0,
-          "pos": [6.63571,32.8545],
-          "moveType": "EMT_MOVE",
-          "path": {
-            "startTime": 0,
-            "points": []
-          }
-        },
-        "units": {
-          "all": false,
-          "do_217m_1": {
-            "count": 30,
+            "count": 40,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2830,20 +3136,26 @@
         },
         "units": {
           "all": false,
+          "germ_panzerjager_panther": {
+            "count": 2,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
           "germ_pzkpfw_IV_ausf_H": {
-            "count": 44,
+            "count": 36,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "germ_pzkpfw_VI_ausf_h1_tiger": {
-            "count": 8,
+            "count": 6,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "germ_pzkpfw_V_ausf_g_panther": {
-            "count": 8,
+            "count": 6,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2861,7 +3173,7 @@
             "weaponCount": 0
           },
           "germ_stug_III_ausf_G": {
-            "count": 24,
+            "count": 34,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2918,20 +3230,26 @@
         },
         "units": {
           "all": false,
+          "germ_panzerjager_panther": {
+            "count": 2,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
           "germ_pzkpfw_IV_ausf_H": {
-            "count": 44,
+            "count": 36,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "germ_pzkpfw_VI_ausf_h1_tiger": {
-            "count": 8,
+            "count": 6,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "germ_pzkpfw_V_ausf_g_panther": {
-            "count": 8,
+            "count": 6,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2949,7 +3267,7 @@
             "weaponCount": 0
           },
           "germ_stug_III_ausf_G": {
-            "count": 24,
+            "count": 34,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -3065,13 +3383,31 @@
         "units": {
           "all": false,
           "germ_pzkpfw_IV_ausf_H": {
-            "count": 30,
+            "count": 19,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "germ_pzkpfw_V_ausf_g_panther": {
+            "count": 2,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "germ_sdkfz_6_2_flak36": {
             "count": 20,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "germ_sdkfz_9_flak37": {
+            "count": 6,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
+          "germ_stug_III_ausf_G": {
+            "count": 8,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0

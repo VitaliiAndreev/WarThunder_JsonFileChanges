@@ -340,12 +340,12 @@
       "locId": "worldwar/dailyTrophies",
       "reqFeature": "WorldWarDailyTrophies",
       "wwDaily1battle": {
-        "itemName": "booster_rp_100_1mp",
+        "trophyName": "worldwar_daily_1battle_trophy",
         "progressParamName": "wwDaily1battleBattlesCount",
         "rewardedParamValue": 1
       },
       "wwDaily3wins": {
-        "trophyName": "ww_cbt_reward_trophy",
+        "trophyName": "worldwar_daily_3wins_trophy",
         "amount": 1,
         "progressParamName": "wwDaily3winsWinsCount",
         "rewardedParamValue": 3
@@ -671,29 +671,10 @@
     "CustomBattlesPs4": {
       "condition": ""
     },
-    "WorldWar": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      },
-      {
-        "condition": "worldwar_cbt_access_nonclan_player"
-      },
-      {
-        "platform_lock": "android"
-      }
-    ],
+    "WorldWar": {
+      "condition": "",
+      "platform_lock": "android;xboxOne"
+    },
     "worldWarMaster": {
       "condition": "role_WW_MASTER"
     },
@@ -706,23 +687,6 @@
       },
       {
         "condition": "role_ALPHA_TESTER"
-      }
-    ],
-    "WorldWarClansQueue": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
       }
     ],
     "WorldWarReplay": [
@@ -739,103 +703,24 @@
         "condition": "role_ALPHA_TESTER"
       }
     ],
-    "WorldWarSquadInfo": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      },
-      {
-        "condition": "worldwar_cbt_access_nonclan_player"
-      }
-    ],
-    "WorldWarSquadInvite": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      }
-    ],
-    "WorldWarGlobalBattles": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      },
-      {
-        "condition": "worldwar_cbt_access_nonclan_player"
-      }
-    ],
-    "WorldWarDailyTrophies": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      },
-      {
-        "condition": "worldwar_cbt_access_nonclan_player"
-      }
-    ],
-    "WorldWarLeaderboards": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "worldwar_cbt_access"
-      },
-      {
-        "condition": "worldwar_cbt_access_nonclan_player"
-      }
-    ],
+    "WorldWarClansQueue": {
+      "condition": "WorldWar"
+    },
+    "WorldWarSquadInfo": {
+      "condition": "WorldWar"
+    },
+    "WorldWarSquadInvite": {
+      "condition": "WorldWar"
+    },
+    "WorldWarGlobalBattles": {
+      "condition": "WorldWar"
+    },
+    "WorldWarDailyTrophies": {
+      "condition": "WorldWar"
+    },
+    "WorldWarLeaderboards": {
+      "condition": "WorldWar"
+    },
     "WorldWarCountryLeaderboard": [
       {
         "condition": "role_GAIJIN"
