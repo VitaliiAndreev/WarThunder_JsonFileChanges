@@ -25,7 +25,10 @@
           "width": "pw"
         },
         {
-          "height": "3@itemHeight+ 4@itemSpacing + 2@framePadding"
+          "height": "4@itemHeight+ 5@itemSpacing + 2@framePadding"
+        },
+        {
+          "max-height": "1@maxWindowHeight"
         },
         {
           "frameBlock": {

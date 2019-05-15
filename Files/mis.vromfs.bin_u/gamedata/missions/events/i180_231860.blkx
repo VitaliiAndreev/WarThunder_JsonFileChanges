@@ -215,7 +215,7 @@
         [-0.872286,0.0,0.488996],
         [8171.85,212.2,10492.3]
       ],
-      "unit_class": "i_180_event03",
+      "unit_class": "i_180",
       "closed_waypoints": false,
       "isShipSpline": false,
       "shipTurnRadius": 100.0,

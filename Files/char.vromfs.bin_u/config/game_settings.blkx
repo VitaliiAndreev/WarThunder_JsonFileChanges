@@ -350,6 +350,10 @@
         "progressParamName": "wwDaily3winsWinsCount",
         "rewardedParamValue": 3
       }
+    },
+    "minMemberCountToWWarByClanTypeCode": {
+      "0": 10,
+      "1": 10
     }
   },
   "features": {
@@ -585,7 +589,43 @@
     "SpendGoldForTanks": {
       "condition": "Tanks"
     },
+    "UsaAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "UsaTanksInFirstCountryChoice": {
+      "condition": ""
+    },
+    "UsaShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "GermanyAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "GermanyTanksInFirstCountryChoice": {
+      "condition": ""
+    },
+    "GermanyShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "UssrAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "UssrTanksInFirstCountryChoice": {
+      "condition": ""
+    },
+    "UssrShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "BritainAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
     "BritainTanksInFirstCountryChoice": {
+      "condition": ""
+    },
+    "BritainShipsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "JapanAircraftsInFirstCountryChoice": {
       "condition": ""
     },
     "JapanTanksInFirstCountryChoice": [
@@ -599,7 +639,27 @@
         "condition": "role_ALPHA_TESTER"
       }
     ],
+    "JapanShipsInFirstCountryChoice": [
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "role_ALPHA_TESTER"
+      }
+    ],
+    "ChinaAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "ChinaTanksInFirstCountryChoice": {
+      "condition": ""
+    },
     "ItalyAircraftsInFirstCountryChoice": {
+      "condition": ""
+    },
+    "ItalyTanksInFirstCountryChoice": {
       "condition": ""
     },
     "FranceAircraftsInFirstCountryChoice": {
@@ -616,12 +676,6 @@
         "condition": "role_ALPHA_TESTER"
       }
     ],
-    "BritainShipsInFirstCountryChoice": {
-      "condition": ""
-    },
-    "ItalyTanksInFirstCountryChoice": {
-      "condition": ""
-    },
     "Helicopters": [
       {
         "condition": "role_GAIJIN"

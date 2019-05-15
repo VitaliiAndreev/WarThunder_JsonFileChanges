@@ -27,6 +27,28 @@
         "scrollbarShortcuts": "yes",
         "on_wrap_up": "onWrapUp",
         "on_wrap_down": "onWrapDown"
+      },
+      "navBar": {
+        "display": "hide",
+        "navLeft": {
+          "textareaNoTab": {
+            "id": "statusbar_text",
+            "pos": "1@buttonMargin, ph/2-h/2",
+            "position": "relative",
+            "margin-right": "1@buttonMargin",
+            "hideEmptyText": "yes",
+            "text": ""
+          }
+        },
+        "navRight": {
+          "Button_text": {
+            "id": "btn_more_info",
+            "text": "#msgbox/btn_more",
+            "on_click": "onBtnMoreInfo",
+            "btnName": "A",
+            "ButtonImg": []
+          }
+        }
       }
     },
     "gamercard_div": [

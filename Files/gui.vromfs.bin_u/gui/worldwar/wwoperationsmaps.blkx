@@ -228,9 +228,8 @@
               ]
             },
             {
-              "dummy": {
-                "behavior": "accesskey",
-                "accessKey": "J:RT",
+              "DummyButton": {
+                "btnName": "RB",
                 "on_click": "onOpenSelectedTopLeaderboard"
               }
             }

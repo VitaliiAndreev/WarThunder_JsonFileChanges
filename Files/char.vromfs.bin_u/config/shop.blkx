@@ -251,7 +251,8 @@
           "us_m18_hellcat_black_cat": {
             "rank": 3,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showByPlatform": "xboxOne"
           },
           "us_m18_hellcat_black_cat_race": {
             "rank": 3,
@@ -331,7 +332,9 @@
           "us_m5a1_stuart_canadian_5st_arm": {
             "rank": 2,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true,
+            "showByPlatform": "xboxOne"
           },
           "us_t18_e2": {
             "rank": 2,
@@ -848,12 +851,15 @@
           "p-47m-1-re": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "hideByPlatform": "ps4"
           },
           "p-51d-10": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showByPlatform": "xboxOne",
+            "showOnlyWhenBought": true
           },
           "p-51d-20-na": {
             "rank": 4,
@@ -2796,7 +2802,8 @@
           "ussr_t_34_85E": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "ussr_t_44_122": {
             "rank": 4,
@@ -2805,7 +2812,8 @@
           "ussr_is_2_1944_revenge": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "ussr_is_6": {
             "rank": 4,
@@ -3341,7 +3349,8 @@
           "yak-9m": {
             "rank": 3,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "pe-2-205": {
             "rank": 3,
@@ -3362,7 +3371,9 @@
           "la-7_dolgushin": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true,
+            "showByPlatform": "ps4"
           },
           "la-11": {
             "rank": 4,
@@ -4339,7 +4350,8 @@
           "spitfire_fr_mk14e": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "meteor_fmk8_reaper": {
             "rank": 5,
@@ -4393,7 +4405,7 @@
           "spitfire_ix_plagis": {
             "rank": 4,
             "reqAir": "",
-            "showByPlatform": "ps4;xboxOne"
+            "showOnlyWhenBought": true
           },
           "wyvern_s4": {
             "rank": 4,
@@ -4404,7 +4416,7 @@
             "rank": 4,
             "reqAir": "",
             "gift": "msi_notebook",
-            "hideByPlatform": "xboxOne"
+            "showByPlatform": "ps4"
           }
         }
       }
@@ -4546,7 +4558,8 @@
             "rank": 2,
             "reqAir": "",
             "rankPosXY": [6,1],
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "showByPlatform": "ps4;xboxOne"
           }
         }
       },
@@ -5946,7 +5959,8 @@
           "so_8000_narval": {
             "rank": 4,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "showByPlatform": "ps4;xboxOne"
           },
           "so_4050_vautour_2a_iaf": {
             "rank": 5,
