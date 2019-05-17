@@ -7150,6 +7150,44 @@
           "active": true
         }
       }
+    },
+    {
+      "area_squad": {
+        "name": "t2_killarea",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [1146.12,11.2185,2010.15]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_killarea_01"
+          },
+          {
+            "squad_members": "t2_killarea_02"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "t1_killarea",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [2582.57,6.11212,2348.83]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_killarea_01"
+          },
+          {
+            "squad_members": "t1_killarea_02"
+          }
+        ]
+      }
     }
   ],
   "areas": {

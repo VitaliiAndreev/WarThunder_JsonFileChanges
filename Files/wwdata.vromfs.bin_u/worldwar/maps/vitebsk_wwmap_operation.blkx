@@ -102,19 +102,19 @@
           "weaponCount": 0
         },
         "ussr_kv_1_L_11": {
-          "count": 4,
+          "count": 1,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_26_1940": {
-          "count": 36,
+          "count": 44,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_34_1941_l_11": {
-          "count": 8,
+          "count": 3,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -168,19 +168,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -312,19 +306,19 @@
           "weaponCount": 0
         },
         "ussr_kv_1_L_11": {
-          "count": 4,
+          "count": 1,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_26_1940": {
-          "count": 36,
+          "count": 44,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_34_1941_l_11": {
-          "count": 8,
+          "count": 3,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -378,19 +372,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -455,8 +443,8 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 32,
+        "germ_pzkpfw_38t_ausf_F": {
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -480,7 +468,7 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_IV_ausf_E": {
-          "count": 16,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -545,8 +533,8 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 32,
+        "germ_pzkpfw_38t_ausf_F": {
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -570,7 +558,7 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_IV_ausf_E": {
-          "count": 16,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -684,19 +672,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -756,25 +738,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -834,25 +816,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -917,8 +899,8 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 32,
+        "germ_pzkpfw_38t_ausf_F": {
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -942,7 +924,7 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_IV_ausf_E": {
-          "count": 16,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1020,19 +1002,19 @@
           "weaponCount": 0
         },
         "ussr_kv_1_L_11": {
-          "count": 4,
+          "count": 1,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_26_1940": {
-          "count": 36,
+          "count": 44,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_34_1941_l_11": {
-          "count": 8,
+          "count": 3,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1086,19 +1068,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1158,19 +1134,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1230,19 +1200,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1302,19 +1266,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1374,19 +1332,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1446,19 +1398,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1518,19 +1464,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1644,19 +1584,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1716,25 +1650,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1794,25 +1728,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1872,25 +1806,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1950,25 +1884,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2046,19 +1980,19 @@
           "weaponCount": 0
         },
         "ussr_kv_1_L_11": {
-          "count": 4,
+          "count": 1,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_26_1940": {
-          "count": 36,
+          "count": 44,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
         "ussr_t_34_1941_l_11": {
-          "count": 8,
+          "count": 3,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2112,19 +2046,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2189,8 +2117,8 @@
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 32,
+        "germ_pzkpfw_38t_ausf_F": {
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2214,7 +2142,7 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_IV_ausf_E": {
-          "count": 16,
+          "count": 24,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2274,25 +2202,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2406,19 +2334,13 @@
           "weaponCount": 0
         },
         "ussr_bt_7_1937": {
-          "count": 18,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "ussr_t_26_1940": {
           "count": 15,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "ussr_t_34_1941_l_11": {
-          "count": 2,
+        "ussr_t_26_1940": {
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2478,25 +2400,25 @@
           "weaponCount": 0
         },
         "germ_pzkpfw_II_ausf_C": {
-          "count": 12,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
-        "germ_pzkpfw_38t_ausf_A": {
-          "count": 12,
-          "inactiveCount": 0,
-          "weaponPreset": "",
-          "weaponCount": 0
-        },
-        "germ_pzkpfw_IV_ausf_E": {
+        "germ_pzkpfw_38t_ausf_F": {
           "count": 5,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
         },
+        "germ_pzkpfw_IV_ausf_E": {
+          "count": 10,
+          "inactiveCount": 0,
+          "weaponPreset": "",
+          "weaponCount": 0
+        },
         "germ_pzkpfw_III_ausf_F": {
-          "count": 6,
+          "count": 10,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2612,7 +2534,7 @@
                 "weaponCount": 0
               },
               "ju-87b-2": {
-                "count": 40,
+                "count": 60,
                 "inactiveCount": 0,
                 "weaponPreset": "",
                 "weaponCount": 0
@@ -2789,8 +2711,8 @@
             "weaponPreset": "",
             "weaponCount": 0
           },
-          "germ_pzkpfw_38t_ausf_A": {
-            "count": 32,
+          "germ_pzkpfw_38t_ausf_F": {
+            "count": 24,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2814,7 +2736,7 @@
             "weaponCount": 0
           },
           "germ_pzkpfw_IV_ausf_E": {
-            "count": 16,
+            "count": 24,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -2982,25 +2904,25 @@
             "weaponCount": 0
           },
           "germ_pzkpfw_II_ausf_C": {
-            "count": 12,
+            "count": 10,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
-          "germ_pzkpfw_38t_ausf_A": {
-            "count": 12,
-            "inactiveCount": 0,
-            "weaponPreset": "",
-            "weaponCount": 0
-          },
-          "germ_pzkpfw_IV_ausf_E": {
+          "germ_pzkpfw_38t_ausf_F": {
             "count": 5,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
+          "germ_pzkpfw_IV_ausf_E": {
+            "count": 10,
+            "inactiveCount": 0,
+            "weaponPreset": "",
+            "weaponCount": 0
+          },
           "germ_pzkpfw_III_ausf_F": {
-            "count": 6,
+            "count": 10,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -3244,19 +3166,19 @@
             "weaponCount": 0
           },
           "ussr_kv_1_L_11": {
-            "count": 4,
+            "count": 1,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "ussr_t_26_1940": {
-            "count": 36,
+            "count": 44,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
           "ussr_t_34_1941_l_11": {
-            "count": 8,
+            "count": 3,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -3418,19 +3340,13 @@
             "weaponCount": 0
           },
           "ussr_bt_7_1937": {
-            "count": 18,
-            "inactiveCount": 0,
-            "weaponPreset": "",
-            "weaponCount": 0
-          },
-          "ussr_t_26_1940": {
             "count": 15,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
           },
-          "ussr_t_34_1941_l_11": {
-            "count": 2,
+          "ussr_t_26_1940": {
+            "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
