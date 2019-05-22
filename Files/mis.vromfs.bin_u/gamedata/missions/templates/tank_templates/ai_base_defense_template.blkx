@@ -113,7 +113,10 @@
               "object": "t2_zoneDef_sq"
             },
             {
-              "accuracy": 0.5
+              "accuracy": 0.85
+            },
+            {
+              "checkVisibilityTarget": true
             }
           ]
         },
@@ -217,6 +220,9 @@
           },
           {
             "accuracy": 1.0
+          },
+          {
+            "checkVisibilityTarget": true
           }
         ]
       },
@@ -884,6 +890,9 @@
             },
             {
               "accuracy": 0.3
+            },
+            {
+              "checkVisibilityTarget": true
             }
           ]
         },
@@ -1278,12 +1287,16 @@
         },
         {
           "moAddMissionObjective": {
-            "target": "t1_ai_base_defend"
+            "target": "t1_ai_base_defend",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         },
         {
           "moAddMissionObjective": {
-            "target": "t2_ai_base_defend"
+            "target": "t2_ai_base_defend",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         },
         {
@@ -1357,12 +1370,16 @@
         },
         {
           "moAddMissionObjective": {
-            "target": "t2_ai_base_defend"
+            "target": "t2_ai_base_defend",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         },
         {
           "moAddMissionObjective": {
-            "target": "t1_ai_base_attack"
+            "target": "t1_ai_base_attack",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         },
         {
@@ -1399,9 +1416,9 @@
           "value": 1,
           "object_var_name": "",
           "object_var_comp_op": "equal",
-          "object_var_value": 0,
           "object": "t1_allActive_ai_zoneDef_sq",
           "unit_type_ex": "isActive",
+          "object_var_value": 0,
           "var": "teamA_totalAICount"
         }
       },
@@ -1441,9 +1458,9 @@
           "value": 1,
           "object_var_name": "",
           "object_var_comp_op": "equal",
-          "object_var_value": 0,
           "object": "t2_allActive_ai_zoneDef_sq",
           "unit_type_ex": "isActive",
+          "object_var_value": 0,
           "var": "teamB_totalAICount"
         }
       },
@@ -1483,8 +1500,8 @@
           "value": 1,
           "object_var_name": "",
           "object_var_comp_op": "equal",
-          "object_var_value": 0,
-          "object": "t1_allActive_ai_zoneDef_sq"
+          "object": "t1_allActive_ai_zoneDef_sq",
+          "object_var_value": 0
         }
       },
       "actions": [
@@ -1492,6 +1509,8 @@
           "moSetObjectiveStatus": {
             "target": "t1_ai_base_defend",
             "status": 3,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "A"
           }
         },
@@ -1499,6 +1518,8 @@
           "moSetObjectiveStatus": {
             "target": "t2_ai_base_attack",
             "status": 2,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "B"
           }
         },
@@ -1533,8 +1554,8 @@
           "value": 1,
           "object_var_name": "",
           "object_var_comp_op": "equal",
-          "object_var_value": 0,
-          "object": "t2_allActive_ai_zoneDef_sq"
+          "object": "t2_allActive_ai_zoneDef_sq",
+          "object_var_value": 0
         }
       },
       "actions": [
@@ -1542,6 +1563,8 @@
           "moSetObjectiveStatus": {
             "target": "t2_ai_base_defend",
             "status": 3,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "B"
           }
         },
@@ -1549,6 +1572,8 @@
           "moSetObjectiveStatus": {
             "target": "t1_ai_base_attack",
             "status": 2,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "A"
           }
         },
@@ -1591,6 +1616,8 @@
           "moSetObjectiveStatus": {
             "target": "t2_ai_base_defend",
             "status": 2,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "B"
           }
         },
@@ -1598,6 +1625,8 @@
           "moSetObjectiveStatus": {
             "target": "t1_ai_base_attack",
             "status": 3,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "A"
           }
         }
@@ -1633,6 +1662,8 @@
           "moSetObjectiveStatus": {
             "target": "t1_ai_base_defend",
             "status": 2,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "A"
           }
         },
@@ -1640,6 +1671,8 @@
           "moSetObjectiveStatus": {
             "target": "t2_ai_base_attack",
             "status": 3,
+            "object_var_comp_op": "equal",
+            "object_var_name": "",
             "team": "B"
           }
         }

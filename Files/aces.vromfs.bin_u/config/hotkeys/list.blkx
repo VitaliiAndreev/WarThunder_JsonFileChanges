@@ -136,10 +136,10 @@
   {
     "ps4": [
       {
-        "preset": "default_ver1"
+        "preset": "dualshock4_ver2"
       },
       {
-        "preset": "dualshock4_ver2"
+        "preset": "default_ver1"
       },
       {
         "preset": "keyboard_ver1"
@@ -177,10 +177,10 @@
   {
     "xboxOne": [
       {
-        "preset": "xboxone_simulator"
+        "preset": "xboxone_ma"
       },
       {
-        "preset": "xboxone_ma"
+        "preset": "xboxone_simulator"
       },
       {
         "preset": "xboxone_thrustmaster_hotas_one"

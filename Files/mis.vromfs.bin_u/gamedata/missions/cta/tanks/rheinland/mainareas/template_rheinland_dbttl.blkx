@@ -490,10 +490,10 @@
       "tankModels": {
         "name": "t2_antiTankGun02",
         "tm": [
-          [-0.974993,0.0,-0.222225],
+          [0.250901,0.0,-0.96801],
           [0.0,1.0,0.0],
-          [0.222225,0.0,-0.974993],
-          [3800.35,9.85,3214.9]
+          [0.96801,0.0,0.250901],
+          [3669.72,9.85001,3267.16]
         ],
         "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
@@ -527,10 +527,10 @@
       "tankModels": {
         "name": "t2_antiTankGun03",
         "tm": [
-          [-0.28546,0.0,-0.95839],
+          [-0.0134251,0.0,-0.999909],
           [0.0,1.0,0.0],
-          [0.95839,0.0,-0.28546],
-          [3694.5,9.82615,3234.47]
+          [0.999909,0.0,-0.0134251],
+          [3692.16,9.82615,3237.8]
         ],
         "unit_class": "germ_at_gun_pak38",
         "objLayer": 1,
@@ -5836,6 +5836,12 @@
           },
           {
             "squad_members": "t2_trench02"
+          },
+          {
+            "squad_members": "t2_trench03"
+          },
+          {
+            "squad_members": "t2_trench04"
           }
         ]
       }
@@ -6151,6 +6157,40 @@
           "unitReplacementType": "antiTankGun"
         },
         "way": []
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench03",
+        "tm": [
+          [0.229156,0.0,-0.973389],
+          [0.0,1.0,0.0],
+          [0.973389,0.0,0.229156],
+          [3670.06,9.82562,3266.17]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "t2_trench04",
+        "tm": [
+          [0.00243522,0.0,-0.999997],
+          [0.0,1.0,0.0],
+          [0.999997,0.0,0.00243522],
+          [3692.19,9.82562,3236.5]
+        ],
+        "unit_class": "rendinst_fortification_sandbags_onground_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
       }
     },
     {
@@ -7247,7 +7287,7 @@
   "wayPoints": [],
   "__viewPoints": {
     "viewpt_01": {
-      "pos": [3977.2,-59977.7,2729.23],
+      "pos": [3977.2,-74975.2,2729.23],
       "ht": 2.5
     }
   }
