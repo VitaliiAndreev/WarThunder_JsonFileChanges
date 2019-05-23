@@ -49,9 +49,19 @@
           "position": "relative",
           "_on_click": "onChangePilotIcon",
           "class": "profileImg",
-          "img": {
+          "btnName": "X",
+          "div": {
             "id": "prefIcon",
-            "size": "pw,ph"
+            "size": "pw,ph",
+            "behavior": "bhvAvatar",
+            "isFull": "yes"
+          },
+          "ButtonImg": [],
+          "unseenIcon": {
+            "id": "unseen_avatar",
+            "pos": "4@dp, 4@dp",
+            "position": "absolute",
+            "unseenText": []
           }
         }
       },
@@ -79,6 +89,9 @@
           },
           {
             "class": "choice3"
+          },
+          {
+            "navigatorShortcuts": "yes"
           },
           {
             "shopFilter": {

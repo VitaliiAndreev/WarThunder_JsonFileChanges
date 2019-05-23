@@ -69,9 +69,7 @@
                         "behavior": "bhvAvatar",
                         "isFull": "yes"
                       },
-                      "ButtonImg": {
-                        "style": "pos:pw - w - 4@dp, ph - h - 4@dp; height:@buttonIconHeight;"
-                      },
+                      "ButtonImg": [],
                       "unseenIcon": {
                         "id": "unseen_avatar",
                         "pos": "4@dp, 4@dp",
@@ -761,6 +759,19 @@
                 "tooltip": "#mainmenu/SteamEmailRegistration/desc",
                 "btnName": "L3",
                 "_on_click": "onBindSteamEmail",
+                "visualStyle": "secondary",
+                "buttonGlance": [],
+                "buttonWink": [],
+                "ButtonImg": []
+              }
+            },
+            {
+              "Button_text": {
+                "id": "btn_xboxRegistration",
+                "text": "#mainmenu/binding",
+                "tooltip": "#mainmenu/XboxOneEmailRegistration/desc",
+                "btnName": "L3",
+                "_on_click": "onBindXboxEmail",
                 "visualStyle": "secondary",
                 "buttonGlance": [],
                 "buttonWink": [],

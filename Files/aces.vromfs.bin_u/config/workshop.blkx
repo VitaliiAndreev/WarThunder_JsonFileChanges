@@ -230,6 +230,13 @@
       }
     ]
   },
+  "worldwar_recon_by_fire_exchange": {
+    "locId": "workshop/worldwar_exchange",
+    "reqFeature": "WorldWar",
+    "items": {
+      "alwaysVisibleItem": 750128
+    }
+  },
   "additionalRecipes": [
     {
       "item": {

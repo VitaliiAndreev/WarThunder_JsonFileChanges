@@ -175,6 +175,7 @@
               "moveY": "linear",
               "clearOnFocusLost": "no",
               "on_select": "updateItemInfo",
+              "_on_set_focus": "onItemsListFocusChange",
               "on_wrap_up": "onWrapUp",
               "on_wrap_down": "onWrapDown"
             }
@@ -527,16 +528,19 @@
               "Button_text": {
                 "id": "btn_main_action",
                 "text": "",
-                "btnName": "A",
+                "btnName": "",
                 "on_click": "onMainAction",
                 "hideText": "yes",
                 "css-hier-invalidate": "yes",
                 "showButtonImageOnConsole": "no",
                 "display": "hide",
+                "hideConsoleImage": "yes",
                 "visualStyle": "secondary",
                 "buttonWink": [],
                 "buttonGlance": [],
-                "ButtonImg": [],
+                "ButtonImg": {
+                  "iconName": "A"
+                },
                 "textarea": {
                   "id": "btn_main_action_text",
                   "class": "buttonText"
@@ -1467,6 +1471,10 @@
         }
       }
     ]
+  },
+  "DummyButton": {
+    "btnName": "A",
+    "on_click": "onMainAction"
   },
   "dummy": {
     "id": "update_timer",

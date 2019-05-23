@@ -2298,7 +2298,7 @@
       },
       "team_worldwar": {
         "hudMarkers": 4,
-        "useLockSphere": false,
+        "useLockSphere": true,
         "lockSphereAngularRadiusDeg": 5.0,
         "lockSphereMaxRadius": 1.0,
         "allowTargeting": true,

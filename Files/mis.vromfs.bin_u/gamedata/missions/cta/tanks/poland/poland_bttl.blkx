@@ -261,10 +261,10 @@
         "deathPenaltyMul": 1.0
       },
       {
-        "ctaCaptureZoneEqualPenaltyMul": 0.5
+        "postfix": "_Bttl"
       },
       {
-        "postfix": "_Bttl"
+        "ctaCaptureZoneEqualPenaltyMul": 0.5
       },
       {
         "useAlternativeMapCoord": false
@@ -319,8 +319,8 @@
         "allowedUnitTypes": {
           "isAirplanesAllowed": true,
           "isTanksAllowed": true,
-          "isHelicoptersAllowed": true,
-          "isShipsAllowed": false
+          "isShipsAllowed": false,
+          "isHelicoptersAllowed": true
         }
       },
       {
@@ -578,6 +578,7 @@
     {
       "import_record": {
         "file": "gameData/missions/cta/tanks/poland/battleareas/template_poland_Bttl_battleareas.blk",
+        "difficulty": "arcade",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

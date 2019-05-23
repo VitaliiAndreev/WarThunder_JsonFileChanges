@@ -1725,6 +1725,17 @@
       {
         "condition": "role_TESTER"
       }
+    ],
+    "AllowXboxAccountLinking": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
     ]
   }
 }

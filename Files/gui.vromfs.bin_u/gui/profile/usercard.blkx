@@ -71,9 +71,7 @@
                         "behavior": "bhvAvatar",
                         "isFull": "yes"
                       },
-                      "ButtonImg": {
-                        "style": "pos:pw - w - 4@dp, ph - h - 4@dp; height:@buttonIconHeight;"
-                      },
+                      "ButtonImg": [],
                       "unseenIcon": {
                         "id": "unseen_avatar",
                         "pos": "4@dp, 4@dp",

@@ -1,971 +1,143 @@
-[
-  {
-    "animated_wait_icon": {
-      "id": "loading_rot",
-      "pos": "50%pw-50%w, 50%ph-50%h",
+{
+  "root": {
+    "background-color": "@modalShadeColor",
+    "flow": "vertical",
+    "type": "big",
+    "frame": {
+      "width": "1@srw",
+      "height": "0.70@sf",
+      "pos": "50%pw-50%w, 1@minYposWindow + 0.1*(sh - 1@minYposWindow - h)",
       "position": "absolute",
-      "background-rotation": "0",
-      "display": "hide"
-    }
-  },
-  {
-    "div": {
-      "id": "screen_button",
-      "behaviour": "button",
-      "size": "sw,sh",
-      "pos": "0,0",
-      "position": "absolute",
-      "on_click": "onScreenClick",
-      "input-transparent": "yes"
-    }
-  },
-  {
-    "tdiv": [
-      {
-        "size": "@rw, sh - 1@topBarHeight - 1@blockInterval - 1@bottomBarHeight"
-      },
-      {
-        "pos": "50%pw-50%w, 1@topBarHeight + 1@blockInterval"
-      },
-      {
-        "position": "root"
-      },
-      {
-        "flow": "vertical"
-      },
-      {
-        "tdiv": [
-          {
-            "size": "pw, fh"
-          },
-          {
-            "flow": "vertical"
-          },
-          {
-            "tdiv": {
-              "id": "skins_div",
-              "pos": "pw-w-1@buttonMargin, 0",
-              "position": "relative",
-              "height": "fh",
-              "flow": "vertical",
-              "frame": {
-                "pos": "0, ph-h",
-                "position": "relative",
-                "width": "1@customizationBlockWidth",
-                "max-height": "ph",
-                "overflow-y": "auto",
-                "auto-scroll": "yes",
-                "tdiv": [
-                  {
-                    "flow": "vertical"
-                  },
-                  {
-                    "width": "pw"
-                  },
-                  {
-                    "verticalCellsOptions": [
-                      {
-                        "id": "skins_navigator"
-                      },
-                      {
-                        "class": "optionsMultiColumn"
-                      },
-                      {
-                        "selfFocusBorder": "yes"
-                      },
-                      {
-                        "baseRow": "yes"
-                      },
-                      {
-                        "css-hier-invalidate": "yes"
-                      },
-                      {
-                        "fullWidthOptions": "yes"
-                      },
-                      {
-                        "width": "pw"
-                      },
-                      {
-                        "behavior": "PosOptionsNavigator"
-                      },
-                      {
-                        "navigatorShortcuts": "yes"
-                      },
-                      {
-                        "on_wrap_up": "onWrapUp"
-                      },
-                      {
-                        "on_wrap_down": "onWrapDown"
-                      },
-                      {
-                        "tr": {
-                          "id": "dmg_skin_buttons_div",
-                          "width": "1@customizationBlockWidth",
-                          "flow": "vertical",
-                          "text": {
-                            "text": "#mainmenu/hintDmgSkinPreview",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "smallFont": "yes",
-                            "overlayTextColor": "silver"
-                          },
-                          "SwitchBox": {
-                            "id": "dmg_skin_state",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "textChecked": "#mainmenu/btnDmgSkinDamaged",
-                            "textUnchecked": "#mainmenu/btnDmgSkinUndamaged",
-                            "value": "no",
-                            "on_change_value": "onToggleDmgSkinState",
-                            "SwitchSliderBg": {
-                              "SwitchSliderBgOn": [],
-                              "SwitchSlider": []
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "tr": {
-                          "id": "dmg_skin_div",
-                          "width": "1@customizationBlockWidth",
-                          "flow": "vertical",
-                          "text": {
-                            "text": "#mainmenu/btnDmgSkinPreview",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "smallFont": "yes",
-                            "overlayTextColor": "silver"
-                          },
-                          "SwitchBox": {
-                            "id": "btn_toggle_damaged",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "textChecked": "#options/enabled",
-                            "textUnchecked": "#options/disabled",
-                            "value": "no",
-                            "on_change_value": "onToggleDamaged",
-                            "SwitchSliderBg": {
-                              "SwitchSliderBgOn": [],
-                              "SwitchSlider": []
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "tr": {
-                          "flow": "vertical",
-                          "text": {
-                            "text": "#options/skin",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "smallFont": "yes",
-                            "overlayTextColor": "silver"
-                          },
-                          "td": {
-                            "id": "skins_list",
-                            "cellType": "bottom"
-                          }
-                        }
-                      },
-                      {
-                        "tr": {
-                          "id": "auto_skin_block",
-                          "flow": "vertical",
-                          "text": {
-                            "text": "#skins/auto_in_battle",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "smallFont": "yes",
-                            "overlayTextColor": "silver"
-                          },
-                          "td": {
-                            "id": "auto_skin_place",
-                            "cellType": "bottom"
-                          }
-                        }
-                      },
-                      {
-                        "tr": {
-                          "id": "user_skins_block",
-                          "flow": "vertical",
-                          "text": {
-                            "text": "#options/user_skins",
-                            "left": "1@framePadding",
-                            "position": "relative",
-                            "smallFont": "yes",
-                            "overlayTextColor": "silver"
-                          },
-                          "td": {
-                            "id": "user_skins_list",
-                            "cellType": "bottom",
-                            "tdiv": [
-                              {
-                                "pos": "0,50%ph-50%h"
-                              },
-                              {
-                                "position": "relative"
-                              },
-                              {
-                                "Button_text": {
-                                  "id": "btn_update_skins_list",
-                                  "tooltip": "#decals/updateSkinsList/tooltip",
-                                  "on_click": "refreshSkinsList",
-                                  "class": "image",
-                                  "showConsoleImage": "no",
-                                  "img": {
-                                    "background-image": "#ui/gameuiskin#refresh.svg"
-                                  }
-                                }
-                              },
-                              {
-                                "Button_text": {
-                                  "id": "btn_load_userskin_sample",
-                                  "margin-right": "0",
-                                  "inactiveColor": "yes",
-                                  "tooltip": "#decals/userSkinSample/tooltip",
-                                  "on_click": "getSampleUserSkin",
-                                  "class": "image",
-                                  "showConsoleImage": "no",
-                                  "img": {
-                                    "background-image": "#ui/gameuiskin#btn_wizard.svg"
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "verticalCellsOptions": {
-                      "id": "tank_skin_settings",
-                      "width": "pw",
-                      "class": "optionsMultiColumn",
-                      "selfFocusBorder": "yes",
-                      "baseRow": "yes",
-                      "selectOnAttach": "no",
-                      "css-hier-invalidate": "yes",
-                      "moveY": "linear",
-                      "behavior": "PosOptionsNavigator",
-                      "navigatorShortcuts": "yes",
-                      "on_wrap_up": "onWrapUp",
-                      "on_wrap_down": "onWrapDown"
-                    }
-                  },
-                  {
-                    "textareaNoTab": {
-                      "id": "decal_text_area",
-                      "width": "75%pw",
-                      "left": "1@framePadding",
-                      "position": "relative",
-                      "text": "#charServer/decal/timed",
-                      "smallFont": "yes",
-                      "overlayTextColor": "warning"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "tdiv": {
-              "id": "decor_layout_presets",
-              "left": "pw-w-1@buttonMargin",
-              "position": "relative",
-              "frame": {
-                "width": "1@customizationBlockWidth",
-                "Button_text": {
-                  "id": "btn_decor_layout_presets",
-                  "text": "#customization/decorLayout/title",
-                  "on_click": "onDecorLayoutPresets",
-                  "showButtonImageOnConsole": "no",
-                  "class": "image",
-                  "btnName": "R3",
-                  "img": {
-                    "background-image": "#ui/gameuiskin#slot_change_aircraft.svg"
-                  },
-                  "ButtonImg": []
-                }
-              }
-            }
-          },
-          {
-            "tdiv": {
-              "left": "pw-w-1@buttonMargin",
-              "position": "relative",
-              "height": "fh",
-              "id": "decals_wnd",
-              "frame": [
-                {
-                  "size": "1@countDecalsInWidth * 1@customizationDecoratorBlockWidth + 1@scrollBarSize+1@buttonMargin, ph"
-                },
-                {
-                  "tdiv": {
-                    "height": "1@frameHeaderHeight",
-                    "width": "pw",
-                    "frame_header": {
-                      "activeText": {
-                        "id": "decals_wnd_header",
-                        "text": "#decals",
-                        "caption": "yes"
-                      },
-                      "Button_close": {
-                        "style": "_on_click:onBtnCloseDecalsMenu;"
-                      },
-                      "top_right_holder": {
-                        "CheckBox": {
-                          "id": "checkbox_only_available",
-                          "pos": "0, 50%ph-50%h",
-                          "position": "relative",
-                          "btnName": "Y",
-                          "text": "#mainmenu/onlyAvailable",
-                          "value": "no",
-                          "on_change_value": "onOnlyAvailableDecorators",
-                          "CheckBoxImg": [],
-                          "ButtonImg": []
-                        }
-                      }
-                    }
-                  }
-                },
-                {
-                  "tdiv": {
-                    "id": "decals_list",
-                    "width": "pw",
-                    "margin": "@buttonMargin",
-                    "behaviour": "posNavigator",
-                    "moveX": "linear",
-                    "moveY": "linear",
-                    "navigatorShortcuts": "full",
-                    "on_activate": "onDecalCategoryActivate",
-                    "on_cancel_edit": "onDecalCategoryCancel",
-                    "css-hier-invalidate": "yes",
-                    "flow": "vertical",
-                    "class": "decalsList",
-                    "overflow-y": "auto"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "tdiv": [
-              {
-                "id": "previewed_decorator_div"
-              },
-              {
-                "left": "pw-w-1@buttonMargin"
-              },
-              {
-                "position": "relative"
-              },
-              {
-                "height": "fh"
-              },
-              {
-                "flow": "vertical"
-              },
-              {
-                "tdiv": {
-                  "height": "fh"
-                }
-              },
-              {
-                "frame": {
-                  "id": "previewed_decorator_unit",
-                  "min-width": "1@customizationBlockWidth",
-                  "display": "hide",
-                  "textareaNoTab": {
-                    "id": "label",
-                    "pos": "1@blockInterval, ph/2-h/2",
-                    "position": "relative",
-                    "width": "pw",
-                    "text": "#decoratorPreview/autoselectedUnit",
-                    "tinyFont": "yes"
-                  }
-                }
-              },
-              {
-                "frame": {
-                  "id": "previewed_decorator",
-                  "min-width": "1@customizationBlockWidth",
-                  "text": {
-                    "id": "label",
-                    "left": "1@framePadding",
-                    "text": "#decals",
-                    "overlayTextColor": "active"
-                  },
-                  "tdiv": {
-                    "id": "decorator_preview_div"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "tdiv": [
-              {
-                "left": "pw-w-1@buttonMargin"
-              },
-              {
-                "position": "relative"
-              },
-              {
-                "flow": "vertical"
-              },
-              {
-                "tdiv": {
-                  "id": "attachable_div",
-                  "pos": "pw-w, -1@dp",
-                  "position": "relative",
-                  "frame": {
-                    "id": "slots_attachable_list_edge",
-                    "flow": "vertical",
-                    "width": "1@customizationBlockWidth",
-                    "text": {
-                      "left": "1@framePadding",
-                      "position": "relative",
-                      "text": "#decorators",
-                      "smallFont": "yes",
-                      "overlayTextColor": "silver"
-                    },
-                    "tdiv": {
-                      "id": "slots_attachable_list",
-                      "width": "pw",
-                      "left": "50%pw-50%w",
-                      "position": "relative",
-                      "flow": "h-flow",
-                      "flow-align": "left",
-                      "behaviour": "posNavigator",
-                      "moveX": "linear",
-                      "moveY": "linear",
-                      "navigatorShortcuts": "active",
-                      "on_wrap_up": "onWrapUp",
-                      "on_wrap_down": "onWrapDown",
-                      "css-hier-invalidate": "yes",
-                      "on_activate": "onAttachableSlotActivate",
-                      "on_select": "onAttachSlotSelect"
-                    }
-                  }
-                }
-              },
-              {
-                "tdiv": {
-                  "id": "decalslots_div",
-                  "pos": "pw-w, -1@dp",
-                  "position": "relative",
-                  "frame": {
-                    "id": "slots_list_edge",
-                    "min-width": "1@customizationBlockWidth",
-                    "flow": "vertical",
-                    "text": {
-                      "left": "1@framePadding",
-                      "position": "relative",
-                      "text": "#decals",
-                      "smallFont": "yes",
-                      "overlayTextColor": "silver"
-                    },
-                    "tdiv": {
-                      "id": "slots_list",
-                      "flow": "horizontal",
-                      "behaviour": "posNavigator",
-                      "moveX": "linear",
-                      "moveY": "linear",
-                      "navigatorShortcuts": "active",
-                      "on_wrap_up": "onWrapUp",
-                      "on_wrap_down": "onWrapDown",
-                      "css-hier-invalidate": "yes",
-                      "on_activate": "onDecalSlotActivate",
-                      "on_select": "onDecalSlotSelect"
-                    }
-                  }
-                }
-              },
-              {
-                "frame": {
-                  "id": "unit_status",
-                  "min-width": "1@customizationBlockWidth",
-                  "style": "flow:horizontal",
-                  "img": {
-                    "id": "icon",
-                    "size": "@cIco, @cIco",
-                    "pos": "0, ph/2-h/2",
-                    "position": "relative",
-                    "background-image": "#ui/gameuiskin#locked"
-                  },
-                  "textareaNoTab": {
-                    "id": "text",
-                    "pos": "1@blockInterval, ph/2-h/2",
-                    "position": "relative",
-                    "text": "#weaponry/unit_not_bought",
-                    "overlayTextColor": "bad"
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tdiv": [
-          {
-            "width": "pw"
-          },
-          {
-            "flow": "h-flow"
-          },
-          {
-            "flow-align": "reverse"
-          },
-          {
-            "frame": {
-              "id": "decals_hint",
-              "pos": "pw-w-1@buttonMargin, -h",
-              "position": "absolute",
-              "table": [
-                {
-                  "class": "transpTable"
-                },
-                {
-                  "tr-incsize": "2"
-                },
-                {
-                  "td-incsize": "4"
-                },
-                {
-                  "tr": [
-                    {
-                      "id": "decals_hint_rotate"
-                    },
-                    {
-                      "td": {
-                        "cellType": "tdRight",
-                        "activeText": {
-                          "id": "push_to_rotate"
-                        }
-                      }
-                    },
-                    {
-                      "td": {
-                        "cellType": "tdCenter",
-                        "activeText": {
-                          "text": "#ui/mdash"
-                        }
-                      }
-                    },
-                    {
-                      "td": {
-                        "activeText": {
-                          "text": "#decals/rotate"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "tr": [
-                    {
-                      "id": "decals_hint_resize"
-                    },
-                    {
-                      "td": {
-                        "cellType": "tdRight",
-                        "activeText": {
-                          "id": "push_to_change_size"
-                        }
-                      }
-                    },
-                    {
-                      "td": {
-                        "cellType": "tdCenter",
-                        "activeText": {
-                          "text": "#ui/mdash"
-                        }
-                      }
-                    },
-                    {
-                      "td": {
-                        "activeText": {
-                          "text": "#decals/size"
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "tdiv": {
-              "id": "two_sided",
-              "position": "relative",
-              "pos": "0, ph/2-h/2",
-              "text": {
-                "id": "two_sided_label",
-                "pos": "0, ph/2-h/2",
-                "position": "relative",
-                "padding": "0, 1@buttonTextPadding",
-                "text-valign": "center",
-                "color": "@buttonFontColor",
-                "text": "#decals/twosided",
-                "btnName": "Y",
-                "ButtonImg": {
-                  "pos": "-w-1@buttonImgPadding, ph/2-h/2",
-                  "position": "absolute"
-                }
-              },
-              "HorizontalListBox": [
-                {
-                  "id": "two_sided_select"
-                },
-                {
-                  "pos": "0, ph/2-h/2"
-                },
-                {
-                  "position": "relative"
-                },
-                {
-                  "on_select": "onTwoSidedSelect"
-                },
-                {
-                  "shopFilter": {
-                    "tooltip": "#decals/twosided/off",
-                    "selected": "yes",
-                    "shopFilterImg": {
-                      "background-image": "#ui/gameuiskin#btn_two_sided_printing.svg"
-                    }
-                  }
-                },
-                {
-                  "shopFilter": {
-                    "tooltip": "#decals/twosided",
-                    "shopFilterImg": {
-                      "background-image": "#ui/gameuiskin#btn_two_sided_printing_active.svg"
-                    }
-                  }
-                },
-                {
-                  "shopFilter": {
-                    "tooltip": "#decals/twosided/mirrored",
-                    "shopFilterImg": {
-                      "background-image": "#ui/gameuiskin#btn_two_sided_printing_mirrored.svg"
-                    }
-                  }
-                }
-              ],
-              "dummy": {
-                "id": "two_sided_accesskey",
-                "on_click": "onTwoSided",
-                "behaviour": "accesskey",
-                "accessKey": "J:Y | T"
-              }
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_toggle_mirror",
-              "tooltip": "#decals/flip",
-              "on_click": "onMirror",
-              "style": "accessKey:J:X | F;",
-              "showButtonImageOnConsole": "no",
-              "btnName": "X",
-              "class": "image",
-              "display": "hide",
-              "img": {
-                "id": "btn_toggle_mirror_img",
-                "background-image": "#ui/gameuiskin#btn_flip_decal.svg"
-              },
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_buy_online",
-              "text": "#mainmenu/btnOrder",
-              "on_click": "onBuy",
-              "showButtonImageOnConsole": "no",
-              "class": "image",
-              "display": "hide",
-              "style": "min-width:@buttonWidth",
-              "btnName": "X",
-              "visualStyle": "purchase",
-              "buttonWink": [],
-              "buttonGlance": [],
-              "img": {
-                "background-image": "#ui/gameuiskin#store_icon.svg"
-              },
-              "ButtonImg": [],
-              "discount": {
-                "id": "buy_online_discount",
-                "text": "",
-                "pos": "pw-45%w, -80%h",
-                "position": "absolute",
-                "rotation": "-30"
-              }
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_buy",
-              "_on_click": "onBuy",
-              "hideText": "yes",
-              "css-hier-invalidate": "yes",
-              "showButtonImageOnConsole": "no",
-              "display": "hide",
-              "visualStyle": "purchase",
-              "btnName": "X",
-              "buttonWink": [],
-              "buttonGlance": [],
-              "ButtonImg": [],
-              "textarea": {
-                "id": "btn_buy_text",
-                "class": "buttonText"
-              },
-              "discount": {
-                "id": "buy_discount",
-                "text": "",
-                "pos": "pw-45%w, -80%h",
-                "position": "absolute",
-                "rotation": "-30"
-              }
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_buy_skin",
-              "text": "#mainmenu/btnOrder",
-              "btnName": "X",
-              "_on_click": "onBuySkin",
-              "hideText": "yes",
-              "display": "hide",
-              "showButtonImageOnConsole": "no",
-              "visualStyle": "purchase",
-              "buttonWink": [],
-              "buttonGlance": [],
-              "ButtonImg": [],
-              "textarea": {
-                "id": "btn_buy_skin_text",
-                "class": "buttonText"
-              }
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_info",
-              "on_click": "onInfo",
-              "showButtonImageOnConsole": "no",
-              "text": "#mainmenu/btnAircraftInfo",
-              "btnName": "LB",
-              "class": "image",
-              "img": {
-                "background-image": "#ui/gameuiskin#btn_info.svg"
-              },
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_info_online",
-              "on_click": "onInfo",
-              "showButtonImageOnConsole": "no",
-              "text": "#mainmenu/btnAircraftInfo",
-              "hideText": "yes",
-              "class": "image",
-              "btnName": "LB",
-              "externalLink": "yes",
-              "img": {
-                "background-image": "#ui/gameuiskin#btn_info.svg"
-              },
-              "ButtonImg": [],
-              "activeText": {
-                "text": "#mainmenu/btnAircraftInfo",
-                "css-hier-invalidate": "yes",
-                "underline": []
-              }
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_weapons",
-              "text": "#mainmenu/btnWeapons",
-              "on_click": "onWeaponsInfo",
-              "showButtonImageOnConsole": "no",
-              "class": "image",
-              "btnName": "LT",
-              "img": {
-                "background-image": "#ui/gameuiskin#btn_weapons.svg"
-              },
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_testflight",
-              "text": "#mainmenu/btnTestFlight",
-              "_on_click": "onTestFlight",
-              "showButtonImageOnConsole": "no",
-              "class": "image",
-              "btnName": "L3",
-              "img": {
-                "id": "btn_testflight_image",
-                "background-image": "#ui/gameuiskin#slot_testflight.svg"
-              },
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_dm_viewer",
-              "text": "#mainmenu/btn_dm_viewer_none",
-              "on_click": "onAirInfoToggleDMViewer",
-              "showButtonImageOnConsole": "no",
-              "style": "min-width:@buttonWidth",
-              "btnName": "RB",
-              "class": "image",
-              "display": "hide",
-              "img": {
-                "id": "btn_dm_viewer_icon",
-                "background-image": "#ui/gameuiskin#btn_dm_viewer_none.svg"
-              },
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_decal_edit",
-              "text": "#msgbox/btn_edit",
-              "showButtonImageOnConsole": "no",
-              "btnName": "Y",
-              "_on_click": "onBtnDecoratorEdit",
-              "display": "hide",
-              "visualStyle": "secondary",
-              "buttonWink": [],
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_decal_delete",
-              "text": "#msgbox/btn_delete",
-              "showButtonImageOnConsole": "no",
-              "btnName": "X",
-              "_on_click": "onBtnDeleteDecal",
-              "display": "hide",
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_apply",
-              "text": "#mainmenu/btnApply",
-              "showButtonImageOnConsole": "no",
-              "btnName": "A",
-              "_on_click": "onBtnAccept",
-              "display": "hide",
-              "ButtonImg": []
-            }
-          },
-          {
-            "Button_text": {
-              "id": "btn_back",
-              "text": "#mainmenu/btnBack",
-              "showButtonImageOnConsole": "no",
-              "btnName": "B",
-              "_on_click": "onBtnBack",
-              "focus": "yes",
-              "display": "hide",
-              "ButtonImg": []
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airInfoBlock": {
-      "id": "slot_info",
-      "behavior": "Timer",
-      "display": "show"
-    }
-  },
-  {
-    "tdiv": {
-      "pos": "50%pw-50%w, @battleBtnBottomOffset-1.5@battleButtonHeight-h",
-      "position": "absolute",
-      "flow": "vertical",
-      "animWaitMsg": {
-        "behavior": "bhvUpdater",
-        "pos": "50%pw-50%w, 0",
-        "position": "relative",
-        "value": "{\"viewId\": \"DL_DATA_WAIT_MSG\"}",
-        "css-hier-invalidate": "yes",
-        "fade": "out",
-        "tdiv": {
-          "flow": "vertical",
-          "pos": "0,50%ph-50%h",
-          "position": "relative",
-          "css-hier-invalidate": "yes",
-          "animText": {
-            "id": "msgText",
-            "pos": "50%pw-50%w, 0",
+      "padding": "0.05@sf, 0",
+      "class": "leaderboard",
+      "type": "big",
+      "frame_header": [
+        {
+          "ComboBox": {
+            "id": "modes_list",
             "position": "relative",
-            "font": "@fontNormal",
-            "textShade": "yes",
-            "overlayTextColor": "active",
-            "text": "#loading/skin",
-            "color-factor": "0",
-            "fade": "out"
-          },
-          "tdiv": {
-            "pos": "50%pw-50%w, 0",
-            "position": "relative",
-            "dlDataStat": {
-              "behavior": "bhvUpdater",
-              "pos": "50%pw-50%w,0",
-              "position": "relative",
-              "value": "{\"viewId\": \"DL_DATA_STATE_TEXT\"}",
-              "css-hier-invalidate": "yes",
-              "animText": {
-                "text": "",
-                "font": "@fontTiny",
-                "color-factor": "0",
-                "fade": "out"
-              }
-            }
+            "pos": "1@blockInterval, 50%(ph-h)",
+            "width": "0.3@sf",
+            "display": "hide",
+            "enable": "no",
+            "btnName": "X",
+            "on_select": "onModeSelect",
+            "on_cancel_edit": "onModeSelect"
           }
         },
-        "animated_wait_icon": {
-          "pos": "0,50%ph-50%h",
-          "position": "relative",
-          "background-rotation": "0",
-          "color-factor": "0",
-          "fade": "out"
+        {
+          "ComboBox": {
+            "id": "days_list",
+            "position": "relative",
+            "pos": "1@blockInterval, 50%(ph-h)",
+            "width": "0.2@sf",
+            "display": "hide",
+            "enable": "no",
+            "btnName": "LT",
+            "on_select": "onDaySelect",
+            "on_cancel_edit": "onDaySelect"
+          }
+        },
+        {
+          "ComboBox": {
+            "id": "maps_list",
+            "position": "relative",
+            "pos": "1@blockInterval, 50%(ph-h)",
+            "width": "0.4@sf",
+            "display": "hide",
+            "enable": "no",
+            "btnName": "L3",
+            "on_select": "onMapSelect",
+            "on_cancel_edit": "onMapSelect"
+          }
+        },
+        {
+          "ComboBox": {
+            "id": "countries_list",
+            "position": "relative",
+            "pos": "1@blockInterval, 50%(ph-h)",
+            "width": "0.2@sf",
+            "display": "hide",
+            "enable": "no",
+            "btnName": "R3",
+            "on_select": "onCountrySelect",
+            "on_cancel_edit": "onCountrySelect"
+          }
+        },
+        {
+          "activeText": {
+            "id": "lb_name",
+            "caption": "yes",
+            "text": "",
+            "textHide": "yes"
+          }
+        },
+        {
+          "top_right_holder": {
+            "id": "top_holder",
+            "hasRightIndent": "yes"
+          }
+        },
+        {
+          "Button_close": {
+            "id": "btn_back"
+          }
         }
-      },
+      ],
       "tdiv": {
-        "id": "unit_has_no_armoring",
-        "pos": "50%pw-50%w,0",
-        "position": "relative",
-        "display": "hide",
-        "activeText": {
-          "titleFont": "yes",
-          "text": "#armor_class/no_armoring/common",
-          "position": "relative",
-          "pos": "50%pw-50%w,0",
-          "input-transparent": "yes"
-        }
+        "id": "lb_table_nest",
+        "width": "pw",
+        "height": "fh"
+      },
+      "navBar": {
+        "navLeft": [
+          {
+            "Button_text": {
+              "id": "btn_membership_req",
+              "text": "#clan/btn_membership_req",
+              "on_click": "onMembershipReq",
+              "tooltip": "",
+              "btnName": "X",
+              "ButtonImg": []
+            }
+          },
+          {
+            "Button_text": {
+              "id": "btn_ww_rewards",
+              "text": "#worldwar/btn_rewards",
+              "on_click": "onRewards",
+              "enable": "no",
+              "tooltip": "",
+              "btnName": "Y",
+              "ButtonImg": []
+            }
+          }
+        ],
+        "navMiddle": {
+          "id": "paginator_place"
+        },
+        "navRight": [
+          {
+            "Button_text": {
+              "id": "btn_usercard",
+              "text": "#mainmenu/btnUserCard",
+              "on_click": "onUserCard",
+              "btnName": "A",
+              "ButtonImg": []
+            }
+          },
+          {
+            "Button_text": {
+              "id": "btn_clan_info",
+              "text": "#clan/btn_clan_info",
+              "_on_click": "onClanInfo",
+              "btnName": "A",
+              "ButtonImg": []
+            }
+          }
+        ]
       }
-    }
-  },
-  {
-    "tdiv": {
-      "id": "timer_update",
-      "behaviour": "Timer",
-      "timer_handler_func": "onUpdate"
-    }
-  },
-  {
+    },
     "gamercard_div": [
       {
         "gamercard": [
@@ -1883,4 +1055,4 @@
       }
     ]
   }
-]
+}
