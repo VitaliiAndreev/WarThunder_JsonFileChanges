@@ -93,7 +93,7 @@
     "StabAngle": -2.0
   },
   {
-    "KeelAngle": 4.0
+    "KeelAngle": 2.0
   },
   {
     "AileronAngles": [15.0,15.0]
@@ -921,7 +921,6 @@
         "BladeWidth2": 0.048,
         "BladePitch3": 0.0,
         "BladeWidth3": 0.048,
-        "ForceToBladeAngle": 0.0,
         "Coaxial": false,
         "AirFlowSolver": true,
         "AirFlow1": [-100.0,0.0,1.0],
@@ -929,8 +928,9 @@
         "AirFlow3": [15.0,0.0,1.0],
         "ArcadeTangAirFlowMin": 51.0,
         "ArcadeAxialAirFlowRange": [-300.0,15.0],
-        "RollDamping": [45.0,0.0,100.0,60000.0],
-        "PitchDamping": [45.0,0.0,100.0,60000.0],
+        "RollDamping": [35.0,0.0,75.0,60000.0],
+        "PitchDamping": [35.0,0.0,75.0,60000.0],
+        "ForceToBladeAngle": 0.0,
         "BladeAngleMax": 0.4,
         "MultiPoint": true,
         "CyclicPitchToForceAngle": 3.0,
@@ -960,7 +960,7 @@
         "PitchMax": 13.2,
         "Aoa0": 11.0,
         "PitchCyclicPitchAngles": [-6.5,0.0,6.4],
-        "PitchCyclicRollAngles": [-6.5,0.0,6.5],
+        "PitchCyclicRollAngles": [-6.5,-0.1,6.5],
         "PitchCoaxialDiffAngles": [0.0,0.0,0.0],
         "GovernorType": 9,
         "GovernorSpeed": 0.4,
@@ -1052,11 +1052,12 @@
         "Coaxial": false,
         "AdvancedAirFlow": false,
         "AirFlowSolver": true,
+        "RotationToAirflow": true,
         "AirFlow1": [-100.0,0.0,1.0],
         "AirFlow2": [0.0,0.0,1.0],
         "AirFlow3": [100.0,0.0,1.0],
         "MultiPoint": true,
-        "RollDamping": [0.0,0.0,125.0,20000.0],
+        "RollDamping": [50.0,0.0,125.0,15000.0],
         "DampingMultByFlow": [0.0,1.0,30.0,2.0],
         "VortexRingVFlowMult": [0.0,0.0],
         "VortexRingVFlowToReturnDist": 0.0,
@@ -1097,8 +1098,8 @@
       "Polar": {
         "lineClCoeff": 0.09,
         "Cl0": 0.1,
-        "alphaCritHigh": 25.0,
-        "alphaCritLow": -25.0,
+        "alphaCritHigh": 18.0,
+        "alphaCritLow": -18.0,
         "ClCritHigh": 1.5,
         "ClCritLow": -1.5,
         "CdMin": 0.005,
@@ -1408,7 +1409,7 @@
         "PitchRateMax": 45.0,
         "YawHeadingToYawRateMultByIas": [0.0,1.0,160.0,1.0],
         "YawHeadingToYawRateMultByReqRoll": [0.0,1.0,45.0,0.2],
-        "YawHeadingToYawRate": [0.0,0.0,14.0,45.0],
+        "YawHeadingToYawRate": [0.0,0.0,14.0,40.0],
         "RollPID": {
           "Kp": 2.4,
           "Ki": 0.2,
@@ -1439,9 +1440,9 @@
         },
         "YawRatePID": {
           "Kp": 3.0,
-          "Ki": 1.0,
+          "Ki": 0.2,
           "Imax": 1.0,
-          "Kd": 0.01,
+          "Kd": 0.05,
           "Lim": [-1.0,1.0]
         }
       },

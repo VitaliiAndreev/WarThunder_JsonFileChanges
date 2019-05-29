@@ -14,6 +14,7 @@
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types.blk",
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_tropics",
   "useWarfareAmbient": false,
   "forceMusic": "old_ship_music_ingame",

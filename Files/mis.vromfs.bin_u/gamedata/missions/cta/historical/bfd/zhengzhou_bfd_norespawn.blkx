@@ -617,13 +617,13 @@
               "object": "t2_trucks_aaa_squad"
             },
             {
-              "accuracy": 0.3
+              "accuracy": 0.1
             },
             {
               "effShootingRate": 0.0
             },
             {
-              "airEffShootingRate": 0.3
+              "airEffShootingRate": 0.1
             }
           ]
         },

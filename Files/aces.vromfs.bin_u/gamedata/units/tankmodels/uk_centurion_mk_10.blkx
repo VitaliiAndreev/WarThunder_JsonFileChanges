@@ -149,6 +149,12 @@
         },
         "turret_03_bottom_dm": {
           "armorThickness": 8.0
+        },
+        "turret_02_back_dm": {
+          "armorThickness": 30.0
+        },
+        "turret_top_dm": {
+          "armorThickness": 29.0
         }
       },
       "turret": {
@@ -174,9 +180,6 @@
         },
         "turret_01_bottom_dm": {
           "armorThickness": 100.0
-        },
-        "turret_top_dm": {
-          "armorThickness": 29.0
         }
       },
       "turret_shields": {

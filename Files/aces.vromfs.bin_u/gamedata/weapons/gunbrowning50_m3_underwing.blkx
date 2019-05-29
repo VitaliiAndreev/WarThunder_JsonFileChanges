@@ -1008,6 +1008,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "m3_gun_outside",
       "cockpit": "m3_gun_inside",
       "ai": "m3_gun_ai"

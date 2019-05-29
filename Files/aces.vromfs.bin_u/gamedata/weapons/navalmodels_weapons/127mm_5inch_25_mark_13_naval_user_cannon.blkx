@@ -27,13 +27,16 @@
     "aimMaxDist": 15000.0
   },
   {
+    "attackMaxDist": 12000.0
+  },
+  {
     "maxDeltaAngle": 0.4
   },
   {
-    "maxDeltaAngleVertical": 0.018
+    "maxDeltaAngleVertical": 0.45
   },
   {
-    "attackMaxDist": 12000.0
+    "speedDispersion": 0.005
   },
   {
     "shotFreq": 0.33
@@ -63,13 +66,13 @@
     "sound_path": "ships/weapon_common/cannons"
   },
   {
+    "sound_pathStudio": "naval/weapon/cannons"
+  },
+  {
     "sound": "130mm_b13"
   },
   {
-    "sound_inside": "130mm_b13_interior"
-  },
-  {
-    "sfxReloadBullet": "grd_cannon_reload"
+    "sfxReloadBullet": "naval_cannon_reload"
   },
   {
     "fxMultipleSpawn": true
@@ -88,13 +91,12 @@
       "explosiveMass": 3.288,
       "caliber": 0.127,
       "speed": 792.0,
-      "speedDispersion": 0.05,
       "maxDistance": 25000.0,
       "bulletType": "he_frag_tank",
       "bulletName": "127mm_aa_mk34_mod10",
       "hitPowerMult": 2.0,
       "explodeTreshold": 0.1,
-      "fuseDelayDist": 0.0,
+      "fuseDelayDist": 0.4,
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_he_water_splash",
       "waterFxScale": [0.8,0.8],

@@ -8,6 +8,10 @@
       "strengthEquivalent": 1.28,
       "brisanceEquivalent": 1.28
     },
+    "sw_39a": {
+      "strengthEquivalent": 1.28,
+      "brisanceEquivalent": 1.28
+    },
     "rdx": {
       "strengthEquivalent": 1.28,
       "brisanceEquivalent": 1.28
@@ -135,6 +139,22 @@
     "picric_acid": {
       "strengthEquivalent": 0.94,
       "brisanceEquivalent": 0.95
+    },
+    "dd": {
+      "strengthEquivalent": 0.94,
+      "brisanceEquivalent": 0.95
+    },
+    "mmn": {
+      "strengthEquivalent": 0.94,
+      "brisanceEquivalent": 0.95
+    },
+    "tga_16": {
+      "strengthEquivalent": 1.5,
+      "brisanceEquivalent": 1.4
+    },
+    "tritonal": {
+      "strengthEquivalent": 1.18,
+      "brisanceEquivalent": 1.18
     }
   },
   "explosiveTypeToSplashParams": {
@@ -412,7 +432,7 @@
       }
     },
     "bombs_he_frag": {
-      "fillingRatio": 0.8,
+      "fillingRatio": 1.2,
       "explosiveMassToRadius": {
         "p0": [0.01,1.5],
         "p1": [0.2,7.0],
@@ -424,7 +444,9 @@
         "p7": [120.0,120.0],
         "p8": [300.0,150.0],
         "p9": [500.0,200.0],
-        "p10": [2000.0,300.0]
+        "p10": [2000.0,300.0],
+        "p11": [3000.0,330.0],
+        "p12": [3500.0,370.0]
       },
       "explosiveMassToPenetration": {
         "p0": [0.01,3.0],
@@ -436,7 +458,9 @@
         "p6": [40.0,13.0],
         "p7": [120.0,13.0],
         "p8": [300.0,15.0],
-        "p9": [2000.0,17.0]
+        "p9": [2000.0,17.0],
+        "p10": [3000.0,18.0],
+        "p11": [3500.0,19.0]
       },
       "explosiveMassToDamage": {
         "p0": [0.01,4.0],
@@ -448,7 +472,9 @@
         "p6": [40.0,12.0],
         "p7": [120.0,15.0],
         "p8": [300.0,16.0],
-        "p9": [2000.0,20.0]
+        "p9": [2000.0,20.0],
+        "p10": [3000.0,21.0],
+        "p11": [3500.0,22.0]
       },
       "bodyMassToShattersCount": {
         "p0": [0.05,20.0],
@@ -461,7 +487,9 @@
         "p7": [250.0,20000.0],
         "p8": [500.0,40000.0],
         "p9": [1000.0,80000.0],
-        "p10": [2000.0,100000.0]
+        "p10": [2000.0,100000.0],
+        "p11": [3000.0,120000.0],
+        "p12": [3500.0,150000.0]
       }
     }
   }

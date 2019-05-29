@@ -66,7 +66,7 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
     "notUseDefaultBulletInGui": true
@@ -78,10 +78,10 @@
     "sound_path": "ships/weapon_common/mguns"
   },
   {
-    "sound": "16mm_kpvt"
+    "sound_pathStudio": "naval/weapon/mguns"
   },
   {
-    "sound_inside": "16mm_kpvt_interior"
+    "sound": "16mm_kpvt"
   },
   {
     "soundLoop": true

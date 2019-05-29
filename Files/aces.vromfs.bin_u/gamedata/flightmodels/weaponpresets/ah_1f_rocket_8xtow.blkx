@@ -64,16 +64,6 @@
     ]
   },
   {
-    "hideDmParts": [
-      {
-        "node": "gun3_dm"
-      },
-      {
-        "node": "gun4_dm"
-      }
-    ]
-  },
-  {
     "RocketCap": {
       "name": "cap_1",
       "part": "tow_cap_001"
@@ -81,43 +71,43 @@
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_2",
       "part": "tow_cap_002"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_3",
       "part": "tow_cap_003"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_4",
       "part": "tow_cap_004"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_5",
       "part": "tow_cap_005"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_6",
       "part": "tow_cap_006"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_7",
       "part": "tow_cap_007"
     }
   },
   {
     "RocketCap": {
-      "name": "cap_1",
+      "name": "cap_8",
       "part": "tow_cap_008"
     }
   },

@@ -102,13 +102,13 @@
               "object": "ft_t2_small_aaa_squad"
             },
             {
-              "accuracy": 0.8
+              "accuracy": 0.7
             },
             {
-              "effShootingRate": 0.8
+              "effShootingRate": 0.7
             },
             {
-              "airEffShootingRate": 0.8
+              "airEffShootingRate": 0.7
             },
             {
               "fireRandom": true
@@ -145,13 +145,13 @@
               "object": "ft_t2_big_aaa_squad"
             },
             {
-              "accuracy": 0.8
+              "accuracy": 0.7
             },
             {
-              "effShootingRate": 0.8
+              "effShootingRate": 0.7
             },
             {
-              "airEffShootingRate": 0.8
+              "airEffShootingRate": 0.7
             },
             {
               "fireRandom": true
@@ -622,7 +622,7 @@
         },
         {
           "wait": {
-            "time": 30.0
+            "time": 90.0
           }
         },
         {
@@ -702,13 +702,13 @@
         {
           "__moAddMissionObjective": {
             "target": "ft_t1_find_enemy_airfield",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "__moAddMissionObjective": {
             "target": "ft_t2_find_enemy_airfield",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -743,6 +743,12 @@
             "varSetInt": {
               "value": 0,
               "var": "ft_generate_t1_idx"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t1_try_count"
             }
           },
           {
@@ -1138,11 +1144,357 @@
           },
           {
             "triggerEnable": {
-              "target": "ft_generate_t1_check_army"
+              "target": "ft_generate_t1_airfield_extended"
             }
           }
         ],
         "else_actions": []
+      },
+      "ft_generate_t1_airfield_extended": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.0
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "ft_generate_t1_idx",
+            "value": 3,
+            "comparasion_func": "more"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "задаем рандомайзер позиции аэродрома"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t1_add_idx",
+              "input_var": "ft_t1_max_airfields_count"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "subAB",
+              "value": 1.0,
+              "var": "ft_generate_t1_add_idx",
+              "use_variable": true,
+              "var_value": "ft_generate_t1_idx"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "ft_generate_t1_add_idx"
+            }
+          },
+          {
+            "comment": {
+              "value": "собираем имя переменной для хранения аэродрома"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_name",
+              "digits": 0,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя аэродрома"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t1_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_airfield_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t1_airfield_name",
+              "var": "@ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя локализации"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "missions/airfield_spawn",
+              "var": "ft_generate_t1_loc_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_idx",
+              "digits": 0,
+              "var": "ft_generate_t1_loc_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя переменной для хранения имени зоны"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_zone",
+              "digits": 0,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя бомбовой зоны"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t1_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_zone",
+              "digits": 0,
+              "var": "ft_generate_t1_area_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t1_area_name",
+              "var": "@ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем переменную для хранения таргета"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_target",
+              "digits": 0,
+              "var": "ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя таргета"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t1_airfield_",
+              "var": "ft_generate_t1_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t1_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t1_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t1_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_target",
+              "digits": 0,
+              "var": "ft_generate_t1_target_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t1_target_name",
+              "var": "@ft_generate_t1_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "получаем имя зоны фронтлайна в котором находится аэродром"
+            }
+          },
+          {
+            "getOwnArea": {
+              "name": "@ft_generate_t1_area_name",
+              "template": "flt_area_",
+              "out_var": "ft_generate_t1_own_area_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "получаем армию фронтлайна"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "",
+              "var": "ft_generate_t1_own_state_name",
+              "input_var": "ft_generate_t1_own_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_state",
+              "digits": 0,
+              "var": "ft_generate_t1_own_state_name"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t1_own_state_idx",
+              "input_var": "@ft_generate_t1_own_state_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "проверяем дистанцию до других аэродромов"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_distance_check_t1_check_idx"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "ft_generate_t1_check_army"
+            }
+          }
+        ],
+        "else_actions": {
+          "triggerEnable": {
+            "target": "ft_generate_t1_check_army"
+          }
+        }
       },
       "ft_generate_t1_check_army": {
         "is_enabled": false,
@@ -1160,8 +1512,8 @@
         "conditions": {
           "varCompareInt": {
             "var_value": "ft_generate_t1_own_state_idx",
-            "value": 1,
-            "comparasion_func": "equal"
+            "value": 2,
+            "comparasion_func": "notEqual"
           }
         },
         "actions": {
@@ -1401,7 +1753,7 @@
         "comments": "",
         "props": {
           "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
+          "conditionsType": "ANY",
           "enableAfterComplete": false
         },
         "events": {
@@ -1425,6 +1777,11 @@
             "object": "@ft_distance_check_t1_airfield_name",
             "target": "@ft_generate_t1_target_name",
             "compareCenters": false
+          },
+          "varCompareInt": {
+            "var_value": "ft_generate_t1_try_count",
+            "value": 10,
+            "comparasion_func": "more"
           }
         },
         "actions": [
@@ -1450,6 +1807,13 @@
           }
         ],
         "else_actions": [
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "ft_generate_t1_try_count"
+            }
+          },
           {
             "comment": {
               "value": "аэродромы слишком близко уменьшаем значение индекса генерации на 1"
@@ -1533,6 +1897,12 @@
           {
             "comment": {
               "value": "выставляем аэродром на карту"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t1_try_count"
             }
           },
           {
@@ -1750,7 +2120,7 @@
         "conditions": {
           "varCompareInt": {
             "var_value": "ft_generate_t1_aaa_idx",
-            "value": 16,
+            "value": 10,
             "comparasion_func": "less"
           }
         },
@@ -1982,6 +2352,12 @@
             "varSetInt": {
               "value": 0,
               "var": "ft_generate_t2_idx"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t2_try_count"
             }
           },
           {
@@ -2377,11 +2753,357 @@
           },
           {
             "triggerEnable": {
-              "target": "ft_generate_t2_check_army"
+              "target": "ft_generate_t2_airfield_extended"
             }
           }
         ],
         "else_actions": []
+      },
+      "ft_generate_t2_airfield_extended": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.0
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "ft_generate_t2_idx",
+            "value": 3,
+            "comparasion_func": "more"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "задаем рандомайзер позиции аэродрома"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t2_add_idx",
+              "input_var": "ft_t2_max_airfields_count"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "subAB",
+              "value": 1.0,
+              "var": "ft_generate_t2_add_idx",
+              "use_variable": true,
+              "var_value": "ft_generate_t2_idx"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "ft_generate_t2_add_idx"
+            }
+          },
+          {
+            "comment": {
+              "value": "собираем имя переменной для хранения аэродрома"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_name",
+              "digits": 0,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя аэродрома"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t2_airfield_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_airfield_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t2_airfield_name",
+              "var": "@ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя локализации"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "missions/airfield_spawn",
+              "var": "ft_generate_t2_loc_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_idx",
+              "digits": 0,
+              "var": "ft_generate_t2_loc_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя переменной для хранения имени зоны"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_zone",
+              "digits": 0,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя бомбовой зоны"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t2_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_zone",
+              "digits": 0,
+              "var": "ft_generate_t2_area_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t2_area_name",
+              "var": "@ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем переменную для хранения таргета"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_target",
+              "digits": 0,
+              "var": "ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "создаем имя таргета"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "ft_t2_airfield_",
+              "var": "ft_generate_t2_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_add_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_",
+              "digits": 0,
+              "var": "ft_generate_t2_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@ft_generate_t2_cur_idx",
+              "digits": 2,
+              "var": "ft_generate_t2_target_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_bomb_target",
+              "digits": 0,
+              "var": "ft_generate_t2_target_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "заполняем переменую"
+            }
+          },
+          {
+            "varGetStringValue": {
+              "from_var_name": "ft_generate_t2_target_name",
+              "var": "@ft_generate_t2_var_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "получаем имя зоны фронтлайна в котором находится аэродром"
+            }
+          },
+          {
+            "getOwnArea": {
+              "name": "@ft_generate_t2_area_name",
+              "template": "flt_area_",
+              "out_var": "ft_generate_t2_own_area_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "получаем армию фронтлайна"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "",
+              "var": "ft_generate_t2_own_state_name",
+              "input_var": "ft_generate_t2_own_area_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_state",
+              "digits": 0,
+              "var": "ft_generate_t2_own_state_name"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t2_own_state_idx",
+              "input_var": "@ft_generate_t2_own_state_name"
+            }
+          },
+          {
+            "comment": {
+              "value": "проверяем дистанцию до других аэродромов"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_distance_check_t2_check_idx"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "ft_generate_t2_check_army"
+            }
+          }
+        ],
+        "else_actions": {
+          "triggerEnable": {
+            "target": "ft_generate_t2_check_army"
+          }
+        }
       },
       "ft_generate_t2_check_army": {
         "is_enabled": false,
@@ -2399,8 +3121,8 @@
         "conditions": {
           "varCompareInt": {
             "var_value": "ft_generate_t2_own_state_idx",
-            "value": 2,
-            "comparasion_func": "equal"
+            "value": 1,
+            "comparasion_func": "notEqual"
           }
         },
         "actions": {
@@ -2640,7 +3362,7 @@
         "comments": "",
         "props": {
           "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
+          "conditionsType": "ANY",
           "enableAfterComplete": false
         },
         "events": {
@@ -2664,6 +3386,11 @@
             "object": "@ft_distance_check_t2_airfield_name",
             "target": "@ft_generate_t2_target_name",
             "compareCenters": false
+          },
+          "varCompareInt": {
+            "var_value": "ft_generate_t2_try_count",
+            "value": 10,
+            "comparasion_func": "more"
           }
         },
         "actions": [
@@ -2689,6 +3416,13 @@
           }
         ],
         "else_actions": [
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "ft_generate_t2_try_count"
+            }
+          },
           {
             "comment": {
               "value": "аэродромы слишком близко. уменьшаем индекс генерации"
@@ -2796,6 +3530,12 @@
           {
             "comment": {
               "value": "выставляем аэродром на карту"
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "ft_generate_t2_try_count"
             }
           },
           {
@@ -3013,7 +3753,7 @@
         "conditions": {
           "varCompareInt": {
             "var_value": "ft_generate_t2_aaa_idx",
-            "value": 16,
+            "value": 10,
             "comparasion_func": "less"
           }
         },
@@ -3946,7 +4686,7 @@
               "target": "@ft_complete_objective_t1_objective_name",
               "status": 0,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -4053,7 +4793,7 @@
               "target": "@ft_complete_objective_t2_objective_name",
               "status": 0,
               "team": "Both",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -4125,7 +4865,7 @@
           {
             "__moAddMissionObjective": {
               "target": "ft_t1_find_enemy_airfield",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -4197,7 +4937,7 @@
           {
             "__moAddMissionObjective": {
               "target": "ft_t2_find_enemy_airfield",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -4229,7 +4969,7 @@
               "status": 2,
               "extendedEnding": true,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -4253,7 +4993,7 @@
               "target": "ft_t1_find_enemy_airfield",
               "status": 0,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -4296,7 +5036,7 @@
               "status": 2,
               "extendedEnding": true,
               "team": "B",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -4320,7 +5060,7 @@
               "target": "ft_t2_find_enemy_airfield",
               "status": 0,
               "team": "B",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -5456,7 +6196,8 @@
           "varCompareInt": {
             "var_value": "ft_t1_num_destroyed_fields",
             "value": 2,
-            "comparasion_func": "more"
+            "comparasion_func": "equal",
+            "var_value_other": "ft_t1_max_airfields_count"
           }
         },
         "actions": {
@@ -5488,7 +6229,8 @@
           "varCompareInt": {
             "var_value": "ft_t2_num_destroyed_fields",
             "value": 2,
-            "comparasion_func": "more"
+            "comparasion_func": "equal",
+            "var_value_other": "ft_t2_max_airfields_count"
           }
         },
         "actions": {
@@ -8859,7 +9601,7 @@
           },
           {
             "comment": {
-              "value": "получаем имя таргета филда"
+              "value": "получаем имя зоны филда"
             }
           },
           {
@@ -8870,7 +9612,7 @@
           },
           {
             "varAddString": {
-              "value": "_bomb_target",
+              "value": "_bomb_zone",
               "digits": 0,
               "var": "st_t1_generate_target_name"
             }
@@ -9007,9 +9749,9 @@
               "object_var_name": "",
               "object_var_comp_op": "equal",
               "object_var_value": 0,
+              "stabInfluenceEnabled": true,
               "object": "@st_t1_generate_name",
-              "realisticAI": false,
-              "stabInfluenceEnabled": true
+              "realisticAI": false
             }
           },
           {
@@ -9042,9 +9784,61 @@
               "targetDistMax": 7000.0,
               "maxNumAttackersPerTarget": 1,
               "attackAltRange": [100.0,7000.0],
-              "anchorTarget": "@st_t1_generate_target_name",
+              "anchorArea": "@st_t1_generate_target_name",
               "targetToAnchorDist": [6000.0,7000.0],
               "resetObjectToFollow": false
+            }
+          },
+          {
+            "comment": {
+              "value": "logging"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "sentinnel ",
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t1_generate_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": " spawned at ",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t1_generate_field_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": " and will protect ",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t1_generate_target_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "systemLog": {
+              "value": "@log_var",
+              "logtype": "screen_and_log"
             }
           },
           {
@@ -9342,7 +10136,7 @@
           },
           {
             "comment": {
-              "value": "получаем имя таргета филда"
+              "value": "получаем имя зоны филда"
             }
           },
           {
@@ -9353,7 +10147,7 @@
           },
           {
             "varAddString": {
-              "value": "_bomb_target",
+              "value": "_bomb_zone",
               "digits": 0,
               "var": "st_t2_generate_target_name"
             }
@@ -9490,9 +10284,9 @@
               "object_var_name": "",
               "object_var_comp_op": "equal",
               "object_var_value": 0,
+              "stabInfluenceEnabled": true,
               "object": "@st_t2_generate_name",
-              "realisticAI": false,
-              "stabInfluenceEnabled": true
+              "realisticAI": false
             }
           },
           {
@@ -9525,9 +10319,61 @@
               "targetDistMax": 7000.0,
               "maxNumAttackersPerTarget": 1,
               "attackAltRange": [100.0,7000.0],
-              "anchorTarget": "@st_t2_generate_target_name",
+              "anchorArea": "@st_t2_generate_target_name",
               "targetToAnchorDist": [6000.0,7000.0],
               "resetObjectToFollow": false
+            }
+          },
+          {
+            "comment": {
+              "value": "logging"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "sentinnel ",
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t2_generate_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": " spawned at ",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t2_generate_field_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": " and will protect ",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@st_t2_generate_target_name",
+              "digits": 0,
+              "var": "log_var"
+            }
+          },
+          {
+            "systemLog": {
+              "value": "@log_var",
+              "logtype": "screen_and_log"
             }
           },
           {
@@ -12792,8 +13638,8 @@
     }
   },
   "variables": {
-    "ft_t1_max_airfields_count": 3,
-    "ft_t2_max_airfields_count": 3,
+    "ft_t1_max_airfields_count": 6,
+    "ft_t2_max_airfields_count": 6,
     "ft_generate_t1_idx": 0,
     "ft_generate_t2_idx": 0,
     "ft_distance_check_t1_check_idx": 0,
@@ -12819,39 +13665,75 @@
     "ft_t1_airfield_01_name": "",
     "ft_t1_airfield_02_name": "",
     "ft_t1_airfield_03_name": "",
+    "ft_t1_airfield_04_name": "",
+    "ft_t1_airfield_05_name": "",
+    "ft_t1_airfield_06_name": "",
     "ft_t2_airfield_01_name": "",
     "ft_t2_airfield_02_name": "",
     "ft_t2_airfield_03_name": "",
+    "ft_t2_airfield_04_name": "",
+    "ft_t2_airfield_05_name": "",
+    "ft_t2_airfield_06_name": "",
     "ft_t1_airfield_01_bomb_zone": "",
     "ft_t1_airfield_02_bomb_zone": "",
     "ft_t1_airfield_03_bomb_zone": "",
+    "ft_t1_airfield_04_bomb_zone": "",
+    "ft_t1_airfield_05_bomb_zone": "",
+    "ft_t1_airfield_06_bomb_zone": "",
     "ft_t2_airfield_01_bomb_zone": "",
     "ft_t2_airfield_02_bomb_zone": "",
     "ft_t2_airfield_03_bomb_zone": "",
+    "ft_t2_airfield_04_bomb_zone": "",
+    "ft_t2_airfield_05_bomb_zone": "",
+    "ft_t2_airfield_06_bomb_zone": "",
     "ft_t1_airfield_01_found": false,
     "ft_t1_airfield_02_found": false,
     "ft_t1_airfield_03_found": false,
+    "ft_t1_airfield_04_found": false,
+    "ft_t1_airfield_05_found": false,
+    "ft_t1_airfield_06_found": false,
     "ft_t2_airfield_01_found": false,
     "ft_t2_airfield_02_found": false,
     "ft_t2_airfield_03_found": false,
+    "ft_t2_airfield_04_found": false,
+    "ft_t2_airfield_05_found": false,
+    "ft_t2_airfield_06_found": false,
     "ft_t1_airfield_01_bomb_target": "",
     "ft_t1_airfield_02_bomb_target": "",
     "ft_t1_airfield_03_bomb_target": "",
+    "ft_t1_airfield_04_bomb_target": "",
+    "ft_t1_airfield_05_bomb_target": "",
+    "ft_t1_airfield_06_bomb_target": "",
     "ft_t2_airfield_01_bomb_target": "",
     "ft_t2_airfield_02_bomb_target": "",
     "ft_t2_airfield_03_bomb_target": "",
+    "ft_t2_airfield_04_bomb_target": "",
+    "ft_t2_airfield_05_bomb_target": "",
+    "ft_t2_airfield_06_bomb_target": "",
     "ft_t1_airfield_01_destroyed": false,
     "ft_t1_airfield_02_destroyed": false,
     "ft_t1_airfield_03_destroyed": false,
+    "ft_t1_airfield_04_destroyed": false,
+    "ft_t1_airfield_05_destroyed": false,
+    "ft_t1_airfield_06_destroyed": false,
     "ft_t2_airfield_01_destroyed": false,
     "ft_t2_airfield_02_destroyed": false,
     "ft_t2_airfield_03_destroyed": false,
+    "ft_t2_airfield_04_destroyed": false,
+    "ft_t2_airfield_05_destroyed": false,
+    "ft_t2_airfield_06_destroyed": false,
     "ft_t1_airfield_01_active": false,
     "ft_t1_airfield_02_active": false,
     "ft_t1_airfield_03_active": false,
+    "ft_t1_airfield_04_active": false,
+    "ft_t1_airfield_05_active": false,
+    "ft_t1_airfield_06_active": false,
     "ft_t2_airfield_01_active": false,
     "ft_t2_airfield_02_active": false,
     "ft_t2_airfield_03_active": false,
+    "ft_t2_airfield_04_active": false,
+    "ft_t2_airfield_05_active": false,
+    "ft_t2_airfield_06_active": false,
     "ft_is_detect_on": false,
     "ft_base_detection_range": 4500.0,
     "ft_t1_detection_range": 4500.0,
@@ -13029,7 +13911,12 @@
     "ft_damage_t1_dwelling_slow": 0.0,
     "ft_damage_t2_storage_slow": 0.0,
     "ft_damage_t2_parking_slow": 0.0,
-    "ft_damage_t2_dwelling_slow": 0.0
+    "ft_damage_t2_dwelling_slow": 0.0,
+    "ft_generate_t1_add_idx": 0,
+    "ft_generate_t2_add_idx": 0,
+    "ft_generate_t1_try_count": 0,
+    "ft_generate_t2_try_count": 0,
+    "log_var": ""
   },
   "dialogs": [],
   "airfields": [],

@@ -317,7 +317,7 @@
     },
     {
       "import_record": {
-        "file": "gameData/missions/cta/ships/fuego_islands/spotareas/fuego_islands_NDom_spotareas_template.blk",
+        "file": "gameData/missions/cta/ships/fuego_islands/mainareas/fuego_islands_NDom_template.blk",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

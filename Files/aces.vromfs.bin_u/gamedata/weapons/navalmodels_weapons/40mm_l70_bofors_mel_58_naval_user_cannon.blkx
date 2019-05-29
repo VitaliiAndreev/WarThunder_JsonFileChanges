@@ -66,10 +66,10 @@
     "sound_path": "ships/weapon_ships/cannons"
   },
   {
-    "sound": "40mm_l70_bofors_mel_58"
+    "sound_pathStudio": "naval/weapon/cannons"
   },
   {
-    "sound_inside": "40mm_l70_bofors_mel_58_interior"
+    "sound": "40mm_l70_bofors_mel_58"
   },
   {
     "fxType": "40mm_gun_flame"
@@ -81,7 +81,7 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
     "isBulletBelt": false

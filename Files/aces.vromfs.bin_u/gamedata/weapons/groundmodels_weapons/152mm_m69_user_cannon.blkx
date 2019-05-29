@@ -175,7 +175,7 @@
   },
   "152mm_M69_APDS_FS": {
     "bullet": {
-      "mass": 11.5,
+      "mass": 8.0,
       "caliber": 0.152,
       "ballisticCaliber": 0.08,
       "damageCaliber": 0.04,

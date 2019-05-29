@@ -435,6 +435,12 @@
           "armorThickness": 8.0
         }
       },
+      "sensor": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0,
+        "hp": 200.0,
+        "antenna_target_location_dm": []
+      },
       "optics": {
         "armorClass": "optics_tank",
         "armorThickness": 10.0,
@@ -450,7 +456,6 @@
         "optic_turret_08_dm": [],
         "optic_turret_09_dm": [],
         "optic_turret_10_dm": [],
-        "optic_turret_11_dm": [],
         "optic_body_01_dm": []
       },
       "chassis": {
@@ -582,7 +587,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -1877,6 +1882,19 @@
             ]
           }
         }
+      },
+      {
+        "animatedBones": [
+          {
+            "node": "antenna_target_location"
+          },
+          {
+            "node": "antenna_target_tagging"
+          },
+          {
+            "node": "antenna_target_tagging_mount"
+          }
+        ]
       }
     ]
   },
@@ -1891,11 +1909,11 @@
   {
     "sensors": {
       "sensor": {
-        "blk": "gameData/sensors/marconi_s_400.blk",
+        "blk": "gameData/sensors/uk_marconi_s_400.blk",
         "turretIndex": 0,
         "designationFromBody": true,
         "designationTurretIndex": 0,
-        "dmPart": "radar_dm"
+        "dmPart": "antenna_target_location_dm"
       }
     }
   },
@@ -2724,6 +2742,19 @@
                   ]
                 }
               }
+            },
+            {
+              "animatedBones": [
+                {
+                  "node": "antenna_target_location"
+                },
+                {
+                  "node": "antenna_target_tagging"
+                },
+                {
+                  "node": "antenna_target_tagging_mount"
+                }
+              ]
             },
             {
               "Weapon": {

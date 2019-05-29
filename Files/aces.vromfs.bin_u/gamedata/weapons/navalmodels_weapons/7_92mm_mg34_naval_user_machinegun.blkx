@@ -21,10 +21,10 @@
   "fxMultipleSpawn": true,
   "fxScale": 0.5,
   "shouldCollideWithRendinsts": true,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "sound_path": "ships/weapon_common/mguns",
+  "sound_pathStudio": "naval/weapon/mguns",
   "sound": "8mm_mg34",
-  "sound_inside": "8mm_mg34_interior",
   "soundLoop": true,
   "bullet": {
     "mass": 0.0102,

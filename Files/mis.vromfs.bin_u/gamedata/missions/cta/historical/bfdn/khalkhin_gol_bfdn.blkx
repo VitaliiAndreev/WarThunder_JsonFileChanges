@@ -663,13 +663,13 @@
         {
           "moAddMissionObjective": {
             "target": "t1_khalkhin_gol_BfDn_land",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "t2_khalkhin_gol_BfDn_land",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -1076,7 +1076,7 @@
             "target": "t1_khalkhin_gol_BfDn_bombers",
             "status": 2,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1084,7 +1084,7 @@
             "target": "t2_khalkhin_gol_BfDn_bombers",
             "status": 3,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -1128,7 +1128,7 @@
             "target": "t1_khalkhin_gol_BfDn_land",
             "status": 3,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1136,7 +1136,7 @@
             "target": "t2_khalkhin_gol_BfDn_land",
             "status": 2,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1185,7 +1185,7 @@
             "target": "t1_khalkhin_gol_BfDn_land",
             "status": 2,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1193,7 +1193,7 @@
             "target": "t2_khalkhin_gol_BfDn_land",
             "status": 3,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1247,7 +1247,7 @@
             "target": "t1_khalkhin_gol_BfDn_bombers",
             "status": 3,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1255,7 +1255,7 @@
             "target": "t2_khalkhin_gol_BfDn_bombers",
             "status": 2,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -1290,13 +1290,13 @@
         {
           "moAddMissionObjective": {
             "target": "t1_khalkhin_gol_BfDn_bombers",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "t2_khalkhin_gol_BfDn_bombers",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {

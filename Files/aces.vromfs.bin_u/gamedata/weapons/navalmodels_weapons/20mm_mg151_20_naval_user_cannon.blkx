@@ -72,16 +72,16 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
-    "sound_path": "tanks/weapon_tanks/mguns"
+    "sound_path": "ships/weapon_common/mguns"
+  },
+  {
+    "sound_pathStudio": "naval/weapon/mguns"
   },
   {
     "sound": "15mm_mg151"
-  },
-  {
-    "sound_inside": "15mm_mg151_interior"
   },
   {
     "soundLoop": true

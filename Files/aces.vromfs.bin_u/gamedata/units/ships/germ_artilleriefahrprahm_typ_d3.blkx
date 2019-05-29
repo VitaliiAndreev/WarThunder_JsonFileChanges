@@ -2288,6 +2288,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3531,31 +3532,7 @@
       },
       "turrets": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 15.0,
-        "turret_v_02_dm": {
-          "armorThickness": 12.0,
-          "armorClass": "ship_structural_steel",
-          "hp": 250.0
-        },
-        "turret_v_07_dm": {
-          "armorThickness": 12.0,
-          "armorClass": "ship_structural_steel",
-          "hp": 250.0
-        },
-        "turret_v_09_dm": {
-          "armorThickness": 12.0,
-          "armorClass": "ship_structural_steel",
-          "hp": 250.0
-        },
-        "turret_h_02_dm": {
-          "armorClass": "ship_structural_steel",
-          "hp": 250.0
-        },
-        "turret_h_09_dm": {
-          "armorThickness": 12.0,
-          "armorClass": "ship_structural_steel",
-          "hp": 250.0
-        }
+        "armorThickness": 15.0
       },
       "turrets_main_caliber": {
         "armorClass": "ship_STS",
@@ -3582,6 +3559,12 @@
         "secondaryShatterDamageMult": 0.5,
         "auxiliary_caliber_turret_01_dm": {
           "hp": 112.0
+        },
+        "auxiliary_caliber_turret_02_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_turret_04_dm": {
+          "hp": 100.0
         }
       },
       "turrets_aa_caliber": {
@@ -3633,6 +3616,15 @@
         "explosionDamageMult": 0.5,
         "secondaryShatterDamageMult": 0.01,
         "auxiliary_caliber_gun_01_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_gun_02_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_gun_03_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_gun_04_dm": {
           "hp": 100.0
         }
       },
@@ -5602,10 +5594,10 @@
       {
         "hideNodes": [
           {
-            "node": "turret_v_02"
+            "node": "auxiliary_caliber_gun_02"
           },
           {
-            "node": "turret_v_07"
+            "node": "auxiliary_caliber_gun_03"
           },
           {
             "node": "Bip01 Head_4"
@@ -5721,5 +5713,58 @@
         }
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "artilleriefahrprahm_typ_d3"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_dunkelgrau_51*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_105mm_l45_skc32_lc32ge_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_37_skc_30_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mg_m38_t_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_vierlingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "artilleriefahrprahm_typ_d1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "artilleriefahrprahm_typ_d_deckhouse_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

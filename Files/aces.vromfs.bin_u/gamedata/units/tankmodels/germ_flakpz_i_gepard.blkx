@@ -117,9 +117,6 @@
     "canReloadNonGuns": true
   },
   {
-    "allowForestallWithoutMarkers": true
-  },
-  {
     "spawn_count": {
       "numSpawnsPerBattleSimulation": 2
     }
@@ -205,6 +202,13 @@
         "turret_01_bottom_dm": {
           "armorThickness": 15.0
         }
+      },
+      "sensor": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0,
+        "hp": 200.0,
+        "antenna_target_location_dm": [],
+        "antenna_target_tagging_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",
@@ -1560,6 +1564,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "suspension": [
@@ -1705,6 +1718,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ]
     }
@@ -1780,7 +1802,7 @@
             },
             {
               "linkedAnimPart": {
-                "verNode": "bone_radar",
+                "verNode": "antenna_target_tagging",
                 "verLimits": [0.0,65.0],
                 "verOriginLimits": [-5.0,85.0]
               }
@@ -1912,6 +1934,19 @@
             ]
           }
         }
+      },
+      {
+        "animatedBones": [
+          {
+            "node": "antenna_target_location"
+          },
+          {
+            "node": "antenna_target_tagging"
+          },
+          {
+            "node": "antenna_target_tagging_mount"
+          }
+        ]
       }
     ]
   },
@@ -1927,18 +1962,18 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/gepard_sr.blk",
+          "blk": "gameData/sensors/de_gepard_sr.blk",
           "turretIndex": 0,
           "designationFromBody": true,
           "designationTurretIndex": 0,
-          "dmPart": "radar_dm"
+          "dmPart": "antenna_target_location_dm"
         }
       },
       {
         "sensor": {
-          "blk": "gameData/sensors/gepard_fr.blk",
+          "blk": "gameData/sensors/de_gepard_fr.blk",
           "turretIndex": 0,
-          "dmPart": "radar1_dm"
+          "dmPart": "antenna_target_tagging_dm"
         }
       }
     ]
@@ -2669,7 +2704,7 @@
                   },
                   {
                     "linkedAnimPart": {
-                      "verNode": "bone_radar",
+                      "verNode": "antenna_target_tagging",
                       "verLimits": [0.0,65.0],
                       "verOriginLimits": [-5.0,85.0]
                     }
@@ -2801,6 +2836,19 @@
                   ]
                 }
               }
+            },
+            {
+              "animatedBones": [
+                {
+                  "node": "antenna_target_location"
+                },
+                {
+                  "node": "antenna_target_tagging"
+                },
+                {
+                  "node": "antenna_target_tagging_mount"
+                }
+              ]
             },
             {
               "Weapon": {

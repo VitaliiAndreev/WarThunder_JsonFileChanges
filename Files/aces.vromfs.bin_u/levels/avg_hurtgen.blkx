@@ -30,6 +30,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_autumn",
   "windDir": [-0.4,-0.5],
   "wind_scale": 0.7,

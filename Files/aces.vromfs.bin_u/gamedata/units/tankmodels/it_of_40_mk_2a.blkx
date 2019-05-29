@@ -566,7 +566,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -2699,7 +2699,7 @@
             "triggerGroup": "coaxial"
           },
           {
-            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Beretta_MG42_59_user_machinegun.blk"
+            "blk": "gameData/Weapons/groundModels_weapons/7_62mm_FN_MAG60_40_user_machinegun.blk"
           },
           {
             "emitter": "bone_mg_gun_twin_01"
@@ -2955,7 +2955,7 @@
                   "triggerGroup": "coaxial"
                 },
                 {
-                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Beretta_MG42_59_user_machinegun.blk"
+                  "blk": "gameData/Weapons/groundModels_weapons/7_62mm_FN_MAG60_40_user_machinegun.blk"
                 },
                 {
                   "emitter": "bone_mg_gun_twin_01"

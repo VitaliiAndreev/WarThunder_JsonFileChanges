@@ -256,7 +256,7 @@
     },
     {
       "import_record": {
-        "file": "gameData/missions/templates/navy_templates/ntdm_template.blk",
+        "file": "gameData/missions/templates/navy_templates/ntdm_elimination_template.blk",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

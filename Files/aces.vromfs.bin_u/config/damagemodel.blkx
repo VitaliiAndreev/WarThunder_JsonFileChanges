@@ -28,6 +28,7 @@
   "maxRicochetProbThresholdForTest": 0.6,
   "armorResistance": 1900.0,
   "secondaryShatterWithoutPenetration": [20.0,5.0,0.0,0.0],
+  "cumulativePierceDispersion": 0.2,
   "defaultCaliberToArmorForGuiPenetrationTable": 1.25,
   "massKineticRange": 7.0,
   "massKineticHitPowerK": 0.0,
@@ -141,7 +142,7 @@
   ],
   "penetrationByExplosiveMassModifier": [
     {
-      "mod": [0.0,1.0]
+      "mod": [0.0065,1.0]
     },
     {
       "mod": [0.016,0.93]
@@ -176,6 +177,96 @@
     "p16": [5000000.0,350.0],
     "p17": [8000000.0,370.0],
     "p18": [12000000.0,900.0]
+  },
+  "subcaliberDamageMass": {
+    "p0": [0.0,0.25],
+    "p1": [0.15,0.4],
+    "p2": [0.3,0.5],
+    "p3": [0.4,0.75]
+  },
+  "tracePatterns": {
+    "small": [
+      {
+        "radius": 10.0
+      },
+      {
+        "p0": [1.0,0.0]
+      },
+      {
+        "p0": [1.0,60.0]
+      },
+      {
+        "p0": [1.0,120.0]
+      },
+      {
+        "p0": [1.0,180.0]
+      },
+      {
+        "p0": [1.0,240.0]
+      },
+      {
+        "p0": [1.0,300.0]
+      }
+    ],
+    "large": [
+      {
+        "radius": 50.0
+      },
+      {
+        "p0": [0.5,0.0]
+      },
+      {
+        "p0": [0.5,60.0]
+      },
+      {
+        "p0": [0.5,120.0]
+      },
+      {
+        "p0": [0.5,180.0]
+      },
+      {
+        "p0": [0.5,240.0]
+      },
+      {
+        "p0": [0.5,300.0]
+      },
+      {
+        "p0": [1.0,0.0]
+      },
+      {
+        "p0": [1.0,30.0]
+      },
+      {
+        "p0": [1.0,60.0]
+      },
+      {
+        "p0": [1.0,90.0]
+      },
+      {
+        "p0": [1.0,120.0]
+      },
+      {
+        "p0": [1.0,150.0]
+      },
+      {
+        "p0": [1.0,180.0]
+      },
+      {
+        "p0": [1.0,210.0]
+      },
+      {
+        "p0": [1.0,240.0]
+      },
+      {
+        "p0": [1.0,270.0]
+      },
+      {
+        "p0": [1.0,300.0]
+      },
+      {
+        "p0": [1.0,330.0]
+      }
+    ]
   },
   "normalizationPresets": {
     "default": {
@@ -1198,28 +1289,40 @@
       }
     },
     "atgm": {
-      "residualArmorPenetrationToShatterCountMult": [20.0,200.0,0.7,1.0],
-      "residualArmorPenetrationToShatterPenetrationMult": [20.0,200.0,0.5,1.0],
-      "residualArmorPenetrationToShatterDamageMult": [20.0,200.0,0.7,1.0],
-      "caliberToArmorToShatterCountMult": [0.5,1.0,0.5,1.0],
+      "residualArmorPenetrationToShatterCountMult": [20.0,400.0,0.5,1.0],
+      "residualArmorPenetrationToShatterPenetrationMult": [20.0,400.0,0.5,1.0],
+      "residualArmorPenetrationToShatterDamageMult": [20.0,400.0,0.5,1.0],
+      "caliberToArmorToShatterCountMult": [0.5,1.0,1.0,1.0],
       "section0": {
         "angles": [0.0,3.0],
         "shatter": {
           "distance": 5.0,
           "size": 0.01,
-          "count": 15,
-          "penetration": [12.0,7.0],
-          "damage": [45.0,35.0],
+          "count": 10,
+          "penetration": [50.0,30.0],
+          "damage": [60.0,50.0],
           "aggregateDamage": false,
-          "onHitChanceMultFire": 3.0
+          "onHitChanceMultFire": 5.0
         }
       },
       "section1": {
-        "angles": [0.0,45.0],
+        "angles": [0.0,10.0],
+        "shatter": {
+          "distance": 5.0,
+          "size": 0.01,
+          "count": 30,
+          "penetration": [20.0,17.0],
+          "damage": [60.0,50.0],
+          "aggregateDamage": false,
+          "onHitChanceMultFire": 5.0
+        }
+      },
+      "section2": {
+        "angles": [0.0,50.0],
         "shatter": {
           "distance": 1.5,
           "size": 0.01,
-          "count": 45,
+          "count": 60,
           "penetration": [4.0,3.0],
           "damage": [20.0,10.0],
           "onHitChanceMultFire": 1.0
@@ -1570,7 +1673,7 @@
       }
     },
     "bombs_he_frag": {
-      "fillingRatio": 0.8,
+      "fillingRatio": 1.2,
       "explosiveMassToRadius": {
         "p0": [0.01,1.5],
         "p1": [0.2,7.0],
@@ -1582,7 +1685,9 @@
         "p7": [120.0,120.0],
         "p8": [300.0,150.0],
         "p9": [500.0,200.0],
-        "p10": [2000.0,300.0]
+        "p10": [2000.0,300.0],
+        "p11": [3000.0,330.0],
+        "p12": [3500.0,370.0]
       },
       "explosiveMassToPenetration": {
         "p0": [0.01,3.0],
@@ -1594,7 +1699,9 @@
         "p6": [40.0,13.0],
         "p7": [120.0,13.0],
         "p8": [300.0,15.0],
-        "p9": [2000.0,17.0]
+        "p9": [2000.0,17.0],
+        "p10": [3000.0,18.0],
+        "p11": [3500.0,19.0]
       },
       "explosiveMassToDamage": {
         "p0": [0.01,4.0],
@@ -1606,7 +1713,9 @@
         "p6": [40.0,12.0],
         "p7": [120.0,15.0],
         "p8": [300.0,16.0],
-        "p9": [2000.0,20.0]
+        "p9": [2000.0,20.0],
+        "p10": [3000.0,21.0],
+        "p11": [3500.0,22.0]
       },
       "bodyMassToShattersCount": {
         "p0": [0.05,20.0],
@@ -1619,7 +1728,9 @@
         "p7": [250.0,20000.0],
         "p8": [500.0,40000.0],
         "p9": [1000.0,80000.0],
-        "p10": [2000.0,100000.0]
+        "p10": [2000.0,100000.0],
+        "p11": [3000.0,120000.0],
+        "p12": [3500.0,150000.0]
       }
     }
   },
@@ -1904,6 +2015,24 @@
     "drive_turret_h_05_dm": {
       "speed": 1.3,
       "completely": true
+    },
+    "antenna_target_location_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "antenna_target_tagging_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "optic_gun_dm": {
+      "speed": 1.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     }
   },
   "leftTrackNodes": [
@@ -2718,92 +2847,246 @@
       "completely": true,
       "modRequired": true
     },
+    "elevator_01_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_02_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_03_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_04_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_05_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_06_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_07_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_08_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_09_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_10_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_11_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_12_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_13_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_14_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_15_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
+    "elevator_16_dm": {
+      "speed": 5.0,
+      "completely": true
+    },
     "torpedo_01_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_02_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_03_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_04_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_05_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_06_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_07_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_08_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_09_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_10_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_11_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_12_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_13_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_14_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
     "torpedo_15_dm": {
-      "speed": 1.5,
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_16_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_17_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_18_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_19_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_20_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_21_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_22_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_23_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_24_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_25_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_26_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_27_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_28_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_29_dm": {
+      "speed": 5.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "torpedo_30_dm": {
+      "speed": 5.0,
       "completely": true,
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
@@ -3885,9 +4168,9 @@
       "explodeOnRendinst": true
     },
     "ac_shell_tank": {
-      "normalizationPreset": "apbc",
-      "slopeEffectPreset": "apbc",
-      "ricochetPreset": "apbc",
+      "normalizationPreset": "ap",
+      "ricochetPreset": "ap",
+      "slopeEffectPreset": "ap",
       "modelName": "tank_bullet_ap",
       "secondaryShattersPreset": "ap",
       "fresnel": [0.23,0.1,2.0]
@@ -4277,6 +4560,24 @@
       "secondaryShattersPreset": "ap",
       "fresnel": [0.23,0.1,2.0]
     },
+    "sap_hei_tank": {
+      "normalizationPreset": "heat",
+      "ricochetPreset": "he",
+      "slopeEffectPreset": "ap",
+      "secondaryShattersPreset": "ap",
+      "modelName": "tank_bullet_he",
+      "fresnel": [0.23,0.1,2.0],
+      "stabilityThreshold": 0.4,
+      "stabilityCaliberToArmorThreshold": 10.0,
+      "stabilityReductionAfterRicochet": 0.45,
+      "stabilityReductionAfterPenetration": 1.0,
+      "explodeOnRendinst": true,
+      "stabilityRicochetModifier": {
+        "mod1": [0.0,0.5],
+        "mod2": [20.0,0.6],
+        "mod3": [30.0,1.0]
+      }
+    },
     "sapbc_tank": {
       "normalizationPreset": "apbc",
       "slopeEffectPreset": "apbc",
@@ -4324,7 +4625,84 @@
       "stabilityCaliberToArmorThreshold": 100.0,
       "stabilityReductionAfterRicochet": 0.3,
       "stabilityReductionAfterPenetration": 0.01,
-      "cumulativeSecondaryShattersPreset": "heat_fs",
+      "cumulativeSecondaryShattersPreset": "atgm",
+      "explodeOnRendinst": true,
+      "modelName": "tank_bullet_heat_fs",
+      "fresnel": [0.23,0.1,2.0],
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.0]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod2": [30.0,0.2]
+        }
+      ]
+    },
+    "atgm_vt_fuze_tank": {
+      "normalizationPreset": "heat",
+      "ricochetPreset": "he",
+      "slopeEffectPreset": "ap",
+      "secondaryShattersPreset": "ap_rocket",
+      "modelName": "tank_bullet_he",
+      "fresnel": [0.23,0.1,2.0],
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.15,
+      "explodeOnRendinst": true,
+      "stabilityRicochetModifier": {
+        "mod1": [0.0,0.5],
+        "mod2": [20.0,0.6],
+        "mod3": [30.0,1.0]
+      }
+    },
+    "atgm_he_tank": {
+      "normalizationPreset": "heat",
+      "ricochetPreset": "he",
+      "slopeEffectPreset": "ap",
+      "secondaryShattersPreset": "ap_rocket",
+      "modelName": "tank_bullet_he",
+      "fresnel": [0.23,0.1,2.0],
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.15,
+      "explodeOnRendinst": true,
+      "stabilityRicochetModifier": {
+        "mod1": [0.0,0.5],
+        "mod2": [20.0,0.6],
+        "mod3": [30.0,1.0]
+      }
+    },
+    "sam_tank": {
+      "normalizationPreset": "heat",
+      "ricochetPreset": "he",
+      "slopeEffectPreset": "ap",
+      "secondaryShattersPreset": "ap_rocket",
+      "modelName": "tank_bullet_he",
+      "fresnel": [0.23,0.1,2.0],
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.15,
+      "explodeOnRendinst": true,
+      "stabilityRicochetModifier": {
+        "mod1": [0.0,0.5],
+        "mod2": [20.0,0.6],
+        "mod3": [30.0,1.0]
+      }
+    },
+    "atgm_tandem_tank": {
+      "normalizationPreset": "heat",
+      "ricochetPreset": "atgm",
+      "stabilityThreshold": 0.1,
+      "stabilityCaliberToArmorThreshold": 100.0,
+      "stabilityReductionAfterRicochet": 0.3,
+      "stabilityReductionAfterPenetration": 0.01,
+      "cumulativeSecondaryShattersPreset": "atgm",
       "explodeOnRendinst": true,
       "modelName": "tank_bullet_heat_fs",
       "fresnel": [0.23,0.1,2.0],
@@ -4813,7 +5191,7 @@
   },
   "bulletDecals": {
     "ap": {
-      "bullets": "ac_shell_tank, apbc_tank, apds_tank, apds_early_tank, apds_autocannon, apds_l15_tank, apds_fs_tank, apds_fs_long_tank, apds_fs_full_body_steel_tank, apds_fs_tungsten_small_core_tank, apds_fs_tungsten_l10_l15_tank, apc_tank, aphe_tank, aphebc_tank, apcbc_tank, ap_tank,ap_large_caliber_tank, tp_tank, shrapnel_tank, he_ball, ap_i_ball, ap_i_t_ball, ap_i_t, apc_t, ap_t_ball, ap_ball, apc_solid_medium_caliber_tank, apcbc_solid_medium_caliber_tank,aphe, sap_tank, sapbc_tank",
+      "bullets": "ac_shell_tank, apbc_tank, apds_tank, apds_early_tank, apds_autocannon, apds_l15_tank, apds_fs_tank, apds_fs_long_tank, apds_fs_full_body_steel_tank, apds_fs_tungsten_small_core_tank, apds_fs_tungsten_l10_l15_tank, apc_tank, aphe_tank, aphebc_tank, apcbc_tank, ap_tank,ap_large_caliber_tank, tp_tank, shrapnel_tank, he_ball, ap_i_ball, ap_i_t_ball, ap_i_t, apc_t, ap_t_ball, ap_ball, apc_solid_medium_caliber_tank, apcbc_solid_medium_caliber_tank,aphe, sap_hei_tank, sap_tank, sapbc_tank",
       "pierce": "pr_gen",
       "stop": "st_gen",
       "ricochet": "st_gen",
@@ -4827,7 +5205,7 @@
       "splash": false
     },
     "he": {
-      "bullets": "he_frag_tank, rocket_tank, he_frag_i_t, he_frag_i,  he_frag_radio_fuse, he_frag_dist_fuse, he_frag_vog, he_frag_i_tank, he_vt",
+      "bullets": "he_frag_tank, rocket_tank, atgm_he_tank, atgm_vt_fuze_tank, sam_tank, he_frag_i_t, he_frag_i,  he_frag_radio_fuse, he_frag_dist_fuse, he_frag_vog, he_frag_i_tank, he_vt",
       "pierce": "pr_splash",
       "stop": "st_splash",
       "ricochet": "st_gen",
@@ -4847,7 +5225,7 @@
       "ricochet": "st_gen"
     },
     "heat": {
-      "bullets": "atgm_tank, heat_fs_tank, heat_grenade_tank, heat_tank",
+      "bullets": "atgm_tank, atgm_tandem_tank, heat_fs_tank, heat_grenade_tank, heat_tank",
       "pierce": "pr_jet",
       "stop": "st_jet",
       "ricochet": "st_gen"

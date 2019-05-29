@@ -46,6 +46,13 @@
     "explodeTreshold": 0.0,
     "explodeHitPower": 11500.0,
     "explodeArmorPower": 300.0,
-    "explodeRadius": [15.0,30.0]
+    "explodeRadius": [15.0,30.0],
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
+    }
   }
 }

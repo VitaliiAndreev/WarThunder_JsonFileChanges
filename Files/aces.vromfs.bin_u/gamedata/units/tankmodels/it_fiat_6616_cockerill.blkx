@@ -302,7 +302,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -1417,62 +1417,6 @@
   },
   {
     "MetaParts": {
-      "inner": [
-        {
-          "hp": 10000.0
-        },
-        {
-          "part": "engine_dm"
-        },
-        {
-          "part": "transmission_dm"
-        },
-        {
-          "part": "cannon_breech_dm"
-        },
-        {
-          "part": "cannon_breech_01_dm"
-        },
-        {
-          "part": "cannon_breech_02_dm"
-        },
-        {
-          "part": "cannon_breech_03_dm"
-        },
-        {
-          "part": "cannon_breech_04_dm"
-        },
-        {
-          "part": "cannon_breech_05_dm"
-        },
-        {
-          "effect": {
-            "conditionDamageType": "explosion",
-            "expl": 1.0,
-            "conditionDamage": 250.0,
-            "kill": true,
-            "killEffect": "fire"
-          }
-        },
-        {
-          "effect": {
-            "conditionDamageType": "cumulative",
-            "expl": 1.0,
-            "conditionDamage": 100.0,
-            "kill": true,
-            "killEffect": "fire"
-          }
-        },
-        {
-          "effect": {
-            "conditionDamageType": "generic",
-            "expl": 1.0,
-            "conditionDamage": 180.0,
-            "kill": true,
-            "killEffect": "fire"
-          }
-        }
-      ],
       "body": [
         {
           "hp": 2000.0
@@ -1523,7 +1467,7 @@
           "effect": {
             "conditionDamageType": "explosion",
             "expl": 1.0,
-            "conditionDamage": 250.0,
+            "conditionDamage": 600.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1532,7 +1476,16 @@
           "effect": {
             "conditionDamageType": "cumulative",
             "expl": 1.0,
-            "conditionDamage": 100.0,
+            "conditionDamage": 800.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1626,7 +1579,7 @@
           "effect": {
             "conditionDamageType": "explosion",
             "expl": 1.0,
-            "conditionDamage": 250.0,
+            "conditionDamage": 600.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1635,7 +1588,16 @@
           "effect": {
             "conditionDamageType": "cumulative",
             "expl": 1.0,
-            "conditionDamage": 100.0,
+            "conditionDamage": 800.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1701,9 +1663,9 @@
             "pitch": [-9.0,27.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-138.0,0.0,27.0],
+            "lim1": [-180.0,-138.0,-3.0,27.0],
             "lim2": [-138.0,138.0,-9.0,27.0],
-            "lim3": [138.0,180.0,0.0,27.0]
+            "lim3": [138.0,180.0,-3.0,27.0]
           }
         }
       },
@@ -1896,7 +1858,9 @@
           "wheel_l_02": 0.0,
           "wheel_r_01": 20.0,
           "wheel_r_02": 0.0,
-          "steeringTau": 1.0
+          "steeringTau": 1000000.0,
+          "steeringSpd": 1.0,
+          "steeringNeutralSpd": 3.0
         },
         "driven": {
           "wheel_l_01": true,
@@ -2569,9 +2533,9 @@
                   "pitch": [-9.0,27.0]
                 },
                 "limitsTable": {
-                  "lim1": [-180.0,-138.0,0.0,27.0],
+                  "lim1": [-180.0,-138.0,-3.0,27.0],
                   "lim2": [-138.0,138.0,-9.0,27.0],
-                  "lim3": [138.0,180.0,0.0,27.0]
+                  "lim3": [138.0,180.0,-3.0,27.0]
                 }
               }
             },

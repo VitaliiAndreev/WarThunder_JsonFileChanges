@@ -390,6 +390,26 @@
   "triggers": {
     "isCategory": true,
     "is_enabled": true,
+    "mission_init": {
+      "is_enabled": true,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "initMission": []
+      },
+      "conditions": [],
+      "actions": {
+        "varSetBool": {
+          "value": true,
+          "var": "force_air_spawn"
+        }
+      },
+      "else_actions": []
+    },
     "start_mission": {
       "is_enabled": true,
       "comments": "",
@@ -471,9 +491,6 @@
               "awardByBodyHp": false
             },
             {
-              "offset": [0.0,0.0,0.0]
-            },
-            {
               "tags": {
                 "type_assault": false,
                 "type_interceptor": false,
@@ -487,7 +504,7 @@
           ]
         },
         {
-          "missionMarkAsRespawnPoint": {
+          "__missionMarkAsRespawnPoint": {
             "loc_name": "missions/air_spawn1",
             "spawnEffect": false,
             "isAirfield": false,
@@ -506,7 +523,6 @@
             "target": "t1_common_fighters_spawn",
             "team": "A",
             "awardByBodyHp": false,
-            "offset": [0.0,0.0,0.0],
             "tags": {
               "type_assault": false,
               "type_interceptor": false,

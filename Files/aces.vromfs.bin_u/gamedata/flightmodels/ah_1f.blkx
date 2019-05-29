@@ -1005,6 +1005,7 @@
     "Engine": "engine_ah1",
     "gun": "gun_default",
     "turretTurnSfxPath": "tanks/effects_tanks",
+    "turretTurnSfxPathStudio": "ground/effects",
     "turretTurnSfxName": "turret_turn"
   },
   "cockpit": {
@@ -1198,7 +1199,7 @@
   },
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/an_apr_39.blk"
+      "blk": "gameData/sensors/us_an_apr_39.blk"
     }
   },
   "weapon_presets": [

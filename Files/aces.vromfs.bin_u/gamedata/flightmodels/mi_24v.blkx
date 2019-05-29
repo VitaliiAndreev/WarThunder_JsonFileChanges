@@ -1264,6 +1264,7 @@
     "Engine": "engine_mi24",
     "gun": "gun_default",
     "turretTurnSfxPath": "tanks/effects_tanks",
+    "turretTurnSfxPathStudio": "ground/effects",
     "turretTurnSfxName": "turret_turn"
   },
   "cockpit": {
@@ -1358,7 +1359,7 @@
   },
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/spo-15.blk"
+      "blk": "gameData/sensors/su_spo-15.blk"
     }
   },
   "commonWeapons": [
@@ -1694,7 +1695,7 @@
       "preset": {
         "name": "mi_24v_rocket_r60m_x4_c_8",
         "blk": "gameData/flightModels/weaponPresets/mi_24v_rocket_r60m_x4_c_8.blk",
-        "reqModification": "mi_24_r_60_2"
+        "reqModification": "mi_24_r_60m"
       }
     },
     {
@@ -1709,7 +1710,7 @@
           "reqModification": "mi_24_su_9M114"
         },
         {
-          "reqModification": "mi_24_r_60_2"
+          "reqModification": "mi_24_r_60m"
         }
       ]
     }

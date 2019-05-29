@@ -171,6 +171,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "m129_launcher_outside",
     "cockpit": "m129_launcher_inside",
     "ai": "m129_launcher_ai"

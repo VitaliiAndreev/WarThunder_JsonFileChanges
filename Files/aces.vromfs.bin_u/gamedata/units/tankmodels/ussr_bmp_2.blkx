@@ -105,6 +105,12 @@
     "destroysTrees": true
   },
   {
+    "waterBreakerAnimVar": "bmp_2_break_water_action"
+  },
+  {
+    "waterBreakerToggleTime": 4.0
+  },
+  {
     "type": "typeLightTank"
   },
   {
@@ -115,6 +121,21 @@
   },
   {
     "canReloadNonGuns": true
+  },
+  {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
   },
   {
     "DamageParts": {
@@ -256,9 +277,13 @@
         "ex_armor_turret_r_03_dm": {
           "hidableInViewer": false
         },
-        "ex_decor_02_dm": {
-          "armorThickness": 150.0,
-          "armorClass": "wood"
+        "timber": {
+          "armorClass": "ship_wood",
+          "armorThickness": 100.0,
+          "hp": 250.0,
+          "armorEffectiveThicknessMax": 100.0,
+          "hidableInViewer": true,
+          "ex_decor_02_dm": []
         },
         "ex_armor_turret_r_01_dm": [],
         "ex_armor_turret_r_02_dm": [],
@@ -1636,6 +1661,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "suspension": [
@@ -1754,6 +1788,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ]
     }
@@ -1845,8 +1888,6 @@
             "verticalOmegaMult": 1.0,
             "verticalSpeedLimitKPH": 75.0,
             "speedFromVehicleVerticalMult": -1.0,
-            "speedYaw": 30.0,
-            "speedPitch": 35.0,
             "errorKPHToDegrees": [
               {
                 "row": [5.0,0.0]
@@ -2931,8 +2972,6 @@
                   "verticalOmegaMult": 1.0,
                   "verticalSpeedLimitKPH": 75.0,
                   "speedFromVehicleVerticalMult": -1.0,
-                  "speedYaw": 30.0,
-                  "speedPitch": 35.0,
                   "errorKPHToDegrees": [
                     {
                       "row": [5.0,0.0]
@@ -3437,6 +3476,11 @@
           }
         }
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

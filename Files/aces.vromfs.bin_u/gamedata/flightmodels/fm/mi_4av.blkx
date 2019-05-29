@@ -84,7 +84,7 @@
     "FinHeight": 2.05
   },
   {
-    "Crew": 2
+    "Crew": 3
   },
   {
     "WingAngle": 12.0
@@ -159,7 +159,7 @@
     "CockpitOpenedDoorBreakSpeed": 600.0
   },
   {
-    "MomentOfInertia": [30000.0,60000.0,60000.0]
+    "MomentOfInertia": [20000.0,45000.0,45000.0]
   },
   {
     "IgnoreErrors": true
@@ -906,11 +906,11 @@
   },
   {
     "Propeller0": {
-      "AxisDirection": [-90.0,86.0],
+      "AxisDirection": [-90.0,92.0],
       "CyclicPitchAxisDirectionPitch": [-0.0,-4.5],
       "Pos": [-0.1,2.6,-0.0],
       "Geometry": {
-        "RotationDirection": 1,
+        "RotationDirection": 0,
         "Radius": 10.5,
         "NumBlades": 4,
         "BladePitch0": 3.0,
@@ -930,8 +930,9 @@
         "AirFlow3": [15.0,0.0,1.0],
         "ArcadeTangAirFlowMin": 51.0,
         "ArcadeAxialAirFlowRange": [-300.0,30.0],
-        "RollDamping": [38.0,0.0,50.0,160000.0],
-        "PitchDamping": [38.0,0.0,50.0,160000.0],
+        "RotationToAirflow": true,
+        "RollDamping": [30.0,0.0,50.0,160000.0],
+        "PitchDamping": [30.0,0.0,50.0,160000.0],
         "BladeAngleMax": 0.4,
         "MultiPoint": true,
         "CyclicPitchToForceAngle": 3.0,
@@ -1006,9 +1007,9 @@
         "MultLimit2": 0.0,
         "MachCrit3": 0.25,
         "MachMax3": 0.7,
-        "MultMachMax3": 0.2,
+        "MultMachMax3": 0.5,
         "MultLineCoeff3": -0.2,
-        "MultLimit3": 0.2,
+        "MultLimit3": 0.5,
         "MachCrit4": 0.25,
         "MachMax4": 0.7,
         "MultMachMax4": 0.7,
@@ -1053,11 +1054,12 @@
         "Coaxial": false,
         "AdvancedAirFlow": false,
         "AirFlowSolver": true,
+        "RotationToAirflow": true,
         "AirFlow1": [-100.0,120.0,1.0],
         "AirFlow2": [0.0,0.0,1.0],
         "AirFlow3": [15.0,0.0,1.0],
         "MultiPoint": true,
-        "RollDamping": [0.0,0.0,125.0,80000.0],
+        "RollDamping": [50.0,0.0,125.0,15000.0],
         "DampingMultByFlow": [0.0,1.0,30.0,2.0],
         "VortexRingVFlowMult": [0.0,0.0],
         "VortexRingVFlowToReturnDist": 0.0,
@@ -1073,8 +1075,8 @@
         "InertiaMomentCoeff": 1.0
       },
       "Governor": {
-        "PitchMin": -25.01,
-        "PitchMax": 15.02,
+        "PitchMin": -15.01,
+        "PitchMax": 25.02,
         "Aoa0": 7.5,
         "PitchCyclicPitchAngles": [0.0,0.0,0.0],
         "PitchCyclicRollAngles": [0.0,0.0,0.0],
@@ -1160,7 +1162,7 @@
       "PropellerReductor1": 0.434,
       "PropellerPitchSource1": "rudder",
       "EngineAcceleration": 1.0,
-      "MidAxisPitch1": 0.33,
+      "MidAxisPitch1": 0.62,
       "CorrectPropellerToTransmissionLink": true
     }
   },
@@ -1176,7 +1178,7 @@
       "AdvancedMass": false,
       "SeparateFuelTanks": false,
       "Takeoff": 7550.0,
-      "CenterOfGravity": [0.1,-0.3,-0.0],
+      "CenterOfGravity": [0.1,-0.0,-0.0],
       "WingCritOverload": [-100000.0,250000.0],
       "GearDestructionIndSpeed": 420.0,
       "AirbrakeDestructionIndSpeed": -1.0,
@@ -1411,7 +1413,7 @@
         "PitchRateMax": 45.0,
         "YawHeadingToYawRateMultByIas": [0.0,1.0,160.0,1.0],
         "YawHeadingToYawRateMultByReqRoll": [0.0,1.0,45.0,0.2],
-        "YawHeadingToYawRate": [0.0,0.0,14.0,45.0],
+        "YawHeadingToYawRate": [0.0,0.0,14.0,42.0],
         "RollPID": {
           "Kp": 2.4,
           "Ki": 0.2,

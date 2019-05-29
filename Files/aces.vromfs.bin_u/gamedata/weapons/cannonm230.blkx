@@ -27,7 +27,6 @@
     "hitPowerMult": 10.0,
     "effectiveDistance": 2500.0,
     "relativeVelHitShift": [300.0,1000.0],
-    "relativeVelArmorShift": [200.0,1000.0],
     "ricochetEffect": "bullet_hit_armor",
     "waterCollisionEffect": "big_water_splash",
     "waterFxScale": [0.8,1.0],
@@ -38,20 +37,9 @@
       "HitPower2500m": [0.5,2500.0],
       "HitPower7000m": [0.0,7000.0]
     },
-    "armorpower": {
-      "ArmorPower0m": [2.0,10.0],
-      "ArmorPower100m": [2.0,100.0],
-      "ArmorPower500m": [2.0,500.0],
-      "ArmorPower1000m": [2.0,1000.0],
-      "ArmorPower1500m": [2.0,1500.0],
-      "ArmorPower1800m": [2.0,1800.0],
-      "ArmorPower2500m": [2.0,2500.0],
-      "ArmorPower6000m": [1.0,6000.0],
-      "ArmorPower7000m": [0.0,7000.0]
-    },
     "cumulativeDamage": {
-      "armorPower": 50.0,
-      "distance": 3.5,
+      "armorPower": 51.0,
+      "distance": 2.5,
       "damage": 100.0,
       "onHitChanceMultFire": 10.0
     },
@@ -164,12 +152,13 @@
     "visual": {
       "range_percent_of_ammo": [100.0,0.0],
       "traceFreq": 1,
-      "tracer": "30mmRed",
-      "trail": "noTrail"
+      "tracer": "noColor",
+      "trail": "smallTrail"
     }
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "cannon_gsh_23_outside",
     "cockpit": "cannon_gsh_23_inside",
     "ai": "cannon_gsh_23_ai"

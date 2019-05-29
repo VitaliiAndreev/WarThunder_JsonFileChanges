@@ -24,6 +24,18 @@
       },
       {
         "node": "opo-57km_004"
+      },
+      {
+        "node": "pylon_rocket_l"
+      },
+      {
+        "node": "pylon_rocket_r"
+      },
+      {
+        "node": "apu_28_l"
+      },
+      {
+        "node": "apu_28_r"
       }
     ]
   },

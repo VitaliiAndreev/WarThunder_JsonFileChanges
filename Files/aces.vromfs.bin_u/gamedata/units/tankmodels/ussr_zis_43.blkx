@@ -609,7 +609,7 @@
       },
       "chassis_front": {
         "hp": 250.0,
-        "armorThickness": 2.0,
+        "armorThickness": 10.0,
         "armorClass": "car_wheels",
         "ex_decor_06_dm": [],
         "wheel_l_01_dm": [],

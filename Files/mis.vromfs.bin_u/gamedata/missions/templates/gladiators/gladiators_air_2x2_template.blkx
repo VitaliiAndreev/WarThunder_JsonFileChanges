@@ -332,18 +332,6 @@
           }
         },
         {
-          "varSetInt": {
-            "value": 1000,
-            "var": "beading_power_for_indication"
-          }
-        },
-        {
-          "varSetInt": {
-            "value": 1,
-            "var": "num_of_battles_in_round"
-          }
-        },
-        {
           "missionBattleArea": {
             "air": true,
             "ground": false,
@@ -718,13 +706,6 @@
             }
           },
           {
-            "varModify": {
-              "operator": "mul",
-              "value": 1.0,
-              "var": "num_of_round"
-            }
-          },
-          {
             "varSetInt": {
               "value": 35,
               "var": "shooting_timer"
@@ -744,20 +725,9 @@
             ]
           },
           {
-            "triggerEnable": [
-              {
-                "target": "t1_win_in_round"
-              },
-              {
-                "target": "t2_win_in_round"
-              },
-              {
-                "target": "draw_in_round"
-              },
-              {
-                "target": "check_when_inactive"
-              }
-            ]
+            "triggerEnable": {
+              "target": "check_when_inactive"
+            }
           },
           {
             "triggerEnable": [
@@ -852,22 +822,7 @@
             "time": 1.0
           }
         },
-        "conditions": [
-          {
-            "varCompareInt": {
-              "var_value": "indication_point_team_A",
-              "value": 2000,
-              "comparasion_func": "less"
-            }
-          },
-          {
-            "varCompareInt": {
-              "var_value": "indication_point_team_B",
-              "value": 2000,
-              "comparasion_func": "less"
-            }
-          }
-        ],
+        "conditions": [],
         "actions": [
           {
             "playHint": {
@@ -947,140 +902,6 @@
         "else_actions": []
       }
     },
-    "round_03": {
-      "isCategory": true,
-      "is_enabled": true,
-      "t1_win_battle": {
-        "is_enabled": false,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": {
-          "varCompareInt": {
-            "var_value": "bleeding_points_team_A",
-            "value": 0,
-            "comparasion_func": "more",
-            "var_value_other": "bleeding_points_team_B"
-          }
-        },
-        "actions": [
-          {
-            "gameMPChangeScore": {
-              "value": -1000,
-              "valueSystem": "amount",
-              "var": "bleading_power",
-              "team": "B"
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "standard",
-              "name": "hints/duel_battle_win",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "A"
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "standard",
-              "name": "hints/duel_battle_lose",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "B"
-            }
-          }
-        ],
-        "else_actions": []
-      },
-      "t2_win_battle": {
-        "is_enabled": false,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": {
-          "varCompareInt": {
-            "var_value": "bleeding_points_team_B",
-            "value": 0,
-            "comparasion_func": "more",
-            "var_value_other": "bleeding_points_team_A"
-          }
-        },
-        "actions": [
-          {
-            "gameMPChangeScore": {
-              "value": -1000,
-              "valueSystem": "amount",
-              "var": "bleading_power",
-              "team": "A"
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "standard",
-              "name": "hints/duel_battle_win",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "B"
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "standard",
-              "name": "hints/duel_battle_lose",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "A"
-            }
-          }
-        ],
-        "else_actions": []
-      }
-    },
     "zone_results": {
       "isCategory": true,
       "is_enabled": true,
@@ -1130,6 +951,18 @@
                 "target": "battle_area_01",
                 "canCaptureInAir": true,
                 "captureNoPenalty": true
+              }
+            },
+            {
+              "gameMPChangeScore": {
+                "value": -1000,
+                "valueSystem": "amount",
+                "team": "B"
+              }
+            },
+            {
+              "triggerEnable": {
+                "target": "round_01_end"
               }
             },
             {
@@ -1191,6 +1024,18 @@
               }
             },
             {
+              "gameMPChangeScore": {
+                "value": -1000,
+                "valueSystem": "amount",
+                "team": "A"
+              }
+            },
+            {
+              "triggerEnable": {
+                "target": "round_01_end"
+              }
+            },
+            {
               "triggerDisable": [
                 {
                   "target": "zone_01_t1_win"
@@ -1242,6 +1087,9 @@
                 "target": "zone_01_t2_win"
               }
             ],
+            "triggerEnable": {
+              "target": "round_01_end"
+            },
             "missionMarkAsCaptureZone": {
               "army": 0,
               "timeMultiplier": 1.0,
@@ -1250,309 +1098,6 @@
               "target": "battle_area_01",
               "canCaptureInAir": true,
               "captureNoPenalty": true
-            }
-          },
-          "else_actions": []
-        }
-      },
-      "overall_result": {
-        "isCategory": true,
-        "is_enabled": true,
-        "t1_win_in_round": {
-          "is_enabled": false,
-          "comments": "",
-          "props": {
-            "actionsType": "PERFORM_ONE_BY_ONE",
-            "conditionsType": "ALL",
-            "enableAfterComplete": false
-          },
-          "events": {
-            "periodicEvent": {
-              "time": 1.0
-            }
-          },
-          "conditions": [
-            {
-              "varCompareInt": {
-                "var_value": "num_of_finished_battles",
-                "value": 0,
-                "comparasion_func": "equal",
-                "var_value_other": "num_of_battles_in_round"
-              }
-            },
-            {
-              "varCompareInt": {
-                "var_value": "t1_win_in_battle",
-                "value": 0,
-                "comparasion_func": "more",
-                "var_value_other": "t2_win_in_battle"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "playHint": {
-                "hintType": "standard",
-                "name": "hints/duel_round_win",
-                "action": "show",
-                "shouldFadeOut": true,
-                "time": 5.0,
-                "priority": 0,
-                "isOverFade": false,
-                "target_marking": 0,
-                "object_var_name": "",
-                "object_var_comp_op": "equal",
-                "object_var_value": 0,
-                "shouldBlink": false,
-                "team": "A"
-              }
-            },
-            {
-              "playHint": {
-                "hintType": "standard",
-                "name": "hints/duel_round_lose",
-                "action": "show",
-                "shouldFadeOut": true,
-                "time": 5.0,
-                "priority": 0,
-                "isOverFade": false,
-                "target_marking": 0,
-                "object_var_name": "",
-                "object_var_comp_op": "equal",
-                "object_var_value": 0,
-                "shouldBlink": false,
-                "team": "B"
-              }
-            },
-            {
-              "triggerDisable": {
-                "target": "t2_win_in_round"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": 1.0,
-                "var": "bleeding_points_team_B",
-                "use_variable": true,
-                "var_value": "bleading_power"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": 1.0,
-                "var": "indication_point_team_A",
-                "use_variable": true,
-                "var_value": "beading_power_for_indication"
-              }
-            },
-            {
-              "wait": {
-                "time": 6.0
-              }
-            },
-            {
-              "gameMPChangeScore": {
-                "value": 1,
-                "valueSystem": "amount",
-                "var": "bleading_power",
-                "team": "B"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": -1.0,
-                "var": "num_of_finished_battles"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": -1.0,
-                "var": "t1_win_in_battle"
-              }
-            },
-            {
-              "triggerEnable": {
-                "target": "round_01_end"
-              }
-            }
-          ],
-          "else_actions": []
-        },
-        "t2_win_in_round": {
-          "is_enabled": false,
-          "comments": "",
-          "props": {
-            "actionsType": "PERFORM_ONE_BY_ONE",
-            "conditionsType": "ALL",
-            "enableAfterComplete": false
-          },
-          "events": {
-            "periodicEvent": {
-              "time": 1.0
-            }
-          },
-          "conditions": [
-            {
-              "varCompareInt": {
-                "var_value": "num_of_finished_battles",
-                "value": 0,
-                "comparasion_func": "equal",
-                "var_value_other": "num_of_battles_in_round"
-              }
-            },
-            {
-              "varCompareInt": {
-                "var_value": "t2_win_in_battle",
-                "value": 0,
-                "comparasion_func": "more",
-                "var_value_other": "t1_win_in_battle"
-              }
-            }
-          ],
-          "actions": [
-            {
-              "playHint": {
-                "hintType": "standard",
-                "name": "hints/duel_round_win",
-                "action": "show",
-                "shouldFadeOut": true,
-                "time": 5.0,
-                "priority": 0,
-                "isOverFade": false,
-                "target_marking": 0,
-                "object_var_name": "",
-                "object_var_comp_op": "equal",
-                "object_var_value": 0,
-                "shouldBlink": false,
-                "team": "B"
-              }
-            },
-            {
-              "playHint": {
-                "hintType": "standard",
-                "name": "hints/duel_round_lose",
-                "action": "show",
-                "shouldFadeOut": true,
-                "time": 5.0,
-                "priority": 0,
-                "isOverFade": false,
-                "target_marking": 0,
-                "object_var_name": "",
-                "object_var_comp_op": "equal",
-                "object_var_value": 0,
-                "shouldBlink": false,
-                "team": "A"
-              }
-            },
-            {
-              "triggerDisable": {
-                "target": "t1_win_in_round"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": 1.0,
-                "var": "bleeding_points_team_A",
-                "use_variable": true,
-                "var_value": "bleading_power"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": 1.0,
-                "var": "indication_point_team_B",
-                "use_variable": true,
-                "var_value": "beading_power_for_indication"
-              }
-            },
-            {
-              "wait": {
-                "time": 6.0
-              }
-            },
-            {
-              "gameMPChangeScore": {
-                "value": 1,
-                "valueSystem": "amount",
-                "var": "bleading_power",
-                "team": "A"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": -1.0,
-                "var": "num_of_finished_battles"
-              }
-            },
-            {
-              "varModify": {
-                "operator": "add",
-                "value": -1.0,
-                "var": "t2_win_in_battle"
-              }
-            },
-            {
-              "triggerEnable": {
-                "target": "round_01_end"
-              }
-            }
-          ],
-          "else_actions": []
-        },
-        "draw_in_round": {
-          "is_enabled": false,
-          "comments": "",
-          "props": {
-            "actionsType": "PERFORM_ONE_BY_ONE",
-            "conditionsType": "ALL",
-            "enableAfterComplete": false
-          },
-          "events": {
-            "periodicEvent": {
-              "time": 1.0
-            }
-          },
-          "conditions": [
-            {
-              "varCompareInt": {
-                "var_value": "num_of_finished_battles",
-                "value": 0,
-                "comparasion_func": "equal",
-                "var_value_other": "num_of_battles_in_round"
-              }
-            },
-            {
-              "varCompareInt": {
-                "var_value": "t1_win_in_battle",
-                "value": 0,
-                "comparasion_func": "equal",
-                "var_value_other": "t2_win_in_battle"
-              }
-            }
-          ],
-          "actions": {
-            "triggerDisable": [
-              {
-                "target": "t1_win_in_round"
-              },
-              {
-                "target": "t2_win_in_round"
-              }
-            ],
-            "varModify": {
-              "operator": "add",
-              "value": -1.0,
-              "var": "num_of_finished_battles"
-            },
-            "triggerEnable": {
-              "target": "round_01_end"
             }
           },
           "else_actions": []
@@ -2225,14 +1770,11 @@
     "t1_win_in_battle": 0,
     "t2_win_in_battle": 0,
     "num_of_finished_battles": 0,
-    "num_of_battles_in_round": 0,
-    "num_of_round": 0,
     "bleeding_points_team_A": 6000,
     "bleeding_points_team_B": 6000,
     "bleading_power": -1000,
     "indication_point_team_A": 0,
     "indication_point_team_B": 0,
-    "beading_power_for_indication": 0,
     "string_for_round_end": "",
     "shooting_timer": 35,
     "disqualification_timer": 30
@@ -3770,6 +3312,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_player01"
           },
           {
@@ -3884,6 +3429,9 @@
           [2609.95,54.45,6974.05]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_player01"
           },
@@ -4000,6 +3548,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_player01"
           },
           {
@@ -4111,6 +3662,9 @@
           [2667.55,77.95,7610.4]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_player01"
           },

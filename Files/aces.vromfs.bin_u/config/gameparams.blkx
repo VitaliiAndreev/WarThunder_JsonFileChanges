@@ -112,12 +112,12 @@
   "timeToReturnToMap": 10.0,
   "landingTimeAfterSpawnToBailout": 3600.0,
   "spawnInAirOffset": 0.0,
-  "maxAirfieldLiftStepCount": 0,
+  "maxAirfieldLiftStepCount": 20,
   "maxTimeToReturnToMapForTanks": 25.0,
   "killDistFromBattleAreaForTanks": 20.0,
   "maxTimeToReturnToMapForShips": 90.0,
   "killDistFromBattleAreaForShips": 300.0,
-  "dynamicCubeTexSize": 128,
+  "dynamicCubeTexSize": 256,
   "dynamicCubePos": [0.0,500.0,0.0],
   "dynamicCubeBlur": 0.05,
   "waterCubePos": [0.0,500.0,0.0],
@@ -2666,7 +2666,9 @@
         "bombShatterDamageScaleForAircraft": [1.0,1.0,1.0],
         "crashDamagePlayers": false,
         "crashDamageBots": true,
-        "shipBrokenFunnelMaxRedynessMult": 0.3
+        "shipBrokenFunnelMaxRedynessMult": 0.6,
+        "shipBrokenElevatorMult": 0.8,
+        "shipDamagedElevatorMult": 0.9
       },
       "realistic": {
         "brokenBarrelAllowShoot": true,
@@ -2694,7 +2696,9 @@
         "bombShatterDamageScaleForAircraft": [0.5,0.55,0.6],
         "crashDamagePlayers": true,
         "crashDamageBots": true,
-        "shipBrokenFunnelMaxRedynessMult": 0.3
+        "shipBrokenFunnelMaxRedynessMult": 0.6,
+        "shipBrokenElevatorMult": 0.8,
+        "shipDamagedElevatorMult": 0.9
       },
       "simulator": {
         "brokenBarrelAllowShoot": false,
@@ -2706,7 +2710,9 @@
         "bombShatterDamageScaleForAircraft": [0.5,0.55,0.6],
         "crashDamagePlayers": true,
         "crashDamageBots": true,
-        "shipBrokenFunnelMaxRedynessMult": 0.3
+        "shipBrokenFunnelMaxRedynessMult": 0.6,
+        "shipBrokenElevatorMult": 0.8,
+        "shipDamagedElevatorMult": 0.9
       }
     },
     "bombAssaultFuseTimeOverride": {
@@ -2980,6 +2986,8 @@
     "occlusionSunDirThreshold": 0.5,
     "staticCascadeForcedRiExtraLod": -1,
     "staticCascadeConstDepthBias": 0.004,
+    "staticSmallCascadeRiDepthBias": 0.0005,
+    "staticLargeCascadeRiDepthBias": 0.015,
     "ultralow": {
       "staticCascadeCount": 1,
       "staticCascadeRegMul": 1.0,
@@ -3762,6 +3770,18 @@
       "radar": {
         "my": "radar",
         "enemy": "radar"
+      }
+    },
+    {
+      "antenna_target_location": {
+        "my": "location_radar",
+        "enemy": "location_radar"
+      }
+    },
+    {
+      "antenna_target_tagging": {
+        "my": "tagging_radar",
+        "enemy": "tagging_radar"
       }
     },
     {
@@ -5555,6 +5575,162 @@
       }
     },
     {
+      "torpedo_05": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_06": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_07": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_08": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_09": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_10": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_11": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_12": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_13": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_14": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_15": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_16": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_17": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_18": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_19": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_20": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_21": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_22": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_23": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_24": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_25": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_26": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_27": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_28": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_29": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
+      "torpedo_30": {
+        "my": "ship_torpedo",
+        "enemy": "ship_torpedo"
+      }
+    },
+    {
       "depth_charge_01": {
         "my": "ship_depth_charge",
         "enemy": "ship_depth_charge"
@@ -6298,6 +6474,12 @@
         "p": "ex_decor_"
       },
       {
+        "p": "antenna_target_location"
+      },
+      {
+        "p": "antenna_target_tagging"
+      },
+      {
         "p": {
           "name": "auxiliary_caliber_turret",
           "unit": "ship"
@@ -6431,6 +6613,9 @@
         "p": "torpedo_1"
       },
       {
+        "p": "torpedo_2"
+      },
+      {
         "p": "mg_"
       },
       {
@@ -6444,6 +6629,12 @@
       },
       {
         "p": "ex_era_turret_"
+      },
+      {
+        "p": "antenna_target_location_"
+      },
+      {
+        "p": "antenna_target_tagging_"
       },
       {
         "p": {
@@ -7692,6 +7883,54 @@
           "name": "wheel_l_03_",
           "modelNames": "amx_10rc"
         }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "type_16"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "type_16"
+        }
       }
     ],
     "crew": [
@@ -7730,6 +7969,12 @@
       }
     ],
     "inner": [
+      {
+        "p": "antenna_target_location_"
+      },
+      {
+        "p": "antenna_target_tagging_"
+      },
       {
         "p": {
           "name": "optic_"
@@ -7953,6 +8198,11 @@
       {
         "p": {
           "name": "torpedo_1"
+        }
+      },
+      {
+        "p": {
+          "name": "torpedo_2"
         }
       },
       {
@@ -10206,6 +10456,41 @@
       },
       {
         "ri": "norway_stone_grey_small_j_range"
+      }
+    ],
+    "badLod1ForStaticShadow": [
+      {
+        "ri": "tunis_big_stone_a"
+      },
+      {
+        "ri": "tunis_big_stone_b"
+      },
+      {
+        "ri": "tunis_big_stone_c"
+      },
+      {
+        "ri": "tunis_big_stone_d"
+      },
+      {
+        "ri": "tunis_big_stone_e"
+      },
+      {
+        "ri": "africa_cliff_a"
+      },
+      {
+        "ri": "africa_cliff_b"
+      },
+      {
+        "ri": "desert_coast_cliff_a"
+      },
+      {
+        "ri": "desert_coast_cliff_b"
+      },
+      {
+        "ri": "africa_cliff_close_range_a"
+      },
+      {
+        "ri": "africa_cliff_close_range_b"
       }
     ]
   },

@@ -1519,7 +1519,7 @@
           "moAddMissionObjective": {
             "target": "bt_t1_defend_bombers",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1585,14 +1585,14 @@
           "moAddMissionObjective": {
             "target": "bt_t1_defend_bombers",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "bt_t2_attack_bombers",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1634,7 +1634,7 @@
             "status": 1,
             "team": "A",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1643,7 +1643,7 @@
             "status": 1,
             "team": "B",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1682,7 +1682,7 @@
           "status": 1,
           "team": "A",
           "unit_or_area": "@bt_t1_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "varModify": {
           "operator": "mul",
@@ -1750,7 +1750,7 @@
         "moAddMissionObjective": {
           "target": "bt_t2_attack_bombers",
           "unit_or_area": "@bt_t1_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "__missionSetTimeSpeed": {
           "speed": 0.0,
@@ -1810,7 +1810,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1840,7 +1840,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         }
       ],
@@ -1907,7 +1907,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1967,7 +1967,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2022,7 +2022,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@bt_t1_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3020,7 +3020,7 @@
           "moAddMissionObjective": {
             "target": "bt_t2_defend_bombers",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3086,14 +3086,14 @@
           "moAddMissionObjective": {
             "target": "bt_t2_defend_bombers",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "bt_t1_attack_bombers",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3135,7 +3135,7 @@
             "status": 1,
             "team": "B",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3144,7 +3144,7 @@
             "status": 1,
             "team": "A",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3183,7 +3183,7 @@
           "status": 1,
           "team": "B",
           "unit_or_area": "@bt_t2_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "varModify": {
           "operator": "mul",
@@ -3251,7 +3251,7 @@
         "moAddMissionObjective": {
           "target": "bt_t1_attack_bombers",
           "unit_or_area": "@bt_t2_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "__missionSetTimeSpeed": {
           "speed": 0.0,
@@ -3311,7 +3311,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -3405,7 +3405,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3465,7 +3465,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3520,7 +3520,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@bt_t2_bomber_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -4524,7 +4524,7 @@
         "moAddMissionObjective": {
           "target": "bt_t2_attack_bombers",
           "unit_or_area": "@bt_t1_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "triggerEnable": {
           "target": "t2_detection_task_completed"
@@ -4593,7 +4593,7 @@
         "moAddMissionObjective": {
           "target": "bt_t1_attack_bombers",
           "unit_or_area": "@bt_t2_bomber_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         },
         "triggerEnable": {
           "target": "t1_detection_task_completed"

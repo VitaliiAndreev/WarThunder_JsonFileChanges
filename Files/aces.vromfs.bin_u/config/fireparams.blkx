@@ -58,7 +58,7 @@
       "nonExtinguishFireTime": 10.0,
       "underwaterExtinguishTime": 1.0,
       "underwaterExtinguishAdditionalWater": 5000.0,
-      "allowMultipleFires": true,
+      "useFxProcedurals": true,
       "checkAdditionalWater": true
     },
     "ship_ammo_fire": {

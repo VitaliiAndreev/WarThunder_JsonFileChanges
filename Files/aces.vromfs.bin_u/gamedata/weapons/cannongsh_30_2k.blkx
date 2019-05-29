@@ -1836,6 +1836,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "cannon_gsh_30_2_outside",
       "cockpit": "cannon_gsh_30_2_inside",
       "ai": "cannon_gsh_30_2_ai"

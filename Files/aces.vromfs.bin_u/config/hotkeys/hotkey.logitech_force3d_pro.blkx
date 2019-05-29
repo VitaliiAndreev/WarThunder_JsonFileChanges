@@ -533,6 +533,11 @@
     },
     {
       "event": {
+        "name": "ID_HELICOPTER_TRIM_RESET"
+      }
+    },
+    {
+      "event": {
         "name": "ID_TRIM_RUDDER_NEUTRAL"
       }
     },
@@ -1030,6 +1035,11 @@
     },
     {
       "event": {
+        "name": "ID_HELICOPTER_TRIM"
+      }
+    },
+    {
+      "event": {
         "name": "ID_ROCKETS",
         "shortcut": {
           "button": {
@@ -1196,6 +1206,21 @@
     {
       "event": {
         "name": "trim_elevator"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_elevator"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_ailerons"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_rudder"
       }
     },
     {

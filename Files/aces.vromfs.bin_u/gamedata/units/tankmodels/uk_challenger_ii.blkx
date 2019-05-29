@@ -108,6 +108,21 @@
     "canReloadNonGuns": true
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank_modern",
@@ -420,7 +435,7 @@
           "armorClass": "tank_structural_steel"
         },
         "turret_08_bottom_dm": {
-          "armorThickness": 5.0,
+          "armorThickness": 2.0,
           "armorClass": "tank_structural_steel"
         },
         "ex_decor_03_dm": {
@@ -621,7 +636,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -2163,7 +2178,7 @@
             "gunnerDm": "commander_dm"
           },
           "limits": {
-            "yaw": [-120.0,120.0],
+            "yaw": [-180.0,180.0],
             "pitch": [-10.0,50.0]
           }
         }
@@ -2257,7 +2272,7 @@
       },
       "suspension": {
         "maxDisplacementOffsets": [0.0,0.05],
-        "suspensionOffsets": [-0.2,-0.17,0.13],
+        "suspensionOffsets": [-0.17,-0.14,0.13],
         "defaultGearRadius": 0.39,
         "topGearRadius": 0.12,
         "frontBackGearRadius": 0.3,
@@ -3050,7 +3065,7 @@
                   "gunnerDm": "commander_dm"
                 },
                 "limits": {
-                  "yaw": [-120.0,120.0],
+                  "yaw": [-180.0,180.0],
                   "pitch": [-10.0,50.0]
                 }
               }
@@ -3505,6 +3520,11 @@
         "from": "uk_camo_very_dark_drab*",
         "to": "fr_camo_winter_green_white*"
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

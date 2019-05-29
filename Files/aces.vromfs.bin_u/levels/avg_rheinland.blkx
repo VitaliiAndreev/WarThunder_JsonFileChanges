@@ -30,6 +30,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_city",
   "wind_scale": 0.6,
   "max_wind_strength": 2.0,

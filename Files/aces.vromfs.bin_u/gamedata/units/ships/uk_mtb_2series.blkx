@@ -3075,6 +3075,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3950,5 +3951,17 @@
         }
       }
     ]
+  },
+  {
+    "user_skin": {
+      "name": "mtb_2series",
+      "replace_tex": {
+        "from": "camo_g45*"
+      },
+      "set_tex": {
+        "from": "mtb_2series_c*",
+        "param": "camo_skin_tex"
+      }
+    }
   }
 ]

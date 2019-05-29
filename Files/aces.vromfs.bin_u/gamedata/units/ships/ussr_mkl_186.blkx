@@ -1693,7 +1693,13 @@
       },
       "gun_masks": {
         "armorThickness": 90.0,
-        "armorClass": "CHA_tank"
+        "armorClass": "ship_RHA",
+        "gun_mask_01_dm": {
+          "hp": 151.0
+        },
+        "gun_mask_02_dm": {
+          "hp": 151.0
+        }
       },
       "gun_barrels": {
         "armorClass": "tank_barrel",
@@ -1708,10 +1714,10 @@
         "explosionDamageMult": 0.5,
         "secondaryShatterDamageMult": 0.01,
         "main_caliber_gun_01_dm": {
-          "hp": 193.0
+          "hp": 163.0
         },
         "main_caliber_gun_02_dm": {
-          "hp": 181.0
+          "hp": 151.0
         }
       },
       "gun_aux_caliber": {
@@ -2930,6 +2936,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3865,6 +3872,47 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "depth_charge_mount_02_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mkl_186"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_ironoxide*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_70_k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_dshkm_2bu_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_t34_85_1944_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mkl_186_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

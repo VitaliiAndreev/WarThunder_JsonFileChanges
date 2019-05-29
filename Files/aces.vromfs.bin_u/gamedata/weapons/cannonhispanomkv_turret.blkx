@@ -169,6 +169,7 @@
       "maxDistance": 2000.0,
       "bulletType": "ball_shell",
       "hitPowerMult": 7.0,
+      "recoilMultiplier": 0.35,
       "effectiveDistance": 700.0,
       "relativeVelHitShift": [300.0,1000.0],
       "relativeVelArmorShift": [200.0,1000.0],
@@ -315,6 +316,7 @@
           "speed": 822.0,
           "maxDistance": 2000.0,
           "bulletType": "ap",
+          "recoilMultiplier": 0.35,
           "onHitChanceMultFire": 2.5,
           "effectiveDistance": 700.0,
           "relativeVelHitShift": [300.0,1000.0],
@@ -358,6 +360,7 @@
           "speed": 822.0,
           "maxDistance": 2000.0,
           "bulletType": "ap",
+          "recoilMultiplier": 0.35,
           "onHitChanceMultFire": 2.5,
           "effectiveDistance": 700.0,
           "relativeVelHitShift": [300.0,1000.0],
@@ -405,6 +408,7 @@
           "speed": 822.0,
           "maxDistance": 2000.0,
           "bulletType": "ap",
+          "recoilMultiplier": 0.35,
           "onHitChanceMultFire": 2.5,
           "effectiveDistance": 700.0,
           "relativeVelHitShift": [300.0,1000.0],
@@ -560,6 +564,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "hs_mk5_gun_outside",
       "cockpit": "hs_mk5_gun_inside",
       "ai": "hs_mk5_gun_ai"

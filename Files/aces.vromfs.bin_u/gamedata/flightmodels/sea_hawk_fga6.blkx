@@ -2232,6 +2232,13 @@
     },
     {
       "preset": {
+        "name": "sea_hawk_30x25lb_mk2_rockets",
+        "blk": "gameData/FlightModels/weaponPresets/sea_hawk_30x25lb_mk2_rockets.blk",
+        "reqModification": "sea_hawk_25lb_rocket_ap_mk2"
+      }
+    },
+    {
+      "preset": {
         "name": "sea_hawk_16x60lb_sap_rockets",
         "blk": "gameData/FlightModels/weaponPresets/sea_hawk_16x60lb_sap_rockets.blk",
         "reqModification": "sea_hawk_60lb_rocket_mk1"
@@ -2260,6 +2267,22 @@
         },
         {
           "blk": "gameData/FlightModels/weaponPresets/sea_hawk_2x500lb_10x25lb_mk2_rockets.blk"
+        },
+        {
+          "reqModification": "sea_hawk_2x500lb"
+        },
+        {
+          "reqModification": "sea_hawk_25lb_rocket_ap_mk2"
+        }
+      ]
+    },
+    {
+      "preset": [
+        {
+          "name": "sea_hawk_2x500lb_30x25lb_mk2_rockets"
+        },
+        {
+          "blk": "gameData/FlightModels/weaponPresets/sea_hawk_2x500lb_30x25lb_mk2_rockets.blk"
         },
         {
           "reqModification": "sea_hawk_2x500lb"

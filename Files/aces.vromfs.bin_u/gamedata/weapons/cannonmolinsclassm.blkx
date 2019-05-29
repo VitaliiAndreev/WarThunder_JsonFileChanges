@@ -156,6 +156,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "mollins57_gun_outside",
     "cockpit": "mollins57_gun_inside",
     "ai": "mollins57_gun_ai"

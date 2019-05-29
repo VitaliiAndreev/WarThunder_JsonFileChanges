@@ -1741,12 +1741,8 @@
           "ex_armor_01_dm": [],
           "ex_armor_02_dm": [],
           "ex_armor_03_dm": [],
-          "ex_armor_l_06_dm": {
-            "armorThickness": 40.0
-          },
-          "ex_armor_r_04_dm": {
-            "armorThickness": 40.0
-          },
+          "ex_armor_l_06_dm": [],
+          "ex_armor_r_04_dm": [],
           "ex_armor_turret_01_dm": [],
           "ex_armor_turret_l_01_dm": [],
           "ex_armor_turret_l_02_dm": [],

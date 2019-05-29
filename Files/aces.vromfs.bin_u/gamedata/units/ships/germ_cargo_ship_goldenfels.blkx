@@ -410,7 +410,7 @@
         "genericDamageMult": 0.6,
         "shatterDamageMult": 0.4,
         "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 1.1,
+        "secondaryShatterDamageMult": 1.0,
         "armorClass": "ship_structural_steel",
         "armorThickness": 10.0,
         "compartment_01_dm": {
@@ -432,7 +432,7 @@
         "genericDamageMult": 0.4,
         "shatterDamageMult": 0.3,
         "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 1.1,
+        "secondaryShatterDamageMult": 1.0,
         "stopChanceOnDeadPart": 0.7,
         "armorClass": "ship_structural_steel",
         "armorThickness": 8.0,
@@ -533,10 +533,10 @@
       "elevators": {
         "armorThrough": 150.0,
         "fireProtectionHp": 5.0,
-        "armorThickness": 15.0,
+        "armorThickness": 20.0,
         "genericDamageMult": 1.0,
         "shatterDamageMult": 1.0,
-        "explosionDamageMult": 1.5,
+        "explosionDamageMult": 0.5,
         "fireParamsPreset": "ship_turrets"
       },
       "pumps": {
@@ -563,11 +563,7 @@
         },
         "ex_armor_02_dm": {
           "hp": 250.0
-        }
-      },
-      "turrets": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 15.0,
+        },
         "turret_01_dm": {
           "hp": 250.0
         },
@@ -592,6 +588,10 @@
         "turret_08_dm": {
           "hp": 250.0
         }
+      },
+      "turret_armor": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 15.0
       },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
@@ -728,12 +728,12 @@
           "hp": 3000.0
         }
       },
-      "ammo": {
+      "ammo_storages": {
         "armorThickness": 10.0,
         "armorThrough": 100.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
-        "genericDamageMult": 1.0,
+        "genericDamageMult": 2.5,
         "explosionDamageMult": 0.6,
         "shatterDamageMult": 0.5,
         "secondaryShatterDamageMult": 0.5,
@@ -743,6 +743,16 @@
         "ammunition_storage_02_dm": {
           "hp": 2930.0
         }
+      },
+      "ammo_first_stage": {
+        "armorThickness": 30.0,
+        "armorThrough": 100.0,
+        "fireProtectionHp": 20.0,
+        "fireParamsPreset": "ship_ammo_fire",
+        "genericDamageMult": 0.5,
+        "explosionDamageMult": 0.4,
+        "shatterDamageMult": 0.4,
+        "secondaryShatterDamageMult": 0.3
       },
       "depth_charges": {
         "armorThickness": 5.0,
@@ -2334,6 +2344,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_light"

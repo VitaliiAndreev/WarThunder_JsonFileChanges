@@ -231,6 +231,15 @@
       "price": 3000.0
     },
     {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
+    },
+    {
       "collisions": {
         "steel": {
           "fx": "atgm_hit",

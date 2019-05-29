@@ -1665,30 +1665,30 @@
       "mechanics": {
         "maxBrakeForce": 13800.0,
         "driveGearRadius": 0.48,
-        "mainGearRatio": 6.5906,
+        "mainGearRatio": 7.6,
         "sideGearRatio": 1.0,
         "tracked": false,
         "gearRatios": [
           {
-            "ratio": -18.0
+            "ratio": -3.67
           },
           {
             "ratio": 0.0
           },
           {
-            "ratio": 5.571
+            "ratio": 3.85
           },
           {
-            "ratio": 3.168
+            "ratio": 2.08
           },
           {
-            "ratio": 2.019
-          },
-          {
-            "ratio": 1.26
+            "ratio": 1.39
           },
           {
             "ratio": 1.0
+          },
+          {
+            "ratio": 0.87
           }
         ]
       },
@@ -1703,7 +1703,9 @@
         "steeringDeflection": {
           "wheel_l_01": 25.0,
           "wheel_r_01": 25.0,
-          "steeringTau": 1.0
+          "steeringTau": 1000000.0,
+          "steeringSpd": 1.0,
+          "steeringNeutralSpd": 3.0
         },
         "wheelsWidth": {
           "wheel_l_01": 0.4,

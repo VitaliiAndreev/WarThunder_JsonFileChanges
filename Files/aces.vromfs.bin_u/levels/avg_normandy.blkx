@@ -28,6 +28,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_europe",
   "max_wind_strength": 4.5,
   "average_ground_level": 67.0,

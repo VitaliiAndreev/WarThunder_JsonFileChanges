@@ -351,7 +351,7 @@
     },
     {
       "import_record": {
-        "file": "gameData/missions/cta/ships/alps_fjord/spotareas/alps_fjord_NDom_spotareas_template.blk",
+        "file": "gameData/missions/cta/ships/alps_fjord/mainareas/alps_fjord_NDom_template.blk",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

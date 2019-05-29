@@ -1348,6 +1348,9 @@
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_Wsh",
         "armorThickness": 9.52,
@@ -2907,6 +2910,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3822,6 +3826,46 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "cls_tt_04"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "type140_jaguar"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_deckbasaltgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_inside_white*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mel_58_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_toro_m1_533_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "type140_jaguar_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

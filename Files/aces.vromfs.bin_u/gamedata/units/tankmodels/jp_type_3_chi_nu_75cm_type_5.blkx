@@ -685,7 +685,7 @@
       "TrackSoundNameCockpit": "tracks_interior",
       "turret_turn": "turret_turn_manual_y",
       "EngineNameAi": "engine_tank_ai_middle",
-      "TrackSoundNameAi": "tracks_ai_midle",
+      "TrackSoundNameAi": "tracks_ai_middle",
       "gun_turn": "turret_turn_mg_light"
     }
   },

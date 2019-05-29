@@ -161,6 +161,9 @@
         },
         "ex_armor_turret_02_dm": {
           "armorThickness": 6.0
+        },
+        "turret_01_back_dm": {
+          "armorThickness": 30.0
         }
       },
       "turret": {

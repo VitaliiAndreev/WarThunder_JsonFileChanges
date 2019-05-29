@@ -176,7 +176,7 @@
       "mass": 14.85,
       "explosiveMass": 2.99,
       "caliber": 0.105,
-      "speed": 730.0,
+      "speed": 731.5,
       "maxDistance": 10000.0,
       "bulletType": "hesh_tank",
       "bulletName": "105mm_m393a2",

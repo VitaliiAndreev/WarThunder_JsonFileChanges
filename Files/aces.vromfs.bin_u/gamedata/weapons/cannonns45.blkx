@@ -19,7 +19,7 @@
     "caliber": 0.045,
     "speed": 780.0,
     "explosiveType": "a_ix_2",
-    "explosiveMass": 0.118,
+    "explosiveMass": 0.52,
     "maxDistance": 3500.0,
     "shellExplScale": 0.7,
     "bulletType": "he_frag_i_t",
@@ -162,6 +162,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "ns45_gun_outside",
     "cockpit": "ns45_gun_inside",
     "ai": "ns45_gun_ai"

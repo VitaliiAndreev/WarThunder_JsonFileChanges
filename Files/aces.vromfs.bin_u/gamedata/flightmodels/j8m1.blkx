@@ -2455,7 +2455,7 @@
       {
         "Weapon": {
           "trigger": "cannon",
-          "blk": "gameData/Weapons/cannonType5.blk",
+          "blk": "gameData/Weapons/cannonHo155.blk",
           "emitter": "flare1",
           "flash": "flare1",
           "shell": "emtr_shellrejection1",
@@ -2467,7 +2467,7 @@
       {
         "Weapon": {
           "trigger": "cannon",
-          "blk": "gameData/Weapons/cannonType5.blk",
+          "blk": "gameData/Weapons/cannonHo155.blk",
           "emitter": "flare2",
           "flash": "flare2",
           "shell": "emtr_shellrejection2",
@@ -2580,15 +2580,15 @@
         "prevModification": "",
         "tier": 4
       },
-      "type5_universal": [],
-      "type5_ground_targets": [],
-      "type5_all_tracers": [],
-      "type5_stealth": [],
-      "type5_belt_pack": {
+      "ho155_universal": [],
+      "ho155_ground_targets": [],
+      "ho155_all_tracers": [],
+      "ho155_stealth": [],
+      "ho155_belt_pack": {
         "tier": 1
       },
-      "type5_new_gun": {
-        "reqModification": "type5_belt_pack",
+      "ho155_new_gun": {
+        "reqModification": "ho155_belt_pack",
         "tier": 3
       }
     }

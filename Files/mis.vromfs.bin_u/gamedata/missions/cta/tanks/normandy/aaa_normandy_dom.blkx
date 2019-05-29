@@ -546,13 +546,13 @@
         {
           "moAddMissionObjective": {
             "target": "dlc_paulus_last_tanks_destroy_tanks",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "dlc_cover_the_descent_tanks",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -563,13 +563,13 @@
         {
           "moAddMissionObjective": {
             "target": "spain_evacuation_fly_to_destroy_enemy_bombers",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "dlc_damn_landing_to_airfiled",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -618,7 +618,7 @@
           "moSetObjectiveStatus": {
             "target": "dlc_paulus_last_tanks_destroy_tanks",
             "status": 2,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "A"
           }
         },
@@ -626,7 +626,7 @@
           "moSetObjectiveStatus": {
             "target": "dlc_cover_the_descent_tanks",
             "status": 3,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "B"
           }
         },
@@ -857,7 +857,7 @@
           "moSetObjectiveStatus": {
             "target": "spain_evacuation_fly_to_destroy_enemy_bombers",
             "status": 2,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "B"
           }
         },
@@ -865,7 +865,7 @@
           "moSetObjectiveStatus": {
             "target": "dlc_damn_landing_to_airfiled",
             "status": 3,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "A"
           }
         },
@@ -915,7 +915,7 @@
           "moSetObjectiveStatus": {
             "target": "spain_evacuation_fly_to_destroy_enemy_bombers",
             "status": 3,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "B"
           }
         },
@@ -923,7 +923,7 @@
           "moSetObjectiveStatus": {
             "target": "dlc_damn_landing_to_airfiled",
             "status": 2,
-            "unit_type": "isAlive",
+            "object_type": "isAlive",
             "team": "A"
           }
         },

@@ -132,6 +132,15 @@
         "turret_top_dm": {
           "armorThickness": 25.0
         },
+        "turret_front_dm": {
+          "armorThickness": 80.0
+        },
+        "turret_side_dm": {
+          "armorThickness": 40.0
+        },
+        "turret_back_dm": {
+          "armorThickness": 40.0
+        },
         "superstructure_back_dm": {
           "armorThickness": 20.0
         },
@@ -140,6 +149,9 @@
         },
         "turret_02_top_dm": {
           "armorThickness": 25.4
+        },
+        "turret_01_front_dm": {
+          "armorThickness": 60.0
         },
         "turret_03_side_dm": {
           "armorThickness": 25.4
@@ -210,15 +222,6 @@
       },
       "turret": {
         "armorClass": "CHA_tank",
-        "turret_back_dm": {
-          "armorThickness": 40.0
-        },
-        "turret_side_dm": {
-          "armorThickness": 40.0
-        },
-        "turret_front_dm": {
-          "armorThickness": 80.0
-        },
         "turret_commander_dm": {
           "armorThickness": 25.0
         },
@@ -248,9 +251,6 @@
         },
         "turret_03_back_dm": {
           "armorThickness": 102.0
-        },
-        "turret_01_front_dm": {
-          "armorThickness": 60.0
         },
         "turret_03_top_dm": {
           "armorThickness": 50.0

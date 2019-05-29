@@ -704,6 +704,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "type99_gun_outside",
       "cockpit": "type99_gun_inside",
       "ai": "type99_gun_ai"

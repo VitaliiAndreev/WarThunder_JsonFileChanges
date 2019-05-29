@@ -1961,6 +1961,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -2766,5 +2767,39 @@
         "collisionNode": "cls_turret_01"
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "ls_class"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_lichtgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_schlickgrau58*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_hd151_1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "ls_class_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

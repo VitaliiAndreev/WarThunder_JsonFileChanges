@@ -17,6 +17,9 @@
     },
     {
       "node": "depth_charge_06"
+    },
+    {
+      "node": "ammunition_storage_10"
     }
   ]
 }

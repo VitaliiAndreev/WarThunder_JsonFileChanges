@@ -42,6 +42,13 @@
     "nearArmorPower": [10.0,50.0],
     "midArmorPower": [7.0,400.0],
     "farArmorPower": [0.2,700.0],
-    "relativeVelArmorShift": [200.0,1000.0]
+    "relativeVelArmorShift": [200.0,1000.0],
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
+    }
   }
 }

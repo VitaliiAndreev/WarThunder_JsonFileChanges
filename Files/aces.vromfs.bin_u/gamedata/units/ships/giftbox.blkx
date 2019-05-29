@@ -7,6 +7,7 @@
   "exhaustFx": "ps_exhaust",
   "expClass": "exp_ship",
   "collidesTorpedo": false,
+  "collidesAircraft": false,
   "model": "flag_ctf_ship_giftbox_ny",
   "subclass": "warShip",
   "dynCollisionGeom": true,
@@ -49,6 +50,7 @@
   },
   "sound": {
     "path": "sounds/engines",
+    "pathStudio": "aircraft/engines",
     "engine": "boat"
   },
   "ShipPhys": {

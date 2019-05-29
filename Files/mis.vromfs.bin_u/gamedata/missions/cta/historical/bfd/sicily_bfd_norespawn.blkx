@@ -258,7 +258,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": true,
         "isTanksAllowed": false,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       },
       "stars": {
         "latitude": 37.5,
@@ -487,7 +488,6 @@
             "spawnEffect": false,
             "isAirfield": true,
             "isUnit": false,
-            "offset": [0.0,0.0,0.0],
             "radius": -1.0,
             "isStrictSpawn": false,
             "useExisting": false,
@@ -497,8 +497,11 @@
             "isIndividual": false,
             "destructionAwardMultiplier": 1.0,
             "onlyOnePlayerPerSpawnPoint": false,
+            "resetStrictSpawnIndex": false,
+            "replaceAreas": false,
             "target": "t1_airfield",
             "team": "A",
+            "offset": [0.0,0.0,0.0],
             "tags": {
               "type_bomber": false,
               "type_assault": false,
@@ -514,7 +517,6 @@
             "spawnEffect": false,
             "isAirfield": true,
             "isUnit": false,
-            "offset": [0.0,0.0,0.0],
             "radius": -1.0,
             "isStrictSpawn": false,
             "useExisting": false,
@@ -524,8 +526,11 @@
             "isIndividual": false,
             "destructionAwardMultiplier": 1.0,
             "onlyOnePlayerPerSpawnPoint": false,
+            "resetStrictSpawnIndex": false,
+            "replaceAreas": false,
             "target": "t2_airfield",
             "team": "B",
+            "offset": [0.0,0.0,0.0],
             "tags": {
               "type_bomber": false,
               "type_assault": false,
@@ -7433,7 +7438,7 @@
         "unit_class": "cargo_zone_square",
         "objLayer": 2,
         "props": {
-          "army": 1,
+          "army": 2,
           "active": true
         }
       }
@@ -7450,7 +7455,7 @@
         "unit_class": "cargo_zone_square",
         "objLayer": 2,
         "props": {
-          "army": 1,
+          "army": 2,
           "active": true
         }
       }
@@ -7467,7 +7472,7 @@
         "unit_class": "cargo_zone_square",
         "objLayer": 2,
         "props": {
-          "army": 1,
+          "army": 2,
           "active": true
         }
       }
@@ -7887,8 +7892,45 @@
         [-21336.7,500.0,2837.87]
       ],
       "props": []
+    },
+    "mission_border": {
+      "type": "Box",
+      "tm": [
+        [-52000.0,0.0,0.0],
+        [0.0,1991.73,0.0],
+        [0.0,0.0,-52000.0],
+        [0.0,32.5703,0.0]
+      ],
+      "objLayer": 4,
+      "props": []
     }
   },
-  "objLayers": [],
+  "objLayers": [
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": false
+      }
+    }
+  ],
   "wayPoints": []
 }

@@ -2102,9 +2102,9 @@
     "mirror": true,
     "mirrorPos": [3.474,0.932,0.0],
     "mirrorNorm": [1.849,-0.267,0.0],
-    "lightPos": [3.56417,0.421399,-0.276961],
-    "lightColor": [0.62,0.3,0.21],
-    "lightAttenuation": 4.0,
+    "lightPos": [3.663723,0.370301,-0.009601],
+    "lightColor": [0.05,0.5,0.51],
+    "lightRadius": 0.35,
     "devices": {
       "stick_ailerons": [-1.0,1.0],
       "stick_elevator": [-1.0,1.0],

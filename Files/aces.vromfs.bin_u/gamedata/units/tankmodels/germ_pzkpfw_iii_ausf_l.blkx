@@ -144,13 +144,16 @@
           "armorThickness": 15.0
         },
         "turret_01_front_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 50.0
         },
         "turret_02_back_dm": {
           "armorThickness": 30.0
         },
         "turret_02_bottom_dm": {
           "armorThickness": 32.0
+        },
+        "turret_03_bottom_dm": {
+          "armorThickness": 30.0
         },
         "turret_02_top_dm": {
           "armorThickness": 17.0
@@ -1491,7 +1494,7 @@
       "TrackSoundNameCockpit": "tracks_interior",
       "turret_turn": "turret_turn_manual_y",
       "EngineNameAi": "engine_tank_ai_middle",
-      "TrackSoundNameAi": "tracks_ai_midle"
+      "TrackSoundNameAi": "tracks_ai_middle"
     }
   },
   {

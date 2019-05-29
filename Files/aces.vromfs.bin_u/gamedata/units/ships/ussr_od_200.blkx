@@ -2411,6 +2411,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3359,6 +3360,30 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_r_04_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "od_200"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_navygrey_5*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_70_k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "od_200_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

@@ -2407,249 +2407,6 @@
         "else_actions": []
       }
     },
-    "enemy_on_airfield_preventer": {
-      "isCategory": true,
-      "is_enabled": true,
-      "enemy_on_airfield_init": {
-        "is_enabled": true,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": false
-        },
-        "events": {
-          "initMission": []
-        },
-        "conditions": [],
-        "actions": [
-          {
-            "comment": {
-              "value": "делаем через переменные, чтобы не ругалось в миссиях, где аэродромов нет"
-            }
-          },
-          {
-            "varSetString": {
-              "value": "t1_airfield",
-              "var": "t1_enemy_airfield_name"
-            }
-          },
-          {
-            "varSetString": {
-              "value": "t2_airfield",
-              "var": "t2_enemy_airfield_name"
-            }
-          },
-          {
-            "triggerEnable": {
-              "target": "enemy_on_airfield_start"
-            }
-          }
-        ],
-        "else_actions": []
-      },
-      "enemy_on_airfield_start": {
-        "is_enabled": false,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": false
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": [
-          {
-            "objectExists": {
-              "target": "@t1_enemy_airfield_name",
-              "type": "objectGroup"
-            }
-          },
-          {
-            "objectExists": {
-              "target": "@t2_enemy_airfield_name",
-              "type": "objectGroup"
-            }
-          }
-        ],
-        "actions": {
-          "triggerEnable": [
-            {
-              "target": "t1_on_t2_airfield"
-            },
-            {
-              "target": "t2_on_t1_airfield"
-            }
-          ]
-        },
-        "else_actions": []
-      },
-      "t1_on_t2_airfield": {
-        "is_enabled": false,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 4.0
-          }
-        },
-        "conditions": {
-          "unitWhenOnLZ": {
-            "object_type": "isActive",
-            "object_marking": 0,
-            "check_objects": "any",
-            "afterRepaired": false,
-            "object_var_name": "",
-            "object_var_comp_op": "equal",
-            "object_var_value": 0,
-            "object": "t1_players_squad",
-            "target": "@t2_enemy_airfield_name"
-          }
-        },
-        "actions": [
-          {
-            "unitDamage": {
-              "part": 0,
-              "power": 1.0,
-              "useEffect": false,
-              "countEffects": 1,
-              "delay": [1.0,1.0],
-              "offset": [0.0,0.0,0.0],
-              "radiusOffset": [10.0,15.0],
-              "target": "t1_players_squad",
-              "doExplosion": true,
-              "useForTriggerFiltered": true
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "custom",
-              "name": "hints/player_on_enemy_airfield",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "A"
-            }
-          },
-          {
-            "wait": {
-              "time": 3.0
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "custom",
-              "name": "hints/player_on_enemy_airfield",
-              "action": "hide",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "A"
-            }
-          }
-        ],
-        "else_actions": []
-      },
-      "t2_on_t1_airfield": {
-        "is_enabled": false,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 4.0
-          }
-        },
-        "conditions": {
-          "unitWhenOnLZ": {
-            "object_type": "isActive",
-            "object_marking": 0,
-            "check_objects": "any",
-            "afterRepaired": false,
-            "object_var_name": "",
-            "object_var_comp_op": "equal",
-            "object_var_value": 0,
-            "object": "t2_players_squad",
-            "target": "@t1_enemy_airfield_name"
-          }
-        },
-        "actions": [
-          {
-            "unitDamage": {
-              "part": 0,
-              "power": 1.0,
-              "useEffect": false,
-              "countEffects": 1,
-              "delay": [1.0,1.0],
-              "offset": [0.0,0.0,0.0],
-              "radiusOffset": [10.0,15.0],
-              "target": "t2_players_squad",
-              "doExplosion": true,
-              "useForTriggerFiltered": true
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "custom",
-              "name": "hints/player_on_enemy_airfield",
-              "action": "show",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "B"
-            }
-          },
-          {
-            "wait": {
-              "time": 3.0
-            }
-          },
-          {
-            "playHint": {
-              "hintType": "custom",
-              "name": "hints/player_on_enemy_airfield",
-              "action": "hide",
-              "shouldFadeOut": false,
-              "time": -1.0,
-              "priority": 0,
-              "isOverFade": false,
-              "target_marking": 0,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "team": "B"
-            }
-          }
-        ],
-        "else_actions": []
-      }
-    },
     "air_rearm_logic": {
       "isCategory": true,
       "is_enabled": true,
@@ -2978,6 +2735,60 @@
           "var": "barabashka_is_waiting"
         }
       }
+    },
+    "t1_minor_task_completed": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": [],
+      "actions": {
+        "gameMPChangeScore": {
+          "value": -3,
+          "valueSystem": "percentage",
+          "team": "B"
+        },
+        "bigQueryAddRecord": {
+          "name": "mission_task_completed",
+          "params": "t1_team_complete_task"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_minor_task_completed": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": [],
+      "actions": {
+        "gameMPChangeScore": {
+          "value": -3,
+          "valueSystem": "percentage",
+          "team": "A"
+        },
+        "bigQueryAddRecord": {
+          "name": "mission_task_completed",
+          "params": "t2_team_complete_task"
+        }
+      },
+      "else_actions": []
     }
   },
   "mission_objectives": {

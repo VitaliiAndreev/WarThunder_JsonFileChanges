@@ -4,6 +4,7 @@
   "bullets": 1,
   "shotFreq": 40.0,
   "sound_path": "sounds/guns",
+  "sound_pathStudio": "aircraft/weapon",
   "sound": "flare_launcher_outside",
   "sound_inside": "flare_launcher_inside",
   "isBulletBelt": false,

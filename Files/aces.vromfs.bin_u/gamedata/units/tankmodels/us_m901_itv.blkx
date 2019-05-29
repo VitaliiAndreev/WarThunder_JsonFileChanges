@@ -96,7 +96,7 @@
     "type": "typeTankDestroyer"
   },
   {
-    "cruiseVelocity": 5.0
+    "cruiseVelocity": 10.0
   },
   {
     "rearmSmokeTimeOnField": 60.0
@@ -1566,6 +1566,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "suspension": [
@@ -1681,6 +1690,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ]
     }
@@ -1704,7 +1722,7 @@
         "stopForFire": true,
         "readyToFireVar": "m901_itv_action",
         "readyToFireTime": 2.5,
-        "maxSpeedForFire": 10.0,
+        "maxSpeedForFire": 11.0,
         "lagStopForFireTime": 1.0,
         "reloadAnimVar": "m901_reload_var",
         "createGunEffects": true,
@@ -2479,7 +2497,7 @@
                 "stopForFire": true,
                 "readyToFireVar": "m901_itv_action",
                 "readyToFireTime": 2.5,
-                "maxSpeedForFire": 10.0,
+                "maxSpeedForFire": 11.0,
                 "lagStopForFireTime": 1.0,
                 "reloadAnimVar": "m901_reload_var",
                 "createGunEffects": true,

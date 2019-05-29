@@ -28,7 +28,7 @@
       "operated": true
     },
     {
-      "operatedDist": 8000.0
+      "operatedDist": 6000.0
     },
     {
       "autoAiming": true
@@ -131,6 +131,12 @@
     },
     {
       "smokeEffect": ""
+    },
+    {
+      "hitPower": 260.0
+    },
+    {
+      "fuseDelayDist": 0.2
     },
     {
       "spawnExplosionFx": false
@@ -240,6 +246,21 @@
           "fx": "atgm_hit",
           "fxScale": [4.0,4.2]
         }
+      }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
+    },
+    {
+      "armorpower": {
+        "ArmorPower0m": [50.0,10.0],
+        "ArmorPower10000m": [50.0,10000.0]
       }
     },
     {

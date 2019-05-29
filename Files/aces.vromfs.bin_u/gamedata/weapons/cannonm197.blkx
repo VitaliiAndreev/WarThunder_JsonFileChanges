@@ -940,10 +940,21 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "m197_gun_outside",
       "cockpit": "m197_gun_inside",
       "ai": "m197_gun_ai"
     }
+  },
+  {
+    "overheat": [
+      {
+        "overheat": [6.5,0.0]
+      },
+      {
+        "overheat": [9.1,0.02]
+      }
+    ]
   },
   {
     "t_160_new_gun": {
@@ -953,7 +964,7 @@
           "overheat": [5.5,0.0]
         },
         {
-          "overheat": [8.1,0.05]
+          "overheat": [8.1,0.02]
         }
       ]
     }

@@ -424,6 +424,10 @@
         "optic_body_01_dm": {
           "armorThickness": 3.0,
           "hp": 20.0
+        },
+        "optic_body_dm": {
+          "armorThickness": 3.0,
+          "hp": 20.0
         }
       },
       "chassis": {
@@ -476,7 +480,19 @@
         "ex_decor_05_dm": [],
         "ex_decor_06_dm": [],
         "ex_decor_07_dm": [],
-        "ex_decor_08_dm": []
+        "ex_decor_08_dm": [],
+        "ex_armor_l_01_dm": [],
+        "ex_armor_l_02_dm": [],
+        "ex_armor_l_03_dm": [],
+        "ex_armor_l_05_dm": [],
+        "ex_armor_l_07_dm": [],
+        "ex_armor_l_10_dm": [],
+        "ex_armor_r_01_dm": [],
+        "ex_armor_r_02_dm": [],
+        "ex_armor_r_03_dm": [],
+        "ex_armor_r_05_dm": [],
+        "ex_armor_r_07_dm": [],
+        "ex_armor_r_10_dm": []
       },
       "tracks": {
         "armorClass": "tank_traks",
@@ -1788,11 +1804,7 @@
             },
             "ammo_turret_07_dm": {
               "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
+            },
             "ammo_turret_08_dm": {
               "count": 1
             },
@@ -1825,7 +1837,11 @@
             },
             "ammo_turret_18_dm": {
               "count": 1
-            },
+            }
+          }
+        },
+        {
+          "shells": {
             "ammo_body_01_dm": {
               "count": 1
             },
@@ -2754,6 +2770,7 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_fr"
       },
+      "modern_tank_stereo_rangefinder": [],
       "120mm_SA46_APCBC": [],
       "120mm_usa_M356_HE": []
     }

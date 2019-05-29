@@ -216,6 +216,15 @@
       }
     },
     {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
+    },
+    {
       "cumulativeDamage": {
         "armorPower": 650.0,
         "distance": 5.0,

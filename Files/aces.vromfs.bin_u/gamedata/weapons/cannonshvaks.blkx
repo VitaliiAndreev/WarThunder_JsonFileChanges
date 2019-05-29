@@ -47,6 +47,7 @@
   {
     "bullet": {
       "mass": 0.096,
+      "recoilMultiplier": 0.35,
       "caliber": 0.02,
       "speed": 800.0,
       "maxDistance": 2000.0,
@@ -105,6 +106,7 @@
   {
     "bullet": {
       "mass": 0.096,
+      "recoilMultiplier": 0.35,
       "caliber": 0.02,
       "speed": 800.0,
       "maxDistance": 2000.0,
@@ -151,6 +153,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -209,6 +212,7 @@
       {
         "bullet": {
           "mass": 0.091,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -265,6 +269,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -309,6 +314,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -371,6 +377,7 @@
       {
         "bullet": {
           "mass": 0.091,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -427,6 +434,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -485,6 +493,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -533,6 +542,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -591,6 +601,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -649,6 +660,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -711,6 +723,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -755,6 +768,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -813,6 +827,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -857,6 +872,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -905,6 +921,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -949,6 +966,7 @@
       {
         "bullet": {
           "mass": 0.091,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -1005,6 +1023,7 @@
       {
         "bullet": {
           "mass": 0.091,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -1061,6 +1080,7 @@
       {
         "bullet": {
           "mass": 0.096,
+          "recoilMultiplier": 0.35,
           "caliber": 0.02,
           "speed": 800.0,
           "maxDistance": 2000.0,
@@ -1120,6 +1140,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "shvak_gun_outside",
       "cockpit": "shvak_gun_inside",
       "ai": "shvak_gun_ai"

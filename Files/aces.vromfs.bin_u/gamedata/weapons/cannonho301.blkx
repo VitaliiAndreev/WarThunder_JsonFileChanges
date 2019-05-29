@@ -170,6 +170,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "ho301_gun_outside",
     "cockpit": "ho301_gun_inside",
     "ai": "ho301_gun_ai"

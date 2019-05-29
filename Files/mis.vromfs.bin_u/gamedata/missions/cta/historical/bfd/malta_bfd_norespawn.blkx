@@ -830,13 +830,13 @@
         {
           "moAddMissionObjective": {
             "target": "malta_BfD_norespawn_t1_main",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "malta_BfD_norespawn_t2_main",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -885,13 +885,13 @@
         {
           "moAddMissionObjective": {
             "target": "malta_BfD_norespawn_t1_brander",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "malta_BfD_norespawn_t2_brander",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -1078,7 +1078,7 @@
             "target": "malta_BfD_norespawn_t1_brander",
             "status": 3,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1086,7 +1086,7 @@
             "target": "malta_BfD_norespawn_t2_brander",
             "status": 2,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1154,7 +1154,7 @@
             "target": "malta_BfD_norespawn_t1_main",
             "status": 3,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1162,7 +1162,7 @@
             "target": "malta_BfD_norespawn_t2_main",
             "status": 2,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1223,7 +1223,7 @@
             "target": "malta_BfD_norespawn_t1_main",
             "status": 2,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1231,7 +1231,7 @@
             "target": "malta_BfD_norespawn_t2_main",
             "status": 3,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1273,7 +1273,7 @@
             "target": "malta_BfD_norespawn_t1_brander",
             "status": 2,
             "team": "A",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -1281,7 +1281,7 @@
             "target": "malta_BfD_norespawn_t2_brander",
             "status": 3,
             "team": "B",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],

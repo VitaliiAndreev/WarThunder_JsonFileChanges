@@ -99,6 +99,21 @@
     "canReloadNonGuns": true
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHAHH_tank_modern",
@@ -153,10 +168,13 @@
           "solidArmorTestDepth": 900.0
         },
         "turret_01_top_dm": {
-          "armorClass": "RHAHH_tank_modern"
+          "armorClass": "RHAHH_tank_modern",
+          "createSecondaryShatters": false
         },
         "turret_03_side_dm": {
-          "armorClass": "t_80u_turret_composite_armor"
+          "armorClass": "t_80u_turret_composite_armor",
+          "createSecondaryShatters": false,
+          "armorThickness": 1.0
         },
         "composite_armor_turret_01_dm": {
           "armorClass": "CHA_tank_modern",
@@ -211,7 +229,8 @@
         },
         "turret_06_bottom_dm": {
           "armorThickness": 20.0,
-          "armorClass": "RHA_tank_modern"
+          "armorClass": "RHA_tank_modern",
+          "armorEffectiveThicknessMax": 30.0
         },
         "turret_05_top_dm": {
           "armorThickness": 20.0,
@@ -652,7 +671,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -3716,6 +3735,11 @@
           }
         }
       ]
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

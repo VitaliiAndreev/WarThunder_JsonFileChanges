@@ -10,7 +10,7 @@
   "aimMaxDist": 2000.0,
   "maxDeltaAngle": 0.05,
   "maxDeltaAngleVertical": 0.05,
-  "shotFreq": 0.07,
+  "shotFreq": 0.15,
   "traceFreq": 4,
   "bEnablePause": false,
   "bullets": -1,
@@ -48,19 +48,13 @@
       "HitPower0m": [0.85,500.0],
       "HitPower10000m": [0.8,10000.0]
     },
-    "armorpower": {
-      "ArmorPower0m": [125.0,10.0],
-      "ArmorPower100m": [122.0,100.0],
-      "ArmorPower250m": [118.0,250.0],
-      "ArmorPower500m": [112.0,500.0],
-      "ArmorPower750m": [107.0,750.0],
-      "ArmorPower1000m": [101.0,1000.0],
-      "ArmorPower1250m": [96.0,1250.0],
-      "ArmorPower1500m": [91.0,1500.0],
-      "ArmorPower2000m": [82.0,2000.0],
-      "ArmorPower2500m": [74.0,2500.0],
-      "ArmorPower3000m": [66.0,3000.0],
-      "ArmorPower10000m": [0.0,10000.0]
+    "damage": {
+      "kinetic": {
+        "demarrePenetrationK": 0.9,
+        "demarreSpeedPow": 1.43,
+        "demarreMassPow": 0.71,
+        "demarreCaliberPow": 1.07
+      }
     },
     "visual": {
       "range_percent_of_ammo": [100.0,0.0],
@@ -198,19 +192,13 @@
         "HitPower0m": [0.85,500.0],
         "HitPower10000m": [0.8,10000.0]
       },
-      "armorpower": {
-        "ArmorPower0m": [125.0,10.0],
-        "ArmorPower100m": [122.0,100.0],
-        "ArmorPower250m": [118.0,250.0],
-        "ArmorPower500m": [112.0,500.0],
-        "ArmorPower750m": [107.0,750.0],
-        "ArmorPower1000m": [101.0,1000.0],
-        "ArmorPower1250m": [96.0,1250.0],
-        "ArmorPower1500m": [91.0,1500.0],
-        "ArmorPower2000m": [82.0,2000.0],
-        "ArmorPower2500m": [74.0,2500.0],
-        "ArmorPower3000m": [66.0,3000.0],
-        "ArmorPower10000m": [0.0,10000.0]
+      "damage": {
+        "kinetic": {
+          "demarrePenetrationK": 0.9,
+          "demarreSpeedPow": 1.43,
+          "demarreMassPow": 0.71,
+          "demarreCaliberPow": 1.07
+        }
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],
@@ -330,7 +318,7 @@
       "bulletCount": 40,
       "mass": 40.0,
       "explosiveType": "tnt",
-      "explosiveMass": 6.86,
+      "explosiveMass": 5.83,
       "caliber": 0.152,
       "speed": 530.0,
       "maxDistance": 10000.0,
@@ -342,21 +330,9 @@
       "farHitPower": [0.1,700.0],
       "endHitPower": [0.008,1500.0],
       "relativeVelHitShift": [300.0,1000.0],
-      "nearArmorPower": [65.0,150.0],
-      "midArmorPower": [64.0,600.0],
-      "farArmorPower": [63.0,2000.0],
       "relativeVelArmorShift": [200.0,1000.0],
       "fuseDelayDist": 0.1,
       "explodeTreshold": 0.5,
-      "explodeHitPower": 600.0,
-      "explodeArmorPower": 75.0,
-      "explodeRadius": [0.8,1.5],
-      "rendinstDamageRadius": 15.0,
-      "shutterDamage": true,
-      "shutterDamageRadius": 35.0,
-      "shutterAmount": 1500,
-      "shutterArmorPower": 10.0,
-      "shutterHit": 10.0,
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_he_water_splash",
       "waterFxScale": [1.1,1.2],

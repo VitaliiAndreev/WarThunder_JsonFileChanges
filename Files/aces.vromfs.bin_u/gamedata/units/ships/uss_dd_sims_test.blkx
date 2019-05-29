@@ -114,8 +114,9 @@
     "flag_back": "flag_usa"
   },
   "sound": {
-    "path": "sounds/engines/boat",
-    "engine": "boat_engine"
+    "path": "sounds/engines",
+    "pathStudio": "aircraft/engines",
+    "engine": "boat"
   },
   "ShipPhys": {
     "mass": {

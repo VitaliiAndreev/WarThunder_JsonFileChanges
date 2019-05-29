@@ -1155,6 +1155,9 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0,
@@ -3205,6 +3208,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4107,6 +4111,53 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_25_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "ashville_class"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_darkgrey_5d*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_navygrey_5*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mini_twinbrowning_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk3_bofors_mod4_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_single_76mm_mk34_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "ashville_class_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "ashville_class_deckhouse_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

@@ -1936,7 +1936,7 @@
         "wheel_l_front_dm": [],
         "submodule": {
           "armorClass": "tank_traks",
-          "armorThickness": 18.0,
+          "armorThickness": 20.0,
           "hp": 200.0,
           "ex_armor_01_dm": [],
           "ex_armor_02_dm": [],

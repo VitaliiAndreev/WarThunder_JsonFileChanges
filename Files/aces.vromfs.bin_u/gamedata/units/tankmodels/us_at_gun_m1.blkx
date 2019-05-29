@@ -102,6 +102,9 @@
     "destroysTrees": true
   },
   {
+    "killIfFlipped": true
+  },
+  {
     "type": "typeLightTank"
   },
   {
@@ -1186,6 +1189,7 @@
   {
     "sound": {
       "path": "sounds/engines/apc",
+      "pathStudio": "aircraft/engines/apc",
       "engine": "",
       "turret_turn": "turret_turn_manual"
     }

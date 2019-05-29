@@ -598,6 +598,9 @@
         },
         "turret_01_front_dm": {
           "armorThickness": 19.5
+        },
+        "turret_01_back_dm": {
+          "armorThickness": 15.0
         }
       },
       "hull_RHA": {

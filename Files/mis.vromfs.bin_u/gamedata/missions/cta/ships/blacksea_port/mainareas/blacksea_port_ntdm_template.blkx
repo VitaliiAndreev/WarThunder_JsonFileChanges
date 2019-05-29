@@ -21,8 +21,8 @@
       "missionBriefing": "",
       "level": "levels/avn_blacksea_port.bin",
       "scoreLimit": 18000,
-      "timeLimit": 20,
-      "deathPenaltyMul": 0.0,
+      "timeLimit": 35,
+      "deathPenaltyMul": 1.0,
       "country_axis": "usa",
       "country_allies": "germany",
       "missionType": {

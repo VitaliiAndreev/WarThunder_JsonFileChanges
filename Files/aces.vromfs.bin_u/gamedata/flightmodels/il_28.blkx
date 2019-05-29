@@ -2533,6 +2533,7 @@
       "Engine": "engine05",
       "gun": "gun_default",
       "turretTurnSfxPath": "tanks/effects_tanks",
+      "turretTurnSfxPathStudio": "ground/effects",
       "turretTurnSfxName": "turret_turn"
     }
   },
@@ -2805,8 +2806,8 @@
             "gun": "gun1"
           },
           "limits": {
-            "yaw": [-45.0,45.0],
-            "pitch": [-70.0,70.0]
+            "yaw": [-70.0,70.0],
+            "pitch": [-45.0,60.0]
           }
         }
       },
@@ -2827,8 +2828,8 @@
             "gun": "gun1"
           },
           "limits": {
-            "yaw": [-45.0,45.0],
-            "pitch": [-70.0,70.0]
+            "yaw": [-70.0,70.0],
+            "pitch": [-45.0,60.0]
           }
         }
       },

@@ -1362,7 +1362,24 @@
   "mouseAim": {
     "mouseAimDisableControlTreshold": 0.8,
     "disableMouseAimTime": 0.05,
-    "enableMouseAimTime": 0.1
+    "enableMouseAimTime": 0.1,
+    "angVelFactorMin": 1.42,
+    "rollRateToAngVelFactor": 0.497,
+    "localDirYawPitchRotYZMax0": 0.125,
+    "autoBankLevelMultToLocalDirYawPitchRotYZMax": 0.3,
+    "rollAndPullUpWishDirYMin": -0.7,
+    "rollandPullUpWishDirMin": 0.3,
+    "allowedRollRateCoeff": [0.17,0.3,0.4,1.5],
+    "rollTimeMult": 0.44,
+    "rollPidKpMult": 1.25,
+    "dirXZFactorPitch0": [0.15,2.0,0.35,0.06],
+    "dirXZFactorPitchMin": 0.02,
+    "dirXZFactorYaw0": [0.15,2.0,0.35,0.06],
+    "dirXZFactorYawMin": 0.02,
+    "rollRateLimToDirXZFactor": [0.7,1000000.0],
+    "angDistToRadialAngleAdd": [0.12,0.0,0.03,1.0],
+    "rollRateToRadialAngleAdd": 0.15,
+    "radialAngleAddMax": 0.3
   },
   "mouseJoystick": {
     "minMouseJoystickSensitivity": 0.5,
@@ -1619,6 +1636,9 @@
       "time": [0.158,12.0]
     },
     {
+      "time": [0.163,8.0]
+    },
+    {
       "time": [0.164,8.0]
     },
     {
@@ -1645,22 +1665,54 @@
     "engineInfraRedBrightnessAspectMultFront": 0.01,
     "engineInfraRedBrightnessAspectMultSide": 0.09,
     "engineInfraRedBrightnessAspectMultRear": 1.0,
-    "engineInfraRedBrightnessBandMask": 1,
+    "engineInfraRedBrightnessSourcesMask": 1,
     "airframeInfraRedBrightnessMult": 200.0,
-    "airframeInfraRedBrightnessBandMask": 2,
+    "airframeInfraRedBrightnessSourcesMask": 2,
     "sunInfraRedBrightnessMult": 0.0001,
-    "sunInfraRedBrightnessBandMask": 3,
+    "sunInfraRedBrightnessSourcesMask": 3,
     "radarCrossSectionAspectMultFrontFront": 1.0,
     "radarCrossSectionAspectMultFrontSide": 1.2,
     "radarCrossSectionAspectMultFrontRear": 1.0,
     "propellerRadarCrossSectionMult": 1.0,
-    "airframeRadarCrossSectionBandMask": 1,
-    "propellersRadarCrossSectionBandMask": 2,
+    "airframeRadarCrossSectionSourcesMask": 1,
+    "propellersRadarCrossSectionSourcesMask": 2,
     "activeSonarReflectionMult": 40000000000.0,
-    "backScatteringBand0": {
-      "backScattering0": [3.0,-37.0],
-      "backScattering1": [15.0,-25.0],
-      "backScattering2": [50.0,-23.0]
+    "radarAntipodEffect": [0.0,1.0,100.0,0.0],
+    "radarFrequencyBandCrossSection0": {
+      "crossSectionMult": 1.0,
+      "backScattering0": [3.0,-35.0],
+      "backScattering1": [10.0,-16.0],
+      "backScattering2": [20.0,-15.0],
+      "backScattering3": [50.0,-12.0],
+      "backScattering4": [70.0,-7.0],
+      "backScattering5": [90.0,-2.0]
+    },
+    "radarFrequencyBandCrossSection1": {
+      "crossSectionMult": 1.0,
+      "backScattering0": [3.0,-35.0],
+      "backScattering1": [10.0,-20.0],
+      "backScattering2": [20.0,-19.0],
+      "backScattering3": [50.0,-16.0],
+      "backScattering4": [70.0,-10.0],
+      "backScattering5": [90.0,-2.0]
+    },
+    "radarFrequencyBandCrossSection2": {
+      "crossSectionMult": 1.0,
+      "backScattering0": [3.0,-40.0],
+      "backScattering1": [10.0,-28.0],
+      "backScattering2": [20.0,-25.0],
+      "backScattering3": [50.0,-20.0],
+      "backScattering4": [70.0,-15.0],
+      "backScattering5": [90.0,-3.0]
+    },
+    "radarFrequencyBandCrossSection3": {
+      "crossSectionMult": 1.0,
+      "backScattering0": [3.0,-55.0],
+      "backScattering1": [10.0,-50.0],
+      "backScattering2": [20.0,-48.0],
+      "backScattering3": [50.0,-42.0],
+      "backScattering4": [70.0,-25.0],
+      "backScattering5": [90.0,-5.0]
     }
   },
   "fmConstants": {
@@ -1696,10 +1748,10 @@
     "shaftDegradationSpeed1": 0.0005,
     "shaftDegradationSpeed2": 0.0035,
     "shaftDegradationSpeed3": 0.025,
-    "shaftDamageFrictionAccelMax": 3.0,
-    "shaftCutFrictionAccelMax": 0.5,
-    "transmissionDamageFrictionAccelMax": 200.0,
-    "transmissionCutFrictionAccelMax": 30.0,
+    "shaftDamageFrictionAccelMax": 0.002,
+    "shaftCutFrictionAccelMax": 0.0003,
+    "transmissionDamageFrictionAccelMax": 0.133,
+    "transmissionCutFrictionAccelMax": 0.02,
     "damagedPropClMult": 0.4,
     "damagedPropCdMult": 3.0,
     "damagedSurfaceCxMultSquareRatioMin": 0.3,
@@ -1709,8 +1761,12 @@
     "distToSurfaceTimeConst": 0.2,
     "mainRotorLowSpeedAlarmPercent": -0.01,
     "vortexRingAlarmPercent": 0.95,
+    "wingOverloadToBreakProbabilityMult": 6.0,
+    "wingOverspeedToBreakProbabilityMult": 0.03,
     "controlFinsDestructionSpeedDiff": 10.0,
+    "controlOverspeedToBreakProbabilityMult": 0.05,
     "tailDestructionSpeedDiff": 40.0,
+    "tailOverspeedToBreakProbabilityMult": 0.05,
     "horsePowersToInfraRedBrightness": 0.42,
     "thrustKgsToInfraRedBrightness": 1.0
   },
@@ -2564,6 +2620,9 @@
       "allowNode": "ex_armor_body_l_05_dm"
     },
     {
+      "allowNode": "ex_armor_body_l_06_dm"
+    },
+    {
       "allowNode": "ex_armor_body_r_01_dm"
     },
     {
@@ -2577,6 +2636,9 @@
     },
     {
       "allowNode": "ex_armor_body_r_05_dm"
+    },
+    {
+      "allowNode": "ex_armor_body_r_06_dm"
     },
     {
       "allowNode": "ex_armor_body_01_dm"
@@ -2701,11 +2763,19 @@
       }
     }
   },
-  "clanExpReward": {
-    "maxClanActivity": 20000,
-    "rewardPeriodDays": 3,
-    "historyDepth": 14,
-    "enabled": true,
-    "maxActivityPerDay": 120
+  "markUnitPresets": {
+    "buoys": {
+      "unitsByPerimeter": true,
+      "distanceBetweenPerimeterUnit": 50.0,
+      "unitInCenter": true,
+      "unitClass": "buoy_a",
+      "onlyOnWater": true
+    },
+    "tanks": {
+      "unitsByPerimeter": false,
+      "unitInCenter": true,
+      "unitClass": "capture_zone_circle",
+      "unitRadius": 50.0
+    }
   }
 }

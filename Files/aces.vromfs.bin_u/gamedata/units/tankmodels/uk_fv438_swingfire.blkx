@@ -967,31 +967,30 @@
   },
   {
     "MetaParts": {
-      "crew": [
+      "body": [
         {
-          "killAllPartsForDeath": true
+          "hp": 2000.0
         },
         {
-          "killNumPartsForDeath": 2
+          "part": "body_front_dm"
         },
         {
-          "part": "loader_dm"
+          "part": "body_top_dm"
         },
         {
-          "part": "driver_dm"
+          "part": "body_bottom_dm"
         },
         {
-          "part": "commander_dm"
+          "part": "body_side_dm"
         },
         {
-          "effects": {
-            "killUnit": true
-          }
-        }
-      ],
-      "turret": [
+          "part": "body_back_dm"
+        },
         {
-          "hp": 10000.0
+          "part": "ex_armor_01_dm"
+        },
+        {
+          "part": "ex_armor_02_dm"
         },
         {
           "part": "superstructure_front_dm"
@@ -1018,7 +1017,119 @@
           "part": "body_side_dm"
         },
         {
-          "part": "turret_commander_dm"
+          "effect": {
+            "conditionDamageType": "explosion",
+            "expl": 1.0,
+            "conditionDamage": 600.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "cumulative",
+            "expl": 1.0,
+            "conditionDamage": 800.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        }
+      ],
+      "suspension": [
+        {
+          "hp": 2000.0
+        },
+        {
+          "part": "wheel_l_front_dm"
+        },
+        {
+          "part": "wheel_l_01_dm"
+        },
+        {
+          "part": "wheel_l_02_dm"
+        },
+        {
+          "part": "wheel_l_03_dm"
+        },
+        {
+          "part": "wheel_l_04_dm"
+        },
+        {
+          "part": "wheel_l_05_dm"
+        },
+        {
+          "part": "wheel_l_06_dm"
+        },
+        {
+          "part": "wheel_l_drive_dm"
+        },
+        {
+          "part": "wheel_r_front_dm"
+        },
+        {
+          "part": "wheel_r_01_dm"
+        },
+        {
+          "part": "wheel_r_02_dm"
+        },
+        {
+          "part": "wheel_r_03_dm"
+        },
+        {
+          "part": "wheel_r_04_dm"
+        },
+        {
+          "part": "wheel_r_05_dm"
+        },
+        {
+          "part": "wheel_r_06_dm"
+        },
+        {
+          "part": "wheel_r_drive_dm"
+        },
+        {
+          "part": "track_r_dm"
+        },
+        {
+          "part": "track_l_dm"
+        },
+        {
+          "effect": {
+            "conditionDamageType": "explosion",
+            "expl": 1.0,
+            "conditionDamage": 400.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "cumulative",
+            "expl": 1.0,
+            "conditionDamage": 400.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        }
+      ],
+      "mount": [
+        {
+          "hp": 2000.0
+        },
+        {
+          "part": "turret_bottom_dm"
+        },
+        {
+          "part": "gun_mask_dm"
         },
         {
           "part": "turret_front_dm"
@@ -1033,13 +1144,33 @@
           "part": "turret_back_dm"
         },
         {
-          "fireParamsPreset": "default_metapart"
+          "part": "turret_commander_dm"
         },
         {
-          "fireParams": {
-            "fireDamagePower": 1.0,
-            "maxTankFireTime": [20.0,30.0],
-            "firePart": "transmission_dm"
+          "effect": {
+            "conditionDamageType": "explosion",
+            "expl": 1.0,
+            "conditionDamage": 600.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "cumulative",
+            "expl": 1.0,
+            "conditionDamage": 800.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
           }
         }
       ]

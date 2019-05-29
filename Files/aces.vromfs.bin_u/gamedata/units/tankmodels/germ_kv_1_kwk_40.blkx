@@ -1564,7 +1564,13 @@
         "armorThickness": 105.0
       },
       "turret_commander_dm": {
+        "armorThickness": 30.0
+      },
+      "turret_02_side_dm": {
         "armorThickness": 50.0
+      },
+      "turret_back_dm": {
+        "armorThickness": 8.0
       },
       "turret_front_dm": {
         "armorThickness": 105.0

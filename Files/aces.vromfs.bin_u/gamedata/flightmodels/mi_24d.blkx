@@ -1265,6 +1265,7 @@
     "Engine": "engine_mi24",
     "gun": "gun_default",
     "turretTurnSfxPath": "tanks/effects_tanks",
+    "turretTurnSfxPathStudio": "ground/effects",
     "turretTurnSfxName": "turret_turn"
   },
   "cockpit": {
@@ -1438,7 +1439,7 @@
   },
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/spo-15.blk"
+      "blk": "gameData/sensors/su_spo-15.blk"
     }
   },
   "weapon_presets": [

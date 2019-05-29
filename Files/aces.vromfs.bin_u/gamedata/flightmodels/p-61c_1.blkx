@@ -3075,7 +3075,7 @@
   {
     "sensors": {
       "sensor": {
-        "blk": "gameData/sensors/mk_x.blk",
+        "blk": "gameData/sensors/us_mk_x.blk",
         "dmPart": "radar_dm"
       }
     }

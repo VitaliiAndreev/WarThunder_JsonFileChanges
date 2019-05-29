@@ -322,6 +322,9 @@
         },
         "turret_08_back_dm": {
           "armorThickness": 19.0
+        },
+        "turret_09_back_dm": {
+          "armorThickness": 30.0
         }
       },
       "body_shields": {

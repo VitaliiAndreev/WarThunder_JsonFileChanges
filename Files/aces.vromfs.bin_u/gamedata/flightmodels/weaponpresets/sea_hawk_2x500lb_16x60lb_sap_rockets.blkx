@@ -8,12 +8,6 @@
         "node": "pylon_bomb4"
       },
       {
-        "node": "pylon_rocket_1"
-      },
-      {
-        "node": "pylon_rocket_2"
-      },
-      {
         "node": "pylon_aim9_l"
       },
       {
@@ -24,6 +18,126 @@
       },
       {
         "node": "aero_3b_r"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_1"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_2"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_3"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_4"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_5"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_6"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_7"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_8"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_9"
+      },
+      {
+        "node": "uk_rp_3_pylon_late_10"
+      },
+      {
+        "node": "uk_rp_3_cord1_1"
+      },
+      {
+        "node": "uk_rp_3_cord2_1"
+      },
+      {
+        "node": "uk_rp_3_cord3_1"
+      },
+      {
+        "node": "uk_rp_3_cord1_2"
+      },
+      {
+        "node": "uk_rp_3_cord2_2"
+      },
+      {
+        "node": "uk_rp_3_cord3_2"
+      },
+      {
+        "node": "uk_rp_3_cord1_3"
+      },
+      {
+        "node": "uk_rp_3_cord2_3"
+      },
+      {
+        "node": "uk_rp_3_cord3_3"
+      },
+      {
+        "node": "uk_rp_3_cord1_4"
+      },
+      {
+        "node": "uk_rp_3_cord2_4"
+      },
+      {
+        "node": "uk_rp_3_cord3_4"
+      },
+      {
+        "node": "uk_rp_3_cord1_5"
+      },
+      {
+        "node": "uk_rp_3_cord2_5"
+      },
+      {
+        "node": "uk_rp_3_cord3_5"
+      },
+      {
+        "node": "uk_rp_3_cord1_6"
+      },
+      {
+        "node": "uk_rp_3_cord2_6"
+      },
+      {
+        "node": "uk_rp_3_cord3_6"
+      },
+      {
+        "node": "uk_rp_3_cord1_7"
+      },
+      {
+        "node": "uk_rp_3_cord2_7"
+      },
+      {
+        "node": "uk_rp_3_cord3_7"
+      },
+      {
+        "node": "uk_rp_3_cord1_8"
+      },
+      {
+        "node": "uk_rp_3_cord2_8"
+      },
+      {
+        "node": "uk_rp_3_cord3_8"
+      },
+      {
+        "node": "uk_rp_3_cord1_9"
+      },
+      {
+        "node": "uk_rp_3_cord2_9"
+      },
+      {
+        "node": "uk_rp_3_cord3_9"
+      },
+      {
+        "node": "uk_rp_3_cord1_10"
+      },
+      {
+        "node": "uk_rp_3_cord2_10"
+      },
+      {
+        "node": "uk_rp_3_cord3_10"
       }
     ]
   },
@@ -54,7 +168,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_1"
@@ -76,7 +190,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_2"
@@ -98,7 +212,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_3"
@@ -120,7 +234,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_4"
@@ -142,7 +256,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_5"
@@ -164,7 +278,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_6"
@@ -186,7 +300,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_7"
@@ -208,7 +322,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_8"
@@ -230,7 +344,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_9"
@@ -252,7 +366,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_10"
@@ -274,7 +388,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_11"
@@ -296,7 +410,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_12"
@@ -318,7 +432,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_13"
@@ -340,7 +454,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4b_late.blk"
       },
       {
         "emitter": "rocket_60lb_14"
@@ -362,7 +476,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_15"
@@ -384,7 +498,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a.blk"
+        "blk": "gameData/Weapons/rocketGuns/uk_rp3_4a_late.blk"
       },
       {
         "emitter": "rocket_60lb_16"

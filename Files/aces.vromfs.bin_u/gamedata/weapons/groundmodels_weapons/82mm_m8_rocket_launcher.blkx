@@ -78,6 +78,21 @@
       "steel": {
         "fx": "cannon_hit_armor_cumulative",
         "fxScale": [3.0,4.0]
+      },
+      "buildings": {
+        "fx": "atgm_hit",
+        "fxScale": [1.7,2.1]
+      },
+      "wood": {
+        "fx": "atgm_hit",
+        "fxScale": [1.7,2.1]
+      }
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 5.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 1.0
       }
     }
   }

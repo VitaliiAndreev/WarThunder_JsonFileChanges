@@ -153,7 +153,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": true,
         "isTanksAllowed": false,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       }
     },
     "spectator_points": [],
@@ -329,13 +330,16 @@
               "showOnMap": true
             },
             {
-              "offset": [0.0,0.0,0.0]
-            },
-            {
               "radius": -1.0
             },
             {
               "onlyOnePlayerPerSpawnPoint": false
+            },
+            {
+              "resetStrictSpawnIndex": false
+            },
+            {
+              "replaceAreas": false
             },
             {
               "target": "t1_air_spawn_01"
@@ -351,6 +355,9 @@
             },
             {
               "team": "A"
+            },
+            {
+              "offset": [0.0,0.0,0.0]
             },
             {
               "tags": {
@@ -392,13 +399,16 @@
               "showOnMap": true
             },
             {
-              "offset": [0.0,0.0,0.0]
-            },
-            {
               "radius": -1.0
             },
             {
               "onlyOnePlayerPerSpawnPoint": false
+            },
+            {
+              "resetStrictSpawnIndex": false
+            },
+            {
+              "replaceAreas": false
             },
             {
               "target": "t2_air_spawn_01"
@@ -414,6 +424,9 @@
             },
             {
               "team": "B"
+            },
+            {
+              "offset": [0.0,0.0,0.0]
             },
             {
               "tags": {
@@ -487,6 +500,9 @@
             },
             {
               "detectionArea": false
+            },
+            {
+              "airMapArea": false
             },
             {
               "area": "battle_area_01"
@@ -709,9 +725,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -736,6 +749,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_01"
               },
               {
@@ -752,6 +771,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -775,9 +797,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -802,6 +821,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_01"
               },
               {
@@ -818,6 +843,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -860,7 +888,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_01",
@@ -871,7 +899,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_02",
@@ -882,7 +910,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_03",
@@ -893,7 +921,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_04",
@@ -1303,9 +1331,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -1330,6 +1355,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_02_01"
               },
               {
@@ -1343,6 +1374,9 @@
               },
               {
                 "team": "A"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -1366,9 +1400,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -1393,6 +1424,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_02_01"
               },
               {
@@ -1406,6 +1443,9 @@
               },
               {
                 "team": "B"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -1485,9 +1525,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -1512,6 +1549,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_02_01"
               },
               {
@@ -1528,6 +1571,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -1551,9 +1597,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -1578,6 +1621,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_02_01"
               },
               {
@@ -1594,6 +1643,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -1636,7 +1688,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_02",
@@ -1647,7 +1699,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_03",
@@ -2037,9 +2089,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -2064,6 +2113,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_03_01"
               },
               {
@@ -2077,6 +2132,9 @@
               },
               {
                 "team": "A"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -2100,9 +2158,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -2127,6 +2182,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_03_01"
               },
               {
@@ -2140,6 +2201,9 @@
               },
               {
                 "team": "B"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -2216,9 +2280,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -2243,6 +2304,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_03_01"
               },
               {
@@ -2259,6 +2326,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -2282,9 +2352,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -2309,6 +2376,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_03_01"
               },
               {
@@ -2325,6 +2398,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -2367,7 +2443,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_03",
@@ -2912,9 +2988,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -2939,6 +3012,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_03_01"
               },
               {
@@ -2952,6 +3031,9 @@
               },
               {
                 "team": "A"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -2975,9 +3057,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -3002,6 +3081,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_03_01"
               },
               {
@@ -3015,6 +3100,9 @@
               },
               {
                 "team": "B"
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -3091,9 +3179,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -3118,6 +3203,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t1_air_spawn_03_01"
               },
               {
@@ -3134,6 +3225,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -3157,9 +3251,6 @@
                 "isUnit": false
               },
               {
-                "offset": [0.0,0.0,0.0]
-              },
-              {
                 "radius": -1.0
               },
               {
@@ -3184,6 +3275,12 @@
                 "onlyOnePlayerPerSpawnPoint": false
               },
               {
+                "resetStrictSpawnIndex": false
+              },
+              {
+                "replaceAreas": false
+              },
+              {
                 "target": "t2_air_spawn_03_01"
               },
               {
@@ -3200,6 +3297,9 @@
               },
               {
                 "disableAfter": 0
+              },
+              {
+                "offset": [0.0,0.0,0.0]
               },
               {
                 "tags": {
@@ -3242,7 +3342,7 @@
           {
             "missionMarkAsCaptureZone": {
               "army": 0,
-              "timeMultiplier": 1.0,
+              "timeMultiplier": 0.3,
               "disableZone": false,
               "name_for_respawn_base": "",
               "target": "battle_area_03",
@@ -6913,6 +7013,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_player01"
           },
           {
@@ -7024,6 +7127,9 @@
           [17543.8,164.4,-482.8]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_player01"
           },
@@ -7139,6 +7245,9 @@
           [17618.9,164.4,-1320.35]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_player01"
           },
@@ -7338,6 +7447,9 @@
           [505.65,12.3,2637.9]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_player02"
           },

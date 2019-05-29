@@ -63,7 +63,22 @@
       "tags": []
     }
   },
-  "imports": [],
+  "imports": {
+    "import_record": {
+      "file": "gameData/missions/cta/ships/alps_fjord/spotareas/alps_fjord_NDom_spotareas_template.blk",
+      "importAreas": true,
+      "importUnits": true,
+      "importTriggers": true,
+      "importMissionObjectives": true,
+      "importWayPoints": true,
+      "showAreas": true,
+      "showUnits": true,
+      "showTriggers": true,
+      "showMissionObjectives": true,
+      "showWayPoints": true,
+      "excludes": []
+    }
+  },
   "triggers": {
     "isCategory": true,
     "is_enabled": true
@@ -10745,6 +10760,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_area_01_buoy_146"
           },
           {
@@ -10976,6 +10994,9 @@
           [904.669,-30.6573,4092.01]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "capture_area_02_buoy_01"
           },
@@ -11214,6 +11235,9 @@
           [-3795.8,-0.00012207,4553.78]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "capture_area_03_buoy_01"
           },
@@ -11662,6 +11686,9 @@
           [3700.4,-6.10352e-05,3684.95]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "ndom_buoy_circle_01"
           },

@@ -1103,6 +1103,19 @@
     }
   },
   {
+    "xray_viewer_data": {
+      "armorArrayHull": {
+        "xrayDmPart": "composite_armor_hull_01_dm",
+        "titleLoc": "RHA_tank_modern",
+        "armorArrayText": {
+          "layer": {
+            "dmPart": "composite_armor_hull_01_dm"
+          }
+        }
+      }
+    }
+  },
+  {
     "sound": {
       "EngineName": "engine_m1",
       "TrackSoundPath": "tanks/engines_tanks",
@@ -1944,6 +1957,9 @@
         },
         "turret_03_bottom_dm": {
           "armorThickness": 25.0
+        },
+        "composite_armor_hull_01_dm": {
+          "armorThickness": 8.0
         }
       },
       "optics": {
@@ -2181,7 +2197,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -2653,6 +2669,17 @@
             }
           }
         }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_01_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_01_dm"
+            }
+          }
+        }
       }
     ]
   },
@@ -2733,7 +2760,9 @@
           "wheel_r_02": 10.0,
           "wheel_l_04": -8.0,
           "wheel_r_04": -8.0,
-          "steeringTau": 1.0
+          "steeringTau": 1000000.0,
+          "steeringSpd": 1.0,
+          "steeringNeutralSpd": 3.0
         },
         "wheelsWidth": {
           "wheel_l_03": 0.4,
@@ -2833,6 +2862,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "mount": [
@@ -2901,6 +2939,15 @@
             "conditionDamageType": "cumulative",
             "expl": 1.0,
             "conditionDamage": 800.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
             "kill": true,
             "killEffect": "fire"
           }

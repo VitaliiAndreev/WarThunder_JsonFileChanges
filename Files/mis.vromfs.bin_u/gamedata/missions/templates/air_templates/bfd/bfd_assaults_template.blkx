@@ -1274,7 +1274,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_defend",
             "unit_or_area": "@bfd_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1286,7 +1286,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_attack",
             "unit_or_area": "@bfd_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1444,7 +1444,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_attack",
             "unit_or_area": "@bfd_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1456,7 +1456,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_defend",
             "unit_or_area": "@bfd_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1972,7 +1972,7 @@
           "status": 1,
           "team": "A",
           "unit_or_area": "@bfd_assaults_t1_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []
@@ -2002,7 +2002,7 @@
           "status": 1,
           "team": "A",
           "unit_or_area": "@bfd_assaults_t2_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []
@@ -2032,7 +2032,7 @@
           "status": 1,
           "team": "A",
           "unit_or_area": "@bfd_assaults_t2_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []
@@ -2062,7 +2062,7 @@
           "status": 1,
           "team": "A",
           "unit_or_area": "@bfd_assaults_t1_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []

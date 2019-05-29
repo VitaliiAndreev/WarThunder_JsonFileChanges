@@ -63,22 +63,7 @@
       "tags": []
     }
   },
-  "imports": {
-    "import_record": {
-      "file": "gameData/missions/cta/ships/blacksea_port/mainareas/blacksea_port_NDom_template.blk",
-      "importAreas": true,
-      "importUnits": true,
-      "importTriggers": true,
-      "importMissionObjectives": true,
-      "importWayPoints": true,
-      "showAreas": true,
-      "showUnits": true,
-      "showTriggers": true,
-      "showMissionObjectives": true,
-      "showWayPoints": true,
-      "excludes": []
-    }
-  },
+  "imports": [],
   "triggers": {
     "isCategory": true,
     "is_enabled": true

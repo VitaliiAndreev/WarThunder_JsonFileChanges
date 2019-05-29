@@ -35,6 +35,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_tropics",
   "average_ground_level": 7.0,
   "puddlesPowerScale": 1.0,

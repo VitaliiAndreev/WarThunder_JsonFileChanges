@@ -601,34 +601,42 @@
       },
       "chassis": {
         "armorClass": "tank_steel_wheels",
-        "hp": 300.0,
+        "hp": 250.0,
         "armorThickness": 20.0,
         "wheel_r_01_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_r_02_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_r_03_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_r_04_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_r_05_dm": [],
         "wheel_r_06_dm": [],
         "wheel_r_07_dm": [],
         "wheel_l_01_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_l_02_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_l_03_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_l_04_dm": {
-          "armorClass": "car_wheels"
+          "armorClass": "car_wheels",
+          "armorThickness": 10.0
         },
         "wheel_l_05_dm": [],
         "wheel_l_06_dm": [],

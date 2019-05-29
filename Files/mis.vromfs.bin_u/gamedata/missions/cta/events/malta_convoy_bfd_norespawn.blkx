@@ -619,13 +619,13 @@
         {
           "moAddMissionObjective": {
             "target": "malta_convoy_BfD_norespawn_t1_defend",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "malta_convoy_BfD_norespawn_t2_destroy",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -921,14 +921,14 @@
           "moSetObjectiveStatus": {
             "target": "malta_convoy_BfD_norespawn_t1_defend",
             "status": 2,
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moSetObjectiveStatus": {
             "target": "malta_convoy_BfD_norespawn_t2_destroy",
             "status": 3,
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
@@ -969,14 +969,14 @@
           "moSetObjectiveStatus": {
             "target": "malta_convoy_BfD_norespawn_t2_destroy",
             "status": 2,
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moSetObjectiveStatus": {
             "target": "malta_convoy_BfD_norespawn_t1_defend",
             "status": 3,
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {

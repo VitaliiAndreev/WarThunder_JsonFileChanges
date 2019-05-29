@@ -1845,6 +1845,13 @@
       }
     },
     {
+      "ship": {
+        "name": "jp_t14_class",
+        "weight": 1.0,
+        "country": "japan"
+      }
+    },
+    {
       "rankRange": [
         {
           "range": [4,7]

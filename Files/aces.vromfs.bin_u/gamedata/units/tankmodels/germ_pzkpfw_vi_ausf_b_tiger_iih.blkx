@@ -2055,16 +2055,20 @@
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "hidableInViewer": true,
+        "ex_decor_body_r_01_dm": [],
+        "ex_decor_body_r_02_dm": [],
         "ex_decor_body_r_03_dm": [],
         "ex_decor_body_r_04_dm": [],
         "ex_decor_body_r_05_dm": [],
         "ex_decor_body_r_06_dm": [],
-        "ex_decor_body_r_02_dm": [],
+        "ex_decor_body_r_07_dm": [],
+        "ex_decor_body_l_01_dm": [],
+        "ex_decor_body_l_02_dm": [],
         "ex_decor_body_l_03_dm": [],
         "ex_decor_body_l_04_dm": [],
         "ex_decor_body_l_05_dm": [],
         "ex_decor_body_l_06_dm": [],
-        "ex_decor_body_l_02_dm": []
+        "ex_decor_body_l_07_dm": []
       },
       "turret": {
         "turret_top_dm": {
@@ -2276,7 +2280,8 @@
         "drive_turret_h_dm": [],
         "drive_turret_h_01_dm": [],
         "drive_turret_v_01_dm": [],
-        "radio_station_dm": []
+        "radio_station_dm": [],
+        "radio_station_01_dm": []
       },
       "cannon_breech": {
         "armorClass": "tank_structural_steel",

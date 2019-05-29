@@ -254,6 +254,9 @@
             "icon": "air",
             "icon army": 1,
             "set": true,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "target": "bdt_indicator",
             "var": "team1_score"
           }
@@ -266,6 +269,9 @@
             "icon": "air",
             "icon army": 2,
             "set": true,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "target": "bdt_indicator",
             "var": "team2_score"
           }
@@ -350,7 +356,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 5000.0,
+          "value": 7500.0,
           "var": "team1_quest_score"
         }
       },
@@ -373,7 +379,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 5000.0,
+          "value": 7500.0,
           "var": "team2_quest_score"
         }
       },
@@ -396,7 +402,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 3500.0,
+          "value": 5000.0,
           "var": "team1_quest_score"
         }
       },
@@ -419,7 +425,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 3500.0,
+          "value": 5000.0,
           "var": "team2_quest_score"
         }
       },
@@ -442,7 +448,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 2000.0,
+          "value": 3000.0,
           "var": "team1_quest_score"
         }
       },
@@ -465,7 +471,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 2000.0,
+          "value": 3000.0,
           "var": "team2_quest_score"
         }
       },
@@ -488,7 +494,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 1000.0,
+          "value": 1500.0,
           "var": "team1_quest_score"
         }
       },
@@ -511,7 +517,7 @@
       "actions": {
         "varModify": {
           "operator": "add",
-          "value": 1000.0,
+          "value": 1500.0,
           "var": "team2_quest_score"
         }
       },
@@ -747,6 +753,9 @@
             "time": -1.0,
             "priority": 0,
             "target_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "team": "A"
           }
         },
@@ -765,6 +774,9 @@
             "time": -1.0,
             "priority": 0,
             "target_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "team": "A"
           }
         }
@@ -803,6 +815,9 @@
             "time": -1.0,
             "priority": 0,
             "target_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "team": "B"
           }
         },
@@ -821,10 +836,101 @@
             "time": -1.0,
             "priority": 0,
             "target_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "team": "B"
           }
         }
       ],
+      "else_actions": []
+    },
+    "kill_reward_check": {
+      "is_enabled": true,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "varCompareBool": {
+          "var_value": "kill_reward",
+          "value": true,
+          "comparasion_func": "equal"
+        }
+      },
+      "actions": {
+        "triggerEnable": [
+          {
+            "target": "kill_reward_for_t1"
+          },
+          {
+            "target": "kill_reward_for_t2"
+          }
+        ]
+      },
+      "else_actions": []
+    },
+    "kill_reward_for_t1": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenKilled": {
+          "target": "t2_players_squad",
+          "offender": "t1_players_squad"
+        }
+      },
+      "actions": {
+        "varModify": {
+          "operator": "add",
+          "value": 100.0,
+          "var": "team1_quest_score"
+        }
+      },
+      "else_actions": []
+    },
+    "kill_reward_for_t2": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenKilled": {
+          "target": "t1_players_squad",
+          "offender": "t2_players_squad"
+        }
+      },
+      "actions": {
+        "varModify": {
+          "operator": "add",
+          "value": 100.0,
+          "var": "team2_quest_score"
+        }
+      },
       "else_actions": []
     }
   },
@@ -841,7 +947,8 @@
     "team1_cur_tickets": 0,
     "team2_cur_tickets": 0,
     "team1_quest_score": 0,
-    "team2_quest_score": 0
+    "team2_quest_score": 0,
+    "kill_reward": false
   },
   "dialogs": [],
   "airfields": [],

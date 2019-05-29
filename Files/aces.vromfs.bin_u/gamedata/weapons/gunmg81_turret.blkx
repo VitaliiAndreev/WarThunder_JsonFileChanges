@@ -660,6 +660,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "mg81_gun_outside",
       "cockpit": "mg81_gun_inside",
       "ai": "mg81_gun_ai"

@@ -186,6 +186,7 @@
       "mass": 39.06,
       "caliber": 0.15,
       "sound_path": "tanks/weapon_tanks/rockets",
+      "sound_pathStudio": "ground/weapon/rockets",
       "sound": "158mm_nb_wf_41",
       "sound_inside": "158mm_nb_wf_41_interior",
       "recoilMultiplier": 0.01,
@@ -252,6 +253,14 @@
           "steel": {
             "fx": "cannon_hit_armor_cumulative",
             "fxScale": [4.0,5.0]
+          },
+          "buildings": {
+            "fx": "atgm_hit",
+            "fxScale": [2.2,2.5]
+          },
+          "wood": {
+            "fx": "atgm_hit",
+            "fxScale": [2.2,2.5]
           }
         }
       }

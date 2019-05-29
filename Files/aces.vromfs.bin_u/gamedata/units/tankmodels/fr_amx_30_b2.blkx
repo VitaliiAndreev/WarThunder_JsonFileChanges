@@ -726,7 +726,7 @@
   },
   {
     "sound": {
-      "EngineName": "engine_sherman_m4a1",
+      "EngineName": "engine_chieftain",
       "TrackSoundPath": "tanks/engines_tanks",
       "TrackSoundPathStudio": "ground/engines",
       "TrackSoundName": "tracks",
@@ -2617,7 +2617,7 @@
           "parkInDeadzone": false,
           "speedYaw": 30.0,
           "speedPitch": 20.0,
-          "bullets": 2000,
+          "bullets": 2050,
           "isBulletBelt": true,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -2843,7 +2843,7 @@
                 "parkInDeadzone": false,
                 "speedYaw": 30.0,
                 "speedPitch": 20.0,
-                "bullets": 2000,
+                "bullets": 2050,
                 "isBulletBelt": true,
                 "fireConeAngle": 15.0,
                 "ChainfireTime": 0.5,

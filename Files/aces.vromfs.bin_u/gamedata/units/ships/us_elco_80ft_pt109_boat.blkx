@@ -1474,6 +1474,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -2251,6 +2252,47 @@
         "tankRearmOnCaptureZone": true
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "elco_80ft_pt_boat"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_darkgrey_5d*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_navygrey_5*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_browning_open_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk4_oerlicon_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_21in_mk18_1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "elco80_pt_a_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   },
   {
     "DamageParts": {
@@ -3604,6 +3646,42 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_07_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "elco_80ft_pt109_boat"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_darkgrey_5d*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_browning_open_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk4_oerlicon_pt109_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_21in_mk18_1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "elco80_pt109_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

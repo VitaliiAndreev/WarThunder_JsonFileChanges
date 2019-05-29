@@ -2368,6 +2368,13 @@
       "from": "ger_camo_dunkelgelb*"
     }
   },
+  "skin": {
+    "name": "winter",
+    "replace_tex": {
+      "from": "ger_camo_dunkelgelb*",
+      "to": "ger_camo_winter_dunkelgelb*"
+    }
+  },
   "ammo": {
     "combustionTime": 10.0,
     "detonateProb": 0.15,

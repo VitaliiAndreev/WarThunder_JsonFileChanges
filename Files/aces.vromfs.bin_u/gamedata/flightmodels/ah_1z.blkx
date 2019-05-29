@@ -17,6 +17,7 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "400kph",
   "fightAiBehaviour": "helicopter",
+  "laserDesignator": true,
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
@@ -1222,6 +1223,7 @@
     "Engine": "engine_ah1z",
     "gun": "gun_default",
     "turretTurnSfxPath": "tanks/effects_tanks",
+    "turretTurnSfxPathStudio": "ground/effects",
     "turretTurnSfxName": "turret_turn"
   },
   "cockpit": {
@@ -1401,7 +1403,7 @@
   ],
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/an_apr_39.blk"
+      "blk": "gameData/sensors/us_an_apr_39.blk"
     }
   },
   "gunnerFps": {
@@ -4469,7 +4471,7 @@
         ]
       }
     },
-    "ah_1_AIM_9": {
+    "ah_1_AIM_9_LTC": {
       "turn_it_off": false,
       "reqModification": "heli_false_thermal_targets",
       "tier": 2,

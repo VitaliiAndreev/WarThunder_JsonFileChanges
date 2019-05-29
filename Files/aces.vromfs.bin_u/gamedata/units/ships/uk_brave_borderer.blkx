@@ -1046,15 +1046,6 @@
         },
         "turret_04_dm": {
           "hp": 250.0
-        },
-        "turret_h_02_dm": {
-          "hp": 250.0
-        },
-        "turret_v_01_dm": {
-          "hp": 250.0
-        },
-        "turret_v_02_dm": {
-          "hp": 250.0
         }
       },
       "turrets_main_caliber": {
@@ -1079,7 +1070,13 @@
         "genericDamageMult": 1.4,
         "shatterDamageMult": 1.1,
         "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.5
+        "secondaryShatterDamageMult": 0.5,
+        "auxiliary_caliber_turret_02_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_turret_03_dm": {
+          "hp": 100.0
+        }
       },
       "turrets_aa_caliber": {
         "armorClass": "ship_structural_steel",
@@ -1112,7 +1109,13 @@
         "genericDamageMult": 1.7,
         "shatterDamageMult": 0.8,
         "explosionDamageMult": 0.5,
-        "secondaryShatterDamageMult": 0.01
+        "secondaryShatterDamageMult": 0.01,
+        "auxiliary_caliber_gun_01_dm": {
+          "hp": 100.0
+        },
+        "auxiliary_caliber_gun_02_dm": {
+          "hp": 100.0
+        }
       },
       "gun_aa_caliber": {
         "armorClass": "tank_barrel",
@@ -2664,6 +2667,7 @@
       "EngineName": "engine_pt15",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3520,16 +3524,29 @@
           "rotation": 2.1,
           "collisionNode": "cls_body_03"
         }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "brave_borderer"
       },
       {
-        "part": {
-          "node": "turret_h_03",
-          "idx": 5,
-          "mass": 1100.0,
-          "cutDamage": 350.0,
-          "deviation": 0.6,
-          "rotation": 2.1,
-          "collisionNode": "turret_h_03_dm"
+        "replace_tex": {
+          "from": "camo_lightadmiraltygrey*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk7_bofors_l60_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "brave_borderer_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

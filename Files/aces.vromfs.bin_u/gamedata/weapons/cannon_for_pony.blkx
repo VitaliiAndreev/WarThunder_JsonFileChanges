@@ -330,6 +330,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "pony_gun_outside",
       "cockpit": "pony_gun_inside",
       "ai": "pony_gun_ai"

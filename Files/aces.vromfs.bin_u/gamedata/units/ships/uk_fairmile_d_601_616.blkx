@@ -3835,6 +3835,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4796,6 +4797,47 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_r_03_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "fairmile_d_601_616"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_b15*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_g45*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk15_vickers_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk5_oerlikon_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk5_twin_vickers_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "fairmile_d_601_616_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

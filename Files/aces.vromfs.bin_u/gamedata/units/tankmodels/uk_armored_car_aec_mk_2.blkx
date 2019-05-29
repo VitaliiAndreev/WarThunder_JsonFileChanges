@@ -243,7 +243,7 @@
       },
       "chassis": {
         "hp": 250.0,
-        "armorThickness": 2.0,
+        "armorThickness": 10.0,
         "armorClass": "car_wheels",
         "wheel_r_01_dm": [],
         "wheel_l_01_dm": [],

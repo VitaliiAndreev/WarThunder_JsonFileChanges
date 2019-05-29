@@ -739,6 +739,9 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0,
@@ -2360,6 +2363,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3231,5 +3235,52 @@
         "node": "ex_decor_14"
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "type143_albatros"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_deckbasaltgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_simplegrey_decks*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_oto_melara7662_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_533_albatros_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rocket_launcher_mm38_exocet_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "type143_albatros_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "type143_albatros_deckhouse_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

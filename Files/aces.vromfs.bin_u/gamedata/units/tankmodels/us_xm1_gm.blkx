@@ -553,7 +553,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -2187,7 +2187,7 @@
           },
           "limits": {
             "yaw": [-120.0,120.0],
-            "pitch": [-10.0,50.0]
+            "pitch": [-5.0,20.0]
           }
         }
       },

@@ -355,7 +355,8 @@
         "drive_turret_h_dm": [],
         "drive_turret_h_01_dm": [],
         "drive_turret_v_01_dm": [],
-        "radio_station_dm": []
+        "radio_station_dm": [],
+        "radio_station_01_dm": []
       },
       "cannon_breech": {
         "armorClass": "tank_structural_steel",

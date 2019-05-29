@@ -1022,6 +1022,21 @@
     },
     {
       "event": {
+        "name": "helicopter_trim_elevator"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_ailerons"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_rudder"
+      }
+    },
+    {
+      "event": {
         "name": "trim_ailerons"
       }
     },
@@ -1114,6 +1129,11 @@
     {
       "event": {
         "name": "ID_TRIM"
+      }
+    },
+    {
+      "event": {
+        "name": "ID_HELICOPTER_TRIM"
       }
     },
     {
@@ -1452,6 +1472,11 @@
     {
       "event": {
         "name": "ID_TRIM_RESET"
+      }
+    },
+    {
+      "event": {
+        "name": "ID_HELICOPTER_TRIM_RESET"
       }
     },
     {

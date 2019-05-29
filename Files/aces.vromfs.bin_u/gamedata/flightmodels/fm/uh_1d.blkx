@@ -898,6 +898,7 @@
         "BladePitch3": 0.0,
         "BladeWidth3": 0.102,
         "ForceToBladeAngle": 0.0,
+        "RotationToAirflow": true,
         "AirFlow1": [-100.0,120.0,1.0],
         "AirFlow2": [0.0,0.0,1.0],
         "AirFlow3": [15.0,0.0,1.0],
@@ -906,8 +907,8 @@
         "Coaxial": false,
         "AdvancedAirFlow": false,
         "AirFlowSolver": true,
-        "RollDamping": [40.0,0.0,52.0,60000.0],
-        "PitchDamping": [40.0,0.0,52.0,60000.0],
+        "RollDamping": [30.0,0.0,52.0,60000.0],
+        "PitchDamping": [30.0,0.0,52.0,60000.0],
         "DampingMultByFlow": [0.0,1.0,30.0,2.0],
         "BladeAngleMax": 0.4,
         "MultiPoint": true,
@@ -1030,10 +1031,11 @@
         "ForceToBladeAngle": 0.0,
         "Coaxial": false,
         "AirFlowSolver": true,
+        "RotationToAirflow": true,
         "AirFlow1": [-100.0,-10.0,1.0],
         "AirFlow2": [0.0,-10.0,1.0],
         "AirFlow3": [15.0,-10.0,1.0],
-        "RollDamping": [50.0,0.0,125.0,50000.0],
+        "RollDamping": [50.0,0.0,125.0,5000.0],
         "DampingMultByFlow": [0.0,1.0,30.0,2.0],
         "MultiPoint": true
       },
@@ -1451,10 +1453,10 @@
           "Lim": [-2.0,2.0]
         },
         "VelPID": {
-          "Kp": 0.07,
-          "Ki": 0.03,
+          "Kp": 0.05,
+          "Ki": 0.02,
           "Imax": 1.0,
-          "Kd": 0.005,
+          "Kd": 0.0005,
           "Lim": [-0.35,0.35]
         },
         "PosPID": {
@@ -1492,7 +1494,7 @@
           "Kp": 0.03,
           "Ki": 0.02,
           "Imax": 1.0,
-          "Kd": 0.002,
+          "Kd": 0.001,
           "Lim": [-0.5,0.5]
         },
         "PosPID": {

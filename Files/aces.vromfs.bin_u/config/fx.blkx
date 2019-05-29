@@ -2800,7 +2800,14 @@
     "sfxPathStudio": "aircraft/effects"
   },
   "tank_exhaust": {
-    "fx": "pv_exhaust_fx",
+    "fx": "pv_exhaust_composite_fx",
+    "numInstances": 50,
+    "numReserved": 8,
+    "sfxPath": "sounds/effects",
+    "sfxPathStudio": "aircraft/effects"
+  },
+  "tank_smokescreen": {
+    "fx": "pv_smokescreen_composite_fx",
     "numInstances": 50,
     "numReserved": 8,
     "sfxPath": "sounds/effects",
@@ -3342,7 +3349,8 @@
     "soundEnableDistance": 50.0,
     "minScale": 1.2,
     "maxScale": 1.5,
-    "group": "water_proj"
+    "group": "water_proj",
+    "farPlane": 15000.0
   },
   "ship_hit_fire": {
     "fx": "ps_hit_fire_composite_fx",
@@ -3350,7 +3358,8 @@
     "numInstances": 30,
     "numReserved": 3,
     "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
+    "sfxPathStudio": "aircraft/effects",
+    "farPlane": 12000.0
   },
   "ship_explosion": {
     "fx": "ps_explosion_composite_fx",
@@ -3362,7 +3371,8 @@
     "soundEnableDistance": 200.0,
     "lightColor": [10.0,2.0,2.0,100.0],
     "minScale": 0.6,
-    "maxScale": 0.7
+    "maxScale": 0.7,
+    "farPlane": 15000.0
   },
   "ship_explosion_large": {
     "fx": "ps_expl_large_composite_fx",
@@ -3373,21 +3383,37 @@
     "sfxEvent": "ship_expl_large",
     "farPlane": 15000.0
   },
-  "ship_explosion_large_second": {
-    "fx": "ps_expl_large_second_composite_fx",
-    "numInstances": 50,
-    "numReserved": 8,
-    "farPlane": 15000.0,
-    "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
-  },
+  "ship_explosion_large_second": [
+    {
+      "fx": "ps_expl_large_second_composite_fx"
+    },
+    {
+      "numInstances": 50
+    },
+    {
+      "numReserved": 8
+    },
+    {
+      "farPlane": 15000.0
+    },
+    {
+      "sfxPath": "sounds/effects"
+    },
+    {
+      "sfxPathStudio": "aircraft/effects"
+    },
+    {
+      "farPlane": 15000.0
+    }
+  ],
   "ship_fire": {
     "fx": "ps_fire_composite_fx",
     "lifeTime": 10.0,
     "numInstances": 30,
     "numReserved": 3,
     "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
+    "sfxPathStudio": "aircraft/effects",
+    "farPlane": 15000.0
   },
   "ship_smoke": {
     "fx": "ps_smoke_small_fx",
@@ -3395,7 +3421,8 @@
     "numInstances": 30,
     "numReserved": 3,
     "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
+    "sfxPathStudio": "aircraft/effects",
+    "farPlane": 15000.0
   },
   "ship_smoke_large": {
     "fx": "ps_smoke_large_fx",
@@ -3436,7 +3463,8 @@
     "sfxPath": "tanks/explosions_tanks",
     "sfxPathStudio": "ground/explosions",
     "sfxEvent": "ammo_explode",
-    "soundEnableDistance": 100.0
+    "soundEnableDistance": 100.0,
+    "farPlane": 15000.0
   },
   "ship_ammo_fire_large": {
     "fx": "ps_ammo_fire_large_composite_fx",
@@ -3446,7 +3474,8 @@
     "sfxPath": "tanks/explosions_tanks",
     "sfxPathStudio": "ground/explosions",
     "sfxEvent": "ammo_explode",
-    "soundEnableDistance": 100.0
+    "soundEnableDistance": 100.0,
+    "farPlane": 15000.0
   },
   "start_torpedo_submerged": {
     "fx": "ps_trp_submerged_fire_composite_fx",
@@ -4161,6 +4190,15 @@
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   },
+  "lava_smoke": {
+    "fx": "location_lava_smoke_fx",
+    "numInstances": 5,
+    "numReserved": 0,
+    "softnessDepth": 3.0,
+    "farPlane": 15000.0,
+    "sfxPath": "sounds/effects",
+    "sfxPathStudio": "aircraft/effects"
+  },
   "white_smoke": {
     "fx": "whitesmoke",
     "numInstances": 10,
@@ -4720,6 +4758,19 @@
   },
   "ad_car_wreck": {
     "fx": "pv_explosion_composite_fx",
+    "numInstances": 20,
+    "numReserved": 5,
+    "softnessDepth": 5.0,
+    "onePointNumber": 5,
+    "minScale": 0.8,
+    "maxScale": 1.2,
+    "sfxPath": "tanks/object_crash",
+    "sfxPathStudio": "ground/object_crash",
+    "sfxEvent": "car_wreck",
+    "soundEnableDistance": 50.0
+  },
+  "ad_car_wreck_small": {
+    "fx": "ad_car_composite_fx",
     "numInstances": 20,
     "numReserved": 5,
     "softnessDepth": 5.0,

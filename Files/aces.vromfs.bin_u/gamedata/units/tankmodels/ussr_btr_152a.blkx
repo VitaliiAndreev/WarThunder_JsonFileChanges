@@ -2041,7 +2041,7 @@
       },
       "chassis_front": {
         "hp": 250.0,
-        "armorThickness": 2.0,
+        "armorThickness": 10.0,
         "armorClass": "car_wheels",
         "wheel_l_01_dm": [],
         "wheel_r_01_dm": [],
@@ -2746,7 +2746,9 @@
         "steeringDeflection": {
           "wheel_r_01": 47.0,
           "wheel_l_01": 47.0,
-          "steeringTau": 1.5
+          "steeringTau": 1000000.0,
+          "steeringSpd": 0.75,
+          "steeringNeutralSpd": 2.3
         },
         "wheelsDamageWeight": {
           "wheel_l_01": 0.4,

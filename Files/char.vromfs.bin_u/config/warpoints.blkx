@@ -165,6 +165,12 @@
     "maxGoldChangeLimit": 160000
   },
   {
+    "minClanMembersToRegister": 20
+  },
+  {
+    "minBattalionMembersToRegister": 20
+  },
+  {
     "lockTimeMaxLimitSec": 540
   },
   {
@@ -1262,32 +1268,19 @@
         "max_br_diff": 1.0,
         "spawn_pow": 1.0,
         "spawnCostMulForFighterWithBombs": 1.2,
-        "spawnCostMulForHelicopterWithATGM": 1.39,
-        "override_params_by_session_rank": {
-          "mrank_21_50": {
-            "minMRank": 21,
-            "maxMRank": 50,
-            "br_diff_mul_Air": 0.0,
-            "spawnCostMulForFighterWithBombs": 1.0,
-            "respawn_cost_mul_by_exp_class": {
-              "exp_fighter": 1.6,
-              "exp_bomber": 1.6,
-              "exp_assault": 1.6
-            }
-          }
-        },
+        "spawnCostMulForHelicopterWithATGM": 1.2,
         "respawn_cost_mul_by_exp_class": {
           "exp_fighter": 1.35,
           "exp_bomber": 1.67,
           "exp_assault": 1.51,
-          "exp_helicopter": 1.0,
+          "exp_helicopter": 0.83,
           "exp_tank": 0.334,
           "exp_heavy_tank": 0.5,
           "exp_tank_destroyer": 0.3,
           "exp_SPAA": 0.25,
           "go229_v3": 1.67,
           "ussr_zsu_57_2": 0.5,
-          "germ_flakpanzer_I_ausf_A": 0.5,
+          "it_otomatic": 0.5,
           "us_m24_chaffee": 0.2,
           "us_m24_chaffee_tl": 0.2,
           "jp_m24_chaffee": 0.2,
@@ -1295,6 +1288,7 @@
           "us_m41_walker_bulldog": 0.25,
           "us_t92": 0.25,
           "us_m551": 0.25,
+          "us_m3_bradley": 0.25,
           "germ_ru251": 0.25,
           "ussr_object_906": 0.25,
           "ussr_type_62": 0.25,

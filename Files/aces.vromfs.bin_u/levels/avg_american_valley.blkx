@@ -26,6 +26,7 @@
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types.blk",
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_desert",
   "water_level": -10.0,
   "lastClip": true,

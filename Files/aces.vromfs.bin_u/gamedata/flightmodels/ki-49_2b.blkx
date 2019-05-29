@@ -97,9 +97,6 @@
         "armor5_dm": {
           "hp": 40.0
         },
-        "armor6_dm": {
-          "hp": 40.0
-        },
         "armor7_dm": {
           "hp": 40.0
         },
@@ -110,6 +107,9 @@
       "armor16_5": {
         "armor3_dm": {
           "hp": 45.0
+        },
+        "armor6_dm": {
+          "hp": 40.0
         }
       },
       "armor_engine": {

@@ -1711,21 +1711,17 @@
             "verticalOmegaMult": 1.0,
             "verticalSpeedLimitKPH": 75.0,
             "speedFromVehicleVerticalMult": -1.0,
+            "speedYaw": 40.0,
+            "speedPitch": 20.0,
             "errorKPHToDegrees": [
               {
                 "row": [5.0,0.0]
               },
               {
-                "row": [25.0,0.015]
+                "row": [45.0,0.015]
               },
               {
-                "row": [35.0,0.02]
-              },
-              {
-                "row": [45.0,0.1]
-              },
-              {
-                "row": [50.0,0.3]
+                "row": [80.0,0.02]
               }
             ]
           }
@@ -2594,21 +2590,17 @@
                   "verticalOmegaMult": 1.0,
                   "verticalSpeedLimitKPH": 75.0,
                   "speedFromVehicleVerticalMult": -1.0,
+                  "speedYaw": 40.0,
+                  "speedPitch": 20.0,
                   "errorKPHToDegrees": [
                     {
                       "row": [5.0,0.0]
                     },
                     {
-                      "row": [25.0,0.015]
+                      "row": [45.0,0.015]
                     },
                     {
-                      "row": [35.0,0.02]
-                    },
-                    {
-                      "row": [45.0,0.1]
-                    },
-                    {
-                      "row": [50.0,0.3]
+                      "row": [80.0,0.02]
                     }
                   ]
                 }

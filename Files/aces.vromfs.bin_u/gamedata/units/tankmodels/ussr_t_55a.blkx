@@ -102,19 +102,19 @@
     "type": "typeMediumTank"
   },
   {
-    "smokeScreenActivateTime": 10.0
+    "smokeScreenActivateTime": 5.0
   },
   {
-    "smokeScreenEffectTime": 30.0
+    "smokeScreenEffectTime": 7.0
   },
   {
-    "smokeScreenRad": 15.0
+    "smokeScreenRad": 12.0
   },
   {
     "smokeScreenOffset": [-3.0,0.0,2.0]
   },
   {
-    "smokeScreenDmPart": "engine_dm"
+    "smokeScreenFxType": "tank_smokescreen"
   },
   {
     "DamageParts": {
@@ -2690,6 +2690,11 @@
         "from": "ussr_camo_green*",
         "to": "ussr_camo_winter_lines*"
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

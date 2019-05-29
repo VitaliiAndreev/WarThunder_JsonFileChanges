@@ -2107,6 +2107,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3022,6 +3023,41 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_05_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "pr_123k_hydrofoils"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bottom_green*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_ttka_45_52_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_2m_5_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "pr_123k_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

@@ -5,7 +5,7 @@
   "shotFreq": 1000.25,
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
-  "mesh": "fr_sneb_type26",
+  "mesh": "fr_sneb_tda",
   "tags": {
     "antiTankRocket": true,
     "antiShipRocket": true
@@ -202,6 +202,15 @@
         "wood": {
           "fx": "atgm_hit",
           "fxScale": [4.0,4.2]
+        }
+      }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
         }
       }
     }

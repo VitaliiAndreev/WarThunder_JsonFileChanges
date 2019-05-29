@@ -131,7 +131,7 @@
   "units": [
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_01",
+        "name": "bdt_t1_bomb_object_01",
         "tm": [
           [-0.984808,0.0,-0.173648],
           [0.0,1.0,0.0],
@@ -148,7 +148,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_02",
+        "name": "bdt_t1_bomb_object_02",
         "tm": [
           [-0.216439,0.0,0.976296],
           [0.0,1.0,0.0],
@@ -165,7 +165,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_03",
+        "name": "bdt_t1_bomb_object_03",
         "tm": [
           [-2.68221e-07,0.0,1.0],
           [0.0,1.0,0.0],
@@ -182,7 +182,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_04",
+        "name": "bdt_t1_bomb_object_04",
         "tm": [
           [-0.537299,0.0,0.843392],
           [0.0,1.0,0.0],
@@ -199,7 +199,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_05",
+        "name": "bdt_t1_bomb_object_05",
         "tm": [
           [-0.953717,0.0,0.300706],
           [0.0,1.0,0.0],
@@ -216,7 +216,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_06",
+        "name": "bdt_t1_bomb_object_06",
         "tm": [
           [-0.300706,0.0,0.953717],
           [0.0,1.0,0.0],
@@ -233,7 +233,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_07",
+        "name": "bdt_t1_bomb_object_07",
         "tm": [
           [-0.707106,0.0,0.707106],
           [0.0,1.0,0.0],
@@ -250,7 +250,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_08",
+        "name": "bdt_t1_bomb_object_08",
         "tm": [
           [-0.0436191,0.0,0.999048],
           [0.0,1.0,0.0],
@@ -267,7 +267,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_01",
+        "name": "bdt_t2_bomb_object_01",
         "tm": [
           [-0.939694,0.0,0.34202],
           [0.0,1.0,0.0],
@@ -284,7 +284,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_02",
+        "name": "bdt_t2_bomb_object_02",
         "tm": [
           [-0.707107,0.0,0.707107],
           [0.0,1.0,0.0],
@@ -301,7 +301,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_03",
+        "name": "bdt_t2_bomb_object_03",
         "tm": [
           [-0.866026,0.0,0.5],
           [0.0,1.0,0.0],
@@ -318,7 +318,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_04",
+        "name": "bdt_t2_bomb_object_04",
         "tm": [
           [-0.707107,0.0,0.707107],
           [0.0,1.0,0.0],
@@ -335,7 +335,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_05",
+        "name": "bdt_t2_bomb_object_05",
         "tm": [
           [-0.707107,0.0,0.707107],
           [0.0,1.0,0.0],
@@ -352,7 +352,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_06",
+        "name": "bdt_t2_bomb_object_06",
         "tm": [
           [-0.21644,0.0,0.976296],
           [0.0,1.0,0.0],
@@ -369,7 +369,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_07",
+        "name": "bdt_t2_bomb_object_07",
         "tm": [
           [-0.382683,0.0,0.92388],
           [0.0,1.0,0.0],
@@ -386,7 +386,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_08",
+        "name": "bdt_t2_bomb_object_08",
         "tm": [
           [-0.766044,0.0,0.642788],
           [0.0,1.0,0.0],
@@ -1148,9 +1148,6 @@
             "squad_members": "bdt_t2_bomb_zone_08_bomb_target"
           },
           {
-            "squad_members": "bdt_t1_bomb_target_01"
-          },
-          {
             "squad_members": "bdt_t2_bomb_zone_09_bomb_target"
           },
           {
@@ -1161,7 +1158,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_09",
+        "name": "bdt_t2_bomb_object_09",
         "tm": [
           [-0.766044,0.0,0.642788],
           [0.0,1.0,0.0],
@@ -1217,7 +1214,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t2_bomb_target_10",
+        "name": "bdt_t2_bomb_object_10",
         "tm": [
           [-0.766044,0.0,0.642788],
           [0.0,1.0,0.0],
@@ -1273,7 +1270,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_09",
+        "name": "bdt_t1_bomb_object_09",
         "tm": [
           [-0.953717,0.0,0.300706],
           [0.0,1.0,0.0],
@@ -1329,7 +1326,7 @@
     },
     {
       "objectGroups": {
-        "name": "bdt_t1_bomb_target_10",
+        "name": "bdt_t1_bomb_object_10",
         "tm": [
           [-0.953717,0.0,0.300706],
           [0.0,1.0,0.0],

@@ -2566,6 +2566,9 @@
         "image": "#ui/gameuiskin#tank_reinforcement_it"
       },
       "art_support": [],
+      "tank_rangefinder": {
+        "tier": 3
+      },
       "105mm_usa_HESH": [],
       "105mm_usa_HESH_ammo_pack": [],
       "105mm_usa_HEAT_FS": [],

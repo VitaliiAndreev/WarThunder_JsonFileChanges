@@ -2316,6 +2316,7 @@
   {
     "Sound": {
       "turretTurnSfxPath": "sounds/effects",
+      "turretTurnSfxPathStudio": "aircraft/effects",
       "turretTurnSfxName": "gun_turn_manual",
       "Engine": "engine10",
       "gun": "gun_default"

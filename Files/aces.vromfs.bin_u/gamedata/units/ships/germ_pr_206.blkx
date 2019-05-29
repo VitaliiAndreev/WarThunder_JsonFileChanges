@@ -1314,7 +1314,7 @@
         "explosionDamageMult": 1.0,
         "secondaryShatterDamageMult": 1.1,
         "armorClass": "ship_structural_steel",
-        "armorThickness": 8.0,
+        "armorThickness": 6.0,
         "compartment_01_dm": {
           "hp": 1358.0
         },
@@ -1338,7 +1338,7 @@
       },
       "superstructures": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 4.0,
+        "armorThickness": 3.0,
         "fireParamsPreset": "ship_cover",
         "genericDamageMult": 0.4,
         "shatterDamageMult": 0.3,
@@ -1475,6 +1475,9 @@
       "turrets": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0
+      },
+      "gun_masks": {
+        "armorThickness": 5.0
       },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
@@ -1685,17 +1688,17 @@
       "sailor1": {
         "dmPart": "bridge_dm",
         "role": "sailor",
-        "crew": 4
+        "crew": 7
       },
       "sailor2": {
         "dmPart": "compartment_01_dm",
         "role": "sailor",
-        "crew": 6
+        "crew": 4
       },
       "sailor3": {
         "dmPart": "compartment_02_dm",
         "role": "sailor",
-        "crew": 4
+        "crew": 3
       },
       "sailor4": {
         "dmPart": "compartment_03_dm",
@@ -1860,6 +1863,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3701,5 +3705,35 @@
       "type_torpedo_boat": true,
       "ship": true
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "germ_pr_206"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_ironoxide*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_ota_206_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_ak230_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "pr_206_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

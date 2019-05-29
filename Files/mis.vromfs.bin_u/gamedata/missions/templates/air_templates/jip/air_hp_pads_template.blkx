@@ -401,13 +401,13 @@
         {
           "__moAddMissionObjective": {
             "target": "ft_t1_find_enemy_airfield",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "__moAddMissionObjective": {
             "target": "ft_t2_find_enemy_airfield",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],
@@ -2871,7 +2871,7 @@
               "target": "@ft_complete_objective_t1_objective_name",
               "status": 0,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -2978,7 +2978,7 @@
               "target": "@ft_complete_objective_t2_objective_name",
               "status": 0,
               "team": "Both",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -3050,7 +3050,7 @@
           {
             "__moAddMissionObjective": {
               "target": "ft_t1_find_enemy_airfield",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -3122,7 +3122,7 @@
           {
             "__moAddMissionObjective": {
               "target": "ft_t2_find_enemy_airfield",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           }
         ],
@@ -3154,7 +3154,7 @@
               "status": 2,
               "extendedEnding": true,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -3178,7 +3178,7 @@
               "target": "ft_t1_find_enemy_airfield",
               "status": 0,
               "team": "A",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -3221,7 +3221,7 @@
               "status": 2,
               "extendedEnding": true,
               "team": "B",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {
@@ -3245,7 +3245,7 @@
               "target": "ft_t2_find_enemy_airfield",
               "status": 0,
               "team": "B",
-              "unit_type": "isAlive"
+              "object_type": "isAlive"
             }
           },
           {

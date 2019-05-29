@@ -33,7 +33,7 @@
     "maxDeltaAngleVertical": 0.08
   },
   {
-    "shotFreq": 8.334
+    "shotFreq": 4.0
   },
   {
     "shotFreqRndK": 0.15

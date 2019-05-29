@@ -1775,6 +1775,21 @@
     },
     {
       "event": {
+        "name": "helicopter_trim_elevator"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_ailerons"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_rudder"
+      }
+    },
+    {
+      "event": {
         "name": "trim_ailerons"
       }
     },
@@ -2076,6 +2091,37 @@
       "event": [
         {
           "name": "ID_TRIM"
+        },
+        {
+          "shortcut": {
+            "button": {
+              "deviceId": 2,
+              "buttonId": 201
+            }
+          }
+        },
+        {
+          "shortcut": {
+            "button": {
+              "deviceId": 2,
+              "buttonId": 20
+            }
+          }
+        },
+        {
+          "shortcut": {
+            "button": {
+              "deviceId": 3,
+              "buttonId": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "event": [
+        {
+          "name": "ID_HELICOPTER_TRIM"
         },
         {
           "shortcut": {
@@ -2767,6 +2813,17 @@
     {
       "event": {
         "name": "ID_TRIM_RESET",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 33
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_HELICOPTER_TRIM_RESET",
         "shortcut": {
           "button": {
             "deviceId": 3,
@@ -3717,7 +3774,17 @@
     },
     {
       "event": {
+        "name": "ID_HELICOPTER_CENTER_MOUSE_JOYSTICK"
+      }
+    },
+    {
+      "event": {
         "name": "ID_TRIM_SAVE"
+      }
+    },
+    {
+      "event": {
+        "name": "ID_HELICOPTER_TRIM_SAVE"
       }
     },
     {

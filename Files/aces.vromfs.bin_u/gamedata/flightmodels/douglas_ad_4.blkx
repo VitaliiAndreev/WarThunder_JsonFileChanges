@@ -2127,6 +2127,12 @@
       {
         "preset": {
           "name": "douglas_ad_4_default",
+          "blk": "gameData/FlightModels/weaponPresets/douglas_ad_4_default.blk"
+        }
+      },
+      {
+        "preset": {
+          "name": "douglas_ad_4_hvars",
           "blk": "gameData/FlightModels/weaponPresets/douglas_ad_4_hvars.blk"
         }
       },

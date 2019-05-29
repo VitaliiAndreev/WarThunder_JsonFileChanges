@@ -111,6 +111,21 @@
     "canReloadNonGuns": true
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -166,6 +181,9 @@
         "turret_06_side_dm": {
           "armorThickness": 30.0,
           "hidableInViewer": true
+        },
+        "turret_06_back_dm": {
+          "armorThickness": 30.0
         }
       },
       "turret_composite_armor": {
@@ -3368,6 +3386,11 @@
           }
         }
       ]
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

@@ -2229,7 +2229,7 @@
       "preset": {
         "name": "Bf_109K4_cannon",
         "blk": "gameData/FlightModels/weaponPresets/bf-109k-4_cannons.blk",
-        "reqModification": "Bf-109K-4_R5"
+        "reqModification": "Bf-109_R4"
       }
     }
   ],
@@ -5791,13 +5791,13 @@
     "mk108_new_gun": {
       "reqModification": "mk108_belt_pack"
     },
-    "Bf-109K-4_R5": {
+    "Bf-109_R4": {
       "modClass": "weapon",
       "tier": 2,
       "reqModLevel": 9.0
     },
     "mg15120_belt_pack": {
-      "reqModification": "Bf-109K-4_R5",
+      "reqModification": "Bf-109_R4",
       "tier": 3
     },
     "mg15120_new_gun": {

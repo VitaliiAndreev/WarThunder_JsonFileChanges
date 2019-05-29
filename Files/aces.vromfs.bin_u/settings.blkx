@@ -2,393 +2,6 @@
   "version": "",
   "version-specific": "",
   "compatibilityHangarBlk": "config/hangar_airfield.blk",
-  "addons": [
-    {
-      "folder": "content/hq_tex"
-    },
-    {
-      "folder": "content/pkg_main"
-    },
-    {
-      "folder": "content/pkg_china"
-    },
-    {
-      "folder": "content/pkg_china_hq"
-    },
-    {
-      "folder": "content/pkg_dev"
-    },
-    {
-      "folder": "content/pkg_dev_hq"
-    },
-    {
-      "folder": "content/hc_pacific"
-    },
-    {
-      "folder": "content/pkg_user"
-    },
-    {
-      "folder": "content/pkg_local"
-    },
-    {
-      "folder": "content/tomoe"
-    },
-    {
-      "folder": "content/tomoe_hq"
-    }
-  ],
-  "addons_no_check": [
-    {
-      "folder": "content/hq_tex"
-    },
-    {
-      "folder": "content/pkg_main"
-    },
-    {
-      "folder": "content/pkg_china"
-    },
-    {
-      "folder": "content/pkg_china_hq"
-    },
-    {
-      "folder": "content/pkg_dev"
-    },
-    {
-      "folder": "content/pkg_dev_hq"
-    },
-    {
-      "folder": "content/hc_pacific"
-    },
-    {
-      "folder": "content/pkg_user"
-    },
-    {
-      "folder": "content/pkg_local"
-    },
-    {
-      "folder": "content/tomoe"
-    },
-    {
-      "folder": "content/tomoe_hq"
-    }
-  ],
-  "addonToXboxChunk": {
-    "content/hq_tex": 1002,
-    "content/pkg_main": 1002
-  },
-  "video": {
-    "safeArea": false,
-    "drawDebug": false,
-    "disable_backbuffer_aa": true,
-    "maxTexCount": 32767,
-    "sRGBrw": true,
-    "enableHmdSupport": true
-  },
-  "graphics": {
-    "useHdr": true,
-    "quality": "high",
-    "gamma": 1.0,
-    "useConditionalRendering": false,
-    "impostorScreenMul": 6.2,
-    "waterCutMask": false,
-    "backgroundAptiveSharpen": false,
-    "backgroundAptiveSharpenAdaptiveness": 16.0,
-    "backgroundAptiveSharpenQuality": 12.0
-  },
-  "ps4": {
-    "garlic_size_mb": 2450,
-    "neo_garlic_size_mb": 2800,
-    "onion_size_mb": 128,
-    "dcb_size_mb": 8,
-    "ccb_size_mb": 8,
-    "onion_blocks": 16384,
-    "max_genmip_tex_sz": 2052,
-    "mem_reserve_mb": 256,
-    "emergency_buffer_pages": 20,
-    "enable_deferred_mipgen": true,
-    "neo_4k_scale": 167,
-    "guiWebCacheCircuit": "production"
-  },
-  "skies": {
-    "common": {
-      "geom_table_part": 0.8,
-      "cloudsOffsetFrom": 25000.0,
-      "cloudsOffsetTo": 40000.0,
-      "cloudsOffset": 1800.0,
-      "cloudGridSize": 128,
-      "cloudGridHeight": 16
-    }
-  },
-  "stub3d": {
-    "autoBufferReallocate": true,
-    "bufferSize": 0
-  },
-  "sound": {
-    "voice_country": "GB",
-    "sound_reverb": true
-  },
-  "gameplay": {
-    "stalls_n_spins": false,
-    "torque_n_gyro_effects": false,
-    "coordinated_turn": false,
-    "ai_skill": "2 - veteran",
-    "immortalHero": false,
-    "test_fight": false,
-    "difficulty": "realistic"
-  },
-  "calc_deaths_matrix": {
-    "enabled": false,
-    "numIterations": 5,
-    "dt": 0.03,
-    "time": 10.0
-  },
-  "debug": {
-    "enableApex": true,
-    "disableAnsel": false,
-    "apexLowMemMode": true,
-    "disableFmSyncDumps": true,
-    "mpBulletDiagnostics": false,
-    "trackEnvChanges": false,
-    "gamepadInBackground": true,
-    "useDpadDiagonals": false,
-    "helicopterGame": true,
-    "colorMips": false,
-    "sharpenTextures": false,
-    "centerWeight": 1.8,
-    "orthogonalWeight": -0.1,
-    "diagonalWeight": -0.1,
-    "debugConsole": false,
-    "disableMenu": false,
-    "max_giant_smokes": 1,
-    "max_giant_fires": 1,
-    "max_just_fires": 1,
-    "flyTurbo": 500.0,
-    "forcedFrameTimeSec": -1.0,
-    "smoothDt": true,
-    "warningOnFrameTimeSec": 0.066,
-    "limitFps": 0.0,
-    "checkModels": false,
-    "shouldCheckDm": true,
-    "consoleLines": 20,
-    "debugFlush": false,
-    "fatalOnCheckSanityFail": false,
-    "x360EnableFatal": true,
-    "maxScriptMsec": 1000,
-    "lodDistanceScale": 1.0,
-    "shouldUnlockAllMissions": false,
-    "shouldUnlockAllContent": false,
-    "dontUseCpuInBackground": false,
-    "autoRespawn": false,
-    "usePip": true,
-    "hugeScreenshotMultiplier": 3,
-    "minimalGUI": false,
-    "disableMultithreadWaitBox": false,
-    "isMultiplayerDebug": false,
-    "hostMigration": false,
-    "replay": true,
-    "goLobbyAfterStatistics": true,
-    "isTextProfile": false,
-    "lowQualityEnemies": true,
-    "guiStrPoolSize": 524288,
-    "disableNetwork": false,
-    "offlineConfigs": false,
-    "drawTimestamp": true,
-    "disableOverlay": true,
-    "skipMovies": false,
-    "disableBackgroundMovie": false,
-    "noGuiFade": false,
-    "disableHangar": false,
-    "disableChat": false,
-    "workThreadsStackSize": 131072,
-    "enableMouseHints": true,
-    "replayDofFar": [100.0,400.0,0.5],
-    "enableNvHighlights": "auto"
-  },
-  "directx": {
-    "useGpuDt": false,
-    "debug": false,
-    "disableNvapi": false,
-    "nvVbBugWorkaround": false
-  },
-  "openGL": {
-    "nvGLShaderAVWorkaround": true
-  },
-  "render": {
-    "heightmap": true,
-    "environment": true,
-    "rendinst": true,
-    "clouds": true,
-    "scene": true,
-    "dynmodels": true,
-    "fx": true,
-    "tracers": true,
-    "rainX7": true,
-    "fog": true,
-    "gui": true,
-    "water3d": true,
-    "clipmap": true,
-    "rendinstClipmapShadows": true,
-    "fxReflection": true
-  },
-  "clipmap": {
-    "sideSize": 768,
-    "texelSize": 0.015,
-    "tankTexelSize": 0.015,
-    "stackCount": 8,
-    "step": 1.7,
-    "finalSize": 0.0
-  },
-  "aviWriter": {
-    "quality": 100,
-    "folder": "d:\\video\\bos_video",
-    "fileLimit": 2100000000
-  },
-  "network": {
-    "stubServerIp": "127.0.0.1",
-    "stubServerPort": 14042,
-    "stubOnlineName": "Server",
-    "stubOnlineId": 1,
-    "stubServerOnlineName": "Server",
-    "stubServerOnlineId": 1,
-    "psnAuthRequestTimeout": 30,
-    "publicConfigsUrl": "http://public-configs.warthunder.com/",
-    "publicConfigsUrls": [
-      {
-        "url": "http://public-configs.warthunder.com/"
-      },
-      {
-        "url": "http://1975884639.rsc.cdn77.org/"
-      }
-    ]
-  },
-  "general": {
-    "environment": "day",
-    "weather": "clear"
-  },
-  "texStreaming": [
-    {
-      "enableStreaming": true
-    },
-    {
-      "texLoadOnDemand": true
-    },
-    {
-      "hqTexPrio": 1
-    },
-    {
-      "lqTexMaxSizeKB": 2048
-    },
-    {
-      "defStubTexColor": "#50505000"
-    },
-    {
-      "verboseLogs": false
-    },
-    {
-      "maxMemQuotaKB": 2838528
-    },
-    {
-      "lqIsSplitBQ": false
-    },
-    {
-      "lqMipBiasHQ": 2
-    },
-    {
-      "lqMipBiasMQ": 3
-    },
-    {
-      "lqMipBiasLQ": 3
-    },
-    {
-      "win32": {
-        "enableStreaming": false
-      }
-    },
-    {
-      "win64": {
-        "enableStreaming": true
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "diffuse",
-        "idx": 1,
-        "color": "#505250ff"
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "nx_ny_nz_0",
-        "idx": 2,
-        "color": "#8080ff00",
-        "gamma1": true
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "smooth0_nx_metal0_ny",
-        "idx": 3,
-        "color": "#00800080",
-        "gamma1": true
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "ao",
-        "idx": 4,
-        "color": "#c8c8c8ff"
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "black",
-        "idx": 5,
-        "color": "#00000000"
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "nx_ny_0_0.5",
-        "idx": 6,
-        "color": "#80800080",
-        "gamma1": true
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "mod2x",
-        "idx": 7,
-        "color": "#80808080"
-      }
-    },
-    {
-      "stubTex": {
-        "tag": "nx_ny_0_0",
-        "idx": 8,
-        "color": "#80800000",
-        "gamma1": true
-      }
-    },
-    {
-      "biasGroup": {
-        "pack_re": "aircrafts",
-        "lqMipBiasHQ": 2,
-        "lqMipBiasMQ": 1,
-        "lqMipBiasLQ": 2
-      }
-    },
-    {
-      "biasGroup": {
-        "pack_re": "tanks",
-        "lqMipBiasHQ": 1,
-        "lqMipBiasMQ": 1,
-        "lqMipBiasLQ": 2
-      }
-    }
-  ],
-  "dlData": {
-    "timeoutSec": 120
-  },
   "__allowedConfigOverrides": {
     "graphicsQuality": "",
     "renderer": "",
@@ -407,6 +20,7 @@
       "nvVbBugWorkaround": false,
       "displayName": "",
       "flushOnPresent": false,
+      "useGpuDt": false,
       "flipPresent": false,
       "no_more_d3d9ex_reset_error": false
     },
@@ -633,6 +247,392 @@
     "dlData": {
       "timeoutSec": 0
     }
+  },
+  "addons": [
+    {
+      "folder": "content/hq_tex"
+    },
+    {
+      "folder": "content/pkg_main"
+    },
+    {
+      "folder": "content/pkg_china"
+    },
+    {
+      "folder": "content/pkg_china_hq"
+    },
+    {
+      "folder": "content/pkg_dev"
+    },
+    {
+      "folder": "content/pkg_dev_hq"
+    },
+    {
+      "folder": "content/hc_pacific"
+    },
+    {
+      "folder": "content/pkg_user"
+    },
+    {
+      "folder": "content/pkg_local"
+    },
+    {
+      "folder": "content/tomoe"
+    },
+    {
+      "folder": "content/tomoe_hq"
+    }
+  ],
+  "addons_no_check": [
+    {
+      "folder": "content/hq_tex"
+    },
+    {
+      "folder": "content/pkg_main"
+    },
+    {
+      "folder": "content/pkg_china"
+    },
+    {
+      "folder": "content/pkg_china_hq"
+    },
+    {
+      "folder": "content/pkg_dev"
+    },
+    {
+      "folder": "content/pkg_dev_hq"
+    },
+    {
+      "folder": "content/hc_pacific"
+    },
+    {
+      "folder": "content/pkg_user"
+    },
+    {
+      "folder": "content/pkg_local"
+    },
+    {
+      "folder": "content/tomoe"
+    },
+    {
+      "folder": "content/tomoe_hq"
+    }
+  ],
+  "addonToXboxChunk": {
+    "content/hq_tex": 1002,
+    "content/pkg_main": 1002
+  },
+  "video": {
+    "safeArea": false,
+    "drawDebug": false,
+    "disable_backbuffer_aa": true,
+    "maxTexCount": 32767,
+    "sRGBrw": true,
+    "enableHmdSupport": true
+  },
+  "graphics": {
+    "useHdr": true,
+    "quality": "high",
+    "gamma": 1.0,
+    "useConditionalRendering": false,
+    "impostorScreenMul": 6.2,
+    "waterCutMask": false,
+    "backgroundAptiveSharpen": false,
+    "backgroundAptiveSharpenAdaptiveness": 16.0,
+    "backgroundAptiveSharpenQuality": 12.0
+  },
+  "ps4": {
+    "garlic_size_mb": 2450,
+    "neo_garlic_size_mb": 2800,
+    "onion_size_mb": 128,
+    "dcb_size_mb": 8,
+    "ccb_size_mb": 8,
+    "onion_blocks": 16384,
+    "max_genmip_tex_sz": 2052,
+    "mem_reserve_mb": 256,
+    "emergency_buffer_pages": 20,
+    "enable_deferred_mipgen": true,
+    "neo_4k_scale": 167,
+    "guiWebCacheCircuit": "production"
+  },
+  "skies": {
+    "common": {
+      "geom_table_part": 0.8,
+      "cloudsOffsetFrom": 25000.0,
+      "cloudsOffsetTo": 40000.0,
+      "cloudsOffset": 1800.0,
+      "cloudGridSize": 128,
+      "cloudGridHeight": 16
+    }
+  },
+  "stub3d": {
+    "autoBufferReallocate": true,
+    "bufferSize": 0
+  },
+  "sound": {
+    "voice_country": "GB",
+    "sound_reverb": true
+  },
+  "gameplay": {
+    "stalls_n_spins": false,
+    "torque_n_gyro_effects": false,
+    "coordinated_turn": false,
+    "ai_skill": "2 - veteran",
+    "immortalHero": false,
+    "test_fight": false,
+    "difficulty": "realistic"
+  },
+  "calc_deaths_matrix": {
+    "enabled": false,
+    "numIterations": 5,
+    "dt": 0.03,
+    "time": 10.0
+  },
+  "debug": {
+    "enableApex": true,
+    "disableAnsel": false,
+    "apexLowMemMode": true,
+    "disableFmSyncDumps": true,
+    "mpBulletDiagnostics": false,
+    "trackEnvChanges": false,
+    "gamepadInBackground": true,
+    "useDpadDiagonals": false,
+    "helicopterGame": true,
+    "colorMips": false,
+    "sharpenTextures": false,
+    "centerWeight": 1.8,
+    "orthogonalWeight": -0.1,
+    "diagonalWeight": -0.1,
+    "debugConsole": false,
+    "disableMenu": false,
+    "max_giant_smokes": 1,
+    "max_giant_fires": 1,
+    "max_just_fires": 1,
+    "flyTurbo": 500.0,
+    "forcedFrameTimeSec": -1.0,
+    "smoothDt": true,
+    "warningOnFrameTimeSec": 0.066,
+    "limitFps": 0.0,
+    "checkModels": false,
+    "shouldCheckDm": true,
+    "consoleLines": 20,
+    "debugFlush": false,
+    "fatalOnCheckSanityFail": false,
+    "x360EnableFatal": true,
+    "maxScriptMsec": 1000,
+    "lodDistanceScale": 1.0,
+    "shouldUnlockAllMissions": false,
+    "shouldUnlockAllContent": false,
+    "dontUseCpuInBackground": false,
+    "autoRespawn": false,
+    "usePip": true,
+    "hugeScreenshotMultiplier": 3,
+    "minimalGUI": false,
+    "disableMultithreadWaitBox": false,
+    "isMultiplayerDebug": false,
+    "hostMigration": false,
+    "replay": true,
+    "goLobbyAfterStatistics": true,
+    "isTextProfile": false,
+    "lowQualityEnemies": true,
+    "guiStrPoolSize": 524288,
+    "disableNetwork": false,
+    "offlineConfigs": false,
+    "drawTimestamp": true,
+    "disableOverlay": true,
+    "skipMovies": false,
+    "disableBackgroundMovie": false,
+    "noGuiFade": false,
+    "disableHangar": false,
+    "disableChat": false,
+    "workThreadsStackSize": 131072,
+    "enableMouseHints": true,
+    "replayDofFar": [100.0,400.0,0.5],
+    "enableNvHighlights": "auto"
+  },
+  "directx": {
+    "debug": false,
+    "disableNvapi": false,
+    "nvVbBugWorkaround": false
+  },
+  "openGL": {
+    "nvGLShaderAVWorkaround": true
+  },
+  "render": {
+    "heightmap": true,
+    "environment": true,
+    "rendinst": true,
+    "clouds": true,
+    "scene": true,
+    "dynmodels": true,
+    "fx": true,
+    "tracers": true,
+    "rainX7": true,
+    "fog": true,
+    "gui": true,
+    "water3d": true,
+    "clipmap": true,
+    "rendinstClipmapShadows": true,
+    "fxReflection": true
+  },
+  "clipmap": {
+    "sideSize": 768,
+    "texelSize": 0.015,
+    "tankTexelSize": 0.015,
+    "stackCount": 8,
+    "step": 1.7,
+    "finalSize": 0.0
+  },
+  "aviWriter": {
+    "quality": 100,
+    "folder": "d:\\video\\bos_video",
+    "fileLimit": 2100000000
+  },
+  "network": {
+    "stubServerIp": "127.0.0.1",
+    "stubServerPort": 14042,
+    "stubOnlineName": "Server",
+    "stubOnlineId": 1,
+    "stubServerOnlineName": "Server",
+    "stubServerOnlineId": 1,
+    "psnAuthRequestTimeout": 30,
+    "publicConfigsUrl": "http://public-configs.warthunder.com/",
+    "publicConfigsUrls": [
+      {
+        "url": "http://public-configs.warthunder.com/"
+      },
+      {
+        "url": "http://1975884639.rsc.cdn77.org/"
+      }
+    ]
+  },
+  "general": {
+    "environment": "day",
+    "weather": "clear"
+  },
+  "texStreaming": [
+    {
+      "enableStreaming": true
+    },
+    {
+      "texLoadOnDemand": true
+    },
+    {
+      "hqTexPrio": 1
+    },
+    {
+      "lqTexMaxSizeKB": 2048
+    },
+    {
+      "defStubTexColor": "#50505000"
+    },
+    {
+      "verboseLogs": false
+    },
+    {
+      "maxMemQuotaKB": 2838528
+    },
+    {
+      "lqIsSplitBQ": false
+    },
+    {
+      "lqMipBiasHQ": 2
+    },
+    {
+      "lqMipBiasMQ": 3
+    },
+    {
+      "lqMipBiasLQ": 3
+    },
+    {
+      "win32": {
+        "enableStreaming": false
+      }
+    },
+    {
+      "win64": {
+        "enableStreaming": true
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "diffuse",
+        "idx": 1,
+        "color": "#505250ff"
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "nx_ny_nz_0",
+        "idx": 2,
+        "color": "#8080ff00",
+        "gamma1": true
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "smooth0_nx_metal0_ny",
+        "idx": 3,
+        "color": "#00800080",
+        "gamma1": true
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "ao",
+        "idx": 4,
+        "color": "#c8c8c8ff"
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "black",
+        "idx": 5,
+        "color": "#00000000"
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "nx_ny_0_0.5",
+        "idx": 6,
+        "color": "#80800080",
+        "gamma1": true
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "mod2x",
+        "idx": 7,
+        "color": "#80808080"
+      }
+    },
+    {
+      "stubTex": {
+        "tag": "nx_ny_0_0",
+        "idx": 8,
+        "color": "#80800000",
+        "gamma1": true
+      }
+    },
+    {
+      "biasGroup": {
+        "pack_re": "aircrafts",
+        "lqMipBiasHQ": 2,
+        "lqMipBiasMQ": 1,
+        "lqMipBiasLQ": 2
+      }
+    },
+    {
+      "biasGroup": {
+        "pack_re": "tanks",
+        "lqMipBiasHQ": 1,
+        "lqMipBiasMQ": 1,
+        "lqMipBiasLQ": 2
+      }
+    }
+  ],
+  "dlData": {
+    "timeoutSec": 120
   },
   "ugc": {
     "enabled": true

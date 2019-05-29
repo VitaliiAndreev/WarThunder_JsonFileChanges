@@ -1121,6 +1121,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -2861,7 +2862,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1200
           },
           {
             "allowableDelta": 2.0
@@ -3009,7 +3010,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1200
           },
           {
             "allowableDelta": 2.0
@@ -3152,7 +3153,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1200
           },
           {
             "allowableDelta": 2.0
@@ -3293,7 +3294,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1200
           },
           {
             "allowableDelta": 2.0
@@ -3443,7 +3444,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1200
           },
           {
             "allowableDelta": 2.0
@@ -3811,7 +3812,7 @@
             "fireEvent": "ammo_fire_1",
             "explosionEvent": "ammo_explosion_1",
             "ammunition_storage_01_dm": {
-              "count": 10000
+              "count": 6000
             }
           }
         }
@@ -3884,6 +3885,53 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "cls_turret_04"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "rboot_r301"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_dunkelgrau_51*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_37_skc_30_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_rheinmetall_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_zwillingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_toro_m1_533_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rboot_r301_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

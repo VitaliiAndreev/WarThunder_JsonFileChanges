@@ -36,6 +36,7 @@
   "lastclip_horizon": true,
   "land_translucency": "no",
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_desert",
   "max_wind_strength": 3.5,
   "puddlesPowerScale": 0.0,

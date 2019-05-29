@@ -2201,6 +2201,7 @@
   },
   "Sound": {
     "turretTurnSfxPath": "sounds/effects",
+    "turretTurnSfxPathStudio": "aircraft/effects",
     "turretTurnSfxName": "gun_turn_manual",
     "Engine": "engine11",
     "gun": "gun_default"
@@ -2483,9 +2484,7 @@
     "turnTime": 15.0
   },
   "modifications": {
-    "cd_98": {
-      "tier": 4
-    },
+    "cd_98": [],
     "CdMin_Fuse": [],
     "new_cover": [],
     "structure_str": [],

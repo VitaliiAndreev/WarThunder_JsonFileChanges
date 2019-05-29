@@ -226,6 +226,7 @@
       "scoreLimit": 15000,
       "timeLimit": 180,
       "deathPenaltyMul": 0.0,
+      "allowEmptyTeams": true,
       "country_axis": "germany",
       "country_allies": "britain",
       "windSpeed": [2.0,8.0],
@@ -257,7 +258,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": true,
         "isTanksAllowed": false,
-        "isShipsAllowed": false
+        "isShipsAllowed": true,
+        "isHelicoptersAllowed": false
       }
     },
     "cover_points": [],
@@ -582,15 +584,15 @@
   "effects": [],
   "units": [
     {
-      "armada": {
+      "ships": {
         "name": "t1_player01",
         "tm": [
           [1.0,0.0,0.0],
           [0.0,1.0,0.0],
           [0.0,0.0,1.0],
-          [11624.5,1401.9,4945.0]
+          [-17901.9,0.0,3683.46]
         ],
-        "unit_class": "p-51_mk1a_usaaf",
+        "unit_class": "uk_destroyer_clemson_churchill",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,
@@ -605,24 +607,14 @@
         "bulletsCount2": 0,
         "bulletsCount3": 0,
         "props": {
-          "army": 2,
+          "army": 1,
           "count": 1,
-          "free_distance": 70.0,
-          "floating_distance": 50.0,
-          "minimum_distance_to_earth": 20.0,
-          "altLimit": 6000.0,
-          "attack_type": "fire_at_will",
-          "skill": 4,
-          "plane": {
-            "wing_formation": "Diamond",
-            "row_distances": 3.0,
-            "col_distances": 3.0,
-            "super_formation": "Diamond",
-            "super_row_distances": 1.5,
-            "super_col_distances": 1.5,
-            "ai_skill": "NORMAL",
-            "task": "FLY_WAYPOINT"
-          }
+          "formation_type": "rows",
+          "formation_div": 3,
+          "formation_step": [2.5,2.0],
+          "formation_noise": [0.1,0.1],
+          "uniqueName": "",
+          "attack_type": "fire_at_will"
         },
         "way": []
       }
@@ -2174,6 +2166,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_player01"
           },
           {
@@ -2325,6 +2320,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_player01"
           },
           {
@@ -2439,6 +2437,9 @@
           [-40453.1,176.25,12927.9]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_player01"
           },
@@ -4060,6 +4061,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_players_squad"
           },
           {
@@ -4087,6 +4091,9 @@
           [1489.66,57.1639,-2572.87]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_players_squad"
           },

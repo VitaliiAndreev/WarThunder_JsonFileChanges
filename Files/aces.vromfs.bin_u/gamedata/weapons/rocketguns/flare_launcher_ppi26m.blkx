@@ -4,6 +4,7 @@
   "bullets": 1,
   "shotFreq": 40.0,
   "sound_path": "sounds/guns",
+  "sound_pathStudio": "aircraft/weapon",
   "sound": "flare_launcher_outside",
   "sound_inside": "flare_launcher_inside",
   "isBulletBelt": false,
@@ -67,6 +68,13 @@
     "price": 300.0,
     "hasTracerTrail": true,
     "tracerTrailEmitter": [-0.35,-0.3,0.0],
+    "DamageParts": {
+      "body": {
+        "hp": 5.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 1.0
+      }
+    },
     "tracerTrail": {
       "smokeEffect": "fx1400_smoke",
       "visual": {

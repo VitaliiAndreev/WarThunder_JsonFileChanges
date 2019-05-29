@@ -3569,6 +3569,27 @@
       "effects": {
         "commonWeapons": [
           {
+            "hideNodes": [
+              {
+                "node": "xm_5"
+              },
+              {
+                "node": "xm_5_turret"
+              },
+              {
+                "node": "xm_5_gun"
+              },
+              {
+                "node": "flare9"
+              }
+            ]
+          },
+          {
+            "hideDmParts": {
+              "node": "gun9_dm"
+            }
+          },
+          {
             "Weapon": {
               "dummy": true,
               "trigger": "gunner0",

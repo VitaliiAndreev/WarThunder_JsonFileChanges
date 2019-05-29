@@ -632,14 +632,14 @@
           "moAddMissionObjective": {
             "target": "t1_dover_defend_ships",
             "unit_or_area": "t1_quest_ships_squad",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "t2_dover_defend_bombers",
             "unit_or_area": "t2_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -651,14 +651,14 @@
           "moAddMissionObjective": {
             "target": "t1_dover_kill_bombers",
             "unit_or_area": "t2_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "t2_dover_kill_ships",
             "unit_or_area": "t1_quest_ships_squad",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1097,7 +1097,7 @@
             "status": 1,
             "team": "A",
             "unit_or_area": "t2_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1106,7 +1106,7 @@
             "status": 1,
             "team": "B",
             "unit_or_area": "t2_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         }
       ],
@@ -1146,7 +1146,7 @@
             "status": 1,
             "team": "A",
             "unit_or_area": "t1_quest_ships_squad",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1155,7 +1155,7 @@
             "status": 1,
             "team": "B",
             "unit_or_area": "t1_quest_ships_squad",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         }
       ],

@@ -23,10 +23,10 @@
   "fxMultipleSpawn": true,
   "shouldCollideWithRendinsts": true,
   "sound_path": "ships/weapon_common/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "37mm_sh37",
-  "sound_inside": "37mm_sh37_interior",
   "soundLoop": false,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
   "overheat": [

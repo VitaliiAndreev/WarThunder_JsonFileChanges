@@ -4,9 +4,10 @@
   "bullets": 1,
   "shotFreq": 1.0,
   "sound_path": "ships/weapon_common/atgm",
+  "sound_pathStudio": "naval/weapon/atgm",
   "sound": "atgm",
-  "sound_inside": "atgm_interior",
   "reload_sound_path": "tanks/effects_tanks",
+  "reload_sound_pathStudio": "ground/effects",
   "reload_sound": "reload_rocket",
   "isBulletBelt": false,
   "helicopterGroup": 2,
@@ -88,6 +89,14 @@
       "steel": {
         "fx": "cannon_hit_armor_cumulative",
         "fxScale": [4.0,5.0]
+      },
+      "buildings": {
+        "fx": "atgm_hit",
+        "fxScale": [2.2,2.5]
+      },
+      "wood": {
+        "fx": "atgm_hit",
+        "fxScale": [2.2,2.5]
       }
     },
     "cumulativeDamage": {

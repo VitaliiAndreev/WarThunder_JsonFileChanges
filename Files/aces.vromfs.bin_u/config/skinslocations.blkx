@@ -1036,6 +1036,11 @@
     }
   },
   {
+    "fr_camo_vert_olive_arme": {
+      "camoType": "forest"
+    }
+  },
+  {
     "fr_camo_green_sand_brown": [
       {
         "camoType": "desert"
@@ -1091,12 +1096,22 @@
     ]
   },
   {
+    "fr_amx_30_super/default": {
+      "camoType": "desert"
+    }
+  },
+  {
     "it_camo_graygreen": {
       "camoType": "forest"
     }
   },
   {
     "it_camo_olive_dab": {
+      "camoType": "forest"
+    }
+  },
+  {
+    "it_camo_olive_green": {
       "camoType": "forest"
     }
   },
@@ -1341,6 +1356,11 @@
     ]
   },
   {
+    "it_of_40_mtca/default": {
+      "camoType": "desert"
+    }
+  },
+  {
     "isr_camo_green": {
       "camoType": "forest"
     }
@@ -1349,6 +1369,16 @@
     "isr_camo_sandgray": {
       "camoType": "desert"
     }
+  },
+  {
+    "isr_camo_threecolor": [
+      {
+        "camoType": "desert"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
   },
   {
     "green_yellow_black": [

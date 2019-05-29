@@ -160,7 +160,7 @@
       "bullets": 1,
       "minSize": [1.5,1.0,1.0],
       "mass": 12.2,
-      "dragCx": 0.06,
+      "dragCx": 0.02,
       "capName": "cap_l_b001"
     }
   },
@@ -173,7 +173,7 @@
       "bullets": 1,
       "minSize": [1.5,1.0,1.0],
       "mass": 12.2,
-      "dragCx": 0.06,
+      "dragCx": 0.02,
       "capName": "cap_l_b002"
     }
   },
@@ -186,7 +186,7 @@
       "bullets": 1,
       "minSize": [1.5,1.0,1.0],
       "mass": 12.2,
-      "dragCx": 0.06,
+      "dragCx": 0.02,
       "capName": "cap_l_b003"
     }
   },
@@ -199,7 +199,7 @@
       "bullets": 1,
       "minSize": [1.5,1.0,1.0],
       "mass": 12.2,
-      "dragCx": 0.06,
+      "dragCx": 0.02,
       "capName": "cap_l_b004"
     }
   },

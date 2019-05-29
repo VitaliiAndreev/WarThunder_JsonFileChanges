@@ -444,6 +444,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "mg_131_gun_outside",
       "cockpit": "mg_131_gun_inside",
       "ai": "mg_131_gun_ai"

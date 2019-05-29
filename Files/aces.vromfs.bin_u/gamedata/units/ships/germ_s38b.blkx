@@ -2322,7 +2322,7 @@
             "speedPitch": 85.0
           },
           {
-            "bullets": 2000
+            "bullets": 1500
           },
           {
             "allowableDelta": 2.0
@@ -2474,7 +2474,7 @@
             "speedPitch": 85.0
           },
           {
-            "bullets": 2000
+            "bullets": 1500
           },
           {
             "allowableDelta": 2.0
@@ -2665,6 +2665,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3461,22 +3462,29 @@
           "fireEvent": "ammo_fire_1",
           "explosionEvent": "ammo_explosion_1",
           "ammunition_storage_01_dm": {
-            "count": 2000
+            "count": 1200
           }
         }
       },
-      "ammo2": {
-        "weaponTrigger": "gunner1",
-        "shells": {
-          "fatalFire": true,
-          "fatalExplosion": true,
-          "fireEvent": "ammo_fire_2",
-          "explosionEvent": "ammo_explosion_2",
-          "ammunition_storage_02_dm": {
-            "count": 2000
+      "ammo2": [
+        {
+          "weaponTrigger": "gunner1"
+        },
+        {
+          "weaponTrigger": "gunner2"
+        },
+        {
+          "shells": {
+            "fatalFire": true,
+            "fatalExplosion": true,
+            "fireEvent": "ammo_fire_2",
+            "explosionEvent": "ammo_explosion_2",
+            "ammunition_storage_02_dm": {
+              "count": 4200
+            }
           }
         }
-      }
+      ]
     }
   },
   {
@@ -3513,6 +3521,51 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "cls_turret_02"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "s38b"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_sboat_white*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_schlickgrau58*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_simplegrey_decks*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_g45*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_rheinmetall_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_sockellafette30_c30_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "s38b_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

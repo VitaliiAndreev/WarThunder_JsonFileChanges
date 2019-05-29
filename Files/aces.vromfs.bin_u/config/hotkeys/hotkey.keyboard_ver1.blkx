@@ -1702,6 +1702,116 @@
     },
     {
       "event": {
+        "name": "walker_throttle_rangeMax",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 17
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "walker_throttle_rangeMin",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 31
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "walker_steering_rangeMax",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 30
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "walker_steering_rangeMin",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 32
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_WALKER_TORSO_UP",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 19
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_WALKER_TORSO_DOWN",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 33
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_FIRE_WALKER",
+        "shortcut": {
+          "button": {
+            "deviceId": 1,
+            "buttonId": 0
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_FIRE_WALKER_SPECIAL_GUN",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 57
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_WALKER_SMOKE_SCREEN",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 34
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_TOGGLE_VIEW_WALKER",
+        "shortcut": {
+          "button": {
+            "deviceId": 2,
+            "buttonId": 47
+          }
+        }
+      }
+    },
+    {
+      "event": {
         "name": "helicopter_collective_rangeMin",
         "shortcut": {
           "button": {

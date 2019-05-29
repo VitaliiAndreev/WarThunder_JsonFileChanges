@@ -776,7 +776,8 @@
         },
         "objectExists": {
           "target": "@ad_search_left_name",
-          "type": "area"
+          "type": "area",
+          "invertResult": false
         }
       },
       "actions": [
@@ -931,7 +932,8 @@
         },
         "objectExists": {
           "target": "@ad_search_right_name",
-          "type": "area"
+          "type": "area",
+          "invertResult": false
         }
       },
       "actions": [
@@ -1080,7 +1082,8 @@
       "conditions": {
         "objectExists": {
           "target": "@ad_search_upper_name",
-          "type": "area"
+          "type": "area",
+          "invertResult": false
         }
       },
       "actions": [
@@ -1224,7 +1227,8 @@
       "conditions": {
         "objectExists": {
           "target": "@ad_search_bottom_name",
-          "type": "area"
+          "type": "area",
+          "invertResult": false
         }
       },
       "actions": [
@@ -1660,7 +1664,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1670,7 +1674,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2121,7 +2125,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2131,7 +2135,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2145,7 +2149,7 @@
             "status": 0,
             "team": "A",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2154,7 +2158,7 @@
             "status": 0,
             "team": "B",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         }
       ],
@@ -2182,7 +2186,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2192,7 +2196,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2206,7 +2210,7 @@
             "status": 0,
             "team": "A",
             "unit_or_area": "@ad_zone_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2739,7 +2743,10 @@
           "onlyPlayersCanCapture": true,
           "zoneType": "supremacy",
           "silent_mode": true,
-          "captureNoPenalty": true
+          "captureNoPenalty": true,
+          "tags": {
+            "type_fighter": true
+          }
         }
       },
       "else_actions": {

@@ -2341,6 +2341,7 @@
   {
     "Sound": {
       "turretTurnSfxPath": "sounds/effects",
+      "turretTurnSfxPathStudio": "aircraft/effects",
       "turretTurnSfxName": "gun_turn_manual",
       "Engine": "engine15",
       "gun": "gun_fw"
@@ -2411,7 +2412,7 @@
           "prop_pitch": [0.0,1.0],
           "prop_pitch1": [0.0,1.0],
           "radiator": [0.0,1.0],
-          "speed": [0.0,154.333],
+          "speed": [0.0,277.778],
           "vario": [-10.0,10.0],
           "altitude_hour": [0.0,10000.0],
           "altitude_min": [0.0,1000.0],

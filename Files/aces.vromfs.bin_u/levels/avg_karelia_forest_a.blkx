@@ -29,6 +29,7 @@
   "swap_vertical_detail_textures": true,
   "lastclip_horizon": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_europe",
   "land_translucency": "no",
   "average_ground_level": 170.0,

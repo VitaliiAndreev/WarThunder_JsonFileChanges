@@ -20,7 +20,7 @@
     "caliber": 0.571,
     "mass": 1005.0,
     "mass_lbs": 2216.0,
-    "dragCx": 0.24,
+    "dragCx": 0.01,
     "startPropulsionDelay": 0.1,
     "autoaimEnabled": false,
     "aaMaxAimAngle": 0.0,
@@ -40,6 +40,13 @@
     "explodeTreshold": 0.0,
     "explodeHitPower": 18000.0,
     "explodeArmorPower": 463.0,
-    "explodeRadius": [23.0,46.0]
+    "explodeRadius": [23.0,46.0],
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
+    }
   }
 }

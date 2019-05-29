@@ -63,10 +63,10 @@
     "ikPilotMaxRenderDistance": 110.0
   },
   {
-    "type": "typeDestroyer"
+    "type": "typeGunBoat"
   },
   {
-    "expClass": "exp_destroyer"
+    "expClass": "exp_gun_boat"
   },
   {
     "timeToFire": 40.0
@@ -1642,7 +1642,16 @@
       },
       "turrets": {
         "armorClass": "ship_structural_steel",
-        "armorThickness": 15.0
+        "armorThickness": 15.0,
+        "turret_03_dm": {
+          "hp": 250.0
+        },
+        "turret_04_dm": {
+          "hp": 250.0
+        }
+      },
+      "gun_masks": {
+        "armorThickness": 5.0
       },
       "turrets_main_caliber": {
         "armorClass": "ship_STS",
@@ -1811,10 +1820,19 @@
         "shatterDamageMult": 0.5,
         "secondaryShatterDamageMult": 0.5,
         "ammunition_storage_01_dm": {
-          "hp": 1187.0
+          "hp": 800.0
         },
         "ammunition_storage_02_dm": {
-          "hp": 885.0
+          "hp": 800.0
+        },
+        "ammunition_storage_03_dm": {
+          "hp": 800.0
+        },
+        "ammunition_storage_04_dm": {
+          "hp": 800.0
+        },
+        "ammunition_storage_05_dm": {
+          "hp": 800.0
         }
       },
       "depth_charges": {
@@ -2591,7 +2609,7 @@
       "country_germany": true,
       "type_ship": true,
       "ship": true,
-      "type_destroyer": true
+      "type_heavy_gun_boat": true
     }
   },
   {
@@ -2706,6 +2724,7 @@
       "EngineName": "engine_shipmid01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_mid",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -5184,7 +5203,10 @@
               "secondaryShatterDamageMult": 0.0,
               "fireDamageMult": 0.5,
               "ammunition_storage_01_dm": [],
-              "ammunition_storage_02_dm": []
+              "ammunition_storage_02_dm": [],
+              "ammunition_storage_03_dm": [],
+              "ammunition_storage_04_dm": [],
+              "ammunition_storage_05_dm": []
             }
           }
         }
@@ -5244,12 +5266,85 @@
   },
   {
     "ammoStowages": {
-      "ammo1": [
-        {
-          "weaponTrigger": "gunner0"
+      "ammo1": {
+        "weaponTrigger": "gunner0",
+        "shells": [
+          {
+            "reloadTimeMult": 1.4
+          },
+          {
+            "fatalFire": false
+          },
+          {
+            "fatalExplosion": true
+          },
+          {
+            "explosionEvent": "ammo_explosion_1"
+          },
+          {
+            "fireEvent": "ammo_fire_1"
+          },
+          {
+            "elevator": "elevator_01_dm"
+          },
+          {
+            "elevator": "elevator_02_dm"
+          },
+          {
+            "dstrElevatorDisablesShooting": false
+          },
+          {
+            "ammunition_storage_01_dm": {
+              "count": 150
+            }
+          }
+        ],
+        "charges": {
+          "reloadTimeMult": 1.4,
+          "fatalFire": false,
+          "fatalExplosion": true,
+          "explosionEvent": "ammo_explosion_1",
+          "fireEvent": "ammo_fire_1",
+          "elevator": "elevator_01_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_02_dm": {
+            "count": 150
+          }
+        }
+      },
+      "ammo2": {
+        "weaponTrigger": "gunner1",
+        "shells": {
+          "reloadTimeMult": 1.4,
+          "fatalFire": false,
+          "fatalExplosion": true,
+          "explosionEvent": "ammo_explosion_2",
+          "fireEvent": "ammo_fire_2",
+          "elevator": "elevator_03_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_05_dm": {
+            "count": 150
+          }
         },
+        "charges": {
+          "reloadTimeMult": 1.4,
+          "fatalFire": false,
+          "fatalExplosion": true,
+          "explosionEvent": "ammo_explosion_2",
+          "fireEvent": "ammo_fire_2",
+          "elevator": "elevator_03_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_04_dm": {
+            "count": 150
+          }
+        }
+      },
+      "ammo3": [
         {
           "weaponTrigger": "gunner2"
+        },
+        {
+          "weaponTrigger": "gunner3"
         },
         {
           "weaponTrigger": "gunner4"
@@ -5258,35 +5353,16 @@
           "weaponTrigger": "gunner5"
         },
         {
-          "shells": {
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_1",
-            "fireEvent": "ammo_fire_1",
-            "ammunition_storage_01_dm": {
-              "count": 10150
-            }
-          }
-        }
-      ],
-      "ammo2": [
-        {
-          "weaponTrigger": "gunner1"
-        },
-        {
-          "weaponTrigger": "gunner3"
-        },
-        {
           "weaponTrigger": "gunner6"
         },
         {
           "shells": {
-            "fatalFire": true,
+            "fatalFire": false,
             "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "ammunition_storage_02_dm": {
-              "count": 10150
+            "explosionEvent": "ammo_explosion_1",
+            "fireEvent": "ammo_fire_1",
+            "ammunition_storage_03_dm": {
+              "count": 20000
             }
           }
         }
@@ -5316,7 +5392,13 @@
         "cover": {
           "part": "compartment_01_dm",
           "weight": 0.55,
-          "maxWaterAlive": 1.0
+          "maxWaterAlive": 1.0,
+          "innerParts": {
+            "part": {
+              "partNo": "ammunition_storage_01_dm",
+              "critWaterLevel": 0.25
+            }
+          }
         }
       },
       {
@@ -5324,12 +5406,20 @@
           "part": "compartment_02_dm",
           "weight": 0.65,
           "maxWaterAlive": 1.0,
-          "innerParts": {
-            "part": {
-              "partNo": "ammunition_storage_01_dm",
-              "critWaterLevel": 0.4
+          "innerParts": [
+            {
+              "part": {
+                "partNo": "ammunition_storage_02_dm",
+                "critWaterLevel": 0.25
+              }
+            },
+            {
+              "part": {
+                "partNo": "ammunition_storage_03_dm",
+                "critWaterLevel": 0.6
+              }
             }
-          }
+          ]
         }
       },
       {
@@ -5378,7 +5468,13 @@
             },
             {
               "part": {
-                "partNo": "ammunition_storage_02_dm",
+                "partNo": "ammunition_storage_04_dm",
+                "critWaterLevel": 0.4
+              }
+            },
+            {
+              "part": {
+                "partNo": "ammunition_storage_05_dm",
                 "critWaterLevel": 0.4
               }
             }
@@ -5517,6 +5613,65 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "radar_04_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "escort_typem1943"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_deckbasaltgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_105mm_l45_skc32_lc32ge_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_flak_m42_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_vierlingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_zwillingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_533_mz1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "escort_typem1943_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "escort_typem1943_deckhouse_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

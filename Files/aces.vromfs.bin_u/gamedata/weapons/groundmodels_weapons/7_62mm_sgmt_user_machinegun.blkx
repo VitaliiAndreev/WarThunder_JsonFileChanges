@@ -83,6 +83,7 @@
   {
     "bullet": {
       "mass": 0.0099,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0076,
       "speed": 815.0,
       "Cx": 0.15,
@@ -219,6 +220,7 @@
   {
     "bullet": {
       "mass": 0.0102,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0076,
       "speed": 815.0,
       "Cx": 0.15,
@@ -358,6 +360,7 @@
       {
         "bullet": {
           "mass": 0.0099,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0076,
           "speed": 815.0,
           "Cx": 0.15,
@@ -404,6 +407,7 @@
       {
         "bullet": {
           "mass": 0.0102,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0076,
           "speed": 815.0,
           "Cx": 0.15,

@@ -111,6 +111,21 @@
     "arcadeTurnPowerMult": 1.1
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "sound": {
       "EngineName": "engine_abrams",
       "TrackSoundPath": "tanks/engines_tanks",
@@ -209,7 +224,33 @@
             },
             "ammo_turret_31_dm": {
               "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "fatalFire": true,
+            "fatalExplosion": true,
+            "fireEvent": "ammo_fire",
+            "explosionEvent": "ammo_explosion",
+            "wreckedPartId": 0,
+            "ammo_body_01_dm": {
+              "count": 1
             },
+            "ammo_body_02_dm": {
+              "count": 1
+            },
+            "ammo_body_03_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "fatalFire": false,
+            "fatalExplosion": false,
+            "reloadTimeMult": 2.0,
+            "fireParamsPreset": "turret_bustle",
             "ammo_turret_14_dm": {
               "count": 1
             },
@@ -274,24 +315,6 @@
               "count": 1
             },
             "ammo_turret_44_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
-          "shells": {
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "fireEvent": "ammo_fire",
-            "explosionEvent": "ammo_explosion",
-            "wreckedPartId": 0,
-            "ammo_body_01_dm": {
-              "count": 1
-            },
-            "ammo_body_02_dm": {
-              "count": 1
-            },
-            "ammo_body_03_dm": {
               "count": 1
             }
           }
@@ -2010,9 +2033,9 @@
                   "pitch": [-10.0,20.0]
                 },
                 "limitsTable": {
-                  "lim1": [-180.0,-140.0,2.0,20.0],
-                  "lim2": [-140.0,140.0,-10.0,20.0],
-                  "lim3": [140.0,180.0,2.0,20.0]
+                  "lim1": [-180.0,-133.0,2.0,20.0],
+                  "lim2": [-133.0,133.0,-10.0,20.0],
+                  "lim3": [133.0,180.0,2.0,20.0]
                 },
                 "gunStabilizer": {
                   "hasVerticalGunFreeMode": false,
@@ -2219,6 +2242,11 @@
           ]
         }
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   },
   {
@@ -2471,7 +2499,7 @@
           "armorThickness": 101.0,
           "armorEffectiveThicknessMax": 380.0,
           "genericArmorQuality": 2.75,
-          "cumulativeArmorQuality": 0.0
+          "cumulativeArmorQuality": 0.05
         }
       },
       "side_skirts": {
@@ -2549,7 +2577,7 @@
           "armorThickness": 101.0,
           "armorEffectiveThicknessMax": 304.0,
           "genericArmorQuality": 2.15,
-          "cumulativeArmorQuality": 0.0
+          "cumulativeArmorQuality": 0.05
         },
         "turret_02_bottom_dm": {
           "armorThickness": 6.35,
@@ -2596,7 +2624,7 @@
         "turret_01_side_dm": {
           "armorThickness": 101.0,
           "genericArmorQuality": 0.81,
-          "cumulativeArmorQuality": 0.0
+          "cumulativeArmorQuality": 0.05
         },
         "ex_armor_turret_01_dm": {
           "armorThickness": 25.0
@@ -2844,7 +2872,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },

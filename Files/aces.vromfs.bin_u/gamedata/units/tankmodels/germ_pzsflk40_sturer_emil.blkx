@@ -617,6 +617,10 @@
         },
         "turret_01_front_dm": {
           "armorThickness": 10.0
+        },
+        "gun_barrel_armor_dm": {
+          "variableThickness": true,
+          "armorThickness": 50.0
         }
       },
       "chassis": {

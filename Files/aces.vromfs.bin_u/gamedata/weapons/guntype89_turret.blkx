@@ -99,7 +99,7 @@
       "speed": 811.0,
       "Cx": 0.15,
       "maxDistance": 2000.0,
-      "bulletType": "he_ball",
+      "bulletType": "he_i_ball",
       "hitPowerMult": 2.5,
       "onHitChanceMultFire": 4.0,
       "effectiveDistance": 400.0,
@@ -621,6 +621,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "type97_gun_outside",
       "cockpit": "type97_gun_inside",
       "ai": "type97_gun_ai"

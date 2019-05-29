@@ -251,6 +251,15 @@
       }
     },
     {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
+    },
+    {
       "tracerTrail": {
         "smokeEffect": "fx1400_smoke",
         "visual": {

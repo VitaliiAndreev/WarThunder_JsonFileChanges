@@ -111,6 +111,21 @@
     "arcadeTurnPowerMult": 1.1
   },
   {
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
+  },
+  {
+    "smokeScreenOffset": [-3.0,0.0,2.0]
+  },
+  {
+    "smokeScreenFxType": "tank_smokescreen"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank_modern",
@@ -349,9 +364,9 @@
         },
         "turret_03_side_dm": {
           "armorThickness": 101.0,
-          "armorEffectiveThicknessMax": 360.0,
+          "armorEffectiveThicknessMax": 365.0,
           "genericArmorQuality": 2.69,
-          "cumulativeArmorQuality": 0.0
+          "cumulativeArmorQuality": 0.05
         }
       },
       "side_skirts": {
@@ -427,7 +442,7 @@
         },
         "turret_02_top_dm": {
           "armorThickness": 101.0,
-          "armorEffectiveThicknessMax": 304.0,
+          "armorEffectiveThicknessMax": 306.0,
           "genericArmorQuality": 2.15
         },
         "turret_02_bottom_dm": {
@@ -731,7 +746,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -1030,32 +1045,6 @@
           }
         },
         {
-          "shells": {
-            "fatalFire": false,
-            "fatalExplosion": false,
-            "reloadTimeMult": 2.0,
-            "fireParamsPreset": "hull_bustle",
-            "ammo_body_01_dm": {
-              "count": 1
-            },
-            "ammo_body_02_dm": {
-              "count": 1
-            },
-            "ammo_body_03_dm": {
-              "count": 1
-            },
-            "ammo_body_04_dm": {
-              "count": 1
-            },
-            "ammo_body_05_dm": {
-              "count": 1
-            },
-            "ammo_body_06_dm": {
-              "count": 1
-            }
-          }
-        },
-        {
           "shells": [
             {
               "fireParamsPreset": "turret_bustle"
@@ -1158,6 +1147,32 @@
               }
             }
           ]
+        },
+        {
+          "shells": {
+            "fatalFire": false,
+            "fatalExplosion": false,
+            "reloadTimeMult": 2.0,
+            "fireParamsPreset": "hull_bustle",
+            "ammo_body_01_dm": {
+              "count": 1
+            },
+            "ammo_body_02_dm": {
+              "count": 1
+            },
+            "ammo_body_03_dm": {
+              "count": 1
+            },
+            "ammo_body_04_dm": {
+              "count": 1
+            },
+            "ammo_body_05_dm": {
+              "count": 1
+            },
+            "ammo_body_06_dm": {
+              "count": 1
+            }
+          }
         }
       ]
     }
@@ -2257,11 +2272,11 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-9.5,20.0]
+            "pitch": [-10.0,20.0]
           },
           "limitsTable": {
             "lim1": [-180.0,-132.0,2.0,20.0],
-            "lim2": [-132.0,132.0,-9.5,20.0],
+            "lim2": [-132.0,132.0,-10.0,20.0],
             "lim3": [132.0,180.0,2.0,20.0]
           },
           "gunStabilizer": {
@@ -2447,7 +2462,7 @@
         "animationMultiplier": -0.63,
         "height": 0.085,
         "width": 0.635,
-        "fricFrontal": [1.7,1.5],
+        "fricFrontal": [1.5,1.5],
         "criticalHillAngle": 27.0,
         "hillClimbingDeclineFricKoef": 15.0
       },
@@ -2468,7 +2483,7 @@
         "driveGearRadius": 0.37,
         "mainGearRatio": 1.9,
         "sideGearRatio": 6.25,
-        "neutralGearRatio": 4.0,
+        "neutralGearRatio": 12.0,
         "manufacturer": "allison",
         "model": "x_1100_3b",
         "type": "auto",
@@ -3142,11 +3157,11 @@
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
-                  "pitch": [-9.5,20.0]
+                  "pitch": [-10.0,20.0]
                 },
                 "limitsTable": {
                   "lim1": [-180.0,-132.0,2.0,20.0],
-                  "lim2": [-132.0,132.0,-9.5,20.0],
+                  "lim2": [-132.0,132.0,-10.0,20.0],
                   "lim3": [132.0,180.0,2.0,20.0]
                 },
                 "gunStabilizer": {
@@ -3426,6 +3441,11 @@
         "from": "us_camo_olive*",
         "to": "ger_camo_carc*"
       }
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

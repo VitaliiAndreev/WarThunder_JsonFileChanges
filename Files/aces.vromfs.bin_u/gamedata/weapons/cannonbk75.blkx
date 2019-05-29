@@ -459,6 +459,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "bk75_gun_outside",
     "cockpit": "bk75_gun_inside",
     "ai": "bk75_gun_ai"

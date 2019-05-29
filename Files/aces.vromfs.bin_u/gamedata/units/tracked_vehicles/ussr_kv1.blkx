@@ -116,6 +116,7 @@
   },
   "sound": {
     "path": "sounds/engines",
+    "pathStudio": "aircraft/engines",
     "engine": "tank"
   },
   "class_tags": {

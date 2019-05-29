@@ -63,22 +63,7 @@
       "tags": []
     }
   },
-  "imports": {
-    "import_record": {
-      "file": "gameData/missions/cta/ships/alps_fjord/mainareas/alps_fjord_NDom_template.blk",
-      "importAreas": true,
-      "importUnits": true,
-      "importTriggers": true,
-      "importMissionObjectives": true,
-      "importWayPoints": true,
-      "showAreas": true,
-      "showUnits": true,
-      "showTriggers": true,
-      "showMissionObjectives": true,
-      "showWayPoints": true,
-      "excludes": []
-    }
-  },
+  "imports": [],
   "triggers": {
     "isCategory": true,
     "is_enabled": true
@@ -163,7 +148,7 @@
         [0.000305176,0.0,1513.17],
         [1150.7,0.0,8131.7]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t2_spotarea_block01": {
@@ -174,7 +159,7 @@
         [0.000305176,0.0,1513.17],
         [1048.0,0.0,-876.05]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t2_spotarea_block02": {
@@ -185,7 +170,7 @@
         [-302.757,0.0,1156.23],
         [4922.2,0.0,2069.6]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t1_spotarea_block03": {
@@ -196,7 +181,7 @@
         [0.00134277,0.0,6000.0],
         [-1089.05,0.0,12961.2]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t1_spotarea_block04": {
@@ -207,7 +192,7 @@
         [-4698.6,0.0,3731.38],
         [-8264.25,0.0,12007.5]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t2_spotarea_block03": {
@@ -218,7 +203,7 @@
         [0.0012207,0.0,6000.0],
         [-772.0,0.0,-4805.2]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t2_spotarea_block04": {
@@ -229,7 +214,7 @@
         [4727.71,0.0,3694.42],
         [-8340.25,0.0,-3847.75]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     },
     "t1_spotarea_block02": {
@@ -240,7 +225,7 @@
         [315.92,0.0,1152.7],
         [5072.9,0.0,6245.25]
       ],
-      "objLayer": 0,
+      "objLayer": 4,
       "props": []
     }
   },
@@ -258,6 +243,11 @@
     {
       "layer": {
         "enabled": true
+      }
+    },
+    {
+      "layer": {
+        "enabled": false
       }
     },
     {

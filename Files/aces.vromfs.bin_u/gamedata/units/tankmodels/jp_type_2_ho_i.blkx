@@ -685,7 +685,7 @@
       "TrackSoundNameCockpit": "tracks_interior",
       "turret_turn": "turret_turn_manual_y",
       "EngineNameAi": "engine_tank_ai_middle",
-      "TrackSoundNameAi": "tracks_ai_midle",
+      "TrackSoundNameAi": "tracks_ai_middle",
       "gun_turn": "turret_turn_mg_light"
     }
   },
@@ -1903,6 +1903,11 @@
           "limits": {
             "yaw": [-180.0,180.0],
             "pitch": [-15.0,20.0]
+          },
+          "limitsTable": {
+            "lim1": [-180.0,-135.0,-5.0,20.0],
+            "lim2": [-135.0,135.0,-15.0,20.0],
+            "lim3": [135.0,180.0,-5.0,20.0]
           }
         }
       },

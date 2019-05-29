@@ -1737,19 +1737,19 @@
       "hp": 10000.0,
       "hull_turret_rha": {
         "body_front_dm": {
-          "armorThickness": 55.0
+          "armorThickness": 50.8
         },
         "body_top_dm": {
           "armorThickness": 114.0
         },
         "body_side_dm": {
-          "armorThickness": 39.0
+          "armorThickness": 50.8
         },
         "body_back_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 63.5
         },
         "body_bottom_dm": {
-          "armorThickness": 25.4
+          "armorThickness": 20.0
         },
         "superstructure_side_dm": {
           "armorThickness": 10.0,
@@ -1759,32 +1759,62 @@
           "armorThickness": 114.0
         },
         "superstructure_back_dm": {
-          "armorThickness": 32.0
+          "armorThickness": 76.2
         },
         "superstructure_top_dm": {
           "armorThickness": 20.0
         },
         "superstructure_bottom_dm": {
-          "armorThickness": 55.0
+          "armorThickness": 50.8
         },
         "turret_bottom_dm": {
-          "armorThickness": 16.0
+          "armorThickness": 20.0
         },
         "turret_back_dm": {
-          "armorThickness": 63.5
+          "armorThickness": 76.2
         },
         "turret_side_dm": {
-          "armorThickness": 63.5
+          "armorThickness": 88.9
         },
         "turret_front_dm": {
           "armorThickness": 114.0
         },
         "turret_top_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 25.4
         },
         "ex_armor_body_02_dm": {
           "armorThickness": 114.0,
           "armorClass": "CHA_tank"
+        },
+        "turret_02_back_dm": {
+          "armorThickness": 76.2
+        },
+        "turret_02_side_dm": {
+          "armorThickness": 25.4
+        },
+        "turret_02_bottom_dm": {
+          "armorThickness": 38.1
+        },
+        "turret_02_top_dm": {
+          "armorThickness": 50.8
+        },
+        "turret_02_front_dm": {
+          "armorThickness": 12.7
+        },
+        "turret_01_side_dm": {
+          "armorThickness": 25.4
+        },
+        "turret_01_top_dm": {
+          "armorThickness": 14.0
+        },
+        "turret_01_back_dm": {
+          "armorThickness": 40.0
+        },
+        "turret_01_bottom_dm": {
+          "armorThickness": 19.0
+        },
+        "turret_03_back_dm": {
+          "armorThickness": 114.0
         }
       },
       "optics": {
@@ -2172,7 +2202,7 @@
           "speedYaw": 24.0,
           "speedPitch": 4.0,
           "fireConeAngle": 1.0,
-          "bullets": 64,
+          "bullets": 80,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2244,7 +2274,7 @@
             "fireConeAngle": 1.0
           },
           {
-            "bullets": 2550
+            "bullets": 2500
           },
           {
             "fireConeAngle": 15.0
@@ -2310,7 +2340,7 @@
           "speedYaw": 10.0,
           "speedPitch": 10.0,
           "fireConeAngle": 1.0,
-          "bullets": 2550,
+          "bullets": 2500,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2359,14 +2389,26 @@
   {
     "ammoLoadDistribution": {
       "primaryShells": {
-        "ammo_turret_dm": {
-          "count": 32
+        "ammo_turret_01_dm": {
+          "count": 17
+        },
+        "ammo_turret_02_dm": {
+          "count": 11
         },
         "ammo_body_01_dm": {
-          "count": 16
+          "count": 26
         },
         "ammo_body_02_dm": {
-          "count": 16
+          "count": 17
+        },
+        "ammo_body_03_dm": {
+          "count": 2
+        },
+        "ammo_body_04_dm": {
+          "count": 2
+        },
+        "ammo_body_05_dm": {
+          "count": 5
         }
       }
     }
@@ -2415,7 +2457,7 @@
                 "speedYaw": 24.0,
                 "speedPitch": 4.0,
                 "fireConeAngle": 1.0,
-                "bullets": 64,
+                "bullets": 80,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -2487,7 +2529,7 @@
                   "fireConeAngle": 1.0
                 },
                 {
-                  "bullets": 2550
+                  "bullets": 2500
                 },
                 {
                   "fireConeAngle": 15.0
@@ -2553,7 +2595,7 @@
                 "speedYaw": 10.0,
                 "speedPitch": 10.0,
                 "fireConeAngle": 1.0,
-                "bullets": 2550,
+                "bullets": 2500,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -2599,7 +2641,7 @@
                 "speedYaw": 24.0,
                 "speedPitch": 15.0,
                 "fireConeAngle": 1.0,
-                "bullets": 6,
+                "bullets": 30,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,

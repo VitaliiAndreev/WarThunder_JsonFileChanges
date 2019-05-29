@@ -40,7 +40,7 @@
       "div": {
         "id": "slotbar_with_buttons",
         "width": "1@slotbarWidthFullExt",
-        "left": "50%pw-50%w",
+        "left": "50%pw-50%w-0.5@slot_hdr_width",
         "top": "50%ph-50%h",
         "position": "root",
         "flow": "vertical",

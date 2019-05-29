@@ -1377,6 +1377,9 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_STS",
         "armorThickness": 15.0,
@@ -3285,6 +3288,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4177,6 +4181,64 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "mast_02_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mz_1"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_deckbasaltgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_sboat_white*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_88_skc_35_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_flak_38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_flak_m42_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_533_mz1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mz1_body_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mz1_deckhouse_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

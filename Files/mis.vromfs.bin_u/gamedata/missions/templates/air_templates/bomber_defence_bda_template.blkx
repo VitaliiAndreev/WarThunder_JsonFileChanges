@@ -525,14 +525,14 @@
           "moAddMissionObjective": {
             "target": "bt_t1_defend_bombers",
             "unit_or_area": "t1_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "bt_t2_attack_bombers",
             "unit_or_area": "t1_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -745,7 +745,7 @@
             "status": 1,
             "team": "A",
             "unit_or_area": "t1_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -754,7 +754,7 @@
             "status": 1,
             "team": "B",
             "unit_or_area": "t1_ai_bombers",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         }
       ],

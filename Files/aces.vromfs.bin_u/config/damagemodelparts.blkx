@@ -393,7 +393,7 @@
       "genName": "tank_ammo",
       "ammo_turret": [],
       "ammo_turret_NN": {
-        "template": "ammo_turret_#55#"
+        "template": "ammo_turret_#70#"
       },
       "ammo_body": [],
       "ammo_body_NN": {
@@ -490,7 +490,9 @@
       "sonar": [],
       "sonarN": {
         "template": "sonar#1:10#"
-      }
+      },
+      "antenna_target_location": [],
+      "antenna_target_tagging": []
     }
   },
   {
@@ -552,7 +554,7 @@
   {
     "torpedo": {
       "torpedo_NN": {
-        "template": "torpedo_#16#"
+        "template": "torpedo_#30#"
       },
       "torpedo_l_NN": {
         "template": "torpedo_l_#10#"
@@ -573,7 +575,7 @@
   },
   {
     "ammunition_storage_NN": {
-      "template": "ammunition_storage_#10#"
+      "template": "ammunition_storage_#20#"
     }
   },
   {
@@ -656,28 +658,22 @@
       "turret_top": [],
       "turret_bottom": [],
       "turret_NN_front": {
-        "template": "turret_#10#_front"
+        "template": "turret_#30#_front"
       },
       "turret_NN_back": {
-        "template": "turret_#10#_back"
+        "template": "turret_#30#_back"
       },
       "turret_NN_side": {
-        "template": "turret_#10#_side"
+        "template": "turret_#30#_side"
       },
       "turret_NN_top": {
-        "template": "turret_#10#_top"
+        "template": "turret_#30#_top"
       },
       "turret_NN_bottom": {
-        "template": "turret_#10#_bottom"
+        "template": "turret_#30#_bottom"
       },
       "turret_NN": {
-        "template": "turret_#16#"
-      },
-      "turret_h_NN": {
-        "template": "turret_h_#20#"
-      },
-      "turret_v_NN": {
-        "template": "turret_v_#20#"
+        "template": "turret_#30#"
       }
     }
   },
@@ -727,12 +723,12 @@
   },
   {
     "ex_armor_turret_r_NN": {
-      "template": "ex_armor_turret_r_#05#"
+      "template": "ex_armor_turret_r_#10#"
     }
   },
   {
     "ex_armor_turret_l_NN": {
-      "template": "ex_armor_turret_l_#05#"
+      "template": "ex_armor_turret_l_#10#"
     }
   },
   {

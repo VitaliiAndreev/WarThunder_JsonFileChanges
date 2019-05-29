@@ -847,6 +847,110 @@
     },
     {
       "event": {
+        "name": "ID_WALKER_TORSO_UP",
+        "shortcut": [
+          {
+            "button": {
+              "deviceId": 3,
+              "buttonId": 8
+            }
+          },
+          {
+            "button": {
+              "deviceId": 3,
+              "buttonId": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "name": "ID_WALKER_TORSO_DOWN",
+        "shortcut": [
+          {
+            "button": {
+              "deviceId": 3,
+              "buttonId": 8
+            }
+          },
+          {
+            "button": {
+              "deviceId": 3,
+              "buttonId": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "name": "ID_FIRE_WALKER",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 17
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_FIRE_WALKER_SPECIAL_GUN",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 9
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_WALKER_SMOKE_SCREEN",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 7
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "ID_TOGGLE_VIEW_WALKER",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 15
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "walker_camx",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 1
+          }
+        }
+      }
+    },
+    {
+      "event": {
+        "name": "walker_camy",
+        "shortcut": {
+          "button": {
+            "deviceId": 3,
+            "buttonId": 1
+          }
+        }
+      }
+    },
+    {
+      "event": {
         "name": "thrust_vector_lateral_ufo",
         "shortcut": {
           "button": {
@@ -2191,6 +2295,21 @@
     },
     {
       "event": {
+        "name": "helicopter_trim_elevator"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_ailerons"
+      }
+    },
+    {
+      "event": {
+        "name": "helicopter_trim_rudder"
+      }
+    },
+    {
+      "event": {
         "name": "trim_ailerons"
       }
     },
@@ -2436,6 +2555,29 @@
       "event": [
         {
           "name": "ID_TRIM"
+        },
+        {
+          "shortcut": {
+            "button": {
+              "deviceId": 2,
+              "buttonId": 201
+            }
+          }
+        },
+        {
+          "shortcut": {
+            "button": {
+              "deviceId": 2,
+              "buttonId": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "event": [
+        {
+          "name": "ID_HELICOPTER_TRIM"
         },
         {
           "shortcut": {
@@ -3218,6 +3360,11 @@
     },
     {
       "event": {
+        "name": "ID_HELICOPTER_TRIM_RESET"
+      }
+    },
+    {
+      "event": {
         "name": "ID_PTT_ALL"
       }
     },
@@ -3949,6 +4096,25 @@
       },
       "thrust_vector_vertical_ufo": {
         "axisId": 1
+      },
+      "walker_throttle": {
+        "axisId": 1
+      },
+      "walker_steering": {
+        "axisId": 0,
+        "inverse": true
+      },
+      "walker_mouse_aim_x": {
+        "axisId": 2
+      },
+      "walker_mouse_aim_y": {
+        "axisId": 3
+      },
+      "walker_camx": {
+        "axisId": 2
+      },
+      "walker_camy": {
+        "axisId": 3
       },
       "helicopter_cyclic_pitch": {
         "axisId": 1,

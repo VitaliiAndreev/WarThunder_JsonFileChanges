@@ -29,7 +29,7 @@
     "bulletCount": 25,
     "mass": 22.6,
     "caliber": 0.12,
-    "speed": 944.0,
+    "speed": 960.0,
     "maxDistance": 10000.0,
     "bulletType": "apcbc_solid_medium_caliber_tank",
     "bulletName": "120mm_t14e3",

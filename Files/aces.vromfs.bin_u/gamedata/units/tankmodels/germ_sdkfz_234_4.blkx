@@ -1329,8 +1329,9 @@
           "wheel_l_04": -40.0,
           "wheel_r_03": -20.0,
           "wheel_r_04": -40.0,
-          "steeringTau": 1.0,
-          "steeringNeutralTau": 0.1
+          "steeringTau": 1000000.0,
+          "steeringSpd": 1.0,
+          "steeringNeutralSpd": 3.0
         },
         "wheelsWidth": {
           "wheel_l_03": 0.4,

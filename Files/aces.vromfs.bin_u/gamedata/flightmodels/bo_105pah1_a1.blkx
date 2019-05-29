@@ -1208,7 +1208,7 @@
   },
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/an_apr_39.blk"
+      "blk": "gameData/sensors/us_an_apr_39.blk"
     }
   },
   "commonWeapons": {

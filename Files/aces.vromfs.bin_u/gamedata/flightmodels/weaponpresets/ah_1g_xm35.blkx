@@ -69,7 +69,7 @@
     "emitter": "flare7",
     "flash": "flare7",
     "shell": "emtr_shellrejection5",
-    "bullets": 1500,
+    "bullets": 950,
     "gunDm": "cannon3_dm",
     "partsDP": "cannon3_dm",
     "spread": 1.5,

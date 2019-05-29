@@ -30,6 +30,7 @@
   "weatherTypes": "gameData/environments/weather_types.blk",
   "lastClip": true,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_europe",
   "average_ground_level": 60.0,
   "puddlesPowerScale": 1.0,

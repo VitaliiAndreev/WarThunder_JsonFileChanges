@@ -1654,7 +1654,7 @@
           "__moAddMissionObjective": {
             "target": "bfd_t1_assaults_defend",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1666,7 +1666,7 @@
           "__moAddMissionObjective": {
             "target": "bfd_t2_assaults_attack",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1880,7 +1880,7 @@
           "__moAddMissionObjective": {
             "target": "bfd_t1_assaults_attack",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -1892,7 +1892,7 @@
           "__moAddMissionObjective": {
             "target": "bfd_t2_assaults_defend",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -2301,7 +2301,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2346,7 +2346,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2408,7 +2408,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2433,7 +2433,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2592,7 +2592,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2637,7 +2637,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2699,7 +2699,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2723,7 +2723,7 @@
             "status": 0,
             "team": "A",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2842,7 +2842,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -2897,7 +2897,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -2952,7 +2952,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3007,7 +3007,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -3118,7 +3118,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3147,7 +3147,7 @@
             "status": 0,
             "team": "A",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3204,7 +3204,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3233,7 +3233,7 @@
             "status": 0,
             "team": "B",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3341,7 +3341,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3370,7 +3370,7 @@
             "status": 0,
             "team": "B",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3427,7 +3427,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -3456,7 +3456,7 @@
             "status": 0,
             "team": "A",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -4158,7 +4158,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_defend",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -4229,14 +4229,14 @@
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_defend",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_attack",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -4307,7 +4307,7 @@
         "moAddMissionObjective": {
           "target": "bfd_t2_assaults_attack",
           "unit_or_area": "@at_assaults_t1_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []
@@ -4383,7 +4383,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_attack",
             "unit_or_area": "@at_assaults_t1_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -4486,7 +4486,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_defend",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -4557,14 +4557,14 @@
           "moAddMissionObjective": {
             "target": "bfd_t2_assaults_defend",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_attack",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {
@@ -4635,7 +4635,7 @@
         "moAddMissionObjective": {
           "target": "bfd_t1_assaults_attack",
           "unit_or_area": "@at_assaults_t2_name",
-          "unit_type": "isActive"
+          "object_type": "isActive"
         }
       },
       "else_actions": []
@@ -4711,7 +4711,7 @@
           "moAddMissionObjective": {
             "target": "bfd_t1_assaults_attack",
             "unit_or_area": "@at_assaults_t2_name",
-            "unit_type": "isActive"
+            "object_type": "isActive"
           }
         },
         {

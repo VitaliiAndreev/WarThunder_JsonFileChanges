@@ -1799,6 +1799,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -2891,7 +2892,7 @@
       "12mm_dshk_navy_he_ammo_pack": [],
       "12mm_dshk_navy_ap": [],
       "12mm_dshk_navy_ap_ammo_pack": {
-        "reqModification": "12mm_dshk_navy_he_ammo_pack"
+        "prevModification": "12mm_dshk_navy_he_ammo_pack"
       },
       "manual_ship_extinguisher": [],
       "ship_tool_kit": [],
@@ -3093,6 +3094,41 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_l_03_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "ya_5"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_oxidrot*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rocket_launcher_24m8_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_dshk_highmount_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "ya_5_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

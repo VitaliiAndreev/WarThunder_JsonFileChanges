@@ -233,6 +233,15 @@
           "fxScale": [4.0,4.2]
         }
       }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
     }
   ]
 }

@@ -58,12 +58,25 @@
     }
   },
   "DamageEffects": {
-    "part": {
-      "name": "fuse_dm",
-      "onKill": {
-        "expl": 1.0
+    "part": [
+      {
+        "name": "fuse_dm"
+      },
+      {
+        "name": "fuse1_dm"
+      },
+      {
+        "name": "fuse2_dm"
+      },
+      {
+        "name": "fuse3_dm"
+      },
+      {
+        "onKill": {
+          "expl": 1.0
+        }
       }
-    }
+    ]
   },
   "effects": {
     "thrustEffect": "ufo_exhaust"

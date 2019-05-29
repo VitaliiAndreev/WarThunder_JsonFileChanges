@@ -1027,6 +1027,7 @@
     "EngineName": "engine_shiplight01",
     "EngineNameAi": "engine_shiplight_ai",
     "TrackSoundPath": "ships/engines_ships",
+    "TrackSoundPathStudio": "naval/engines",
     "TrackSoundName": "tracks_light",
     "TrackSoundNameCockpit": "tracks_light_interior",
     "TrackSoundNameAi": "tracks_ai_light"
@@ -2064,7 +2065,7 @@
       "armorThickness": 45.0,
       "armorClass": "CHA_tank",
       "gun_mask_01_dm": {
-        "hp": 100.0
+        "hp": 214.0
       }
     },
     "gun_barrels": {
@@ -2943,6 +2944,40 @@
         "deviation": 0.6,
         "rotation": 2.1,
         "collisionNode": "mast_02_dm"
+      }
+    }
+  ],
+  "user_skin": [
+    {
+      "name": "1124_rct"
+    },
+    {
+      "replace_tex": {
+        "from": "camo_bluegray*"
+      }
+    },
+    {
+      "set_tex": {
+        "from": "rocket_launcher_m13_m1_c*",
+        "param": "camo_skin_tex"
+      }
+    },
+    {
+      "set_tex": {
+        "from": "turret_dshkm_2bu_c*",
+        "param": "camo_skin_tex"
+      }
+    },
+    {
+      "set_tex": {
+        "from": "turret_t34_76_1941_c*",
+        "param": "camo_skin_tex"
+      }
+    },
+    {
+      "set_tex": {
+        "from": "1124_art_c*",
+        "param": "camo_skin_tex"
       }
     }
   ]

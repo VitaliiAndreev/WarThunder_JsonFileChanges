@@ -187,6 +187,9 @@
           },
           "us_m247": {
             "rank": 6
+          },
+          "us_adats_bradley": {
+            "rank": 7
           }
         }
       },
@@ -221,14 +224,16 @@
           "us_m8_greyhound": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50038,
+            "hideFeature": "!Marketplace"
           },
           "us_m8a1": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50020,
+            "hideFeature": "!Marketplace"
           },
           "us_mk1_grant": {
             "rank": 2,
@@ -237,7 +242,9 @@
           "us_lvt_4_zis_2": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50019,
+            "hideFeature": "!Marketplace"
           },
           "us_m4a5_ram_2": {
             "rank": 2,
@@ -280,7 +287,8 @@
             "rank": 4,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50051,
+            "hideFeature": "!Marketplace"
           },
           "us_t114": {
             "rank": 5,
@@ -374,7 +382,9 @@
           "us_merkava_mk_1": {
             "rank": 6,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50065,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -721,6 +731,9 @@
           "a-26b": {
             "rank": 4
           },
+          "am_1_mauler": {
+            "rank": 4
+          },
           "douglas_ad_2": {
             "rank": 4
           },
@@ -822,7 +835,9 @@
           "pv_2d": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50032,
+            "hideFeature": "!Marketplace"
           },
           "p-40c": {
             "rank": 2,
@@ -845,8 +860,9 @@
           "xf5f": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "new_year_2014"
+            "gift": "new_year_2014",
+            "marketplaceItemdefId": 50026,
+            "hideFeature": "!Marketplace"
           },
           "p-47m-1-re": {
             "rank": 4,
@@ -878,6 +894,11 @@
             "gift": "msi_notebook",
             "showOnlyWhenBought": true
           },
+          "p-47m-1-re_boxted": {
+            "rank": 4,
+            "reqAir": "",
+            "showOnlyWhenBought": true
+          },
           "f-86f-35": {
             "rank": 5,
             "reqAir": "",
@@ -886,7 +907,9 @@
           "fj_4b_agm_12b": {
             "rank": 6,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50048,
+            "hideFeature": "!Marketplace"
           }
         }
       },
@@ -895,8 +918,9 @@
           "p-26a_34": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50042,
+            "hideFeature": "!Marketplace"
           },
           "b_10b": {
             "rank": 1,
@@ -918,7 +942,8 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50016,
+            "hideFeature": "!Marketplace"
           },
           "pbm_3": {
             "rank": 2,
@@ -933,7 +958,8 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 5562,
+            "hideFeature": "!Marketplace"
           },
           "fw-190a-8_usa": {
             "rank": 4,
@@ -950,8 +976,9 @@
           "f7f3": {
             "rank": 4,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50002,
+            "hideFeature": "!Marketplace"
           },
           "a-26c": {
             "rank": 4,
@@ -965,21 +992,15 @@
             "showByPlatform": "ps4",
             "gift": "msi_notebook"
           },
+          "a2d": {
+            "rank": 4,
+            "reqAir": ""
+          },
           "f4u-4b_vmf_214": {
             "rank": 4,
             "reqAir": "",
             "gift": "msi_notebook",
             "showByPlatform": "xboxOne"
-          },
-          "p-47m-1-re_boxted": {
-            "rank": 4,
-            "reqAir": "",
-            "showOnlyWhenBought": true
-          },
-          "ucu_blue_squadron": {
-            "rank": 6,
-            "reqAir": "",
-            "showOnlyWhenBought": true
           }
         }
       }
@@ -1356,6 +1377,9 @@
           },
           "germ_flakpz_I_Gepard": {
             "rank": 6
+          },
+          "germ_flarakpz_1": {
+            "rank": 7
           }
         }
       },
@@ -1425,13 +1449,15 @@
             "rank": 1,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50046,
+            "hideFeature": "!Marketplace"
           },
           "germ_sdkfz_234_4": {
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50037,
+            "hideFeature": "!Marketplace"
           },
           "germ_pzkpfw_III_ausf_N": {
             "rank": 2,
@@ -1462,7 +1488,8 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50062,
+            "hideFeature": "!Marketplace"
           },
           "germ_pzkpfw_V_ersatz_m10": {
             "rank": 3,
@@ -1474,7 +1501,8 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 5561,
+            "hideFeature": "!Marketplace"
           },
           "germ_panzerbefelhswagen_jagdpanther": {
             "rank": 4,
@@ -1491,8 +1519,15 @@
           },
           "germ_pzkpfw_e_100": {
             "rank": 5,
-            "showOnlyWhenBought": true,
-            "reqAir": ""
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50034,
+            "hideFeature": "!Marketplace"
+          },
+          "germ_leopard_a1a1_120": {
+            "rank": 6,
+            "reqAir": "",
+            "gift": "msi_notebook"
           }
         }
       },
@@ -1526,9 +1561,10 @@
           },
           "germ_kv_1B_finland": {
             "rank": 3,
-            "showOnlyWhenBought": true,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50004,
+            "hideFeature": "!Marketplace"
           },
           "germ_infanterie_kampfpanzer_churchill": {
             "rank": 3,
@@ -1545,8 +1581,9 @@
           "germ_pzkpfw_VI_tiger_P": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50023,
+            "hideFeature": "!Marketplace"
           },
           "germ_pzkpfw_VI_ausf_b_tiger_IIh_sla": {
             "rank": 4,
@@ -1556,11 +1593,6 @@
           "germ_ru251": {
             "rank": 4,
             "reqAir": ""
-          },
-          "germ_leopard_a1a1_120": {
-            "rank": 6,
-            "reqAir": "",
-            "gift": "msi_notebook"
           }
         }
       }
@@ -2020,6 +2052,9 @@
           "he-111h-16_winter": {
             "rank": 3
           },
+          "me_264": {
+            "rank": 3
+          },
           "do_217e": {
             "image": "#ui/unitskin#do-217e_group",
             "do_217e_2": {
@@ -2050,9 +2085,10 @@
         "range": {
           "he51b_2w": {
             "rank": 1,
-            "showOnlyWhenBought": true,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50056,
+            "hideFeature": "!Marketplace"
           },
           "fw-189a-1": {
             "rank": 1,
@@ -2077,8 +2113,9 @@
           "bf-109e-7": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50012,
+            "hideFeature": "!Marketplace"
           },
           "bv-238": {
             "rank": 2,
@@ -2118,22 +2155,14 @@
           "fw-190c": {
             "rank": 4,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50053,
+            "hideFeature": "!Marketplace"
           },
           "sea_hawk_mk100": {
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook"
-          },
-          "me-262a-2a": {
-            "rank": 5,
-            "reqAir": "",
-            "showOnlyWhenBought": true
-          },
-          "he-162a-1": {
-            "rank": 5,
-            "reqAir": "",
-            "showOnlyWhenBought": true
           }
         }
       },
@@ -2151,8 +2180,9 @@
           "he_112b_2": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50044,
+            "hideFeature": "!Marketplace"
           },
           "wellington_mk1c_luftwaffe": {
             "rank": 2,
@@ -2185,8 +2215,23 @@
           "ju-388j": {
             "rank": 4,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50063,
+            "hideFeature": "!Marketplace"
+          },
+          "me-262a-2a": {
+            "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50008,
+            "hideFeature": "!Marketplace"
+          },
+          "he-162a-1": {
+            "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50049,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -2362,7 +2407,7 @@
           "germ_destroyer_class1936_z20_karlgalster": {
             "rank": 3,
             "reqAir": "",
-            "rankPosXY": [7,1],
+            "rankPosXY": [6,1],
             "gift": "msi_notebook"
           }
         }
@@ -2595,6 +2640,9 @@
           },
           "ussr_it_1": {
             "rank": 6
+          },
+          "ussr_9p149": {
+            "rank": 6
           }
         }
       },
@@ -2641,7 +2689,8 @@
             "rank": 1,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50058,
+            "hideFeature": "!Marketplace"
           },
           "ussr_t_35": {
             "rank": 1,
@@ -2651,11 +2700,16 @@
             "rank": 1,
             "reqAir": ""
           },
+          "ussr_pzkpfw_III_ausf_J_L42": {
+            "rank": 1,
+            "reqAir": ""
+          },
           "ussr_rbt_5": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "rbt_5"
+            "gift": "rbt_5",
+            "marketplaceItemdefId": 50035,
+            "hideFeature": "!Marketplace"
           },
           "ussr_bm_13n": {
             "rank": 2,
@@ -2665,7 +2719,9 @@
           "ussr_a_12_mk_2_matilda_2A_F96": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50033,
+            "hideFeature": "!Marketplace"
           },
           "ussr_t_34_1941_cast_turret": {
             "rank": 2,
@@ -2676,17 +2732,12 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50036,
+            "hideFeature": "!Marketplace"
           },
           "ussr_smk": {
             "rank": 2,
             "reqAir": ""
-          },
-          "ussr_su_85a": {
-            "rank": 2,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showOnlyWhenBought": true
           },
           "ussr_t_34_57_1943": {
             "rank": 3,
@@ -2729,6 +2780,11 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook"
+          },
+          "ussr_t_55_am": {
+            "rank": 6,
+            "reqAir": "",
+            "gift": "msi_notebook"
           }
         }
       },
@@ -2746,21 +2802,19 @@
             "rank": 1,
             "reqAir": ""
           },
-          "ussr_pzkpfw_III_ausf_J_L42": {
-            "rank": 1,
-            "reqAir": ""
-          },
           "ussr_m3c": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50041,
+            "hideFeature": "!Marketplace"
           },
           "ussr_su_76m_5st_kav_corps": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50028,
+            "hideFeature": "!Marketplace"
           },
           "ussr_t_34_1940_l_11": {
             "rank": 2,
@@ -2771,6 +2825,13 @@
           "ussr_zut_37": {
             "rank": 2,
             "reqAir": ""
+          },
+          "ussr_su_85a": {
+            "rank": 2,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50050,
+            "hideFeature": "!Marketplace"
           },
           "ussr_kv_2_1940": {
             "rank": 3,
@@ -2791,13 +2852,15 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50021,
+            "hideFeature": "!Marketplace"
           },
           "ussr_pzkpfw_V": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50017,
+            "hideFeature": "!Marketplace"
           },
           "ussr_t_34_85E": {
             "rank": 4,
@@ -2828,12 +2891,9 @@
           "ussr_is_7": {
             "rank": 5,
             "reqAir": "",
-            "showOnlyWhenBought": true
-          },
-          "ussr_t_55_am": {
-            "rank": 6,
-            "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50040,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -2950,6 +3010,9 @@
             "rank": 4
           },
           "yak-9ut": {
+            "rank": 4
+          },
+          "yak-3u": {
             "rank": 4
           },
           "yak-15_group": {
@@ -3299,9 +3362,10 @@
           },
           "mbr-2": {
             "rank": 1,
-            "showOnlyWhenBought": true,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50055,
+            "hideFeature": "!Marketplace"
           },
           "lagg-3-23": {
             "rank": 1,
@@ -3324,7 +3388,9 @@
           "lagg-3-34": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50045,
+            "hideFeature": "!Marketplace"
           },
           "i-153p": {
             "rank": 2,
@@ -3337,8 +3403,9 @@
           "i_180": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50060,
+            "hideFeature": "!Marketplace"
           },
           "il-2m_mstitel": {
             "rank": 3,
@@ -3389,11 +3456,6 @@
             "rank": 4,
             "reqAir": ""
           },
-          "la_174": {
-            "rank": 5,
-            "reqAir": "",
-            "showOnlyWhenBought": true
-          },
           "mig-15bis_ish": {
             "rank": 5,
             "reqAir": "",
@@ -3420,8 +3482,9 @@
           "lagg-i-301": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50022,
+            "hideFeature": "!Marketplace"
           },
           "i_29": {
             "rank": 1,
@@ -3482,15 +3545,12 @@
             "rank": 4,
             "reqAir": ""
           },
-          "ufo": {
-            "rank": 6,
+          "la_174": {
+            "rank": 5,
             "reqAir": "",
-            "showOnlyWhenBought": true
-          },
-          "ucu_red_squadron": {
-            "rank": 6,
-            "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50007,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -3598,10 +3658,14 @@
       },
       {
         "range": {
-          "ussr_skr_pr159": {
+          "ussr_skr_groza_1943": {
             "rank": 2,
             "rankPosXY": [3,4],
             "reqAir": "ussr_pr_183"
+          },
+          "ussr_skr_pr159": {
+            "rank": 2,
+            "rankPosXY": [4,4]
           }
         }
       },
@@ -3671,7 +3735,8 @@
             "rankPosXY": [7,1],
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50061,
+            "hideFeature": "!Marketplace"
           },
           "ussr_1124_rct": {
             "rank": 2,
@@ -3707,13 +3772,14 @@
             "reqAir": "",
             "gift": "msi_notebook",
             "rankPosXY": [7,1],
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50057,
+            "hideFeature": "!Marketplace"
           },
           "ussr_skr_pr35": {
             "rank": 3,
             "reqAir": "",
             "rankPosXY": [6,2],
-            "isSquadronVehicle": true,
+            "isClanVehicle": true,
             "hideByPlatform": "xboxOne",
             "reqFeature": "ClanVehicles",
             "showOnlyWhenBought": true
@@ -3899,16 +3965,21 @@
           },
           "uk_chieftain_marksman": {
             "rank": 6
+          },
+          "uk_stormer_hvm": {
+            "rank": 7
           }
         }
       },
       {
         "range": {
-          "uk_a_13_mk2_1939": {
+          "uk_a_13_mk1_3rd_rtr": {
             "rank": 1,
-            "reqAir": "",
-            "gift": "uk_tanks_cbt",
-            "showOnlyWhenBought": true
+            "reqAir": ""
+          },
+          "uk_a1e1_independent": {
+            "rank": 1,
+            "reqAir": ""
           },
           "uk_a27m_cromwell_5_rp3": {
             "rank": 2,
@@ -3954,13 +4025,12 @@
       },
       {
         "range": {
-          "uk_a_13_mk1_3rd_rtr": {
+          "uk_a_13_mk2_1939": {
             "rank": 1,
-            "reqAir": ""
-          },
-          "uk_a1e1_independent": {
-            "rank": 1,
-            "reqAir": ""
+            "reqAir": "",
+            "gift": "uk_tanks_cbt",
+            "marketplaceItemdefId": 50059,
+            "hideFeature": "!Marketplace"
           },
           "uk_mk1_grant": {
             "rank": 2,
@@ -3971,8 +4041,9 @@
           "uk_armored_car_aec_mk_2": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50039,
+            "hideFeature": "!Marketplace"
           },
           "uk_ac4_thunderbolt": {
             "rank": 3,
@@ -3981,8 +4052,9 @@
           "uk_a_34_comet_iron_duke": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50054,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -4040,6 +4112,9 @@
             "rank": 5
           },
           "hunter_f1": {
+            "rank": 6
+          },
+          "hunter_f6": {
             "rank": 6
           }
         }
@@ -4301,12 +4376,16 @@
           "boston_mk_1": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50043,
+            "hideFeature": "!Marketplace"
           },
           "db_7": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50027,
+            "hideFeature": "!Marketplace"
           },
           "boomerang_mki": {
             "rank": 2,
@@ -4318,28 +4397,29 @@
           "f4f-4_martlet_mk4": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50047,
+            "hideFeature": "!Marketplace"
           },
           "typhoon_mk1b": {
             "rank": 3,
             "reqAir": "",
             "showOnlyWhenBought": true
           },
-          "b_48_firecrest": {
+          "whirlwind_p9": {
             "rank": 3,
             "reqAir": "",
-            "isClanVehicle": true,
-            "hideByPlatform": "xboxOne",
-            "reqFeature": "ClanVehicles",
             "showOnlyWhenBought": true
           },
           "spitfire_mk9c_4cannons": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50029,
+            "hideFeature": "!Marketplace"
           },
-          "whirlwind_p9": {
-            "rank": 3,
+          "spitfire_ix_plagis": {
+            "rank": 4,
             "reqAir": "",
             "showOnlyWhenBought": true
           },
@@ -4402,9 +4482,12 @@
             "rank": 3,
             "reqAir": ""
           },
-          "spitfire_ix_plagis": {
-            "rank": 4,
+          "b_48_firecrest": {
+            "rank": 3,
             "reqAir": "",
+            "isClanVehicle": true,
+            "hideByPlatform": "xboxOne",
+            "reqFeature": "ClanVehicles",
             "showOnlyWhenBought": true
           },
           "wyvern_s4": {
@@ -4549,6 +4632,10 @@
           "uk_cruiser_leander": {
             "rank": 4,
             "rankPosXY": [3,1]
+          },
+          "uk_cruiser_southampton": {
+            "rank": 4,
+            "rankPosXY": [4,1]
           }
         }
       },
@@ -4568,7 +4655,7 @@
           "uk_destroyer_haida": {
             "rank": 3,
             "reqAir": "",
-            "rankPosXY": [7,1],
+            "rankPosXY": [6,1],
             "gift": "msi_notebook"
           },
           "uk_mtb_2series": {
@@ -4580,7 +4667,9 @@
             "rank": 4,
             "reqAir": "",
             "rankPosXY": [6,1],
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50064,
+            "hideFeature": "!Marketplace"
           }
         }
       }
@@ -4689,6 +4778,9 @@
           },
           "jp_type_5_ho_ri_production": {
             "rank": 4
+          },
+          "jp_type_16": {
+            "rank": 7
           }
         }
       },
@@ -4752,6 +4844,15 @@
         }
       }
     ],
+    "helicopters": {
+      "range": {
+        "ah_1s": {
+          "rank": 5,
+          "reqAir": "",
+          "gift": "msi_notebook"
+        }
+      }
+    },
     "aviation": [
       {
         "range": {
@@ -4957,6 +5058,9 @@
           "ki_109": {
             "rank": 3
           },
+          "j5n1": {
+            "rank": 4
+          },
           "ki-83": {
             "rank": 4
           }
@@ -5143,6 +5247,174 @@
           }
         }
       }
+    ],
+    "fleet": [
+      {
+        "range": {
+          "jp_t14_class": {
+            "rank": 1,
+            "rankPosXY": [1,1]
+          },
+          "jp_type_t1_1941": {
+            "rank": 1,
+            "rankPosXY": [2,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_karotei_type2": {
+            "rank": 1,
+            "rankPosXY": [3,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_sehatei_mod1": {
+            "rank": 1,
+            "rankPosXY": [4,1],
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_type38_1944": {
+            "rank": 1,
+            "rankPosXY": [2,2],
+            "reqAir": "jp_type_t1_1941",
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_type5_escortboat": {
+            "rank": 1,
+            "rankPosXY": [1,3],
+            "reqAir": "jp_t14_class",
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_abtei_pr1": {
+            "rank": 1,
+            "rankPosXY": [2,3],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_no1_ch2": {
+            "rank": 1,
+            "rankPosXY": [3,3],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_no4_ch8": {
+            "rank": 1,
+            "rankPosXY": [4,3],
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_abtei_pr4": {
+            "rank": 1,
+            "rankPosXY": [2,4],
+            "reqAir": "jp_abtei_pr1",
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_t51b": {
+            "rank": 2,
+            "rankPosXY": [1,1],
+            "reqAir": "jp_type5_escortboat",
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_kusen_tei_13_1944": {
+            "rank": 2,
+            "rankPosXY": [2,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_type_11_pt_15": {
+            "rank": 2,
+            "rankPosXY": [3,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_escort_chikugo_class": {
+            "rank": 2,
+            "rankPosXY": [4,1],
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_destroyer_mutsuki": {
+            "rank": 3,
+            "rankPosXY": [1,1],
+            "reqAir": "jp_t51b",
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_destroyer_fubuki": {
+            "rank": 3,
+            "rankPosXY": [2,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_destroyer_yugumo": {
+            "rank": 3,
+            "rankPosXY": [3,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_destroyer_akizuki": {
+            "rank": 3,
+            "rankPosXY": [4,1],
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_cruiser_kuma": {
+            "rank": 4,
+            "rankPosXY": [1,1],
+            "reqAir": "jp_destroyer_mutsuki",
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_cruiser_kako": {
+            "rank": 4,
+            "rankPosXY": [3,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_cruiser_agano": {
+            "rank": 4,
+            "rankPosXY": [4,1],
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_cruiser_furutaka": {
+            "rank": 4,
+            "rankPosXY": [5,1],
+            "reqFeature": "JapanShipsUnlocked"
+          }
+        }
+      },
+      {
+        "range": {
+          "jp_t14_class_mod01": {
+            "rank": 1,
+            "reqAir": "",
+            "rankPosXY": [6,1],
+            "showOnlyWhenBought": true,
+            "reqFeature": "JapanShipsUnlocked"
+          },
+          "jp_pg02": {
+            "rank": 2,
+            "reqAir": "",
+            "rankPosXY": [6,1],
+            "gift": "msi_notebook"
+          },
+          "jp_destroyer_kiyoshimo": {
+            "rank": 3,
+            "reqAir": "",
+            "rankPosXY": [6,1],
+            "gift": "msi_notebook"
+          }
+        }
+      }
     ]
   },
   "country_italy": {
@@ -5218,6 +5490,9 @@
           },
           "it_c1_ariete_preserie": {
             "rank": 6
+          },
+          "it_c1_ariete": {
+            "rank": 7
           }
         }
       },
@@ -5309,7 +5584,12 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;xboxOne"
+            "showOnlyWhenBought": true
+          },
+          "it_of_40_mtca": {
+            "rank": 6,
+            "reqAir": "",
+            "gift": "msi_notebook"
           }
         }
       }
@@ -5321,6 +5601,9 @@
             "rank": 1
           },
           "re_2000_ga": {
+            "rank": 1
+          },
+          "re_2002_early": {
             "rank": 1
           },
           "re_2001_serie1": {
@@ -5484,8 +5767,8 @@
             "rank": 1,
             "reqAir": "",
             "gift": "msi_notebook",
-            "reqFeature": "ItalianAircraftUnlocked",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50025,
+            "hideFeature": "!Marketplace"
           },
           "fiat_cr42_marcolin_italy": {
             "rank": 1,
@@ -5506,8 +5789,7 @@
           "g_55s": {
             "rank": 4,
             "reqAir": "",
-            "gift": "msi_notebook",
-            "reqFeature": "ItalianAircraftUnlocked"
+            "gift": "msi_notebook"
           },
           "fiat_g91_r4": {
             "rank": 5,
@@ -5575,6 +5857,9 @@
           },
           "fr_amx_30_b2_brenus": {
             "rank": 6
+          },
+          "fr_leclerc_s1": {
+            "rank": 7
           }
         }
       },
@@ -5624,6 +5909,9 @@
           },
           "fr_amx_30_dca": {
             "rank": 5
+          },
+          "fr_amx_30_roland": {
+            "rank": 7
           }
         }
       },
@@ -5676,6 +5964,11 @@
           },
           "fr_amx_30": {
             "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook"
+          },
+          "fr_amx_30_super": {
+            "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook"
           }
@@ -5785,21 +6078,17 @@
           "h-75_france_group": {
             "image": "#ui/unitskin#h-75_france_group",
             "h-75a-1_france": {
-              "rank": 1,
-              "reqFeature": "FranceAircraftUnlocked"
+              "rank": 1
             },
             "h-75a-4_france": {
-              "rank": 1,
-              "reqFeature": "FranceAircraftUnlocked"
+              "rank": 1
             }
           },
           "ms_405c1": {
-            "rank": 1,
-            "reqFeature": "FranceAircraftUnlocked"
+            "rank": 1
           },
           "ms_406c1": {
-            "rank": 1,
-            "reqFeature": "FranceAircraftUnlocked"
+            "rank": 1
           },
           "ms_410c1": {
             "rank": 2
@@ -5879,6 +6168,9 @@
           },
           "md_452_mystere_2c_preproduction": {
             "rank": 5
+          },
+          "f-86k_late": {
+            "rank": 6
           }
         }
       },
@@ -5940,21 +6232,20 @@
           "mb_152c1": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50052,
+            "hideFeature": "!Marketplace"
           },
           "yak-9t_france": {
             "rank": 3,
             "reqAir": "",
-            "showOnlyWhenBought": true
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50024,
+            "hideFeature": "!Marketplace"
           },
           "yak-3_france": {
             "rank": 3,
             "reqAir": ""
-          },
-          "fw-190a-8_france": {
-            "rank": 3,
-            "reqAir": "",
-            "showOnlyWhenBought": true
           },
           "so_8000_narval": {
             "rank": 4,
@@ -5966,6 +6257,15 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook"
+          }
+        }
+      },
+      {
+        "range": {
+          "fw-190a-8_france": {
+            "rank": 3,
+            "reqAir": "",
+            "showOnlyWhenBought": true
           }
         }
       }

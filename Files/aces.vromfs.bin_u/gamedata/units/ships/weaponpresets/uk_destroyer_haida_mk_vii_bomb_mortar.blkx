@@ -40,7 +40,7 @@
       "ammoDP": "depth_charge_09_dm",
       "allowableDelta": 60.0,
       "turret": {
-        "head": "turret_13",
+        "head": "depth_charge_mount_01",
         "gun": "depth_charge_mount_01"
       },
       "limits": {
@@ -65,7 +65,7 @@
       "ammoDP": "depth_charge_08_dm",
       "allowableDelta": 60.0,
       "turret": {
-        "head": "turret_12",
+        "head": "depth_charge_mount_02",
         "gun": "depth_charge_mount_02"
       },
       "limits": {

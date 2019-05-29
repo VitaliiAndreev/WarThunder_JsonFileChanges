@@ -2351,7 +2351,7 @@
           "gunnerDm": "gunner2_dm",
           "gunDm": "gun2_dm",
           "partsDP": "gun2_dm",
-          "bullets": 400,
+          "bullets": 478,
           "traceOffset": 1,
           "turret": {
             "head": "turret2",
@@ -2378,7 +2378,7 @@
           "gunnerDm": "gunner3_dm",
           "gunDm": "gun3_dm",
           "partsDP": "gun3_dm",
-          "bullets": 400,
+          "bullets": 478,
           "traceOffset": 2,
           "turret": {
             "head": "turret3",
@@ -2397,7 +2397,7 @@
       {
         "Weapon": {
           "trigger": "gunner3",
-          "blk": "gameData/Weapons/gunBrowning50_turret.blk",
+          "blk": "gameData/Weapons/gunBrowning30_turret.blk",
           "breechInCockpit": true,
           "emitter": "gun4",
           "flash": "flare4",

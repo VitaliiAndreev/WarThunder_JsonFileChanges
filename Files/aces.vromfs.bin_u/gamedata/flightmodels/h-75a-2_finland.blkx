@@ -1935,6 +1935,16 @@
   },
   "commonWeapons": [
     {
+      "hideNodes": [
+        {
+          "node": "bomb1"
+        },
+        {
+          "node": "bomb2"
+        }
+      ]
+    },
+    {
       "Weapon": {
         "trigger": "machine gun",
         "blk": "gameData/Weapons/gunMle38.blk",

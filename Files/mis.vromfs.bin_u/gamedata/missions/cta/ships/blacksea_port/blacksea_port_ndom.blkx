@@ -402,7 +402,7 @@
     },
     {
       "import_record": {
-        "file": "gameData/missions/cta/ships/blacksea_port/spotareas/blacksea_port_NDom_spotareas_template.blk",
+        "file": "gameData/missions/cta/ships/blacksea_port/mainareas/blacksea_port_NDom_template.blk",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

@@ -42,6 +42,13 @@
     "shutterAmount": 3000,
     "shutterArmorPower": 15.0,
     "shutterHit": 15.0,
-    "explosionFx": "explosion_pony"
+    "explosionFx": "explosion_pony",
+    "DamageParts": {
+      "body": {
+        "hp": 35.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 1.0
+      }
+    }
   }
 }

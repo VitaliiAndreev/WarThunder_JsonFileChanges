@@ -963,6 +963,7 @@
       "Engine": "engine_mi4",
       "gun": "gun_default",
       "turretTurnSfxPath": "sounds/effects",
+      "turretTurnSfxPathStudio": "aircraft/effects",
       "turretTurnSfxName": "gun_turn_manual"
     }
   },

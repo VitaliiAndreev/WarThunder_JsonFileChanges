@@ -47,6 +47,13 @@
       "dropSpeedRange": [0.0,160.0],
       "dropHeightRange": [0.0,150.0],
       "dropAngleRange": [-40.0,40.0]
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
     }
   }
 }

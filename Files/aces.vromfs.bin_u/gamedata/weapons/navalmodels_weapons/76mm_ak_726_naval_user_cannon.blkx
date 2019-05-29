@@ -6,41 +6,28 @@
   "emitI": 10.0,
   "emitR": 3.0,
   "emitTime": 0.03,
+  "aimMinDist": 0.05,
+  "aimMaxDist": 8000.0,
+  "maxDeltaAngle": 0.075,
+  "maxDeltaAngleVertical": 0.075,
+  "attackMaxDist": 8000.0,
   "shotFreq": 1.5,
   "shotFreqRndK": 0.0,
   "traceFreq": 1,
   "bEnablePause": false,
   "bullets": -1,
   "bulletsCluster": 1,
-  "bulletsCartridge": 34,
   "reloadTime": 15.0,
-  "aimMinDist": 0.05,
-  "aimMaxDist": 8000.0,
-  "maxDeltaAngle": 0.075,
-  "maxDeltaAngleVertical": 0.075,
-  "attackMaxDist": 8000.0,
-  "useSingleIconForBullet": true,
   "fxType": "big_gun_flame",
   "fxGroundDust": "water_shock_wave",
   "shouldCollideWithRendinsts": true,
   "sound_path": "ships/weapon_common/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "76mm_f34",
-  "sound_inside": "76mm_f34_interior",
-  "sfxReloadBullet": "grd_cannon_reload",
+  "sfxReloadBullet": "naval_cannon_reload",
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
-  "overheat": [
-    {
-      "overheat": [10.0,0.0]
-    },
-    {
-      "overheat": [15.0,0.05]
-    },
-    {
-      "overheat": [18.0,0.15]
-    }
-  ],
   "bullet": {
     "bulletCount": 40,
     "mass": 5.9,
@@ -497,5 +484,16 @@
         }
       }
     }
-  }
+  },
+  "overheat": [
+    {
+      "overheat": [10.0,0.0]
+    },
+    {
+      "overheat": [15.0,0.05]
+    },
+    {
+      "overheat": [18.0,0.15]
+    }
+  ]
 }

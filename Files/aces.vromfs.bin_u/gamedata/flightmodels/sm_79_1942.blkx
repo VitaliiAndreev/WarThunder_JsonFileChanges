@@ -6440,12 +6440,11 @@
       "new_compressor": [],
       "new_engine_injection": [],
       "safat12_turret_belt_pack": {
-        "reqModification": "safat12_turret_new_gun",
-        "tier": 4
+        "tier": 3
       },
       "safat12_turret_new_gun": {
-        "prevModification": "safat12_new_gun",
-        "tier": 3
+        "prevModification": "safat12_turret_belt_pack",
+        "tier": 4
       },
       "breda12_7_turret_ap": [],
       "breda12_7_turret_apit": [],

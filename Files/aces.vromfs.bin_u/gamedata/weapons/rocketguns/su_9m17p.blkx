@@ -31,7 +31,7 @@
       "operated": true
     },
     {
-      "operatedDist": 8000.0
+      "operatedDist": 4000.0
     },
     {
       "autoAiming": true
@@ -215,6 +215,15 @@
         "wood": {
           "fx": "atgm_hit",
           "fxScale": [4.0,4.2]
+        }
+      }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
         }
       }
     },

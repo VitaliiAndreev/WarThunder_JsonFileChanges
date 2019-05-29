@@ -33,7 +33,7 @@
       "operated": true
     },
     {
-      "operatedDist": 8000.0
+      "operatedDist": 3750.0
     },
     {
       "autoAiming": true
@@ -78,7 +78,7 @@
       "maxDeltaAngle": 0.02
     },
     {
-      "maxDistance": 6500.0
+      "maxDistance": 3750.0
     },
     {
       "minDistance": 30.0
@@ -156,10 +156,10 @@
       "startSpeed": 100.0
     },
     {
-      "endSpeed": 296.0
+      "endSpeed": 329.0
     },
     {
-      "maxSpeed": 296.0
+      "maxSpeed": 329.0
     },
     {
       "speedViscosity": 0.2
@@ -217,6 +217,15 @@
         "wood": {
           "fx": "atgm_hit",
           "fxScale": [4.0,4.2]
+        }
+      }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
         }
       }
     },

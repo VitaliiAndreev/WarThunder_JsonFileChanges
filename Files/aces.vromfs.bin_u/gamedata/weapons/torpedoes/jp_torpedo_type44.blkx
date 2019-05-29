@@ -22,7 +22,7 @@
     "detonationDepth": 1.0,
     "caliber": 0.45,
     "mass": 750.0,
-    "explosiveType": "lyddit",
+    "explosiveType": "shimose",
     "explosiveMass": 110.0,
     "dragCx": 0.24,
     "startSpeed": 15.0,
@@ -51,6 +51,13 @@
       "dropSpeedRange": [-10.0,160.0],
       "dropHeightRange": [-10.0,150.0],
       "dropAngleRange": [-90.0,90.0]
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
     }
   }
 }

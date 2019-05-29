@@ -1947,6 +1947,7 @@
   },
   "Sound": {
     "turretTurnSfxPath": "sounds/effects",
+    "turretTurnSfxPathStudio": "aircraft/effects",
     "turretTurnSfxName": "gun_turn_manual",
     "Engine": "engine03",
     "gun": "gun_il2",

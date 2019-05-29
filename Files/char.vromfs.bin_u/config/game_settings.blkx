@@ -334,6 +334,7 @@
     "checkUnitAvailability": "allow",
     "minCraftRank": 3,
     "maxBattlePlayersDisbalance": 2,
+    "maxVisibleGlobalBattlesPerGroup": 5,
     "operationAnnounceTimeSec": 86400,
     "joinBattleDelayTimeSec": 300,
     "dailyTrophies": {
@@ -350,10 +351,6 @@
         "progressParamName": "wwDaily3winsWinsCount",
         "rewardedParamValue": 3
       }
-    },
-    "minMemberCountToWWarByClanTypeCode": {
-      "0": 20,
-      "1": 20
     }
   },
   "features": {
@@ -1474,6 +1471,20 @@
     "ItalyTankUnlocked": {
       "condition": ""
     },
+    "JapanShipsUnlocked": [
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "role_ALPHA_TESTER"
+      },
+      {
+        "condition": "wt_access_japan_ships_unlocks"
+      }
+    ],
     "CountryChina": {
       "condition": "role_DEVELOPER"
     },
@@ -1705,6 +1716,17 @@
       "condition": ""
     },
     "UfoControl": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
+    "WalkerControl": [
       {
         "condition": "role_GAIJIN"
       },

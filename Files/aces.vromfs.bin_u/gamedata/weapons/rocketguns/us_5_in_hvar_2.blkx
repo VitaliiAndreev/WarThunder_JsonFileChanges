@@ -185,6 +185,15 @@
       }
     },
     {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      }
+    },
+    {
       "armorpower": {
         "ArmorPower0m": [28.0,10.0],
         "ArmorPower100m": [25.0,100.0],

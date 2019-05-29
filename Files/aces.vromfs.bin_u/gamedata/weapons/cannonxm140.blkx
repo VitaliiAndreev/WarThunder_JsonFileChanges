@@ -166,6 +166,7 @@
   },
   "gunSound": {
     "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
     "outside": "cannon_xm140_outside",
     "cockpit": "cannon_xm140_inside",
     "ai": "cannon_xm140_ai"

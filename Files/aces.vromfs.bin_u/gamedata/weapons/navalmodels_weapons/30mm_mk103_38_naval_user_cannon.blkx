@@ -23,10 +23,10 @@
   "fxScale": 1.0,
   "shouldCollideWithRendinsts": true,
   "sound_path": "ships/weapon_common/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "30mm_mk103_38",
-  "sound_inside": "30mm_mk103_38_interior",
   "soundLoop": true,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
   "bullet": {

@@ -3,9 +3,9 @@
   "preset_cost": 10,
   "bullets": 1,
   "shotFreq": 3.0,
-  "sound_path": "tanks/weapon_tanks/rockets",
-  "sound": "82mm_m8",
-  "sound_inside": "82mm_m8_interior",
+  "sound_path": "ships/weapon_common/rockets",
+  "sound_pathStudio": "naval/weapon/rockets",
+  "sound": "75mm_m3",
   "isBulletBelt": false,
   "helicopterGroup": 2,
   "reloadTime": 8.0,
@@ -63,6 +63,14 @@
       "steel": {
         "fx": "cannon_hit_armor_cumulative",
         "fxScale": [1.0,1.0]
+      },
+      "buildings": {
+        "fx": "atgm_hit",
+        "fxScale": [1.7,2.1]
+      },
+      "wood": {
+        "fx": "atgm_hit",
+        "fxScale": [1.7,2.1]
       },
       "armor": {
         "fx": "cannon_hit_armor_cumulative",

@@ -167,11 +167,11 @@
             [0.989108,0.0,-0.147192],
             [0.0,1.0,0.0],
             [0.147192,0.0,0.989108],
-            [0.0,94.4864,67.2339]
+            [-83.45,94.5,60.6]
           ]
         },
         {
-          "unit_class": "ussr_is_7"
+          "unit_class": "ussr_zprk_2s6"
         },
         {
           "closed_waypoints": false
@@ -317,6 +317,9 @@
           [400.998,94.4864,-585.556]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "target_tank01"
           },
@@ -855,6 +858,53 @@
         },
         "way": []
       }
+    },
+    {
+      "armada": {
+        "name": "flight_target02",
+        "tm": [
+          [-0.46916,0.0,0.883115],
+          [0.0,1.0,0.0],
+          [-0.883115,0.0,-0.46916],
+          [1033.7,1000.0,-405.9]
+        ],
+        "unit_class": "mig-19",
+        "objLayer": 1,
+        "closed_waypoints": false,
+        "isShipSpline": false,
+        "shipTurnRadius": 100.0,
+        "weapons": "",
+        "bullets0": "",
+        "bullets1": "",
+        "bullets2": "",
+        "bullets3": "",
+        "bulletsCount0": 100,
+        "bulletsCount1": 0,
+        "bulletsCount2": 0,
+        "bulletsCount3": 0,
+        "props": {
+          "army": 2,
+          "count": 1,
+          "free_distance": 70.0,
+          "floating_distance": 50.0,
+          "minimum_distance_to_earth": 20.0,
+          "altLimit": 6000.0,
+          "attack_type": "fire_at_will",
+          "skill": 4,
+          "isDelayed": true,
+          "plane": {
+            "wing_formation": "Diamond",
+            "row_distances": 3.0,
+            "col_distances": 3.0,
+            "super_formation": "Diamond",
+            "super_row_distances": 1.5,
+            "super_col_distances": 1.5,
+            "ai_skill": "NORMAL",
+            "task": "FLY_WAYPOINT"
+          }
+        },
+        "way": []
+      }
     }
   ],
   "areas": {
@@ -964,6 +1014,28 @@
         [0.0,8.1,0.0],
         [-4.74155,0.0,-6.56717],
         [1329.89,276.3,-697.006]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "spawn_area02": {
+      "type": "Sphere",
+      "tm": [
+        [-29.9997,0.0,52.9983],
+        [0.0,60.9,0.0],
+        [-52.9983,0.0,-29.9997],
+        [1033.7,1000.0,-405.95]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "flight_point02": {
+      "type": "Point",
+      "tm": [
+        [0.414817,0.0,-0.909905],
+        [0.0,1.0,0.0],
+        [0.909905,0.0,0.414817],
+        [368.85,1000.0,458.7]
       ],
       "objLayer": 0,
       "props": []

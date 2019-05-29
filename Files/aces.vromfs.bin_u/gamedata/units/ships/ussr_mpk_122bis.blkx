@@ -4808,5 +4808,41 @@
         }
       }
     ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mpk_122bis"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_70_k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_90k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mpk_122bis_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mpk_122bis_deckhouse_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

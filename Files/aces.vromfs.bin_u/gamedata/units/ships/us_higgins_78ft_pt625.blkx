@@ -1122,6 +1122,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -2768,7 +2769,10 @@
         "genericDamageMult": 1.4,
         "shatterDamageMult": 1.1,
         "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.5
+        "secondaryShatterDamageMult": 0.5,
+        "main_caliber_turret_01_dm": {
+          "hp": 100.0
+        }
       },
       "turrets_aux_caliber": {
         "armorClass": "ship_structural_steel",
@@ -3977,10 +3981,10 @@
           },
           {
             "turret": {
-              "head": "turret_h_07",
+              "head": "main_caliber_turret_01",
               "gun": "main_caliber_gun_01",
               "barrel": "gun_barrel_07",
-              "gunnerDm": "turret_h_07_dm"
+              "gunnerDm": "main_caliber_turret_01_dm"
             }
           },
           {
@@ -4186,7 +4190,10 @@
       "20mm_oerlikon_navy_ap_ammo_pack": {
         "prevModification": "20mm_oerlikon_navy_he_ammo_pack"
       },
-      "new_aux_caliber_turrets": [],
+      "new_aa_caliber_turrets": [],
+      "new_aux_caliber_turrets": {
+        "reqModification": "new_aa_caliber_turrets"
+      },
       "new_main_caliber_turrets": {
         "reqModification": "new_aux_caliber_turrets"
       },
@@ -4245,7 +4252,7 @@
     "wreckedParts": [
       {
         "part": {
-          "node": "turret_h_07",
+          "node": "main_caliber_turret_01",
           "idx": 1,
           "mass": 1100.0,
           "cutDamage": 350.0,
@@ -4340,6 +4347,54 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "auxiliary_caliber_turret_01_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "higgins_78ft_pt625"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_flat_military_green*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_browning_open_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_m4_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk10_oerlikon_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk3_bofors_mod1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "higgins_78ft_pt625_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "higgins_78ft_pt625_deckhouse_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

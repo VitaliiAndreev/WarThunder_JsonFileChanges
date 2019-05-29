@@ -69,6 +69,9 @@
     "soundAmbientPath": "sounds/ambient"
   },
   {
+    "soundAmbientPathStudio": "aircraft/ambient"
+  },
+  {
     "soundAmbientEvent": "global_amb_europe"
   },
   {
@@ -106,6 +109,9 @@
   },
   {
     "soundAmbientPath": "sounds/ambient"
+  },
+  {
+    "soundAmbientPathStudio": "aircraft/ambient"
   },
   {
     "soundAmbientEvent": "global_amb_desert"

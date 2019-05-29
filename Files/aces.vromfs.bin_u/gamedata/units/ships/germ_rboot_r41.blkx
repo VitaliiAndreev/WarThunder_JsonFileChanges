@@ -2312,6 +2312,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3179,6 +3180,30 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_armor_08_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "rboot_r41"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_hellgrau_50*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_sockellafette30_c30_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rboot_r41_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

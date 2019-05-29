@@ -260,7 +260,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": true,
         "isTanksAllowed": false,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       }
     },
     "cover_points": [],
@@ -551,9 +552,6 @@
               "isUnit": false
             },
             {
-              "offset": [0.0,0.0,0.0]
-            },
-            {
               "radius": -1.0
             },
             {
@@ -581,6 +579,12 @@
               "onlyOnePlayerPerSpawnPoint": false
             },
             {
+              "resetStrictSpawnIndex": false
+            },
+            {
+              "replaceAreas": false
+            },
+            {
               "target": "t1_carrier01"
             },
             {
@@ -594,6 +598,9 @@
             },
             {
               "awardByBodyHp": false
+            },
+            {
+              "offset": [0.0,0.0,0.0]
             },
             {
               "tags": {
@@ -623,9 +630,6 @@
               "isUnit": false
             },
             {
-              "offset": [0.0,0.0,0.0]
-            },
-            {
               "radius": -1.0
             },
             {
@@ -653,6 +657,12 @@
               "onlyOnePlayerPerSpawnPoint": false
             },
             {
+              "resetStrictSpawnIndex": false
+            },
+            {
+              "replaceAreas": false
+            },
+            {
               "target": "t2_carrier01"
             },
             {
@@ -666,6 +676,9 @@
             },
             {
               "awardByBodyHp": false
+            },
+            {
+              "offset": [0.0,0.0,0.0]
             },
             {
               "tags": {
@@ -686,7 +699,6 @@
             "spawnEffect": false,
             "isAirfield": false,
             "isUnit": false,
-            "offset": [0.0,0.0,0.0],
             "radius": -1.0,
             "isStrictSpawn": false,
             "useExisting": false,
@@ -695,8 +707,11 @@
             "canSpawnOnNeutral": false,
             "showOnMap": true,
             "onlyOnePlayerPerSpawnPoint": false,
+            "resetStrictSpawnIndex": false,
+            "replaceAreas": false,
             "target": "t1_common_fighter_spawn",
             "team": "A",
+            "offset": [0.0,0.0,0.0],
             "tags": {
               "type_bomber": false,
               "type_assault": false,
@@ -715,7 +730,6 @@
             "spawnEffect": false,
             "isAirfield": false,
             "isUnit": false,
-            "offset": [0.0,0.0,0.0],
             "radius": -1.0,
             "isStrictSpawn": false,
             "useExisting": false,
@@ -724,8 +738,11 @@
             "canSpawnOnNeutral": false,
             "showOnMap": true,
             "onlyOnePlayerPerSpawnPoint": false,
+            "resetStrictSpawnIndex": false,
+            "replaceAreas": false,
             "target": "t2_common_fighter_spawn",
             "team": "B",
+            "offset": [0.0,0.0,0.0],
             "tags": {
               "type_bomber": false,
               "type_assault": false,
@@ -1321,48 +1338,43 @@
       ],
       "actions": [
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp01",
-            "object_type": "isInactive",
-            "target": "t2_attack1_01"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_01",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp02",
-            "object_type": "isInactive",
-            "target": "t2_attack1_02"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_02",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp03",
-            "object_type": "isInactive",
-            "target": "t2_attack1_03"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_03",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp04",
-            "object_type": "isInactive",
-            "target": "t2_attack1_04"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_04",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp05",
-            "object_type": "isInactive",
-            "target": "t2_attack1_05"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_05",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
@@ -1371,48 +1383,43 @@
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp06",
-            "object_type": "isInactive",
-            "target": "t2_attack1_01"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_01",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp07",
-            "object_type": "isInactive",
-            "target": "t2_attack1_02"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_02",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp08",
-            "object_type": "isInactive",
-            "target": "t2_attack1_03"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_03",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp09",
-            "object_type": "isInactive",
-            "target": "t2_attack1_04"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_04",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         },
         {
-          "unitRespawn": {
-            "delay": 10.0,
-            "offset": [50.0,0.0,0.0],
-            "object": "t2_lcvp10",
-            "object_type": "isInactive",
-            "target": "t2_attack1_05"
+          "triggerActivate": {
+            "target": "t2_lcvp_spawn_05",
+            "activate_type": "checkConidtions",
+            "check_trigger_status": false,
+            "after_activation": "disable"
           }
         }
       ],
@@ -1816,6 +1823,186 @@
           "value": -200,
           "valueSystem": "amount",
           "team": "A"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_lcvp_spawn_01": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenCountMatches": {
+          "object_type": "isActive",
+          "object_marking": 0,
+          "func": "more",
+          "value": 0,
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
+          "object_var_value": 0,
+          "object": "t2_attack1_01"
+        }
+      },
+      "actions": {
+        "unitRespawn": {
+          "delay": 10.0,
+          "offset": [50.0,0.0,0.0],
+          "object": "t2_lcvp01",
+          "object_type": "isInactive",
+          "target": "t2_attack1_01"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_lcvp_spawn_02": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenCountMatches": {
+          "object_type": "isActive",
+          "object_marking": 0,
+          "func": "more",
+          "value": 0,
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
+          "object_var_value": 0,
+          "object": "t2_attack1_02"
+        }
+      },
+      "actions": {
+        "unitRespawn": {
+          "delay": 10.0,
+          "offset": [50.0,0.0,0.0],
+          "object": "t2_lcvp02",
+          "object_type": "isInactive",
+          "target": "t2_attack1_02"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_lcvp_spawn_03": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenCountMatches": {
+          "object_type": "isActive",
+          "object_marking": 0,
+          "func": "more",
+          "value": 0,
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
+          "object_var_value": 0,
+          "object": "t2_attack1_03"
+        }
+      },
+      "actions": {
+        "unitRespawn": {
+          "delay": 10.0,
+          "offset": [50.0,0.0,0.0],
+          "object": "t2_lcvp03",
+          "object_type": "isInactive",
+          "target": "t2_attack1_03"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_lcvp_spawn_04": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenCountMatches": {
+          "object_type": "isActive",
+          "object_marking": 0,
+          "func": "more",
+          "value": 0,
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
+          "object_var_value": 0,
+          "object": "t2_attack1_04"
+        }
+      },
+      "actions": {
+        "unitRespawn": {
+          "delay": 10.0,
+          "offset": [50.0,0.0,0.0],
+          "object": "t2_lcvp04",
+          "object_type": "isInactive",
+          "target": "t2_attack1_04"
+        }
+      },
+      "else_actions": []
+    },
+    "t2_lcvp_spawn_05": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "unitWhenCountMatches": {
+          "object_type": "isActive",
+          "object_marking": 0,
+          "func": "more",
+          "value": 0,
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
+          "object_var_value": 0,
+          "object": "t2_attack1_05"
+        }
+      },
+      "actions": {
+        "unitRespawn": {
+          "delay": 10.0,
+          "offset": [50.0,0.0,0.0],
+          "object": "t2_lcvp05",
+          "object_type": "isInactive",
+          "target": "t2_attack1_05"
         }
       },
       "else_actions": []
@@ -3387,6 +3574,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_carrier01"
           },
           {
@@ -3405,6 +3595,9 @@
           [3479.75,1.0,-20857.4]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_carrier_sq"
           },
@@ -3440,6 +3633,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_attack1_01"
           },
           {
@@ -3467,6 +3663,9 @@
           [-747.8,1.0,-14424.0]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_lcvp01"
           },
@@ -3510,6 +3709,9 @@
           [-1287.2,14.95,-13370.9]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_ground01"
           },
@@ -5034,6 +5236,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_carrier01"
           },
           {
@@ -5052,6 +5257,9 @@
           [-8528.55,48.5,-3376.39]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_carrier_sq"
           },
@@ -5087,6 +5295,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_attack1_01"
           },
           {
@@ -5114,6 +5325,9 @@
           [-2160.84,1.0,-7702.27]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_lcvp01"
           },
@@ -5157,6 +5371,9 @@
           [-1259.49,14.95,-8468.79]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_ground01"
           },
@@ -6012,6 +6229,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_carrier_sq"
           },
           {
@@ -6039,6 +6259,9 @@
           [-1010.4,-63.4,-6711.65]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_carrier_sq"
           },
@@ -6114,6 +6337,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_carrier_sq"
           },
           {
@@ -6141,6 +6367,9 @@
           [322.3,-63.4,-832.8]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_carrier_sq"
           },
@@ -6244,6 +6473,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t1_subquest_units_01"
           },
           {
@@ -6265,6 +6497,9 @@
           [-703.7,72.4,-32525.7]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t2_subquest_units_01"
           },

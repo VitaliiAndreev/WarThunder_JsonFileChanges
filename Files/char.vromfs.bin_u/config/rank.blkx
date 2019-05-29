@@ -158,12 +158,12 @@
       "needBuyToOpenNextInEraShip1": 5,
       "needBuyToOpenNextInEraShip2": 2,
       "needBuyToOpenNextInEraShip3": 5,
-      "needBuyToOpenNextInEraShip4": 1,
       "needBuyToOpenNextInEraHelicopter1": 0,
       "needBuyToOpenNextInEraHelicopter2": 0,
       "needBuyToOpenNextInEraHelicopter3": 0,
       "needBuyToOpenNextInEraHelicopter4": 0,
-      "needBuyToOpenNextInEraHelicopter5": 1
+      "needBuyToOpenNextInEraHelicopter5": 1,
+      "needBuyToOpenNextInEraHelicopter6": 1
     },
     "country_usa": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -180,12 +180,12 @@
       "needBuyToOpenNextInEraShip1": 5,
       "needBuyToOpenNextInEraShip2": 2,
       "needBuyToOpenNextInEraShip3": 5,
-      "needBuyToOpenNextInEraShip4": 1,
       "needBuyToOpenNextInEraHelicopter1": 0,
       "needBuyToOpenNextInEraHelicopter2": 0,
       "needBuyToOpenNextInEraHelicopter3": 0,
       "needBuyToOpenNextInEraHelicopter4": 0,
-      "needBuyToOpenNextInEraHelicopter5": 1
+      "needBuyToOpenNextInEraHelicopter5": 1,
+      "needBuyToOpenNextInEraHelicopter6": 1
     },
     "country_germany": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -202,12 +202,12 @@
       "needBuyToOpenNextInEraShip1": 5,
       "needBuyToOpenNextInEraShip2": 2,
       "needBuyToOpenNextInEraShip3": 5,
-      "needBuyToOpenNextInEraShip4": 1,
       "needBuyToOpenNextInEraHelicopter1": 0,
       "needBuyToOpenNextInEraHelicopter2": 0,
       "needBuyToOpenNextInEraHelicopter3": 0,
       "needBuyToOpenNextInEraHelicopter4": 0,
-      "needBuyToOpenNextInEraHelicopter5": 1
+      "needBuyToOpenNextInEraHelicopter5": 1,
+      "needBuyToOpenNextInEraHelicopter6": 1
     },
     "country_britain": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -223,8 +223,7 @@
       "needBuyToOpenNextInEraTank6": 4,
       "needBuyToOpenNextInEraShip1": 5,
       "needBuyToOpenNextInEraShip2": 2,
-      "needBuyToOpenNextInEraShip3": 5,
-      "needBuyToOpenNextInEraShip4": 1
+      "needBuyToOpenNextInEraShip3": 5
     },
     "country_japan": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -238,10 +237,10 @@
       "needBuyToOpenNextInEraTank4": 6,
       "needBuyToOpenNextInEraTank5": 2,
       "needBuyToOpenNextInEraTank6": 3,
-      "needBuyToOpenNextInEraShip1": 1,
-      "needBuyToOpenNextInEraShip2": 1,
-      "needBuyToOpenNextInEraShip3": 1,
-      "needBuyToOpenNextInEraShip4": 1
+      "needBuyToOpenNextInEraShip1": 5,
+      "needBuyToOpenNextInEraShip2": 2,
+      "needBuyToOpenNextInEraShip3": 4,
+      "needBuyToOpenNextInEraHelicopter6": 0
     },
     "country_italy": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -257,8 +256,7 @@
       "needBuyToOpenNextInEraTank6": 3,
       "needBuyToOpenNextInEraShip1": 1,
       "needBuyToOpenNextInEraShip2": 1,
-      "needBuyToOpenNextInEraShip3": 1,
-      "needBuyToOpenNextInEraShip4": 1
+      "needBuyToOpenNextInEraShip3": 1
     },
     "country_france": {
       "needBuyToOpenNextInEraAircraft1": 6,
@@ -271,15 +269,16 @@
       "needBuyToOpenNextInEraTank3": 6,
       "needBuyToOpenNextInEraTank4": 6,
       "needBuyToOpenNextInEraTank5": 4,
+      "needBuyToOpenNextInEraTank6": 4,
       "needBuyToOpenNextInEraShip1": 1,
       "needBuyToOpenNextInEraShip2": 1,
       "needBuyToOpenNextInEraShip3": 1,
-      "needBuyToOpenNextInEraShip4": 1,
       "needBuyToOpenNextInEraHelicopter1": 0,
       "needBuyToOpenNextInEraHelicopter2": 0,
       "needBuyToOpenNextInEraHelicopter3": 0,
       "needBuyToOpenNextInEraHelicopter4": 0,
-      "needBuyToOpenNextInEraHelicopter5": 1
+      "needBuyToOpenNextInEraHelicopter5": 1,
+      "needBuyToOpenNextInEraHelicopter6": 1
     }
   },
   "exp_for_playerRank": {

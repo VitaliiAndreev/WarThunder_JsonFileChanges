@@ -114,6 +114,9 @@
     "drowningCheckHeightMultiplier": 0.45
   },
   {
+    "rearmTimeOnField": 45.0
+  },
+  {
     "canReloadNonGuns": true
   },
   {
@@ -253,6 +256,13 @@
         "turret_01_bottom_dm": {
           "armorThickness": 9.0
         }
+      },
+      "sensor": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0,
+        "hp": 200.0,
+        "antenna_target_location_dm": [],
+        "antenna_target_tagging_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",
@@ -439,7 +449,7 @@
         },
         "cannon_breech_dm": {
           "armorThickness": 10.0,
-          "armorThrough": 450.0,
+          "armorThrough": 300.0,
           "hp": 150.0,
           "fireProtectionHp": 10.0
         },
@@ -1646,6 +1656,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "suspension": [
@@ -1788,6 +1807,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ]
     }
@@ -1842,12 +1870,12 @@
             "verDriveDm": "drive_turret_v_dm",
             "horDriveDm": "drive_turret_h_dm",
             "selfDirectedPart": {
-              "node": "bone_mg_aa_h",
+              "node": "antenna_target_tagging_mount",
               "limits": [-180.0,180.0],
               "turnSpeed": 80.0
             },
             "linkedAnimPart": {
-              "verNode": "bone_mg_aa_v",
+              "verNode": "antenna_target_tagging",
               "verLimits": [0.0,90.0],
               "verOriginLimits": [-0.0,85.0]
             }
@@ -2013,7 +2041,7 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-9.0,90.0]
+            "pitch": [-9.0,85.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": false,
@@ -2137,7 +2165,7 @@
           "ammoDpGenFmt": "ammo_turret_%02d_dm",
           "recoilMultiplier": 0.1,
           "stopForFire": true,
-          "maxSpeedForFire": 5.1,
+          "maxSpeedForFire": 0.1,
           "createGunEffects": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
@@ -2172,6 +2200,19 @@
             "pitch": [-0.0,85.0]
           }
         }
+      },
+      {
+        "animatedBones": [
+          {
+            "node": "antenna_target_location"
+          },
+          {
+            "node": "antenna_target_tagging"
+          },
+          {
+            "node": "antenna_target_tagging_mount"
+          }
+        ]
       }
     ]
   },
@@ -2187,18 +2228,18 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/1rl144_search.blk",
+          "blk": "gameData/sensors/su_1rl144_search.blk",
           "turretIndex": 0,
           "designationFromBody": true,
           "designationTurretIndex": 0,
-          "dmPart": "radar_dm"
+          "dmPart": "antenna_target_location_dm"
         }
       },
       {
         "sensor": {
-          "blk": "gameData/sensors/1rl144_track.blk",
+          "blk": "gameData/sensors/su_1rl144_track.blk",
           "turretIndex": 0,
-          "dmPart": "radar1_dm"
+          "dmPart": "antenna_target_tagging_dm"
         }
       }
     ]

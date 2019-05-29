@@ -2118,7 +2118,9 @@
         "superstructure_side_dm": {
           "armorThickness": 15.0
         },
-        "ex_armor_01_dm": []
+        "ex_armor_01_dm": [],
+        "ex_armor_l_01_dm": [],
+        "ex_armor_l_02_dm": []
       },
       "gun": {
         "armorClass": "tank_barrel",
@@ -2451,8 +2453,8 @@
         "cls_body_01": "convex_hull"
       },
       "engine": {
-        "horsePowers": 450.0,
-        "maxRPM": 1400.0,
+        "horsePowers": 500.0,
+        "maxRPM": 1445.0,
         "minRPM": 600.0
       },
       "mechanics": {
@@ -2477,7 +2479,7 @@
             "ratio": 1.45
           },
           {
-            "ratio": 0.756
+            "ratio": 0.78
           }
         ]
       },

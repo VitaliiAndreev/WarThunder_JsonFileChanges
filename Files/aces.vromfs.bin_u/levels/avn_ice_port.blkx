@@ -27,6 +27,7 @@
   "weatherTypes": "gameData/environments/weather_types_north_sea.blk",
   "heli_ground_effect": "snow",
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_winter",
   "average_ground_level": 100.0,
   "water_level": 0.0,

@@ -89,6 +89,9 @@
         },
         "armor7_dm": {
           "hp": 35.0
+        },
+        "armor9_dm": {
+          "hp": 0.4
         }
       },
       "armor_engine": {
@@ -273,11 +276,6 @@
         },
         "tank3_dm": {
           "hp": 39.5
-        }
-      },
-      "wood": {
-        "armor9_dm": {
-          "hp": 0.4
         }
       }
     }

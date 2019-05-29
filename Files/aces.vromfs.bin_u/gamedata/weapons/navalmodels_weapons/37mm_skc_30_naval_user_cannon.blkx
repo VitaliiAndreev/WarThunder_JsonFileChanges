@@ -20,10 +20,10 @@
   "fxType": "40mm_gun_flame",
   "shouldCollideWithRendinsts": true,
   "sound_path": "ships/weapon_ships/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "37mm_flakm42",
-  "sound_inside": "37mm_flakm42_interior",
   "soundLoop": false,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "notUseDefaultBulletInGui": true,
   "isBulletBelt": false,
   "bullet": {

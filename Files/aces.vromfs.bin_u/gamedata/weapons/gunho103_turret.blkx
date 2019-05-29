@@ -365,7 +365,7 @@
           "speed": 760.0,
           "Cx": 0.15,
           "traceColor": [0.0,0.0,0.0],
-          "bulletType": "ap_ball",
+          "bulletType": "ap_t",
           "effectiveDistance": 500.0,
           "relativeVelHitShift": [300.0,1000.0],
           "relativeVelArmorShift": [200.0,1000.0],
@@ -386,8 +386,8 @@
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
-            "traceFreq": 1,
-            "tracer": "noColor"
+            "tracer": "12mmBrightRed",
+            "trail": "thin"
           },
           "collisions": {
             "steel": {
@@ -457,7 +457,7 @@
           "speed": 760.0,
           "Cx": 0.15,
           "traceColor": [0.0,0.0,0.0],
-          "bulletType": "ap_ball",
+          "bulletType": "ap_t",
           "effectiveDistance": 500.0,
           "relativeVelHitShift": [300.0,1000.0],
           "relativeVelArmorShift": [200.0,1000.0],
@@ -478,8 +478,8 @@
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
-            "traceFreq": 1,
-            "tracer": "noColor"
+            "tracer": "12mmBrightRed",
+            "trail": "thin"
           },
           "collisions": {
             "steel": {
@@ -500,7 +500,7 @@
           "speed": 760.0,
           "Cx": 0.15,
           "traceColor": [0.0,0.0,0.0],
-          "bulletType": "ap_ball",
+          "bulletType": "ap_t",
           "effectiveDistance": 500.0,
           "relativeVelHitShift": [300.0,1000.0],
           "relativeVelArmorShift": [200.0,1000.0],
@@ -521,8 +521,8 @@
           },
           "visual": {
             "range_percent_of_ammo": [100.0,0.0],
-            "traceFreq": 1,
-            "tracer": "noColor"
+            "tracer": "12mmBrightRed",
+            "trail": "thin"
           },
           "collisions": {
             "steel": {
@@ -588,9 +588,9 @@
           "speed": 760.0,
           "Cx": 0.15,
           "maxDistance": 1500.0,
-          "bulletType": "he_i_ball",
+          "bulletType": "he_i",
           "hitPowerMult": 3.0,
-          "onHitChanceMultFire": 8.0,
+          "onHitChanceMultFire": 10.0,
           "effectiveDistance": 1500.0,
           "relativeVelHitShift": [300.0,1000.0],
           "explodeTreshold": 3.0,
@@ -636,6 +636,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "bereda-safat_127_gun_outside",
       "cockpit": "bereda-safat_127_gun_inside",
       "ai": "bereda-safat_127_gun_ai"

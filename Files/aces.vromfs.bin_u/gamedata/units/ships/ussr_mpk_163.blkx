@@ -1933,6 +1933,12 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0,
+        "gun_mask_01_dm": {
+          "hp": 100.0
+        }
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_STS",
         "armorThickness": 12.0,
@@ -3564,6 +3570,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -4517,5 +4524,41 @@
         "node": "radar_02"
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mpk_163"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_70_k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_90k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mpk_163_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mpk_122bis_deckhouse_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

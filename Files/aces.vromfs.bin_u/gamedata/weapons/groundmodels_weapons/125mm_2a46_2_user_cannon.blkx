@@ -808,6 +808,7 @@
       "bulletName": "125mm_9m_112",
       "caliber": 0.125,
       "sound_path": "tanks/weapon_tanks/atgm",
+      "sound_pathStudio": "ground/weapon/atgm",
       "sound": "atgm",
       "sound_inside": "atgm_interior",
       "sfxReloadBullet": "grd_cannon_reload_auto",
@@ -879,6 +880,14 @@
           "steel": {
             "fx": "cannon_hit_armor_cumulative",
             "fxScale": [3.0,4.0]
+          },
+          "buildings": {
+            "fx": "atgm_hit",
+            "fxScale": [1.7,2.1]
+          },
+          "wood": {
+            "fx": "atgm_hit",
+            "fxScale": [1.7,2.1]
           }
         },
         "armorpower": {

@@ -4,6 +4,7 @@
   "bullets": 1,
   "shotFreq": 1.0,
   "sound_path": "tanks/weapon_tanks/cannons",
+  "sound_pathStudio": "ground/weapon/cannons",
   "sound": "grenade_launcher",
   "sound_inside": "grenade_launcher_interior",
   "isBulletBelt": false,

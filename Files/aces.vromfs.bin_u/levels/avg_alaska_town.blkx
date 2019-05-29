@@ -93,6 +93,9 @@
     "soundAmbientPath": "sounds/ambient"
   },
   {
+    "soundAmbientPathStudio": "aircraft/ambient"
+  },
+  {
     "soundAmbientEvent": "global_amb_autumn"
   },
   {
@@ -134,7 +137,7 @@
   {
     "micro_details": [
       {
-        "micro_detail": "microdetail_stone_a_tex_n"
+        "micro_detail": "microdetail_concrete_a_tex_n"
       },
       {
         "micro_detail": "microdetail_scan_asphalt_tex_n"
@@ -1117,175 +1120,175 @@
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_a_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_a_middle_a_part_c": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_a_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_middle_a_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_middle_a_part_c": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_middle_b_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_middle_b_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_b_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_middle_a_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_middle_b_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_middle_b_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_c_top_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_d_middle_a_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_d_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_d_middle_b_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_d_middle_b_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_d_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_e_middle_a_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_e_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_e_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_f_middle_a_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_f_middle_a_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_f_middle_b_part_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_f_middle_b_part_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       },
       "alaska_town_building_f_top_a": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 450.0,
-        "lod3": 3000.0
+        "lod3": 10000.0
       }
     }
   },

@@ -23,10 +23,11 @@
   "fxMultipleSpawn": true,
   "fxScale": 1.0,
   "shouldCollideWithRendinsts": true,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "notUseDefaultBulletInGui": true,
   "isBulletBelt": false,
   "sound_path": "ships/weapon_ships/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "25mm_2m_3",
   "soundLoop": true,
   "bullet": {

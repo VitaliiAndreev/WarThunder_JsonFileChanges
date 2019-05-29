@@ -2095,7 +2095,10 @@
       "tracks": {
         "animationMultiplier": 0.71,
         "height": 0.06,
-        "width": 0.53
+        "width": 0.53,
+        "fricFrontal": [1.5,1.5],
+        "criticalHillAngle": 27.0,
+        "hillClimbingDeclineFricKoef": 15.0
       },
       "collisionProps": {
         "cls_turret_01": "convex_hull",
@@ -2112,7 +2115,7 @@
         "driveGearRadius": 0.33,
         "mainGearRatio": 3.05,
         "sideGearRatio": 2.2,
-        "neutralGearRatio": 3.0,
+        "neutralGearRatio": 15.0,
         "gearRatios": [
           {
             "ratio": -4.18

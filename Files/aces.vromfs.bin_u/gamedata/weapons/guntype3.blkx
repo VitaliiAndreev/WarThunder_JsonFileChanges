@@ -948,6 +948,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "type3_gun_outside",
       "cockpit": "type3_gun_inside",
       "ai": "type3_gun_ai"

@@ -76,7 +76,7 @@
       "maxDeltaAngle": 0.02
     },
     {
-      "maxDistance": 6500.0
+      "maxDistance": 8000.0
     },
     {
       "minDistance": 30.0
@@ -215,6 +215,15 @@
         "wood": {
           "fx": "atgm_hit",
           "fxScale": [4.0,4.2]
+        }
+      }
+    },
+    {
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
         }
       }
     },

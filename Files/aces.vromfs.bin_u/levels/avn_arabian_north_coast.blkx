@@ -33,6 +33,7 @@
   "lastclip_horizon": true,
   "vsmAngleThreshold": 20.0,
   "soundAmbientPath": "sounds/ambient",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb_desert",
   "windDir": [0.4,0.5],
   "puddlessPowerScale": 0.5,

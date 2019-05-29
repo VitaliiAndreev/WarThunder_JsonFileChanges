@@ -995,7 +995,7 @@
   },
   {
     "sound": {
-      "EngineName": "engine_panther",
+      "EngineName": "engine_type74",
       "TrackSoundPath": "tanks/engines_tanks",
       "TrackSoundPathStudio": "ground/engines",
       "TrackSoundName": "tracks",
@@ -1719,6 +1719,13 @@
           "armorThickness": 10.0
         }
       },
+      "sensor": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0,
+        "hp": 200.0,
+        "antenna_target_location_dm": [],
+        "antenna_target_tagging_dm": []
+      },
       "optics": {
         "armorClass": "optics_tank",
         "optic_turret_01_dm": {
@@ -2121,6 +2128,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ],
       "turret": [
@@ -2248,6 +2264,15 @@
             "kill": true,
             "killEffect": "fire"
           }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "generic",
+            "expl": 1.0,
+            "conditionDamage": 750.0,
+            "kill": true,
+            "killEffect": "fire"
+          }
         }
       ]
     }
@@ -2261,6 +2286,12 @@
           "emitter": "bone_gun_barrel_01",
           "flash": "emtr_gun_flame_01",
           "useEmitter": true,
+          "sleeveEmitter": "emtr_shell_01",
+          "sleeveMesh": "auto_cannon_cartridge_case",
+          "openHatchTime": 0.0,
+          "sleevesLifeTime": 5.0,
+          "sleeveImpulse": [1.0,-8.0,-4.0],
+          "linkSleeveToGun": true,
           "recoilMultiplier": 0.2,
           "recoilOffset": 0.045,
           "jammedReloadTime": 15.0,
@@ -2360,6 +2391,12 @@
           "emitter": "bone_gun_barrel_02",
           "flash": "emtr_gun_flame_02",
           "useEmitter": true,
+          "sleeveEmitter": "emtr_shell_02",
+          "sleeveMesh": "auto_cannon_cartridge_case",
+          "openHatchTime": 0.0,
+          "sleevesLifeTime": 5.0,
+          "sleeveImpulse": [1.0,-8.0,-4.0],
+          "linkSleeveToGun": true,
           "recoilMultiplier": 0.2,
           "recoilOffset": 0.045,
           "jammedReloadTime": 15.0,
@@ -2384,20 +2421,50 @@
           "errExplTime": 0.0,
           "reuseYawTrigger": 10,
           "reusePitchTrigger": 10,
-          "turret": {
-            "head": "bone_turret",
-            "gun": "bone_gun",
-            "barrel": "bone_gun_barrel_02",
-            "gunnerDm": "gunner_dm",
-            "loaderDm": "loader_02_dm",
-            "verDriveDm": "drive_turret_v_dm",
-            "horDriveDm": "drive_turret_h_dm",
-            "linkedAnimPart": {
-              "verNode": "bone_camera_gunner",
-              "verLimits": [-180.0,180.0],
-              "verOriginLimits": [-180.0,180.0]
+          "turret": [
+            {
+              "head": "bone_turret"
+            },
+            {
+              "gun": "bone_gun"
+            },
+            {
+              "barrel": "bone_gun_barrel_02"
+            },
+            {
+              "gunnerDm": "gunner_dm"
+            },
+            {
+              "loaderDm": "loader_02_dm"
+            },
+            {
+              "verDriveDm": "drive_turret_v_dm"
+            },
+            {
+              "horDriveDm": "drive_turret_h_dm"
+            },
+            {
+              "selfDirectedPart": {
+                "node": "antenna_target_tagging_mount",
+                "limits": [-180.0,180.0],
+                "turnSpeed": 80.0
+              }
+            },
+            {
+              "linkedAnimPart": {
+                "verNode": "antenna_target_tagging",
+                "verLimits": [0.0,90.0],
+                "verOriginLimits": [-0.0,85.0]
+              }
+            },
+            {
+              "linkedAnimPart": {
+                "verNode": "bone_camera_gunner",
+                "verLimits": [-180.0,180.0],
+                "verOriginLimits": [-180.0,180.0]
+              }
             }
-          },
+          ],
           "limits": {
             "yaw": [-180.0,180.0],
             "pitch": [-5.0,80.0]
@@ -2430,6 +2497,19 @@
             ]
           }
         }
+      },
+      {
+        "animatedBones": [
+          {
+            "node": "antenna_target_location"
+          },
+          {
+            "node": "antenna_target_tagging"
+          },
+          {
+            "node": "antenna_target_tagging_mount"
+          }
+        ]
       }
     ]
   },
@@ -2556,6 +2636,9 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_jp"
       },
+      "modern_tank_laser_rangefinder": {
+        "tier": 2
+      },
       "35mm_kda_HE": {
         "maxToRespawn": 1
       },
@@ -2579,6 +2662,12 @@
                 "emitter": "bone_gun_barrel_01",
                 "flash": "emtr_gun_flame_01",
                 "useEmitter": true,
+                "sleeveEmitter": "emtr_shell_01",
+                "sleeveMesh": "auto_cannon_cartridge_case",
+                "openHatchTime": 0.0,
+                "sleevesLifeTime": 5.0,
+                "sleeveImpulse": [1.0,-8.0,-4.0],
+                "linkSleeveToGun": true,
                 "recoilMultiplier": 0.2,
                 "recoilOffset": 0.045,
                 "jammedReloadTime": 15.0,
@@ -2678,6 +2767,12 @@
                 "emitter": "bone_gun_barrel_02",
                 "flash": "emtr_gun_flame_02",
                 "useEmitter": true,
+                "sleeveEmitter": "emtr_shell_02",
+                "sleeveMesh": "auto_cannon_cartridge_case",
+                "openHatchTime": 0.0,
+                "sleevesLifeTime": 5.0,
+                "sleeveImpulse": [1.0,-8.0,-4.0],
+                "linkSleeveToGun": true,
                 "recoilMultiplier": 0.2,
                 "recoilOffset": 0.045,
                 "jammedReloadTime": 15.0,
@@ -2702,20 +2797,50 @@
                 "errExplTime": 0.0,
                 "reuseYawTrigger": 10,
                 "reusePitchTrigger": 10,
-                "turret": {
-                  "head": "bone_turret",
-                  "gun": "bone_gun",
-                  "barrel": "bone_gun_barrel_02",
-                  "gunnerDm": "gunner_dm",
-                  "loaderDm": "loader_02_dm",
-                  "verDriveDm": "drive_turret_v_dm",
-                  "horDriveDm": "drive_turret_h_dm",
-                  "linkedAnimPart": {
-                    "verNode": "bone_camera_gunner",
-                    "verLimits": [-180.0,180.0],
-                    "verOriginLimits": [-180.0,180.0]
+                "turret": [
+                  {
+                    "head": "bone_turret"
+                  },
+                  {
+                    "gun": "bone_gun"
+                  },
+                  {
+                    "barrel": "bone_gun_barrel_02"
+                  },
+                  {
+                    "gunnerDm": "gunner_dm"
+                  },
+                  {
+                    "loaderDm": "loader_02_dm"
+                  },
+                  {
+                    "verDriveDm": "drive_turret_v_dm"
+                  },
+                  {
+                    "horDriveDm": "drive_turret_h_dm"
+                  },
+                  {
+                    "selfDirectedPart": {
+                      "node": "antenna_target_tagging_mount",
+                      "limits": [-180.0,180.0],
+                      "turnSpeed": 80.0
+                    }
+                  },
+                  {
+                    "linkedAnimPart": {
+                      "verNode": "antenna_target_tagging",
+                      "verLimits": [0.0,90.0],
+                      "verOriginLimits": [-0.0,85.0]
+                    }
+                  },
+                  {
+                    "linkedAnimPart": {
+                      "verNode": "bone_camera_gunner",
+                      "verLimits": [-180.0,180.0],
+                      "verOriginLimits": [-180.0,180.0]
+                    }
                   }
-                },
+                ],
                 "limits": {
                   "yaw": [-180.0,180.0],
                   "pitch": [-5.0,80.0]
@@ -2748,6 +2873,19 @@
                   ]
                 }
               }
+            },
+            {
+              "animatedBones": [
+                {
+                  "node": "antenna_target_location"
+                },
+                {
+                  "node": "antenna_target_tagging"
+                },
+                {
+                  "node": "antenna_target_tagging_mount"
+                }
+              ]
             },
             {
               "Weapon": [
@@ -2864,16 +3002,18 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/gepard_sr.blk",
+          "blk": "gameData/sensors/us_an_apg_66_m_247.blk",
           "turretIndex": 0,
-          "dmPart": "radar_dm"
+          "designationFromBody": true,
+          "designationTurretIndex": 0,
+          "dmPart": "antenna_target_location_dm"
         }
       },
       {
         "sensor": {
-          "blk": "gameData/sensors/gepard_fr.blk",
+          "blk": "gameData/sensors/de_gepard_fr.blk",
           "turretIndex": 0,
-          "dmPart": "radar1_dm"
+          "dmPart": "antenna_target_tagging_dm"
         }
       }
     ]

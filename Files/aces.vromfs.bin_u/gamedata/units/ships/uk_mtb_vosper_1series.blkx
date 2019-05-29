@@ -3876,6 +3876,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -4106,6 +4107,51 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "mast_03_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mtb_vosper_1series"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_b15*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_black_a26f*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_flat_darkgrey*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_honedgrey*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tt_533_fairmile_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk2a_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mtb_vosper_1series_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

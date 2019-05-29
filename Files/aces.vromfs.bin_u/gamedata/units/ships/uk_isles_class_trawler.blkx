@@ -1061,6 +1061,9 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0,
@@ -2879,7 +2882,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1940
           },
           {
             "allowableDelta": 2.0
@@ -3022,7 +3025,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1940
           },
           {
             "allowableDelta": 2.0
@@ -3160,7 +3163,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1940
           },
           {
             "allowableDelta": 2.0
@@ -3303,7 +3306,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 2000
+            "bullets": 1940
           },
           {
             "allowableDelta": 2.0
@@ -3432,6 +3435,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4190,13 +4194,19 @@
           "weaponTrigger": "gunner3"
         },
         {
+          "weaponTrigger": "gunner4"
+        },
+        {
+          "weaponTrigger": "gunner5"
+        },
+        {
           "shells": {
             "fatalFire": true,
             "fatalExplosion": true,
             "fireEvent": "ammo_fire_1",
             "explosionEvent": "ammo_explosion_1",
             "ammunition_storage_02_dm": {
-              "count": 3600
+              "count": 11360
             }
           }
         }
@@ -4383,6 +4393,47 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_armor_r_02_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "isles_class_trawler"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_b15*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_flatdarkgrey*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_102mm_mk5_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk2a_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "isles_class_trawler_hull_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "isles_class_trawler_deckhouse_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

@@ -1135,6 +1135,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -2414,10 +2415,10 @@
           "hp": 330.0
         },
         "transmission_01_dm": {
-          "hp": 177.0
+          "hp": 330.0
         },
         "transmission_02_dm": {
-          "hp": 177.0
+          "hp": 330.0
         }
       },
       "steering_gear": {
@@ -2439,10 +2440,7 @@
         "shatterDamageMult": 2.0,
         "fireParamsPreset": "ship_engine",
         "pump_01_dm": {
-          "hp": 70.0
-        },
-        "pump_02_dm": {
-          "hp": 70.0
+          "hp": 84.0
         }
       },
       "hull_armor": {
@@ -2484,12 +2482,6 @@
           "hp": 250.0
         },
         "turret_04_dm": {
-          "hp": 250.0
-        },
-        "turret_h_02_dm": {
-          "hp": 250.0
-        },
-        "turret_v_02_dm": {
           "hp": 250.0
         }
       },
@@ -2719,10 +2711,10 @@
       {
         "hideNodes": [
           {
-            "node": "turret_v_02"
+            "node": "auxiliary_caliber_turret_03"
           },
           {
-            "node": "turret_h_02"
+            "node": "auxiliary_caliber_gun_03"
           }
         ]
       },
@@ -3297,6 +3289,46 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "cls_turret_03"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "rboot_r130"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_lichtgrau*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_sboat_white*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_schlickgrau58*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_flak_m42_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_sockellafette30_c30_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rboot_r130_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

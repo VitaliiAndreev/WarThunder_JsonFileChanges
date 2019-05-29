@@ -42,6 +42,13 @@
     "shutterDamageRadius": 120.0,
     "shutterAmount": 3000,
     "shutterArmorPower": 15.0,
-    "shutterHit": 15.0
+    "shutterHit": 15.0,
+    "DamageParts": {
+      "body": {
+        "hp": 35.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 1.0
+      }
+    }
   }
 }

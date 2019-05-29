@@ -46,6 +46,7 @@
   },
   "sound": {
     "path": "sounds/engines",
+    "pathStudio": "aircraft/engines",
     "engine": "boat"
   }
 }

@@ -21,12 +21,12 @@
   "attackMaxDist": 4000.0,
   "notUseDefaultBulletInGui": true,
   "sound_path": "ships/weapon_ships/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "40mm_l70_bofors_mel_58",
-  "sound_inside": "40mm_l70_bofors_mel_58_interior",
   "fxType": "40mm_gun_flame",
   "fxMultipleSpawn": true,
   "shouldCollideWithRendinsts": true,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "isBulletBelt": false,
   "bullet": [
     {

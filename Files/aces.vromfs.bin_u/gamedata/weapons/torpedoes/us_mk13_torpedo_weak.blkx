@@ -20,7 +20,7 @@
     "startSpeed": 0.0,
     "caliber": 0.36,
     "mass": 834.0,
-    "dragCx": 0.26,
+    "dragCx": 0.01,
     "startPropulsionDelay": 0.1,
     "autoaimEnabled": false,
     "aaMaxAimAngle": 0.0,
@@ -45,6 +45,13 @@
       "dropSpeedRange": [0.0,110.0],
       "dropHeightRange": [0.0,150.0],
       "dropAngleRange": [-40.0,40.0]
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0
+      }
     }
   }
 }

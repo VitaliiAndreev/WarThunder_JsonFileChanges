@@ -3057,7 +3057,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 1940
+            "bullets": 2000
           },
           {
             "allowableDelta": 2.0
@@ -3195,7 +3195,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 1940
+            "bullets": 2000
           },
           {
             "allowableDelta": 2.0
@@ -3333,7 +3333,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 1940
+            "bullets": 2000
           },
           {
             "allowableDelta": 2.0
@@ -3471,7 +3471,7 @@
             "speedPitch": 75.0
           },
           {
-            "bullets": 1940
+            "bullets": 2000
           },
           {
             "allowableDelta": 2.0
@@ -3595,6 +3595,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4328,7 +4329,7 @@
             "fireEvent": "ammo_fire_1",
             "explosionEvent": "ammo_explosion_1",
             "ammunition_storage_01_dm": {
-              "count": 8960
+              "count": 9200
             }
           }
         }
@@ -4521,6 +4522,47 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_12_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "fairmile_c"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_b15*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_g45*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_2pdr_rolls_royce_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk15_vickers_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk5_twin_vickers_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "fairmile_c_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

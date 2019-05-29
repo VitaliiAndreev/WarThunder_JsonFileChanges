@@ -359,6 +359,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "m134_gun_outside",
       "cockpit": "m134_gun_inside",
       "ai": "m134_gun_ai"

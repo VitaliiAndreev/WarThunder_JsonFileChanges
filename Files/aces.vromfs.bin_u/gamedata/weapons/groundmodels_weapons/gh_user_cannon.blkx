@@ -19,6 +19,7 @@
   "fxType": "gunpowder_gun_flame",
   "shouldCollideWithRendinsts": true,
   "sound_path": "sounds/guns",
+  "sound_pathStudio": "aircraft/weapon",
   "sound": "old_ship_fire",
   "sound_inside": "old_ship_fire",
   "sfxReloadBullet": "old_ship_reload",

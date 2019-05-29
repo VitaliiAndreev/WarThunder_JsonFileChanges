@@ -69,7 +69,7 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
     "isBulletBelt": false
@@ -79,6 +79,9 @@
   },
   {
     "sound_path": "ships/weapon_ships/mguns"
+  },
+  {
+    "sound_pathStudio": "naval/weapon/mguns"
   },
   {
     "sound": "13mm_vickers_mkv"

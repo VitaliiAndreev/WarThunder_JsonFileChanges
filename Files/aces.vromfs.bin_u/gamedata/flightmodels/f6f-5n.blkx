@@ -137,9 +137,12 @@
     "cockpit": {
       "headPos": [-1.275,1.136,0.0],
       "headPosOnShooting": [-1.2,1.136,0.0],
-      "lightPos": [-0.579707,0.819729,-0.319955],
-      "lightColor": [0.62,0.3,0.21],
-      "lightAttenuation": 15.0,
+      "lightPos": [-0.514297,0.785776,0.046028],
+      "lightColor": [0.0,0.25,0.11],
+      "lightRadius": 0.3,
+      "lightPos1": [-0.52218,0.666649,-0.229296],
+      "lightColor1": [0.0,0.1,0.11],
+      "lightRadius1": 0.3,
       "devices": {
         "speed": [0.0,250.0],
         "pedals1": [-1.0,1.0],
@@ -386,6 +389,9 @@
         },
         "mgun4_dm": {
           "hp": 15.0
+        },
+        "radar_dm": {
+          "hp": 15.0
         }
       },
       "armor3": {
@@ -505,6 +511,9 @@
         },
         "cover3_dm": {
           "hp": 19.5
+        },
+        "cover4_dm": {
+          "hp": 19.5
         }
       },
       "dural40": {
@@ -583,6 +592,11 @@
   },
   {
     "DamageEffects": [
+      {
+        "part": {
+          "name": "radar_dm"
+        }
+      },
       {
         "part": [
           {
@@ -2425,6 +2439,14 @@
         ]
       }
     ]
+  },
+  {
+    "sensors": {
+      "sensor": {
+        "blk": "gameData/sensors/us_an_aps_6.blk",
+        "dmPart": "radar_dm"
+      }
+    }
   },
   {
     "modifications": {

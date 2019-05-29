@@ -951,6 +951,9 @@
           "hp": 250.0
         }
       },
+      "gun_masks": {
+        "armorThickness": 5.0
+      },
       "turrets_main_caliber": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 15.0,
@@ -1075,6 +1078,9 @@
           "hp": 800.0
         },
         "ammunition_storage_02_dm": {
+          "hp": 800.0
+        },
+        "ammunition_storage_03_dm": {
           "hp": 800.0
         }
       },
@@ -3007,6 +3013,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3790,7 +3797,26 @@
             "count": 100
           }
         }
-      }
+      },
+      "ammo3": [
+        {
+          "weaponTrigger": "gunner2"
+        },
+        {
+          "weaponTrigger": "gunner3"
+        },
+        {
+          "shells": {
+            "fatalFire": false,
+            "fatalExplosion": false,
+            "fireEvent": "ammo_fire_2",
+            "explosionEvent": "ammo_explosion_2",
+            "ammunition_storage_03_dm": {
+              "count": 9600
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -3893,6 +3919,41 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "mast_01_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "tucumcari_pgh2"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_darkgrey_5d*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_navygrey_5*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_tucumcari_twin_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk3_bofors_mod1_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "tucumcari_pgh2_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

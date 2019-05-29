@@ -47,6 +47,7 @@
   {
     "bullet": {
       "mass": 0.199,
+      "recoilMultiplier": 0.4,
       "caliber": 0.023,
       "speed": 690.0,
       "maxDistance": 2500.0,
@@ -91,6 +92,7 @@
   {
     "bullet": {
       "mass": 0.196,
+      "recoilMultiplier": 0.4,
       "caliber": 0.023,
       "speed": 690.0,
       "maxDistance": 2500.0,
@@ -151,6 +153,7 @@
       {
         "bullet": {
           "mass": 0.199,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 610.0,
           "maxDistance": 2500.0,
@@ -195,6 +198,7 @@
       {
         "bullet": {
           "mass": 0.199,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 610.0,
           "maxDistance": 2500.0,
@@ -239,6 +243,7 @@
       {
         "bullet": {
           "mass": 0.199,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 610.0,
           "maxDistance": 2500.0,
@@ -283,6 +288,7 @@
       {
         "bullet": {
           "mass": 0.196,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 690.0,
           "maxDistance": 2500.0,
@@ -345,6 +351,7 @@
       {
         "bullet": {
           "mass": 0.196,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 690.0,
           "maxDistance": 2500.0,
@@ -403,6 +410,7 @@
       {
         "bullet": {
           "mass": 0.196,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 690.0,
           "maxDistance": 2500.0,
@@ -461,6 +469,7 @@
       {
         "bullet": {
           "mass": 0.196,
+          "recoilMultiplier": 0.4,
           "caliber": 0.023,
           "speed": 690.0,
           "maxDistance": 2500.0,
@@ -534,6 +543,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "vya23_gun_outside",
       "cockpit": "vya23_gun_inside",
       "ai": "vya23_gun_ai"

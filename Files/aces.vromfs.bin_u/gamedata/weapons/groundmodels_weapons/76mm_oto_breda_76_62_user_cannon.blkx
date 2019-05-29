@@ -35,7 +35,7 @@
     "caliber": 0.076,
     "speed": 910.0,
     "maxDistance": 10000.0,
-    "bulletType": "aphe_tank",
+    "bulletType": "sap_hei_tank",
     "bulletName": "76mm_sapom_sap",
     "relativeVelHitShift": [300.0,1000.0],
     "relativeVelArmorShift": [200.0,1000.0],
@@ -179,7 +179,7 @@
       "caliber": 0.076,
       "speed": 910.0,
       "maxDistance": 10000.0,
-      "bulletType": "aphe_tank",
+      "bulletType": "sap_hei_tank",
       "bulletName": "76mm_sapom_sap",
       "relativeVelHitShift": [300.0,1000.0],
       "relativeVelArmorShift": [200.0,1000.0],
@@ -359,7 +359,8 @@
         "armDistance": 500.0,
         "detectAirUnits": true,
         "detectGroundUnits": false,
-        "detectGround": false
+        "detectGround": false,
+        "detectShells": true
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],

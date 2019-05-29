@@ -2214,6 +2214,7 @@
   },
   "Sound": {
     "turretTurnSfxPath": "sounds/effects",
+    "turretTurnSfxPathStudio": "aircraft/effects",
     "turretTurnSfxName": "gun_turn_manual",
     "Engine": "engine11",
     "gun": "gun_default"
@@ -2517,6 +2518,7 @@
     "hp_105": [],
     "new_radiator": [],
     "new_compressor": [],
+    "new_engine_injection": [],
     "hispano_universal": [],
     "hispano_ground_targets": [],
     "hispano_tracers": [],

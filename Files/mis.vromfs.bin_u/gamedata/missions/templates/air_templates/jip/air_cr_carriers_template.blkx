@@ -2678,7 +2678,7 @@
               "extendedEnding": true,
               "team": "A",
               "unit_or_area": "@cr_t1_carrier_name",
-              "unit_type": "any"
+              "object_type": "any"
             }
           },
           {
@@ -2737,7 +2737,7 @@
               "extendedEnding": true,
               "team": "B",
               "unit_or_area": "@cr_t2_carrier_name",
-              "unit_type": "any"
+              "object_type": "any"
             }
           },
           {

@@ -89,14 +89,15 @@
             "object_var_comp_op": "equal",
             "object_var_value": 0,
             "object": "ct_all_convoys_squad",
+            "accuracy": 0.1,
+            "effShootingRate": 0.1,
+            "airEffShootingRate": 0.1,
             "moveSpeedKAtShooting": 0.5,
             "slowWhenEnemyNear": 0.5,
             "slowWhenEnemyNearDistance": 2500.0,
             "minDistBetween": 40.0,
             "ignoresObstaclesAfterTime": true,
-            "accuracy": 0.1,
-            "effShootingRate": 0.1,
-            "airEffShootingRate": 0.1,
+            "allowOvertakeMode": true,
             "fireRandom": true,
             "targetChangeInterval": 5.0,
             "targetChangeProb": 0.25
@@ -4793,7 +4794,7 @@
               "status": 1,
               "team": "B",
               "unit_or_area": "@ct_t1_objective_update_convoy_name",
-              "unit_type": "any"
+              "object_type": "any"
             },
             "comment": {
               "value": ""
@@ -4971,7 +4972,7 @@
               "status": 1,
               "team": "B",
               "unit_or_area": "@ct_t2_objective_update_convoy_name",
-              "unit_type": "any"
+              "object_type": "any"
             },
             "comment": {
               "value": ""
@@ -5011,7 +5012,7 @@
               "status": 1,
               "team": "A",
               "unit_or_area": "@ct_t2_objective_update_convoy_name",
-              "unit_type": "any"
+              "object_type": "any"
             },
             "comment": {
               "value": ""

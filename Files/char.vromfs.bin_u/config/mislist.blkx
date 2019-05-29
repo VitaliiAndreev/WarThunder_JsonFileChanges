@@ -2,52 +2,10 @@
   "skirmish": {
     "test": [
       {
-        "m": "mozdok_avg_AfD"
+        "m": "stalingrad_w_I2M"
       },
       {
-        "m": "arcade_asia_4roads_GSn"
-      },
-      {
-        "m": "africa_canyon_HS"
-      },
-      {
-        "m": "africa_seashore_HS"
-      },
-      {
-        "m": "fjords_HS"
-      },
-      {
-        "m": "mediterranean_HS"
-      },
-      {
-        "m": "rice_terraces_HS"
-      },
-      {
-        "m": "zhang_park_HS"
-      },
-      {
-        "m": "africa_canyon_HfD"
-      },
-      {
-        "m": "africa_seashore_HfD"
-      },
-      {
-        "m": "fjords_HfD"
-      },
-      {
-        "m": "vietnam_HS"
-      },
-      {
-        "m": "afganistan_HS"
-      },
-      {
-        "m": "air_vietnam_H2M"
-      },
-      {
-        "m": "air_vietnam_I2M"
-      },
-      {
-        "m": "future_city_UDom"
+        "m": "volcanic_islands_NDom"
       }
     ],
     "tournament": [
@@ -118,9 +76,6 @@
       },
       {
         "m": "africa_gulf_NBttl"
-      },
-      {
-        "m": "future_city_proto_AfD"
       },
       {
         "m": "coral_islands_NBttl"
@@ -884,6 +839,9 @@
       },
       {
         "m": "ladoga_43_BfD_norespawn"
+      },
+      {
+        "m": "air_smolensk_BfD_norespawn"
       }
     ],
     "event": [
@@ -1040,6 +998,9 @@
       },
       {
         "m": "vietnam_AfD"
+      },
+      {
+        "m": "air_smolensk_AfD"
       }
     ],
     "ground_strike": [
@@ -1263,6 +1224,9 @@
       },
       {
         "m": "air_afghan_AD"
+      },
+      {
+        "m": "air_smolensk_AD"
       }
     ],
     "duel": [
@@ -1368,6 +1332,15 @@
       },
       {
         "m": "fiji_newbie_NDom"
+      },
+      {
+        "m": "alps_fjord_newbie_NDom"
+      },
+      {
+        "m": "blacksea_port_newbie_NDom"
+      },
+      {
+        "m": "fuego_islands_newbie_NDom"
       },
       {
         "m": "blacksea_port_NDom"

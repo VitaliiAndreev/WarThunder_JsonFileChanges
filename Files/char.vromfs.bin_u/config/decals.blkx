@@ -5404,6 +5404,20 @@
     "unlock": "jp_tohatsu_9th_sensha_rentai_saipan",
     "hideUntilUnlocked": true
   },
+  "822": {
+    "category": "japan_ships",
+    "costGold": -1,
+    "aspect_ratio": 2.0,
+    "hideUntilUnlocked": true,
+    "unlock": "jp_pg02_decals_unlock"
+  },
+  "pg02": {
+    "category": "japan_ships",
+    "costGold": -1,
+    "aspect_ratio": 2.0,
+    "hideUntilUnlocked": true,
+    "unlock": "jp_pg02_decals_unlock"
+  },
   "back_01": {
     "category": "common",
     "costGold": 200,

@@ -2224,6 +2224,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3109,5 +3110,17 @@
         }
       }
     ]
+  },
+  {
+    "user_skin": {
+      "name": "pt6",
+      "replace_tex": {
+        "from": "camo_navygrey_5*"
+      },
+      "set_tex": {
+        "from": "pt6_c*",
+        "param": "camo_skin_tex"
+      }
+    }
   }
 ]

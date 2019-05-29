@@ -876,13 +876,13 @@
         {
           "moAddMissionObjective": {
             "target": "t1_krymsk_stanica_BfD_norespawn_main",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         },
         {
           "moAddMissionObjective": {
             "target": "t2_krymsk_stanica_BfD_norespawn_main",
-            "unit_type": "isAlive"
+            "object_type": "isAlive"
           }
         }
       ],

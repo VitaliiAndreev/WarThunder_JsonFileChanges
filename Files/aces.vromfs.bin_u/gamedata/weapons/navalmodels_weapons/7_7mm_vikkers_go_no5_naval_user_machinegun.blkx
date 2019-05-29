@@ -66,16 +66,16 @@
     "shouldCollideWithRendinsts": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
     "sound_path": "ships/weapon_common/mguns"
   },
   {
-    "sound": "8mm_vickers303"
+    "sound_pathStudio": "naval/weapon/mguns"
   },
   {
-    "sound_inside": "8mm_vickers303_interior"
+    "sound": "8mm_vickers303"
   },
   {
     "soundLoop": true

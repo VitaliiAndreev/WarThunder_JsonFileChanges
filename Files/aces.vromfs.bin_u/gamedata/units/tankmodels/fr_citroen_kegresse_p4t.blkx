@@ -612,7 +612,7 @@
       },
       "chassis_front": {
         "hp": 250.0,
-        "armorThickness": 2.0,
+        "armorThickness": 10.0,
         "armorClass": "car_wheels",
         "wheel_l_01_dm": [],
         "wheel_r_01_dm": []
@@ -2998,7 +2998,7 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_fr"
       },
-      "13mm_type93_universal": []
+      "13mm_hotckiss_AP": []
     }
   },
   {

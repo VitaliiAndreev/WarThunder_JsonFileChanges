@@ -14,7 +14,6 @@
       "army": 2
     },
     "mission": {
-      "locName": "missions/testSail",
       "name": "testFlight_ship_destroyer_jp",
       "level": "levels/avn_fiji.bin",
       "type": "testFlight",
@@ -26,6 +25,7 @@
       "missionDebriefing": "",
       "missionBriefing": "",
       "windDirection": [1.0,0.0,0.0],
+      "locName": "missions/testSail",
       "tags": [],
       "missionType": {
         "_Dom": false,
@@ -594,7 +594,7 @@
           [0.981721,0.0,-0.190324],
           [-1300.0,0.0,4332.91]
         ],
-        "unit_class": "germ_cruiser_koln",
+        "unit_class": "us_cruiser_omaha_class_trenton",
         "objLayer": 1,
         "closed_waypoints": false,
         "isShipSpline": false,

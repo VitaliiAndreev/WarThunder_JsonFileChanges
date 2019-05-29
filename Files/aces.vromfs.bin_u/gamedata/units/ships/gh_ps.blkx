@@ -1805,10 +1805,12 @@
   "sound": {
     "engine": "",
     "TrackSoundPath": "sounds/engines",
+    "TrackSoundPathStudio": "aircraft/engines",
     "TrackSoundName": "old_ship",
     "TrackSoundNameCockpit": "old_ship",
     "TrackSoundNameAi": "old_ship",
     "ineffectiveSailsPath": "sounds/effects",
+    "ineffectiveSailsPathStudio": "aircraft/effects",
     "ineffectiveSailsEvent": "old_ship_sails",
     "dialog_events": {
       "onDrive": "sh_com_01",

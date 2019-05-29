@@ -145,6 +145,9 @@
         },
         "turret_06_top_dm": {
           "armorThickness": 45.0
+        },
+        "turret_08_back_dm": {
+          "armorThickness": 30.0
         }
       },
       "hull_turret_cha": {

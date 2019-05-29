@@ -2679,9 +2679,9 @@
     "emtr_break_wing_tail": [-3.40845,0.0,0.0],
     "partKindTail": 5,
     "finCut": true,
-    "emtr_break_stab_l_from": [-4.53339,1.10962,0.397609],
+    "emtr_break_stab_l_from": [-4.53339,1.10962,0.897609],
     "emtr_break_stab_l_to": [-4.53339,1.10962,1.59044],
-    "emtr_break_stab_r_from": [-4.53339,1.10962,-0.39933],
+    "emtr_break_stab_r_from": [-4.53339,1.10962,-0.89933],
     "emtr_break_stab_r_to": [-4.53339,1.10962,-1.59732],
     "emtr_break_tail_from": [-1.46719,-0.0272998,0.000789285],
     "emtr_break_tail_to": [-4.04175,-0.0272998,0.000789285]

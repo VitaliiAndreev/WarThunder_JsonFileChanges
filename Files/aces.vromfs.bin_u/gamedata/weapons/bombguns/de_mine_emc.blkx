@@ -36,6 +36,13 @@
       "hp": 50.0,
       "armorClass": "ship_structural_steel",
       "armorThickness": 4.0
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 50.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 4.0
+      }
     }
   }
 }

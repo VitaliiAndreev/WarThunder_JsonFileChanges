@@ -2228,7 +2228,7 @@
           "flash": "flare4",
           "shell": "emtr_shellrejection1",
           "dm": "mgun3_dm",
-          "bullets": 500,
+          "bullets": 1000,
           "light": true,
           "spread": 1.2
         }
@@ -2267,7 +2267,7 @@
           "emitter": "flare7",
           "flash": "flare7",
           "dm": "mgun4_dm",
-          "bullets": 500,
+          "bullets": 1000,
           "light": true,
           "traceOffset": 1,
           "spread": 1.2

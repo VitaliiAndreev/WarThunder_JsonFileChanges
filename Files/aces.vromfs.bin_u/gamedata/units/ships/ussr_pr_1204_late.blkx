@@ -1755,13 +1755,20 @@
         "armorThickness": 15.0,
         "turret_01_top_dm": {
           "armorClass": "ship_RHA",
-          "armorThickness": 10.0,
+          "armorThickness": 6.0,
           "hp": 250.0
         },
         "turret_01_side_dm": {
           "armorClass": "ship_RHA",
-          "armorThickness": 10.0,
+          "armorThickness": 15.0,
           "hp": 250.0
+        }
+      },
+      "gun_masks": {
+        "armorThickness": 15.0,
+        "armorClass": "ship_RHA",
+        "gun_mask_01_dm": {
+          "hp": 197.0
         }
       },
       "turrets_main_caliber": {
@@ -1829,7 +1836,7 @@
         "explosionDamageMult": 0.5,
         "secondaryShatterDamageMult": 0.01,
         "main_caliber_gun_01_dm": {
-          "hp": 171.0
+          "hp": 159.0
         }
       },
       "gun_aux_caliber": {
@@ -2223,6 +2230,9 @@
             "errExplTime": 0.0
           },
           {
+            "useGunnerTargetingQuality": false
+          },
+          {
             "turret": {
               "head": "main_caliber_turret_01",
               "gun": "main_caliber_gun_01",
@@ -2307,7 +2317,7 @@
             "speedPitch": 70.0
           },
           {
-            "bullets": 2500
+            "bullets": 1950
           },
           {
             "allowableDelta": 2.0
@@ -2455,7 +2465,7 @@
             "speedPitch": 70.0
           },
           {
-            "bullets": 2500
+            "bullets": 1950
           },
           {
             "allowableDelta": 2.0
@@ -3048,6 +3058,7 @@
       "EngineName": "engine_ctr01",
       "EngineNameAi": "engine_ctr_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_ctr",
       "TrackSoundNameCockpit": "tracks_ctr_interior",
       "TrackSoundNameAi": "tracks_ai_ctr"
@@ -3847,7 +3858,7 @@
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
           "ammunition_storage_02_dm": {
-            "count": 5000
+            "count": 3900
           }
         }
       }
@@ -3974,5 +3985,52 @@
         "node": "radar_01"
       }
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "pr_1204_late"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_ironoxide*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "rocket_launcher_bm_1417_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_2m3m_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_76mm_pt76b_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "pr_1204_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "pr_1204_late_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

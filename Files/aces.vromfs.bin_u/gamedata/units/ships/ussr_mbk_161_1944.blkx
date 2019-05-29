@@ -1871,22 +1871,22 @@
         },
         "turret_01_dm": {
           "armorClass": "CHA_tank",
-          "armorThickness": 45.0,
+          "armorThickness": 53.0,
           "hp": 250.0
         },
         "turret_02_dm": {
           "armorClass": "CHA_tank",
-          "armorThickness": 45.0,
+          "armorThickness": 53.0,
           "hp": 250.0
         },
         "turret_01_top_dm": {
           "armorClass": "CHA_tank",
-          "armorThickness": 20.0,
+          "armorThickness": 15.0,
           "hp": 250.0
         },
         "turret_02_top_dm": {
           "armorClass": "CHA_tank",
-          "armorThickness": 20.0,
+          "armorThickness": 15.0,
           "hp": 250.0
         }
       },
@@ -1949,12 +1949,12 @@
       },
       "gun_masks": {
         "armorThickness": 45.0,
-        "armorClass": "CHA_tank",
+        "armorClass": "RHA_tank",
         "gun_mask_01_dm": {
-          "hp": 100.0
+          "hp": 215.0
         },
         "gun_mask_02_dm": {
-          "hp": 100.0
+          "hp": 215.0
         }
       },
       "gun_barrels": {
@@ -3160,6 +3160,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4126,6 +4127,59 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "auxiliary_caliber_gun_03_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "mbk_161_1944"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_ironoxide*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_70_k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_dshk_highmount_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_open_21k_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_t34_76_1941_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_t34_76_1943_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "mbk_161_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

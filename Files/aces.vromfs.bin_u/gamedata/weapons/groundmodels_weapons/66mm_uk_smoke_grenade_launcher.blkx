@@ -18,7 +18,7 @@
   "rocket": {
     "bulletType": "smoke_grenade_tank",
     "bulletName": "76mm_smoke_grenade",
-    "caliber": 0.082,
+    "caliber": 0.066,
     "mass": 2.5,
     "massEnd": 2.5,
     "maxDeltaAngle": 20.0,

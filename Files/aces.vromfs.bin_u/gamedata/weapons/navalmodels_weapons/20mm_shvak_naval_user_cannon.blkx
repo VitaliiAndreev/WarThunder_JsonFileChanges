@@ -84,16 +84,16 @@
     "sound_path": "tanks/weapon_tanks/cannons"
   },
   {
-    "sound": "20mm_tnsh"
+    "sound_pathStudio": "naval/weapon/cannons"
   },
   {
-    "sound_inside": "20mm_tnsh_interior"
+    "sound": "20mm_tnsh"
   },
   {
     "soundLoop": true
   },
   {
-    "sfxReloadBullet": "grd_cannon_belt_reload"
+    "sfxReloadBullet": "naval_gun_reload"
   },
   {
     "bullet": {

@@ -124,184 +124,394 @@
       }
     },
     {
-      "tankModels": {
-        "name": "target_tank01",
-        "tm": [
-          [-0.906308,0.0,0.422618],
-          [0.0,1.0,0.0],
-          [-0.422618,0.0,-0.906308],
-          [2046.37,216.918,2337.7]
-        ],
-        "unit_class": "germ_leopard_I_a1",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank01"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.906308,0.0,0.422618],
+            [0.0,1.0,0.0],
+            [-0.422618,0.0,-0.906308],
+            [2046.37,216.918,2337.7]
+          ]
+        },
+        {
+          "unit_class": "germ_leopard_I_a1"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
-      "tankModels": {
-        "name": "target_tank02",
-        "tm": [
-          [-0.906308,0.0,0.422618],
-          [0.0,1.0,0.0],
-          [-0.422618,0.0,-0.906308],
-          [2095.99,216.918,2341.14]
-        ],
-        "unit_class": "uk_centurion_mk_10",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank02"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.906308,0.0,0.422618],
+            [0.0,1.0,0.0],
+            [-0.422618,0.0,-0.906308],
+            [2095.99,216.918,2341.14]
+          ]
+        },
+        {
+          "unit_class": "uk_centurion_mk_10"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
-      "tankModels": {
-        "name": "target_tank03",
-        "tm": [
-          [-0.906308,0.0,0.422618],
-          [0.0,1.0,0.0],
-          [-0.422618,0.0,-0.906308],
-          [2145.95,216.918,2351.48]
-        ],
-        "unit_class": "us_m60a1_rise_passive_era",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank03"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.906308,0.0,0.422618],
+            [0.0,1.0,0.0],
+            [-0.422618,0.0,-0.906308],
+            [2145.95,216.918,2351.48]
+          ]
+        },
+        {
+          "unit_class": "us_m60a1_rise_passive_era"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
-      "tankModels": {
-        "name": "target_tank05",
-        "tm": [
-          [-0.906308,0.0,0.422618],
-          [0.0,1.0,0.0],
-          [-0.422618,0.0,-0.906308],
-          [2221.47,247.209,2368.38]
-        ],
-        "unit_class": "us_mbt_70",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank05"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.906308,0.0,0.422618],
+            [0.0,1.0,0.0],
+            [-0.422618,0.0,-0.906308],
+            [2221.47,247.209,2368.38]
+          ]
+        },
+        {
+          "unit_class": "us_mbt_70"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
-      "tankModels": {
-        "name": "target_tank06",
-        "tm": [
-          [0.0871558,0.0,0.996195],
-          [0.0,1.0,0.0],
-          [-0.996195,0.0,0.0871558],
-          [2320.9,215.417,2137.43]
-        ],
-        "unit_class": "jp_type_87",
-        "objLayer": 1,
-        "closed_waypoints": true,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank06"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [0.0871558,0.0,0.996195],
+            [0.0,1.0,0.0],
+            [-0.996195,0.0,0.0871558],
+            [2320.9,215.417,2137.43]
+          ]
+        },
+        {
+          "unit_class": "us_m3_bradley"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": true
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
       "squad": {
@@ -313,6 +523,9 @@
           [2182.11,236.141,1045.65]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "target_tank01"
           },
@@ -338,76 +551,160 @@
       }
     },
     {
-      "tankModels": {
-        "name": "target_tank04",
-        "tm": [
-          [-0.906308,0.0,0.422618],
-          [0.0,1.0,0.0],
-          [-0.422618,0.0,-0.906308],
-          [2207.38,216.918,2350.88]
-        ],
-        "unit_class": "uk_chieftain_mk_10",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank04"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.906308,0.0,0.422618],
+            [0.0,1.0,0.0],
+            [-0.422618,0.0,-0.906308],
+            [2207.38,216.918,2350.88]
+          ]
+        },
+        {
+          "unit_class": "uk_chieftain_mk_10"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
-      "tankModels": {
-        "name": "target_tank07",
-        "tm": [
-          [-0.731747,0.0,0.681577],
-          [0.0,1.0,0.0],
-          [-0.681577,0.0,-0.731747],
-          [2257.93,276.294,2371.94]
-        ],
-        "unit_class": "us_m1_abrams",
-        "objLayer": 1,
-        "closed_waypoints": false,
-        "isShipSpline": false,
-        "shipTurnRadius": 100.0,
-        "weapons": "",
-        "bullets0": "",
-        "bullets1": "",
-        "bullets2": "",
-        "bullets3": "",
-        "bulletsCount0": 100,
-        "bulletsCount1": 0,
-        "bulletsCount2": 0,
-        "bulletsCount3": 0,
-        "props": {
-          "army": 2,
-          "count": 1,
-          "formation_type": "rows",
-          "formation_div": 3,
-          "formation_step": [2.5,2.0],
-          "formation_noise": [0.1,0.1],
-          "uniqueName": "",
-          "attack_type": "fire_at_will"
+      "tankModels": [
+        {
+          "name": "target_tank07"
         },
-        "way": []
-      }
+        {
+          "tm": [
+            [-0.731747,0.0,0.681577],
+            [0.0,1.0,0.0],
+            [-0.681577,0.0,-0.731747],
+            [2257.93,276.294,2371.94]
+          ]
+        },
+        {
+          "unit_class": "us_m1_abrams"
+        },
+        {
+          "objLayer": 1
+        },
+        {
+          "closed_waypoints": false
+        },
+        {
+          "isShipSpline": false
+        },
+        {
+          "shipTurnRadius": 100.0
+        },
+        {
+          "weapons": ""
+        },
+        {
+          "bullets0": ""
+        },
+        {
+          "bullets1": ""
+        },
+        {
+          "bullets2": ""
+        },
+        {
+          "bullets3": ""
+        },
+        {
+          "bulletsCount0": 100
+        },
+        {
+          "bulletsCount1": 0
+        },
+        {
+          "bulletsCount2": 0
+        },
+        {
+          "bulletsCount3": 0
+        },
+        {
+          "modification": "tank_tool_kit"
+        },
+        {
+          "modification": "manual_extinguisher"
+        },
+        {
+          "props": {
+            "army": 2,
+            "count": 1,
+            "formation_type": "rows",
+            "formation_div": 3,
+            "formation_step": [2.5,2.0],
+            "formation_noise": [0.1,0.1],
+            "uniqueName": "",
+            "attack_type": "fire_at_will"
+          }
+        },
+        {
+          "way": []
+        }
+      ]
     },
     {
       "armada": {

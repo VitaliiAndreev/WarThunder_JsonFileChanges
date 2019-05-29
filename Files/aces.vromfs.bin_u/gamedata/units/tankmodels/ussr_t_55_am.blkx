@@ -102,25 +102,25 @@
     "type": "typeMediumTank"
   },
   {
-    "smokeScreenActivateTime": 10.0
+    "rearmSmokeTimeOnField": 60.0
   },
   {
-    "smokeScreenEffectTime": 30.0
+    "canReloadNonGuns": true
   },
   {
-    "smokeScreenRad": 15.0
+    "smokeScreenActivateTime": 5.0
+  },
+  {
+    "smokeScreenEffectTime": 7.0
+  },
+  {
+    "smokeScreenRad": 12.0
   },
   {
     "smokeScreenOffset": [-3.0,0.0,2.0]
   },
   {
-    "smokeScreenDmPart": "engine_dm"
-  },
-  {
-    "rearmSmokeTimeOnField": 60.0
-  },
-  {
-    "canReloadNonGuns": true
+    "smokeScreenFxType": "tank_smokescreen"
   },
   {
     "DamageParts": {
@@ -2890,6 +2890,9 @@
                   "createGunEffects": true
                 },
                 {
+                  "ignoreLoaderPenalty": true
+                },
+                {
                   "defaultYaw": 0.0
                 },
                 {
@@ -3197,6 +3200,11 @@
           }
         }
       ]
+    }
+  },
+  {
+    "smokeScreenExhaustEmitters": {
+      "emitter": "emtr_exhaust_01"
     }
   }
 ]

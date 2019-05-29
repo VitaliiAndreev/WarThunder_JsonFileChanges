@@ -479,9 +479,14 @@
     "hesh_tank": "hesh_tank",
     "he_grenade_tank": "he_grenade_tank",
     "he_frag_tank": "he_frag_tank",
+    "sap_hei_tank": "he_frag_tank",
     "he_frag_fs_tank": "he_frag_tank",
     "shrapnel_tank": "shrapnel_tank",
     "atgm_tank": "atgm",
+    "atgm_tandem_tank": "atgm_tandem",
+    "atgm_he_tank": "atgm_he",
+    "atgm_vt_fuze_tank": "atgm_vt_fuze",
+    "sam_tank": "sam",
     "rocket_tank": "rocket_tank",
     "smoke_tank": "smoke_tank",
     "smoke_grenade_tank": "smoke_screen",
@@ -806,7 +811,12 @@
       "clan_medal_top50_historical": "clan_medal_bg_diff1;clan_medal_cup_c;clan_medal_top050;clan_medal_c_diff1_txt;clan_medal_c_season_txt",
       "clan_medal_top100_historical": "clan_medal_bg_diff1;clan_medal_cup_c;clan_medal_top100;clan_medal_c_diff1_txt;clan_medal_c_season_txt",
       "clan_medal_1000rating_arcade": "clan_medal_bg_diff0;clan_medal_rating;clan_medal_1000;clan_medal_s_diff0_txt;clan_medal_s_season_txt",
-      "clan_medal_1000rating_historical": "clan_medal_bg_diff1;clan_medal_rating;clan_medal_1000;clan_medal_s_diff1_txt;clan_medal_s_season_txt"
+      "clan_medal_1000rating_historical": "clan_medal_bg_diff1;clan_medal_rating;clan_medal_1000;clan_medal_s_diff1_txt;clan_medal_s_season_txt",
+      "clan_medal_wwar_place1": "clan_medal_ww_bg;clan_medal_ww_bin_g;clan_medal_ww_top001",
+      "clan_medal_wwar_place2": "clan_medal_ww_bg;clan_medal_ww_bin_s;clan_medal_ww_top002",
+      "clan_medal_wwar_place3": "clan_medal_ww_bg;clan_medal_ww_bin_c;clan_medal_ww_top003",
+      "clan_medal_wwar_top10": "clan_medal_ww_bg;clan_medal_ww_bin_i;clan_medal_ww_top010",
+      "clan_medal_wwar_top50": "clan_medal_ww_bg;clan_medal_ww_bin_i;clan_medal_ww_top050"
     },
     "layers": {
       "default_unlocked": {
@@ -3513,6 +3523,56 @@
         "font": "@fontNormal",
         "font-ht": "0.19ph",
         "shadeStyle": "textOnIcon"
+      },
+      "clan_medal_ww_bg": {
+        "img": "!#ui/gameuiskin#ww_bg_recon_fire.png"
+      },
+      "clan_medal_ww_bin_g": {
+        "img": "!#ui/gameuiskin#ww_recon_fire1.png"
+      },
+      "clan_medal_ww_bin_s": {
+        "img": "!#ui/gameuiskin#ww_recon_fire2.png"
+      },
+      "clan_medal_ww_bin_c": {
+        "img": "!#ui/gameuiskin#ww_recon_fire3.png"
+      },
+      "clan_medal_ww_bin_i": {
+        "img": "!#ui/gameuiskin#ww_recon_fire_rating1.png"
+      },
+      "clan_medal_ww_top001": {
+        "w": 0.42,
+        "h": 0.17,
+        "x": 0.28,
+        "y": 0.68,
+        "img": "!#ui/gameuiskin#ww_top001.png"
+      },
+      "clan_medal_ww_top002": {
+        "w": 0.42,
+        "h": 0.17,
+        "x": 0.28,
+        "y": 0.68,
+        "img": "!#ui/gameuiskin#ww_top002.png"
+      },
+      "clan_medal_ww_top003": {
+        "w": 0.42,
+        "h": 0.17,
+        "x": 0.28,
+        "y": 0.68,
+        "img": "!#ui/gameuiskin#ww_top003.png"
+      },
+      "clan_medal_ww_top010": {
+        "w": 0.42,
+        "h": 0.17,
+        "x": 0.28,
+        "y": 0.68,
+        "img": "!#ui/gameuiskin#ww_top010.png"
+      },
+      "clan_medal_ww_top050": {
+        "w": 0.42,
+        "h": 0.17,
+        "x": 0.28,
+        "y": 0.68,
+        "img": "!#ui/gameuiskin#ww_top050.png"
       }
     }
   },
@@ -3664,6 +3724,7 @@
       "country_ussr_helicopter_unit": "#ui/images/researches/ussr_heli_finishedresearch.jpg?P1",
       "country_japan_aircraft_unit": "#ui/images/researches/japan_finishedresearch.jpg?P1",
       "country_japan_tank_unit": "#ui/images/researches/japan_ground_finishedResearch.jpg?P1",
+      "country_japan_ship_unit": "#ui/images/researches/japan_ship_finishedResearch.jpg?P1",
       "country_britain_aircraft_unit": "#ui/images/researches/uk_finishedresearch.jpg?P1",
       "country_britain_tank_unit": "#ui/images/researches/uk_ground_finishedresearch.jpg?P1",
       "country_britain_ship_unit": "#ui/images/researches/uk_ship_finishedresearch.jpg?P1",
@@ -3687,6 +3748,7 @@
       "country_ussr_helicopter_modification": "#ui/images/researches/ussr_heli_newmodificationresearch.jpg?P1",
       "country_japan_aircraft_modification": "#ui/images/researches/japan_newmodificationresearch.jpg?P1",
       "country_japan_tank_modification": "#ui/images/researches/japan_ground_newmodificationResearch.jpg?P1",
+      "country_japan_ship_modification": "#ui/images/researches/japan_ship_newmodificationResearch.jpg?P1",
       "country_britain_aircraft_modification": "#ui/images/researches/uk_newmodificationresearch.jpg?P1",
       "country_britain_tank_modification": "#ui/images/researches/uk_ground_newmodificationresearch.jpg?P1",
       "country_britain_ship_modification": "#ui/images/researches/uk_ship_newmodificationresearch.jpg?P1",
@@ -4587,14 +4649,23 @@
     "5d88f065-3263-4a31-94c8-23e4ec083ad6": [],
     "d25d4409-6af9-4b5e-9eec-757a7e5ea0ca": [],
     "82a47c07-4074-4c10-8067-afde4c5ebe0e": [],
-    "d648b472-d911-4f24-97fe-eb00167b7836": []
+    "d648b472-d911-4f24-97fe-eb00167b7836": [],
+    "023da1aa-4333-4a1f-8a86-a7bfe4d33942": [],
+    "747163ff-fe31-4ee4-9414-41ae6684abf4": [],
+    "f8e47418-65ec-41b1-a0d6-871c351d12a8": [],
+    "40845830-bc22-4afb-9f41-59d51f1829c5": [],
+    "8408b399-6e58-4237-a168-a42672bb81e4": []
   },
   "xbox_ingame_shop_items_hide": {
     "51b661ca-5a36-4d33-a30f-20a4218fbe06": [],
     "4aed4de6-0af7-4e26-bd75-75fde95c2e08": [],
     "15b175f6-a01a-414f-b670-6e3ef14acd4b": [],
     "6d0705b6-2c4a-44a4-9f91-6146c9b126e7": [],
-    "3b928d51-69f7-4b53-a023-0b4ac0b2e451": []
+    "3b928d51-69f7-4b53-a023-0b4ac0b2e451": [],
+    "d6e43a16-1d4c-4332-979d-94465022ac3a": [],
+    "fc5e5dba-c0b5-44f2-8834-1b7c7335c172": [],
+    "f4779bed-8838-4124-b1c8-fdd3ea909363": [],
+    "35890417-beac-4031-9e68-a5fc085e8c29": []
   },
   "every_day_login_award": {
     "color": {

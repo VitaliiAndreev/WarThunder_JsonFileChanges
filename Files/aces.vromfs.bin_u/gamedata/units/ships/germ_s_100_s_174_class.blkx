@@ -990,7 +990,7 @@
       "mass": {
         "Empty": 103700.0,
         "momentOfInertia": [10.0,43.0,30.0],
-        "CenterOfGravity": [-1.5,0.26,0.0]
+        "CenterOfGravity": [-2.7,0.05,0.0]
       },
       "settings": {
         "speedLossOnManeuver": 0.15
@@ -1141,6 +1141,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -4175,7 +4176,7 @@
             "speedPitch": 85.0
           },
           {
-            "bullets": 2000
+            "bullets": 1500
           },
           {
             "allowableDelta": 2.0
@@ -4313,7 +4314,7 @@
             "speedPitch": 85.0
           },
           {
-            "bullets": 2000
+            "bullets": 1500
           },
           {
             "allowableDelta": 2.0
@@ -4549,7 +4550,7 @@
             "fireEvent": "ammo_fire_1",
             "explosionEvent": "ammo_explosion_1",
             "ammunition_storage_01_dm": {
-              "count": 4600
+              "count": 3600
             }
           }
         }
@@ -4574,5 +4575,46 @@
         }
       ]
     }
+  },
+  {
+    "user_skin": [
+      {
+        "name": "s_100_s_174_class"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_sboat_white*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "camo_simplegrey_decks*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_rheinmetall_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_vierlingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_zwillingslafette_c38_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "s_100_s_204_c*",
+          "param": "camo_skin_tex"
+        }
+      }
+    ]
   }
 ]

@@ -23,10 +23,10 @@
   "fxMultipleSpawn": true,
   "shouldCollideWithRendinsts": true,
   "sound_path": "ships/weapon_ships/cannons",
+  "sound_pathStudio": "naval/weapon/cannons",
   "sound": "40mm_l60_bofors",
-  "sound_inside": "40mm_l60_bofors_interior",
   "soundLoop": false,
-  "sfxReloadBullet": "grd_cannon_belt_reload",
+  "sfxReloadBullet": "naval_gun_reload",
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
   "bullet": {

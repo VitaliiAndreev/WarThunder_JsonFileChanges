@@ -77,7 +77,8 @@
     "flag_back": "flag_jpn"
   },
   "sound": {
-    "path": "sounds/engines/boat",
-    "engine": "boat_engine"
+    "path": "sounds/engines",
+    "pathStudio": "aircraft/engines",
+    "engine": "boat"
   }
 }

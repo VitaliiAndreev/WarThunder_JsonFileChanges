@@ -2635,7 +2635,7 @@
           "gunnerDm": "gunner2_dm",
           "gunDm": "gun1_dm",
           "partsDP": "gun1_dm",
-          "bullets": 950,
+          "bullets": 960,
           "turret": {
             "head": "turret1",
             "gun": "gun1"
@@ -2657,7 +2657,7 @@
           "gunnerDm": "gunner2_dm",
           "gunDm": "gun2_dm",
           "partsDP": "gun2_dm",
-          "bullets": 950,
+          "bullets": 960,
           "turret": {
             "head": "turret2",
             "gun": "gun2"

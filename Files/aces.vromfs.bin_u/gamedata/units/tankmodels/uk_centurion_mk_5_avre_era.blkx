@@ -174,11 +174,18 @@
           "armorThickness": 10.0,
           "hidableInViewer": true
         },
+        "turret_02_front_dm": {
+          "armorThickness": 10.0,
+          "hidableInViewer": true
+        },
         "body_top_dm": {
           "armorThickness": 14.0
         },
         "turret_03_bottom_dm": {
           "armorThickness": 8.0
+        },
+        "turret_02_back_dm": {
+          "armorThickness": 30.0
         }
       },
       "turret": {

@@ -53,6 +53,7 @@
   {
     "bullet": {
       "mass": 0.0482,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 815.0,
       "Cx": 0.15,
@@ -96,6 +97,7 @@
   {
     "bullet": {
       "mass": 0.0437,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 818.0,
       "Cx": 0.15,
@@ -141,6 +143,7 @@
   {
     "bullet": {
       "mass": 0.0482,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 815.0,
       "Cx": 0.15,
@@ -184,6 +187,7 @@
   {
     "bullet": {
       "mass": 0.0482,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 815.0,
       "Cx": 0.15,
@@ -227,6 +231,7 @@
   {
     "bullet": {
       "mass": 0.0482,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 815.0,
       "Cx": 0.15,
@@ -270,6 +275,7 @@
   {
     "bullet": {
       "mass": 0.0482,
+      "recoilMultiplier": 0.2,
       "caliber": 0.0127,
       "speed": 815.0,
       "Cx": 0.15,
@@ -315,6 +321,7 @@
       {
         "bullet": {
           "mass": 0.0482,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 815.0,
           "Cx": 0.15,
@@ -358,6 +365,7 @@
       {
         "bullet": {
           "mass": 0.0482,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 815.0,
           "Cx": 0.15,
@@ -401,6 +409,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -455,6 +464,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -509,6 +519,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -563,6 +574,7 @@
       {
         "bullet": {
           "mass": 0.0437,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -612,6 +624,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -666,6 +679,7 @@
       {
         "bullet": {
           "mass": 0.0519,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -705,6 +719,7 @@
       {
         "bullet": {
           "mass": 0.0519,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -744,6 +759,7 @@
       {
         "bullet": {
           "mass": 0.0519,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -783,6 +799,7 @@
       {
         "bullet": {
           "mass": 0.0437,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -828,6 +845,7 @@
       {
         "bullet": {
           "mass": 0.0519,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -871,6 +889,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -925,6 +944,7 @@
       {
         "bullet": {
           "mass": 0.0437,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 818.0,
           "Cx": 0.15,
@@ -970,6 +990,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -1024,6 +1045,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -1078,6 +1100,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -1132,6 +1155,7 @@
       {
         "bullet": {
           "mass": 0.041,
+          "recoilMultiplier": 0.2,
           "caliber": 0.0127,
           "speed": 850.0,
           "Cx": 0.15,
@@ -1188,6 +1212,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "yak_b_gun_outside",
       "cockpit": "yak_b_gun_inside",
       "ai": "yak_b_gun_ai"

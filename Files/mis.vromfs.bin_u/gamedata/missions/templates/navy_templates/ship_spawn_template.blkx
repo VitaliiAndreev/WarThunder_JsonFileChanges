@@ -505,6 +505,7 @@
                 "boat": true,
                 "type_destroyer": false,
                 "type_light_cruiser": false,
+                "type_cruiser": false,
                 "type_battleship": false
               }
             }
@@ -571,6 +572,7 @@
                 "boat": true,
                 "type_destroyer": false,
                 "type_light_cruiser": false,
+                "type_cruiser": false,
                 "type_battleship": false
               }
             }
@@ -658,6 +660,7 @@
               "boat": true,
               "type_destroyer": false,
               "type_light_cruiser": false,
+              "type_cruiser": false,
               "type_battleship": false
             }
           }
@@ -687,6 +690,7 @@
               "boat": true,
               "type_destroyer": false,
               "type_light_cruiser": false,
+              "type_cruiser": false,
               "type_battleship": false
             }
           }
@@ -750,6 +754,7 @@
               "boat": true,
               "type_destroyer": false,
               "type_light_cruiser": false,
+              "type_cruiser": false,
               "type_battleship": false
             }
           }
@@ -779,6 +784,7 @@
               "boat": true,
               "type_destroyer": false,
               "type_light_cruiser": false,
+              "type_cruiser": false,
               "type_battleship": false
             }
           }
@@ -924,6 +930,7 @@
                 "boat": false,
                 "type_destroyer": true,
                 "type_light_cruiser": true,
+                "type_cruiser": true,
                 "type_battleship": false
               }
             }
@@ -996,6 +1003,7 @@
                 "boat": false,
                 "type_destroyer": true,
                 "type_light_cruiser": true,
+                "type_cruiser": true,
                 "type_battleship": false
               }
             }
@@ -1064,6 +1072,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1093,6 +1102,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1156,6 +1166,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1185,6 +1196,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1252,6 +1264,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1281,6 +1294,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1344,6 +1358,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1373,6 +1388,7 @@
               "boat": false,
               "type_destroyer": true,
               "type_light_cruiser": true,
+              "type_cruiser": true,
               "type_battleship": false
             }
           }
@@ -1407,6 +1423,7 @@
           "newGridHorizontalCellCount": 0,
           "killArea": false,
           "detectionArea": false,
+          "airMapArea": false,
           "area": "@battle_area_name"
         }
       },

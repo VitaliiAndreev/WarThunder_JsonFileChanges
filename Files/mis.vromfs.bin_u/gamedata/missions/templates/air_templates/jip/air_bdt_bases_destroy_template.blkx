@@ -2813,13 +2813,13 @@
               "object": "bdt_t2_aaa_squad"
             },
             {
-              "accuracy": 0.3
+              "accuracy": 0.1
             },
             {
-              "effShootingRate": 0.3
+              "effShootingRate": 0.1
             },
             {
-              "airEffShootingRate": 0.3
+              "airEffShootingRate": 0.1
             },
             {
               "fireRandom": true

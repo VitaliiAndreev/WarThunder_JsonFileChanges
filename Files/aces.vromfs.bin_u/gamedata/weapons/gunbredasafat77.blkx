@@ -745,6 +745,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "bereda-safat_77_gun_outside",
       "cockpit": "bereda-safat_77_gun_inside",
       "ai": "bereda-safat_77_gun_ai"

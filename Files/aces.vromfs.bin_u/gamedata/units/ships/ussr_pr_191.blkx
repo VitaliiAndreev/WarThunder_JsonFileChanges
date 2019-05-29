@@ -1434,7 +1434,7 @@
         "explosionDamageMult": 1.5,
         "secondaryShatterDamageMult": 0.5,
         "main_caliber_turret_01_dm": {
-          "hp": 318.0
+          "hp": 396.0
         }
       },
       "turrets_aux_caliber": {
@@ -1466,7 +1466,12 @@
       },
       "gun_masks": {
         "armorThickness": 30.0,
-        "armorClass": "ship_RHA"
+        "armorClass": "ship_RHA",
+        "gun_mask_01_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 10.0,
+          "hp": 174.0
+        }
       },
       "gun_barrels": {
         "armorClass": "tank_barrel",
@@ -1707,6 +1712,7 @@
       "EngineName": "engine_shiplight01",
       "EngineNameAi": "engine_shiplight_ai",
       "TrackSoundPath": "ships/engines_ships",
+      "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_light",
       "TrackSoundNameCockpit": "tracks_light_interior",
       "TrackSoundNameAi": "tracks_ai_light"
@@ -3296,6 +3302,42 @@
           "deviation": 0.6,
           "rotation": 2.1,
           "collisionNode": "ex_decor_04_dm"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "pr_191"
+      },
+      {
+        "replace_tex": {
+          "from": "camo_bluegray*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_2m_6_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_dshkm_2b_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "turret_mk_85_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "pr_191m_c*",
+          "param": "camo_skin_tex"
         }
       }
     ]

@@ -2003,6 +2003,7 @@
         "clock_min": [0.0,60.0],
         "manifold_pressure": [0.0,2.5],
         "rpm": [0.0,4500.0],
+        "carb_temperature": [-50.0,150.0],
         "oil_temperature": [0.0,100.0],
         "water_temperature": [-50.0,150.0],
         "fuel1": [0.0,900.0],

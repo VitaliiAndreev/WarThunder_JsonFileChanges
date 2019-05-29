@@ -925,7 +925,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@lpt_t1_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1010,7 +1010,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@lpt_t1_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1059,7 +1059,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@lpt_t1_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -1372,7 +1372,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@lpt_t1_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2219,7 +2219,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@lpt_t2_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2304,7 +2304,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@lpt_t2_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2353,7 +2353,7 @@
             "extendedEnding": true,
             "team": "A",
             "unit_or_area": "@lpt_t2_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {
@@ -2666,7 +2666,7 @@
             "extendedEnding": true,
             "team": "B",
             "unit_or_area": "@lpt_t2_lookup_plane",
-            "unit_type": "any"
+            "object_type": "any"
           }
         },
         {

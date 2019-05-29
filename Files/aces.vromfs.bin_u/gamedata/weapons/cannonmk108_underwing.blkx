@@ -2116,6 +2116,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "mk_108_gun_outside",
       "cockpit": "mk_108_gun_inside",
       "ai": "mk_108_gun_ai"

@@ -49,6 +49,7 @@
       "mass": 0.199,
       "caliber": 0.023,
       "speed": 700.0,
+      "recoilMultiplier": 0.4,
       "maxDistance": 3500.0,
       "bulletType": "ap_i",
       "hitPowerMult": 25.0,
@@ -82,6 +83,7 @@
       "mass": 0.196,
       "caliber": 0.023,
       "speed": 710.0,
+      "recoilMultiplier": 0.4,
       "maxDistance": 3500.0,
       "bulletType": "frag_i_t",
       "hitPowerMult": 1.0,
@@ -136,6 +138,7 @@
   {
     "gunSound": {
       "path": "sounds/guns",
+      "pathStudio": "aircraft/weapon",
       "outside": "cannon_gsh_23_outside",
       "cockpit": "cannon_gsh_23_inside",
       "ai": "cannon_gsh_23_ai"

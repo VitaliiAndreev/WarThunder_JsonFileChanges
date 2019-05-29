@@ -726,9 +726,11 @@
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "ex_decor_l_01_dm": [],
+        "ex_decor_l_03_dm": [],
         "ex_decor_l_05_dm": [],
         "ex_decor_r_01_dm": [],
-        "ex_decor_r_02_dm": []
+        "ex_decor_r_02_dm": [],
+        "ex_decor_r_03_dm": []
       },
       "chassis": {
         "armorClass": "tank_steel_wheels",
@@ -759,7 +761,7 @@
         },
         "chassis_front": {
           "hp": 250.0,
-          "armorThickness": 2.0,
+          "armorThickness": 10.0,
           "armorClass": "car_wheels",
           "wheel_l_01_dm": [],
           "wheel_r_01_dm": [],
@@ -855,7 +857,8 @@
         "drive_turret_h_dm": [],
         "drive_turret_h_01_dm": [],
         "drive_turret_v_01_dm": [],
-        "radio_station_dm": []
+        "radio_station_dm": [],
+        "radio_station_01_dm": []
       },
       "cannon_breech": {
         "armorClass": "tank_structural_steel",

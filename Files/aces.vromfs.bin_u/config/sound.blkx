@@ -144,6 +144,8 @@
     "pathEngines": "sounds/engines",
     "pathAmbient": "sounds/ambient",
     "pathAmbientGround": "tanks/ambient_tanks",
+    "levelAmbient": "sounds/ambient",
+    "levelAmbientUnderwater": "ships/ambient_ships",
     "pathAI": "sounds/effects/ai",
     "pathTanks": "tanks/effects_tanks",
     "pathAITanks": "tanks/effects_tanks/ai",
@@ -4363,6 +4365,39 @@
       "leftPos": [-1.0,1.0,0.0]
     }
   },
+  "engine_type74": {
+    "effects": {
+      "path": "tanks/engines_tanks/panther",
+      "wep": "",
+      "overheatOutside": "",
+      "overheatCockpit": "",
+      "dive": "engine_dive",
+      "timeFallingDown": 2.0,
+      "engineVolumeOnOverheat": 0.8,
+      "eventStart": "engine_start",
+      "eventStop": "engine_stop"
+    },
+    "outside": {
+      "path": "tanks/engines_tanks/panther",
+      "eventFront": "",
+      "eventBack": "engine",
+      "eventSurround": "",
+      "eventLod1": "engine",
+      "rpmSmooth": 0.02,
+      "loadScale": 6.0,
+      "loadSmooth": 0.05,
+      "distSmooth": 0.9,
+      "distScaleOnNotHero": 1.0,
+      "offsetPos": [-1.0,1.0,0.0]
+    },
+    "cockpit": {
+      "path": "tanks/engines_tanks/panther",
+      "event_cockpit_l": "engine_interior",
+      "event_start_cockpit_l": "engine_start_interior",
+      "event_stop_cockpit_l": "engine_stop_interior",
+      "leftPos": [-1.0,1.0,0.0]
+    }
+  },
   "engine_abrams": {
     "effects": {
       "path": "tanks/engines_tanks/abrams",
@@ -6179,6 +6214,16 @@
       "path": "tanks/effects_tanks",
       "event": "reload_railgun",
       "time": 2.5
+    },
+    "naval_cannon_reload": {
+      "path": "ships/effects_ships",
+      "event": "reload_cannon",
+      "time": 2.5
+    },
+    "naval_gun_reload": {
+      "path": "ships/effects_ships",
+      "event": "reload_gun",
+      "time": 2.5
     }
   },
   "gun_default": {
@@ -6843,6 +6888,7 @@
         "ap_large_caliber_tank": "loadBulletAP",
         "tp_tank": "loadBulletAP",
         "shrapnel_tank": "loadBulletCanister",
+        "sap_hei_tank": "loadBulletHighExpl",
         "he_frag_tank": "loadBulletHighExpl",
         "he_frag_fs_tank": "loadBulletHighExpl",
         "hesh_tank": "loadBulletHEP",
@@ -6862,6 +6908,10 @@
         "apds_fs_tungsten_l10_l15_tank": "loadBulletAPDS",
         "tphv_tank": "loadBulletSubCaliber",
         "atgm_tank": "loadBulletMissile",
+        "atgm_tandem_tank": "loadBulletMissile",
+        "atgm_he_tank": "loadBulletMissile",
+        "atgm_vt_fuze_tank": "loadBulletMissile",
+        "sam_tank": "loadBulletMissile",
         "rocket_tank": "loadBulletMissile"
       }
     },

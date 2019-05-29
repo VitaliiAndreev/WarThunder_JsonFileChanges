@@ -1254,6 +1254,7 @@
     "Engine": "engine_mi24",
     "gun": "gun_default",
     "turretTurnSfxPath": "sounds/effects",
+    "turretTurnSfxPathStudio": "aircraft/effects",
     "turretTurnSfxName": "gun_turn_manual"
   },
   "cockpit": {
