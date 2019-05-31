@@ -4137,6 +4137,9 @@
         },
         {
           "name": "Germany/air/img_germany_air_11"
+        },
+        {
+          "name": "Germany/air/img_germany_air_12"
         }
       ],
       "Tank": [
@@ -4437,6 +4440,9 @@
         },
         {
           "name": "UK/tanks/img_uk_tank_03"
+        },
+        {
+          "name": "UK/tanks/img_uk_tank_04"
         }
       ],
       "Ship": [
@@ -4489,9 +4495,17 @@
           "name": "Japan/tanks/img_japan_tank_02"
         }
       ],
-      "Ship": {
-        "name": "Japan/ships/img_japan_ship_01"
-      },
+      "Ship": [
+        {
+          "name": "Japan/ships/img_japan_ship_01"
+        },
+        {
+          "name": "Japan/ships/img_japan_ship_02"
+        },
+        {
+          "name": "Japan/ships/img_japan_ship_03"
+        }
+      ],
       "Helicopter": {
         "name": "Japan/air/img_japan_air_01"
       }

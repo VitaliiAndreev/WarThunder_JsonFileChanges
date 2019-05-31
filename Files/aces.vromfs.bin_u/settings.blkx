@@ -453,7 +453,8 @@
   "directx": {
     "debug": false,
     "disableNvapi": false,
-    "nvVbBugWorkaround": false
+    "nvVbBugWorkaround": false,
+    "useGpuDt": false
   },
   "openGL": {
     "nvGLShaderAVWorkaround": true

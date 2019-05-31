@@ -57,7 +57,7 @@
       "force": 12300.0
     },
     {
-      "thrustVectoringAngle": 0.03
+      "thrustVectoringAngle": 0.05
     },
     {
       "timeFire": 3.2
@@ -132,7 +132,7 @@
       "hasProximityFuse": true
     },
     {
-      "breakLockMaxTime": 3.0
+      "breakLockMaxTime": 1.0
     },
     {
       "explodeTreshold": 0.01
@@ -180,7 +180,7 @@
       "startSpeed": 0.0
     },
     {
-      "endSpeed": 800.0
+      "endSpeed": 1000.0
     },
     {
       "speedViscosity": 0.2
@@ -234,12 +234,12 @@
         "rangeBand0": 4000.0,
         "rangeBand2": 4000.0,
         "rangeMax": 11000.0,
-        "fov": 3.0,
-        "minAngleToSun": 5.0,
+        "fov": 5.0,
+        "minAngleToSun": 10.0,
         "lockAngleMax": 40.0,
-        "angleMax": 40.0,
-        "rateMax": 30.0,
-        "prolongationTimeMax": 1.0
+        "angleMax": 50.0,
+        "rateMax": 100.0,
+        "prolongationTimeMax": 0.5
       }
     },
     {
@@ -251,11 +251,12 @@
     },
     {
       "propNavGuidance": {
+        "baseIndSpeed": 2600.0,
         "propNavMult": 12.0,
-        "accelControlProp": 0.002,
+        "accelControlProp": 0.0004,
         "accelControlIntg": 0.002,
-        "accelControlIntgLim": 0.5,
-        "accelControlDiff": 0.0005
+        "accelControlIntgLim": 0.7,
+        "accelControlDiff": 0.0006
       }
     },
     {

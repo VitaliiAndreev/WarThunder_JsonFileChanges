@@ -222,7 +222,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -300,7 +300,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -408,7 +408,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -456,7 +456,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -624,7 +624,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1014,7 +1014,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1062,7 +1062,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1140,7 +1140,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1218,7 +1218,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1326,7 +1326,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1404,7 +1404,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1482,7 +1482,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1656,7 +1656,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1734,7 +1734,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -1812,7 +1812,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2052,7 +2052,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2130,7 +2130,7 @@
           "weaponCount": 0
         },
         "infantry_germany_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2178,7 +2178,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2256,7 +2256,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2430,7 +2430,7 @@
       "units": {
         "all": false,
         "infantry_usa_3rank": {
-          "count": 30,
+          "count": 20,
           "inactiveCount": 0,
           "weaponPreset": "",
           "weaponCount": 0
@@ -2996,7 +2996,7 @@
             "weaponCount": 0
           },
           "infantry_germany_3rank": {
-            "count": 30,
+            "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0
@@ -3304,7 +3304,7 @@
         "units": {
           "all": false,
           "infantry_usa_3rank": {
-            "count": 30,
+            "count": 20,
             "inactiveCount": 0,
             "weaponPreset": "",
             "weaponCount": 0

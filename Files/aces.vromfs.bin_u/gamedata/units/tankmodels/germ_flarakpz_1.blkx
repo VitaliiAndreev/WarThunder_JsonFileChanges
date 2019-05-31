@@ -1790,7 +1790,7 @@
         "ammoDpGenFmt": "ammo_turret_%02d_dm",
         "recoilMultiplier": 0.1,
         "stopForFire": true,
-        "maxSpeedForFire": 12.0,
+        "maxSpeedForFire": 1.0,
         "reloadAnimVar": "flarakpz_1_action",
         "waitShellForPark": true,
         "sleeveEmitter": "bone_rocket_%02d",
@@ -2587,7 +2587,7 @@
                 "ammoDpGenFmt": "ammo_turret_%02d_dm",
                 "recoilMultiplier": 0.1,
                 "stopForFire": true,
-                "maxSpeedForFire": 12.0,
+                "maxSpeedForFire": 1.0,
                 "reloadAnimVar": "flarakpz_1_action",
                 "waitShellForPark": true,
                 "sleeveEmitter": "bone_rocket_%02d",
@@ -2757,7 +2757,7 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/su_1rl144_search.blk",
+          "blk": "gameData/sensors/de_roland_sr.blk",
           "turretIndex": 0,
           "designationFromBody": true,
           "designationTurretIndex": 0,
@@ -2766,7 +2766,7 @@
       },
       {
         "sensor": {
-          "blk": "gameData/sensors/su_1rl144_track.blk",
+          "blk": "gameData/sensors/de_roland_fr.blk",
           "turretIndex": 0,
           "dmPart": "antenna_target_tagging_dm"
         }

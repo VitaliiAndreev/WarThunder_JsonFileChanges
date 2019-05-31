@@ -7580,19 +7580,10 @@
   },
   {
     "ammo": {
-      "hitPowerMult": 1.0,
-      "nearHitPower": [1.0,50.0],
-      "midHitPower": [0.9,400.0],
-      "farHitPower": [0.1,1000.0],
-      "endHitPower": [0.01,1500.0],
-      "relativeVelHitShift": [300.0,1000.0],
-      "nearArmorPower": [10.0,50.0],
-      "midArmorPower": [7.0,400.0],
-      "farArmorPower": [0.2,700.0],
-      "relativeVelArmorShift": [200.0,1000.0],
       "explodeTreshold": 0.0001,
       "explodeArmorPower": 50.0,
-      "explodeRadius": [50.0,100.0]
+      "explodeRadius": [50.0,100.0],
+      "explodeHitPower": 50.0
     }
   },
   {
@@ -7664,9 +7655,6 @@
             },
             {
               "fatalFire": false
-            },
-            {
-              "fatalExplosion": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -7760,9 +7748,6 @@
               "fatalFire": false
             },
             {
-              "fatalExplosion": true
-            },
-            {
               "explosionEvent": "ammo_explosion_1"
             },
             {
@@ -7852,9 +7837,6 @@
             },
             {
               "fatalFire": false
-            },
-            {
-              "fatalExplosion": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -7948,7 +7930,7 @@
           "shells": {
             "autoLoad": true,
             "fatalFire": false,
-            "fatalExplosion": false,
+            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "torpedo_01_dm": {
@@ -7967,6 +7949,10 @@
         },
         {
           "shells": {
+            "fatalFire": false,
+            "fatalExplosion": true,
+            "explosionEvent": "ammo_explosion_1",
+            "fireEvent": "ammo_fire_1",
             "torpedo_09_dm": {
               "count": 1
             },
@@ -7999,7 +7985,7 @@
           "shells": {
             "autoLoad": true,
             "fatalFire": false,
-            "fatalExplosion": false,
+            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_2",
             "fireEvent": "ammo_fire_2",
             "torpedo_05_dm": {
@@ -8018,6 +8004,10 @@
         },
         {
           "shells": {
+            "fatalFire": false,
+            "fatalExplosion": true,
+            "explosionEvent": "ammo_explosion_2",
+            "fireEvent": "ammo_fire_2",
             "torpedo_13_dm": {
               "count": 1
             },

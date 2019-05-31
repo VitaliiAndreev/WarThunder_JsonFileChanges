@@ -2565,8 +2565,38 @@
             "name": "ammunition_storage_10_dm"
           },
           {
+            "name": "ammunition_storage_11_dm"
+          },
+          {
+            "name": "ammunition_storage_12_dm"
+          },
+          {
+            "name": "ammunition_storage_13_dm"
+          },
+          {
+            "name": "ammunition_storage_14_dm"
+          },
+          {
+            "name": "ammunition_storage_15_dm"
+          },
+          {
+            "name": "ammunition_storage_16_dm"
+          },
+          {
+            "name": "ammunition_storage_17_dm"
+          },
+          {
+            "name": "ammunition_storage_18_dm"
+          },
+          {
+            "name": "ammunition_storage_19_dm"
+          },
+          {
+            "name": "ammunition_storage_20_dm"
+          },
+          {
             "onKill": {
-              "expl": 1.0,
+              "fire": 1.0,
               "fHitCritical": false
             }
           },
@@ -2590,8 +2620,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.075,
-              "fire": 0.1,
+              "expl": 0.1,
+              "fire": 0.075,
               "damage": 200.0,
               "fHitCritical": false
             }
@@ -2599,8 +2629,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.08,
-              "fire": 0.15,
+              "expl": 0.15,
+              "fire": 0.08,
               "damage": 300.0,
               "fHitCritical": false
             }
@@ -2608,8 +2638,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.15,
-              "fire": 0.25,
+              "expl": 0.25,
+              "fire": 0.15,
               "damage": 400.0,
               "fHitCritical": false
             }
@@ -7215,7 +7245,6 @@
           "charges": {
             "reloadTimeMult": 0.919,
             "fatalFire": false,
-            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_01_dm",
@@ -7285,7 +7314,6 @@
           "charges": {
             "reloadTimeMult": 0.919,
             "fatalFire": false,
-            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_2",
             "fireEvent": "ammo_fire_2",
             "elevator": "elevator_02_dm",

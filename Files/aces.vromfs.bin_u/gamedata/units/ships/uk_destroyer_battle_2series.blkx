@@ -2014,8 +2014,38 @@
             "name": "ammunition_storage_10_dm"
           },
           {
+            "name": "ammunition_storage_11_dm"
+          },
+          {
+            "name": "ammunition_storage_12_dm"
+          },
+          {
+            "name": "ammunition_storage_13_dm"
+          },
+          {
+            "name": "ammunition_storage_14_dm"
+          },
+          {
+            "name": "ammunition_storage_15_dm"
+          },
+          {
+            "name": "ammunition_storage_16_dm"
+          },
+          {
+            "name": "ammunition_storage_17_dm"
+          },
+          {
+            "name": "ammunition_storage_18_dm"
+          },
+          {
+            "name": "ammunition_storage_19_dm"
+          },
+          {
+            "name": "ammunition_storage_20_dm"
+          },
+          {
             "onKill": {
-              "expl": 1.0,
+              "fire": 1.0,
               "fHitCritical": false
             }
           },
@@ -2039,8 +2069,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.075,
-              "fire": 0.1,
+              "expl": 0.1,
+              "fire": 0.075,
               "damage": 200.0,
               "fHitCritical": false
             }
@@ -2048,8 +2078,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.08,
-              "fire": 0.15,
+              "expl": 0.15,
+              "fire": 0.08,
               "damage": 300.0,
               "fHitCritical": false
             }
@@ -2057,8 +2087,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.15,
-              "fire": 0.25,
+              "expl": 0.25,
+              "fire": 0.15,
               "damage": 400.0,
               "fHitCritical": false
             }
@@ -4883,19 +4913,10 @@
   },
   {
     "ammo": {
-      "hitPowerMult": 1.0,
-      "nearHitPower": [1.0,50.0],
-      "midHitPower": [0.9,400.0],
-      "farHitPower": [0.1,1000.0],
-      "endHitPower": [0.01,1500.0],
-      "relativeVelHitShift": [300.0,1000.0],
-      "nearArmorPower": [10.0,50.0],
-      "midArmorPower": [7.0,400.0],
-      "farArmorPower": [0.2,700.0],
-      "relativeVelArmorShift": [200.0,1000.0],
       "explodeTreshold": 0.0001,
       "explodeArmorPower": 50.0,
-      "explodeRadius": [50.0,100.0]
+      "explodeRadius": [50.0,100.0],
+      "explodeHitPower": 50.0
     }
   },
   {
@@ -4933,7 +4954,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": true
+              "fatalFire": false
             },
             {
               "fatalExplosion": true
@@ -4970,9 +4991,6 @@
             },
             {
               "fatalFire": false
-            },
-            {
-              "fatalExplosion": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -5033,7 +5051,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": true
+              "fatalFire": false
             },
             {
               "fatalExplosion": true
@@ -5070,9 +5088,6 @@
             },
             {
               "fatalFire": false
-            },
-            {
-              "fatalExplosion": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -5121,8 +5136,8 @@
         },
         {
           "shells": {
-            "fatalFire": true,
-            "fatalExplosion": true,
+            "fatalFire": false,
+            "fatalExplosion": false,
             "explosionEvent": "ammo_explosion_2",
             "fireEvent": "ammo_fire_2",
             "ammunition_storage_05_dm": {

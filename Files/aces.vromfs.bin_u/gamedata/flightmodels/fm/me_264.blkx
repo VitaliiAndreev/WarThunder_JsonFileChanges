@@ -2094,7 +2094,7 @@
     "Takeoff": 56000.0,
     "CenterOfGravity": [0.02,0.05,0.0],
     "WingCritOverload": [-532000.0,1064000.0],
-    "GearDestructionIndSpeed": 389.0,
+    "GearDestructionIndSpeed": 309.0,
     "AirbrakeDestructionIndSpeed": -1.0,
     "FlapsDestructionIndSpeedP1": [0.1,380.0],
     "FlapsDestructionIndSpeedP2": [1.0,290.0],
