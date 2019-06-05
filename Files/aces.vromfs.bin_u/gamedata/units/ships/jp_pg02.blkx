@@ -728,7 +728,7 @@
       "sailor1": {
         "dmPart": "bridge_dm",
         "role": "sailor",
-        "crew": 4
+        "crew": 2
       },
       "sailor2": {
         "dmPart": "compartment_01_dm",
@@ -743,7 +743,12 @@
       "sailor4": {
         "dmPart": "compartment_03_dm",
         "role": "sailor",
-        "crew": 2
+        "crew": 3
+      },
+      "sailor5": {
+        "dmPart": "radio_station_dm",
+        "role": "sailor",
+        "crew": 1
       }
     }
   },
@@ -1500,12 +1505,9 @@
           "part": "compartment_03_dm"
         },
         {
-          "part": "compartment_04_dm"
-        },
-        {
           "effect": {
             "conditionDamageType": "explosion",
-            "conditionDamageRel": 0.3,
+            "conditionDamageRel": 0.2,
             "kill": true,
             "killEffect": "destruction"
           }
@@ -1515,7 +1517,7 @@
         "part": "bridge_dm",
         "effect": {
           "conditionDamageType": "explosion",
-          "conditionDamage": 400.0,
+          "conditionDamage": 300.0,
           "kill": true,
           "killEffect": "destruction"
         }

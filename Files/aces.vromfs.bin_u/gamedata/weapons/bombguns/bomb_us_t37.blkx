@@ -42,7 +42,9 @@
       "body": {
         "hp": 35.0,
         "armorClass": "tank_structural_steel",
-        "armorThickness": 1.0
+        "armorThickness": 5.0,
+        "explosionArmorQuality": 45.0,
+        "shatterArmorQuality": 45.0
       }
     }
   }

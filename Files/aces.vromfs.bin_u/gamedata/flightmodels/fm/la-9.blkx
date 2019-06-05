@@ -102,7 +102,7 @@
     "AirbrakesShift": 0.0,
     "GearShift": -0.25,
     "WingInFocus": 0.95,
-    "WingMidFocus": 1.63,
+    "WingMidFocus": 1.83,
     "WingOutFocus": 4.4,
     "WingV": 6.0,
     "Stabilizer": 4.9,
@@ -505,14 +505,20 @@
       "Load1": {
         "WaterTemperature": 250.0,
         "OilTemperature": 100.0,
-        "WorkTime": 900.0,
-        "RecoverTime": 450.0
+        "WorkTime": 600.0,
+        "RecoverTime": 300.0
       },
       "Load2": {
         "WaterTemperature": 260.0,
         "OilTemperature": 105.0,
         "WorkTime": 300.0,
         "RecoverTime": 150.0
+      },
+      "Load3": {
+        "WaterTemperature": 290.0,
+        "OilTemperature": 125.0,
+        "WorkTime": 150.0,
+        "RecoverTime": 75.0
       },
       "RadiatorMode0": {
         "Throttle": 0.0,
@@ -531,8 +537,8 @@
       },
       "RadiatorMode3": {
         "Throttle": 1.1,
-        "WaterTemperature": 260.0,
-        "OilTemperature": 105.0
+        "WaterTemperature": 300.0,
+        "OilTemperature": 125.0
       }
     },
     "Compressor": {

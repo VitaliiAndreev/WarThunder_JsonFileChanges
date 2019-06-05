@@ -1411,7 +1411,7 @@
         },
         "turret_01_front_dm": {
           "armorClass": "ship_RHA",
-          "armorThickness": 10.0,
+          "armorThickness": 30.0,
           "hp": 250.0
         },
         "turret_01_top_dm": {

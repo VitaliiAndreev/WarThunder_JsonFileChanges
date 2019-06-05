@@ -6064,7 +6064,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6125,7 +6125,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6186,7 +6186,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6247,7 +6247,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6308,7 +6308,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6369,7 +6369,7 @@
               "reloadTimeMult": 0.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true

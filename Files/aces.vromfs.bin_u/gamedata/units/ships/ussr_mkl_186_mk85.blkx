@@ -2541,6 +2541,9 @@
         "armorClass": "ship_structural_steel",
         "fireParamsPreset": "ship_turrets",
         "armorThickness": 15.0,
+        "turret_02_top_dm": {
+          "hp": 250.0
+        },
         "turret_02_bottom_dm": {
           "armorClass": "ship_Wsh",
           "armorThickness": 20.0,
@@ -2549,16 +2552,6 @@
         "turret_03_bottom_dm": {
           "armorClass": "ship_Wsh",
           "armorThickness": 20.0,
-          "hp": 250.0
-        },
-        "turret_01_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 30.0,
-          "hp": 250.0
-        },
-        "turret_04_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 30.0,
           "hp": 250.0
         },
         "turret_01_side_dm": {
@@ -2585,30 +2578,21 @@
           "armorClass": "ship_RHA",
           "armorThickness": 20.0,
           "hp": 250.0
-        },
-        "turret_04_top_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 20.0,
-          "hp": 250.0
         }
       },
       "turrets_main_caliber": {
         "armorClass": "ship_RHA",
-        "armorThickness": 15.0,
+        "armorThickness": 30.0,
         "fireParamsPreset": "ship_turrets",
         "genericDamageMult": 1.4,
         "shatterDamageMult": 1.8,
         "explosionDamageMult": 1.5,
         "secondaryShatterDamageMult": 0.5,
         "main_caliber_turret_01_dm": {
-          "armorClass": "ship_structural_steel",
-          "armorThickness": 1.0,
-          "hp": 294.0
+          "hp": 400.0
         },
         "main_caliber_turret_02_dm": {
-          "armorClass": "ship_structural_steel",
-          "armorThickness": 1.0,
-          "hp": 294.0
+          "hp": 400.0
         }
       },
       "turrets_aux_caliber": {
@@ -2789,7 +2773,7 @@
       "sailor3": {
         "dmPart": "compartment_02_dm",
         "role": "sailor",
-        "crew": 6
+        "crew": 5
       },
       "sailor4": {
         "dmPart": "compartment_03_dm",
@@ -2799,17 +2783,17 @@
       "sailor5": {
         "dmPart": "compartment_04_dm",
         "role": "sailor",
-        "crew": 8
+        "crew": 7
       },
       "sailor6": {
         "dmPart": "main_caliber_turret_01_dm",
         "role": "sailor",
-        "crew": 4
+        "crew": 5
       },
       "sailor7": {
         "dmPart": "main_caliber_turret_02_dm",
         "role": "sailor",
-        "crew": 4
+        "crew": 5
       }
     }
   },

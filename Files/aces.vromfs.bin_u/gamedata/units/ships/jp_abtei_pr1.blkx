@@ -1722,16 +1722,16 @@
       },
       "engines": {
         "maxSpeed": 7.2,
-        "maxReverseSpeed": 2.0,
+        "maxReverseSpeed": 4.0,
         "speedToTime": [
           {
             "row": [1.5,1.9]
           },
           {
-            "row": [3.0,6.3]
+            "row": [3.0,5.7]
           },
           {
-            "row": [7.2,10.4]
+            "row": [7.2,8.1]
           }
         ],
         "reverseSpeedToTime": [
@@ -1739,10 +1739,10 @@
             "row": [1.0,0.8]
           },
           {
-            "row": [2.0,2.0]
+            "row": [2.0,1.6]
           },
           {
-            "row": [2.0,4.6]
+            "row": [4.0,3.6]
           }
         ],
         "engine": {

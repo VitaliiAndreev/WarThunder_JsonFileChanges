@@ -272,6 +272,8 @@
       "else_actions": {
         "unitSetRoute": {
           "route": "way_target_tank05",
+          "object_var_name": "",
+          "object_var_comp_op": "equal",
           "object": "target_tank06",
           "object_type": "isActive"
         },
@@ -293,7 +295,7 @@
       "comments": "",
       "props": {
         "actionsType": "PERFORM_ONE_BY_ONE",
-        "conditionsType": "ALL",
+        "conditionsType": "ANY",
         "enableAfterComplete": false
       },
       "events": {
@@ -301,18 +303,24 @@
           "time": 1.0
         }
       },
-      "conditions": {
-        "unitCheckTag": {
-          "target": "t1_player01",
-          "tags": {
-            "type_spaa": true
+      "conditions": [
+        {
+          "unitCheckTag": {
+            "target": "t1_player01",
+            "tags": {
+              "type_spaa": true
+            }
           }
         },
-        "objectExists": {
-          "target": "flight_target01",
-          "type": "unit"
+        {
+          "unitCheckTag": {
+            "target": "t1_player01",
+            "tags": {
+              "has_proximityFuse_rocket": true
+            }
+          }
         }
-      },
+      ],
       "actions": {
         "unitLoadBehTree": {
           "name": "missionKamikaze",
@@ -349,7 +357,7 @@
       "comments": "",
       "props": {
         "actionsType": "PERFORM_ONE_BY_ONE",
-        "conditionsType": "ALL",
+        "conditionsType": "ANY",
         "enableAfterComplete": false
       },
       "events": {
@@ -357,18 +365,24 @@
           "time": 1.0
         }
       },
-      "conditions": {
-        "unitCheckTag": {
-          "target": "t1_player01",
-          "tags": {
-            "type_spaa": true
+      "conditions": [
+        {
+          "unitCheckTag": {
+            "target": "t1_player01",
+            "tags": {
+              "type_spaa": true
+            }
           }
         },
-        "objectExists": {
-          "target": "flight_target02",
-          "type": "unit"
+        {
+          "unitCheckTag": {
+            "target": "t1_player01",
+            "tags": {
+              "has_proximityFuse_rocket": true
+            }
+          }
         }
-      },
+      ],
       "actions": {
         "unitLoadBehTree": {
           "name": "missionKamikaze",

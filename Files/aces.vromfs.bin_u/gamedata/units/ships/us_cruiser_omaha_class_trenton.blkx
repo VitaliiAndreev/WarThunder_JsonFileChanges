@@ -6867,7 +6867,7 @@
               "reloadTimeMult": 0.89
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6900,7 +6900,7 @@
               "reloadTimeMult": 1.5
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "explosionEvent": "ammo_explosion_1"

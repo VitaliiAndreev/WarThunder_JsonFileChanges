@@ -22,7 +22,7 @@
     "detonationDepth": 1.0,
     "caliber": 0.533,
     "mass": 1778.0,
-    "explosiveType": "tnt",
+    "explosiveType": "sw_39a",
     "explosiveMass": 200.0,
     "dragCx": 0.24,
     "startSpeed": 20.0,

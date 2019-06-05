@@ -2848,68 +2848,100 @@
       "modRequired": true
     },
     "elevator_01_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_02_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_03_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_04_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_05_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_06_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_07_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_08_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_09_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_10_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_11_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_12_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_13_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_14_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_15_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "elevator_16_dm": {
-      "speed": 5.0,
-      "completely": true
+      "speed": 20.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.85
     },
     "torpedo_01_dm": {
       "speed": 5.0,

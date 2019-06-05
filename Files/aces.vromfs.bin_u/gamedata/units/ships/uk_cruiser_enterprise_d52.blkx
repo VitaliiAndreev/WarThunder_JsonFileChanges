@@ -9980,7 +9980,7 @@
               "reloadTimeMult": 0.83
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -10013,7 +10013,7 @@
               "reloadTimeMult": 0.83
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -10041,7 +10041,7 @@
       "ammo2": {
         "weaponTrigger": "gunner1",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
@@ -10052,7 +10052,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
           "elevator": "elevator_03_dm",
@@ -10065,7 +10065,7 @@
       "ammo3": {
         "weaponTrigger": "gunner2",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
@@ -10076,7 +10076,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
           "elevator": "elevator_03_dm",
@@ -10089,7 +10089,7 @@
       "ammo4": {
         "weaponTrigger": "gunner3",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
@@ -10100,7 +10100,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
           "elevator": "elevator_04_dm",
@@ -10113,7 +10113,7 @@
       "ammo5": {
         "weaponTrigger": "gunner4",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_3",
           "fireEvent": "ammo_fire_3",
@@ -10124,7 +10124,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_3",
           "fireEvent": "ammo_fire_3",
           "elevator": "elevator_05_dm",
@@ -10137,7 +10137,7 @@
       "ammo6": {
         "weaponTrigger": "gunner5",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_3",
           "fireEvent": "ammo_fire_3",
@@ -10148,7 +10148,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_3",
           "fireEvent": "ammo_fire_3",
           "elevator": "elevator_06_dm",

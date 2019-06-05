@@ -12,7 +12,7 @@
   "bEnablePause": false,
   "bullets": 900,
   "bulletsCluster": 1,
-  "reloadTime": 2.5,
+  "reloadTime": 2.0,
   "bulletsCartridge": 30,
   "aimMinDist": 0.05,
   "aimMaxDist": 2000.0,

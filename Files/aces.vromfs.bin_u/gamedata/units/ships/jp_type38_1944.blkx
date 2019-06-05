@@ -1948,7 +1948,7 @@
             "external": true
           },
           {
-            "blk": "gameData/Weapons/torpedoes/jp_torpedo_type44.blk"
+            "blk": "gameData/Weapons/torpedoes/jp_450mm_type2_torpedo.blk"
           },
           {
             "emitter": "bone_torpedo_01"
@@ -2018,7 +2018,7 @@
             "external": true
           },
           {
-            "blk": "gameData/Weapons/torpedoes/jp_torpedo_type44.blk"
+            "blk": "gameData/Weapons/torpedoes/jp_450mm_type2_torpedo.blk"
           },
           {
             "emitter": "bone_torpedo_02"

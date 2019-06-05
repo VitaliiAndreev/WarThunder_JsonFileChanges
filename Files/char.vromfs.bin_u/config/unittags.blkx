@@ -624,7 +624,7 @@
     },
     "tags": {
       "ally": true,
-      "country_usa": true,
+      "country_japan": true,
       "type_attack_helicopter": true,
       "western_front": true,
       "eastern_front": true,
@@ -3015,7 +3015,7 @@
     "releaseDate": "2019-05-28 00:00:00",
     "info": {
       "engine1_dm": {
-        "manufacturer": "alfa_romeo",
+        "manufacturer": "piaggio",
         "model": "p_xix_rc_45",
         "mass": 630.0
       },

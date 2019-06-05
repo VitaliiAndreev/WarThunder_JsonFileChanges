@@ -22,7 +22,7 @@
     "detonationDepth": 1.0,
     "caliber": 0.61,
     "mass": 2700.0,
-    "explosiveType": "tnt",
+    "explosiveType": "tp_97",
     "explosiveMass": 490.0,
     "dragCx": 0.24,
     "startPropulsionDelay": 0.1,

@@ -12278,7 +12278,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
@@ -12292,7 +12292,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_01_dm",
@@ -12333,7 +12333,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
@@ -12347,7 +12347,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_02_dm",
@@ -12388,7 +12388,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
@@ -12402,7 +12402,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_03_dm",
@@ -12460,7 +12460,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
@@ -12474,7 +12474,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_04_dm",
@@ -12532,7 +12532,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
@@ -12546,7 +12546,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "elevator": "elevator_05_dm",
@@ -12604,7 +12604,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
@@ -12618,7 +12618,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
             "elevator": "elevator_06_dm",
@@ -12676,7 +12676,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
@@ -12690,7 +12690,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
             "elevator": "elevator_07_dm",
@@ -12748,7 +12748,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
@@ -12762,7 +12762,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_2",
             "elevator": "elevator_07_dm",
@@ -12820,7 +12820,7 @@
         {
           "shells": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_3",
             "fireEvent": "ammo_fire_3",
@@ -12834,7 +12834,7 @@
         {
           "charges": {
             "reloadTimeMult": 0.919,
-            "fatalFire": false,
+            "fatalFire": true,
             "explosionEvent": "ammo_explosion_3",
             "fireEvent": "ammo_fire_3",
             "elevator": "elevator_07_dm",

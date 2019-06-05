@@ -6819,7 +6819,7 @@
               "reloadTimeMult": 0.6
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -6917,7 +6917,7 @@
               "reloadTimeMult": 0.6
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true

@@ -811,12 +811,7 @@
       "clan_medal_top50_historical": "clan_medal_bg_diff1;clan_medal_cup_c;clan_medal_top050;clan_medal_c_diff1_txt;clan_medal_c_season_txt",
       "clan_medal_top100_historical": "clan_medal_bg_diff1;clan_medal_cup_c;clan_medal_top100;clan_medal_c_diff1_txt;clan_medal_c_season_txt",
       "clan_medal_1000rating_arcade": "clan_medal_bg_diff0;clan_medal_rating;clan_medal_1000;clan_medal_s_diff0_txt;clan_medal_s_season_txt",
-      "clan_medal_1000rating_historical": "clan_medal_bg_diff1;clan_medal_rating;clan_medal_1000;clan_medal_s_diff1_txt;clan_medal_s_season_txt",
-      "clan_medal_wwar_place1": "clan_medal_ww_bg;clan_medal_ww_bin_g;clan_medal_ww_top001",
-      "clan_medal_wwar_place2": "clan_medal_ww_bg;clan_medal_ww_bin_s;clan_medal_ww_top002",
-      "clan_medal_wwar_place3": "clan_medal_ww_bg;clan_medal_ww_bin_c;clan_medal_ww_top003",
-      "clan_medal_wwar_top10": "clan_medal_ww_bg;clan_medal_ww_bin_i;clan_medal_ww_top010",
-      "clan_medal_wwar_top50": "clan_medal_ww_bg;clan_medal_ww_bin_i;clan_medal_ww_top050"
+      "clan_medal_1000rating_historical": "clan_medal_bg_diff1;clan_medal_rating;clan_medal_1000;clan_medal_s_diff1_txt;clan_medal_s_season_txt"
     },
     "layers": {
       "default_unlocked": {
@@ -3527,47 +3522,47 @@
       "clan_medal_ww_bg": {
         "img": "!#ui/gameuiskin#ww_bg_recon_fire.png"
       },
-      "clan_medal_ww_bin_g": {
+      "clan_medal_ww_recon_fire_bin_place1": {
         "img": "!#ui/gameuiskin#ww_recon_fire1.png"
       },
-      "clan_medal_ww_bin_s": {
+      "clan_medal_ww_recon_fire_bin_place2": {
         "img": "!#ui/gameuiskin#ww_recon_fire2.png"
       },
-      "clan_medal_ww_bin_c": {
+      "clan_medal_ww_recon_fire_bin_place3": {
         "img": "!#ui/gameuiskin#ww_recon_fire3.png"
       },
-      "clan_medal_ww_bin_i": {
+      "clan_medal_ww_recon_fire_bin_rating": {
         "img": "!#ui/gameuiskin#ww_recon_fire_rating1.png"
       },
-      "clan_medal_ww_top001": {
+      "clan_medal_ww_place1": {
         "w": 0.42,
         "h": 0.17,
         "x": 0.28,
         "y": 0.68,
         "img": "!#ui/gameuiskin#ww_top001.png"
       },
-      "clan_medal_ww_top002": {
+      "clan_medal_ww_place2": {
         "w": 0.42,
         "h": 0.17,
         "x": 0.28,
         "y": 0.68,
         "img": "!#ui/gameuiskin#ww_top002.png"
       },
-      "clan_medal_ww_top003": {
+      "clan_medal_ww_place3": {
         "w": 0.42,
         "h": 0.17,
         "x": 0.28,
         "y": 0.68,
         "img": "!#ui/gameuiskin#ww_top003.png"
       },
-      "clan_medal_ww_top010": {
+      "clan_medal_ww_top10": {
         "w": 0.42,
         "h": 0.17,
         "x": 0.28,
         "y": 0.68,
         "img": "!#ui/gameuiskin#ww_top010.png"
       },
-      "clan_medal_ww_top050": {
+      "clan_medal_ww_top50": {
         "w": 0.42,
         "h": 0.17,
         "x": 0.28,

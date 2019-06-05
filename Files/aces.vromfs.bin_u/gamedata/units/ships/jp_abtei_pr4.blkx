@@ -1027,17 +1027,17 @@
         "CenterOfGravity": [-0.8,0.0,0.0]
       },
       "engines": {
-        "maxSpeed": 6.17,
-        "maxReverseSpeed": 2.5,
+        "maxSpeed": 7.2,
+        "maxReverseSpeed": 3.5,
         "speedToTime": [
           {
             "row": [1.5,1.9]
           },
           {
-            "row": [3.0,6.3]
+            "row": [3.0,5.9]
           },
           {
-            "row": [6.17,10.4]
+            "row": [7.2,8.1]
           }
         ],
         "reverseSpeedToTime": [
@@ -1045,10 +1045,10 @@
             "row": [1.0,0.9]
           },
           {
-            "row": [2.0,2.2]
+            "row": [2.0,1.7]
           },
           {
-            "row": [2.5,4.9]
+            "row": [3.5,3.9]
           }
         ],
         "engine": {
@@ -2685,7 +2685,7 @@
             "trigger": "gunner1"
           },
           {
-            "triggerGroup": "machinegun"
+            "triggerGroup": "secondary"
           },
           {
             "blk": "gameData/Weapons/navalModels_weapons/7_7mm_80_type_92_naval_user_machinegun.blk"
@@ -2827,7 +2827,7 @@
             "trigger": "gunner2"
           },
           {
-            "triggerGroup": "machinegun"
+            "triggerGroup": "secondary"
           },
           {
             "blk": "gameData/Weapons/navalModels_weapons/7_7mm_80_type_92_naval_user_machinegun.blk"

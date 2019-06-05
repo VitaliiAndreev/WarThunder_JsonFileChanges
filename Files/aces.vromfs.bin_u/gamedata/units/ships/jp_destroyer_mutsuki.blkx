@@ -4166,13 +4166,13 @@
             "external": true
           },
           {
-            "blk": "gameData/Weapons/torpedoes/jp_torpedo_610mm_type93.blk"
+            "blk": "gameData/Weapons/torpedoes/jp_610mm_type90_torpedo.blk"
           },
           {
             "emitter": "bone_torpedo_01"
           },
           {
-            "bullets": 5
+            "bullets": 6
           },
           {
             "useEmitter": true
@@ -4242,13 +4242,13 @@
             "external": true
           },
           {
-            "blk": "gameData/Weapons/torpedoes/jp_torpedo_610mm_type93.blk"
+            "blk": "gameData/Weapons/torpedoes/jp_610mm_type90_torpedo.blk"
           },
           {
             "emitter": "bone_torpedo_04"
           },
           {
-            "bullets": 5
+            "bullets": 6
           },
           {
             "useEmitter": true
@@ -4414,7 +4414,13 @@
         "reqModification": "new_aux_caliber_turrets"
       },
       "ship_rangefinder": [],
-      "ship_bomb_mortar": []
+      "ship_bomb_mortar": [],
+      "torpedoes_movement_mode": {
+        "effects": {
+          "distToLive": 8000.0,
+          "maxSpeedInWater": -5.66
+        }
+      }
     }
   },
   {

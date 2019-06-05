@@ -4084,7 +4084,7 @@
           "trigger": "gunner5",
           "triggerGroup": "torpedoes",
           "external": true,
-          "blk": "gameData/Weapons/torpedoes/jp_torpedo_610mm_type93.blk",
+          "blk": "gameData/Weapons/torpedoes/jp_610mm_type90_torpedo.blk",
           "emitter": "bone_torpedo_01",
           "bullets": 3,
           "useEmitter": true,
@@ -4116,7 +4116,7 @@
           "trigger": "gunner6",
           "triggerGroup": "torpedoes",
           "external": true,
-          "blk": "gameData/Weapons/torpedoes/jp_torpedo_610mm_type93.blk",
+          "blk": "gameData/Weapons/torpedoes/jp_610mm_type90_torpedo.blk",
           "emitter": "bone_torpedo_05",
           "bullets": 3,
           "useEmitter": true,
@@ -4148,7 +4148,7 @@
           "trigger": "gunner7",
           "triggerGroup": "torpedoes",
           "external": true,
-          "blk": "gameData/Weapons/torpedoes/jp_torpedo_610mm_type93.blk",
+          "blk": "gameData/Weapons/torpedoes/jp_610mm_type90_torpedo.blk",
           "emitter": "bone_torpedo_09",
           "bullets": 3,
           "useEmitter": true,
@@ -4282,6 +4282,12 @@
       },
       "ship_rangefinder": {
         "prevModification": "13mm_type93_naval_apt_ammo_pack"
+      },
+      "torpedoes_movement_mode": {
+        "effects": {
+          "distToLive": 8000.0,
+          "maxSpeedInWater": -5.66
+        }
       },
       "ship_bomb_mortar": []
     }

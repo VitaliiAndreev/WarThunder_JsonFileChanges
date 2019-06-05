@@ -7289,7 +7289,7 @@
       "ammo1": {
         "weaponTrigger": "gunner0",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
@@ -7300,7 +7300,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
           "elevator": "elevator_01_dm",
@@ -7313,7 +7313,7 @@
       "ammo2": {
         "weaponTrigger": "gunner1",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
@@ -7324,7 +7324,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
           "elevator": "elevator_01_dm",
@@ -7337,7 +7337,7 @@
       "ammo3": {
         "weaponTrigger": "gunner2",
         "shells": {
-          "fatalFire": false,
+          "fatalFire": true,
           "fatalExplosion": true,
           "explosionEvent": "ammo_explosion_2",
           "fireEvent": "ammo_fire_2",
@@ -7348,7 +7348,7 @@
           }
         },
         "charges": {
-          "fatalFire": false,
+          "fatalFire": true,
           "explosionEvent": "ammo_explosion_1",
           "fireEvent": "ammo_fire_1",
           "elevator": "elevator_01_dm",
@@ -7380,7 +7380,7 @@
         {
           "shells": {
             "fatalFire": false,
-            "fatalExplosion": false,
+            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "ammunition_storage_06_dm": {
@@ -7423,7 +7423,7 @@
         {
           "shells": {
             "fatalFire": false,
-            "fatalExplosion": false,
+            "fatalExplosion": true,
             "explosionEvent": "ammo_explosion_1",
             "fireEvent": "ammo_fire_1",
             "ammunition_storage_05_dm": {

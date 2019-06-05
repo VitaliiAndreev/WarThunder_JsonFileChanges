@@ -2151,7 +2151,7 @@
             "allowableDelta": 4.0
           },
           {
-            "bullets": 24
+            "bullets": 72
           },
           {
             "allowableDelta": 2.0
@@ -2993,7 +2993,117 @@
             "count": 2000
           }
         }
-      }
+      },
+      "ammo3": [
+        {
+          "weaponTrigger": "gunner2"
+        },
+        {
+          "replenishmentTime": 10.0
+        },
+        {
+          "replenishmentDelay": 5.0
+        },
+        {
+          "removeLoadedAmmo": false
+        },
+        {
+          "fatalFire": false
+        },
+        {
+          "fatalExplosion": true
+        },
+        {
+          "explosionEvent": "ammo_explosion_1"
+        },
+        {
+          "fireEvent": "ammo_fire_1"
+        },
+        {
+          "shells": {
+            "autoLoad": true,
+            "ammo_turret_01_dm": {
+              "count": 1
+            },
+            "ammo_turret_02_dm": {
+              "count": 1
+            },
+            "ammo_turret_03_dm": {
+              "count": 1
+            },
+            "ammo_turret_04_dm": {
+              "count": 1
+            },
+            "ammo_turret_05_dm": {
+              "count": 1
+            },
+            "ammo_turret_06_dm": {
+              "count": 1
+            },
+            "ammo_turret_07_dm": {
+              "count": 1
+            },
+            "ammo_turret_08_dm": {
+              "count": 1
+            },
+            "ammo_turret_09_dm": {
+              "count": 1
+            },
+            "ammo_turret_10_dm": {
+              "count": 1
+            },
+            "ammo_turret_11_dm": {
+              "count": 1
+            },
+            "ammo_turret_12_dm": {
+              "count": 1
+            },
+            "ammo_turret_13_dm": {
+              "count": 1
+            },
+            "ammo_turret_14_dm": {
+              "count": 1
+            },
+            "ammo_turret_15_dm": {
+              "count": 1
+            },
+            "ammo_turret_16_dm": {
+              "count": 1
+            },
+            "ammo_turret_17_dm": {
+              "count": 1
+            },
+            "ammo_turret_18_dm": {
+              "count": 1
+            },
+            "ammo_turret_19_dm": {
+              "count": 1
+            },
+            "ammo_turret_20_dm": {
+              "count": 1
+            },
+            "ammo_turret_21_dm": {
+              "count": 1
+            },
+            "ammo_turret_22_dm": {
+              "count": 1
+            },
+            "ammo_turret_23_dm": {
+              "count": 1
+            },
+            "ammo_turret_24_dm": {
+              "count": 1
+            }
+          }
+        },
+        {
+          "shells": {
+            "ammunition_storage_01_dm": {
+              "count": 48
+            }
+          }
+        }
+      ]
     }
   },
   {

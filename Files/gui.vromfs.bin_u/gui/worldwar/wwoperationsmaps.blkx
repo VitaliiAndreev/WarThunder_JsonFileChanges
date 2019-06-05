@@ -118,7 +118,7 @@
             "id": "ww_map_description_timer",
             "behavior": "Timer",
             "timer_handler_func": "onTimerDescriptionUpdate",
-            "timer_interval_msec": "1000"
+            "timer_interval_msec": "250"
           }
         }
       ]
@@ -331,6 +331,26 @@
                     "id": "queues_wait_timer",
                     "behaviour": "Timer",
                     "timer_handler_func": "onTimerQueuesWaitTime",
+                    "timer_interval_msec": "250"
+                  }
+                }
+              },
+              {
+                "tdiv": {
+                  "id": "begin_map_wait_time_div",
+                  "pos": "0, ph/2-h/2",
+                  "position": "relative",
+                  "padding-right": "1@blockInterval",
+                  "display": "hide",
+                  "activeText": {
+                    "id": "begin_map_wait_time_text",
+                    "hideEmptyText": "yes",
+                    "text": ""
+                  },
+                  "dummy": {
+                    "id": "begin_map_wait_timer",
+                    "behaviour": "Timer",
+                    "timer_handler_func": "onTimerBeginMapWaitTime",
                     "timer_interval_msec": "250"
                   }
                 }

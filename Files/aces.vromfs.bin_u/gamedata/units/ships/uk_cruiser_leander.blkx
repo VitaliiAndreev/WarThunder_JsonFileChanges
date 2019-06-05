@@ -8423,9 +8423,7 @@
               "compartment_05_dm": [],
               "compartment_06_dm": [],
               "compartment_07_dm": [],
-              "compartment_08_dm": [],
-              "compartment_09_dm": [],
-              "compartment_10_dm": []
+              "compartment_08_dm": []
             }
           }
         }
@@ -8442,9 +8440,7 @@
               "compartment_05_dm": [],
               "compartment_06_dm": [],
               "compartment_07_dm": [],
-              "compartment_08_dm": [],
-              "compartment_09_dm": [],
-              "compartment_10_dm": []
+              "compartment_08_dm": []
             }
           }
         }
@@ -8543,7 +8539,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -8579,7 +8575,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -8640,7 +8636,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -8676,7 +8672,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "explosionEvent": "ammo_explosion_1"
@@ -8737,7 +8733,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -8774,6 +8770,9 @@
             },
             {
               "explosionEvent": "ammo_explosion_3"
+            },
+            {
+              "fatalFire": true
             },
             {
               "fireEvent": "ammo_fire_3"
@@ -8831,7 +8830,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "fatalExplosion": true
@@ -8867,7 +8866,7 @@
               "reloadTimeMult": 0.9
             },
             {
-              "fatalFire": false
+              "fatalFire": true
             },
             {
               "explosionEvent": "ammo_explosion_3"
