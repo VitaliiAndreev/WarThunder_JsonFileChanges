@@ -3217,6 +3217,102 @@
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
+    "tt_05_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_06_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_07_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_08_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_09_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_10_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_11_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_12_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_13_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_14_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_15_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_16_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_17_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_18_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_19_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "tt_20_dm": {
+      "speed": 3.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
     "mg_01_dm": {
       "speed": 1.0,
       "completely": true,

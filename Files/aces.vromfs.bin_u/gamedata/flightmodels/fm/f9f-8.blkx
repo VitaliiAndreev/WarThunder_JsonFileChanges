@@ -55,7 +55,7 @@
   "AllowModsToChangeLongidutialBalance": false,
   "ArcadeRollCorrectionMultiplier": 15.0,
   "ArcadeMaxRollCoeff": 0.6,
-  "ArcadeYawMutilpliers": [1.2,4.0,2.0],
+  "ArcadeYawMutilpliers": [2.0,1.2,1.0],
   "AvailableControls": [
     {
       "hasAileronControl": true
@@ -162,8 +162,8 @@
     "Keel": 6.8,
     "Rudder": 4.24,
     "Fuselage": [0.7,0.1,0.0],
-    "LeftStab": [-6.2,0.2,1.0],
-    "RightStab": [-6.2,0.2,-1.0],
+    "LeftStab": [-6.2,1.5,1.0],
+    "RightStab": [-6.2,1.5,-1.0],
     "VertStab": [-5.6,1.5,0.0],
     "WingVWingFocusMultiplier": 0.0,
     "SineAOSMultiplier": -0.2
@@ -332,7 +332,7 @@
     },
     "Fin": {
       "OswaldsEfficiencyNumber": 0.5,
-      "lineClCoeff": 0.085,
+      "lineClCoeff": 0.055,
       "AfterCritParabAngle": 3.0,
       "AfterCritDeclineCoeff": 0.007,
       "AfterCritMaxDistanceAngle": 30.0,
@@ -370,10 +370,10 @@
       "MultLimit6": 0.0,
       "CombinedCl": true,
       "Cl0": 0.0,
-      "alphaCritHigh": 17.0,
-      "alphaCritLow": -17.0,
-      "ClCritHigh": 1.1,
-      "ClCritLow": -1.1,
+      "alphaCritHigh": 25.0,
+      "alphaCritLow": -25.0,
+      "ClCritHigh": 1.0,
+      "ClCritLow": -1.0,
       "CdMin": 0.007
     }
   },

@@ -2922,7 +2922,7 @@
         {
           "engine": {
             "pos": [-30.5,-1.7,1.55],
-            "outputParam": "propeller_rotate_01:CRS",
+            "outputParam": "propeller_rotate_02:CRS",
             "engineDmPart": "engine_room_01_dm",
             "transmissionDmPart": "transmission_01_dm",
             "propeller": "propeller_02"
@@ -2931,7 +2931,7 @@
         {
           "engine": {
             "pos": [-30.5,-1.7,-1.55],
-            "outputParam": "propeller_rotate_02:CRS",
+            "outputParam": "propeller_rotate_01:CRS",
             "engineDmPart": "engine_room_02_dm",
             "transmissionDmPart": "transmission_02_dm",
             "propeller": "propeller_01"

@@ -641,22 +641,22 @@
       "hidableInViewer": false,
       "hull": {
         "body_top_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "body_front_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "superstructure_front_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "superstructure_bottom_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "superstructure_side_dm": {
           "armorThickness": 30.0
         },
         "body_side_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "superstructure_top_dm": {
           "armorThickness": 15.0,
@@ -672,7 +672,7 @@
           "armorThickness": 10.0
         },
         "body_back_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "turret_01_back_dm": {
           "armorThickness": 15.0
@@ -686,7 +686,7 @@
           "armorClass": "RHA_tank"
         },
         "ex_armor_l_01_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "ex_armor_l_02_dm": {
           "armorThickness": 7.5
@@ -697,7 +697,7 @@
           "hidableInViewer": true
         },
         "ex_armor_r_01_dm": {
-          "armorThickness": 1.0
+          "armorThickness": 5.0
         },
         "ex_armor_r_02_dm": {
           "armorThickness": 7.5
