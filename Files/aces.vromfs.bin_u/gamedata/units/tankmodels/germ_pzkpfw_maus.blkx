@@ -2619,9 +2619,9 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 29.0,
-      "zoomInFov": 24.7,
-      "sightFov": 18.0,
+      "zoomOutFov": 8.0,
+      "zoomInFov": 7.37,
+      "sightFov": 6.5,
       "sightName": "twz_f1",
       "headPos": [0.0,5.0,-9.5],
       "headPosOnShooting": [-1.7,3.9,0.45],

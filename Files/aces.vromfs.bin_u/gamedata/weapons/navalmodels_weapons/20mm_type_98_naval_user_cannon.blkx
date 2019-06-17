@@ -37,9 +37,9 @@
   "reload_sound_keyoff_timer": 2.0,
   "bullet": {
     "bulletCount": 10,
-    "mass": 0.123,
-    "explosiveType": "tetryl",
-    "explosiveMass": 0.0045,
+    "mass": 0.127,
+    "explosiveType": "pentolite",
+    "explosiveMass": 0.0051,
     "caliber": 0.02,
     "bulletType": "he_frag_t",
     "speed": 844.0,
@@ -146,9 +146,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,
@@ -255,7 +255,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -315,9 +315,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,
@@ -424,7 +424,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -486,9 +486,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,
@@ -595,9 +595,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,
@@ -704,9 +704,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,
@@ -813,7 +813,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -875,7 +875,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -935,7 +935,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -995,7 +995,7 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.122,
+        "mass": 0.126,
         "caliber": 0.02,
         "speed": 844.0,
         "maxDistance": 4000.0,
@@ -1055,9 +1055,9 @@
     {
       "bullet": {
         "bulletCount": 10,
-        "mass": 0.123,
-        "explosiveType": "tetryl",
-        "explosiveMass": 0.0045,
+        "mass": 0.127,
+        "explosiveType": "pentolite",
+        "explosiveMass": 0.0051,
         "caliber": 0.02,
         "bulletType": "he_frag_t",
         "speed": 844.0,

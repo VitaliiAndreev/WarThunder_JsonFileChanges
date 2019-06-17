@@ -50696,7 +50696,7 @@
     "tags": {
       "country_usa": true,
       "tank": true,
-      "type_medium_tank": true,
+      "type_tank_destroyer": true,
       "type_missile_tank": true,
       "has_proximityFuse_rocket": true
     },
@@ -53802,7 +53802,7 @@
       "type_light_tank": true
     },
     "Shop": {
-      "armorThicknessHull": [14.0,14.0,14.0],
+      "armorThicknessHull": [30.0,14.0,14.0],
       "armorThicknessTurret": [28.0,28.0,28.0]
     }
   },
@@ -53814,6 +53814,10 @@
       "country_britain": true,
       "tank": true,
       "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [64.0,46.0,32.0],
+      "armorThicknessTurret": [64.0,51.0,44.0]
     }
   },
   "uk_sherman_vc_firefly": {
@@ -54064,6 +54068,10 @@
       "country_britain": true,
       "tank": true,
       "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [64.0,51.0,44.0],
+      "armorThicknessTurret": [76.2,32.0,38.0]
     }
   },
   "uk_a27m_cromwell_5_rp3": {
@@ -54287,8 +54295,8 @@
       "type_tank_destroyer": true
     },
     "Shop": {
-      "armorThicknessHull": [63.5,25.0,38.0],
-      "armorThicknessTurret": [63.5,40.0,40.0]
+      "armorThicknessHull": [64.0,46.0,38.0],
+      "armorThicknessTurret": [76.0,32.0,57.0]
     }
   },
   "uk_charioteer_mk_7": {
@@ -54520,8 +54528,8 @@
       "type_spaa": true
     },
     "Shop": {
-      "armorThicknessHull": [25.0,16.0,16.0],
-      "armorThicknessTurret": [31.0,25.0,25.0]
+      "armorThicknessHull": [31.0,25.0,14.0],
+      "armorThicknessTurret": [51.0,51.0,51.0]
     }
   },
   "uk_centaur_aa_mk_1": {
@@ -58871,7 +58879,7 @@
     "releaseDate": "2019-05-28 00:00:00",
     "tags": {
       "country_japan": true,
-      "type_submarine_chaser": true,
+      "type_armored_boat": true,
       "type_heavy_boat": true,
       "ship": true,
       "boat": true,

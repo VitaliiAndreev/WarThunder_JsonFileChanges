@@ -1784,8 +1784,8 @@
       },
       "tracks_ext": {
         "armorClass": "tank_traks",
-        "armorThickness": 18.0,
-        "hp": 250.0,
+        "armorThickness": 20.0,
+        "hp": 200.0,
         "ex_armor_turret_l_01_dm": [],
         "ex_armor_turret_l_02_dm": [],
         "ex_armor_turret_l_03_dm": [],

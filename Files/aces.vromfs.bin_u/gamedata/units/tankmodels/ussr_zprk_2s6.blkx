@@ -108,9 +108,6 @@
     "type": "typeSPAA"
   },
   {
-    "cruiseVelocity": 5.0
-  },
-  {
     "drowningCheckHeightMultiplier": 0.45
   },
   {
@@ -2165,7 +2162,7 @@
           "ammoDpGenFmt": "ammo_turret_%02d_dm",
           "recoilMultiplier": 0.1,
           "stopForFire": true,
-          "maxSpeedForFire": 0.1,
+          "maxSpeedForFire": 1.0,
           "createGunEffects": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,

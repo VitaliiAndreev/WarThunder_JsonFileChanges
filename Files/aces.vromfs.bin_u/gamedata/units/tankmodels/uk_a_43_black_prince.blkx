@@ -163,6 +163,12 @@
         },
         "turret_top_dm": {
           "armorThickness": 18.0
+        },
+        "turret_back_dm": {
+          "armorThickness": 101.0
+        },
+        "turret_side_dm": {
+          "armorThickness": 95.0
         }
       },
       "mask": {
@@ -177,9 +183,6 @@
         "gun_mask_shield_dm": {
           "armorThickness": 10.0
         },
-        "turret_side_dm": {
-          "armorThickness": 95.0
-        },
         "turret_02_front_dm": {
           "armorThickness": 50.0
         },
@@ -188,9 +191,6 @@
         },
         "turret_02_side_dm": {
           "armorThickness": 95.0
-        },
-        "turret_back_dm": {
-          "armorThickness": 101.0
         },
         "turret_commander_dm": {
           "armorThickness": 100.0

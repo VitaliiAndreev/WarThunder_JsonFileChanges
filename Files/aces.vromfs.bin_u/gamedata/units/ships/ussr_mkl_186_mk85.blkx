@@ -2335,7 +2335,7 @@
           "secondaryShatterDamageMult": 0.1
         },
         {
-          "armorThickness": 40.0
+          "armorThickness": 4.0
         },
         {
           "stopChanceOnDeadPart": 0.1
@@ -2461,7 +2461,6 @@
         }
       },
       "steering_gear": {
-        "armorThrough": 30.0,
         "fireProtectionHp": 5.0,
         "armorThickness": 10.0,
         "genericDamageMult": 1.0,
@@ -2473,7 +2472,6 @@
       },
       "pumps": {
         "armorClass": "armor_tank_engine",
-        "armorThrough": 30.0,
         "fireProtectionHp": 5.0,
         "armorThickness": 10.0,
         "genericDamageMult": 1.0,
@@ -2541,35 +2539,16 @@
         "armorClass": "ship_structural_steel",
         "fireParamsPreset": "ship_turrets",
         "armorThickness": 15.0,
-        "turret_02_top_dm": {
-          "hp": 250.0
-        },
-        "turret_02_bottom_dm": {
-          "armorClass": "ship_Wsh",
-          "armorThickness": 20.0,
-          "hp": 250.0
-        },
-        "turret_03_bottom_dm": {
-          "armorClass": "ship_Wsh",
-          "armorThickness": 20.0,
-          "hp": 250.0
-        },
-        "turret_01_side_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 55.0,
-          "hp": 250.0
-        },
         "turret_04_side_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 55.0,
           "hp": 250.0
         },
         "turret_01_front_dm": {
-          "armorClass": "ship_RHA",
-          "armorThickness": 30.0,
           "hp": 250.0
         },
         "turret_04_front_dm": {
+          "hp": 250.0
+        },
+        "turret_01_side_dm": {
           "armorClass": "ship_RHA",
           "armorThickness": 30.0,
           "hp": 250.0
@@ -2578,11 +2557,26 @@
           "armorClass": "ship_RHA",
           "armorThickness": 20.0,
           "hp": 250.0
+        },
+        "turret_02_top_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 20.0,
+          "hp": 250.0
+        },
+        "turret_02_bottom_dm": {
+          "armorClass": "ship_RHA",
+          "armorThickness": 55.0,
+          "hp": 250.0
+        },
+        "turret_03_bottom_dm": {
+          "armorClass": "ship_Wsh",
+          "armorThickness": 20.0,
+          "hp": 250.0
         }
       },
       "turrets_main_caliber": {
-        "armorClass": "ship_RHA",
-        "armorThickness": 30.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 1.0,
         "fireParamsPreset": "ship_turrets",
         "genericDamageMult": 1.4,
         "shatterDamageMult": 1.8,
@@ -2684,8 +2678,7 @@
         }
       },
       "explosives_mounts": {
-        "armorThickness": 10.0,
-        "armorThrough": 15.0,
+        "armorThickness": 3.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_turrets",
         "genericDamageMult": 1.0,
@@ -2700,14 +2693,10 @@
         }
       },
       "fuel_tanks": {
-        "armorThickness": 5.0,
+        "armorClass": "ships_oil_fuel_tank",
+        "armorThickness": 4.0,
         "armorThrough": 50.0,
-        "fireProtectionHp": 15.0,
         "fireParamsPreset": "ship_fuel_tank",
-        "genericDamageMult": 1.0,
-        "shatterDamageMult": 1.5,
-        "explosionDamageMult": 2.0,
-        "secondaryShatterDamageMult": 1.0,
         "fuel_tank_01_dm": {
           "hp": 100.0
         },
@@ -2716,8 +2705,7 @@
         }
       },
       "ammo": {
-        "armorThickness": 20.0,
-        "armorThrough": 15.0,
+        "armorThickness": 2.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
         "armorClass": "ship_structural_steel",
@@ -2737,7 +2725,6 @@
       },
       "depth_charges": {
         "armorThickness": 5.0,
-        "armorThrough": 15.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
         "genericDamageMult": 0.5,
@@ -2746,8 +2733,7 @@
         "secondaryShatterDamageMult": 0.1
       },
       "torpedos": {
-        "armorThickness": 20.0,
-        "armorThrough": 15.0,
+        "armorThickness": 2.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
         "genericDamageMult": 1.0,

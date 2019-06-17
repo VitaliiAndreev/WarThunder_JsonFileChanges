@@ -3564,7 +3564,6 @@
     },
     "20mm_shvak_navy_ap_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
-      "reqModification": "20mm_shvak_navy_he_ammo_pack",
       "tier": 2,
       "deactivationIsAllowed": false,
       "modClass": "firepower"
@@ -5091,7 +5090,6 @@
     },
     "30mm_mk_103_38_APCR_navy_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
-      "reqModification": "30mm_mk_103_38_AP_navy_ammo_pack",
       "tier": 2,
       "deactivationIsAllowed": false,
       "modClass": "firepower"
@@ -6059,6 +6057,14 @@
       "group": "12mm_AP",
       "effects": {
         "additiveBulletMod": "12mm_usa_M2HB_universal"
+      }
+    },
+    "12mm_usa_M2HB_common": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "isReserve": true,
+      "group": "12mm_AP",
+      "effects": {
+        "additiveBulletMod": "12mm_usa_M2HB_common"
       }
     },
     "14mm_ussr_KPVT_universal": {
@@ -7943,6 +7949,20 @@
         "additiveBulletMod": "40mm_uk_2pdr_APCBC"
       }
     },
+    "40mm_uk_2pdr_APHE": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "40mm_uk_2pdr_APHE_ammo_pack",
+      "group": "40mm_AP",
+      "effects": {
+        "additiveBulletMod": "40mm_uk_2pdr_APHE"
+      }
+    },
+    "40mm_uk_2pdr_APHE_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 4,
+      "deactivationIsAllowed": false,
+      "modClass": "firepower"
+    },
     "40mm_uk_2pdr_APCBC_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
       "tier": 1,
@@ -7959,7 +7979,6 @@
     },
     "40mm_uk_2pdr_APHV_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
-      "reqModification": "40mm_uk_2pdr_APHV_ammo_pack",
       "tier": 2,
       "deactivationIsAllowed": false,
       "modClass": "firepower"
@@ -11585,6 +11604,20 @@
         "additiveBulletMod": "140mm_jp_1940_type0_naval_he"
       }
     },
+    "140mm_jp_1940_type1_naval_sap": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "140mm_jp_1940_type1_naval_sap_ammo_pack",
+      "group": "140mm_sap",
+      "effects": {
+        "additiveBulletMod": "140mm_jp_1940_type1_naval_sap"
+      }
+    },
+    "140mm_jp_1940_type1_naval_sap_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 1,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
+    },
     "140mm_jp_1940_type0_aa_distant_fuse_naval_he": {
       "image": "#ui/gameuiskin#he_frag_dist_fuse_ship",
       "reqModification": "140mm_jp_1940_type0_aa_distant_fuse_naval_he_ammo_pack",
@@ -11594,7 +11627,7 @@
       }
     },
     "140mm_jp_1940_type0_aa_distant_fuse_naval_he_ammo_pack": {
-      "image": "#ui/gameuiskin#tank_ammo",
+      "image": "#ui/gameuiskin#he_frag_dist_fuse_ship",
       "tier": 2,
       "modClass": "firepower",
       "deactivationIsAllowed": false
@@ -11609,31 +11642,17 @@
     },
     "140mm_jp_1940_mod1_naval_sap_ammo_pack": {
       "image": "#ui/gameuiskin#tank_ammo",
-      "tier": 1,
+      "tier": 3,
       "modClass": "firepower",
       "deactivationIsAllowed": false
     },
-    "152mm_jp_common_type4_navy_he": {
+    "152mm_jp_common_type4_navy_sap": {
       "image": "#ui/gameuiskin#tank_ammo",
       "isReserve": true,
-      "group": "152mm_he",
+      "group": "152mm_sap",
       "effects": {
-        "additiveBulletMod": "152mm_jp_common_type4_navy_he"
+        "additiveBulletMod": "152mm_jp_common_type4_navy_sap"
       }
-    },
-    "152mm_jp_common_type4_base_fuse_navy_he": {
-      "image": "#ui/gameuiskin#he_frag_base_fuse_tank",
-      "reqModification": "152mm_jp_common_type4_base_fuse_navy_he_ammo_pack",
-      "group": "152mm_he",
-      "effects": {
-        "additiveBulletMod": "152mm_jp_common_type4_base_fuse_navy_he"
-      }
-    },
-    "152mm_jp_common_type4_base_fuse_navy_he_ammo_pack": {
-      "image": "#ui/gameuiskin#he_frag_base_fuse_tank",
-      "tier": 1,
-      "modClass": "firepower",
-      "deactivationIsAllowed": false
     },
     "152mm_jp_common_type0_aa_navy_he": {
       "image": "#ui/gameuiskin#he_frag_dist_fuse_ship",
@@ -11645,7 +11664,7 @@
     },
     "152mm_jp_common_type0_aa_navy_he_ammo_pack": {
       "image": "#ui/gameuiskin#he_frag_dist_fuse_ship",
-      "tier": 2,
+      "tier": 1,
       "modClass": "firepower",
       "deactivationIsAllowed": false
     },

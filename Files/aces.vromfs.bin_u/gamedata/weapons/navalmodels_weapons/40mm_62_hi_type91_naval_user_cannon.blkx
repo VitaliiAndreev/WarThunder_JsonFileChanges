@@ -92,9 +92,9 @@
   {
     "bullet": {
       "bulletCount": 300,
-      "mass": 0.91,
+      "mass": 0.79,
       "explosiveType": "tnt",
-      "explosiveMass": 0.071,
+      "explosiveMass": 0.07,
       "caliber": 0.04,
       "speed": 600.0,
       "maxDistance": 5500.0,
@@ -224,9 +224,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -354,7 +354,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -480,9 +480,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -610,7 +610,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -740,9 +740,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -870,9 +870,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -1000,9 +1000,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -1130,7 +1130,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -1260,7 +1260,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -1386,7 +1386,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -1512,7 +1512,7 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.9,
+          "mass": 0.78,
           "caliber": 0.04,
           "speed": 600.0,
           "explosiveType": "tnt",
@@ -1638,9 +1638,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -1772,9 +1772,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -1904,9 +1904,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -2036,9 +2036,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,
@@ -2168,9 +2168,9 @@
       {
         "bullet": {
           "bulletCount": 300,
-          "mass": 0.91,
+          "mass": 0.79,
           "explosiveType": "tnt",
-          "explosiveMass": 0.071,
+          "explosiveMass": 0.07,
           "caliber": 0.04,
           "speed": 600.0,
           "maxDistance": 5500.0,

@@ -2076,41 +2076,38 @@
     "armorThrough": 1.0,
     "restrainDamage": 0.0,
     "shatterDamageMult": 0.85,
-    "shatterArmorQuality": 1.0,
-    "explosionArmorQuality": 1.0,
+    "genericArmorQuality": 0.9,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.0,
     "armorQuality": 1.0,
-    "createSecondaryShatters": false,
-    "genericArmorQuality": 0.9
+    "createSecondaryShatters": true,
+    "hidableInViewer": true
   },
   "ship_Wsh": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.0,
-    "shatterDamageMult": 1.0,
     "shatterArmorQuality": 0.85,
     "explosionArmorQuality": 0.7,
+    "genericArmorQuality": 1.1,
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.0,
     "armorQuality": 1.0,
     "createSecondaryShatters": true,
-    "genericArmorQuality": 1.1
+    "hidableInViewer": true
   },
   "ship_RHA": {
     "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.0,
-    "shatterArmorQuality": 1.0,
-    "explosionArmorQuality": 1.0,
-    "genericArmorQuality": 1.0,
     "ricochetAngle": 60.0,
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.2,
     "armorQuality": 1.0,
-    "createSecondaryShatters": true
+    "createSecondaryShatters": true,
+    "hidableInViewer": true
   },
   "ship_RGA": {
     "armorThickness": 1.0,
@@ -2123,7 +2120,30 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.0,
     "armorQuality": 1.0,
+    "createSecondaryShatters": false,
+    "hidableInViewer": true
+  },
+  "ships_oil_fuel_tank": {
+    "armorThickness": 1.0,
+    "armorThrough": 30.0,
+    "restrainDamage": 0.0,
+    "shatterArmorQuality": 2.5,
+    "explosionArmorQuality": 0.3,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.0,
     "createSecondaryShatters": false
+  },
+  "ships_coal_fuel_tank": {
+    "armorThickness": 1.0,
+    "armorThrough": 70.0,
+    "restrainDamage": 0.0,
+    "shatterArmorQuality": 3.0,
+    "explosionArmorQuality": 2.0,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.0,
+    "createSecondaryShatters": true
   },
   "gaijinium": {
     "armorThickness": 1.0,

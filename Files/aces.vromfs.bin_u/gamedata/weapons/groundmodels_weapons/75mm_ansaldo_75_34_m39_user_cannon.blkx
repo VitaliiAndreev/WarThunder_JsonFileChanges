@@ -27,7 +27,7 @@
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
   "bullet": {
-    "mass": 6.2,
+    "mass": 6.35,
     "explosiveType": "tnt",
     "explosiveMass": 0.27,
     "caliber": 0.075,
@@ -170,7 +170,7 @@
   },
   "75mm_75_32_APCBC": {
     "bullet": {
-      "mass": 6.2,
+      "mass": 6.35,
       "explosiveType": "tnt",
       "explosiveMass": 0.27,
       "caliber": 0.075,

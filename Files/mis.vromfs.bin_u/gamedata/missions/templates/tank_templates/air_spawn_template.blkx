@@ -1425,6 +1425,10 @@
             "var_value": "force_helicopter_pad_spawn",
             "value": true,
             "comparasion_func": "equal"
+          },
+          "gameWhenDifficulty": {
+            "difficulty": "arcade",
+            "is": "notEqual"
           }
         },
         "actions": {

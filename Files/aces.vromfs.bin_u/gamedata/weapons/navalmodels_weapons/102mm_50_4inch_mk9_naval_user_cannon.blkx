@@ -374,7 +374,7 @@
       "bulletName": "102mm_sp_common_mk16",
       "hitPowerMult": 55.0,
       "explodeTreshold": 5.0,
-      "fuseDelayDist": 0.0,
+      "fuseDelayDist": 5.0,
       "relativeVelArmorShift": [200.0,1000.0],
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_water_splash",

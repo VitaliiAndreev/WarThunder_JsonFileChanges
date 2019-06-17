@@ -378,7 +378,7 @@
       "bulletType": "apcbc_tank",
       "bulletName": "152mm_50_qf_mk5_navy_ap",
       "relativeVelArmorShift": [200.0,1000.0],
-      "fuseDelayDist": 20.0,
+      "fuseDelayDist": 9.0,
       "explodeTreshold": 10.0,
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_water_splash",

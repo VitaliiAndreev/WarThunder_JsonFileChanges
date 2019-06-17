@@ -331,12 +331,16 @@
         "wheel_r_top_03_dm": [],
         "submodule": {
           "armorClass": "tank_traks",
-          "armorThickness": 15.0,
+          "armorThickness": 20.0,
           "hp": 200.0,
           "ex_armor_r_02_dm": [],
-          "ex_armor_r_03_dm": [],
+          "ex_armor_r_03_dm": {
+            "armorThickness": 10.0
+          },
           "ex_armor_l_02_dm": [],
-          "ex_armor_l_03_dm": []
+          "ex_armor_l_03_dm": {
+            "armorThickness": 10.0
+          }
         }
       },
       "gun": {
@@ -3167,6 +3171,9 @@
                 },
                 {
                   "emitterGenFmt": "emtr_mortar_flame_%02d"
+                },
+                {
+                  "ignoreLoaderPenalty": true
                 },
                 {
                   "createGunEffects": true

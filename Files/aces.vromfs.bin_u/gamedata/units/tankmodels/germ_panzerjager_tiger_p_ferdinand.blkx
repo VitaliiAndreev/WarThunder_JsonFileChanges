@@ -2203,10 +2203,10 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 14.7,
-      "zoomInFov": 8.0,
-      "sightFov": 9.5,
-      "sightName": "zfl_zf_1a",
+      "zoomOutFov": 15.7,
+      "zoomInFov": 14.7,
+      "sightFov": 10.0,
+      "sightName": "sfl_zf_1a",
       "headPos": [0.0,4.5,-8.5],
       "headPosOnShooting": [-2.1,3.8,-0.45],
       "bone_turret": "",

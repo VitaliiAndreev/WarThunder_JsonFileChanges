@@ -587,9 +587,13 @@
         "ex_armor_05_dm": [],
         "ex_armor_06_dm": [],
         "ex_armor_07_dm": [],
-        "ex_decor_01_dm": {
-          "armorClass": "wood",
-          "armorThickness": 60.0
+        "timber": {
+          "armorClass": "ship_wood",
+          "armorThickness": 100.0,
+          "hp": 250.0,
+          "armorEffectiveThicknessMax": 100.0,
+          "hidableInViewer": true,
+          "ex_decor_01_dm": []
         },
         "ex_armor_02_dm": [],
         "ex_armor_09_dm": []

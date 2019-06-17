@@ -1333,22 +1333,8 @@
         "armorThickness": 2.0,
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
-        "fuel_tank_dm": [],
-        "fuel_tank_01_dm": [],
-        "fuel_tank_02_dm": [],
-        "fuel_tank_03_dm": [],
-        "fuel_tank_04_dm": [],
-        "fuel_tank_05_dm": [],
         "fuel_tank_r_01_dm": [],
-        "fuel_tank_r_02_dm": [],
-        "fuel_tank_r_03_dm": [],
-        "fuel_tank_r_04_dm": [],
-        "fuel_tank_r_05_dm": [],
-        "fuel_tank_l_01_dm": [],
-        "fuel_tank_l_02_dm": [],
-        "fuel_tank_l_03_dm": [],
-        "fuel_tank_l_04_dm": [],
-        "fuel_tank_l_05_dm": []
+        "fuel_tank_l_01_dm": []
       }
     }
   },
@@ -1748,7 +1734,7 @@
       "sightFov": 15.0,
       "sightName": "tsh_16",
       "headPos": [0.0,3.6,-7.5],
-      "headPosOnShooting": [-0.55,3.3,-0.45],
+      "headPosOnShooting": [0.1,3.3,-0.45],
       "detectionHeight": 2.735
     }
   },

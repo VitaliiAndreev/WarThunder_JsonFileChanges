@@ -304,11 +304,12 @@
           "armorThickness": 70.0
         }
       },
-      "era_turret_hull": {
+      "era_turret_roof": {
         "armorClass": "uk_era_romor_a",
         "hp": 250.0,
         "armorThickness": 30.0,
-        "genericArmorQuality": 0.1,
+        "genericArmorQuality": 0.3,
+        "cumulativeArmorQuality": 8.9,
         "genericDamageMult": 3.0,
         "stopChanceOnDeadPart": 0.0,
         "hidableInViewer": true,
@@ -317,9 +318,29 @@
         "ex_era_turret_03_dm": [],
         "ex_era_turret_04_dm": [],
         "ex_era_turret_05_dm": [],
-        "ex_era_turret_06_dm": [],
+        "ex_era_turret_06_dm": []
+      },
+      "era_turret_side": {
+        "armorClass": "uk_era_romor_a",
+        "hp": 250.0,
+        "armorThickness": 30.0,
+        "genericArmorQuality": 0.3,
+        "cumulativeArmorQuality": 8.0,
+        "genericDamageMult": 3.0,
+        "stopChanceOnDeadPart": 0.0,
+        "hidableInViewer": true,
         "ex_era_turret_07_dm": [],
-        "ex_era_turret_08_dm": [],
+        "ex_era_turret_08_dm": []
+      },
+      "era_hull_front": {
+        "armorClass": "uk_era_romor_a",
+        "hp": 250.0,
+        "armorThickness": 30.0,
+        "genericArmorQuality": 0.3,
+        "cumulativeArmorQuality": 8.9,
+        "genericDamageMult": 3.0,
+        "stopChanceOnDeadPart": 0.0,
+        "hidableInViewer": true,
         "ex_era_hull_01_dm": [],
         "ex_era_hull_02_dm": [],
         "ex_era_hull_03_dm": [],

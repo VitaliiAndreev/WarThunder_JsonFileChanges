@@ -28,7 +28,7 @@
   "notUseDefaultBulletInGui": true,
   "bullet": {
     "bulletCount": 40,
-    "mass": 0.67,
+    "mass": 0.7,
     "explosiveType": "tnt",
     "explosiveMass": 0.013,
     "caliber": 0.037,
@@ -171,7 +171,7 @@
   "37mm_type_94_APHE": {
     "bullet": {
       "bulletCount": 40,
-      "mass": 0.67,
+      "mass": 0.7,
       "explosiveType": "tnt",
       "explosiveMass": 0.013,
       "caliber": 0.037,

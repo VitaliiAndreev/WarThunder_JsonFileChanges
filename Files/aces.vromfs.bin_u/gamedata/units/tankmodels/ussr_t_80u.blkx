@@ -358,6 +358,7 @@
         "hp": 250.0,
         "armorThickness": 20.0,
         "genericDamageMult": 3.0,
+        "cumulativeArmorQuality": 6.4,
         "stopChanceOnDeadPart": 0.0,
         "hidableInViewer": true,
         "hidableInXrayViewer": true,
@@ -449,9 +450,13 @@
         "ex_armor_body_l_10_dm": [],
         "ex_armor_body_r_09_dm": [],
         "ex_armor_body_l_09_dm": [],
-        "ex_armor_body_05_dm": {
-          "armorThickness": 150.0,
-          "armorClass": "wood"
+        "timber": {
+          "armorClass": "ship_wood",
+          "armorThickness": 100.0,
+          "hp": 250.0,
+          "armorEffectiveThicknessMax": 100.0,
+          "hidableInViewer": true,
+          "ex_armor_body_05_dm": []
         },
         "ex_armor_turret_01_dm": [],
         "ex_armor_turret_02_dm": [],
@@ -2846,7 +2851,7 @@
       "sightFov": 8.0,
       "sightName": "1g_46",
       "headPos": [0.0,3.5,-8.0],
-      "headPosOnShooting": [-0.3,3.1,0.6],
+      "headPosOnShooting": [-0.1,3.0,0.4],
       "detectionHeight": 2.3,
       "bone_turret": "bone_mg_aa_h_01"
     }

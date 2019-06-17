@@ -1088,11 +1088,6 @@
         "width": 0.65,
         "height": 0.08
       },
-      "engine": {
-        "horsePowers": 600.0,
-        "maxRPM": 2550.0,
-        "minRPM": 600.0
-      },
       "mechanics": {
         "maxBrakeForce": 160000.0,
         "driveGearRadius": 0.33,
@@ -1135,6 +1130,11 @@
       "collisionProps": {
         "cls_turret": "convex_hull",
         "cls_body": "convex_hull"
+      },
+      "engine": {
+        "horsePowers": 628.0,
+        "maxRPM": 2550.0,
+        "minRPM": 600.0
       }
     }
   },

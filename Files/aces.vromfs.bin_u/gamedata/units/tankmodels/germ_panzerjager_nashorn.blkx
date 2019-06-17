@@ -608,9 +608,9 @@
       },
       "hull_turret_ex_shields": {
         "armorClass": "tank_traks",
-        "armorThickness": 15.0,
+        "armorThickness": 20.0,
         "stopChanceOnDeadPart": 0.0,
-        "hp": 150.0,
+        "hp": 200.0,
         "ex_armor_01_dm": [],
         "ex_armor_02_dm": {
           "armorClass": "tank_steel_wheels",

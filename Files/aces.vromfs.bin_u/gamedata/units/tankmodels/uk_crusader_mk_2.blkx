@@ -2389,6 +2389,10 @@
         "image": "#ui/gameuiskin#tank_reinforcement_uk"
       },
       "40mm_uk_2pdr_APCBC": [],
+      "40mm_uk_2pdr_APHV": [],
+      "40mm_uk_2pdr_APHE": [],
+      "40mm_uk_2pdr_APHE_ammo_pack": [],
+      "40mm_uk_2pdr_APHV_ammo_pack": [],
       "40mm_uk_2pdr_APCBC_ammo_pack": [],
       "tank_smoke_screen_system_mod": {
         "tier": 4,

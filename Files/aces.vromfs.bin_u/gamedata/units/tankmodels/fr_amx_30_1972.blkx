@@ -1680,7 +1680,7 @@
           "speedYaw": 30.0,
           "speedPitch": 5.5,
           "fireConeAngle": 1.0,
-          "bullets": 50,
+          "bullets": 47,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -1822,7 +1822,7 @@
           "parkInDeadzone": false,
           "speedYaw": 30.0,
           "speedPitch": 20.0,
-          "bullets": 2000,
+          "bullets": 2050,
           "isBulletBelt": true,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -2497,58 +2497,25 @@
         {
           "shells": {
             "firstStage": true,
-            "ammo_turret_20_dm": {
-              "count": 1
-            },
-            "ammo_turret_19_dm": {
-              "count": 1
-            },
-            "ammo_turret_18_dm": {
-              "count": 1
-            },
-            "ammo_turret_17_dm": {
-              "count": 1
-            },
-            "ammo_turret_16_dm": {
-              "count": 1
-            },
-            "ammo_turret_15_dm": {
-              "count": 1
-            },
-            "ammo_turret_14_dm": {
-              "count": 1
-            },
-            "ammo_turret_21_dm": {
-              "count": 1
-            },
-            "ammo_turret_22_dm": {
-              "count": 1
-            },
-            "ammo_turret_12_dm": {
-              "count": 1
-            },
-            "ammo_turret_13_dm": {
-              "count": 1
-            },
-            "ammo_turret_07_dm": {
-              "count": 1
-            },
-            "ammo_turret_06_dm": {
-              "count": 1
-            },
-            "ammo_turret_05_dm": {
-              "count": 1
-            },
-            "ammo_turret_04_dm": {
-              "count": 1
-            },
-            "ammo_turret_03_dm": {
+            "ammo_turret_01_dm": {
               "count": 1
             },
             "ammo_turret_02_dm": {
               "count": 1
             },
-            "ammo_turret_01_dm": {
+            "ammo_turret_03_dm": {
+              "count": 1
+            },
+            "ammo_turret_04_dm": {
+              "count": 1
+            },
+            "ammo_turret_05_dm": {
+              "count": 1
+            },
+            "ammo_turret_06_dm": {
+              "count": 1
+            },
+            "ammo_turret_07_dm": {
               "count": 1
             },
             "ammo_turret_08_dm": {
@@ -2561,6 +2528,30 @@
               "count": 1
             },
             "ammo_turret_11_dm": {
+              "count": 1
+            },
+            "ammo_turret_12_dm": {
+              "count": 1
+            },
+            "ammo_turret_13_dm": {
+              "count": 1
+            },
+            "ammo_turret_14_dm": {
+              "count": 1
+            },
+            "ammo_turret_15_dm": {
+              "count": 1
+            },
+            "ammo_turret_16_dm": {
+              "count": 1
+            },
+            "ammo_turret_17_dm": {
+              "count": 1
+            },
+            "ammo_turret_18_dm": {
+              "count": 1
+            },
+            "ammo_turret_19_dm": {
               "count": 1
             }
           }
@@ -2696,7 +2687,7 @@
                 "speedYaw": 30.0,
                 "speedPitch": 5.5,
                 "fireConeAngle": 1.0,
-                "bullets": 50,
+                "bullets": 47,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -2838,7 +2829,7 @@
                 "parkInDeadzone": false,
                 "speedYaw": 30.0,
                 "speedPitch": 20.0,
-                "bullets": 2000,
+                "bullets": 2050,
                 "isBulletBelt": true,
                 "fireConeAngle": 15.0,
                 "ChainfireTime": 0.5,

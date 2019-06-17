@@ -426,7 +426,7 @@
       "vivoxEcho": "tamvchn://echo123"
     },
     {
-      "ircServer": "dev01lw-nl.warthunder.com:6667"
+      "ircServer": "chat-devstable.warthunder.com:443"
     },
     {
       "charServer": "https://char-dev-10.warthunder.com:10443/char"
@@ -491,7 +491,7 @@
       "vivoxEcho": "tamvchn://echo123"
     },
     {
-      "ircServer": "dev01lw-nl.warthunder.com:6668"
+      "ircServer": "chat-dev.warthunder.com:443"
     },
     {
       "charServer": "https://char-dev-12.warthunder.com:443/char"
@@ -1033,28 +1033,28 @@
   ],
   "china-test-4": [
     {
-      "matchServer": "183.2.176.220:7852"
+      "matchServer": "dxmgate01.warthunder.qq.com:7852"
     },
     {
-      "matchServer": "183.2.176.196:7852"
+      "matchServer": "dxmgate02.warthunder.qq.com:7852"
     },
     {
-      "ircServer": "183.2.176.219:12123"
+      "ircServer": "dxchat01.warthunder.qq.com:12123"
     },
     {
-      "ircServer": "14.215.139.214:12123"
+      "ircServer": "dxchat02.warthunder.qq.com:12123"
     },
     {
-      "chatNotificatorURL": "http://10.170.6.99:7000"
+      "chatNotificatorURL": "http://10.175.119.15:7000"
     },
     {
-      "charServer": "https://183.2.176.218:1443/char"
+      "charServer": "https://dxchar01.warthunder.qq.com:1443/char"
     },
     {
-      "charServer": "https://14.215.139.215:1443/char"
+      "charServer": "https://dxchar02.warthunder.qq.com:1443/char"
     },
     {
-      "charServer": "https://14.215.139.216:1443/char"
+      "charServer": "https://dxchar03.warthunder.qq.com:1443/char"
     },
     {
       "skinsDecalsCDN_useCommon": false
@@ -1088,25 +1088,25 @@
   ],
   "china-test-5": [
     {
-      "matchServer": "111.161.62.12:7852"
+      "matchServer": "wtmgate01.warthunder.qq.com:7852"
     },
     {
-      "matchServer": "111.161.54.37:7852"
+      "matchServer": "wtmgate02.warthunder.qq.com:7852"
     },
     {
-      "ircServer": "111.161.57.67:12123"
+      "ircServer": "wtchat01.warthunder.qq.com:12123"
     },
     {
-      "ircServer": "111.161.62.12:12123"
+      "ircServer": "wtchat02.warthunder.qq.com:12123"
     },
     {
-      "chatNotificatorURL": "http://10.170.6.99:7000"
+      "chatNotificatorURL": "http://10.171.94.11:7000"
     },
     {
-      "charServer": "https://111.161.57.67:1443/char"
+      "charServer": "https://wtchar01.warthunder.qq.com:1443/char"
     },
     {
-      "charServer": "https://111.161.62.12:1443/char"
+      "charServer": "https://wtchar02.warthunder.qq.com:1443/char"
     },
     {
       "skinsDecalsCDN_useCommon": false

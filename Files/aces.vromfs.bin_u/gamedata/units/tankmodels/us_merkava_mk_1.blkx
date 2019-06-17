@@ -2404,7 +2404,10 @@
       "tracks": {
         "animationMultiplier": 0.6,
         "height": 0.06,
-        "width": 0.55
+        "width": 0.55,
+        "fricFrontal": [1.0,1.0],
+        "criticalHillAngle": 27.0,
+        "hillClimbingDeclineFricKoef": 15.0
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -2412,15 +2415,16 @@
         "cls_body": "convex_hull"
       },
       "engine": {
-        "horsePowers": 963.0,
+        "horsePowers": 900.0,
         "maxRPM": 2400.0,
         "minRPM": 700.0
       },
       "mechanics": {
-        "maxBrakeForce": 240000.0,
+        "maxBrakeForce": 280000.0,
         "driveGearRadius": 0.3,
         "mainGearRatio": 1.372,
         "sideGearRatio": 1.0,
+        "neutralGearRatio": 40.0,
         "gearRatios": [
           {
             "ratio": -24.73
@@ -2447,7 +2451,7 @@
         "defaultGearRadius": 0.4,
         "frontBackGearRadius": 0.35,
         "topGearRadius": 0.13,
-        "defaultDampeningForce": [150000.0,150000.0],
+        "defaultDampeningForce": [300000.0,300000.0],
         "dampeningRelaxationRatio": 0.4,
         "dampeningCompressionRatio": 0.15
       }
@@ -2991,10 +2995,10 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 10.2,
-      "zoomInFov": 9.2,
-      "sightFov": 7.5,
-      "sightName": "telescope_m105c",
+      "zoomOutFov": 10.21,
+      "zoomInFov": 9.21,
+      "sightFov": 9.0,
+      "sightName": "merkava_sight",
       "headPos": [0.0,3.7,-7.3],
       "headPosOnShooting": [-1.5,3.35,0.36],
       "detectionHeight": 3.213,

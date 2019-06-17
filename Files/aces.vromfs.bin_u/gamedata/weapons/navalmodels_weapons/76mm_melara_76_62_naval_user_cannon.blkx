@@ -34,10 +34,10 @@
       "overheat": [9.0,0.0]
     },
     {
-      "overheat": [15.0,0.05]
+      "overheat": [20.0,0.05]
     },
     {
-      "overheat": [22.0,0.15]
+      "overheat": [30.0,0.2]
     }
   ],
   "bullet": {

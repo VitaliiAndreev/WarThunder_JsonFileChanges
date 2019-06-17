@@ -2248,22 +2248,6 @@
     {
       "preset": [
         {
-          "name": "sea_hawk_2x500lb_10x25lb_mk1_rockets"
-        },
-        {
-          "blk": "gameData/FlightModels/weaponPresets/sea_hawk_2x500lb_10x25lb_mk1_rockets.blk"
-        },
-        {
-          "reqModification": "sea_hawk_2x500lb"
-        },
-        {
-          "reqModification": "sea_hawk_25lb_rocket_ap_mk1"
-        }
-      ]
-    },
-    {
-      "preset": [
-        {
           "name": "sea_hawk_2x500lb_10x25lb_mk2_rockets"
         },
         {
@@ -2452,14 +2436,9 @@
       "tier": 4,
       "reqModification": "sea_hawk_4x500lb"
     },
-    "sea_hawk_25lb_rocket_ap_mk1": {
-      "modClass": "weapon",
-      "tier": 1
-    },
     "sea_hawk_25lb_rocket_ap_mk2": {
       "modClass": "weapon",
-      "tier": 2,
-      "reqModification": "sea_hawk_25lb_rocket_ap_mk1"
+      "tier": 2
     },
     "sea_hawk_60lb_rocket_mk1": {
       "modClass": "weapon",

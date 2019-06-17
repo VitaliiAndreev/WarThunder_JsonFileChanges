@@ -2585,9 +2585,9 @@
   },
   {
     "cockpit": {
-      "zoomOutFov": 10.0,
-      "zoomInFov": 7.3,
-      "sightFov": 6.0,
+      "zoomOutFov": 8.0,
+      "zoomInFov": 7.37,
+      "sightFov": 6.5,
       "sightName": "wzf_2_7",
       "headPos": [0.0,4.5,-8.5],
       "headPosOnShooting": [0.65,3.7,0.45],

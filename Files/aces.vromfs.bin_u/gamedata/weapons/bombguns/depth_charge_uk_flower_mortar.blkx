@@ -1,6 +1,6 @@
 {
   "bombGun": true,
-  "preset_cost": 0,
+  "preset_cost": 100,
   "shotFreq": 10.0,
   "sound": "weapon.bombgun",
   "reloadTime": 60.0,

@@ -1803,7 +1803,7 @@
           "speedYaw": 60.0,
           "speedPitch": 60.0,
           "fireConeAngle": 1.0,
-          "bullets": 900,
+          "bullets": 1500,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -2689,7 +2689,7 @@
                 "speedYaw": 60.0,
                 "speedPitch": 60.0,
                 "fireConeAngle": 1.0,
-                "bullets": 900,
+                "bullets": 1500,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,
@@ -3038,7 +3038,7 @@
   {
     "ammoStowages": {
       "ammo1": {
-        "removeLoadedAmmo": true,
+        "removeLoadedAmmo": false,
         "weaponTrigger": "gunner0",
         "fatalFire": true,
         "fatalExplosion": true,
@@ -3046,10 +3046,64 @@
         "replenishmentTime": 15.0,
         "shells": {
           "ammo_body_01_dm": {
-            "count": 300
+            "count": 60
           },
           "ammo_body_02_dm": {
-            "count": 300
+            "count": 60
+          },
+          "ammo_body_03_dm": {
+            "count": 60
+          },
+          "ammo_body_04_dm": {
+            "count": 60
+          },
+          "ammo_body_05_dm": {
+            "count": 60
+          },
+          "ammo_body_06_dm": {
+            "count": 60
+          },
+          "ammo_body_07_dm": {
+            "count": 60
+          },
+          "ammo_body_08_dm": {
+            "count": 60
+          },
+          "ammo_body_09_dm": {
+            "count": 60
+          },
+          "ammo_body_10_dm": {
+            "count": 60
+          },
+          "ammo_body_11_dm": {
+            "count": 60
+          },
+          "ammo_body_12_dm": {
+            "count": 60
+          },
+          "ammo_body_13_dm": {
+            "count": 60
+          },
+          "ammo_body_14_dm": {
+            "count": 60
+          },
+          "ammo_body_15_dm": {
+            "count": 60
+          },
+          "ammo_body_16_dm": {
+            "count": 60
+          },
+          "ammo_body_17_dm": {
+            "count": 60
+          },
+          "ammo_body_18_dm": {
+            "count": 60
+          },
+          "ammo_body_19_dm": {
+            "count": 60
+          },
+          "ammo_body_20_dm": {
+            "count": 60
           },
           "ammo_body_dm": {
             "count": 300

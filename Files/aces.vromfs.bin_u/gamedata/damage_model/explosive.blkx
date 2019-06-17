@@ -49,8 +49,8 @@
       "brisanceEquivalent": 1.0
     },
     "shimose": {
-      "strengthEquivalent": 1.0,
-      "brisanceEquivalent": 1.0
+      "strengthEquivalent": 0.94,
+      "brisanceEquivalent": 0.95
     },
     "torpex": {
       "strengthEquivalent": 1.6,
@@ -135,6 +135,10 @@
     "tnt": {
       "strengthEquivalent": 1.0,
       "brisanceEquivalent": 1.0
+    },
+    "tna": {
+      "strengthEquivalent": 0.95,
+      "brisanceEquivalent": 0.95
     },
     "picric_acid_tnt": {
       "strengthEquivalent": 0.98,

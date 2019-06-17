@@ -2903,10 +2903,9 @@
         "armorThickness": 4.0
       },
       "engine": {
-        "armorThrough": 30.0,
         "armorThickness": 5.0,
-        "genericDamageMult": 1.8,
-        "shatterDamageMult": 1.0,
+        "armorThrough": 30.0,
+        "genericDamageMult": 1.5,
         "secondaryShatterDamageMult": 0.05,
         "armorClass": "armor_tank_engine",
         "fireParamsPreset": "ship_engine",
@@ -2930,7 +2929,6 @@
         }
       },
       "steering_gear": {
-        "armorThrough": 30.0,
         "armorClass": "ship_structural_steel",
         "armorThickness": 10.0,
         "genericDamageMult": 1.0,
@@ -2942,7 +2940,6 @@
       },
       "pumps": {
         "armorClass": "ship_structural_steel",
-        "armorThrough": 30.0,
         "armorThickness": 5.0,
         "genericDamageMult": 1.0,
         "shatterDamageMult": 2.0,
@@ -3098,7 +3095,6 @@
         "armorThickness": 4.0
       },
       "explosives_mounts": {
-        "armorThrough": 15.0,
         "fireParamsPreset": "ship_turrets",
         "genericDamageMult": 1.0,
         "shatterDamageMult": 1.7,
@@ -3120,14 +3116,9 @@
         }
       },
       "fuel_tanks": {
-        "armorThickness": 5.0,
+        "armorClass": "ships_oil_fuel_tank",
+        "armorThickness": 3.0,
         "fireParamsPreset": "ship_fuel_tank",
-        "armorClass": "ship_structural_steel",
-        "genericDamageMult": 1.0,
-        "shatterDamageMult": 1.5,
-        "explosionDamageMult": 2.0,
-        "secondaryShatterDamageMult": 1.0,
-        "armorThrough": 10.0,
         "fuel_tank_01_dm": {
           "hp": 119.0
         },
@@ -3139,8 +3130,7 @@
         }
       },
       "ammo": {
-        "armorThrough": 15.0,
-        "fireProtectionHp": 20.0,
+        "fireProtectionHp": 2.0,
         "fireParamsPreset": "ship_ammo_fire",
         "armorClass": "ship_structural_steel",
         "genericDamageMult": 0.7,
@@ -3160,7 +3150,6 @@
       },
       "depth_charges": {
         "armorThickness": 5.0,
-        "armorThrough": 15.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
         "genericDamageMult": 0.5,
@@ -3182,8 +3171,7 @@
         }
       },
       "torpedos": {
-        "armorThickness": 10.0,
-        "armorThrough": 15.0,
+        "armorThickness": 2.0,
         "fireProtectionHp": 20.0,
         "fireParamsPreset": "ship_ammo_fire",
         "genericDamageMult": 1.0,
@@ -3268,7 +3256,7 @@
             "speedPitch": 35.0
           },
           {
-            "bullets": 1200
+            "bullets": 1120
           },
           {
             "allowableDelta": 2.0
@@ -3394,7 +3382,7 @@
             "speedPitch": 35.0
           },
           {
-            "bullets": 1200
+            "bullets": 1120
           },
           {
             "allowableDelta": 2.0
@@ -4697,7 +4685,7 @@
           "fireEvent": "ammo_fire_1",
           "explosionEvent": "ammo_explosion_1",
           "ammunition_storage_01_dm": {
-            "count": 1200
+            "count": 1120
           }
         }
       },
@@ -4737,7 +4725,7 @@
           "fireEvent": "ammo_fire_1",
           "explosionEvent": "ammo_explosion_1",
           "ammunition_storage_03_dm": {
-            "count": 1200
+            "count": 1120
           }
         }
       }

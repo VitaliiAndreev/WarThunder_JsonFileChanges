@@ -548,7 +548,7 @@
   },
   {
     "elevator_NN": {
-      "template": "elevator_#16#"
+      "template": "elevator_#20#"
     }
   },
   {
@@ -633,7 +633,7 @@
   },
   {
     "bulkhead_NN": {
-      "template": "bulkhead_#20#"
+      "template": "bulkhead_#40#"
     }
   },
   {
@@ -688,7 +688,7 @@
   },
   {
     "ex_armor_NN": {
-      "template": "ex_armor_#20#"
+      "template": "ex_armor_#30#"
     }
   },
   {

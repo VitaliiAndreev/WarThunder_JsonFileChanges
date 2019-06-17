@@ -377,7 +377,7 @@
       "bulletType": "sapbc_tank",
       "bulletName": "152mm_sc_mk27_ap",
       "relativeVelArmorShift": [200.0,1000.0],
-      "fuseDelayDist": 18.0,
+      "fuseDelayDist": 9.0,
       "explodeTreshold": 10.0,
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "120-203_water_splash",

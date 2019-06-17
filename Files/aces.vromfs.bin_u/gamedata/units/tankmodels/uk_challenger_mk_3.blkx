@@ -476,7 +476,7 @@
       },
       "era_shields": {
         "armorClass": "leopard_2a5_turret_nera",
-        "hp": 250.0,
+        "hp": 800.0,
         "armorThickness": 150.0,
         "armorEffectiveThicknessMax": 350.0,
         "genericArmorQuality": 0.1,
@@ -504,7 +504,8 @@
         "armorClass": "uk_era_romor_a",
         "hp": 250.0,
         "armorThickness": 30.0,
-        "genericArmorQuality": 0.1,
+        "genericArmorQuality": 0.3,
+        "cumulativeArmorQuality": 4.8,
         "genericDamageMult": 3.0,
         "stopChanceOnDeadPart": 0.0,
         "hidableInViewer": true,
@@ -2396,7 +2397,7 @@
             "fireConeAngle": 1.0
           },
           {
-            "bullets": 2300
+            "bullets": 2400
           },
           {
             "fireConeAngle": 15.0
@@ -2462,7 +2463,7 @@
           "parkInDeadzone": false,
           "speedYaw": 30.0,
           "speedPitch": 20.0,
-          "bullets": 2300,
+          "bullets": 3600,
           "isBulletBelt": true,
           "fireConeAngle": 15.0,
           "ChainfireTime": 0.5,
@@ -2512,7 +2513,10 @@
       "tracks": {
         "animationMultiplier": 0.62,
         "width": 0.61,
-        "height": 0.06
+        "height": 0.06,
+        "fricFrontal": [1.0,1.0],
+        "criticalHillAngle": 27.0,
+        "hillClimbingDeclineFricKoef": 15.0
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3292,7 +3296,7 @@
                   "fireConeAngle": 1.0
                 },
                 {
-                  "bullets": 2300
+                  "bullets": 2400
                 },
                 {
                   "fireConeAngle": 15.0
@@ -3358,7 +3362,7 @@
                 "parkInDeadzone": false,
                 "speedYaw": 30.0,
                 "speedPitch": 20.0,
-                "bullets": 2300,
+                "bullets": 3600,
                 "isBulletBelt": true,
                 "fireConeAngle": 15.0,
                 "ChainfireTime": 0.5,

@@ -27,7 +27,7 @@
   "isBulletBelt": false,
   "bullet": {
     "bulletCount": 40,
-    "mass": 0.67,
+    "mass": 0.7,
     "explosiveType": "tnt",
     "explosiveMass": 0.013,
     "caliber": 0.037,
