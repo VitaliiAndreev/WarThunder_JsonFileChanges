@@ -179,7 +179,7 @@
           ]
         },
         {
-          "unit_class": "us_mbt_70"
+          "unit_class": "us_m1_ip_abrams"
         },
         {
           "objLayer": 1
@@ -197,10 +197,10 @@
           "wayPoints": "direction04_01"
         },
         {
-          "weapons": "us_mbt_70_default"
+          "weapons": "us_m1_ip_abrams_default"
         },
         {
-          "bullets0": "152mm_usa_XM578E1_APDS_FS"
+          "bullets0": "105mm_usa_M774_APDS_FS"
         },
         {
           "bullets1": ""
@@ -260,7 +260,7 @@
           ]
         },
         {
-          "unit_class": "us_m1_abrams"
+          "unit_class": "us_m1a1_abrams"
         },
         {
           "objLayer": 1
@@ -278,10 +278,10 @@
           "wayPoints": "direction02_01"
         },
         {
-          "weapons": "us_m1_abrams_default"
+          "weapons": "us_m1a1_abrams_default"
         },
         {
-          "bullets0": "105mm_usa_M774_APDS_FS"
+          "bullets0": "120mm_NATO_APDS_FS"
         },
         {
           "bullets1": ""

@@ -179,7 +179,7 @@
           ]
         },
         {
-          "unit_class": "germ_leopard_2a4"
+          "unit_class": "germ_leopard_2a5"
         },
         {
           "objLayer": 1
@@ -197,10 +197,10 @@
           "wayPoints": "direction04_01"
         },
         {
-          "weapons": "germ_leopard_2a4_default"
+          "weapons": "germ_leopard_2a5_default"
         },
         {
-          "bullets0": "120mm_NATO_HEAT_FS"
+          "bullets0": "120mm_DM_APDS_FS"
         },
         {
           "bullets1": ""
@@ -260,7 +260,7 @@
           ]
         },
         {
-          "unit_class": "us_m1_abrams"
+          "unit_class": "us_m1a1_abrams"
         },
         {
           "objLayer": 1
@@ -278,10 +278,10 @@
           "wayPoints": "direction02_01"
         },
         {
-          "weapons": "us_m1_abrams_default"
+          "weapons": "us_m1a1_abrams_default"
         },
         {
-          "bullets0": "105mm_usa_M774_APDS_FS"
+          "bullets0": "120mm_NATO_APDS_FS"
         },
         {
           "bullets1": ""
@@ -341,7 +341,7 @@
           ]
         },
         {
-          "unit_class": "uk_chieftain_mk_10"
+          "unit_class": "uk_challenger_mk_3"
         },
         {
           "objLayer": 1
@@ -359,10 +359,10 @@
           "wayPoints": "direction04_01"
         },
         {
-          "weapons": "uk_chieftain_mk_10_default"
+          "weapons": "uk_challenger_mk_3_default"
         },
         {
-          "bullets0": "120mm_britain_L23_APDSFS"
+          "bullets0": "120mm_britain_L23A1_APDSFS"
         },
         {
           "bullets1": ""

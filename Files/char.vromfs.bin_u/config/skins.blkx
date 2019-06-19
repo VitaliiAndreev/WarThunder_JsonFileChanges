@@ -14074,6 +14074,10 @@
     "category": "tanks_france",
     "unlock": "fr_amx_30_super/fr_camo_winter_green_white"
   },
+  "fr_amx_30_super/ger_camo_carc": {
+    "category": "tanks_france",
+    "costGold": 200
+  },
   "fr_amx_40/fr_camo_desert_storm": {
     "category": "tanks_france",
     "costGold": 200

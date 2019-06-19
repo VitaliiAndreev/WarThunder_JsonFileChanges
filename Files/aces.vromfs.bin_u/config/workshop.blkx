@@ -232,7 +232,7 @@
   },
   "imperial_navy_i_exchange": {
     "locId": "workshop/imperial_navy_i",
-    "reqFeature": "debugWorkshopItemsExchange",
+    "reqFeature": "ConsolesWorkshopExchange",
     "items": [
       {
         "alwaysVisibleItem": 760114

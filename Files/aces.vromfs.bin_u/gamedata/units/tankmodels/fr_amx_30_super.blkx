@@ -3060,5 +3060,14 @@
         "to": "fr_camo_vert_olive_arme*"
       }
     }
+  },
+  {
+    "skin": {
+      "name": "ger_camo_carc",
+      "replace_tex": {
+        "from": "fr_camo_vert_olive_arme*",
+        "to": "ger_camo_carc*"
+      }
+    }
   }
 ]

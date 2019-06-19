@@ -179,7 +179,7 @@
           ]
         },
         {
-          "unit_class": "uk_chieftain_mk_10"
+          "unit_class": "uk_challenger_mk_3"
         },
         {
           "objLayer": 1
@@ -197,10 +197,10 @@
           "wayPoints": "direction04_01"
         },
         {
-          "weapons": "uk_chieftain_mk_10_default"
+          "weapons": "uk_challenger_mk_3_default"
         },
         {
-          "bullets0": "120mm_britain_L23_APDSFS"
+          "bullets0": "120mm_britain_L23A1_APDSFS"
         },
         {
           "bullets1": ""
@@ -260,7 +260,7 @@
           ]
         },
         {
-          "unit_class": "uk_challenger_1"
+          "unit_class": "uk_challenger_II"
         },
         {
           "objLayer": 1
@@ -278,10 +278,10 @@
           "wayPoints": "direction02_01"
         },
         {
-          "weapons": "uk_challenger_1_default"
+          "weapons": "uk_challenger_II_default"
         },
         {
-          "bullets0": "120mm_britain_L23A1_APDSFS"
+          "bullets0": "120mm_britain_L26_APDSFS"
         },
         {
           "bullets1": ""
@@ -341,7 +341,7 @@
           ]
         },
         {
-          "unit_class": "uk_conqueror_mk_2"
+          "unit_class": "uk_chieftain_mk_10"
         },
         {
           "objLayer": 1
@@ -359,10 +359,10 @@
           "wayPoints": "direction04_01"
         },
         {
-          "weapons": "uk_mk_2_conqueror_default"
+          "weapons": "uk_chieftain_mk_10_default"
         },
         {
-          "bullets0": ""
+          "bullets0": "120mm_britain_L23_APDSFS"
         },
         {
           "bullets1": ""
