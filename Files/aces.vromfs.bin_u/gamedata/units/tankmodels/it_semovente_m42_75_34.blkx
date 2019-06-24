@@ -1175,25 +1175,29 @@
           {
             "onKill": {
               "damageType": "cumulative",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "explosion",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
+            }
+          },
+          {
+            "onKill": {
+              "damageType": "secondaryShatter",
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "generic",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           }
         ]
@@ -1593,7 +1597,7 @@
         "trackMass": 1000.0
       },
       "tracks": {
-        "animationMultiplier": -1.68,
+        "animationMultiplier": -0.68,
         "height": 0.045,
         "width": 0.26
       },
@@ -2244,7 +2248,7 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
-      "headPos": [0.0,3.7,-5.5],
+      "headPos": [0.0,2.7,-6.8],
       "headPosOnShooting": [0.5,2.3,0.4],
       "bone_turret": "",
       "detectionHeight": 1.85

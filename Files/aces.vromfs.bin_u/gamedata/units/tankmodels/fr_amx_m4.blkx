@@ -183,9 +183,6 @@
       "armorClass": "RHA_tank",
       "hp": 10000.0,
       "hull_RHA": {
-        "superstructure_front_dm": {
-          "armorThickness": 80.0
-        },
         "superstructure_side_dm": {
           "armorThickness": 40.0
         },
@@ -194,9 +191,6 @@
         },
         "body_back_dm": {
           "armorThickness": 10.0
-        },
-        "body_front_dm": {
-          "armorThickness": 35.0
         },
         "body_bottom_dm": {
           "armorThickness": 25.0
@@ -211,8 +205,7 @@
           "armorThickness": 20.0
         },
         "turret_03_side_dm": {
-          "armorThickness": 8.0,
-          "armorClass": "tank_structural_steel"
+          "armorThickness": 5.0
         },
         "turret_02_back_dm": {
           "armorThickness": 40.0
@@ -220,14 +213,17 @@
         "body_side_dm": {
           "armorThickness": 40.0
         },
-        "body_top_dm": {
-          "armorThickness": 60.0
+        "body_shield_dm": {
+          "armorThickness": 40.0
         },
         "turret_03_top_dm": {
-          "armorThickness": 8.0
+          "armorThickness": 60.0
         },
         "turret_03_front_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 80.0
+        },
+        "turret_03_bottom_dm": {
+          "armorThickness": 60.0
         },
         "wheel_support_dm": {
           "armorThickness": 5.0,
@@ -271,13 +267,10 @@
           "armorThickness": 20.0
         },
         "turret_03_back_dm": {
-          "armorThickness": 102.0
+          "armorThickness": 20.0
         },
         "turret_01_front_dm": {
           "armorThickness": 60.0
-        },
-        "turret_03_bottom_dm": {
-          "armorThickness": 20.0
         },
         "turret_05_top_dm": {
           "armorThickness": 127.0
@@ -366,12 +359,8 @@
         "hp": 1000.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
-        "ex_decor_l_02_dm": [],
-        "ex_decor_r_02_dm": [],
-        "ex_decor_l_06_dm": [],
-        "ex_decor_r_05_dm": [],
-        "ex_decor_l_04_dm": [],
-        "ex_decor_r_03_dm": []
+        "ex_armor_l_02_dm": [],
+        "ex_armor_r_02_dm": []
       },
       "chassis": {
         "armorClass": "tank_steel_wheels",
@@ -415,16 +404,16 @@
           "armorClass": "tank_traks",
           "armorThickness": 20.0,
           "hp": 300.0,
-          "ex_armor_r_01_dm": {
+          "ex_armor_r_03_dm": {
             "hp": 300.0
           },
-          "ex_armor_r_02_dm": {
+          "ex_armor_r_04_dm": {
             "hp": 300.0
           },
-          "ex_armor_l_01_dm": {
+          "ex_armor_l_03_dm": {
             "hp": 300.0
           },
-          "ex_armor_l_02_dm": {
+          "ex_armor_l_04_dm": {
             "hp": 300.0
           }
         }

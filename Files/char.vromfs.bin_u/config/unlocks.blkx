@@ -5815,6 +5815,206 @@
   },
   {
     "unlockable": {
+      "id": "steam_trophy_awardDamage_5000_by_ship",
+      "type": "trophy_steam",
+      "amount_exp": 100,
+      "amount_warpoints": 100,
+      "icon": "!ui/trophies_icons/058_steam_trophy_awardDamage_5000_by_ship.png",
+      "chapter": "trophy_steam",
+      "forUserstat": true,
+      "mode": [
+        {
+          "type": "awardDamage"
+        },
+        {
+          "num": 10000
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": [
+            {
+              "type": "playerType"
+            },
+            {
+              "unitType": "ship"
+            },
+            {
+              "unitType": "aircraft"
+            }
+          ]
+        },
+        {
+          "condition": [
+            {
+              "type": "playerPlatform"
+            },
+            {
+              "platform": "win32"
+            },
+            {
+              "platform": "win32_wow64"
+            },
+            {
+              "platform": "win64"
+            },
+            {
+              "platform": "linux64"
+            },
+            {
+              "platform": "macosx"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "steam_trophy_kill_12_players_by_arcraft",
+      "type": "trophy_steam",
+      "amount_exp": 100,
+      "amount_warpoints": 100,
+      "icon": "!ui/trophies_icons/059_steam_trophy_kill_12_players_by_arcraft.png",
+      "chapter": "trophy_steam",
+      "forUserstat": true,
+      "mode": [
+        {
+          "type": "killedPlayers"
+        },
+        {
+          "num": 12
+        },
+        {
+          "condition": {
+            "type": "targetIsPlayer"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": [
+            {
+              "type": "playerPlatform"
+            },
+            {
+              "platform": "win32"
+            },
+            {
+              "platform": "win32_wow64"
+            },
+            {
+              "platform": "win64"
+            },
+            {
+              "platform": "linux64"
+            },
+            {
+              "platform": "macosx"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "steam_trophy_tank_die_hard_strike",
+      "type": "trophy_steam",
+      "amount_exp": 100,
+      "amount_warpoints": 100,
+      "icon": "!ui/trophies_icons/060_steam_trophy_tank_die_hard_strike.png",
+      "chapter": "trophy_steam",
+      "forUserstat": true,
+      "mode": {
+        "type": "unlockStageCount",
+        "num": 5,
+        "unlock": "tank_die_hard",
+        "condition": [
+          {
+            "type": "playerPlatform"
+          },
+          {
+            "platform": "win32"
+          },
+          {
+            "platform": "win32_wow64"
+          },
+          {
+            "platform": "win64"
+          },
+          {
+            "platform": "linux64"
+          },
+          {
+            "platform": "macosx"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "steam_trophy_played_mission_on_1_place",
+      "type": "trophy_steam",
+      "amount_exp": 100,
+      "amount_warpoints": 100,
+      "icon": "!ui/trophies_icons/061_steam_trophy_played_mission_on_1_place.png",
+      "chapter": "trophy_steam",
+      "forUserstat": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 3
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [1,1,1],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": [
+            {
+              "type": "playerPlatform"
+            },
+            {
+              "platform": "win32"
+            },
+            {
+              "platform": "win32_wow64"
+            },
+            {
+              "platform": "win64"
+            },
+            {
+              "platform": "linux64"
+            },
+            {
+              "platform": "macosx"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "special/ireland_gamescon_single",
       "hideForLang": "HChinese",
       "type": "mission",

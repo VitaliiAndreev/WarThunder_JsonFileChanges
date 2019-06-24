@@ -1202,25 +1202,29 @@
           {
             "onKill": {
               "damageType": "cumulative",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "explosion",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
+            }
+          },
+          {
+            "onKill": {
+              "damageType": "secondaryShatter",
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "generic",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           }
         ]
@@ -1635,49 +1639,6 @@
         "dmPart": "gunner_01_dm",
         "role": "radio_gunner"
       }
-    }
-  },
-  {
-    "MetaParts": {
-      "crew": [
-        {
-          "killAllPartsForDeath": true
-        },
-        {
-          "killNumPartsForDeath": 7
-        },
-        {
-          "part": "loader_dm"
-        },
-        {
-          "part": "driver_dm"
-        },
-        {
-          "part": "gunner_dm"
-        },
-        {
-          "part": "commander_dm"
-        },
-        {
-          "part": "machine_gunner_01_dm"
-        },
-        {
-          "part": "machine_gunner_02_dm"
-        },
-        {
-          "part": "gunner_01_dm"
-        },
-        {
-          "part": "gunner_02_dm"
-        },
-        {
-          "effects": {
-            "killUnit": {
-              "nothing": 1.0
-            }
-          }
-        }
-      ]
     }
   },
   {
@@ -2551,7 +2512,7 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
-      "headPos": [0.0,4.5,-7.0],
+      "headPos": [0.0,3.5,-8.0],
       "headPosOnShooting": [1.34,3.5,-0.25],
       "detectionHeight": 2.74
     }

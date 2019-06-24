@@ -1541,25 +1541,29 @@
           {
             "onKill": {
               "damageType": "cumulative",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "explosion",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
+            }
+          },
+          {
+            "onKill": {
+              "damageType": "secondaryShatter",
+              "expl": 0.5,
+              "fire": 0.5
             }
           },
           {
             "onKill": {
               "damageType": "generic",
-              "expl": 0.25,
-              "fire": 0.25,
-              "nothing": 0.5
+              "expl": 0.5,
+              "fire": 0.5
             }
           }
         ]
@@ -2621,7 +2625,7 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
-      "headPos": [0.0,3.7,-5.5],
+      "headPos": [0.0,3.3,-6.5],
       "headPosOnShooting": [-0.65,2.45,-0.4],
       "bone_turret": "",
       "detectionHeight": 2.3
