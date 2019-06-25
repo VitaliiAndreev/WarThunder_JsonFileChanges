@@ -987,6 +987,9 @@
         "blinkingMouseAimScale": 1.1
       },
       {
+        "crosshairDmCheckIntervalmsec": 250.0
+      },
+      {
         "arcadeMissColor": "#ffffffc8"
       },
       {
