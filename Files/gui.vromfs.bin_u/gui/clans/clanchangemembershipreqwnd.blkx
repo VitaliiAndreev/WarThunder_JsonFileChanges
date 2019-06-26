@@ -25,6 +25,19 @@
         "id": "contentBody"
       },
       "navBar": {
+        "navLeft": {
+          "CheckBox": {
+            "id": "membership_acceptance_checkbox",
+            "margin-left": "1@buttonMargin",
+            "text": "#caln/log/membership_applications",
+            "value": "no",
+            "btnName": "Y",
+            "on_change_value": "onMembershipAcceptanceClick",
+            "tooltip": "#clan/open_close_new_req",
+            "CheckBoxImg": [],
+            "ButtonImg": []
+          }
+        },
         "navRight": {
           "Button_text": {
             "visualStyle": "secondary",

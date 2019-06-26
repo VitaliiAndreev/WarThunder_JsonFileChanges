@@ -1,30 +1,8 @@
 {
-  "div": [
-    {
-      "size": "sw, sh"
-    },
-    {
-      "pos": "0, 0"
-    },
-    {
-      "position": "root"
-    },
-    {
-      "behavior": "button"
-    },
-    {
-      "behavior": "accesskey"
-    },
-    {
-      "accessKey": "Esc | J:B"
-    },
-    {
-      "on_click": "goBack"
-    },
-    {
-      "on_r_click": "goBack"
-    }
-  ],
+  "rootUnderPopupMenu": {
+    "on_click": "goBack",
+    "on_r_click": "goBack"
+  },
   "popup_menu": {
     "id": "squad_info",
     "position": "root",
