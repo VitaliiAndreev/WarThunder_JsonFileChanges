@@ -261,7 +261,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": false,
         "isTanksAllowed": true,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       }
     },
     "spectator_points": [],
@@ -482,6 +483,9 @@
         {
           "unitSetProperties": {
             "object_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "object": "object_groups_sqad",
             "stealthRadius": 0.0
           }
@@ -1046,7 +1050,7 @@
           [-0.0652149,0.0,0.997871],
           [0.0,1.0,0.0],
           [-0.997871,0.0,-0.0652149],
-          [2414.25,16.994,1221.3]
+          [2420.4,16.4785,1230.8]
         ],
         "unit_class": "det_pipes_set_snow_a",
         "objLayer": 2,
@@ -1060,10 +1064,10 @@
       "objectGroups": {
         "name": "objectGroups_27",
         "tm": [
-          [0.236454,0.0,0.971642],
+          [-0.627421,0.0,0.778679],
           [0.0,1.0,0.0],
-          [-0.971642,0.0,0.236454],
-          [2432.21,17.1542,1234.67]
+          [-0.778679,0.0,-0.627421],
+          [2424.1,16.0231,1247.2]
         ],
         "unit_class": "det_pipes_set_snow_a",
         "objLayer": 2,
@@ -1077,10 +1081,10 @@
       "objectGroups": {
         "name": "objectGroups_28",
         "tm": [
-          [-0.500008,0.0,-0.86602],
+          [0.00745651,0.0,-0.999972],
           [0.0,1.0,0.0],
-          [0.86602,0.0,-0.500008],
-          [2441.35,19.3608,1216.65]
+          [0.999972,0.0,0.00745651],
+          [2403.3,16.611,1234.55]
         ],
         "unit_class": "det_pipes_set_snow_a",
         "objLayer": 2,
@@ -2100,7 +2104,7 @@
           [-0.969322,0.0,-0.24579],
           [0.0,1.0,0.0],
           [0.24579,0.0,-0.969322],
-          [3341.75,17.9,2213.4]
+          [3342.8,17.9,2220.0]
         ],
         "unit_class": "det_factory_small_building_snow_c",
         "objLayer": 2,
@@ -2134,7 +2138,7 @@
           [0.99983,0.0,0.0184258],
           [0.0,1.0,0.0],
           [-0.0184258,0.0,0.99983],
-          [3469.25,15.35,2445.5]
+          [3469.65,15.35,2443.05]
         ],
         "unit_class": "det_factory_small_building_snow_a",
         "objLayer": 2,
@@ -2239,6 +2243,9 @@
           [3500.45,6.1,3017.55]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "objectGroups_01"
           },
@@ -2547,6 +2554,18 @@
           },
           {
             "squad_members": "objectGroups_103"
+          },
+          {
+            "squad_members": "objectGroups_104"
+          },
+          {
+            "squad_members": "objectGroups_105"
+          },
+          {
+            "squad_members": "objectGroups_106"
+          },
+          {
+            "squad_members": "objectGroups_107"
           }
         ]
       }
@@ -2843,6 +2862,74 @@
           "active": true
         }
       }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_104",
+        "tm": [
+          [-0.969322,0.0,-0.24579],
+          [0.0,1.0,0.0],
+          [0.24579,0.0,-0.969322],
+          [3328.0,17.9,2192.05]
+        ],
+        "unit_class": "det_factory_small_building_snow_b",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_105",
+        "tm": [
+          [0.0333199,0.0,-0.999444],
+          [0.0,1.0,0.0],
+          [0.999444,0.0,0.0333199],
+          [3320.3,17.9,2210.8]
+        ],
+        "unit_class": "det_factory_small_building_snow_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_106",
+        "tm": [
+          [0.979806,0.0,0.199951],
+          [0.0,1.0,0.0],
+          [-0.199951,0.0,0.979806],
+          [3382.5,15.35,2396.95]
+        ],
+        "unit_class": "det_factory_small_building_snow_b",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_107",
+        "tm": [
+          [-0.999998,0.0,-0.0019816],
+          [0.0,1.0,0.0],
+          [0.0019816,0.0,-0.999998],
+          [3358.1,15.35,2379.4]
+        ],
+        "unit_class": "det_factory_small_building_snow_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
     }
   ],
   "areas": {
@@ -2981,10 +3068,10 @@
     "spawn_03": {
       "type": "Sphere",
       "tm": [
-        [5.21009,0.0,10.8099],
+        [7.23104,0.0,9.57659],
         [0.0,12.0,0.0],
-        [-10.8099,0.0,5.21009],
-        [3376.3,16.3678,2738.75]
+        [-9.57659,0.0,7.23104],
+        [3439.55,16.4104,2600.5]
       ],
       "objLayer": 0,
       "props": []
@@ -3069,9 +3156,9 @@
     "spawn_11": {
       "type": "Sphere",
       "tm": [
-        [-11.3279,0.0,-3.95969],
+        [9.53251,0.0,-7.28916],
         [0.0,12.0,0.0],
-        [3.95969,0.0,-11.3279],
+        [7.28916,0.0,9.53251],
         [2369.5,16.65,1485.5]
       ],
       "objLayer": 0,
@@ -3080,10 +3167,10 @@
     "spawn_12": {
       "type": "Sphere",
       "tm": [
-        [11.1135,0.0,-4.52652],
+        [7.67206,0.0,-9.22707],
         [0.0,12.0,0.0],
-        [4.52652,0.0,11.1135],
-        [2415.35,18.1,1207.25]
+        [9.22707,0.0,7.67206],
+        [2433.85,16.2055,1237.55]
       ],
       "objLayer": 0,
       "props": []
@@ -3204,7 +3291,7 @@
         [4.45004,0.0,-11.1444],
         [0.0,12.0,0.0],
         [11.1444,0.0,4.45004],
-        [3321.45,18.8751,2442.15]
+        [3311.65,18.9,2448.05]
       ],
       "objLayer": 0,
       "props": []
@@ -3972,7 +4059,7 @@
   "wayPoints": [],
   "__viewPoints": {
     "viewpt_01": {
-      "pos": [2917.35,21.1769,2398.69],
+      "pos": [2917.35,21.1786,2398.69],
       "ht": 4.5133
     }
   }

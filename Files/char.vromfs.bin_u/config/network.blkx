@@ -432,7 +432,7 @@
       "charServer": "https://char-dev-10.warthunder.com:10443/char"
     },
     {
-      "charServer": "https://char-dev-02.warthunder.com:10443/char"
+      "charServer": "https://char-dev-09.warthunder.com:10443/char"
     },
     {
       "disableScaleWPByPlayers": true
@@ -459,7 +459,7 @@
             "url": "https://char-dev-10.warthunder.com:10443/char"
           },
           {
-            "url": "https://char-dev-02.warthunder.com:10443/char"
+            "url": "https://char-dev-09.warthunder.com:10443/char"
           }
         ]
       }

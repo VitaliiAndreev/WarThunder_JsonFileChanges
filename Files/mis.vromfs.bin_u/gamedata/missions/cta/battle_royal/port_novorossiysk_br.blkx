@@ -261,7 +261,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": false,
         "isTanksAllowed": true,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       }
     },
     "spectator_points": [],
@@ -464,6 +465,9 @@
         {
           "unitSetProperties": {
             "object_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "object": "object_groups_sqad",
             "stealthRadius": 0.0
           }
@@ -1076,10 +1080,10 @@
       "objectGroups": {
         "name": "objectGroups_32",
         "tm": [
-          [0.622616,0.0,-0.782527],
+          [0.145014,0.0,0.989429],
           [0.0,1.0,0.0],
-          [0.782527,0.0,0.622616],
-          [906.286,7.11122,1338.68]
+          [-0.989429,0.0,0.145014],
+          [877.6,5.35,1394.0]
         ],
         "unit_class": "debris_bricks_large_b",
         "objLayer": 2,
@@ -1623,7 +1627,7 @@
           [0.622616,0.0,-0.782527],
           [0.0,1.0,0.0],
           [0.782527,0.0,0.622616],
-          [983.528,8.14999,995.818]
+          [983.55,7.7,995.8]
         ],
         "unit_class": "debris_bricks_large_b",
         "objLayer": 2,
@@ -1759,7 +1763,7 @@
           [-0.283891,0.0,-0.958856],
           [0.0,1.0,0.0],
           [0.958856,0.0,-0.283891],
-          [1201.82,6.86836,764.245]
+          [1211.7,6.85,771.35]
         ],
         "unit_class": "debris_bricks_large_b",
         "objLayer": 2,
@@ -2341,6 +2345,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "objectGroups_05"
           },
           {
@@ -2645,6 +2652,15 @@
           },
           {
             "squad_members": "objectGroups_105"
+          },
+          {
+            "squad_members": "objectGroups_106"
+          },
+          {
+            "squad_members": "objectGroups_107"
+          },
+          {
+            "squad_members": "objectGroups_108"
           }
         ]
       }
@@ -2814,6 +2830,57 @@
           }
         },
         "way": []
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_106",
+        "tm": [
+          [-0.408668,0.0,0.687743],
+          [0.0,0.8,0.0],
+          [-0.687743,0.0,-0.408668],
+          [1034.4,6.05,1058.55]
+        ],
+        "unit_class": "debris_bricks_large_b",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_107",
+        "tm": [
+          [0.896204,0.0,-0.443641],
+          [0.0,1.0,0.0],
+          [0.443641,0.0,0.896204],
+          [1000.3,7.14099,1014.2]
+        ],
+        "unit_class": "debris_bricks_medium_b",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_108",
+        "tm": [
+          [-0.872829,0.0,0.488025],
+          [0.0,1.0,0.0],
+          [-0.488025,0.0,-0.872829],
+          [994.35,7.45,1011.55]
+        ],
+        "unit_class": "debris_bricks_medium",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
       }
     }
   ],
@@ -3052,9 +3119,9 @@
     "spawn_16": {
       "type": "Sphere",
       "tm": [
-        [0.542351,0.0,11.9877],
+        [9.19197,0.0,7.71407],
         [0.0,12.0,0.0],
-        [-11.9877,0.0,0.542351],
+        [-7.71407,0.0,9.19197],
         [1224.6,6.77465,749.601]
       ],
       "objLayer": 0,
@@ -3713,7 +3780,7 @@
   "wayPoints": [],
   "__viewPoints": {
     "viewpt_01": {
-      "pos": [1040.05,11.4882,1003.5],
+      "pos": [1040.05,10.7892,1003.5],
       "ht": 4.5
     }
   }

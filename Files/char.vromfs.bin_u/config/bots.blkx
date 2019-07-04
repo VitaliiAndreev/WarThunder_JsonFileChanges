@@ -1957,14 +1957,14 @@
         {
           "ship": {
             "name": "ussr_pr_206",
-            "weight": 1.0,
+            "weight": 0.5,
             "country": "ussr"
           }
         },
         {
           "ship": {
             "name": "ussr_skr_pr159",
-            "weight": 1.0,
+            "weight": 0.3,
             "country": "ussr"
           }
         },
@@ -1985,7 +1985,7 @@
         {
           "ship": {
             "name": "us_ashville_class",
-            "weight": 1.0,
+            "weight": 0.5,
             "country": "usa"
           }
         },
@@ -2041,7 +2041,7 @@
         {
           "ship": {
             "name": "germ_type143_albatros",
-            "weight": 1.0,
+            "weight": 0.5,
             "country": "germany"
           }
         },
@@ -2069,7 +2069,7 @@
         {
           "ship": {
             "name": "ussr_pr_206",
-            "weight": 1.0,
+            "weight": 0.5,
             "country": "ussr"
           }
         },
@@ -2090,14 +2090,14 @@
         {
           "ship": {
             "name": "us_pt810",
-            "weight": 1.0,
+            "weight": 1.5,
             "country": "usa"
           }
         },
         {
           "ship": {
             "name": "us_ashville_class",
-            "weight": 1.0,
+            "weight": 0.3,
             "country": "usa"
           }
         },
@@ -2153,7 +2153,7 @@
         {
           "ship": {
             "name": "germ_type143_albatros",
-            "weight": 1.0,
+            "weight": 0.3,
             "country": "germany"
           }
         },

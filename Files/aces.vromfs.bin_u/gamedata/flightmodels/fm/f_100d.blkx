@@ -55,7 +55,7 @@
   "CockpitOpenedDoorBreakSpeed": 127.0,
   "maxChuteSpeed": 355.0,
   "minChuteSpeed": 35.0,
-  "chuteRipSpeed": 315.0,
+  "chuteRipSpeed": 365.0,
   "MomentOfInertia": [30000.0,75000.0,45000.0],
   "AvailableControls": {
     "hasAileronControl": true,

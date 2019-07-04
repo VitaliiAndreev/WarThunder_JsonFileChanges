@@ -55,7 +55,7 @@
   "MomentOfInertia": [7092.0,15293.0,8671.0],
   "AvailableControls": {
     "hasAileronControl": true,
-    "hasAileronTrimControl": false,
+    "hasAileronTrimControl": true,
     "hasAileronTrimGroundControl": true,
     "dvAileronTrim": 0.125,
     "hasElevatorControl": true,

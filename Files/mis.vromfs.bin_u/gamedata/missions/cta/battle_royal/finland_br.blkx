@@ -261,7 +261,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": false,
         "isTanksAllowed": true,
-        "isShipsAllowed": false
+        "isShipsAllowed": false,
+        "isHelicoptersAllowed": false
       }
     },
     "spectator_points": [],
@@ -464,6 +465,9 @@
         {
           "unitSetProperties": {
             "object_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object_var_value": 0,
             "object": "object_groups_squad",
             "stealthRadius": 0.0
           }
@@ -947,6 +951,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "objectGroups_01"
           },
           {
@@ -1005,6 +1012,165 @@
           },
           {
             "squad_members": "objectGroups_24"
+          },
+          {
+            "squad_members": "objectGroups_03"
+          },
+          {
+            "squad_members": "objectGroups_05"
+          },
+          {
+            "squad_members": "objectGroups_06"
+          },
+          {
+            "squad_members": "objectGroups_21"
+          },
+          {
+            "squad_members": "objectGroups_25"
+          },
+          {
+            "squad_members": "objectGroups_26"
+          },
+          {
+            "squad_members": "objectGroups_27"
+          },
+          {
+            "squad_members": "objectGroups_28"
+          },
+          {
+            "squad_members": "objectGroups_29"
+          },
+          {
+            "squad_members": "objectGroups_30"
+          },
+          {
+            "squad_members": "objectGroups_31"
+          },
+          {
+            "squad_members": "objectGroups_32"
+          },
+          {
+            "squad_members": "objectGroups_33"
+          },
+          {
+            "squad_members": "objectGroups_34"
+          },
+          {
+            "squad_members": "objectGroups_35"
+          },
+          {
+            "squad_members": "objectGroups_36"
+          },
+          {
+            "squad_members": "objectGroups_37"
+          },
+          {
+            "squad_members": "objectGroups_38"
+          },
+          {
+            "squad_members": "objectGroups_39"
+          },
+          {
+            "squad_members": "objectGroups_40"
+          },
+          {
+            "squad_members": "objectGroups_41"
+          },
+          {
+            "squad_members": "objectGroups_42"
+          },
+          {
+            "squad_members": "objectGroups_43"
+          },
+          {
+            "squad_members": "objectGroups_44"
+          },
+          {
+            "squad_members": "objectGroups_45"
+          },
+          {
+            "squad_members": "objectGroups_46"
+          },
+          {
+            "squad_members": "objectGroups_47"
+          },
+          {
+            "squad_members": "objectGroups_48"
+          },
+          {
+            "squad_members": "objectGroups_49"
+          },
+          {
+            "squad_members": "objectGroups_50"
+          },
+          {
+            "squad_members": "objectGroups_51"
+          },
+          {
+            "squad_members": "objectGroups_52"
+          },
+          {
+            "squad_members": "objectGroups_53"
+          },
+          {
+            "squad_members": "objectGroups_54"
+          },
+          {
+            "squad_members": "objectGroups_55"
+          },
+          {
+            "squad_members": "objectGroups_56"
+          },
+          {
+            "squad_members": "objectGroups_57"
+          },
+          {
+            "squad_members": "objectGroups_58"
+          },
+          {
+            "squad_members": "objectGroups_59"
+          },
+          {
+            "squad_members": "objectGroups_60"
+          },
+          {
+            "squad_members": "objectGroups_61"
+          },
+          {
+            "squad_members": "objectGroups_62"
+          },
+          {
+            "squad_members": "objectGroups_63"
+          },
+          {
+            "squad_members": "objectGroups_64"
+          },
+          {
+            "squad_members": "objectGroups_65"
+          },
+          {
+            "squad_members": "objectGroups_66"
+          },
+          {
+            "squad_members": "objectGroups_67"
+          },
+          {
+            "squad_members": "objectGroups_68"
+          },
+          {
+            "squad_members": "objectGroups_69"
+          },
+          {
+            "squad_members": "objectGroups_70"
+          },
+          {
+            "squad_members": "objectGroups_71"
+          },
+          {
+            "squad_members": "objectGroups_72"
+          },
+          {
+            "squad_members": "objectGroups_73"
           }
         ]
       }
@@ -1729,10 +1895,10 @@
       "objectGroups": {
         "name": "objectGroups_56",
         "tm": [
-          [0.999609,0.0147533,-0.0237608],
-          [0.00560138,0.726739,0.686891],
-          [0.0274018,-0.686756,0.726372],
-          [784.119,6.38604,1437.14]
+          [1.49941,0.00735426,-0.0413031],
+          [0.00840207,1.39421,0.55327],
+          [0.0411027,-0.553286,1.39362],
+          [763.249,5.99459,1442.81]
         ],
         "unit_class": "det_finland_cliff_e",
         "objLayer": 2,
@@ -2015,6 +2181,57 @@
           "active": true
         }
       }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_71",
+        "tm": [
+          [0.353644,0.222789,0.908461],
+          [0.476663,0.79273,-0.379962],
+          [-0.804816,0.567401,0.174149],
+          [711.75,-3.95,824.3]
+        ],
+        "unit_class": "det_finland_cliff_e",
+        "objLayer": 2,
+        "props": {
+          "army": 0,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_72",
+        "tm": [
+          [0.146971,-0.410303,-1.95194],
+          [1.13904,1.62397,-0.255597],
+          [1.63737,-1.09288,0.353014],
+          [1169.95,14.0642,1535.42]
+        ],
+        "unit_class": "det_finland_cliff_e",
+        "objLayer": 2,
+        "props": {
+          "army": 0,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_73",
+        "tm": [
+          [0.146971,-0.0531893,-1.99388],
+          [1.13904,1.64347,0.0401197],
+          [1.63737,-1.1385,0.151064],
+          [1031.4,17.4,1652.55]
+        ],
+        "unit_class": "det_finland_cliff_e",
+        "objLayer": 2,
+        "props": {
+          "army": 0,
+          "active": true
+        }
+      }
     }
   ],
   "areas": {
@@ -2186,10 +2403,10 @@
     "spawn07": {
       "type": "Sphere",
       "tm": [
-        [-11.9047,0.0,1.50921],
+        [-8.78916,0.0,8.17008],
         [0.0,12.0,0.0],
-        [-1.50921,0.0,-11.9047],
-        [713.297,1.39517,821.854]
+        [-8.17008,0.0,-8.78916],
+        [735.1,1.4,800.75]
       ],
       "objLayer": 0,
       "props": []
@@ -2913,7 +3130,7 @@
   "wayPoints": [],
   "__viewPoints": {
     "viewpt_02": {
-      "pos": [1488.4,23.3507,689.0],
+      "pos": [1488.4,23.3508,689.0],
       "ht": 4.5152
     }
   }

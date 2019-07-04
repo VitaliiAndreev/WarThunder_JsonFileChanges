@@ -997,6 +997,18 @@
           },
           {
             "squad_members": "objectGroups_70"
+          },
+          {
+            "squad_members": "objectGroups_71"
+          },
+          {
+            "squad_members": "objectGroups_72"
+          },
+          {
+            "squad_members": "objectGroups_73"
+          },
+          {
+            "squad_members": "objectGroups_74"
           }
         ]
       }
@@ -2201,6 +2213,74 @@
           [-0.0483438,0.397054,0.00335733],
           [-0.304458,-0.0348962,-0.257075],
           [-837.545,-22.5318,-1172.99]
+        ],
+        "unit_class": "det_vietnam_sheer_cliff_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_71",
+        "tm": [
+          [0.147923,0.869852,1.08695],
+          [-0.341238,-1.03707,0.87637],
+          [1.34969,-0.357534,0.102443],
+          [-444.05,0.95,-255.8]
+        ],
+        "unit_class": "det_alps_fjords_cliffs_base_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_72",
+        "tm": [
+          [0.426655,1.00187,-0.87989],
+          [0.812791,-0.927768,-0.662274],
+          [-1.05704,-0.309004,-0.864394],
+          [-486.25,-2.25,-274.35]
+        ],
+        "unit_class": "det_alps_fjords_cliffs_base_b",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_73",
+        "tm": [
+          [-0.198546,0.00161322,0.0240205],
+          [0.00325124,0.19952,0.0134742],
+          [-0.023854,0.0137667,-0.198094],
+          [948.35,-0.4,-404.15]
+        ],
+        "unit_class": "det_vietnam_sheer_cliff_a",
+        "objLayer": 2,
+        "props": {
+          "army": 2,
+          "active": true
+        }
+      }
+    },
+    {
+      "objectGroups": {
+        "name": "objectGroups_74",
+        "tm": [
+          [0.192208,-0.0154463,-0.159115],
+          [0.0133463,0.249512,-0.00809957],
+          [0.159305,-0.00226732,0.192657],
+          [-228.8,-15.6,-1139.55]
         ],
         "unit_class": "det_vietnam_sheer_cliff_a",
         "objLayer": 2,

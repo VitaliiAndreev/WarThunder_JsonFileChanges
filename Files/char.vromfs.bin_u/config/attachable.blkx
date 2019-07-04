@@ -425,6 +425,24 @@
     "limit": 1,
     "hideUntilUnlocked": true
   },
+  "helm_rome_black": {
+    "category": "helmet",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
+  "helm_rome_gold": {
+    "category": "helmet",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
+  "helm_rome_silver": {
+    "category": "helmet",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
   "shop_sign_bar": {
     "category": "other",
     "costGold": 500
