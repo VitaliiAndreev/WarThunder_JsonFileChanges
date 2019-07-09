@@ -2,7 +2,7 @@
   {
     "tdiv": [
       {
-        "pos": "50%@rw+w, 7@helpInterval"
+        "pos": "35%@rw, 15%@rh"
       },
       {
         "position": "relative"
@@ -12,18 +12,18 @@
       },
       {
         "controlsHelpTextArea": {
-          "id": "hint_clan_activity",
+          "id": "hint_clan_elo",
           "width": "@shopWidthMax",
           "margin-left": "0.5*@shopWidthMax",
-          "text": "#clan/squadron_activity"
+          "text": "#clan/squadron_rating"
         }
       },
       {
         "controlsHelpTextArea": {
-          "id": "hint_clan_elo",
+          "id": "hint_clan_activity",
           "width": "@shopWidthMax",
           "margin-top": "@helpInterval",
-          "text": "#clan/squadron_rating"
+          "text": "#clan/squadron_activity"
         }
       }
     ]
@@ -77,7 +77,7 @@
   },
   {
     "tdiv": {
-      "pos": "47%@rw, 60%@rh",
+      "pos": "50%@rw, 70%@rh",
       "position": "absolute",
       "controlsHelpTextArea": {
         "id": "hint_membership_activity",

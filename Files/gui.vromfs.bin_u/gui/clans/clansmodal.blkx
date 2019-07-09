@@ -23,80 +23,14 @@
       },
       {
         "frame_header": {
-          "HorizontalListBox": [
-            {
-              "id": "clans_sheet_list"
-            },
-            {
-              "height": "ph"
-            },
-            {
-              "class": "header"
-            },
-            {
-              "normalFont": "yes"
-            },
-            {
-              "activeAccesskeys": "RS"
-            },
-            {
-              "on_select": "onSheetChange"
-            },
-            {
-              "shopFilter": [
-                {
-                  "id": "clans_list"
-                },
-                {
-                  "navImgStyle": "right"
-                },
-                {
-                  "navigationImage": {
-                    "display": "hide",
-                    "type": "left"
-                  }
-                },
-                {
-                  "shopFilterText": {
-                    "text": "#clan/clans_list"
-                  }
-                },
-                {
-                  "navigationImage": {
-                    "display": "hide",
-                    "type": "right"
-                  }
-                }
-              ]
-            },
-            {
-              "shopFilter": [
-                {
-                  "id": "my_clan"
-                },
-                {
-                  "navImgStyle": "left"
-                },
-                {
-                  "navigationImage": {
-                    "display": "hide",
-                    "type": "left"
-                  }
-                },
-                {
-                  "shopFilterText": {
-                    "text": "#clan/my_clan"
-                  }
-                },
-                {
-                  "navigationImage": {
-                    "display": "hide",
-                    "type": "right"
-                  }
-                }
-              ]
-            }
-          ],
+          "HorizontalListBox": {
+            "id": "clans_sheet_list",
+            "height": "ph",
+            "class": "header",
+            "normalFont": "yes",
+            "activeAccesskeys": "RS",
+            "on_select": "onSheetChange"
+          },
           "top_right_holder": {
             "id": "header_buttons",
             "vCentered": "yes",
@@ -114,9 +48,6 @@
             "size": "pw, ph"
           },
           {
-            "padding-top": "@blockInterval"
-          },
-          {
             "flow": "vertical"
           },
           {
@@ -125,7 +56,13 @@
           {
             "tdiv": [
               {
+                "id": "clans_battle_season"
+              },
+              {
                 "width": "pw"
+              },
+              {
+                "display": "hide"
               },
               {
                 "tdiv": {
@@ -254,7 +191,13 @@
           },
           {
             "tdiv": {
-              "top": "1@blockInterval",
+              "id": "leaderboard_filter_place",
+              "width": "pw",
+              "display": "hide"
+            }
+          },
+          {
+            "tdiv": {
               "position": "relative",
               "width": "pw",
               "flow": "horizontal",
@@ -269,7 +212,8 @@
                 "on_select": "onStatsModeChange",
                 "navigatorShortcuts": "yes",
                 "on_wrap_up": "onWrapUp",
-                "on_wrap_down": "onWrapDown"
+                "on_wrap_down": "onWrapDown",
+                "display": "hide"
               },
               "tdiv": {
                 "EditBox": {
@@ -317,7 +261,6 @@
             "table": {
               "id": "clan_lboard_table",
               "position": "relative",
-              "top": "0.005@sf",
               "size": "pw, fh",
               "behavior": "PosNavigator",
               "class": "lbTable",
@@ -595,15 +538,7 @@
                         },
                         {
                           "textareaNoTab": {
-                            "id": "clan-membershipReqRank",
-                            "smallFont": "yes",
-                            "hideEmptyText": "yes",
-                            "text": ""
-                          }
-                        },
-                        {
-                          "textareaNoTab": {
-                            "id": "clan-membershipReqBattles",
+                            "id": "clan-membershipReq",
                             "smallFont": "yes",
                             "hideEmptyText": "yes",
                             "text": ""

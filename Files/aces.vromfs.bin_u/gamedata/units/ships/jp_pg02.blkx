@@ -715,9 +715,9 @@
     "tank_crew": {
       "minCrewMemberAliveCount": 3,
       "sailor1": {
-        "dmPart": "bridge_dm",
+        "dmPart": "superstructure_dm",
         "role": "sailor",
-        "crew": 2
+        "crew": 3
       },
       "sailor2": {
         "dmPart": "compartment_01_dm",
@@ -733,11 +733,6 @@
         "dmPart": "compartment_03_dm",
         "role": "sailor",
         "crew": 3
-      },
-      "sailor5": {
-        "dmPart": "radio_station_dm",
-        "role": "sailor",
-        "crew": 1
       }
     }
   },

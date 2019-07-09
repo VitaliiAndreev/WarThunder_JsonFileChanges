@@ -134,15 +134,7 @@
                       },
                       {
                         "textareaNoTab": {
-                          "id": "clan-membershipReqRank",
-                          "smallFont": "yes",
-                          "hideEmptyText": "yes",
-                          "text": ""
-                        }
-                      },
-                      {
-                        "textareaNoTab": {
-                          "id": "clan-membershipReqBattles",
+                          "id": "clan-membershipReq",
                           "smallFont": "yes",
                           "hideEmptyText": "yes",
                           "text": ""

@@ -263,66 +263,6 @@
       }
     ]
   },
-  "worldwar_recon_by_fire_exchange": {
-    "locId": "workshop/worldwar_exchange",
-    "reqFeature": "WorldWar",
-    "items": [
-      {
-        "alwaysVisibleItem": 750128
-      },
-      {
-        "alwaysVisibleItem": 790000
-      },
-      {
-        "alwaysVisibleItem": 790001
-      },
-      {
-        "alwaysVisibleItem": 790002
-      },
-      {
-        "alwaysVisibleItem": 790003
-      },
-      {
-        "alwaysVisibleItem": 790004
-      },
-      {
-        "alwaysVisibleItem": 790005
-      },
-      {
-        "alwaysVisibleItem": 790006
-      },
-      {
-        "alwaysVisibleItem": 790007
-      },
-      {
-        "alwaysVisibleItem": 790008
-      },
-      {
-        "alwaysVisibleItem": 790009
-      },
-      {
-        "alwaysVisibleItem": 790010
-      },
-      {
-        "alwaysVisibleItem": 790011
-      },
-      {
-        "alwaysVisibleItem": 790012
-      },
-      {
-        "alwaysVisibleItem": 790013
-      },
-      {
-        "alwaysVisibleItem": 790014
-      },
-      {
-        "alwaysVisibleItem": 790015
-      },
-      {
-        "alwaysVisibleItem": 790016
-      }
-    ]
-  },
   "additionalRecipes": [
     {
       "item": {
