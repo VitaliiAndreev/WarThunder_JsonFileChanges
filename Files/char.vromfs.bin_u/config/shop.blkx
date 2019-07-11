@@ -1514,7 +1514,8 @@
           "germ_mkpz_m47": {
             "rank": 5,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "germ_pzkpfw_e_100": {
             "rank": 5,
@@ -3768,6 +3769,9 @@
             },
             {
               "gift": "msi_notebook"
+            },
+            {
+              "showOnlyWhenBought": true
             }
           ],
           "ussr_destroyer_leningrad": {
@@ -4826,7 +4830,7 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "hideByPlatform": "xboxOne"
+            "showOnlyWhenBought": true
           },
           "jp_type_5_ho_ri_prototype": {
             "rank": 4,
@@ -5574,7 +5578,8 @@
           "it_semovente_m43_105_leoncello": {
             "rank": 3,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "it_m26_ariete": {
             "rank": 4,
@@ -5790,7 +5795,8 @@
           "g_55s": {
             "rank": 4,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "fiat_g91_r4": {
             "rank": 5,
