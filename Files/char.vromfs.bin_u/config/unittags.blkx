@@ -36085,9 +36085,8 @@
     "tags": {
       "axis": true,
       "country_japan": true,
-      "type_bomber": true,
-      "type_jet_bomber": true,
-      "bomberview": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
       "not_in_dynamic_campaign": true,
       "air": true
     },
@@ -36133,9 +36132,8 @@
     "tags": {
       "axis": true,
       "country_japan": true,
-      "type_bomber": true,
-      "type_jet_bomber": true,
-      "bomberview": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
       "not_in_dynamic_campaign": true,
       "air": true
     },
@@ -36181,9 +36179,8 @@
     "tags": {
       "axis": true,
       "country_japan": true,
-      "type_bomber": true,
-      "type_jet_bomber": true,
-      "bomberview": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
       "not_in_dynamic_campaign": true,
       "air": true
     },

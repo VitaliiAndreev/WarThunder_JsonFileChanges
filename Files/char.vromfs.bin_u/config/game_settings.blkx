@@ -933,7 +933,9 @@
     "ClanSquads": {
       "condition": "Clans"
     },
-    "ClanVehicles": [],
+    "ClanVehicles": {
+      "condition": "Clans"
+    },
     "ShowNextUnlockInfo": [],
     "extendedReplayInfo": {
       "condition": ""

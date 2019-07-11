@@ -15,7 +15,7 @@
     "harmonizationSuffix": "_tomoe"
   },
   {
-    "type": "typeBomber"
+    "type": "typeFighter"
   },
   {
     "paratrooper": "german"
@@ -48,7 +48,7 @@
     "fireParamsPreset": "900kph"
   },
   {
-    "fightAiBehaviour": "bomber"
+    "fightAiBehaviour": "fighter"
   },
   {
     "Params": {
@@ -5845,6 +5845,12 @@
   },
   {
     "weapon_presets": [
+      {
+        "preset": {
+          "name": "r2y2_default",
+          "blk": "gameData/FlightModels/weaponPresets/r2y2_default.blk"
+        }
+      },
       {
         "preset": {
           "name": "mod80mark1_bomb",

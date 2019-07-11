@@ -320,8 +320,7 @@
             "isClanVehicle": true,
             "reqAir": "",
             "hideByPlatform": "xboxOne",
-            "reqFeature": "ClanVehicles",
-            "showOnlyWhenBought": true
+            "reqFeature": "ClanVehicles"
           }
         }
       },
@@ -2316,12 +2315,11 @@
             "rank": 2,
             "rankPosXY": [3,3]
           },
-          "germ_pr_206": {
-            "rank": 2,
-            "rankPosXY": [4,3],
-            "reqAir": "germ_mz_1"
-          },
           "germ_type143_albatros": {
+            "rank": 2,
+            "rankPosXY": [4,3]
+          },
+          "germ_pr_206": {
             "rank": 2,
             "rankPosXY": [5,3]
           }
@@ -3579,17 +3577,13 @@
       {
         "range": {
           "ussr_od_200": {
+            "reqAir": "ussr_g5_mtb",
             "rank": 1,
-            "rankPosXY": [1,2],
-            "reqAir": "ussr_g5_mtb"
+            "rankPosXY": [1,2]
           },
           "ussr_mo_4": {
             "rank": 1,
             "rankPosXY": [2,2]
-          },
-          "ussr_bmo": {
-            "rank": 1,
-            "rankPosXY": [3,2]
           },
           "ussr_mpk_122a": {
             "rank": 1,
@@ -3598,6 +3592,15 @@
           "ussr_mpk_163": {
             "rank": 1,
             "rankPosXY": [5,2]
+          }
+        }
+      },
+      {
+        "range": {
+          "ussr_bmo": {
+            "reqAir": "ussr_mo_4",
+            "rank": 1,
+            "rankPosXY": [2,3]
           }
         }
       },
@@ -3781,8 +3784,7 @@
             "rankPosXY": [6,2],
             "isClanVehicle": true,
             "hideByPlatform": "xboxOne",
-            "reqFeature": "ClanVehicles",
-            "showOnlyWhenBought": true
+            "reqFeature": "ClanVehicles"
           }
         }
       }
@@ -4487,8 +4489,7 @@
             "reqAir": "",
             "isClanVehicle": true,
             "hideByPlatform": "xboxOne",
-            "reqFeature": "ClanVehicles",
-            "showOnlyWhenBought": true
+            "reqFeature": "ClanVehicles"
           },
           "wyvern_s4": {
             "rank": 4,
