@@ -6211,7 +6211,7 @@
             "rank": 1,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4"
+            "showOnlyWhenBought": true
           },
           "mb_152c1": {
             "rank": 2,
@@ -6235,7 +6235,7 @@
             "rank": 4,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;xboxOne"
+            "showOnlyWhenBought": true
           },
           "so_4050_vautour_2a_iaf": {
             "rank": 5,
