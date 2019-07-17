@@ -48,6 +48,9 @@
     "shootingCharge": 5.5
   },
   {
+    "preset_cost": 200
+  },
+  {
     "bullet": {
       "bulletCount": 10,
       "mass": 0.147,

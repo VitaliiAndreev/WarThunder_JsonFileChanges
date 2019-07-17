@@ -8388,9 +8388,7 @@
         "prevModification": "150mm_ger_c36_naval_he_dist_fuse_ammo_pack"
       },
       "88mm_ger_flak36_navy_HE": [],
-      "88mm_ger_flak36_navy_disnant_fuse_HE": {
-        "modCostMul": 0.3
-      },
+      "88mm_ger_flak36_navy_disnant_fuse_HE": [],
       "88mm_ger_flak36_navy_disnant_fuse_HE_ammo_pack": [],
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {

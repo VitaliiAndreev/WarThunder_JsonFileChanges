@@ -1105,7 +1105,10 @@
     {
       "preset": {
         "name": "uh_1c_xm_30_default",
-        "blk": "gameData/flightModels/weaponPresets/uh_1c_xm_30_default.blk"
+        "blk": "gameData/flightModels/weaponPresets/uh_1c_xm_30_default.blk",
+        "tags": {
+          "free": true
+        }
       }
     },
     {

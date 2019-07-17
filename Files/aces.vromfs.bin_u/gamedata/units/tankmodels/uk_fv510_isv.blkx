@@ -2859,6 +2859,7 @@
         "invertEnableLogic": false,
         "turn_it_off": false,
         "effects": {
+          "rcostAddParam": 0.9,
           "changeMass": 10.0,
           "commonWeapons": [
             {
@@ -3113,6 +3114,7 @@
         "invertEnableLogic": true,
         "turn_it_off": false,
         "effects": {
+          "rcostAddParam": 1.04,
           "changeMass": -1000.0,
           "hideNodes": [
             {

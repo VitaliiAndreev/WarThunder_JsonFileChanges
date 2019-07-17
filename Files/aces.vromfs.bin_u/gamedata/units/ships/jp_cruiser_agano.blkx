@@ -7523,9 +7523,7 @@
       "152mm_jp_common_type0_aa_navy_he": [],
       "152mm_jp_common_type0_aa_navy_he_ammo_pack": [],
       "80mm_jp_type98_navy_he": [],
-      "80mm_jp_type98_distant_fuse_navy_he": {
-        "modCostMul": 0.3
-      },
+      "80mm_jp_type98_distant_fuse_navy_he": [],
       "80mm_jp_type98_distant_fuse_navy_he_ammo_pack": [],
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {

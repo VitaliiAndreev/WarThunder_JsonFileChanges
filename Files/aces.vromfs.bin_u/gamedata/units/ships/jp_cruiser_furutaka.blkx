@@ -7272,9 +7272,7 @@
         "prevModification": "200mm_jp_type88_navy_apc_ammo_pack"
       },
       "120mm_jp_type3_naval_he": [],
-      "120mm_jp_type0_distant_fuse_naval_he": {
-        "modCostMul": 0.3
-      },
+      "120mm_jp_type0_distant_fuse_naval_he": [],
       "120mm_jp_type0_distant_fuse_naval_he_ammo_pack": {
         "prevModification": "200mm_jp_type0_aa_distant_fuse_navy_he_ammo_pack"
       },

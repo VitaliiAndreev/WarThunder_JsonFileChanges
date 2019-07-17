@@ -12161,9 +12161,7 @@
         "prevModification": "130mm_ussr_SAP_ammo_pack"
       },
       "100mm_ussr_HE": [],
-      "100mm_ussr_navy_aa": {
-        "modCostMul": 0.3
-      },
+      "100mm_ussr_navy_aa": [],
       "100mm_ussr_navy_aa_ammo_pack": [],
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {

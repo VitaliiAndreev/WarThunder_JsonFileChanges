@@ -10727,9 +10727,7 @@
         "prevModification": "180mm_ussr_b1k_navy_sap_ammo_pack"
       },
       "100mm_ussr_HE": [],
-      "100mm_ussr_navy_aa": {
-        "modCostMul": 0.3
-      },
+      "100mm_ussr_navy_aa": [],
       "100mm_ussr_navy_aa_ammo_pack": [],
       "ship_rangefinder": {
         "prevModification": "100mm_ussr_navy_aa_ammo_pack"

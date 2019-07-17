@@ -9,7 +9,7 @@
     "impostorsDistAdditionalMul": 2.0
   },
   {
-    "hmapLodCount": 6
+    "hmapLodCount": 5
   },
   {
     "mapCoord0": [-16384.0,-16384.0]
@@ -563,11 +563,11 @@
       },
       "monstera_tree_a": {
         "lod0": 150.0,
-        "lod1": 400.0
+        "lod1": 700.0
       },
       "monstera_tree_b": {
         "lod0": 150.0,
-        "lod1": 400.0
+        "lod1": 700.0
       },
       "tropical_arctium_a": {
         "lod0": 150.0,
@@ -683,58 +683,58 @@
       },
       "tree_burnt_bush_a": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_burnt_bush_b": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_burnt_stump_a": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_burnt_stump_b": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_burnt_stump_c": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_burnt_stump_d": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "bush_flowers_b": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_sea_bush_a": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_sea_bush_b": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "tree_sea_bush_c": {
         "lod0": 100.0,
-        "lod1": 1500.0
+        "lod1": 2500.0
       },
       "alps_fjords_cliffs_base_a": {
         "lod0": 500.0,
         "lod1": 1000.0,
-        "lod2": 4000.0
+        "lod2": 15000.0
       },
       "alps_fjords_cliffs_base_b": {
         "lod0": 500.0,
         "lod1": 1000.0,
-        "lod2": 4000.0
+        "lod2": 15000.0
       },
       "alps_fjords_cliffs_base_c": {
         "lod0": 500.0,
         "lod1": 1000.0,
-        "lod2": 4000.0
+        "lod2": 15000.0
       },
       "vietnam_rock_big_a": {
         "lod0": 100.0,
@@ -755,164 +755,42 @@
         "lod0": 200.0,
         "lod1": 300.0,
         "lod2": 500.0,
-        "lod3": 100000.0
+        "lod3": 150000.0
       },
       "vietnam_mountain_base_b": {
         "lod0": 200.0,
         "lod1": 300.0,
         "lod2": 500.0,
-        "lod3": 100000.0
+        "lod3": 150000.0
       },
       "vietnam_mountain_large_straight_a": {
         "lod0": 200.0,
         "lod1": 400.0,
         "lod2": 700.0,
-        "lod3": 100000.0
+        "lod3": 150000.0
       },
       "vietnam_mountain_large_straight_b": {
         "lod0": 200.0,
         "lod1": 400.0,
         "lod2": 700.0,
-        "lod3": 100000.0
+        "lod3": 150000.0
       },
       "vietnam_mountain_small_a": {
         "lod0": 200.0,
         "lod1": 400.0,
         "lod2": 400.0,
-        "lod3": 100000.0
+        "lod3": 150000.0
       },
       "buddha_statue_a": {
         "lod0": 300.0,
         "lod1": 600.0,
         "lod2": 800.0,
-        "lod3": 4000.0
+        "lod3": 5000.0
       },
       "vietnam_rock_burned_a": {
         "lod0": 500.0,
-        "lod1": 800.0,
-        "lod2": 4000.0
-      },
-      "vietnam_town_building_2_floor_a": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_a_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_a_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_b": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_b_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_b_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_c": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_c_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_c_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_d": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_d_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_d_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_e": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_e_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_e_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_f": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_f_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_f_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_g": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0,
-        "lod3": 3000.0
-      },
-      "vietnam_town_building_2_floor_g_dp_01": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_g_dp_02": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_g_dp_03": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
-      },
-      "vietnam_town_building_2_floor_g_dp_04": {
-        "lod0": 100.0,
-        "lod1": 210.0,
-        "lod2": 450.0
+        "lod1": 2000.0,
+        "lod2": 5000.0
       },
       "vietnam_town_building_2_floor_a_courtyard": {
         "lod0": 150.0,
@@ -981,19 +859,19 @@
         "lod0": 70.0,
         "lod1": 150.0,
         "lod2": 300.0,
-        "lod3": 900.0
+        "lod3": 3100.0
       },
       "vietnam_myson_ruine_b": {
         "lod0": 70.0,
         "lod1": 150.0,
         "lod2": 300.0,
-        "lod3": 900.0
+        "lod3": 3100.0
       },
       "vietnam_myson_ruine_c": {
         "lod0": 70.0,
         "lod1": 150.0,
         "lod2": 300.0,
-        "lod3": 900.0
+        "lod3": 3100.0
       },
       "vietnam_myson_temple_hight": {
         "lod0": 200.0,
@@ -1060,77 +938,77 @@
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_b": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_c": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_d": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_e": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_f_a": {
         "lod0": 70.0,
         "lod1": 100.0,
         "lod2": 150.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_f_b": {
         "lod0": 70.0,
         "lod1": 100.0,
         "lod2": 150.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_g": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_h": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "vietnam_village_building_i": {
         "lod0": 100.0,
         "lod1": 300.0,
         "lod2": 400.0,
-        "lod3": 2000.0
+        "lod3": 4000.0
       },
       "watch_tower_f": {
         "lod0": 50.0,
         "lod1": 100.0,
         "lod2": 200.0,
-        "lod3": 4000.0
+        "lod3": 5000.0
       },
       "conex_box_b": {
         "lod0": 50.0,
         "lod1": 100.0,
-        "lod2": 1000.0
+        "lod2": 2000.0
       },
       "conex_box_a": {
         "lod0": 50.0,
         "lod1": 100.0,
-        "lod2": 1000.0
+        "lod2": 2000.0
       },
       "fishing_lodge_a": {
         "lod0": 50.0,
@@ -1146,19 +1024,19 @@
         "lod0": 50.0,
         "lod1": 100.0,
         "lod2": 300.0,
-        "lod3": 500.0
+        "lod3": 1000.0
       },
       "vietnam_bridge_small": {
         "lod0": 50.0,
         "lod1": 120.0,
         "lod2": 220.0,
-        "lod3": 600.0
+        "lod3": 1000.0
       },
       "vietnam_thien_mu": {
         "lod0": 100.0,
         "lod1": 200.0,
         "lod2": 500.0,
-        "lod3": 4000.0
+        "lod3": 5000.0
       },
       "vietnam_town_building_1_floor_a": {
         "lod0": 100.0,
@@ -1295,17 +1173,17 @@
       "vietnam_basket_a": {
         "lod0": 50.0,
         "lod1": 200.0,
-        "lod2": 600.0
+        "lod2": 1000.0
       },
       "vietnam_basket_b": {
         "lod0": 50.0,
         "lod1": 200.0,
-        "lod2": 600.0
+        "lod2": 1000.0
       },
       "vietnam_basket_boat_a": {
         "lod0": 50.0,
         "lod1": 200.0,
-        "lod2": 600.0
+        "lod2": 1000.0
       },
       "vietnam_basket_boat_a_paddle": {
         "lod0": 50.0,
@@ -1470,50 +1348,54 @@
       "vietnam_soil_erosion_cliff_a": {
         "lod0": 1.0,
         "lod1": 150.0,
-        "lod2": 500.0,
-        "lod3": 1200.0
+        "lod2": 550.0,
+        "lod3": 6000.0
       },
       "vietnam_soil_erosion_cliff_b": {
         "lod0": 1.0,
         "lod1": 150.0,
         "lod2": 500.0,
-        "lod3": 1200.0
+        "lod3": 6000.0
       },
       "vietnam_soil_erosion_cliff_a_grass": {
         "lod0": 1.0,
         "lod1": 70.0,
-        "lod2": 500.0,
-        "lod3": 1000.0
+        "lod2": 1200.0,
+        "lod3": 3000.0
       },
       "vietnam_soil_erosion_cliff_b_grass": {
         "lod0": 1.0,
         "lod1": 70.0,
-        "lod2": 500.0,
-        "lod3": 1000.0
+        "lod2": 1200.0,
+        "lod3": 3000.0
       },
       "vietnam_sheer_cliff_a": {
         "lod0": 300.0,
         "lod1": 500.0,
         "lod2": 1500.0,
-        "lod3": 15000.0
+        "lod3": 80000.0
       },
       "vietnam_sheer_cliff_b": {
         "lod0": 300.0,
         "lod1": 500.0,
         "lod2": 1500.0,
-        "lod3": 15000.0
+        "lod3": 80000.0
       },
       "vietnam_sheer_cliff_c": {
         "lod0": 300.0,
         "lod1": 500.0,
         "lod2": 1500.0,
-        "lod3": 15000.0
+        "lod3": 80000.0
       },
       "vietnam_sheer_cliff_d": {
         "lod0": 300.0,
         "lod1": 500.0,
         "lod2": 1500.0,
-        "lod3": 15000.0
+        "lod3": 80000.0
+      },
+      "wood_fence_c": {
+        "lod0": 75.0,
+        "lod1": 2000.0
       }
     }
   },

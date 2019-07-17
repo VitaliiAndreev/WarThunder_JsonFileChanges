@@ -10197,13 +10197,9 @@
         "prevModification": "150mm_ger_c36_naval_he_dist_fuse_ammo_pack"
       },
       "105mm_germany_skc32_navy_he": [],
-      "105mm_germany_skc32_navy_base_fuse_he": {
-        "modCostMul": 0.3
-      },
+      "105mm_germany_skc32_navy_base_fuse_he": [],
       "105mm_germany_skc32_navy_base_fuse_he_ammo_pack": [],
-      "105mm_germany_skc32_navy_dist_fuse_he": {
-        "modCostMul": 0.3
-      },
+      "105mm_germany_skc32_navy_dist_fuse_he": [],
       "105mm_germany_skc32_navy_dist_fuse_he_ammo_pack": {
         "prevModification": "105mm_germany_skc32_navy_base_fuse_he_ammo_pack"
       },

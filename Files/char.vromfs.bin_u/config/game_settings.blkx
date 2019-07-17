@@ -636,17 +636,9 @@
         "condition": "role_ALPHA_TESTER"
       }
     ],
-    "JapanShipsInFirstCountryChoice": [
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      }
-    ],
+    "JapanShipsInFirstCountryChoice": {
+      "condition": ""
+    },
     "ChinaAircraftsInFirstCountryChoice": {
       "condition": ""
     },
@@ -1463,20 +1455,9 @@
     "ItalyTankUnlocked": {
       "condition": ""
     },
-    "JapanShipsUnlocked": [
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      },
-      {
-        "condition": "role_ALPHA_TESTER"
-      },
-      {
-        "condition": "wt_access_japan_ships_unlocks"
-      }
-    ],
+    "JapanShipsUnlocked": {
+      "condition": ""
+    },
     "CountryChina": {
       "condition": "role_DEVELOPER"
     },

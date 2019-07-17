@@ -129805,6 +129805,31 @@
   },
   {
     "unlockable": {
+      "id": "jp_t14_class_mod01",
+      "type": "aircraft",
+      "popupImage": "#ui/images/jp_t14_class_mod01.jpg?P1",
+      "popupInDebriefing": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 3
+        },
+        {
+          "unlock": "chosen_country_japan"
+        },
+        {
+          "unlock": "chosen_unit_type_ship"
+        },
+        {
+          "unlock": "first_battle"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "first_battle_usa",
       "type": "achievement",
       "hidden": true,

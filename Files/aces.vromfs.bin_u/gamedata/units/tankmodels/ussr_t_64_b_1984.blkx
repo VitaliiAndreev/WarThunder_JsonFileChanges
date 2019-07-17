@@ -2825,7 +2825,7 @@
         "invertEnableLogic": false,
         "turn_it_off": false,
         "effects": {
-          "rcostAddParam": 0.01,
+          "rcostAddParam": 0.92,
           "changeMass": 1100.0,
           "hideNodes": [
             {

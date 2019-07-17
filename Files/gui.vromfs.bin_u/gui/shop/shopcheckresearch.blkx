@@ -7,6 +7,14 @@
       "type": "shop"
     },
     {
+      "tdiv": {
+        "id": "shop_wnd_bg_extra_shade",
+        "size": "pw, ph",
+        "background-color": "@shadeBackgroundColor",
+        "display": "hide"
+      }
+    },
+    {
       "navBar": {
         "style": "id:slotbar_place;"
       }

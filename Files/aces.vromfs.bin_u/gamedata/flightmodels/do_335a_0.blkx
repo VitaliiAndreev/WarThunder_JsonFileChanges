@@ -2364,51 +2364,32 @@
       }
     ]
   },
-  "commonWeapons": [
+  "commonWeapons": {
+    "Weapon": {
+      "trigger": "cannon",
+      "blk": "gameData/Weapons/cannonMK103.blk",
+      "emitter": "flare1",
+      "flash": "flare1",
+      "dm": "cannon1_dm",
+      "bullets": 70,
+      "spread": 1.0,
+      "counterIndex": 2
+    }
+  },
+  "weapon_presets": [
     {
-      "Weapon": {
-        "trigger": "cannon",
-        "blk": "gameData/Weapons/cannonMK103.blk",
-        "emitter": "flare1",
-        "flash": "flare1",
-        "dm": "cannon1_dm",
-        "bullets": 70,
-        "spread": 1.0,
-        "counterIndex": 2
+      "preset": {
+        "name": "do_335a_0_mg15115",
+        "blk": "gameData/FlightModels/weaponPresets/do_335a_0_mg15115.blk"
       }
     },
     {
-      "Weapon": {
-        "trigger": "machine gun",
-        "blk": "gameData/Weapons/cannonMG15120.blk",
-        "emitter": "flare2",
-        "flash": "flare2",
-        "dm": "cannon2_dm",
-        "bullets": 200,
-        "spread": 1.25,
-        "traceOffset": 1,
-        "counterIndex": 1
-      }
-    },
-    {
-      "Weapon": {
-        "trigger": "machine gun",
-        "blk": "gameData/Weapons/cannonMG15120.blk",
-        "emitter": "flare3",
-        "flash": "flare3",
-        "dm": "cannon3_dm",
-        "bullets": 200,
-        "spread": 1.25,
-        "counterIndex": 3
+      "preset": {
+        "name": "do_335a_0_default",
+        "blk": "gameData/FlightModels/weaponPresets/do_335a_0_default.blk"
       }
     }
   ],
-  "weapon_presets": {
-    "preset": {
-      "name": "do_335a_0_default",
-      "blk": "gameData/FlightModels/weaponPresets/do_335a_0_default.blk"
-    }
-  },
   "turbulence": {
     "segmentlength": 100.0,
     "startSpeed": 28.0,
@@ -5908,8 +5889,7 @@
       "tier": 2
     },
     "mg15115_belt_pack": {
-      "tier": 2,
-      "prevModification": "do-335a-0_mg15115_mod"
+      "tier": 1
     },
     "mk103_new_gun": {
       "reqModification": "mk103_belt_pack"
@@ -5919,58 +5899,11 @@
     },
     "mg15115_new_gun": {
       "reqModification": "mg15115_belt_pack",
-      "tier": 4
+      "tier": 3
     },
     "mg15120_new_gun": {
       "reqModification": "mg15120_belt_pack",
       "tier": 3
-    },
-    "do-335a-0_mg15115_mod": {
-      "modClass": "weapon",
-      "tier": 1,
-      "reqModLevel": 11.0,
-      "invertEnableLogic": false,
-      "effects": {
-        "commonWeapons": [
-          {
-            "Weapon": {
-              "trigger": "cannon",
-              "blk": "gameData/Weapons/cannonMK103.blk",
-              "emitter": "flare1",
-              "flash": "flare1",
-              "dm": "cannon1_dm",
-              "bullets": 70,
-              "spread": 1.0,
-              "counterIndex": 2
-            }
-          },
-          {
-            "Weapon": {
-              "trigger": "machine gun",
-              "blk": "gameData/Weapons/cannonMG15115.blk",
-              "emitter": "flare2",
-              "flash": "flare2",
-              "dm": "cannon2_dm",
-              "bullets": 200,
-              "spread": 1.25,
-              "traceOffset": 1,
-              "counterIndex": 1
-            }
-          },
-          {
-            "Weapon": {
-              "trigger": "machine gun",
-              "blk": "gameData/Weapons/cannonMG15115.blk",
-              "emitter": "flare3",
-              "flash": "flare3",
-              "dm": "cannon3_dm",
-              "bullets": 200,
-              "spread": 1.25,
-              "counterIndex": 3
-            }
-          }
-        ]
-      }
     }
   },
   "default_skin_tomoe": [

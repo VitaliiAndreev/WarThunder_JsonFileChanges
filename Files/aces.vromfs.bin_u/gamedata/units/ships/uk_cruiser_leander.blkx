@@ -8396,9 +8396,7 @@
       "152mm_uk_navy_5_10crh_cpbc": [],
       "152mm_uk_navy_5_10crh_cpbc_ammo_pack": [],
       "102mm_uk_mkxvi_navy_HE": [],
-      "102mm_uk_mkxvi_navy_SAP": {
-        "modCostMul": 0.3
-      },
+      "102mm_uk_mkxvi_navy_SAP": [],
       "102mm_uk_mkxvi_navy_SAP_ammo_pack": [],
       "ship_rangefinder": {
         "prevModification": "152mm_uk_navy_5_10crh_cpbc_ammo_pack"

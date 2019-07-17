@@ -2912,7 +2912,7 @@
         "turn_it_off": false,
         "group": "t80b_ERA",
         "effects": {
-          "rcostAddParam": 0.01,
+          "rcostAddParam": 0.9,
           "changeMass": 500.0,
           "commonWeapons": [
             {

@@ -2331,10 +2331,7 @@
     {
       "preset": {
         "name": "g_55s_torpedo",
-        "blk": "gameData/FlightModels/weaponPresets/g_55s_torpedo.blk",
-        "tags": {
-          "free": true
-        }
+        "blk": "gameData/FlightModels/weaponPresets/g_55s_torpedo.blk"
       }
     },
     {

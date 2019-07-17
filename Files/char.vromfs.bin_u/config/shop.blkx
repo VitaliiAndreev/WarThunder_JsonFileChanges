@@ -347,7 +347,8 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50070,
+            "hideFeature": "!Marketplace"
           },
           "us_t14": {
             "rank": 2,
@@ -1521,8 +1522,7 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "marketplaceItemdefId": 50034,
-            "hideFeature": "!Marketplace"
+            "showOnlyWhenBought": true
           },
           "germ_leopard_a1a1_120": {
             "rank": 6,
@@ -2092,9 +2092,10 @@
           },
           "fw-189a-1": {
             "rank": 1,
-            "showOnlyWhenBought": true,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50069,
+            "hideFeature": "!Marketplace"
           },
           "he_112b_1": {
             "rank": 1,
@@ -2102,9 +2103,10 @@
           },
           "h-75a-2_finland": {
             "rank": 1,
-            "showOnlyWhenBought": true,
             "reqAir": "",
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50067,
+            "hideFeature": "!Marketplace"
           },
           "il_2_1942_luftwaffe": {
             "rank": 2,
@@ -2219,18 +2221,18 @@
             "marketplaceItemdefId": 50063,
             "hideFeature": "!Marketplace"
           },
-          "me-262a-2a": {
-            "rank": 5,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "marketplaceItemdefId": 50008,
-            "hideFeature": "!Marketplace"
-          },
           "he-162a-1": {
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
             "marketplaceItemdefId": 50049,
+            "hideFeature": "!Marketplace"
+          },
+          "me-262a-2a": {
+            "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50008,
             "hideFeature": "!Marketplace"
           }
         }
@@ -2348,15 +2350,10 @@
           "germ_destroyer_class1936_z20": {
             "rank": 3,
             "rankPosXY": [5,1]
-          }
-        }
-      },
-      {
-        "range": {
+          },
           "germ_destroyer_class1936a_mob_z32": {
             "rank": 3,
-            "rankPosXY": [5,2],
-            "reqAir": "germ_destroyer_class1936_z20"
+            "rankPosXY": [5,2]
           }
         }
       },
@@ -3488,8 +3485,9 @@
           "i_29": {
             "rank": 1,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50066,
+            "hideFeature": "!Marketplace"
           },
           "hurricanemkii_ussr": {
             "rank": 2,
@@ -4041,8 +4039,9 @@
           "uk_mk1_grant": {
             "rank": 2,
             "reqAir": "",
-            "showOnlyWhenBought": true,
-            "gift": "msi_notebook"
+            "gift": "msi_notebook",
+            "marketplaceItemdefId": 50018,
+            "hideFeature": "!Marketplace"
           },
           "uk_armored_car_aec_mk_2": {
             "rank": 2,
@@ -5262,18 +5261,15 @@
           },
           "jp_type_t1_1941": {
             "rank": 1,
-            "rankPosXY": [2,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [2,1]
           },
           "jp_karotei_type2": {
             "rank": 1,
-            "rankPosXY": [3,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [3,1]
           },
           "jp_sehatei_mod1": {
             "rank": 1,
-            "rankPosXY": [4,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [4,1]
           }
         }
       },
@@ -5282,8 +5278,7 @@
           "jp_type38_1944": {
             "rank": 1,
             "rankPosXY": [2,2],
-            "reqAir": "jp_type_t1_1941",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_type_t1_1941"
           }
         }
       },
@@ -5292,23 +5287,19 @@
           "jp_type5_escortboat": {
             "rank": 1,
             "rankPosXY": [1,3],
-            "reqAir": "jp_t14_class",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_t14_class"
           },
           "jp_abtei_pr1": {
             "rank": 1,
-            "rankPosXY": [2,3],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [2,3]
           },
           "jp_no1_ch2": {
             "rank": 1,
-            "rankPosXY": [3,3],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [3,3]
           },
           "jp_no4_ch8": {
             "rank": 1,
-            "rankPosXY": [4,3],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [4,3]
           }
         }
       },
@@ -5317,8 +5308,7 @@
           "jp_abtei_pr4": {
             "rank": 1,
             "rankPosXY": [2,4],
-            "reqAir": "jp_abtei_pr1",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_abtei_pr1"
           }
         }
       },
@@ -5327,23 +5317,19 @@
           "jp_t51b": {
             "rank": 2,
             "rankPosXY": [1,1],
-            "reqAir": "jp_type5_escortboat",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_type5_escortboat"
           },
           "jp_kusen_tei_13_1944": {
             "rank": 2,
-            "rankPosXY": [2,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [2,1]
           },
           "jp_type_11_pt_15": {
             "rank": 2,
-            "rankPosXY": [3,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [3,1]
           },
           "jp_escort_chikugo_class": {
             "rank": 2,
-            "rankPosXY": [4,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [4,1]
           }
         }
       },
@@ -5352,23 +5338,19 @@
           "jp_destroyer_mutsuki": {
             "rank": 3,
             "rankPosXY": [1,1],
-            "reqAir": "jp_t51b",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_t51b"
           },
           "jp_destroyer_fubuki": {
             "rank": 3,
-            "rankPosXY": [2,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [2,1]
           },
           "jp_destroyer_yugumo": {
             "rank": 3,
-            "rankPosXY": [3,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [3,1]
           },
           "jp_destroyer_akizuki": {
             "rank": 3,
-            "rankPosXY": [4,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [4,1]
           }
         }
       },
@@ -5377,23 +5359,19 @@
           "jp_cruiser_kuma": {
             "rank": 4,
             "rankPosXY": [1,1],
-            "reqAir": "jp_destroyer_mutsuki",
-            "reqFeature": "JapanShipsUnlocked"
+            "reqAir": "jp_destroyer_mutsuki"
           },
           "jp_cruiser_kako": {
             "rank": 4,
-            "rankPosXY": [3,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [3,1]
           },
           "jp_cruiser_agano": {
             "rank": 4,
-            "rankPosXY": [4,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [4,1]
           },
           "jp_cruiser_furutaka": {
             "rank": 4,
-            "rankPosXY": [5,1],
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [5,1]
           }
         }
       },
@@ -5402,9 +5380,7 @@
           "jp_t14_class_mod01": {
             "rank": 1,
             "reqAir": "",
-            "rankPosXY": [6,1],
-            "showOnlyWhenBought": true,
-            "reqFeature": "JapanShipsUnlocked"
+            "rankPosXY": [6,1]
           },
           "jp_pg02": {
             "rank": 2,
@@ -5993,7 +5969,8 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showOnlyWhenBought": true
+            "marketplaceItemdefId": 50068,
+            "hideFeature": "!Marketplace"
           }
         }
       }

@@ -2806,10 +2806,7 @@
       {
         "preset": {
           "name": "il_2_1941_4xfab100",
-          "blk": "gameData/FlightModels/weaponPresets/il_2_1941_4xfab100.blk",
-          "tags": {
-            "free": true
-          }
+          "blk": "gameData/FlightModels/weaponPresets/il_2_1941_4xfab100.blk"
         }
       },
       {

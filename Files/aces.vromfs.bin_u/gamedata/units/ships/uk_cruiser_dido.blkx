@@ -6288,13 +6288,9 @@
         "prevModification": "133mm_uk_qf_mk1_SAP_ammo_pack"
       },
       "40mm_qf_mkxv_universal": [],
-      "40mm_qf_mkxv_he": {
-        "modCostMul": 0.3
-      },
+      "40mm_qf_mkxv_he": [],
       "40mm_qf_mkxv_he_ammo_pack": [],
-      "40mm_qf_mkxv_ap": {
-        "modCostMul": 0.3
-      },
+      "40mm_qf_mkxv_ap": [],
       "40mm_qf_mkxv_ap_ammo_pack": {
         "prevModification": "40mm_qf_mkxv_he_ammo_pack"
       },

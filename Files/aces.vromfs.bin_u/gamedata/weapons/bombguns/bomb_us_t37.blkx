@@ -1,6 +1,6 @@
 {
   "bombGun": true,
-  "preset_cost": 100,
+  "preset_cost": 10,
   "shotFreq": 10.0,
   "sound": "weapon.bombgun",
   "mesh": "bomb_t37",

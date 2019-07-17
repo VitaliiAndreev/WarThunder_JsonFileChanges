@@ -45,6 +45,9 @@
     "bulletsCluster": 1
   },
   {
+    "preset_cost": 150
+  },
+  {
     "bullet": {
       "mass": 0.13,
       "caliber": 0.02,

@@ -13683,8 +13683,7 @@
     },
     "ah_1g_M129": {
       "image": "#ui/gameuiskin#cannon",
-      "modClass": "weapon",
-      "deactivationIsAllowed": false
+      "modClass": "weapon"
     },
     "cd_98_main_rotor": {
       "image": "#ui/gameuiskin#cd_98_main_rotor",

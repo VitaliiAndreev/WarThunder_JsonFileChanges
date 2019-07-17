@@ -57,6 +57,9 @@
     "mass": 161.0
   },
   {
+    "preset_cost": 350
+  },
+  {
     "bullet": {
       "mass": 1.36,
       "caliber": 0.04,

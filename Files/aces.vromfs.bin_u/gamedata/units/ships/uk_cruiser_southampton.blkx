@@ -9852,9 +9852,7 @@
       "152mm_uk_navy_5_10crh_cpbc_ammo_pack": [],
       "102mm_uk_mkxvi_navy_HE": [],
       "102mm_uk_mkxvi_navy_SAP_ammo_pack": [],
-      "102mm_uk_mkxvi_navy_SAP": {
-        "modCostMul": 0.3
-      },
+      "102mm_uk_mkxvi_navy_SAP": [],
       "manual_ship_extinguisher": [],
       "ship_tool_kit": [],
       "ship_smoke_screen_system_mod": {

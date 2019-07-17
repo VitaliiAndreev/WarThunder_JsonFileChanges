@@ -2062,6 +2062,7 @@
         "invertEnableLogic": false,
         "turn_it_off": false,
         "effects": {
+          "rcostAddParam": 0.9,
           "changeMass": 10.0,
           "commonWeapons": [
             {

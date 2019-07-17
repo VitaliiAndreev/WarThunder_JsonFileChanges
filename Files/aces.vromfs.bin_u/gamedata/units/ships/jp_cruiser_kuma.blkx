@@ -6625,13 +6625,9 @@
         "prevModification": "140mm_jp_1940_type0_aa_distant_fuse_naval_he_ammo_pack"
       },
       "25mm_type96_naval_universal": [],
-      "25mm_type96_naval_ap": {
-        "modCostMul": 0.3
-      },
+      "25mm_type96_naval_ap": [],
       "25mm_type96_naval_ap_ammo_pack": [],
-      "25mm_type96_naval_incendiary": {
-        "modCostMul": 0.3
-      },
+      "25mm_type96_naval_incendiary": [],
       "25mm_type96_naval_incendiary_ammo_pack": [],
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {
