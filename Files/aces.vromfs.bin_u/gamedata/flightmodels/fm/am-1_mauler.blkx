@@ -567,7 +567,7 @@
       "Type": 2,
       "NumSteps": 2,
       "RPM0": 600.0,
-      "ATA0": 0.2,
+      "ATA0": 0.8,
       "RPM1": 2000.0,
       "ATA1": 1.036,
       "RPM2": 2550.0,
@@ -576,7 +576,7 @@
       "ATA3": 1.738,
       "ExactAltitudes": false,
       "CompressorOmegaFactorSq": 0.0,
-      "CompressorPressureAtRPM0": 2.4,
+      "CompressorPressureAtRPM0": 0.8,
       "Altitude0": 4099.0,
       "AfterburnerBoostMul0": 0.0,
       "Power0": 2600.0,
@@ -675,7 +675,7 @@
       "RollDamping": [0.0,0.0,0.0,0.0],
       "PitchDamping": [0.0,0.0,0.0,0.0],
       "DampingMultByFlow": [0.0,1.0,0.0,1.0],
-      "AirFlowSolver": true,
+      "AirFlowSolver": false,
       "AirFlow1": [-1000.0,0.0,0.0,1.0],
       "AirFlow2": [1000.0,0.0,0.0,1.0],
       "ArcadeTangAirFlowMin": 0.0,
@@ -690,7 +690,7 @@
     "Mass": {
       "Mass": 292.0,
       "Diameter": 4.47,
-      "InertiaMomentCoeff": 0.05
+      "InertiaMomentCoeff": 0.85
     },
     "Governor": {
       "PitchMin": 21.5,
