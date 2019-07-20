@@ -8774,9 +8774,7 @@
         "prevModification": "127mm_usa_mk36_navy_radio_fuse_ammo_pack"
       },
       "127mm_usa_mk28_navy_he": [],
-      "127mm_usa_mk36_navy_radio_fuse": {
-        "modCostMul": 0.3
-      },
+      "127mm_usa_mk36_navy_radio_fuse": [],
       "127mm_usa_mk36_navy_radio_fuse_ammo_pack": {
         "prevModification": "152mm_us_mk34_base_fuse_navy_he_ammo_pack"
       },

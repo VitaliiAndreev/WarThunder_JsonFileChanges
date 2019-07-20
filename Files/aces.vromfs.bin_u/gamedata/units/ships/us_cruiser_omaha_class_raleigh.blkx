@@ -9467,15 +9467,11 @@
       "152mm_us_mk27_navy_special_common": [],
       "152mm_us_mk27_navy_special_common_ammo_pack": [],
       "76mm_usa_navy_he": [],
-      "76mm_usa_navy_AP": {
-        "modCostMul": 0.3
-      },
+      "76mm_usa_navy_AP": [],
       "76mm_usa_navy_AP_ammo_pack": {
         "prevModification": "152mm_us_mk27_navy_special_common_ammo_pack"
       },
-      "76mm_usa_AA_radio_fuze": {
-        "modCostMul": 0.3
-      },
+      "76mm_usa_AA_radio_fuze": [],
       "76mm_usa_AA_radio_fuze_ammo_pack": {
         "prevModification": "76mm_usa_navy_AP_ammo_pack"
       },

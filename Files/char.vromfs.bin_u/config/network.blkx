@@ -673,7 +673,7 @@
   },
   "test": [
     {
-      "matchServer": "matchserver.gaijin.lan:7852"
+      "matchServer": "match-test-gj-msk-01.gaijin.ops:7852"
     },
     {
       "ircServer": "chat-test.gaijin.lan:6668"
@@ -759,7 +759,7 @@
   },
   "experimental": [
     {
-      "matchServer": "matchserver.gaijin.lan:7870"
+      "matchServer": "match-test-gj-msk-01.gaijin.ops:7870"
     },
     {
       "ircServer": "chat-test.gaijin.lan:7001"
@@ -794,7 +794,7 @@
   ],
   "experimental2": [
     {
-      "matchServer": "matchserver.gaijin.lan:7872"
+      "matchServer": "match-test-gj-msk-01.gaijin.ops:7872"
     },
     {
       "ircServer": "chat-test.gaijin.lan:7001"
