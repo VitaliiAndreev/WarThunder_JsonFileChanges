@@ -3207,6 +3207,128 @@
         },
         "way": []
       }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_destroyer_spawn_02",
+        "tm": [
+          [-0.707789,0.0,0.706424],
+          [0.0,1.0,0.0],
+          [-0.706424,0.0,-0.707789],
+          [-1743.03,0.0,-7468.52]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_destroyer_spawn_02",
+        "tm": [
+          [-0.707789,0.0,0.706424],
+          [0.0,1.0,0.0],
+          [-0.706424,0.0,-0.707789],
+          [7071.74,-0.00146484,-798.317]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere16"
+          }
+        ]
+      }
     }
   ],
   "areas": {
@@ -3239,39 +3361,6 @@
         [0.0,141.705,0.0],
         [-510.061,0.0,-511.047],
         [3878.0,0.0,-3850.35]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [-511.047,0.0,510.061],
-        [0.0,141.705,0.0],
-        [-510.061,0.0,-511.047],
-        [3878.0,0.0,-3850.35]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [-136.308,0.0,136.045],
-        [0.0,141.705,0.0],
-        [-136.045,0.0,-136.308],
-        [2037.05,-0.000245099,-1910.5]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [-116.301,0.0,116.077],
-        [0.0,141.705,0.0],
-        [-116.077,0.0,-116.301],
-        [30.3638,-0.00341749,21.8058]
       ],
       "objLayer": 0,
       "props": []
@@ -3668,28 +3757,6 @@
         [0.0,200.0,0.0],
         [-6.47781,0.0,-91.9044],
         [5027.88,0.0,-1250.45]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_04": {
-      "type": "Point",
-      "tm": [
-        [-1218.73,0.0,1216.38],
-        [0.0,141.705,0.0],
-        [-1216.38,0.0,-1218.73],
-        [0.546387,-0.00341821,29.9912]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_05": {
-      "type": "Point",
-      "tm": [
-        [-947.262,0.0,945.436],
-        [0.0,141.705,0.0],
-        [-945.436,0.0,-947.262],
-        [0.54541,-0.00341845,29.9924]
       ],
       "objLayer": 0,
       "props": []

@@ -3874,6 +3874,17 @@
       "tutorial_fighter_win": "#ui/images/tutorial_fighter_win_alt.jpg?P1",
       "help_bg_ground_strike": "ui/images/missions_tutorial/tutorial_slide_ground_strike_alt.jpg?P1",
       "help_bg_ground_strike_complete": "ui/images/missions_tutorial/tutorial_slide_ground_strike_complete_alt.jpg?P1"
+    },
+    "chinese": {
+      "country_japan": "#ui/gameuiskin#country_japan_modern.svg",
+      "country_japan_locked": "#ui/gameuiskin#country_japan_modern_locked.svg",
+      "country_japan_big": "#ui/gameuiskin#country_japan_modern_big",
+      "country_japan_big_locked": "#ui/gameuiskin#country_japan_modern_big_locked",
+      "first_choice_country_japan_aviation": "#ui/first_choice/japan_aviation_modern.png",
+      "first_choice_country_japan_army": "#ui/first_choice/japan_army_modern.png",
+      "first_choice_country_japan_fleet": "#ui/first_choice/japan_fleet_modern.png",
+      "bgflag_country_japan": "#ui/images/flag_japan_modern",
+      "decal_locked_country_japan": "#ui/gameuiskin#decal_country_japan_modern_locked.png"
     }
   },
   "units_presets": {

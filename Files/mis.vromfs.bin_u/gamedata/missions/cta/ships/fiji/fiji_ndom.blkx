@@ -164,7 +164,8 @@
       "allowedUnitTypes": {
         "isAirplanesAllowed": true,
         "isTanksAllowed": false,
-        "isShipsAllowed": true
+        "isShipsAllowed": true,
+        "isHelicoptersAllowed": false
       }
     },
     "spectator_points": [],

@@ -39019,7 +39019,7 @@
     "Shop": {
       "maxAltitude": 13200.0,
       "maxSpeed": 221.192,
-      "turnTime": 20.0,
+      "turnTime": 25.0,
       "airfieldLen": 350.0,
       "maxSpeedAlt": 8534.0,
       "climbSpeed": 34.4,

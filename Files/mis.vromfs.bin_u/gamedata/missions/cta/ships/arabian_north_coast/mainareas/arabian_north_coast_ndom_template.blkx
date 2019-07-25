@@ -358,6 +358,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "02_buoy_01"
           },
           {
@@ -532,6 +535,9 @@
           [911.619,6.10352e-05,1471.09]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "01_buoy_01"
           },
@@ -8625,6 +8631,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "03_buoy_03"
           },
           {
@@ -8899,6 +8908,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "ndom_buoy_circle_02"
           },
           {
@@ -8906,6 +8918,128 @@
           },
           {
             "squad_members": "ndom_buoy_circle_03"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_cruiser_spawn_01",
+        "tm": [
+          [-0.340152,0.0,-0.940371],
+          [0.0,1.0,0.0],
+          [0.940371,0.0,-0.340152],
+          [1277.83,0.00195313,6360.07]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp03_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp03_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp04_spawnsphere08"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_cruiser_spawn_01",
+        "tm": [
+          [-0.739527,0.0,-0.673128],
+          [0.0,1.0,0.0],
+          [0.673128,0.0,-0.739527],
+          [6969.04,0.00390625,705.525]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp03_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp03_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp04_spawnsphere08"
           }
         ]
       }
@@ -8941,39 +9075,6 @@
         [0.0,141.705,0.0],
         [510.554,0.0,-510.554],
         [4939.53,0.0,4915.84]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [-510.554,0.0,-510.554],
-        [0.0,141.705,0.0],
-        [510.554,0.0,-510.554],
-        [4939.53,0.0,4915.84]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [-136.177,0.0,-136.177],
-        [0.0,141.705,0.0],
-        [136.177,0.0,-136.177],
-        [2771.81,-0.000244141,2710.07]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [-116.189,0.0,-116.189],
-        [0.0,141.705,0.0],
-        [116.189,0.0,-116.189],
-        [1453.31,-0.00244141,1433.22]
       ],
       "objLayer": 3,
       "props": []

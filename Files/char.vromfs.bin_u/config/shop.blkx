@@ -4503,7 +4503,7 @@
             "rank": 4,
             "reqAir": "",
             "gift": "msi_notebook",
-            "showByPlatform": "ps4"
+            "showOnlyWhenBought": true
           }
         }
       }
@@ -4650,7 +4650,7 @@
             "reqAir": "",
             "rankPosXY": [6,1],
             "gift": "msi_notebook",
-            "showByPlatform": "ps4;xboxOne"
+            "showOnlyWhenBought": true
           }
         }
       },

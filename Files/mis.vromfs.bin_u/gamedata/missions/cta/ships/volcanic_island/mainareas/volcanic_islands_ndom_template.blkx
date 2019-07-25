@@ -4537,6 +4537,128 @@
         },
         "way": []
       }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-5233.9,0.0,-5783.23]
+        ],
+        "props": [
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_01"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_02"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_03"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_04"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_05"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_06"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_07"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_08"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_09"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_10"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_11"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_12"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_13"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_14"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_15"
+          },
+          {
+            "squad_members": "ndom_t1_cruiser_spawn_01_16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [4902.32,-0.00146484,5600.37]
+        ],
+        "props": [
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_01"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_02"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_03"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_04"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_05"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_06"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_07"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_08"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_09"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_10"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_11"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_12"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_13"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_14"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_15"
+          },
+          {
+            "squad_members": "ndom_t2_cruiser_spawn_01_16"
+          }
+        ]
+      }
     }
   ],
   "areas": {
@@ -4586,39 +4708,6 @@
     },
     "ndom_capture_area_03": {
       "type": "Cylinder",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [-2072.19,-1.0,1842.77]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [-90.2117,0.0,286.115],
-        [0.0,211.1,0.0],
-        [-286.115,0.0,-90.2117],
-        [2075.97,-1.0,-1840.26]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [1.0,-1.0,0.0]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
       "tm": [
         [300.0,0.0,0.0],
         [0.0,211.1,0.0],

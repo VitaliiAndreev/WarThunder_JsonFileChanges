@@ -945,6 +945,9 @@
         "torpPointBlocked": "trpd_sight_point_blocked"
       },
       {
+        "torpedoforestallColor": "#b4b4b43c"
+      },
+      {
         "hitBlinkFreq": 1.0
       },
       {

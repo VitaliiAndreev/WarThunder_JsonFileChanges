@@ -686,6 +686,250 @@
           }
         ]
       }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t2_destroyer_spawn_02",
+        "tm": [
+          [-0.976296,0.0,-0.21644],
+          [0.0,1.0,0.0],
+          [0.21644,0.0,-0.976296],
+          [7349.52,-0.00488281,6307.87]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t2_destroyer_spawn_03",
+        "tm": [
+          [-0.856443,0.0,-0.51624],
+          [0.0,1.0,0.0],
+          [0.51624,0.0,-0.856443],
+          [11046.2,-0.00488281,6893.25]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp06_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere09"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere10"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere11"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere12"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere13"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere14"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere15"
+          },
+          {
+            "squad_members": "t2_resp06_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t1_destroyer_spawn_02",
+        "tm": [
+          [-0.976296,0.0,-0.21644],
+          [0.0,1.0,0.0],
+          [0.21644,0.0,-0.976296],
+          [8034.91,-0.00585938,-6424.73]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t1_destroyer_spawn_03",
+        "tm": [
+          [-0.999716,0.0,0.0238295],
+          [0.0,1.0,0.0],
+          [-0.0238295,0.0,-0.999716],
+          [12734.1,-0.00488281,-5386.81]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp06_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere09"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere10"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere11"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere12"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere13"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere14"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere15"
+          },
+          {
+            "squad_members": "t1_resp06_spawnsphere16"
+          }
+        ]
+      }
     }
   ],
   "areas": {

@@ -652,68 +652,39 @@
       "formatVersion": 2,
       "armorClass": "ship_wood",
       "armorThickness": 20.0,
-      "compartments": [
-        {
-          "fireParamsPreset": "ship_cover"
+      "compartments": {
+        "fireParamsPreset": "ship_cover",
+        "stopChanceOnDeadPart": 0.2,
+        "genericDamageMult": 0.6,
+        "shatterDamageMult": 0.6,
+        "explosionDamageMult": 0.8,
+        "secondaryShatterDamageMult": 1.0,
+        "armorThickness": 4.0,
+        "armorClass": "ship_structural_steel",
+        "compartment_01_dm": {
+          "hp": 469.0
         },
-        {
-          "stopChanceOnDeadPart": 0.2
+        "compartment_02_dm": {
+          "hp": 500.0
         },
-        {
-          "genericDamageMult": 0.6
+        "compartment_03_dm": {
+          "hp": 500.0
         },
-        {
-          "shatterDamageMult": 0.6
+        "bridge_dm": {
+          "genericDamageMult": 1.5,
+          "shatterDamageMult": 1.5,
+          "explosionDamageMult": 1.0,
+          "armorThickness": 1.0,
+          "hp": 100.0
         },
-        {
-          "explosionDamageMult": 0.8
-        },
-        {
-          "secondaryShatterDamageMult": 1.0
-        },
-        {
-          "armorClass": "ship_wood"
-        },
-        {
-          "armorThickness": 4.0
-        },
-        {
-          "armorClass": "ship_structural_steel"
-        },
-        {
-          "compartment_01_dm": {
-            "hp": 469.0
-          }
-        },
-        {
-          "compartment_02_dm": {
-            "hp": 500.0
-          }
-        },
-        {
-          "compartment_03_dm": {
-            "hp": 500.0
-          }
-        },
-        {
-          "bridge_dm": {
-            "genericDamageMult": 1.5,
-            "shatterDamageMult": 1.5,
-            "explosionDamageMult": 1.0,
-            "armorThickness": 1.0,
-            "hp": 100.0
-          }
-        },
-        {
-          "radio_station_dm": {
-            "genericDamageMult": 1.5,
-            "shatterDamageMult": 1.5,
-            "explosionDamageMult": 1.0,
-            "armorThickness": 1.0,
-            "hp": 80.0
-          }
+        "radio_station_dm": {
+          "genericDamageMult": 1.5,
+          "shatterDamageMult": 1.5,
+          "explosionDamageMult": 1.0,
+          "armorThickness": 1.0,
+          "hp": 80.0
         }
-      ],
+      },
       "superstructures": {
         "armorClass": "ship_wood",
         "armorThickness": 10.0,

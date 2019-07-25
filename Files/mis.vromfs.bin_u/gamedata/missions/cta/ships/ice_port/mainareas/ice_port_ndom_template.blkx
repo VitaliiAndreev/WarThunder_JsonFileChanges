@@ -4426,6 +4426,128 @@
           }
         ]
       }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-4637.44,-0.00146484,3151.03]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_shipspawn_cruiser_02"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_03"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_04"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_05"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_06"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_07"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_08"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_17"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_09"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_10"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_11"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_12"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_13"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_14"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_15"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_01"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [2078.58,0.000976563,-4683.46]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_shipspawn_cruiser_01"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_02"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_03"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_04"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_05"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_06"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_07"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_08"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_17"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_18"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_19"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_20"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_21"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_22"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_23"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_16"
+          }
+        ]
+      }
     }
   ],
   "areas": {
@@ -5228,39 +5350,6 @@
         [0.0,211.1,0.0],
         [43.0147,0.0,296.9],
         [-2018.33,7.62939e-06,-1680.37]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [296.9,0.0,-43.0147],
-        [0.0,211.1,0.0],
-        [43.0147,0.0,296.9],
-        [1367.03,0.00245667,1719.38]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [296.9,0.0,-43.0147],
-        [0.0,211.1,0.0],
-        [43.0147,0.0,296.9],
-        [-223.672,0.0,-248.205]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [296.9,0.0,-43.0147],
-        [0.0,211.1,0.0],
-        [43.0147,0.0,296.9],
-        [-2018.33,28.8028,-1680.37]
       ],
       "objLayer": 3,
       "props": []

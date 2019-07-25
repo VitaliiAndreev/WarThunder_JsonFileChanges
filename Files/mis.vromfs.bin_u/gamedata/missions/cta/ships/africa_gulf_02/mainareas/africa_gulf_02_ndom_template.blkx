@@ -1093,6 +1093,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy01"
           },
           {
@@ -2378,6 +2381,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy60"
           },
           {
@@ -2997,6 +3003,128 @@
       }
     },
     {
+      "area_squad": {
+        "name": "ndom_t1_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-2482.85,0.0,10339.7]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_shipspawn_cruiser_01"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_02"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_03"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_04"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_05"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_06"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_07"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_08"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_17"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_18"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_19"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_20"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_21"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_22"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_23"
+          },
+          {
+            "squad_members": "t1_shipspawn_cruiser_16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_destroyer_spawn_03",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [5965.1,0.0,10185.8]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_shipspawn_cruiser_01"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_02"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_03"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_04"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_05"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_06"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_07"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_08"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_09"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_10"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_11"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_12"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_13"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_14"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_15"
+          },
+          {
+            "squad_members": "t2_shipspawn_cruiser_16"
+          }
+        ]
+      }
+    },
+    {
       "squad": {
         "name": "ndom_buoy_circle_03",
         "tm": [
@@ -3006,6 +3134,9 @@
           [1848.1,-28.7095,7990.59]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "captureArea03_buoy01"
           },
@@ -5789,6 +5920,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "ndom_buoy_circle_03"
           },
           {
@@ -5820,39 +5954,6 @@
         [0.0,211.1,0.0],
         [0.0,0.0,300.0],
         [1935.48,0.000320435,3653.84]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [1935.48,0.0002594,3653.84]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [1977.15,-0.00201416,1932.96]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [1887.4,-38.6178,7891.06]
       ],
       "objLayer": 3,
       "props": []

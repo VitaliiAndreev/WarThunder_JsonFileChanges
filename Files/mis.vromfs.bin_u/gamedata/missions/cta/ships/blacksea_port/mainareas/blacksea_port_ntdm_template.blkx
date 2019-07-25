@@ -154,7 +154,7 @@
           [-0.741153,0.0,0.671336],
           [0.0,1.0,0.0],
           [-0.671336,0.0,-0.741153],
-          [10457.7,0.0,9523.0]
+          [10327.3,0.0,8072.52]
         ],
         "props": [
           {
@@ -903,6 +903,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "t2_ai_ship01"
           },
           {
@@ -981,6 +984,9 @@
           [8198.25,0.0,12159.3]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "t1_ai_ship07"
           },
@@ -1204,7 +1210,7 @@
           [1.2917e-08,0.0,1.0],
           [0.0,1.0,0.0],
           [-1.0,0.0,1.2917e-08],
-          [-4979.91,0.0,12081.5]
+          [-4982.49,0.0,12081.5]
         ],
         "props": [
           {
@@ -1257,6 +1263,250 @@
           }
         ]
       }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t1_destroyer_spawn_02",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [9641.71,0.0,11838.2]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_big_fleet_spawn2_area01"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area02"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area03"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area04"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area05"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area06"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area07"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area08"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area09"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area10"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area11"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area12"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area13"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area14"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area15"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t2_destroyer_spawn_02",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-4642.76,0.0,6942.25]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_big_fleet_spawn2_area01"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area02"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area03"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area04"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area05"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area06"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area07"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area08"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area09"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area10"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area11"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area12"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area13"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area14"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area15"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn2_area16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t2_cruiser_spawn_01",
+        "tm": [
+          [1.2917e-08,0.0,1.0],
+          [0.0,1.0,0.0],
+          [-1.0,0.0,1.2917e-08],
+          [-1182.35,154.054,17303.0]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_big_fleet_spawn_area01"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area02"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area03"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area04"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area05"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area06"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area07"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area08"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area09"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area10"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area11"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area12"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area13"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area14"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area15"
+          },
+          {
+            "squad_members": "t2_big_fleet_spawn_area16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ntdm_t1_cruiser_spawn_01",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [9641.71,317.12,11838.2]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_big_fleet_spawn2_area01"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area02"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area03"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area04"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area05"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area06"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area07"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area08"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area09"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area10"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area11"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area12"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area13"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area14"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area15"
+          },
+          {
+            "squad_members": "t1_big_fleet_spawn2_area16"
+          }
+        ]
+      }
     }
   ],
   "areas": {
@@ -1296,351 +1546,10 @@
     "t1_big_fleet_spawn_area01": {
       "type": "Sphere",
       "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8570.25,0.0,12181.9]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area02": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8574.39,0.0,12595.3]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area03": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8578.53,0.0,13008.5]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area04": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8583.63,0.0,13517.8]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area05": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8587.76,0.0,13931.1]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area06": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8557.47,0.0,10905.1]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area07": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8561.61,0.0,11318.5]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area08": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8565.75,0.0,11731.9]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area09": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8542.94,0.0,9454.28]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area10": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8547.62,0.0,9921.26]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area11": {
-      "type": "Sphere",
-      "tm": [
-        [-399.979,0.0,4.004],
-        [0.0,400.0,0.0],
-        [-4.004,0.0,-399.979],
-        [8552.88,0.0,10446.1]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area12": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
         [8519.31,0.0,7337.4]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area13": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8523.44,0.0,7750.79]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area14": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8527.57,0.0,8164.17]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area15": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8531.71,0.0,8577.56]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t1_big_fleet_spawn_area16": {
-      "type": "Sphere",
-      "tm": [
-        [-389.131,0.0,92.6131],
-        [0.0,400.0,0.0],
-        [-92.6131,0.0,-389.131],
-        [8535.84,0.0,8990.94]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area01": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3567.75,0.0,10408.2]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area02": {
-      "type": "Sphere",
-      "tm": [
-        [399.999,0.0,0.0],
-        [0.0,400.0,0.0],
-        [0.0,0.0,399.999],
-        [-3585.45,0.0,9941.3]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area03": {
-      "type": "Sphere",
-      "tm": [
-        [399.999,0.0,0.0],
-        [0.0,400.0,0.0],
-        [0.0,0.0,399.999],
-        [-3597.16,0.0,9528.09]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area04": {
-      "type": "Sphere",
-      "tm": [
-        [399.999,0.0,-3.8147e-06],
-        [0.0,400.0,0.0],
-        [3.8147e-06,0.0,399.999],
-        [-3608.95,0.0,9114.81]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area05": {
-      "type": "Sphere",
-      "tm": [
-        [399.645,16.8294,0.0],
-        [-16.7003,396.578,49.4675],
-        [2.08149,-49.4236,396.93],
-        [-3620.66,9.15527e-05,8701.61]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area06": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3472.12,0.0,13775.2]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area07": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3483.86,0.0,13361.9]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area08": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3495.6,0.0,12948.8]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area09": {
-      "type": "Sphere",
-      "tm": [
-        [400.0,0.0,0.0],
-        [0.0,400.0,0.0],
-        [0.0,0.0,400.0],
-        [-3631.89,0.0,8305.39]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area10": {
-      "type": "Sphere",
-      "tm": [
-        [400.0,0.0,0.0],
-        [0.0,400.0,0.0],
-        [0.0,0.0,400.0],
-        [-3643.67,0.0,7892.12]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area11": {
-      "type": "Sphere",
-      "tm": [
-        [399.999,0.0,0.0],
-        [0.0,400.0,0.0],
-        [0.0,0.0,399.999],
-        [-3655.35,0.0,7480.97]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area12": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3504.03,0.0,12565.8]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area13": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3515.75,0.0,12152.5]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area14": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3527.53,0.0,11739.2]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area15": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3540.11,0.0,11296.6]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "t2_big_fleet_spawn_area16": {
-      "type": "Sphere",
-      "tm": [
-        [399.839,0.0,-11.3583],
-        [0.0,400.0,0.0],
-        [11.3583,0.0,399.839],
-        [-3551.82,0.0,10883.4]
       ],
       "objLayer": 0,
       "props": []
@@ -2367,6 +2276,699 @@
         [0.0,1.0,0.0],
         [0.0,0.0,1.0],
         [10479.7,0.0,17019.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area02": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,7561.11]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area03": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,7784.82]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area04": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,8008.53]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area05": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,8232.24]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area06": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,8232.24]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area07": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,7337.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area08": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,7561.11]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area09": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,7784.82]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area10": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,8008.53]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area11": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,8232.24]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area12": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,7337.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area13": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,7561.11]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area14": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,7784.82]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area15": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,8008.53]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn_area16": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,7103.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area01": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,11663.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area02": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,11887.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area03": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,12111.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area04": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,12334.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area05": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8519.31,0.0,12558.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area06": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,12558.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area07": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,11663.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area08": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,11887.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area09": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,12111.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area10": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,12334.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area11": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,12558.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area12": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,11663.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area13": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,11887.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area14": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,12111.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area15": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8945.23,0.0,12334.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_big_fleet_spawn2_area16": {
+      "type": "Sphere",
+      "tm": [
+        [-194.565,0.0,46.3065],
+        [0.0,200.0,0.0],
+        [-46.3065,0.0,-194.565],
+        [8732.27,0.0,11429.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area01": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,12806.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area02": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,12527.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area03": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,12248.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area04": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,11969.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area05": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,11689.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area06": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,12806.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area07": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,12527.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area08": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,12248.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area09": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,11969.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area10": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,11689.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area11": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,12806.7]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area12": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,12527.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area13": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,12248.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area14": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,11969.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area15": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,11689.8]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn_area16": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,11434.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area01": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,7313.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area02": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,7033.88]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area03": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,6754.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area04": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,6475.43]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area05": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3760.15,0.0,6196.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area06": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,7313.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area07": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,7033.88]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area08": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,6754.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area09": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,6475.43]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area10": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,6196.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area11": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,7313.1]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area12": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,7033.88]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area13": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,6754.65]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area14": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,6475.43]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area15": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-4237.15,0.0,6196.2]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_big_fleet_spawn2_area16": {
+      "type": "Sphere",
+      "tm": [
+        [199.919,0.0,-5.67915],
+        [0.0,200.0,0.0],
+        [5.67915,0.0,199.919],
+        [-3998.65,0.0,5940.46]
       ],
       "objLayer": 0,
       "props": []

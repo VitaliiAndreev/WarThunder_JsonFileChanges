@@ -24,8 +24,8 @@
       "missionDebriefing": "",
       "missionBriefing": "",
       "chapter": "air_ground_battles",
-      "scoreLimit": 17000,
-      "timeLimit": 20,
+      "scoreLimit": 10000,
+      "timeLimit": 60,
       "deathPenaltyMul": 1.0,
       "country_axis": "germany",
       "country_allies": "ussr",
@@ -183,7 +183,7 @@
   "triggers": {
     "isCategory": true,
     "is_enabled": true,
-    "ntdm_start": {
+    "nbttl_init": {
       "is_enabled": true,
       "comments": "",
       "props": {
@@ -195,227 +195,287 @@
         "initMission": []
       },
       "conditions": [],
-      "actions": {
-        "wait": {
-          "time": 15.0
+      "actions": [
+        {
+          "comment": {
+            "value": ""
+          }
         },
-        "moAddMissionObjective": {
-          "target": "wale_island_t1_destroy_fleet",
-          "object_var_comp_op": "equal",
-          "object_var_name": ""
+        {
+          "varSetString": {
+            "value": "nbttl_t1_capture_area",
+            "var": "zone_t1_name"
+          }
+        },
+        {
+          "varSetString": {
+            "value": "nbttl_t2_capture_area",
+            "var": "zone_t2_name"
+          }
+        },
+        {
+          "comment": {
+            "value": ""
+          }
+        },
+        {
+          "triggerEnable": {
+            "target": "nbttl_start"
+          }
+        }
+      ],
+      "else_actions": []
+    },
+    "nbttl_start": {
+      "is_enabled": false,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "initMission": []
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "missionMarkAsCaptureZone": {
+            "army": 1,
+            "timeMultiplier": 1.0,
+            "disableZone": false,
+            "name_for_respawn_base": "",
+            "target": "@zone_t1_name",
+            "canCaptureOnGround": true,
+            "playAirfieldSound": false,
+            "canCaptureInAir": false,
+            "canCaptureByGM": true,
+            "auto_smoke": true,
+            "captureNoPenalty": true,
+            "tags": {
+              "air": false,
+              "type_hydroplane": true,
+              "type_flying_boat": true,
+              "tank": false,
+              "ship": true
+            }
+          }
+        },
+        {
+          "missionMarkAsCaptureZone": {
+            "army": 2,
+            "timeMultiplier": 1.0,
+            "disableZone": false,
+            "name_for_respawn_base": "",
+            "target": "@zone_t2_name",
+            "canCaptureOnGround": true,
+            "playAirfieldSound": false,
+            "canCaptureInAir": false,
+            "canCaptureByGM": true,
+            "auto_smoke": true,
+            "captureNoPenalty": true,
+            "tags": {
+              "air": false,
+              "type_hydroplane": true,
+              "type_flying_boat": true,
+              "tank": false,
+              "ship": true
+            }
+          }
+        },
+        {
+          "wait": {
+            "time": 15.0
+          }
+        },
+        {
+          "moAddMissionObjective": {
+            "target": "avg_Bttl_objective_01",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
+          }
+        },
+        {
+          "moAddMissionObjective": {
+            "target": "avg_Bttl_objective_02",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
+          }
+        }
+      ],
+      "else_actions": []
+    },
+    "draw_square": {
+      "is_enabled": true,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": false
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": [
+        {
+          "objectExists": {
+            "target": "n_w_corner",
+            "type": "area"
+          }
+        },
+        {
+          "objectExists": {
+            "target": "n_e_corner",
+            "type": "area"
+          }
+        },
+        {
+          "objectExists": {
+            "target": "s_w_corner",
+            "type": "area"
+          }
+        },
+        {
+          "objectExists": {
+            "type": "area",
+            "target": "@zone_t1_name",
+            "army": 1,
+            "canCaptureByGM": true,
+            "timeMultiplier": 10.0,
+            "disableZone": false,
+            "name_for_respawn_base": "",
+            "captureNoPenalty": true,
+            "tags": {
+              "tank": true
+            }
+          }
+        }
+      ],
+      "actions": [
+        {
+          "missionShowMapLine": {
+            "areaNameFrom": "n_w_corner",
+            "areaNameTo": "n_e_corner",
+            "team": "Both",
+            "scale": 0.7
+          }
+        },
+        {
+          "missionShowMapLine": {
+            "areaNameFrom": "n_e_corner",
+            "areaNameTo": "s_e_corner",
+            "team": "Both",
+            "scale": 0.7
+          }
+        },
+        {
+          "missionShowMapLine": {
+            "areaNameFrom": "s_e_corner",
+            "areaNameTo": "s_w_corner",
+            "team": "Both",
+            "scale": 0.7
+          }
+        },
+        {
+          "missionShowMapLine": {
+            "areaNameFrom": "s_w_corner",
+            "areaNameTo": "n_w_corner",
+            "team": "Both",
+            "scale": 0.7
+          }
+        }
+      ],
+      "else_actions": []
+    },
+    "nbttl_t1_zone_captured": {
+      "is_enabled": true,
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
+      },
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
+      },
+      "conditions": {
+        "missionIsZoneCaptured": {
+          "target": "@zone_t1_name",
+          "army": 2
+        }
+      },
+      "actions": {
+        "gameMPChangeScore": {
+          "value": -10,
+          "valueSystem": "percentage",
+          "team": "A"
         }
       },
       "else_actions": []
     },
-    "game_logic": {
-      "isCategory": true,
+    "nbttl_t2_zone_captured": {
       "is_enabled": true,
-      "frags_counter": {
-        "is_enabled": true,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": [],
-        "actions": [
-          {
-            "countUnitsKilledByTeam": {
-              "team": "A",
-              "var": "t2_deaths_counter"
-            }
-          },
-          {
-            "countUnitsKilledByTeam": {
-              "team": "B",
-              "var": "t1_deaths_counter"
-            }
-          }
-        ],
-        "else_actions": []
+      "comments": "",
+      "props": {
+        "actionsType": "PERFORM_ONE_BY_ONE",
+        "conditionsType": "ALL",
+        "enableAfterComplete": true
       },
-      "t1_tickets_change": {
-        "is_enabled": true,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": {
-          "varCompareInt": {
-            "var_value": "t1_deaths_counter",
-            "value": 99,
-            "comparasion_func": "more"
-          }
-        },
-        "actions": {
-          "triggerDisable": {
-            "target": "frags_counter"
-          },
-          "gameMPChangeScore": {
-            "value": -10,
-            "valueSystem": "percentage",
-            "team": "A"
-          }
-        },
-        "else_actions": []
+      "events": {
+        "periodicEvent": {
+          "time": 1.0
+        }
       },
-      "t2_tickets_change": {
-        "is_enabled": true,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": {
-          "varCompareInt": {
-            "var_value": "t2_deaths_counter",
-            "value": 99,
-            "comparasion_func": "more"
-          }
-        },
-        "actions": {
-          "triggerDisable": {
-            "target": "frags_counter"
-          },
-          "gameMPChangeScore": {
-            "value": -10,
-            "valueSystem": "percentage",
-            "team": "B"
-          }
-        },
-        "else_actions": []
+      "conditions": {
+        "missionIsZoneCaptured": {
+          "target": "@zone_t2_name",
+          "army": 1
+        }
       },
-      "update_indicators": {
-        "is_enabled": true,
-        "comments": "",
-        "props": {
-          "actionsType": "PERFORM_ONE_BY_ONE",
-          "conditionsType": "ALL",
-          "enableAfterComplete": true
-        },
-        "events": {
-          "periodicEvent": {
-            "time": 1.0
-          }
-        },
-        "conditions": [],
-        "actions": [
-          {
-            "varSetInt": {
-              "value": 40,
-              "var": "t1_final_counter"
-            }
-          },
-          {
-            "varSetInt": {
-              "value": 40,
-              "var": "t2_final_counter"
-            }
-          },
-          {
-            "varModify": {
-              "operator": "subAB",
-              "value": 1.0,
-              "var": "t1_final_counter",
-              "use_variable": true,
-              "var_value": "t1_deaths_counter"
-            }
-          },
-          {
-            "varModify": {
-              "operator": "subAB",
-              "value": 1.0,
-              "var": "t2_final_counter",
-              "use_variable": true,
-              "var_value": "t2_deaths_counter"
-            }
-          },
-          {
-            "comment": {
-              "value": "показываем количество мертвых игркоов команды 2 - фраги команды 1"
-            }
-          },
-          {
-            "missionSetTargetsIndicator": {
-              "target_type": "isAlive",
-              "target_marking": 0,
-              "delta": 0,
-              "icon": "score",
-              "icon army": 2,
-              "set": true,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "target": "t1_players_squad",
-              "var": "t2_final_counter"
-            }
-          },
-          {
-            "comment": {
-              "value": "показываем количество мертвых игркоов команды 1 - фраги команды 2"
-            }
-          },
-          {
-            "missionSetTargetsIndicator": {
-              "target_type": "isAlive",
-              "target_marking": 0,
-              "delta": 0,
-              "icon": "score",
-              "icon army": 1,
-              "set": true,
-              "object_var_name": "",
-              "object_var_comp_op": "equal",
-              "object_var_value": 0,
-              "target": "t2_players_squad",
-              "var": "t1_final_counter"
-            }
-          }
-        ],
-        "else_actions": []
-      }
+      "actions": {
+        "gameMPChangeScore": {
+          "value": -10,
+          "valueSystem": "percentage",
+          "team": "B"
+        }
+      },
+      "else_actions": []
     }
   },
   "mission_objectives": {
     "isCategory": true,
     "is_enabled": true,
-    "wale_island_t1_destroy_fleet": {
+    "avg_Bttl_objective_01": {
       "is_enabled": false,
       "comments": "",
       "type": "abstractMissionObjective",
       "props": {
         "isPrimary": true,
-        "timeLimit": 3600,
-        "team": "Both"
+        "timeLimit": 3600
+      },
+      "onSuccess": [],
+      "onFailed": []
+    },
+    "avg_Bttl_objective_02": {
+      "is_enabled": false,
+      "comments": "",
+      "type": "abstractMissionObjective",
+      "props": {
+        "isPrimary": true,
+        "timeLimit": 3600
       },
       "onSuccess": [],
       "onFailed": []
     }
   },
   "variables": {
-    "modename": "ntdm_",
-    "t1_deaths_counter": 0,
-    "t2_deaths_counter": 0,
-    "t1_final_counter": 25,
-    "t2_final_counter": 25
+    "modename": "nbttl_",
+    "zone_t1_name": "",
+    "zone_t2_name": ""
   },
   "dialogs": [],
   "airfields": [],

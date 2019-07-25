@@ -10405,6 +10405,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_area_01_buoy_146"
           },
           {
@@ -10637,6 +10640,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_area_02_buoy_01"
           },
           {
@@ -10835,6 +10841,9 @@
           [-979.8,0.0,1036.2]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "capture_area_03_buoy_01"
           },
@@ -11272,6 +11281,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "ndom_buoy_circle_01"
           },
           {
@@ -11279,6 +11291,250 @@
           },
           {
             "squad_members": "ndom_buoy_circle_03"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_cruiser_spawn_01",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-3069.2,0.0,5924.9]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_cruiser_spawn_01",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-3081.07,0.0,-2040.7]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_destroyer_spawn_02",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-2700.83,0.0,5924.9]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t1_resp05_spawnsphere16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_destroyer_spawn_02",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-2828.19,0.0,-2040.7]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_resp05_spawnsphere01"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere02"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere03"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere04"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere05"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere06"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere07"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere08"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere09"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere10"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere11"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere12"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere13"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere14"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere15"
+          },
+          {
+            "squad_members": "t2_resp05_spawnsphere16"
           }
         ]
       }
@@ -11314,39 +11570,6 @@
         [0.0,141.705,0.0],
         [0.0,0.0,722.033],
         [-1502.32,1.49012e-08,1735.76]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [722.033,0.0,0.0],
-        [0.0,141.705,0.0],
-        [0.0,0.0,722.033],
-        [-1502.32,0.0,1735.76]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [192.583,0.0,0.0],
-        [0.0,141.705,0.0],
-        [0.0,0.0,192.583],
-        [1590.2,-0.000244141,1762.67]
-      ],
-      "objLayer": 0,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [164.316,0.0,0.0],
-        [0.0,141.705,0.0],
-        [0.0,0.0,164.316],
-        [3400.6,-0.00244141,1788.65]
       ],
       "objLayer": 0,
       "props": []
@@ -12143,24 +12366,354 @@
       "objLayer": 0,
       "props": []
     },
-    "ndom_effect_04": {
-      "type": "Point",
+    "t1_resp05_spawnsphere01": {
+      "type": "Sphere",
       "tm": [
-        [1721.88,0.0,0.0],
-        [0.0,141.705,0.0],
-        [0.0,0.0,1721.88],
-        [3400.6,-0.00244141,1788.65]
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3627.62,0.0,6092.53]
       ],
       "objLayer": 0,
       "props": []
     },
-    "ndom_effect_05": {
-      "type": "Point",
+    "t1_resp05_spawnsphere02": {
+      "type": "Sphere",
       "tm": [
-        [1338.34,0.0,0.0],
-        [0.0,141.705,0.0],
-        [0.0,0.0,1338.34],
-        [3400.6,-0.00244141,1788.65]
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3515.54,0.0,6099.96]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere03": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3403.48,0.0,6107.4]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere04": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3291.4,0.0,6114.83]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere05": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3243.75,0.0,5816.69]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere06": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3579.95,0.0,5794.37]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere07": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3467.88,0.0,5801.81]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere08": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3355.81,0.0,5809.25]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere09": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-4126.33,0.0,5758.16]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere10": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-4014.26,0.0,5765.6]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere11": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3902.19,0.0,5773.04]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere12": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3790.12,0.0,5780.48]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere13": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-4146.21,0.0,6058.15]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere14": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-4034.15,0.0,6065.59]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere15": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3922.08,0.0,6073.02]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t1_resp05_spawnsphere16": {
+      "type": "Sphere",
+      "tm": [
+        [13.2273,0.0,-199.563],
+        [0.0,200.0,0.0],
+        [91.9308,0.0,6.09326],
+        [-3810.01,0.0,6080.47]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere01": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4360.23,0.0,-2352.75]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere02": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4248.22,0.0,-2361.04]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere03": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4136.22,0.0,-2369.33]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere04": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4024.21,0.0,-2377.61]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere05": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3769.92,0.000488281,-2349.77]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere06": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3657.63,0.000488281,-2352.29]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere07": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3545.34,0.000488281,-2354.82]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere08": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3433.06,0.000488281,-2357.34]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere09": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4338.03,0.0,-2052.92]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere10": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4226.02,0.0,-2061.21]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere11": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4114.01,0.0,-2069.5]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere12": {
+      "type": "Sphere",
+      "tm": [
+        [14.7742,0.0,199.454],
+        [0.0,200.0,0.0],
+        [-91.8808,0.0,6.80593],
+        [-4002.0,0.0,-2077.78]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere13": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3678.69,0.000488281,-2051.09]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere14": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3566.4,0.000488281,-2053.62]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere15": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3454.11,0.000488281,-2056.14]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "t2_resp05_spawnsphere16": {
+      "type": "Sphere",
+      "tm": [
+        [4.50987,0.0,199.949],
+        [0.0,200.0,0.0],
+        [-92.1091,0.0,2.07754],
+        [-3790.97,0.000488281,-2048.57]
       ],
       "objLayer": 0,
       "props": []

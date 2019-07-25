@@ -271,10 +271,18 @@
             "disableZone": false,
             "name_for_respawn_base": "",
             "target": "@zone_t1_name",
+            "canCaptureOnGround": true,
+            "playAirfieldSound": false,
+            "canCaptureInAir": false,
             "canCaptureByGM": true,
+            "auto_smoke": true,
             "captureNoPenalty": true,
             "tags": {
-              "tank": true
+              "air": false,
+              "type_hydroplane": true,
+              "type_flying_boat": true,
+              "tank": false,
+              "ship": true
             }
           }
         },
@@ -285,10 +293,18 @@
             "disableZone": false,
             "name_for_respawn_base": "",
             "target": "@zone_t2_name",
+            "canCaptureOnGround": true,
+            "playAirfieldSound": false,
+            "canCaptureInAir": false,
             "canCaptureByGM": true,
+            "auto_smoke": true,
             "captureNoPenalty": true,
             "tags": {
-              "tank": true
+              "air": false,
+              "type_hydroplane": true,
+              "type_flying_boat": true,
+              "tank": false,
+              "ship": true
             }
           }
         },
@@ -312,12 +328,16 @@
         },
         {
           "moAddMissionObjective": {
-            "target": "avn_ntdm_objective_01"
+            "target": "avn_ntdm_objective_01",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         },
         {
           "moAddMissionObjective": {
-            "target": "avn_ntdm_objective_02"
+            "target": "avn_ntdm_objective_02",
+            "object_var_comp_op": "equal",
+            "object_var_name": ""
           }
         }
       ],
@@ -345,10 +365,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "more",
             "value": 0,
             "object": "@t1_ai_squad_name",
+            "object_var_value": 0,
             "var": "t1_ai_int"
           }
         },
@@ -414,10 +434,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "more",
             "value": 0,
             "object": "@t2_ai_squad_name",
+            "object_var_value": 0,
             "var": "t2_ai_int"
           }
         },
@@ -483,10 +503,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "less",
             "value": 1,
-            "object": "@t1_ai_squad_name"
+            "object": "@t1_ai_squad_name",
+            "object_var_value": 0
           }
         },
         "actions": {
@@ -517,10 +537,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "less",
             "value": 1,
-            "object": "@t2_ai_squad_name"
+            "object": "@t2_ai_squad_name",
+            "object_var_value": 0
           }
         },
         "actions": {
@@ -626,10 +646,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "less",
             "value": 1,
             "object": "@t1_ai_squad_name",
+            "object_var_value": 0,
             "var": "t1_ai_int"
           }
         },
@@ -666,10 +686,10 @@
             "object_marking": 0,
             "object_var_name": "",
             "object_var_comp_op": "equal",
-            "object_var_value": 0,
             "func": "less",
             "value": 1,
             "object": "@t2_ai_squad_name",
+            "object_var_value": 0,
             "var": "t2_ai_int"
           }
         },

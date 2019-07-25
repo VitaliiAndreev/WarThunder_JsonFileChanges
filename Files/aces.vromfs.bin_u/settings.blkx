@@ -454,7 +454,7 @@
     "debug": false,
     "disableNvapi": false,
     "nvVbBugWorkaround": false,
-    "useGpuDt": false
+    "useGpuDt": true
   },
   "openGL": {
     "nvGLShaderAVWorkaround": true

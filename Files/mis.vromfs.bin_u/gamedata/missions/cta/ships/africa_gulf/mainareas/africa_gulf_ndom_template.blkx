@@ -1057,6 +1057,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy01"
           },
           {
@@ -3347,6 +3350,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy60"
           },
           {
@@ -3443,6 +3449,9 @@
           [3150.57,8.53278,3638.94]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "capture_buoy100"
           },
@@ -3852,6 +3861,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "ndom_buoy_circle_01"
           },
           {
@@ -3859,6 +3871,80 @@
           },
           {
             "squad_members": "ndom_buoy_circle_03"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_cruiser_spawn_01",
+        "tm": [
+          [0.930991,0.0,-0.365042],
+          [0.0,1.0,0.0],
+          [0.365042,0.0,0.930991],
+          [-2658.64,-94.6274,7613.41]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_shipspawn_heavy01"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy02"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy03"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy04"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy05"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy06"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy07"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy08"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_cruiser_spawn_01",
+        "tm": [
+          [-0.382895,0.0,0.923792],
+          [0.0,1.0,0.0],
+          [-0.923792,0.0,-0.382895],
+          [6887.62,-478.497,7626.76]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_shipspawn_heavy01"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy02"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy03"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy04"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy05"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy06"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy07"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy08"
           }
         ]
       }
@@ -3894,39 +3980,6 @@
         [0.0,211.1,0.0],
         [0.0,0.0,300.0],
         [3169.69,-0.000502944,3637.19]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [864.637,0.000747685,3635.09]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [1961.12,-0.00201416,1840.04]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [3169.69,-0.000258804,3637.19]
       ],
       "objLayer": 3,
       "props": []

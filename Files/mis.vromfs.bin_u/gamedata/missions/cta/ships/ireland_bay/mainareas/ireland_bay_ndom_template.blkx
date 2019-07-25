@@ -81,7 +81,7 @@
           [-0.0667581,0.0,0.997769],
           [0.0,1.0,0.0],
           [-0.997769,0.0,-0.0667581],
-          [-1246.95,-478.5,836.73]
+          [1629.17,-478.5,6419.12]
         ],
         "props": [
           {
@@ -118,7 +118,7 @@
           [-0.0667581,0.0,0.997769],
           [0.0,1.0,0.0],
           [-0.997769,0.0,-0.0667581],
-          [2485.22,-478.5,5927.77]
+          [7537.76,-478.5,2180.28]
         ],
         "props": [
           {
@@ -1167,6 +1167,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy01"
           },
           {
@@ -1306,7 +1309,7 @@
           [1.0,0.0,0.0],
           [0.0,1.0,0.0],
           [0.0,0.0,1.0],
-          [3714.23,-478.5,-1400.34]
+          [4842.64,-478.497,-2232.28]
         ],
         "props": [
           {
@@ -3579,6 +3582,9 @@
         ],
         "props": [
           {
+            "object_marking": 0
+          },
+          {
             "squad_members": "capture_buoy60"
           },
           {
@@ -3696,6 +3702,9 @@
           [676.834,-0.0674052,638.868]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "capture_buoy100"
           },
@@ -3977,6 +3986,9 @@
           [3025.27,609.1,2760.35]
         ],
         "props": [
+          {
+            "object_marking": 0
+          },
           {
             "squad_members": "ndom_buoy_circle_01"
           },
@@ -4311,6 +4323,80 @@
           "attack_type": "fire_at_will"
         },
         "way": []
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t1_cruiser_spawn_01",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [-1466.24,-478.5,2302.17]
+        ],
+        "props": [
+          {
+            "squad_members": "t1_shipspawn_heavy09"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy10"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy11"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy12"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy13"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy14"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy15"
+          },
+          {
+            "squad_members": "t1_shipspawn_heavy16"
+          }
+        ]
+      }
+    },
+    {
+      "area_squad": {
+        "name": "ndom_t2_cruiser_spawn_01",
+        "tm": [
+          [1.0,0.0,0.0],
+          [0.0,1.0,0.0],
+          [0.0,0.0,1.0],
+          [4395.4,-478.496,-3005.48]
+        ],
+        "props": [
+          {
+            "squad_members": "t2_shipspawn_heavy09"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy10"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy11"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy12"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy13"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy14"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy15"
+          },
+          {
+            "squad_members": "t2_shipspawn_heavy16"
+          }
+        ]
       }
     }
   ],
@@ -5114,39 +5200,6 @@
         [0.0,211.1,0.0],
         [0.0,0.0,300.0],
         [684.608,0.00244141,651.597]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_02": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [3372.69,1.52592e-05,3466.99]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_01": {
-      "type": "Point",
-      "tm": [
-        [199.53,0.0,-224.025],
-        [0.0,211.1,0.0],
-        [224.025,0.0,199.53],
-        [2135.3,13.6,2004.3]
-      ],
-      "objLayer": 3,
-      "props": []
-    },
-    "ndom_effect_03": {
-      "type": "Point",
-      "tm": [
-        [300.0,0.0,0.0],
-        [0.0,211.1,0.0],
-        [0.0,0.0,300.0],
-        [684.608,0.00268555,651.597]
       ],
       "objLayer": 3,
       "props": []
