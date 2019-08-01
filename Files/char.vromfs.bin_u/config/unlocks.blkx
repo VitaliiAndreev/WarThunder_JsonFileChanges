@@ -9146,6 +9146,186 @@
   },
   {
     "unlockable": {
+      "id": "ussr_bt_7a_f32/forest",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 91
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7a_f32"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_bt_7a_f32/ussr_camo_desert_yellow_brown",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 169
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7a_f32"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_bt_7a_f32/winter",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 130
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "ussr_bt_7a_f32"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "it_aubl_74_60_70m/it_camo_desert_light_yellow",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_italy",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 301
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "it_aubl_74_60_70m"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "it_aubl_74_60_70m/it_camo_winter_white",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_italy",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "num": 430
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnit",
+            "class": "it_aubl_74_60_70m"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "iar_316b/green",
       "type": "skin",
       "chapter": "skins",
@@ -82835,6 +83015,58 @@
       "group": "live",
       "isRevenueShare": true,
       "hideForLang": "HChinese"
+    }
+  },
+  {
+    "unlockable": {
+      "id": "germ_leopard_2a5_yt_cup_2019_skin_unlock",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_germany",
+      "hideUntilUnlocked": true,
+      "mode": {
+        "type": "char_unit_exist",
+        "unit": "germ_leopard_2a5_yt_cup_2019"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_t_80u_yt_cup_2019_skin_unlock",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_ussr",
+      "hideUntilUnlocked": true,
+      "mode": {
+        "type": "char_unit_exist",
+        "unit": "ussr_t_80u_yt_cup_2019"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uk_challenger_II_yt_cup_2019_skin_unlock",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_britain",
+      "hideUntilUnlocked": true,
+      "mode": {
+        "type": "char_unit_exist",
+        "unit": "uk_challenger_II_yt_cup_2019"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_m1a1_abrams_yt_cup_2019_skin_unlock",
+      "type": "skin",
+      "chapter": "skins",
+      "group": "tanks_usa",
+      "hideUntilUnlocked": true,
+      "mode": {
+        "type": "char_unit_exist",
+        "unit": "us_m1a1_abrams_yt_cup_2019"
+      }
     }
   },
   {

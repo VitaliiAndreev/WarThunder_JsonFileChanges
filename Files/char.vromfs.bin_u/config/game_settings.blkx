@@ -403,8 +403,7 @@
       "condition": ""
     },
     "Invites": {
-      "condition": "",
-      "platform_lock": "ps4;xboxOne"
+      "condition": "!PS4Account;!XBOXAccount"
     },
     "EmbeddedBrowser": {
       "condition": ""
@@ -925,9 +924,22 @@
     "ClanSquads": {
       "condition": "Clans"
     },
-    "ClanVehicles": {
-      "condition": "Clans"
-    },
+    "ClanVehicles": [
+      {
+        "condition": "Clans"
+      },
+      {
+        "condition": "ClansXBOXOnPC"
+      }
+    ],
+    "ClansXBOXOnPC": [
+      {
+        "condition": "Clans"
+      },
+      {
+        "condition": "XBOXAccount"
+      }
+    ],
     "ShowNextUnlockInfo": [],
     "extendedReplayInfo": {
       "condition": ""
@@ -1239,7 +1251,7 @@
         "condition": "PS4Account"
       },
       {
-        "condition": "xboxOneAccess"
+        "condition": "XBOXAccount"
       }
     ],
     "ConsolesUgcTrophy": [
@@ -1247,7 +1259,7 @@
         "condition": "PS4Account"
       },
       {
-        "condition": "xboxOneAccess"
+        "condition": "XBOXAccount"
       }
     ],
     "PurchaseMarketItemsForGold": [
@@ -1255,7 +1267,7 @@
         "condition": "PS4Account"
       },
       {
-        "condition": "xboxOneAccess"
+        "condition": "XBOXAccount"
       }
     ],
     "Orders": {
@@ -1290,7 +1302,7 @@
       "condition": ""
     },
     "Marketplace": {
-      "condition": "!DMMAccount;!PS4Account",
+      "condition": "!DMMAccount;!PS4Account;!XBOXAccount",
       "platform_lock": "ps4;android;xboxOne"
     },
     "DMMAndSCEJAccounts": [

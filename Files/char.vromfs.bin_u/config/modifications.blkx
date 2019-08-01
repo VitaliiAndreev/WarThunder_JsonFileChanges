@@ -7853,6 +7853,28 @@
         "additiveBulletMod": "57mm_germ_Bofors_HE"
       }
     },
+    "60mm_it_OTO_APDSFS": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "60mm_it_OTO_APDSFS_ammo_pack",
+      "group": "57mm_AP",
+      "effects": {
+        "additiveBulletMod": "60mm_it_OTO_APDSFS"
+      }
+    },
+    "60mm_it_OTO_APDSFS_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 1,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
+    },
+    "60mm_it_OTO_HE": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "isReserve": true,
+      "group": "57mm_HE",
+      "effects": {
+        "additiveBulletMod": "60mm_it_OTO_HE"
+      }
+    },
     "25mm_kba_HE": {
       "image": "#ui/gameuiskin#tank_ammo",
       "isReserve": true,

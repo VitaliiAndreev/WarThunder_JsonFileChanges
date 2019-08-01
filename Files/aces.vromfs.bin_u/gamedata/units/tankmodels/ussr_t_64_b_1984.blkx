@@ -2585,7 +2585,7 @@
           "autoLoader": true,
           "recoilOffset": 0.325,
           "speedYaw": 24.0,
-          "speedPitch": 2.5,
+          "speedPitch": 3.55,
           "fireConeAngle": 1.0,
           "bullets": 36,
           "salvoAmount": 100.0,
@@ -2649,8 +2649,6 @@
             "verticalOmegaMult": 1.0,
             "verticalSpeedLimitKPH": 75.0,
             "speedFromVehicleVerticalMult": -1.0,
-            "speedYaw": 24.0,
-            "speedPitch": 2.5,
             "errorKPHToDegrees": [
               {
                 "row": [5.0,0.0]
@@ -2992,7 +2990,7 @@
                 "autoLoader": true,
                 "recoilOffset": 0.325,
                 "speedYaw": 24.0,
-                "speedPitch": 2.5,
+                "speedPitch": 3.55,
                 "fireConeAngle": 1.0,
                 "bullets": 36,
                 "salvoAmount": 100.0,
@@ -3056,8 +3054,6 @@
                   "verticalOmegaMult": 1.0,
                   "verticalSpeedLimitKPH": 75.0,
                   "speedFromVehicleVerticalMult": -1.0,
-                  "speedYaw": 24.0,
-                  "speedPitch": 2.5,
                   "errorKPHToDegrees": [
                     {
                       "row": [5.0,0.0]

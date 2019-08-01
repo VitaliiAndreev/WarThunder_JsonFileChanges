@@ -21,6 +21,78 @@
       "rollRate": 102.0
     }
   },
+  "p-59a": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_honolulu",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "general_electric",
+        "model": "j31_ge_3",
+        "mass": 387.0
+      },
+      "engine2_dm": {
+        "manufacturer": "general_electric",
+        "model": "j31_ge_3",
+        "mass": 387.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "ally": true,
+      "type_fighter": true,
+      "country_usa": true,
+      "pacific": true,
+      "air": true
+    },
+    "years_active": {
+      "year1942": {
+        "guadalcanal": 1.0,
+        "guam": 1.0,
+        "honolulu": 1.0,
+        "iwo_jima": 1.0,
+        "midway": 1.0,
+        "peleliu": 1.0,
+        "saipan": 1.0,
+        "wake_island": 1.0
+      },
+      "year1943": {
+        "guadalcanal": 0.7,
+        "guam": 0.7,
+        "honolulu": 0.7,
+        "iwo_jima": 0.7,
+        "midway": 0.7,
+        "peleliu": 0.7,
+        "saipan": 0.7,
+        "wake_island": 0.7
+      },
+      "year1944": {
+        "guadalcanal": 0.3,
+        "guam": 0.3,
+        "honolulu": 0.3,
+        "iwo_jima": 0.3,
+        "midway": 0.3,
+        "peleliu": 0.3,
+        "saipan": 0.3,
+        "wake_island": 0.3
+      }
+    },
+    "Shop": {
+      "maxAltitude": 13000.0,
+      "maxSpeed": 191.7,
+      "turnTime": 20.0,
+      "airfieldLen": 457.0,
+      "maxSpeedAlt": 30000.0,
+      "climbSpeed": 17.2,
+      "climbTime": 375.0,
+      "climbAlt": 6096.0,
+      "wingLoading": 140.0,
+      "powerToWeightRatio": 0.2,
+      "rollRate": 60.0
+    }
+  },
   "mig-15bis_ish": {
     "type": "aircraft",
     "hangar_place": "aircraft",
@@ -3979,7 +4051,96 @@
       "climbTime": 540.0,
       "maxSpeedAlt": 5300.0,
       "climbAlt": 6000.0,
-      "climbSpeed": 9.8,
+      "climbSpeed": 10.9,
+      "wingLoading": 168.0,
+      "powerToWeightRatio": 0.17,
+      "rollRate": 58.0
+    }
+  },
+  "bf-110c-6": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_ruhr",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "daimler_benz",
+        "model": "db_601n",
+        "mass": 610.0
+      },
+      "engine2_dm": {
+        "manufacturer": "daimler_benz",
+        "model": "db_601n",
+        "mass": 610.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "axis": true,
+      "country_germany": true,
+      "type_fighter": true,
+      "type_interceptor": true,
+      "type_heavy_fighter": true,
+      "type_strike_fighter": true,
+      "mediterranean": true,
+      "western_front": true,
+      "eastern_front": true,
+      "air": true
+    },
+    "years_active": {
+      "year1940": {
+        "britain": 1.0,
+        "bulge": 1.0,
+        "malta": 0.5,
+        "ruhr": 1.0,
+        "sicily": 0.5,
+        "berlin": 1.0,
+        "korsun": 1.0,
+        "krymsk": 1.0,
+        "mozdok": 1.0,
+        "stalingrad": 1.0,
+        "stalingrad_w": 1.0,
+        "kursk": 1.0
+      },
+      "year1941": {
+        "britain": 0.7,
+        "bulge": 0.7,
+        "malta": 0.3,
+        "ruhr": 0.7,
+        "sicily": 0.3,
+        "berlin": 0.7,
+        "korsun": 0.7,
+        "krymsk": 0.7,
+        "mozdok": 0.7,
+        "stalingrad": 0.7,
+        "stalingrad_w": 0.7,
+        "kursk": 0.7
+      },
+      "year1942": {
+        "britain": 0.3,
+        "bulge": 0.3,
+        "malta": 0.1,
+        "ruhr": 0.3,
+        "sicily": 0.1,
+        "berlin": 0.3,
+        "korsun": 0.3,
+        "krymsk": 0.3,
+        "mozdok": 0.3,
+        "stalingrad": 0.3,
+        "stalingrad_w": 0.3,
+        "kursk": 0.3
+      }
+    },
+    "Shop": {
+      "maxAltitude": 10000.0,
+      "maxSpeed": 151.3889,
+      "turnTime": 23.0,
+      "airfieldLen": 444.184,
+      "climbTime": 557.0,
+      "maxSpeedAlt": 5300.0,
+      "climbAlt": 6000.0,
+      "climbSpeed": 10.77,
       "wingLoading": 168.0,
       "powerToWeightRatio": 0.17,
       "rollRate": 58.0
@@ -47281,6 +47442,55 @@
       "rollRate": 146.0
     }
   },
+  "md_460_yt_cup_2019": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "testFlight": "testFlight_france_Jet",
+    "releaseDate": "2019-03-12 00:00:00",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "snecma",
+        "model": "atar_101g_2",
+        "mass": 950.0
+      }
+    },
+    "tags": {
+      "ally": true,
+      "country_france": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
+      "korea": true,
+      "not_in_dynamic_campaign": true,
+      "air": true
+    },
+    "years_active": {
+      "year1950": {
+        "korea": 1.0
+      },
+      "year1951": {
+        "korea": 1.0
+      },
+      "year1952": {
+        "korea": 1.0
+      },
+      "year1953": {
+        "korea": 1.0
+      }
+    },
+    "Shop": {
+      "maxAltitude": 17000.0,
+      "maxSpeed": 333.0,
+      "turnTime": 31.0,
+      "airfieldLen": 800.0,
+      "climbTime": 208.0,
+      "maxSpeedAlt": 0.0,
+      "climbAlt": 10000.0,
+      "climbSpeed": 61.0,
+      "wingLoading": 281.0,
+      "powerToWeightRatio": 0.5,
+      "rollRate": 146.0
+    }
+  },
   "ms_410c1": {
     "type": "aircraft",
     "hangar_place": "aircraft",
@@ -48766,6 +48976,69 @@
       "rollRate": 77.0
     }
   },
+  "ussr_t_80u_yt_cup_2019": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_tank_ERA_ussr",
+    "releaseDate": "2019-03-12 00:00:00",
+    "tags": {
+      "country_ussr": true,
+      "tank": true,
+      "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [105.0,80.0,50.0],
+      "armorThicknessTurret": [180.0,160.0,65.0]
+    }
+  },
+  "uk_challenger_II_yt_cup_2019": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_tank_ERA",
+    "releaseDate": "2019-03-12 00:00:00",
+    "tags": {
+      "country_britain": true,
+      "tank": true,
+      "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [130.0,45.0,20.0],
+      "armorThicknessTurret": [270.0,90.0,63.0],
+      "armorThicknessCumulativeTurret": [450.0,86.0,45.0]
+    }
+  },
+  "us_m1a1_abrams_yt_cup_2019": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_tank_ERA",
+    "releaseDate": "2019-03-12 00:00:00",
+    "tags": {
+      "country_usa": true,
+      "tank": true,
+      "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessHull": [133.0,62.0,31.0],
+      "armorThicknessTurret": [133.0,133.0,12.7],
+      "armorThicknessCumulativeTurret": [450.0,86.0,45.0]
+    }
+  },
+  "germ_leopard_2a5_yt_cup_2019": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "originCountry": "country_germany_modern",
+    "testFlight": "testFlight_tank_ERA",
+    "releaseDate": "2019-03-12 00:00:00",
+    "tags": {
+      "country_germany": true,
+      "tank": true,
+      "type_medium_tank": true
+    },
+    "Shop": {
+      "armorThicknessTurret": [75.0,80.0,20.0],
+      "armorThicknessHull": [80.0,30.0,20.0]
+    }
+  },
   "ussr_t_80": {
     "type": "tank",
     "hangar_place": "tank",
@@ -49494,6 +49767,18 @@
       "country_ussr": true,
       "tank": true,
       "type_light_tank": true
+    }
+  },
+  "ussr_bt_7a_f32": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_tank_ussr",
+    "tags": {
+      "country_ussr": true,
+      "tank": true,
+      "type_light_tank": true,
+      "scout": true,
+      "canRepairAnyAlly": true
     }
   },
   "ussr_bt_7_1937_race": {
@@ -51321,7 +51606,25 @@
       "canRepairAnyAlly": true
     },
     "Shop": {
-      "armorThicknessHull": [15.0,8.0,8.0],
+      "armorThicknessHull": [8.0,8.0,8.0],
+      "armorThicknessTurret": [8.0,8.0,8.0]
+    }
+  },
+  "it_aubl_74_60_70m": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_tank_ERA",
+    "releaseDate": "2018-12-18 00:00:00",
+    "originCountry": "country_italy_modern",
+    "tags": {
+      "country_italy": true,
+      "tank": true,
+      "type_light_tank": true,
+      "scout": true,
+      "canRepairAnyAlly": true
+    },
+    "Shop": {
+      "armorThicknessHull": [8.0,8.0,8.0],
       "armorThicknessTurret": [8.0,8.0,8.0]
     }
   },
@@ -59254,6 +59557,44 @@
       "armorThicknessCitadel": [20.0,60.0,20.0],
       "maxSpeed": 18.0,
       "displacement": 8338000.0
+    }
+  },
+  "uk_frigate_river": {
+    "type": "ship",
+    "hangar_place": "ship",
+    "testFlight": "testFlight_ship_destroyer_uk",
+    "tags": {
+      "country_britain": true,
+      "type_heavy_gun_boat": true,
+      "type_heavy_boat": true,
+      "ship": true,
+      "destroyer": true,
+      "pacific": true,
+      "mediterran": true,
+      "westernfront": true
+    },
+    "Shop": {
+      "maxSpeed": 10.5,
+      "armorThicknessTurretMainCaliber": [4.97,4.97,0.0]
+    }
+  },
+  "jp_destroyer_yuudachi": {
+    "type": "ship",
+    "hangar_place": "ship",
+    "testFlight": "testFlight_ship_destroyer_jp",
+    "tags": {
+      "country_japan": true,
+      "type_destroyer": true,
+      "ship": true,
+      "destroyer": true,
+      "pacific": true,
+      "mediterran": true,
+      "westernfront": true
+    },
+    "Shop": {
+      "armorThicknessTurretMainCaliber": [3.175,3.175,3.175],
+      "maxSpeed": 17.49,
+      "displacement": 2090000.0
     }
   }
 }

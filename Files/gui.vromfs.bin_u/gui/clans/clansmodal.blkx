@@ -327,11 +327,12 @@
           "id": "clan_info_not_in_clan",
           "width": "pw",
           "position": "relative",
-          "padding-top": "@blockInterval",
+          "padding-top": "1@blockInterval",
           "flow": "vertical",
           "display": "hide",
           "activeText": {
-            "text": "#clan/not_in_clan"
+            "text": "#clan/not_in_clan",
+            "padding-left": "1@framePadding"
           },
           "frameBlock": [
             {
@@ -341,20 +342,20 @@
               "flow": "vertical"
             },
             {
-              "padding": "10"
+              "padding": "1@framePadding"
             },
             {
               "position": "relative"
             },
             {
-              "pos": "0, 20"
+              "pos": "0, 1@framePadding"
             },
             {
               "textarea": {
                 "max-width": "pw",
                 "id": "how_to_get_membership",
                 "text": "#clan/how_to_get_membership",
-                "style": "paragraph-indent: 0; wrap-indent: 0;"
+                "removeParagraphIndent": "yes"
               }
             },
             {
@@ -395,9 +396,20 @@
               "textarea": {
                 "max-width": "pw",
                 "position": "relative",
-                "pos": "0, 20",
+                "pos": "0, 1@framePadding",
                 "text": "#clan/what_is_clan",
-                "style": "paragraph-indent: 0; wrap-indent: 0;"
+                "removeParagraphIndent": "yes"
+              }
+            },
+            {
+              "textarea": {
+                "id": "clans_console_pc_warning",
+                "max-width": "pw",
+                "position": "relative",
+                "text": "#clan/consolePlayerOnPC",
+                "removeParagraphIndent": "yes",
+                "overlayTextColor": "warning",
+                "display": "hide"
               }
             },
             {
@@ -405,7 +417,7 @@
                 "id": "btn_create_clan",
                 "_on_click": "onCreateClanWnd",
                 "position": "relative",
-                "pos": "pw-w, 20",
+                "pos": "pw-w, 1@framePadding",
                 "hideText": "yes",
                 "text": "#clan/create_clan_submit_button",
                 "btnName": "X",

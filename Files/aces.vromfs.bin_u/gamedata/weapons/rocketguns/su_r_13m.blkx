@@ -27,7 +27,7 @@
       "explosiveMass": 5.5
     },
     {
-      "massEnd": 20.8
+      "massEnd": 60.0
     },
     {
       "maxDeltaAngle": 2.0
@@ -177,13 +177,13 @@
       "startSpeed": 0.0
     },
     {
-      "endSpeed": 550.0
+      "endSpeed": 800.0
     },
     {
       "speedViscosity": 0.2
     },
     {
-      "timeToLive": 21.0
+      "timeLife": 21.0
     },
     {
       "machMax": 1.7

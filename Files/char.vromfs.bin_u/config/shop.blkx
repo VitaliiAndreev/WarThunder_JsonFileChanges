@@ -319,8 +319,13 @@
             "rank": 6,
             "isClanVehicle": true,
             "reqAir": "",
-            "hideByPlatform": "xboxOne",
             "reqFeature": "ClanVehicles"
+          },
+          "us_m1a1_abrams_yt_cup_2019": {
+            "rank": 7,
+            "reqAir": "",
+            "showOnlyWhenBought": true,
+            "gift": "msi_notebook"
           }
         }
       },
@@ -897,6 +902,12 @@
           "p-47m-1-re_boxted": {
             "rank": 4,
             "reqAir": "",
+            "showOnlyWhenBought": true
+          },
+          "p-59a": {
+            "rank": 4,
+            "reqAir": "",
+            "gift": "msi_notebook",
             "showOnlyWhenBought": true
           },
           "f-86f-35": {
@@ -1528,6 +1539,12 @@
             "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook"
+          },
+          "germ_leopard_2a5_yt_cup_2019": {
+            "rank": 7,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       },
@@ -2194,6 +2211,12 @@
             "rank": 2,
             "reqAir": ""
           },
+          "bf-110c-6": {
+            "rank": 2,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
+          },
           "p-47d_luftwaffe": {
             "rank": 3,
             "reqAir": ""
@@ -2781,6 +2804,12 @@
             "rank": 6,
             "reqAir": "",
             "gift": "msi_notebook"
+          },
+          "ussr_t_80u_yt_cup_2019": {
+            "rank": 7,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       },
@@ -2804,6 +2833,12 @@
             "gift": "msi_notebook",
             "marketplaceItemdefId": 50041,
             "hideFeature": "!Marketplace"
+          },
+          "ussr_bt_7a_f32": {
+            "rank": 2,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           },
           "ussr_su_76m_5st_kav_corps": {
             "rank": 2,
@@ -3752,26 +3787,11 @@
             "reqAir": "",
             "rankPosXY": [6,2]
           },
-          "ussr_destroyer_7y_stroyny": [
-            {
-              "rank": 3
-            },
-            {
-              "reqAir": ""
-            },
-            {
-              "reqAir": ""
-            },
-            {
-              "rankPosXY": [6,1]
-            },
-            {
-              "gift": "msi_notebook"
-            },
-            {
-              "showOnlyWhenBought": true
-            }
-          ],
+          "ussr_destroyer_7y_stroyny": {
+            "rank": 3,
+            "reqAir": "",
+            "rankPosXY": [6,1]
+          },
           "ussr_destroyer_leningrad": {
             "rank": 3,
             "reqAir": "",
@@ -3785,7 +3805,6 @@
             "reqAir": "",
             "rankPosXY": [6,2],
             "isClanVehicle": true,
-            "hideByPlatform": "xboxOne",
             "reqFeature": "ClanVehicles"
           }
         }
@@ -4024,6 +4043,12 @@
             "rank": 6,
             "gift": "msi_notebook",
             "reqAir": ""
+          },
+          "uk_challenger_II_yt_cup_2019": {
+            "rank": 7,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       },
@@ -4491,7 +4516,6 @@
             "rank": 3,
             "reqAir": "",
             "isClanVehicle": true,
-            "hideByPlatform": "xboxOne",
             "reqFeature": "ClanVehicles"
           },
           "wyvern_s4": {
@@ -4674,6 +4698,13 @@
             "gift": "msi_notebook",
             "marketplaceItemdefId": 50064,
             "hideFeature": "!Marketplace"
+          },
+          "uk_frigate_river": {
+            "rank": 2,
+            "reqAir": "",
+            "rankPosXY": [6,2],
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       }
@@ -5393,6 +5424,13 @@
             "reqAir": "",
             "rankPosXY": [6,1],
             "gift": "msi_notebook"
+          },
+          "jp_destroyer_yuudachi": {
+            "rank": 3,
+            "reqAir": "",
+            "rankPosXY": [7,1],
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
           }
         }
       }
@@ -5563,6 +5601,12 @@
             "gift": "msi_notebook"
           },
           "it_m60a1_ariete": {
+            "rank": 5,
+            "reqAir": "",
+            "gift": "msi_notebook",
+            "showOnlyWhenBought": true
+          },
+          "it_aubl_74_60_70m": {
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook",
@@ -6241,6 +6285,11 @@
             "rank": 5,
             "reqAir": "",
             "gift": "msi_notebook"
+          },
+          "md_460_yt_cup_2019": {
+            "rank": 6,
+            "reqAir": "",
+            "showOnlyWhenBought": true
           }
         }
       },

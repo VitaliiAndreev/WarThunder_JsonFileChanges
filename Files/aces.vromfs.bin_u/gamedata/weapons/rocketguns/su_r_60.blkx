@@ -183,7 +183,7 @@
       "speedViscosity": 0.2
     },
     {
-      "timeToLive": 21.0
+      "timeLife": 21.0
     },
     {
       "machMax": 2.2

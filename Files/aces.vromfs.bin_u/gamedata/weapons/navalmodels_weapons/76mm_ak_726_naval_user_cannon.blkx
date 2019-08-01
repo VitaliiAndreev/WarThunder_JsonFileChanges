@@ -17,7 +17,7 @@
   "bEnablePause": false,
   "bullets": -1,
   "bulletsCluster": 1,
-  "reloadTime": 15.0,
+  "reloadTime": 3.0,
   "fxType": "big_gun_flame",
   "fxGroundDust": "water_shock_wave",
   "shouldCollideWithRendinsts": true,
@@ -485,15 +485,23 @@
       }
     }
   },
+  "deviation": [
+    {
+      "deviation": [10.0,0.0]
+    },
+    {
+      "deviation": [18.0,15.0]
+    }
+  ],
   "overheat": [
     {
-      "overheat": [10.0,0.0]
+      "overheat": [12.0,0.0]
     },
     {
-      "overheat": [15.0,0.05]
+      "overheat": [18.0,0.05]
     },
     {
-      "overheat": [18.0,0.15]
+      "overheat": [22.0,0.25]
     }
   ]
 }

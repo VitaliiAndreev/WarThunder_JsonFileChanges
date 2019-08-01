@@ -180,7 +180,7 @@
       "speedViscosity": 0.2
     },
     {
-      "timeToLive": 20.0
+      "timeLife": 20.0
     },
     {
       "price": 3000.0

@@ -1,31 +1,13 @@
 {
   "group": "",
-  "div": [
-    {
-      "id": "slotb-aircraft-choose-root"
-    },
-    {
-      "size": "sw, sh"
-    },
-    {
-      "position": "root"
-    },
-    {
-      "background-color": "@shadeBackgroundColor"
-    },
-    {
-      "behaviour": "button"
-    },
-    {
-      "behaviour": "accesskey"
-    },
-    {
-      "accessKey": "Esc | J:B"
-    },
-    {
-      "on_click": "goBack"
-    }
-  ],
+  "DummyButton": {
+    "id": "slotb-aircraft-choose-root",
+    "size": "sw, sh",
+    "position": "root",
+    "background-color": "@shadeBackgroundColor",
+    "btnName": "B",
+    "on_click": "goBack"
+  },
   "tdiv": {
     "id": "tablePlace",
     "position": "root",

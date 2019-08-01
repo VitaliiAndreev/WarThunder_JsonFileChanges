@@ -428,7 +428,6 @@
     {
       "import_record": {
         "file": "gameData/missions/cta/ships/dover_battle/mainareas/dover_NBttl_airspawns.blk",
-        "rankRange": [6,30],
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

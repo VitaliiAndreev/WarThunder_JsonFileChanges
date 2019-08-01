@@ -106,9 +106,6 @@
             "_on_click": "shopWndSwitch"
           },
           {
-            "mouse-focusable": "yes"
-          },
-          {
             "ButtonImg": []
           },
           {

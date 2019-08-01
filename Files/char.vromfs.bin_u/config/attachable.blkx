@@ -528,6 +528,30 @@
     "costGold": 500,
     "limit": 1
   },
+  "ussr_body_armor_6b43": {
+    "category": "other",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
+  "ussr_ammunition_wwii": {
+    "category": "other",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
+  "ger_ammunition_wwii": {
+    "category": "other",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
+  "usa_ciras_land": {
+    "category": "other",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
   "anchor_danforth": {
     "category": "other",
     "costGold": -1,

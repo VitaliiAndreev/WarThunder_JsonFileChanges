@@ -3093,10 +3093,10 @@
           "weaponTrigger": "gunner0"
         },
         {
-          "replenishmentDelay": 5.0
+          "replenishmentDelay": 1.5
         },
         {
-          "replenishmentTime": 1.2
+          "replenishmentTime": 1.0
         },
         {
           "removeLoadedAmmo": false
@@ -3117,9 +3117,6 @@
         },
         {
           "shells": [
-            {
-              "reloadTimeMult": 3.0
-            },
             {
               "fatalFire": false
             },
@@ -3151,10 +3148,10 @@
           "weaponTrigger": "gunner1"
         },
         {
-          "replenishmentDelay": 5.0
+          "replenishmentDelay": 1.5
         },
         {
-          "replenishmentTime": 1.2
+          "replenishmentTime": 1.0
         },
         {
           "removeLoadedAmmo": false
@@ -3175,9 +3172,6 @@
         },
         {
           "shells": [
-            {
-              "reloadTimeMult": 3.0
-            },
             {
               "fatalFire": false
             },
@@ -3205,9 +3199,6 @@
         },
         {
           "shells": [
-            {
-              "reloadTimeMult": 3.0
-            },
             {
               "fatalFire": false
             },

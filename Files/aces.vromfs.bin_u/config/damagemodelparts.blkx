@@ -591,13 +591,13 @@
   {
     "depth_charge": {
       "depth_charge_NN": {
-        "template": "depth_charge_#70#"
+        "template": "depth_charge_#90#"
       },
       "depth_charge_l_NN": {
-        "template": "depth_charge_l_#20#"
+        "template": "depth_charge_l_#30#"
       },
       "depth_charge_r_NN": {
-        "template": "depth_charge_r_#20#"
+        "template": "depth_charge_r_#30#"
       }
     }
   },

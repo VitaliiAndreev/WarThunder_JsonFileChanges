@@ -417,10 +417,11 @@
           "armorEffectiveThicknessMax": 450.0
         },
         "composite_armor_turret_09_dm": {
-          "armorThickness": 280.0,
-          "genericArmorQuality": 0.3,
-          "cumulativeArmorQuality": 0.6,
-          "armorEffectiveThicknessMax": 550.0
+          "hidableInXrayViewer": true,
+          "armorThickness": 0.0,
+          "genericArmorQuality": 0.0,
+          "cumulativeArmorQuality": 0.0,
+          "createSecondaryShatters": false
         },
         "composite_armor_hull_01_dm": {
           "armorThickness": 520.0,
@@ -472,7 +473,9 @@
         "gun_mask_dm": {
           "armorThickness": 35.0,
           "armorClass": "RHAHH_tank",
-          "createSecondaryShatters": false
+          "armorEffectiveThicknessMax": 320.0,
+          "genericArmorQuality": 0.3,
+          "cumulativeArmorQuality": 0.65
         },
         "gun_mask_01_dm": {
           "armorThickness": 30.0,
@@ -482,7 +485,8 @@
           "armorThickness": 20.0
         },
         "gun_mask_03_dm": {
-          "armorThickness": 35.0
+          "armorThickness": 240.0,
+          "armorClass": "tank_structural_steel"
         },
         "gun_mask_04_dm": {
           "armorThickness": 40.0
@@ -2066,17 +2070,20 @@
           "armorArrayText": [
             {
               "layer": {
-                "dmPart": "gun_mask_dm"
+                "dmPart": "gun_mask_dm",
+                "xrayTextThickness": 35.0
               }
             },
             {
               "layer": {
-                "dmPart": "composite_armor_turret_09_dm"
+                "dmPart": "composite_armor_turret_09_dm",
+                "xrayTextThickness": 240.0
               }
             },
             {
               "layer": {
-                "dmPart": "gun_mask_03_dm"
+                "dmPart": "gun_mask_dm",
+                "xrayTextThickness": 35.0
               }
             }
           ]

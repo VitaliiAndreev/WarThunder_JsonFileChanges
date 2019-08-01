@@ -194,7 +194,6 @@
               "flow": "vertical",
               "activeText": {
                 "id": "battle_rating",
-                "text": "#multiplayer/battleRatingSquad",
                 "commonButtonColor": "yes",
                 "pos": "50%pw-50%w, 0",
                 "position": "relative",
