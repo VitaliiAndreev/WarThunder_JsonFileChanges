@@ -3751,46 +3751,5 @@
     "smokeScreenExhaustEmitters": {
       "emitter": "emtr_exhaust_01"
     }
-  },
-  {
-    "skin": [
-      {
-        "name": "yt_cup_2019"
-      },
-      {
-        "replace_tex": {
-          "from": "ussr_camo_green*",
-          "to": "ger_camo_dark_grey*"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "t_80u_body_c*",
-          "to": "t_80u_skin_body_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "era_kontakt_5_t_80u_c*",
-          "to": "era_kontakt_5_skin_t_80u_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "t_80u_turret_c*",
-          "to": "t_80u_skin_turret_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "t_80u_gun_c*",
-          "to": "t_80u_skin_gun_c*",
-          "param": "camo_skin_tex"
-        }
-      }
-    ]
   }
 ]

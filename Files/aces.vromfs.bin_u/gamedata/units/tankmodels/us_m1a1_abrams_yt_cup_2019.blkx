@@ -3456,46 +3456,5 @@
     "smokeScreenExhaustEmitters": {
       "emitter": "emtr_exhaust_01"
     }
-  },
-  {
-    "skin": [
-      {
-        "name": "yt_cup_2019"
-      },
-      {
-        "replace_tex": {
-          "from": "us_camo_olive*",
-          "to": "us_camo_modern_green*"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "m1a1_abrams_body_c*",
-          "to": "m1a1_abrams_skin_body_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "m1a1_abrams_body_add_c*",
-          "to": "m1a1_abrams_skin_body_add_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "m1a1_abrams_turret_c*",
-          "to": "m1a1_abrams_skin_turret_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "m1a1_abrams_gun_c*",
-          "to": "m1a1_abrams_skin_gun_c*",
-          "param": "camo_skin_tex"
-        }
-      }
-    ]
   }
 ]

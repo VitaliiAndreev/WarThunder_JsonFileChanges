@@ -3546,39 +3546,5 @@
         }
       ]
     }
-  },
-  {
-    "skin": [
-      {
-        "name": "yt_cup_2019"
-      },
-      {
-        "replace_tex": {
-          "from": "ger_camo_bronzegruen*",
-          "to": "ger_camo_dark_grey*"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "leopard_2a5_body_c*",
-          "to": "leopard_2a5_skin_body_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "leopard_2a5_turret_c*",
-          "to": "leopard_2a5_skin_turret_c*",
-          "param": "camo_skin_tex"
-        }
-      },
-      {
-        "set_tex": {
-          "from": "leopard_2a5_gun_c*",
-          "to": "leopard_2a5_skin_gun_c*",
-          "param": "camo_skin_tex"
-        }
-      }
-    ]
   }
 ]

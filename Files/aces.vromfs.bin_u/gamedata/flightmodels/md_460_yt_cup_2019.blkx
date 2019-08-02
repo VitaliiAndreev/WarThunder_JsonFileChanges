@@ -2631,34 +2631,5 @@
     "finCut": true,
     "emtr_break_tail_from": [-2.62214,-0.1391,4.40143e-08],
     "emtr_break_tail_to": [-4.92947,-0.1391,4.40143e-08]
-  },
-  "skin": [
-    {
-      "name": "yt_cup_2019"
-    },
-    {
-      "replace_tex": {
-        "from": "md_460_super_mystere_b2_c*",
-        "to": "md_460_ytcup_c*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "md_460_super_mystere_b2_c_dmg*",
-        "to": "md_460_ytcup_c_dmg*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "md_460_super_mystere_b2_n*",
-        "to": "md_460_ytcup_n*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "md_460_super_mystere_b2_n_dmg*",
-        "to": "md_460_ytcup_n_dmg*"
-      }
-    }
-  ]
+  }
 }
