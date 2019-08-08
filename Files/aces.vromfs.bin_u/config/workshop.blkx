@@ -263,6 +263,51 @@
       }
     ]
   },
+  "summer_2019_ps4_exchange": {
+    "locId": "workshop/summer_2019_exchange",
+    "reqFeature": "ConsolesWorkshopExchange",
+    "items": [
+      {
+        "alwaysVisibleItem": 760200
+      },
+      {
+        "alwaysVisibleItem": 760201
+      },
+      {
+        "alwaysVisibleItem": 760202
+      },
+      {
+        "alwaysVisibleItem": 760203
+      },
+      {
+        "alwaysVisibleItem": 760204
+      },
+      {
+        "alwaysVisibleItem": 760205
+      },
+      {
+        "alwaysVisibleItem": 760206
+      },
+      {
+        "alwaysVisibleItem": 760207
+      },
+      {
+        "alwaysVisibleItem": 760208
+      },
+      {
+        "alwaysVisibleItem": 760209
+      },
+      {
+        "alwaysVisibleItem": 760210
+      },
+      {
+        "alwaysVisibleItem": 760211
+      },
+      {
+        "alwaysVisibleItem": 760212
+      }
+    ]
+  },
   "additionalRecipes": [
     {
       "item": {

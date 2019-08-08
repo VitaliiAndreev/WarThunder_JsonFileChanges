@@ -470,6 +470,12 @@
     "limit": 1,
     "hideUntilUnlocked": true
   },
+  "type98_shin_gunto_triad": {
+    "category": "other",
+    "costGold": -1,
+    "limit": 1,
+    "hideUntilUnlocked": true
+  },
   "bush_sakura": {
     "category": "other",
     "costGold": -1,

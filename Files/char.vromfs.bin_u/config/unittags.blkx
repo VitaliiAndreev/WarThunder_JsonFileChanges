@@ -84,12 +84,12 @@
       "maxSpeed": 191.7,
       "turnTime": 20.0,
       "airfieldLen": 457.0,
-      "maxSpeedAlt": 30000.0,
-      "climbSpeed": 17.2,
+      "maxSpeedAlt": 9144.0,
+      "climbSpeed": 19.5,
       "climbTime": 375.0,
       "climbAlt": 6096.0,
       "wingLoading": 140.0,
-      "powerToWeightRatio": 0.2,
+      "powerToWeightRatio": 0.3,
       "rollRate": 60.0
     }
   },
@@ -6166,8 +6166,8 @@
     "testFlight": "testFlight_stalingrad",
     "info": {
       "engine1_dm": {
-        "manufacturer": "shvetsov",
-        "model": "m-88",
+        "manufacturer": "tumansky",
+        "model": "M-87b",
         "mass": 640.0
       },
       "engine2_dm": {
@@ -59504,6 +59504,7 @@
     "tags": {
       "country_japan": true,
       "type_cruiser": true,
+      "type_heavy_cruiser": true,
       "ship": true,
       "cruiser": true,
       "pacific": true,
@@ -59525,6 +59526,7 @@
     "tags": {
       "country_japan": true,
       "type_cruiser": true,
+      "type_heavy_cruiser": true,
       "ship": true,
       "cruiser": true,
       "pacific": true,

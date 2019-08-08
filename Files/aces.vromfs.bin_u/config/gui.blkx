@@ -722,6 +722,7 @@
       "reward_gold": "item_eagles",
       "reward_entitlement": "item_entitlement",
       "reward_unit_aircraft": "item_blueprint_aircraft",
+      "reward_unit_ship": "item_blueprint_ship",
       "reward_unit_tank": "item_blueprint_tank",
       "reward_rentedUnit_aircraft": "item_rent",
       "reward_rentedUnit_tank": "item_rent",
@@ -1945,6 +1946,12 @@
         "h": "0.440@chestRewardHeight",
         "position": "relative",
         "img": "#ui/gameuiskin#blueprint_items_tank"
+      },
+      "item_blueprint_ship": {
+        "w": "0.458@chestRewardWidth",
+        "h": "0.440@chestRewardHeight",
+        "position": "relative",
+        "img": "#ui/gameuiskin#blueprint_items_ship"
       },
       "item_rent": {
         "w": "0.440@chestRewardWidth",

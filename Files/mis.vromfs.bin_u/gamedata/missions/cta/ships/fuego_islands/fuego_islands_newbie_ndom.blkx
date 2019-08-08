@@ -306,7 +306,7 @@
     },
     {
       "import_record": {
-        "file": "gameData/missions/cta/ships/fuego_islands/mainareas/fuego_islands_newbie_airspawns.blk",
+        "file": "gameData/missions/cta/ships/fuego_islands/template_fuego_islands_air_spawn.blk",
         "importAreas": true,
         "importUnits": true,
         "importTriggers": true,

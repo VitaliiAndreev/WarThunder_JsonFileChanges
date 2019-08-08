@@ -242,7 +242,7 @@
         {
           "missionMarkAsCaptureZone": {
             "army": 1,
-            "timeMultiplier": 5.0,
+            "timeMultiplier": 10.0,
             "disableZone": false,
             "name_for_respawn_base": "",
             "target": "@zone_t1_name",
@@ -264,7 +264,7 @@
         {
           "missionMarkAsCaptureZone": {
             "army": 2,
-            "timeMultiplier": 5.0,
+            "timeMultiplier": 10.0,
             "disableZone": false,
             "name_for_respawn_base": "",
             "target": "@zone_t2_name",
