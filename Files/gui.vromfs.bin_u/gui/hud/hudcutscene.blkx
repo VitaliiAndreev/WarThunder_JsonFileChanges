@@ -34,7 +34,7 @@
       {
         "tdiv": {
           "id": "mission_hints",
-          "width": "(2/3) * sw",
+          "width": "2/3@rwHud",
           "pos": "pw-w, 0.9ph",
           "position": "relative",
           "flow": "vertical",

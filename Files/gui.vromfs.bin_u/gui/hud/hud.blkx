@@ -4,7 +4,7 @@
       "id": "hud_obj",
       "position": "absolute",
       "pos": "@bwHud, @bhHud",
-      "size": "sw - 2@bwHud, sh - 2@bhHud"
+      "size": "@rwHud, @rhHud"
     }
   },
   {
@@ -31,7 +31,7 @@
     "textareaNoTab": {
       "id": "unmapped_shortcuts_warning",
       "position": "root",
-      "width": "45%sw",
+      "width": "45%@rwHud",
       "pos": "50%sw-50%w, 60%sh-50%h",
       "display": "hide",
       "wink": "no",
@@ -44,7 +44,7 @@
     "textareaNoTab": {
       "id": "server_message",
       "position": "root",
-      "width": "45%sw",
+      "width": "45%@rwHud",
       "pos": "50%sw-50%w, 60%sh-50%h",
       "wink": "no",
       "style": "transp-time:750; color:@warningTextColor; font:@fontHudMedium; text-align:center;",

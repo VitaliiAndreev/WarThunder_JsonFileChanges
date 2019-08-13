@@ -790,6 +790,9 @@
     },
     {
       "enableApex": true
+    },
+    {
+      "enableUGC": true
     }
   ],
   "experimental2": [

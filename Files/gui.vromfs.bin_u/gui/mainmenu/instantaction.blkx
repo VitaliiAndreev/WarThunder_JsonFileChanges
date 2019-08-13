@@ -134,9 +134,7 @@
     },
     {
       "airInfoBlock": {
-        "id": "slot_info",
-        "behavior": "Timer",
-        "display": "hide"
+        "id": "slot_info"
       }
     },
     {

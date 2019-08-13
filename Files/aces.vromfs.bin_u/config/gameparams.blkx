@@ -138,6 +138,7 @@
   "newDamageTimer": 100.0,
   "seriousOffenderPriorityTimer": 30.0,
   "criticalOffenderPriorityTimer": 90.0,
+  "leaveKillerSearchDistanceMax": 3000.0,
   "friendlyFireImmortalOnLandTime": 30.0,
   "readyToDieRepairTimeMult": 3.0,
   "bailoutReadyToDieTime": 15.0,
@@ -1542,6 +1543,7 @@
       "drawShipBulletFallIndicator": true,
       "showShipBulletTimer": true,
       "aircraftFriendlyFireForBanOnly": true,
+      "enableLeaveKills": true,
       "airToAirMissileDetection": true
     },
     "realistic": {
@@ -1597,6 +1599,7 @@
       "showBombSight": false,
       "visibleNotTraceableIndicators": true,
       "showShipBulletTimer": true,
+      "enableLeaveKills": true,
       "airToAirMissileDetection": true
     },
     "hardcore": {
@@ -1648,6 +1651,7 @@
       "crewHealingOnlyOnCaptureZone": true,
       "showBombSight": false,
       "visibleNotTraceableIndicators": true,
+      "enableLeaveKills": true,
       "airToAirMissileDetection": false
     }
   },
@@ -2785,6 +2789,14 @@
       },
       "on": {
         "aircraftFriendlyFireForBanOnly": true
+      }
+    },
+    "enableLeaveKills": {
+      "off": {
+        "enableLeaveKills": false
+      },
+      "on": {
+        "enableLeaveKills": true
       }
     },
     "airToAirMissileDetection": {

@@ -331,6 +331,28 @@
                         "position": "absolute"
                       },
                       {
+                        "gcButtonsHolder": {
+                          "padding-right": "1@dp",
+                          "class": "header",
+                          "gcButtonsInterval": "yes",
+                          "Button_text": {
+                            "id": "gc_nav_back",
+                            "isColoredImg": "yes",
+                            "display": "hide",
+                            "_on_click": "goBack",
+                            "img": {
+                              "background-image": "#ui/gameuiskin#back.svg"
+                            },
+                            "btnText": {
+                              "pos": "@blockInterval, 50%ph-50%h",
+                              "position": "relative",
+                              "text-align": "left",
+                              "text": "#mainmenu/btnBack"
+                            }
+                          }
+                        }
+                      },
+                      {
                         "tdiv": {
                           "id": "topmenu_menu_panel",
                           "height": "ph",

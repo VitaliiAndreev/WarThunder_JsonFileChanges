@@ -482,7 +482,7 @@
                 "id": "hud_streaks",
                 "position": "relative",
                 "pos": "pw/2 - w/2, 0",
-                "width": "45%sw",
+                "width": "45%@rwHud",
                 "animation": "hide",
                 "height-base": "1",
                 "height-end": "100",
@@ -634,7 +634,7 @@
           "height": "0.3@sf",
           "width": "10h",
           "position": "absolute",
-          "pos": "50%sw-50%w, 0.3@shHud - 50%h"
+          "pos": "50%pw-50%w, 0.3@shHud - 50%h"
         }
       }
     ]
@@ -642,7 +642,7 @@
   {
     "tdiv": {
       "id": "tutorial_elements_nest",
-      "size": "sw-2@bwHud, sh-2@bhHud",
+      "size": "@rwHud, @rhHud",
       "pos": "pw/2-w/2, ph/2-h/2",
       "position": "absolute",
       "display": "hide",
@@ -655,7 +655,7 @@
         "id": "hud_hints_nest"
       },
       {
-        "width": "(2/3) * sw"
+        "width": "2/3@rwHud"
       },
       {
         "pos": "0.5pw-0.5w, @hintAboveActionBarPos -h"

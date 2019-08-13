@@ -104,7 +104,7 @@
       {
         "tdiv": [
           {
-            "width": "0.67sw $min 2sh"
+            "width": "0.67@rw $min 2@rh"
           },
           {
             "pos": "50%pw-50%w, 83%sh - 1@bh -50%h"

@@ -1161,10 +1161,14 @@
     "AdvancedStickPusher": {
       "condition": ""
     },
-    "EnableGoldPurchase": {
-      "condition": "",
-      "platform_lock": "android"
-    },
+    "EnableGoldPurchase": [
+      {
+        "condition": "!PSNAccount"
+      },
+      {
+        "condition": "PS4Access"
+      }
+    ],
     "EnablePremiumPurchase": {
       "condition": ""
     },
@@ -1547,6 +1551,10 @@
       "condition": "",
       "platform_unlock": "xboxOne"
     },
+    "PS4Access": {
+      "condition": "",
+      "platform_unlock": "ps4"
+    },
     "ShipEventTicketAccess": [
       {
         "condition": "role_GAIJIN"
@@ -1733,16 +1741,8 @@
         "condition": "role_TESTER"
       }
     ],
-    "AllowXboxAccountLinking": [
-      {
-        "condition": "role_GAIJIN"
-      },
-      {
-        "condition": "role_DEVELOPER"
-      },
-      {
-        "condition": "role_TESTER"
-      }
-    ]
+    "AllowXboxAccountLinking": {
+      "condition": ""
+    }
   }
 }

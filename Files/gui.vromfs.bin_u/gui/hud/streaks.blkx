@@ -3,7 +3,7 @@
     "id": "hud_streaks",
     "position": "relative",
     "pos": "pw/2 - w/2, 0",
-    "width": "45%sw",
+    "width": "45%@rwHud",
     "animation": "hide",
     "height-base": "1",
     "height-end": "100",

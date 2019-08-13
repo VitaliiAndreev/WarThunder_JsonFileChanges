@@ -4,7 +4,7 @@
       "id": "hud_hints_nest"
     },
     {
-      "width": "(2/3) * sw"
+      "width": "2/3@rwHud"
     },
     {
       "pos": "0.5pw-0.5w, @hintAboveActionBarPos -h"

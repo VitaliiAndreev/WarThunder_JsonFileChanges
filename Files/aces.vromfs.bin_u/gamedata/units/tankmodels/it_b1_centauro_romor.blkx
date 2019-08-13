@@ -1670,7 +1670,7 @@
     "cockpit": {
       "zoomOutFov": 9.217,
       "zoomInFov": 6.141,
-      "sightFov": 11.0,
+      "sightFov": 6.0,
       "sightName": "centauro",
       "openedCockpit": false,
       "headPos": [0.0,4.0,-8.5],

@@ -150,7 +150,7 @@
           "height": "sh"
         },
         {
-          "pos": "10%pw, 0"
+          "pos": "@bw + 10%@rw, 0"
         },
         {
           "position": "absolute"

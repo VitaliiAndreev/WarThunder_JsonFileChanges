@@ -22,7 +22,7 @@
       "type": "big"
     },
     {
-      "style": "padding:@bw + 1*@scrn_tgt/100.0, 2*@scrn_tgt/100.0, @bw + 1*@scrn_tgt/100.0, 2*@scrn_tgt/100.0;"
+      "style": "padding:10@sf/@pf;"
     },
     {
       "tdiv": [
@@ -166,6 +166,7 @@
     "navLeft": {
       "activeText": {
         "id": "pilot_aircraft",
+        "margin-left": "1@buttonMargin",
         "text": ""
       }
     }

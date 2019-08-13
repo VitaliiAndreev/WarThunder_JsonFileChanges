@@ -16,7 +16,7 @@
       "position": "relative"
     },
     {
-      "style": "flow:horizontal;"
+      "flow": "horizontal"
     },
     {
       "keyboard": [
@@ -33,7 +33,7 @@
           "background-repeat": "expand"
         },
         {
-          "padding": "@kbPad,@kbPad,0,@kbPad"
+          "padding": "0, 0.5@kbPad, 0, 0"
         },
         {
           "row": [
@@ -554,6 +554,9 @@
             {
               "row": [
                 {
+                  "margin-bottom": "1@kbPad"
+                },
+                {
                   "bgk": {
                     "id": "Ctrl",
                     "text": "#key/Ctrl",
@@ -755,8 +758,8 @@
     },
     {
       "tdiv": {
-        "size": "fw, 6@kbh + 24 + 1*@scrn_tgt/100.0 + 2@kbPad",
-        "pos": "0,-0.5*@scrn_tgt/100.0",
+        "size": "fw, 6@kbh + 5@kbPad + 1*@scrn_tgt/100.0",
+        "pos": "0,2@kbPad",
         "position": "relative",
         "ydiv": [
           {
@@ -794,7 +797,7 @@
               "id": "LMB",
               "width": "65/205ph",
               "height": "69/205ph",
-              "pos": "50%pw-w-1,0",
+              "pos": "50%pw-w-2/205ph,0",
               "position": "absolute",
               "text": "#key/LMB",
               "background-image": "#ui/images/controls/mouse_lb",
@@ -807,7 +810,7 @@
               "id": "RMB",
               "width": "65/205ph",
               "height": "69/205ph",
-              "pos": "50%pw+1,0",
+              "pos": "50%pw+2/205ph,0",
               "position": "absolute",
               "text": "#key/RMB",
               "background-image": "#ui/images/controls/mouse_rb",

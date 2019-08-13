@@ -2,8 +2,11 @@
   "behavior": "Timer",
   "aircraft": "",
   "css-hier-invalidate": "yes",
-  "display": "hide",
+  "bgGradientLeft": [],
   "tdiv": [
+    {
+      "id": "slot_info_side_panel"
+    },
     {
       "padding-left": "@bw"
     },
@@ -12,6 +15,9 @@
     },
     {
       "css-hier-invalidate": "yes"
+    },
+    {
+      "display": "hide"
     },
     {
       "tdiv": {

@@ -3002,7 +3002,7 @@
         },
         {
           "shells": {
-            "reloadTimeMult": 1.34,
+            "reloadTimeMult": 1.66,
             "ammo_body_01_dm": {
               "count": 1
             },
