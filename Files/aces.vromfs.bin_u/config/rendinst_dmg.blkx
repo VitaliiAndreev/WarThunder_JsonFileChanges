@@ -6920,7 +6920,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6932,7 +6931,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6944,7 +6942,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6956,7 +6953,6 @@
       "fxScale": 0.5,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6968,7 +6964,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6980,7 +6975,6 @@
       "fxScale": 0.5,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -6992,7 +6986,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -7004,7 +6997,6 @@
       "fxScale": 0.5,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -7016,7 +7008,6 @@
       "fxScale": 0.8,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -7028,7 +7019,6 @@
       "fxScale": 0.5,
       "apexDestructible": true,
       "dmPreset": "wall_2_5_brick",
-      "effectPreset": "wall_2_5_brick_armour_piercing_bullets",
       "isParent": true
     }
   },
@@ -22072,7 +22062,7 @@
         "restrainDamage": 0.0005,
         "armorThrough": 20.0,
         "explosionDamageMult": 0.3,
-        "genericDamageMult": 0.1
+        "genericDamageMult": 0.03
       },
       "frame_house": {
         "armorClass": "RHA_tank",
@@ -22085,7 +22075,7 @@
       "frame_metal_house": {
         "armorClass": "RHA_tank",
         "armorThickness": 5.0,
-        "restrainDamage": 0.0005,
+        "restrainDamage": 0.0001,
         "armorThrough": 20.0,
         "explosionDamageMult": 0.3,
         "genericDamageMult": 0.001
@@ -22101,18 +22091,18 @@
       "log_house": {
         "armorClass": "RHA_tank",
         "armorThickness": 10.0,
-        "restrainDamage": 0.6,
+        "restrainDamage": 0.0001,
         "armorThrough": 30.0,
         "explosionDamageMult": 0.2,
-        "genericDamageMult": 0.08
+        "genericDamageMult": 0.01
       },
       "stone_house": {
         "armorClass": "RHA_tank",
         "armorThickness": 10.0,
-        "restrainDamage": 0.15,
+        "restrainDamage": 0.0005,
         "armorThrough": 300.0,
         "explosionDamageMult": 1.3,
-        "genericDamageMult": 0.19
+        "genericDamageMult": 0.01
       },
       "wall_2_5_brick": {
         "armorClass": "RHA_tank",
@@ -22124,11 +22114,11 @@
       },
       "hard_shoot_objects": {
         "armorClass": "RHA_tank",
-        "armorThickness": 1.0,
+        "armorThickness": 9.0,
         "restrainDamage": 0.0005,
         "armorThrough": 100.0,
         "explosionDamageMult": 0.1,
-        "genericDamageMult": 0.1
+        "genericDamageMult": 0.01
       },
       "multistory_building": {
         "armorClass": "RHA_tank",
@@ -22171,10 +22161,10 @@
       "metal_props": {
         "armorClass": "RHA_tank",
         "armorThickness": 5.0,
-        "restrainDamage": 0.005,
+        "restrainDamage": 0.0005,
         "armorThrough": 20.0,
         "explosionDamageMult": 0.5,
-        "genericDamageMult": 0.2
+        "genericDamageMult": 0.02
       },
       "oil_tanks_full": {
         "armorClass": "RHA_tank",
@@ -22187,15 +22177,15 @@
       "tanks": {
         "armorClass": "RHA_tank",
         "armorThickness": 5.0,
-        "restrainDamage": 0.005,
+        "restrainDamage": 0.0005,
         "armorThrough": 300.0,
         "explosionDamageMult": 0.2,
-        "genericDamageMult": 0.4
+        "genericDamageMult": 0.04
       },
       "trees_large": {
         "armorClass": "RHA_tank",
         "armorThickness": 5.0,
-        "restrainDamage": 0.005,
+        "restrainDamage": 0.0005,
         "armorThrough": 30.0,
         "explosionDamageMult": 0.8,
         "genericDamageMult": 0.4
@@ -22203,7 +22193,7 @@
       "trees_medium": {
         "armorClass": "RHA_tank",
         "armorThickness": 5.0,
-        "restrainDamage": 0.005,
+        "restrainDamage": 0.0005,
         "armorThrough": 15.0,
         "explosionDamageMult": 1.0,
         "genericDamageMult": 0.8
@@ -22246,7 +22236,7 @@
     "DamageEffects": {
       "wall_2_5_brick_armour_piercing_bullets": {
         "onHit": {
-          "damage": 80.0,
+          "damage": 0.0,
           "damageType": "generic",
           "expl": 0.1
         }
@@ -33943,7 +33933,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_county_courthouse_a_dp_02": {
         "nextRes": "american_county_courthouse_a_dp_02_dmg",
@@ -33953,7 +33943,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_county_courthouse_a_dp_03": {
         "nextRes": "american_county_courthouse_a_dp_03_dmg",
@@ -33963,7 +33953,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_county_courthouse_a_dp_04": {
         "nextRes": "american_county_courthouse_a_dp_04_dmg",
@@ -33973,7 +33963,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_county_courthouse_a_dp_05": {
         "hp": 100.0,
@@ -33982,7 +33972,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": false,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_garage_a_dp_01": {
         "nextRes": "american_garage_a_dp_01_dmg",
@@ -34031,7 +34021,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_mall_dp_02": {
         "nextRes": "american_mall_dp_02_dmg",
@@ -34041,7 +34031,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_mall_dp_03": {
         "nextRes": "american_mall_dp_03_dmg",
@@ -34051,7 +34041,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_mall_dp_04": {
         "nextRes": "american_mall_dp_04_dmg",
@@ -34061,7 +34051,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_mall_dp_05": {
         "nextRes": "american_mall_dp_05_dmg",
@@ -34071,7 +34061,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_mall_dp_06": {
         "nextRes": "american_mall_dp_06_dmg",
@@ -34081,7 +34071,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_01": {
         "nextRes": "american_motel_dp_01_dmg",
@@ -34091,7 +34081,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_02": {
         "nextRes": "american_motel_dp_02_dmg",
@@ -34101,7 +34091,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_03": {
         "nextRes": "american_motel_dp_03_dmg",
@@ -34111,7 +34101,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_04": {
         "nextRes": "american_motel_dp_04_dmg",
@@ -34121,7 +34111,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_05": {
         "nextRes": "american_motel_dp_05_dmg",
@@ -34131,7 +34121,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_06": {
         "nextRes": "american_motel_dp_06_dmg",
@@ -34141,7 +34131,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_motel_dp_07": {
         "nextRes": "american_motel_dp_07_dmg",
@@ -34151,7 +34141,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_01": {
         "nextRes": "american_train_depot_dp_01_dmg",
@@ -34161,7 +34151,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": false,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_02": {
         "nextRes": "american_train_depot_dp_02_dmg",
@@ -34171,7 +34161,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": false,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_03": {
         "nextRes": "american_train_depot_dp_03_dmg",
@@ -34181,7 +34171,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_04": {
         "nextRes": "american_train_depot_dp_04_dmg",
@@ -34191,7 +34181,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_05": {
         "nextRes": "american_train_depot_dp_05_dmg",
@@ -34201,7 +34191,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_06": {
         "nextRes": "american_train_depot_dp_06_dmg",
@@ -34211,7 +34201,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_07": {
         "nextRes": "american_train_depot_dp_07_dmg",
@@ -34221,7 +34211,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_train_depot_dp_08": {
         "nextRes": "american_train_depot_dp_08_dmg",
@@ -34231,7 +34221,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_1_floor_a_dp_01": {
         "nextRes": "american_suburb_building_1_floor_a_dp_01_dmg",
@@ -34460,7 +34450,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_a_dp_02": {
         "nextRes": "american_suburb_building_2_floors_a_dp_02_dmg",
@@ -34470,7 +34460,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_b_dp_01": {
         "nextRes": "american_suburb_building_2_floors_b_dp_01_dmg",
@@ -34480,7 +34470,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_b_dp_02": {
         "nextRes": "american_suburb_building_2_floors_b_dp_02_dmg",
@@ -34490,7 +34480,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_b_dp_03": {
         "nextRes": "american_suburb_building_2_floors_b_dp_03_dmg",
@@ -34500,7 +34490,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": false,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_c_dp_01": {
         "nextRes": "american_suburb_building_2_floors_c_dp_01_dmg",
@@ -34510,7 +34500,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_c_dp_02": {
         "nextRes": "american_suburb_building_2_floors_c_dp_02_dmg",
@@ -34520,7 +34510,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_2_floors_c_annex_dp_01": {
         "nextRes": "american_suburb_building_2_floors_c_annex_dp_01_dmg",
@@ -34541,7 +34531,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_3_floors_a_dp_02": {
         "nextRes": "american_suburb_building_3_floors_a_dp_02_dmg",
@@ -34551,7 +34541,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_3_floors_a_dp_03": {
         "nextRes": "american_suburb_building_3_floors_a_dp_03_dmg",
@@ -34561,7 +34551,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_3_floors_a_dp_04": {
         "nextRes": "american_suburb_building_3_floors_a_dp_04_dmg",
@@ -34571,7 +34561,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_suburb_building_3_floors_a_dp_05": {
         "nextRes": "american_suburb_building_3_floors_a_dp_05_dmg",
@@ -34581,7 +34571,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_a_dp_01": {
         "nextRes": "american_town_building_1_floor_a_dp_01_dmg",
@@ -34591,7 +34581,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_a_dp_02": {
         "nextRes": "american_town_building_1_floor_a_dp_02_dmg",
@@ -34601,7 +34591,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_a_dp_03": {
         "nextRes": "american_town_building_1_floor_a_dp_03_dmg",
@@ -34611,7 +34601,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_b_dp_01": {
         "nextRes": "american_town_building_1_floor_b_dp_01_dmg",
@@ -34621,7 +34611,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_b_dp_02": {
         "nextRes": "american_town_building_1_floor_b_dp_02_dmg",
@@ -34631,7 +34621,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_c_dp_01": {
         "nextRes": "american_town_building_1_floor_c_dp_01_dmg",
@@ -34641,7 +34631,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_c_dp_02": {
         "nextRes": "american_town_building_1_floor_c_dp_02_dmg",
@@ -34651,7 +34641,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_d_dp_01": {
         "nextRes": "american_town_building_1_floor_d_dp_01_dmg",
@@ -34661,7 +34651,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_d_dp_02": {
         "nextRes": "american_town_building_1_floor_d_dp_02_dmg",
@@ -34671,7 +34661,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_e_dp_01": {
         "nextRes": "american_town_building_1_floor_e_dp_01_dmg",
@@ -34681,7 +34671,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_e_dp_02": {
         "nextRes": "american_town_building_1_floor_e_dp_02_dmg",
@@ -34691,7 +34681,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_f_dp_01": {
         "nextRes": "american_town_building_1_floor_f_dp_01_dmg",
@@ -34701,7 +34691,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_1_floor_f_dp_02": {
         "nextRes": "american_town_building_1_floor_f_dp_02_dmg",
@@ -34711,7 +34701,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_a_dp_01": {
         "nextRes": "american_town_building_2_floors_a_dp_01_dmg",
@@ -34721,7 +34711,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_a_dp_02": {
         "nextRes": "american_town_building_2_floors_a_dp_02_dmg",
@@ -34731,7 +34721,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_b_dp_01": {
         "nextRes": "american_town_building_2_floors_b_dp_01_dmg",
@@ -34741,7 +34731,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_b_dp_02": {
         "nextRes": "american_town_building_2_floors_b_dp_02_dmg",
@@ -34751,7 +34741,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_b_dp_03": {
         "nextRes": "american_town_building_2_floors_b_dp_03_dmg",
@@ -34761,7 +34751,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_c_dp_01": {
         "nextRes": "american_town_building_2_floors_c_dp_01_dmg",
@@ -34771,7 +34761,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_c_dp_02": {
         "nextRes": "american_town_building_2_floors_c_dp_02_dmg",
@@ -34781,7 +34771,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_c_dp_03": {
         "nextRes": "american_town_building_2_floors_c_dp_03_dmg",
@@ -34791,7 +34781,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_c_dp_04": {
         "nextRes": "american_town_building_2_floors_c_dp_04_dmg",
@@ -34801,7 +34791,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_c_dp_05": {
         "hp": 100.0,
@@ -34809,7 +34799,7 @@
         "fx": "ad_buildings_destructions_big",
         "fxScale": 1.0,
         "apexDestructible": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_d_dp_01": {
         "nextRes": "american_town_building_2_floors_d_dp_01_dmg",
@@ -34819,7 +34809,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_d_dp_02": {
         "nextRes": "american_town_building_2_floors_d_dp_02_dmg",
@@ -34829,7 +34819,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_d_dp_03": {
         "nextRes": "american_town_building_2_floors_d_dp_03_dmg",
@@ -34839,7 +34829,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_e_dp_01": {
         "nextRes": "american_town_building_2_floors_e_dp_01_dmg",
@@ -34849,7 +34839,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_e_dp_02": {
         "nextRes": "american_town_building_2_floors_e_dp_02_dmg",
@@ -34859,7 +34849,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_e_dp_03": {
         "nextRes": "american_town_building_2_floors_e_dp_03_dmg",
@@ -34869,7 +34859,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_f_dp_01": {
         "nextRes": "american_town_building_2_floors_f_dp_01_dmg",
@@ -34879,7 +34869,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_f_dp_02": {
         "nextRes": "american_town_building_2_floors_f_dp_02_dmg",
@@ -34889,7 +34879,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_2_floors_f_dp_03": {
         "hp": 100.0,
@@ -34897,7 +34887,7 @@
         "fx": "ad_buildings_destructions_big",
         "fxScale": 1.0,
         "apexDestructible": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_3_floors_a_dp_01": {
         "nextRes": "american_town_building_3_floors_a_dp_01_dmg",
@@ -34907,7 +34897,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "american_town_building_3_floors_a_dp_02": {
         "nextRes": "american_town_building_3_floors_a_dp_02_dmg",
@@ -34917,7 +34907,7 @@
         "fxScale": 1.0,
         "apexDestructible": true,
         "isParent": true,
-        "dmPreset": "wall_2_5_brick"
+        "dmPreset": "stone_house"
       },
       "syrian_concrete_fence_h": {
         "nextRes": "syrian_concrete_fence_h_dmg",

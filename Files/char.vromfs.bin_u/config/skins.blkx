@@ -1,4 +1,8 @@
 {
+  "bf-109g-2_hungary/hun_szev": {
+    "category": "aircraft_italy",
+    "costGold": 0
+  },
   "uk_frigate_river/nord_bluegreen": {
     "category": "ships_britain",
     "costGold": -1,
