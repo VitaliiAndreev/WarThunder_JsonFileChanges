@@ -1095,6 +1095,9 @@
         "shipScreenPosViscosity": [0.4,0.8]
       },
       {
+        "shipMinReloadTimeForHud": 1.5
+      },
+      {
         "crosshairColor": {
           "name": "white",
           "color": "#ffffffff"
