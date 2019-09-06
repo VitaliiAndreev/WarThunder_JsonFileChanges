@@ -1941,7 +1941,7 @@
       {
         "Weapon": {
           "trigger": "gunner0",
-          "triggerGroup": "secondary",
+          "triggerGroup": "primary",
           "blk": "gameData/Weapons/groundModels_weapons/106mm_Type_60B_user_cannon.blk",
           "emitter": "bone_gun_barrel_01",
           "flash": "emtr_gun_flame_01",
@@ -1996,7 +1996,7 @@
       {
         "Weapon": {
           "trigger": "gunner1",
-          "triggerGroup": "primary",
+          "triggerGroup": "secondary",
           "blk": "gameData/Weapons/groundModels_weapons/106mm_Type_60B_user_cannon.blk",
           "emitter": "bone_gun_barrel_02",
           "flash": "emtr_gun_flame_02",
