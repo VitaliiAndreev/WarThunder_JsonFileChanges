@@ -47,6 +47,12 @@
     },
     {
       "node": "depth_charge_08"
+    },
+    {
+      "node": "torpedo_01"
+    },
+    {
+      "node": "torpedo_02"
     }
   ]
 }

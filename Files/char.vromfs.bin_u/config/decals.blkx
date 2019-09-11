@@ -631,7 +631,8 @@
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_1": {
@@ -639,70 +640,80 @@
     "aspect_ratio": 0.5,
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_2": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_3": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_4": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_5": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_6": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_7": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_8": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_9": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_0": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_1": {
@@ -710,63 +721,72 @@
     "aspect_ratio": 0.5,
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_2": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_3": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_4": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_5": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_6": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_7": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_8": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "ussr_numbers_red_9": {
     "category": "numbers",
     "costGold": 0,
     "countries": {
-      "ussr": true
+      "ussr": true,
+      "china": true
     }
   },
   "au_raaf_roundel_1942": {
@@ -1153,7 +1173,20 @@
     "aspect_ratio": 2.0,
     "costGold": 200,
     "unlock": "noak_af_roundel_1949",
-    "hideForLang": "HChinese"
+    "hideForLang": "HChinese",
+    "countries": {
+      "china": true
+    }
+  },
+  "noak_gf_roundel": {
+    "category": "roundels",
+    "aspect_ratio": 2.0,
+    "costGold": 200,
+    "unlock": "noak_gf_roundel",
+    "hideForLang": "HChinese",
+    "countries": {
+      "china": true
+    }
   },
   "pe_af_roundel": {
     "category": "roundels",
@@ -1184,6 +1217,69 @@
     "costGold": 200,
     "unlock": "rnoaf_roundel_1945"
   },
+  "roca_roundel": [
+    {
+      "category": "roundels"
+    },
+    {
+      "costGold": 200
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "unlock": "roca_roundel"
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "countries": {
+        "china": true
+      }
+    }
+  ],
+  "roca_roundel_black": [
+    {
+      "category": "roundels"
+    },
+    {
+      "costGold": 200
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "countries": {
+        "china": true
+      }
+    }
+  ],
+  "rocaf_roundel_1949": [
+    {
+      "category": "roundels"
+    },
+    {
+      "costGold": 200
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "unlock": "rocaf_roundel_1949"
+    },
+    {
+      "hideForLang": "HChinese"
+    },
+    {
+      "countries": {
+        "china": true
+      }
+    }
+  ],
   "rokaf_roundel_1949": {
     "category": "roundels",
     "costGold": 200,
@@ -4268,6 +4364,30 @@
     "costGold": 200,
     "unlock": "ussr_text_irtish"
   },
+  "decal_215": {
+    "category": "china_tanks",
+    "hideUntilUnlocked": true,
+    "costGold": -1,
+    "unlock": "cn_t_34_85_zis_53_no215_decals_unlock"
+  },
+  "decal_531": {
+    "category": "china_tanks",
+    "hideUntilUnlocked": true,
+    "costGold": -1,
+    "unlock": "cn_t_26_no531_decals_unlock"
+  },
+  "emblem_koumintang": {
+    "category": "china_tanks",
+    "hideUntilUnlocked": true,
+    "costGold": -1,
+    "unlock": "cn_t_26_no531_decals_unlock"
+  },
+  "decal_402": {
+    "category": "china_tanks",
+    "hideUntilUnlocked": true,
+    "costGold": -1,
+    "unlock": "cn_is_2_1943_no402_decals_unlock"
+  },
   "back_09": {
     "category": "axis_common",
     "costGold": 200,
@@ -4626,7 +4746,10 @@
     "category": "germany_tanks",
     "costGold": 200,
     "unlock": "ge_east_germany_ddr",
-    "hideForLang": "HChinese"
+    "hideForLang": "HChinese",
+    "countries": {
+      "germany": true
+    }
   },
   "ge_bundeswehr_insignia": {
     "category": "germany_tanks",

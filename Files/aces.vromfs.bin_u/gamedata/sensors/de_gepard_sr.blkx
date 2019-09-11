@@ -3,7 +3,7 @@
   "transivers": {
     "search": {
       "power": 100.0,
-      "band": 0,
+      "band": 4,
       "rcs": 5.0,
       "range": 15000.0,
       "rangeMax": 15000.0,
@@ -126,6 +126,7 @@
         "switchOn": {
           "stateFrom": "standby",
           "command": "switch",
+          "event": "enable",
           "stateTo": "search",
           "actions": {
             "setSearchMode": []
@@ -140,6 +141,7 @@
         "switchingOff": {
           "stateFrom": "search",
           "command": "switch",
+          "event": "disable",
           "stateTo": "antennaParking",
           "actions": {
             "setFsmActive": {

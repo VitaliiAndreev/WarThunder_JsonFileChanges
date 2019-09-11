@@ -174,11 +174,29 @@
       }
     },
     {
+      "armor_glass63_5": {
+        "hpMin": 100.0,
+        "hpMax": 120.0,
+        "hpPerSq": 10.5,
+        "armor_type": "glass63_5",
+        "effects": []
+      }
+    },
+    {
       "armor_glass64": {
         "hpMin": 100.0,
         "hpMax": 120.0,
         "hpPerSq": 10.5,
         "armor_type": "glass64",
+        "effects": []
+      }
+    },
+    {
+      "armor_glass65": {
+        "hpMin": 100.0,
+        "hpMax": 120.0,
+        "hpPerSq": 10.5,
+        "armor_type": "glass65",
         "effects": []
       }
     },
@@ -579,6 +597,15 @@
       }
     },
     {
+      "armor22_23": {
+        "hpMin": 50.0,
+        "hpMax": 50.0,
+        "hpPerSq": 38.5008,
+        "armor_type": "armor22_23",
+        "effects": []
+      }
+    },
+    {
       "armor25": {
         "hpMin": 50.0,
         "hpMax": 50.0,
@@ -656,6 +683,33 @@
         "hpMax": 40.0,
         "hpPerSq": 68.0,
         "armor_type": "boron_carbide20",
+        "effects": []
+      }
+    },
+    {
+      "amar_air20": {
+        "hpMin": 35.0,
+        "hpMax": 35.0,
+        "hpPerSq": 38.5,
+        "armor_type": "amar_air20",
+        "effects": []
+      }
+    },
+    {
+      "kevlar5": {
+        "hpMin": 35.0,
+        "hpMax": 35.0,
+        "hpPerSq": 38.5,
+        "armor_type": "kevlar5",
+        "effects": []
+      }
+    },
+    {
+      "alum_alloy6_35": {
+        "hpMin": 30.0,
+        "hpMax": 30.0,
+        "hpPerSq": 30.0,
+        "armor_type": "alum_alloy6_35",
         "effects": []
       }
     },

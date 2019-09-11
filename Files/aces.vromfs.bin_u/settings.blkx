@@ -54,7 +54,6 @@
     },
     "graphics": {
       "anisotropy": 0,
-      "lowResFx": false,
       "shadowDistanceScale": 0.0,
       "shadowQuality": "",
       "clipmapScale": 0.0,
@@ -326,7 +325,7 @@
     "safeArea": false,
     "drawDebug": false,
     "disable_backbuffer_aa": true,
-    "maxTexCount": 32767,
+    "maxTexCount": 65535,
     "sRGBrw": true,
     "enableHmdSupport": true
   },
@@ -454,7 +453,8 @@
     "debug": false,
     "disableNvapi": false,
     "nvVbBugWorkaround": false,
-    "useGpuDt": true
+    "useGpuDt": false,
+    "flushOnPresent": true
   },
   "openGL": {
     "nvGLShaderAVWorkaround": true

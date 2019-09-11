@@ -2,15 +2,16 @@
   "type": "radar",
   "transivers": {
     "track": {
-      "power": 200.0,
-      "band": 0,
+      "sideLobesAttenuation": -16.0,
+      "power": 30.0,
+      "band": 8,
       "rcs": 3.0,
-      "range": 3500.0,
+      "range": 4500.0,
       "rangeMax": 6000.0,
       "backScatteringBandNum": 0,
       "antenna": {
         "angleHalfSens": 6.0,
-        "sideLobesSensitivity": -25.0
+        "sideLobesSensitivity": -26.0
       }
     }
   },
@@ -20,7 +21,8 @@
       "azimuthLimits": [-7.0,7.0],
       "elevationLimits": [-7.0,7.0],
       "period": 0.5,
-      "width": 3.0
+      "width": 3.0,
+      "indicate": true
     },
     "track": {
       "type": "no",
@@ -33,8 +35,9 @@
       "groundClutter": true,
       "aircraftAsTarget": true,
       "groundVehiclesAsTarget": true,
-      "angularAccuracy": 0.25,
+      "angularAccuracy": 0.08,
       "distanceAccuracy": 22.0,
+      "track": true,
       "distance": {
         "presents": true,
         "minValue": 150.0,
@@ -116,62 +119,95 @@
           }
         }
       },
-      "transitions": {
-        "switchOn": {
-          "stateFrom": "init",
-          "event": "init",
-          "stateTo": "standby",
-          "actions": {
-            "init": [],
-            "setStandbyMode": []
+      "transitions": [
+        {
+          "switchOn": {
+            "stateFrom": "init",
+            "event": "init",
+            "stateTo": "standby",
+            "actions": {
+              "init": [],
+              "setStandbyMode": []
+            }
           }
         },
-        "lock": {
-          "stateFrom": "standby",
-          "command": "selectTarget",
-          "stateTo": "lock",
-          "actions": {
-            "setLockMode": []
+        {
+          "lock": {
+            "stateFrom": "standby",
+            "command": "selectTarget",
+            "stateTo": "lock",
+            "actions": {
+              "setLockMode": []
+            }
           }
         },
-        "track": {
-          "stateFrom": "lock",
-          "event": "targetDetected",
-          "stateTo": "track",
-          "actions": {
-            "setFsmActive": {
-              "fsm": "lock",
-              "active": false
+        {
+          "track": {
+            "stateFrom": "lock",
+            "event": "targetDetected",
+            "stateTo": "track",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "lock",
+                "active": false
+              },
+              "setTrackMode": []
+            }
+          }
+        },
+        {
+          "finishedTrack": {
+            "stateFrom": "track",
+            "event": "activeTargetOfInterestInertialTimeOut",
+            "stateTo": "lock",
+            "actions": {
+              "setFsmActive": {
+                "fsm": "track",
+                "active": false
+              },
+              "setLockMode": []
+            }
+          }
+        },
+        {
+          "track": [
+            {
+              "stateFrom": "lock"
             },
-            "setTrackMode": []
-          }
-        },
-        "failedLock": {
-          "stateFrom": "lock",
-          "event": "scanFinished",
-          "stateTo": "standby",
-          "actions": {
-            "setFsmActive": {
-              "fsm": "lock",
-              "active": false
+            {
+              "stateFrom": "track"
             },
-            "setStandbyMode": []
-          }
-        },
-        "finishedTrack": {
-          "stateFrom": "track",
-          "event": "activeTargetOfInterestInertialTimeOut",
-          "command": "selectTarget",
-          "stateTo": "standby",
-          "actions": {
-            "setFsmActive": {
-              "fsm": "track",
-              "active": false
+            {
+              "command": "selectTarget"
             },
-            "setStandbyMode": []
-          }
+            {
+              "event": "disable"
+            },
+            {
+              "stateTo": "standby"
+            },
+            {
+              "actions": [
+                {
+                  "setFsmActive": {
+                    "fsm": "lock",
+                    "active": false
+                  }
+                },
+                {
+                  "setFsmActive": {
+                    "fsm": "track",
+                    "active": false
+                  }
+                },
+                {
+                  "setStandbyMode": []
+                }
+              ]
+            }
+          ]
         }
-      }
+      ]
     },
     "lock": {
       "stateInit": "lock",

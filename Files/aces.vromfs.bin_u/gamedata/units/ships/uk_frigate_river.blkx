@@ -114,7 +114,7 @@
     "default_skin_tomoe": {
       "replace_tex": {
         "from": "flag_uk_01_c*",
-        "to": "flag_uk_alt_c*"
+        "to": "flag_uk_01_c_tomoe*"
       }
     }
   },
@@ -3002,7 +3002,7 @@
             "useEmitter": true
           },
           {
-            "recoilOffset": 0.35
+            "recoilOffset": 0.381
           },
           {
             "barrelDP": "main_caliber_gun_01_dm"
@@ -3057,6 +3057,9 @@
           },
           {
             "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
           },
           {
             "accuracyAir": 1.0
@@ -3153,7 +3156,7 @@
             "useEmitter": true
           },
           {
-            "recoilOffset": 0.35
+            "recoilOffset": 0.381
           },
           {
             "barrelDP": "main_caliber_gun_02_dm"
@@ -3208,6 +3211,9 @@
           },
           {
             "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
           },
           {
             "accuracyAir": 1.0
@@ -3358,6 +3364,9 @@
             "randomAngle": 0.0
           },
           {
+            "accuracyBotMultAir": 0.55
+          },
+          {
             "accuracyAir": 1.0
           },
           {
@@ -3501,6 +3510,9 @@
           },
           {
             "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
           },
           {
             "accuracyAir": 1.0
@@ -3652,6 +3664,9 @@
           },
           {
             "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
           },
           {
             "accuracyAir": 1.0
@@ -3812,6 +3827,9 @@
             "randomAngle": 0.0
           },
           {
+            "accuracyBotMultAir": 0.55
+          },
+          {
             "accuracyAir": 1.0
           },
           {
@@ -3899,49 +3917,49 @@
       {
         "preset": {
           "name": "stern_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_mkvii_stern_depth_charges.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_stern_depth_charges.blk",
           "reqModification": "ship_depth_charge"
         }
       },
       {
         "preset": {
           "name": "board_mortar_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_mkvii_board_mortar.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_board_mortar.blk",
           "reqModification": "ship_bomb_mortar"
         }
       },
       {
         "preset": {
           "name": "stern_and_board_mortar_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_mkvii_board_mortar_stern_depth_charges.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_board_mortar_stern_depth_charges.blk",
           "reqModification": "ship_bomb_mortar"
         }
       },
       {
         "preset": {
           "name": "hedgehog_mortar",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_hedgehog_mortar.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_mortar.blk",
           "reqModification": "ship_bomb_mortar"
         }
       },
       {
         "preset": {
           "name": "hedgehog_mortar_and_board_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_hedgehog_mortar_mkvii_board_mortar.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_board_mortar.blk",
           "reqModification": "ship_bomb_mortar"
         }
       },
       {
         "preset": {
           "name": "hedgehog_mortar_and_stern_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_hedgehog_mortar_mkvii_stern_depth_charges.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_mortar_stern_depth_charges.blk",
           "reqModification": "ship_bomb_mortar"
         }
       },
       {
         "preset": {
           "name": "hedgehog_and_board_mortar_and_stern_depth_charges",
-          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_hedgehog_mortar_mkvii_board_mortar_stern_depth_charges.blk",
+          "blk": "gameData/units/ships/weaponPresets/uk_frigate_river_board_mortar_stern_depth_charges.blk",
           "reqModification": "ship_bomb_mortar"
         }
       }
@@ -3957,12 +3975,13 @@
   {
     "sound": {
       "EngineName": "engine_shipmid01",
-      "EngineNameAi": "engine_shiplight_ai",
+      "EngineNameAi": "engine_shipmid_ai",
       "TrackSoundPath": "ships/engines_ships",
       "TrackSoundPathStudio": "naval/engines",
       "TrackSoundName": "tracks_mid",
-      "TrackSoundNameCockpit": "tracks_ctr_interior",
-      "TrackSoundNameAi": "tracks_ai_ctr"
+      "TrackSoundNameCockpit": "tracks_mid_interior",
+      "TrackSoundNameAi": "tracks_ai_mid",
+      "turret_turn": "turret_turn_big"
     }
   },
   {
@@ -4501,6 +4520,10 @@
       "102mm_uk_mkxvi_navy_HE": [],
       "102mm_uk_mkxvi_navy_SAP": [],
       "102mm_uk_mkxvi_navy_SAP_ammo_pack": [],
+      "102mm_uk_mkxvi_navy_he_dist_fuse": [],
+      "102mm_uk_mkxvi_navy_he_dist_fuse_ammo_pack": {
+        "prevModification": "102mm_uk_mkxvi_navy_SAP_ammo_pack"
+      },
       "40mm_bofors_l60_navy_universal": [],
       "40mm_bofors_l60_navy_he": [],
       "40mm_bofors_l60_navy_he_ammo_pack": [],
@@ -4508,7 +4531,9 @@
       "40mm_bofors_l60_navy_ap_ammo_pack": {
         "prevModification": "40mm_bofors_l60_navy_he_ammo_pack"
       },
-      "ship_rangefinder": [],
+      "ship_rangefinder": {
+        "prevModification": "102mm_uk_mkxvi_navy_he_dist_fuse_ammo_pack"
+      },
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {
         "reqModification": "new_aa_caliber_turrets"

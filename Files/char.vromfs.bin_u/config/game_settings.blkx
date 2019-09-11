@@ -452,7 +452,7 @@
     "UserExterior": {
       "condition": ""
     },
-    "CardAirplaneParameters": [
+    "CardAirplaneWingLoadingParameter": [
       {
         "condition": "role_GAIJIN"
       },
@@ -463,7 +463,18 @@
         "condition": "role_TESTER"
       }
     ],
-    "CardAirplanePowerParameters": [
+    "CardAirplanePowerParameter": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
+    "CardHelicopterClimbParameter": [
       {
         "condition": "role_GAIJIN"
       },
@@ -639,12 +650,28 @@
     "JapanShipsInFirstCountryChoice": {
       "condition": ""
     },
-    "ChinaAircraftsInFirstCountryChoice": {
-      "condition": ""
-    },
-    "ChinaTanksInFirstCountryChoice": {
-      "condition": ""
-    },
+    "ChinaAircraftsInFirstCountryChoice": [
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "role_ALPHA_TESTER"
+      }
+    ],
+    "ChinaTanksInFirstCountryChoice": [
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "role_ALPHA_TESTER"
+      }
+    ],
     "ItalyAircraftsInFirstCountryChoice": {
       "condition": ""
     },
@@ -808,6 +835,17 @@
     "DecoratorPreview": {
       "condition": ""
     },
+    "HolesInAircraftHull": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
     "UserSkins": {
       "condition": "",
       "platform_lock": "ps4;xboxOne"
@@ -1047,6 +1085,17 @@
     "Sensors": {
       "condition": ""
     },
+    "AirplaneFbw": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      }
+    ],
     "1Animcraft": [],
     "summer2018Access": {
       "condition": ""
@@ -1479,8 +1528,36 @@
     "JapanShipsUnlocked": {
       "condition": ""
     },
+    "ChinaAircraftUnlocked": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "wt_access_china_aircrafts_unlocks"
+      }
+    ],
+    "ChinaTankUnlocked": [
+      {
+        "condition": "role_GAIJIN"
+      },
+      {
+        "condition": "role_DEVELOPER"
+      },
+      {
+        "condition": "role_TESTER"
+      },
+      {
+        "condition": "wt_access_china_tanks_unlocks"
+      }
+    ],
     "CountryChina": {
-      "condition": "role_DEVELOPER"
+      "condition": ""
     },
     "MissionsChapterHidden": [
       {
@@ -1747,6 +1824,9 @@
       }
     ],
     "AllowXboxAccountLinking": {
+      "condition": ""
+    },
+    "MapPreferences": {
       "condition": ""
     }
   }

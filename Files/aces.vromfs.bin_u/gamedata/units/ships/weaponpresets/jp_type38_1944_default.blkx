@@ -35,6 +35,12 @@
     },
     {
       "node": "holder_06"
+    },
+    {
+      "node": "torpedo_01"
+    },
+    {
+      "node": "torpedo_02"
     }
   ]
 }

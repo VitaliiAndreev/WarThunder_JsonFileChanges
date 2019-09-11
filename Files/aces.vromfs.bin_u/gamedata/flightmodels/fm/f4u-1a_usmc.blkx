@@ -71,12 +71,10 @@
     "hasTakeoffFlapsPosition": true,
     "hasCombatFlapsPosition": true,
     "hasAirbrake": false,
-    "isAirBrakeAvailableOnGround": false,
-    "hasIndependentAirbrakesAndFlaps": true,
     "hasGearControl": true,
     "hasArrestorControl": false,
     "hasWingFoldControl": true,
-    "hasCockpitDoorControl": true,
+    "hasCockpitDoorControl": false,
     "hasWheelBrakeControl": true,
     "hasLockGearControl": true,
     "bHasBoosterSwitcher": false

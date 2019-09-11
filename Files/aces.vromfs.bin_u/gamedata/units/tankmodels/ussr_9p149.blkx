@@ -24,6 +24,9 @@
     "damagedExhaustFx": "tank_broken_exhaust"
   },
   {
+    "thermalExhaustFx": "tank_exhaust_nightvision"
+  },
+  {
     "dustFx": ""
   },
   {
@@ -78,7 +81,7 @@
     "minDistBetween": 10.0
   },
   {
-    "expClass": "exp_tank"
+    "expClass": "exp_tank_destroyer"
   },
   {
     "mass": 16500.0
@@ -108,10 +111,7 @@
     "waterBreakerToggleTime": 4.0
   },
   {
-    "type": "typeLightTank"
-  },
-  {
-    "cruiseVelocity": 10.0
+    "type": "typeTankDestroyer"
   },
   {
     "rearmTimeOnField": 45.0
@@ -172,6 +172,12 @@
         },
         "ex_armor_01_dm": {
           "armorThickness": 5.0
+        },
+        "ex_armor_03_dm": {
+          "armorThickness": 7.0
+        },
+        "ex_armor_04_dm": {
+          "armorThickness": 7.0
         }
       },
       "turret": {
@@ -236,6 +242,13 @@
           "hp": 20.0
         }
       },
+      "gun": {
+        "armorClass": "tank_barrel",
+        "hp": 100.0,
+        "armorThickness": 5.0,
+        "gun_barrel_dm": [],
+        "gun_barrel_01_dm": []
+      },
       "chassis": {
         "armorClass": "tank_steel_wheels",
         "hp": 250.0,
@@ -274,90 +287,119 @@
           "ex_armor_02_dm": []
         }
       },
-      "gun": {
-        "armorClass": "tank_barrel",
-        "hp": 200.0,
-        "armorThickness": 20.0,
-        "gun_barrel_dm": [],
-        "gun_barrel_01_dm": {
-          "armorThrough": 10.0,
-          "armorThickness": 5.0,
-          "hp": 50.0
-        },
-        "gun_barrel_02_dm": {
-          "armorThrough": 10.0,
-          "armorThickness": 5.0,
-          "hp": 50.0
-        },
-        "gun_barrel_03_dm": {
-          "armorThrough": 10.0,
-          "armorThickness": 5.0,
-          "hp": 50.0
-        },
-        "gun_barrel_04_dm": {
-          "armorThrough": 10.0,
-          "armorThickness": 5.0,
-          "hp": 50.0
-        },
-        "gun_barrel_05_dm": {
-          "armorThrough": 10.0,
-          "armorThickness": 5.0,
-          "hp": 50.0
-        }
-      },
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 15.0,
-        "hp": 150.0,
+        "hp": 250.0,
         "track_r_dm": [],
         "track_l_dm": []
       },
-      "equipment": {
+      "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
         "hp": 150.0,
-        "armorThickness": 12.0,
-        "armorThrough": 1.0,
-        "fireProtectionHp": 15.0,
-        "explosionArmorQuality": 0.35,
-        "shatterArmorQuality": 0.35,
-        "drive_turret_v_dm": [],
-        "drive_turret_h_dm": [],
-        "radio_station_dm": []
+        "armorThrough": 15.0,
+        "fireProtectionHp": 5.0,
+        "hidableInViewer": false,
+        "drive_turret_v_dm": {
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_dm": {
+          "armorThrough": 15.0
+        },
+        "drive_turret_v_01_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_01_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_v_02_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_02_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_v_03_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_03_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_v_04_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_04_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_v_05_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "drive_turret_h_05_dm": {
+          "hp": 40.0,
+          "armorThrough": 15.0
+        },
+        "radiator_dm": {
+          "hp": 50.0,
+          "armorThrough": 5.0
+        },
+        "radiator_l_dm": {
+          "hp": 50.0,
+          "armorThrough": 5.0
+        },
+        "radiator_r_dm": {
+          "hp": 50.0,
+          "armorThrough": 5.0
+        },
+        "radio_station_dm": {
+          "hp": 50.0,
+          "armorThrough": 3.0
+        }
       },
       "cannon_breech": {
         "armorClass": "tank_structural_steel",
         "hp": 150.0,
-        "armorThickness": 15.0,
-        "armorThrough": 300.0,
-        "fireProtectionHp": 10.0,
+        "armorThickness": 150.0,
+        "fireProtectionHp": 5.0,
         "hidableInViewer": false,
-        "cannon_breech_dm": [],
+        "cannon_breech_dm": {
+          "restrainDamage": 0.5
+        },
         "cannon_breech_01_dm": {
-          "armorThrough": 15.0
+          "armorThickness": 10.0
+        },
+        "cannon_breech_02_dm": {
+          "armorThickness": 10.0
+        },
+        "cannon_breech_03_dm": {
+          "armorThickness": 10.0
+        },
+        "cannon_breech_04_dm": {
+          "armorThickness": 10.0
+        },
+        "cannon_breech_05_dm": {
+          "armorThickness": 10.0
         }
       },
-      "radiators": {
-        "armorClass": "tank_structural_steel",
-        "hp": 50.0,
-        "armorThickness": 5.0,
-        "armorThrough": 15.0,
-        "fireProtectionHp": 5.0,
-        "radiator_dm": [],
-        "radiator_l_dm": [],
-        "radiator_r_dm": []
-      },
-      "engine": {
+      "power_block": {
         "armorClass": "armor_tank_engine",
         "hp": 100.0,
-        "armorThickness": 2.0,
-        "armorThrough": 40.0,
+        "armorThickness": 150.0,
         "fireProtectionHp": 5.0,
+        "restrainDamage": 0.5,
         "engine_dm": [],
         "transmission_dm": []
       },
       "ammo": {
         "armorClass": "tank_structural_steel",
-        "hp": 500.0,
+        "hp": 300.0,
         "armorThickness": 2.0,
         "armorThrough": 10.0,
         "fireProtectionHp": 20.0,
@@ -413,6 +455,11 @@
         "ammo_turret_48_dm": [],
         "ammo_turret_49_dm": [],
         "ammo_turret_50_dm": [],
+        "ammo_turret_51_dm": [],
+        "ammo_turret_52_dm": [],
+        "ammo_turret_53_dm": [],
+        "ammo_turret_54_dm": [],
+        "ammo_turret_55_dm": [],
         "ammo_body_dm": [],
         "ammo_body_01_dm": [],
         "ammo_body_02_dm": [],
@@ -454,6 +501,21 @@
         "ammo_body_38_dm": [],
         "ammo_body_39_dm": [],
         "ammo_body_40_dm": [],
+        "ammo_body_41_dm": [],
+        "ammo_body_42_dm": [],
+        "ammo_body_43_dm": [],
+        "ammo_body_44_dm": [],
+        "ammo_body_45_dm": [],
+        "ammo_body_46_dm": [],
+        "ammo_body_47_dm": [],
+        "ammo_body_48_dm": [],
+        "ammo_body_49_dm": [],
+        "ammo_body_50_dm": [],
+        "ammo_body_51_dm": [],
+        "ammo_body_52_dm": [],
+        "ammo_body_53_dm": [],
+        "ammo_body_54_dm": [],
+        "ammo_body_55_dm": [],
         "ammo_body_l_01_dm": [],
         "ammo_body_l_02_dm": [],
         "ammo_body_l_03_dm": [],
@@ -495,13 +557,12 @@
         "ammo_body_r_19_dm": [],
         "ammo_body_r_20_dm": []
       },
-      "equipment_body": {
+      "fuel_tanks": {
         "armorClass": "tank_structural_steel",
         "hp": 250.0,
         "armorThickness": 2.0,
-        "armorThrough": 10.0,
-        "fireProtectionHp": 10.0,
-        "createSecondaryShatters": false,
+        "armorThrough": 12.0,
+        "fireProtectionHp": 15.0,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
@@ -509,9 +570,13 @@
         "fuel_tank_04_dm": [],
         "fuel_tank_05_dm": [],
         "fuel_tank_r_01_dm": [],
+        "fuel_tank_r_02_dm": [],
+        "fuel_tank_r_03_dm": [],
         "fuel_tank_r_04_dm": [],
         "fuel_tank_r_05_dm": [],
         "fuel_tank_l_01_dm": [],
+        "fuel_tank_l_02_dm": [],
+        "fuel_tank_l_03_dm": [],
         "fuel_tank_l_04_dm": [],
         "fuel_tank_l_05_dm": []
       },
@@ -1493,7 +1558,7 @@
           "effect": {
             "conditionDamageType": "explosion",
             "expl": 1.0,
-            "conditionDamage": 600.0,
+            "conditionDamage": 350.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1502,7 +1567,7 @@
           "effect": {
             "conditionDamageType": "cumulative",
             "expl": 1.0,
-            "conditionDamage": 800.0,
+            "conditionDamage": 500.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1543,7 +1608,7 @@
           "effect": {
             "conditionDamageType": "explosion",
             "expl": 1.0,
-            "conditionDamage": 600.0,
+            "conditionDamage": 350.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1552,7 +1617,7 @@
           "effect": {
             "conditionDamageType": "cumulative",
             "expl": 1.0,
-            "conditionDamage": 800.0,
+            "conditionDamage": 500.0,
             "kill": true,
             "killEffect": "fire"
           }
@@ -1598,177 +1663,73 @@
         }
       },
       {
-        "Weapon": [
-          {
-            "trigger": "gunner1"
+        "Weapon": {
+          "trigger": "gunner1",
+          "triggerGroup": "primary",
+          "blk": "gameData/Weapons/groundModels_weapons/130mm_9M114_launcher_user_cannon.blk",
+          "flash": "emtr_gun_flame_01",
+          "useEmitter": true,
+          "emitter": "bone_rocket_01",
+          "reloadAnimVar": "9p149_action",
+          "recoilMultiplier": 0.01,
+          "sleeveEmitter": "bone_rocket_01",
+          "sleeveMesh": "9m114_rocket_container",
+          "openHatchTime": 0.0,
+          "sleevesLifeTime": 15.0,
+          "sleeveImpulse": [0.0,1.0,0.0],
+          "linkSleeveToGun": true,
+          "needScaleSleeve": false,
+          "stopForFire": true,
+          "readyToFireVar": "9p149_close_action",
+          "readyToFireTime": 5.0,
+          "maxSpeedForFire": 5.0,
+          "lagStopForFireTime": 2.0,
+          "parkForReload": true,
+          "createGunEffects": true,
+          "defaultYaw": 0.0,
+          "defaultPitch": 0.0,
+          "notReadyToFireYaw": 0.0,
+          "barrelDP": "gun_barrel_dm",
+          "brokenBarrelAllowShoot": false,
+          "canChangeBulletInReload": false,
+          "autoLoader": true,
+          "speedYaw": 25.0,
+          "speedPitch": 25.0,
+          "fireConeAngle": 1.0,
+          "isBulletBelt": false,
+          "bullets": 12,
+          "salvoAmount": 100.0,
+          "ChainfireTime": 0.0,
+          "DelayAfterShoot": 5.0,
+          "AttackMaxDistance": 1000.0,
+          "AttackMaxRadius": 1000.0,
+          "AttackMaxHeight": 1000.0,
+          "accuracyAir": 0.0,
+          "accuracyGnd": 1.5,
+          "errMeasureVel": 0.0,
+          "errMeasureVelFast": 0.0,
+          "errMeasureVelFwdShift": 0.0,
+          "errMeasureVelDir": 0.0,
+          "errTargettingOn100kmph": 0.0,
+          "errTargetting": 3.0,
+          "errExplTime": 0.0,
+          "turret": {
+            "head": "bone_gun",
+            "gun": "bone_gun_barrel",
+            "gunnerDm": "gunner_dm",
+            "verDriveDm": "drive_turret_v_dm",
+            "horDriveDm": "drive_turret_h_dm"
           },
-          {
-            "triggerGroup": "primary"
-          },
-          {
-            "blk": "gameData/Weapons/groundModels_weapons/130mm_9M114_launcher_user_cannon.blk"
-          },
-          {
-            "flash": "emtr_rocket_flame"
-          },
-          {
-            "useEmitter": true
-          },
-          {
-            "emitter": "bone_rocket_01"
-          },
-          {
-            "reloadAnimVar": "9p149_action"
-          },
-          {
-            "recoilMultiplier": 0.01
-          },
-          {
-            "rearmCartridgeTime": 45.0
-          },
-          {
-            "sleeveEmitter": "bone_rocket_01"
-          },
-          {
-            "sleeveMesh": "9m114_rocket_container"
-          },
-          {
-            "openHatchTime": 0.0
-          },
-          {
-            "sleevesLifeTime": 15.0
-          },
-          {
-            "sleeveImpulse": [0.0,1.0,0.0]
-          },
-          {
-            "linkSleeveToGun": true
-          },
-          {
-            "needScaleSleeve": false
-          },
-          {
-            "stopForFire": true
-          },
-          {
-            "readyToFireVar": "9p149_close_action"
-          },
-          {
-            "readyToFireTime": 7.2
-          },
-          {
-            "maxSpeedForFire": 12.0
-          },
-          {
-            "lagStopForFireTime": 2.0
-          },
-          {
-            "canChangeBulletInReload": false
-          },
-          {
-            "parkForReload": true
-          },
-          {
-            "createGunEffects": true
-          },
-          {
-            "defaultYaw": 0.0
-          },
-          {
-            "defaultPitch": 0.0
-          },
-          {
-            "notReadyToFireYaw": 0.0
-          },
-          {
-            "barrelDP": "gun_barrel_dm"
-          },
-          {
-            "breechDP": "turret_top_dm"
-          },
-          {
-            "brokenBarrelAllowShoot": false
-          },
-          {
-            "canChangeBulletInReload": false
-          },
-          {
-            "autoLoader": true
-          },
-          {
-            "speedYaw": 25.0
-          },
-          {
-            "speedPitch": 25.0
-          },
-          {
-            "fireConeAngle": 1.0
-          },
-          {
-            "isBulletBelt": false
-          },
-          {
-            "bullets": 12
-          },
-          {
-            "salvoAmount": 100.0
-          },
-          {
-            "ChainfireTime": 0.0
-          },
-          {
-            "DelayAfterShoot": 5.0
-          },
-          {
-            "AttackMaxDistance": 1000.0
-          },
-          {
-            "AttackMaxRadius": 1000.0
-          },
-          {
-            "AttackMaxHeight": 1000.0
-          },
-          {
-            "accuracyAir": 0.0
-          },
-          {
-            "accuracyGnd": 1.5
-          },
-          {
-            "errMeasureVel": 0.0
-          },
-          {
-            "errMeasureVelFast": 0.0
-          },
-          {
-            "errMeasureVelFwdShift": 0.0
-          },
-          {
-            "errMeasureVelDir": 0.0
-          },
-          {
-            "errTargettingOn100kmph": 0.0
-          },
-          {
-            "errTargetting": 3.0
-          },
-          {
-            "errExplTime": 0.0
-          },
-          {
-            "turret": {
-              "head": "bone_turret",
-              "gun": "bone_gun",
-              "gunnerDm": "gunner_dm"
-            }
-          },
-          {
-            "limits": {
-              "yaw": [-85.0,85.0],
-              "pitch": [-5.0,15.0]
-            }
+          "limits": {
+            "yaw": [-85.0,85.0],
+            "pitch": [-5.0,15.0]
           }
-        ]
+        }
+      },
+      {
+        "animatedBones": {
+          "node": "bone_turret"
+        }
       }
     ]
   },
@@ -2609,7 +2570,6 @@
       "new_tank_transmission": [],
       "new_tank_engine": [],
       "new_tank_horizontal_aiming": [],
-      "new_tank_vertical_aiming": [],
       "tank_engine_smoke_screen_system": [],
       "tank_medical_kit": {
         "image": "#ui/gameuiskin#tank_reinforcement_ussr"
@@ -2676,10 +2636,7 @@
             "count": 1
           },
           "ammo_body_01_dm": {
-            "count": 1
-          },
-          "gun_barrel_dm": {
-            "count": 1
+            "count": 2
           }
         }
       }

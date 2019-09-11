@@ -5,7 +5,7 @@
       "pulsePower": 10000.0,
       "pulseWidth": 0.0,
       "prf": 7500.0,
-      "band": 0,
+      "band": 4,
       "rcs": 1.0,
       "range": 18000.0,
       "rangeMax": 25000.0,
@@ -128,6 +128,7 @@
         "switchOn": {
           "stateFrom": "standby",
           "command": "switch",
+          "event": "enable",
           "stateTo": "search",
           "actions": {
             "setSearchMode": []
@@ -142,6 +143,7 @@
         "switchingOff": {
           "stateFrom": "search",
           "command": "switch",
+          "event": "disable",
           "stateTo": "antennaParking",
           "actions": {
             "setFsmActive": {

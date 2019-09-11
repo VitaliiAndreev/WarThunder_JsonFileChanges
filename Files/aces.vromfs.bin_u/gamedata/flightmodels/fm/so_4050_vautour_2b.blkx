@@ -74,8 +74,6 @@
     "hasTakeoffFlapsPosition": true,
     "hasCombatFlapsPosition": true,
     "hasAirbrake": true,
-    "isAirBrakeAvailableOnGround": true,
-    "hasIndependentAirbrakesAndFlaps": true,
     "hasGearControl": true,
     "hasArrestorControl": false,
     "hasWingFoldControl": false,
@@ -117,9 +115,9 @@
     "Fuselage": [2.25992,0.0,0.0],
     "LeftStab": [-9.3,1.8,1.4],
     "RightStab": [-9.3,1.8,-1.4],
-    "VertStab": [-7.7,2.1,0.0],
+    "VertStab": [-7.7,0.5,0.0],
     "WingVWingFocusMultiplier": 0.0,
-    "SineAOSMultiplier": 0.2
+    "SineAOSMultiplier": 0.0
   },
   "Aerodynamics": {
     "AileronCd": [0.015,0.0027],
@@ -570,7 +568,6 @@
       "OilMinTemp": 0.0,
       "EffectiveRadSpeed": 250.0,
       "IneffectiveRadMult": 0.8,
-      "AdvancedThermodynamics": true,
       "NoIgnitionWaterHeatProducingFactor": 0.15,
       "WaterTemperatureInertia": 7.2994,
       "WaterAirDensityPower": -2.0,
@@ -922,7 +919,6 @@
       "OilMinTemp": 0.0,
       "EffectiveRadSpeed": 250.0,
       "IneffectiveRadMult": 0.8,
-      "AdvancedThermodynamics": true,
       "NoIgnitionWaterHeatProducingFactor": 0.15,
       "WaterTemperatureInertia": 7.2994,
       "WaterAirDensityPower": -2.0,

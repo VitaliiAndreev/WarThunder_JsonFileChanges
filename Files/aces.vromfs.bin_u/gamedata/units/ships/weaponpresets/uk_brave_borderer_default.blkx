@@ -14,6 +14,18 @@
     },
     {
       "node": "ammunition_storage_01"
+    },
+    {
+      "node": "torpedo_01"
+    },
+    {
+      "node": "torpedo_02"
+    },
+    {
+      "node": "torpedo_03"
+    },
+    {
+      "node": "torpedo_04"
     }
   ]
 }

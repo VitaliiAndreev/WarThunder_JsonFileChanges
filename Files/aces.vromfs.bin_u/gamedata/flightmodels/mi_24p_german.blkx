@@ -89,11 +89,14 @@
       "elevator1_dm": {
         "genericDamageMult": 0.3,
         "hp": 21.8
+      },
+      "fin_dm": {
+        "hp": 50.5
       }
     },
     "protected_controls": {
       "tailcontrol_dm": {
-        "hp": 80.4
+        "hp": 80.5
       },
       "wingcontrol_dm": {
         "hp": 80.5
@@ -295,14 +298,12 @@
         },
         {
           "onHit": {
-            "expl": 0.01,
             "fire": 0.01
           }
         },
         {
           "onHit": {
             "damage": 2.7,
-            "expl": 0.01,
             "fire": 0.01,
             "leak_oil": 0.5
           }
@@ -310,24 +311,21 @@
         {
           "onHit": {
             "damage": 30.0,
-            "expl": 0.05,
             "fire": 0.1,
             "leak_oil": 1.0
           }
         },
         {
           "onKill": {
-            "expl": 0.1,
-            "fire": 10.0,
-            "nothing": 90.0
+            "fire": 30.0,
+            "leak_oil": 10.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "expl": 1.0,
             "fire": 44.0,
-            "nothing": 55.0
+            "leak_oil": 10.0
           }
         }
       ]
@@ -339,14 +337,12 @@
         },
         {
           "onHit": {
-            "expl": 0.01,
             "fire": 0.01
           }
         },
         {
           "onHit": {
             "damage": 2.7,
-            "expl": 0.01,
             "fire": 0.01,
             "leak_oil": 0.5
           }
@@ -354,24 +350,61 @@
         {
           "onHit": {
             "damage": 30.0,
-            "expl": 0.05,
             "fire": 0.1,
             "leak_oil": 1.0
           }
         },
         {
           "onKill": {
-            "expl": 0.1,
-            "fire": 10.0,
-            "nothing": 90.0
+            "fire": 30.0,
+            "leak_oil": 10.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "expl": 1.0,
             "fire": 44.0,
-            "nothing": 55.0
+            "leak_oil": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "part": [
+        {
+          "name": "fin_dm"
+        },
+        {
+          "onHit": {
+            "damage": 30.0,
+            "cut": 0.6
+          }
+        },
+        {
+          "onHit": {
+            "damage": 65.0,
+            "cut": 1.0
+          }
+        },
+        {
+          "onKill": {
+            "damage": 10.0,
+            "cut": 1.0,
+            "nothing": 11.0
+          }
+        },
+        {
+          "onKill": {
+            "damage": 31.0,
+            "cut": 1.0,
+            "nothing": 3.0
+          }
+        },
+        {
+          "onKill": {
+            "damage": 50.0,
+            "cut": 1.0,
+            "nothing": 0.0
           }
         }
       ]
@@ -753,19 +786,15 @@
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.5,
-            "fire": 5.0,
-            "leak": 10.0,
-            "nothing": 85.0
+            "fire": 45.0,
+            "leak": 25.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 20.0,
-            "leak": 50.0,
-            "nothing": 30.0
+            "fire": 50.0,
+            "leak": 20.0
           }
         }
       ]
@@ -812,19 +841,15 @@
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.5,
-            "fire": 5.0,
-            "leak": 10.0,
-            "nothing": 85.0
+            "fire": 45.0,
+            "leak": 25.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 20.0,
-            "leak": 50.0,
-            "nothing": 30.0
+            "fire": 50.0,
+            "leak": 20.0
           }
         }
       ]
@@ -871,19 +896,15 @@
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.5,
-            "fire": 5.0,
-            "leak": 10.0,
-            "nothing": 85.0
+            "fire": 45.0,
+            "leak": 25.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 20.0,
-            "leak": 50.0,
-            "nothing": 30.0
+            "fire": 50.0,
+            "leak": 20.0
           }
         }
       ]
@@ -930,19 +951,15 @@
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.5,
-            "fire": 5.0,
-            "leak": 10.0,
-            "nothing": 85.0
+            "fire": 45.0,
+            "leak": 25.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 20.0,
-            "leak": 50.0,
-            "nothing": 30.0
+            "fire": 50.0,
+            "leak": 20.0
           }
         }
       ]
@@ -3131,9 +3148,6 @@
           "dm": "wing_l_dm"
         },
         {
-          "dp": "engine%d_dm"
-        },
-        {
           "dp": "cover%d_dm"
         },
         {
@@ -3147,6 +3161,9 @@
         },
         {
           "dp": "transmission%d_dm"
+        },
+        {
+          "dp": "engine%d_dm"
         },
         {
           "dp": "gear_l_dm"
@@ -3228,9 +3245,6 @@
           "dm": "wing_r_dm"
         },
         {
-          "dp": "engine%d_dm"
-        },
-        {
           "dp": "cover%d_dm"
         },
         {
@@ -3244,6 +3258,9 @@
         },
         {
           "dp": "transmission%d_dm"
+        },
+        {
+          "dp": "engine%d_dm"
         },
         {
           "dp": "gear_l_dm"
@@ -3325,9 +3342,6 @@
           "dm": "tail_dm"
         },
         {
-          "dp": "engine%d_dm"
-        },
-        {
           "dp": "cover%d_dm"
         },
         {
@@ -3377,9 +3391,6 @@
           "dm": "fin_dm"
         },
         {
-          "dp": "engine%d_dm"
-        },
-        {
           "dp": "cover%d_dm"
         },
         {
@@ -3393,6 +3404,9 @@
         },
         {
           "dp": "transmission%d_dm"
+        },
+        {
+          "dp": "engine%d_dm"
         },
         {
           "axis1": [0.0,1.0,0.0]
@@ -4164,21 +4178,77 @@
       "modClass": "weapon",
       "prevModification": "GSh-30-2K_new_gun"
     },
-    "heli_false_thermal_targets": {
+    "heli_screen_exhaust_device": {
+      "turn_it_off": false,
       "invertEnableLogic": false,
-      "tier": 1,
       "group": "mi-24_EVU",
+      "tier": 1,
       "effects": {
+        "enginesInfraRedBrightnessMult": 0.7,
         "commonWeapons": [
           {
             "hideNodes": [
               {
-                "node": "fuse2"
+                "node": "fuse4"
               },
               {
                 "node": "lipa"
               }
             ]
+          },
+          {
+            "Weapon": {
+              "dummy": true,
+              "trigger": "gunner0",
+              "triggerGroup": "primary",
+              "blk": "gameData/Weapons/cannonGSh_30_2K.blk",
+              "emitter": "optic1_gun",
+              "defaultYaw": 0.0,
+              "defaultPitch": 0.0,
+              "speedYaw": 25.0,
+              "speedPitch": 25.0,
+              "bullets": 1,
+              "parkInDeadzone": false,
+              "aimForOperatedShell": true,
+              "turret": {
+                "head": "optic1_turret",
+                "gun": "optic1_gun",
+                "playerControllable": false
+              },
+              "limits": {
+                "yaw": [-50.0,50.0],
+                "pitch": [-40.0,20.0]
+              }
+            }
+          },
+          {
+            "Weapon": {
+              "trigger": "cannon",
+              "blk": "gameData/Weapons/cannonGSh_30_2K.blk",
+              "emitter": "flare1",
+              "flash": "flare1",
+              "shell": "emtr_shellrejection1",
+              "dm": "cannon1_dm",
+              "bullets": 250,
+              "spread": 1.2,
+              "recoilMultiplier": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "heli_false_thermal_targets": {
+      "turn_it_off": false,
+      "invertEnableLogic": false,
+      "reqModification": "heli_screen_exhaust_device",
+      "group": "mi-24_EVU",
+      "tier": 2,
+      "effects": {
+        "commonWeapons": [
+          {
+            "hideNodes": {
+              "node": "lipa"
+            }
           },
           {
             "Weapon": {
@@ -4255,9 +4325,7 @@
         },
         "commonWeapons": [
           {
-            "hideNodes": {
-              "node": "fuse2"
-            }
+            "hideNodes": []
           },
           {
             "Weapon": {
@@ -4351,6 +4419,24 @@
       "reqModification": "mi_24_r_60_2",
       "modClass": "weapon",
       "tier": 4
+    },
+    "heli_night_vision_system": {
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [1024,768],
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
+          },
+          "pilotIr": {
+            "resolution": [1024,768],
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
+          }
+        }
+      }
     }
   },
   "cutting": {

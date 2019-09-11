@@ -253,8 +253,26 @@
     "ricochetCosinePower": 1.0,
     "ricochetDamage": 0.3
   },
+  "glass63_5": {
+    "armorThickness": 63.5,
+    "armorThrough": 12.8,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.2,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
+  },
   "glass64": {
     "armorThickness": 64.0,
+    "armorThrough": 12.8,
+    "restrainDamage": 0.2,
+    "armorQuality": 0.2,
+    "ricochetAngle": 85.0,
+    "ricochetCosinePower": 1.0,
+    "ricochetDamage": 0.3
+  },
+  "glass65": {
+    "armorThickness": 65.0,
     "armorThrough": 12.8,
     "restrainDamage": 0.2,
     "armorQuality": 0.2,
@@ -970,6 +988,14 @@
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.3
   },
+  "armor22_23": {
+    "armorThickness": 22.23,
+    "armorThrough": 25.0,
+    "restrainDamage": 0.05,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
   "armor25": {
     "armorThickness": 25.0,
     "armorThrough": 25.0,
@@ -1126,6 +1152,30 @@
     "armorThickness": 20.0,
     "armorThrough": 20.0,
     "restrainDamage": 0.1,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
+  "amar_air20": {
+    "armorThickness": 20.0,
+    "armorThrough": 3.0,
+    "restrainDamage": 0.2,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
+  "kevlar5": {
+    "armorThickness": 5.0,
+    "armorThrough": 3.0,
+    "restrainDamage": 0.2,
+    "ricochetAngle": 60.0,
+    "ricochetCosinePower": 2.0,
+    "ricochetDamage": 0.3
+  },
+  "alum_alloy6_35": {
+    "armorThickness": 6.35,
+    "armorThrough": 6.35,
+    "restrainDamage": 0.2,
     "ricochetAngle": 60.0,
     "ricochetCosinePower": 2.0,
     "ricochetDamage": 0.3
@@ -1776,7 +1826,7 @@
     "explosionDamageMult": 5.0
   },
   "cn_era_type_59d_hull": {
-    "armorThickness": 35.0,
+    "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.2,
     "createSecondaryShatters": false,
@@ -1785,15 +1835,15 @@
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.95,
-    "genericArmorQuality": 2.0,
-    "genericDamageMult": 0.1,
-    "cumulativeArmorQuality": 5.8,
+    "cumulativeArmorQuality": 3.5,
+    "genericArmorQuality": 0.5,
+    "genericDamageMult": 0.8,
     "cumulativeDamageMult": 3.0,
     "explosionArmorQuality": 0.1,
     "explosionDamageMult": 5.0
   },
   "cn_era_type_59d_turret": {
-    "armorThickness": 28.0,
+    "armorThickness": 1.0,
     "armorThrough": 1.0,
     "restrainDamage": 0.2,
     "createSecondaryShatters": false,
@@ -1802,9 +1852,9 @@
     "ricochetAngle": 70.0,
     "ricochetCosinePower": 3.0,
     "ricochetDamage": 0.95,
+    "cumulativeArmorQuality": 3.5,
     "genericArmorQuality": 0.1,
-    "genericDamageMult": 0.1,
-    "cumulativeArmorQuality": 5.5,
+    "genericDamageMult": 0.8,
     "cumulativeDamageMult": 3.0,
     "explosionArmorQuality": 0.1,
     "explosionDamageMult": 5.0
@@ -1914,7 +1964,8 @@
     "restrainDamage": 0.5,
     "ricochetAngle": 80.0,
     "ricochetCosinePower": 2.0,
-    "ricochetDamage": 0.0
+    "ricochetDamage": 0.0,
+    "armorQuality": 0.15
   },
   "tanks_fuel_tank": {
     "armorThickness": 1.0,

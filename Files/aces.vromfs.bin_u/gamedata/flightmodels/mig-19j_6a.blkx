@@ -1,6 +1,6 @@
 {
   "model": "mig_19j_6a",
-  "fmFile": "fm/mig-19.blk",
+  "fmFile": "fm/mig-19j_6a.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "gearSinkRangeLR": 0.135,
@@ -8,6 +8,9 @@
   "type": "typeFighter",
   "paratrooper": "ally",
   "advancedInstructor": true,
+  "standardExhaustFxType": "jet_exhaust",
+  "afterburnerExhaustFxType": "jet_afterburner_exhaust",
+  "startExhaustFxType": "jet_start_exhaust",
   "overheatBlk": "gameData/FlightModels/dm/overheat_supersonic.blk",
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
@@ -508,7 +511,6 @@
         },
         {
           "onHit": {
-            "expl": 0.005,
             "fire": 0.001,
             "leak_oil": 0.8
           }
@@ -516,24 +518,21 @@
         {
           "onHit": {
             "damage": 30.0,
-            "expl": 0.05,
             "fire": 0.005,
             "leak_oil": 0.95
           }
         },
         {
           "onKill": {
-            "expl": 0.1,
-            "fire": 0.1,
-            "nothing": 99.9
+            "fire": 25.0,
+            "leak_oil": 10.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "expl": 1.0,
-            "fire": 1.0,
-            "nothing": 99.0
+            "fire": 30.0,
+            "leak_oil": 10.0
           }
         }
       ]
@@ -545,7 +544,6 @@
         },
         {
           "onHit": {
-            "expl": 0.005,
             "fire": 0.001,
             "leak_oil": 0.8
           }
@@ -553,24 +551,21 @@
         {
           "onHit": {
             "damage": 30.0,
-            "expl": 0.05,
             "fire": 0.005,
             "leak_oil": 0.95
           }
         },
         {
           "onKill": {
-            "expl": 0.1,
-            "fire": 0.1,
-            "nothing": 99.9
+            "fire": 25.0,
+            "leak_oil": 10.0
           }
         },
         {
           "onKill": {
             "damage": 30.0,
-            "expl": 1.0,
-            "fire": 1.0,
-            "nothing": 99.0
+            "fire": 30.0,
+            "leak_oil": 10.0
           }
         }
       ]
@@ -822,6 +817,7 @@
         {
           "onKill": {
             "damage": 50.0,
+            "fire": 5.0,
             "wing_l_dm": 1.0,
             "wing_r_dm": 1.0
           }
@@ -860,13 +856,13 @@
         {
           "onHit": {
             "damage": 40.0,
-            "tail_dm": 1.0
+            "tail_dm": 0.9
           }
         },
         {
           "onHit": {
             "damage": 50.0,
-            "expl": 1.0
+            "tail_dm": 1.0
           }
         },
         {
@@ -920,7 +916,8 @@
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 1.0
+            "tail_dm": 1.0,
+            "nothing": 1.0
           }
         }
       ]
@@ -1212,26 +1209,21 @@
         {
           "onKill": {
             "fire": 0.01,
-            "leak": 9.99,
-            "nothing": 90.0
+            "leak": 9.99
           }
         },
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.25,
-            "fire": 1.0,
-            "leak": 19.0,
-            "nothing": 80.0
+            "fire": 50.0,
+            "leak": 15.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 5.0,
-            "leak": 25.0,
-            "nothing": 70.0
+            "fire": 50.0,
+            "leak": 10.0
           }
         }
       ]
@@ -1271,26 +1263,21 @@
         {
           "onKill": {
             "fire": 0.01,
-            "leak": 9.99,
-            "nothing": 90.0
+            "leak": 9.99
           }
         },
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.25,
-            "fire": 1.0,
-            "leak": 19.0,
-            "nothing": 80.0
+            "fire": 50.0,
+            "leak": 15.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 5.0,
-            "leak": 25.0,
-            "nothing": 70.0
+            "fire": 50.0,
+            "leak": 10.0
           }
         }
       ]
@@ -1330,26 +1317,21 @@
         {
           "onKill": {
             "fire": 0.01,
-            "leak": 9.99,
-            "nothing": 90.0
+            "leak": 9.99
           }
         },
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.25,
-            "fire": 1.0,
-            "leak": 19.0,
-            "nothing": 80.0
+            "fire": 50.0,
+            "leak": 15.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 5.0,
-            "leak": 25.0,
-            "nothing": 70.0
+            "fire": 50.0,
+            "leak": 10.0
           }
         }
       ]
@@ -1389,26 +1371,21 @@
         {
           "onKill": {
             "fire": 0.01,
-            "leak": 9.99,
-            "nothing": 90.0
+            "leak": 9.99
           }
         },
         {
           "onKill": {
             "damage": 50.0,
-            "expl": 0.25,
-            "fire": 1.0,
-            "leak": 19.0,
-            "nothing": 80.0
+            "fire": 50.0,
+            "leak": 15.0
           }
         },
         {
           "onKill": {
             "damage": 70.0,
-            "expl": 1.0,
-            "fire": 5.0,
-            "leak": 25.0,
-            "nothing": 70.0
+            "fire": 50.0,
+            "leak": 10.0
           }
         }
       ]
@@ -1698,146 +1675,14 @@
       ]
     },
     {
-      "part": [
-        {
-          "name": "wing_l_dm"
-        },
-        {
-          "onHit": {
-            "damage": 10.0,
-            "cut": 0.1
-          }
-        },
-        {
-          "onHit": {
-            "damage": 20.0,
-            "cut": 0.2
-          }
-        },
-        {
-          "onHit": {
-            "damage": 30.0,
-            "cut": 0.4
-          }
-        },
-        {
-          "onHit": {
-            "damage": 50.0,
-            "cut": 0.8
-          }
-        },
-        {
-          "onHit": {
-            "damage": 70.0,
-            "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 10.0,
-            "cut": 1.0,
-            "nothing": 9.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 20.0,
-            "cut": 1.0,
-            "nothing": 5.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 30.0,
-            "cut": 1.0,
-            "nothing": 3.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 50.0,
-            "cut": 1.0,
-            "nothing": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 70.0,
-            "cut": 1.0
-          }
-        }
-      ]
+      "part": {
+        "name": "wing_l_dm"
+      }
     },
     {
-      "part": [
-        {
-          "name": "wing_r_dm"
-        },
-        {
-          "onHit": {
-            "damage": 10.0,
-            "cut": 0.1
-          }
-        },
-        {
-          "onHit": {
-            "damage": 20.0,
-            "cut": 0.2
-          }
-        },
-        {
-          "onHit": {
-            "damage": 30.0,
-            "cut": 0.4
-          }
-        },
-        {
-          "onHit": {
-            "damage": 50.0,
-            "cut": 0.8
-          }
-        },
-        {
-          "onHit": {
-            "damage": 70.0,
-            "cut": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 10.0,
-            "cut": 1.0,
-            "nothing": 9.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 20.0,
-            "cut": 1.0,
-            "nothing": 5.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 30.0,
-            "cut": 1.0,
-            "nothing": 3.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 50.0,
-            "cut": 1.0,
-            "nothing": 1.0
-          }
-        },
-        {
-          "onKill": {
-            "damage": 70.0,
-            "cut": 1.0
-          }
-        }
-      ]
+      "part": {
+        "name": "wing_r_dm"
+      }
     },
     {
       "part": {
