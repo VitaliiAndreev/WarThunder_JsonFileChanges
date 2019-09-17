@@ -22,6 +22,7 @@
 "missions/spawn_destroyers_04";"Light fleet #4";"Point d'apparition destroyers #4";"Light fleet #4";"Light fleet #4";"Flota ligera #4";"Малый флот №4";"Light fleet #4";"Lehká flotila #4";"Light fleet #4";"四\t号\t小\t型\t舰\t船\t出\t生\t点";"Light fleet #4";"Light fleet #4";"Light fleet #4";"Малий флот №4";"Light fleet #4";"Light fleet #4";"Light fleet #4";"Light fleet #4";"Intrare bărci 4";"Light fleet #4";"Light fleet #4";;
 "missions/spawn_cruisers_01";"Heavy fleet #1";"Point d'apparition croiseurs #1";"Flotta Principale #1";"Heavy fleet #1";"Flota pesada #1";"Большой флот №1";"Punkt odradzania dużej floty #1";"oblast #1 - velké lodě";"Heavy fleet #1";"一\t号\t大\t型\t舰\t船\t出\t生\t点";"Heavy fleet #1";"Esquadra Pesada #1";"Heavy fleet #1";"Важкий флот №1";"Heavy fleet #1";"Heavy fleet #1";"Heavy fleet #1";"Heavy fleet #1";"Intrare nave mari 1";"Heavy fleet #1";"Big fleet spawn point #1";;
 "missions/spawn_cruisers_02";"Heavy fleet #2";"Point d'apparition croiseurs #2";"Flotta Principale #2";"Heavy fleet #2";"Flota pesada #2";"Большой флот №2";"Punkt odradzania dużej floty #2";"oblast #2 - velké lodě";"Heavy fleet #2";"二\t号\t大\t型\t舰\t船\t出\t生\t点";"Heavy fleet #2";"Esquadra Pesada #2";"Heavy fleet #2";"Важкий флот №2";"Heavy fleet #2";"Heavy fleet #2";"Heavy fleet #2";"Heavy fleet #2";"Intrare nave mari 2";"Heavy fleet #2";"Big fleet spawn point #2";;
+"missions/spawn_cruisers_03";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Большой флот №3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";"Heavy fleet #3";;
 "missions/carriers_spawn";"Carrier fleet";"Groupe aéronaval";"Portaerei";"Flugzeugträgerflotte";"Flota de portaaviones";"Авианосный флот";"Flota lotniskowców";"Flotila letadlových lodí";"Uçak gemisi filosu";"航\t母\t舰\t队";"空母艦隊";"Porta-aviões";"Carrier fleet";"Авіаносний флот";"Flota nosača aviona";"Repülőgép-hordozó flotta";"항공모함 함대";"Авіяносны флот";"Flotă portavioane";"Carrier fleet";"航\t母\t舰\t队";;
 "missions/random_airfield_spawn";"Random airfield";"Aérodrome aléatoire";"Aeroporto casuale";"Random airfield";"Aeródromo aleatorio";"Случайный аэродром";"Losowe lotnisko";"náhodné letiště";"Random airfield";"机\t场\t（\t随\t机\t选\t择\t）";"Random airfield";"Aeródromo aleatório";"Random airfield";"Випадковий аеродром";"Random airfield";"Random airfield";"Random airfield";"Random airfield";"Aerodrom aleator";"Random airfield";"Random airfield";;
 "missions/airfield_spawn";"Airfield";"Aérodrome";"Aeroporto";"Flugfeld";"Aeródromo";"Аэродром";"Lotnisko";"Letiště";"Havaalanı";"机\t场";"飛行場";"Aeródromo";"Airfield";"Аеродром";"Aerodrom";"Repülőtér";"비행장";"Аэрадром";"Aerodrom";"機場";"机\t场";;
@@ -23209,7 +23210,7 @@ Fleet objectives:
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 En mode [Conquest], chaque équipe combat pour le contrôle d'un point stratégique.
@@ -23219,12 +23220,12 @@ Objectifs des forces terrestres :
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
@@ -23234,7 +23235,7 @@ Ground forces objectives:
 
 В режиме [┚ Захват] команды сражаются за контроль над одной стратегической точкой.
 
-Задачи сухопутных войск:
+Задачи флота:
 - Захватить и удержать под контролем точку ╸";"
 
 W trybie [┚ Podbój] drużyny walczą o panowanie nad pojedynczym punktem strategicznym.
@@ -23249,7 +23250,7 @@ V režimu [┚ Obsazování] bojují armády o ovládnutí pozemní oblasti.
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 \t在\t【\t┚\t \t海\t域\t争\t夺\t】\t模\t式\t中\t，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t海\t区\t。\t丧\t失\t海\t区\t的\t一\t方\t会\t逐\t渐\t减\t分\t。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败\t。\t
@@ -23270,7 +23271,7 @@ Ground forces objectives:
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 В режимі [┚ Захоплення] команди борються за контроль над однією стратегічною точкою.
@@ -23280,22 +23281,22 @@ Ground forces objectives:
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 În modul [┚ Cucerire] echipele luptă pentru a controla un punct strategic.
@@ -23305,12 +23306,12 @@ Obiectiv forțe terestre:
 
 In [┚ Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point ╸";"
 
 In [\t┚\t Conquest] mode teams fight for control over one strategic point.
 
-Ground forces objectives:
+Fleet objectives:
 - Capture and hold the point \t╸";;
 "missions/sicily_hasky_BfD_norespawn";"[Operation] Husky";"[Operation] Husky";"[Operation] Husky";"[Operation] Husky";"[Operation] Husky";"[Операция] Хаски";"[Operation] Husky";"[Operace] Husky";"[Operation] Husky";"【\t军\t事\t行\t动\t】\t哈\t士\t奇\t行\t动";"[Operation] ハスキー";"[Operation] Husky";"[Operation] Husky";"[Операція] Хаскі";"[Operation] Husky";"[Hadművelet] Husky";"[Operation] Husky";"[Аперацыя] Хаскі";"[Operațiune] Husky";"[Operation] Husky";"【\t军\t事\t行\t动\t】\t哈\t士\t奇\t行\t动";;
 "missions/sicily_hasky_BfD_norespawn/desc";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"Une opération amphibie et aéroportée alliée qui commença le 10 juillet 1943. L'objectif de l'opération était de capturer la Sicile.";"Un'operazione anfibia e aviotrasportata Alleata iniziata il 10 Luglio del 1943. L'obiettivo dell'operazione era quello di catturare la Sicilia.";"Am 10. Juli 1943 begann die alliierte Invasion von Sizilien. Beteiligt waren sowohl See- als auch Luftlandetruppen.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"Десантная операция союзников, начавшаяся 10 июля 1943 года. Целью операции был захват острова Сицилия.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"10. července 1943 začala obojživelná a výsadková operace Spojenců, jejímž cílem bylo obsazení Sicílie.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"这\t场\t开\t始\t于\t 1943 \t年\t 7 \t月\t 10 \t日\t的\t行\t动\t由\t同\t盟\t国\t的\t两\t栖\t部\t队\t和\t空\t降\t部\t队\t共\t同\t执\t行\t，\t该\t行\t动\t的\t目\t标\t是\t攻\t占\t西\t西\t里\t岛\t。";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"Aliados iniciaram uma operação anfíbia e aérea em 10 de Julho de 1943. O objetivo da operação era capturar a ilha da Sicília.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"Десантна операція союзників, що почалася 10 липня 1943 року. Метою операції було захоплення острова Сицилія.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"1943. július 10-én kezdetét vette a szövetségesek partraszálló és légideszant hadművelete, melynek célja Szicília elfoglalása és megszállása volt.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"Дэсантная аперацыя Саюзнікаў з удзелам машын-амфібій і авіяцыі пачалася 10 ліпеня 1943 г. Мэтай аперацыі быў захоп вострава Сіцылія.";"O operațiune amfibie și aeriană a Aliaților, care a început la 10 iulie 1943. Scopul operațiunii era de a captura insula Sicilia.";"An Allied amphibious and airborne operation that began on July 10, 1943. The operation goal was to capture the island of Sicily.";"这\t场\t由\t两\t栖\t部\t队\t和\t空\t降\t部\t队\t共\t同\t执\t行\t的\t行\t动\t目\t标\t直\t指\t西\t西\t里\t岛\t。";;
