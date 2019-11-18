@@ -3643,13 +3643,13 @@
         "fireProtectionHp": 10.0,
         "fireDamageMult": 6.0,
         "auxiliary_caliber_turret_01_dm": {
-          "hp": 300.0
+          "hp": 242.0
         },
         "auxiliary_caliber_turret_02_dm": {
-          "hp": 300.0
+          "hp": 242.0
         },
         "auxiliary_caliber_turret_03_dm": {
-          "hp": 300.0
+          "hp": 242.0
         }
       },
       "turrets_aa_caliber": {
@@ -3777,13 +3777,13 @@
         "armorClass": "tank_barrel",
         "armorThickness": 15.0,
         "auxiliary_caliber_gun_01_dm": {
-          "hp": 176.0
+          "hp": 115.0
         },
         "auxiliary_caliber_gun_02_dm": {
-          "hp": 176.0
+          "hp": 115.0
         },
         "auxiliary_caliber_gun_03_dm": {
-          "hp": 176.0
+          "hp": 115.0
         }
       },
       "gun_aa_caliber": {
@@ -4613,46 +4613,8 @@
           {
             "onHit": {
               "damageType": "explosion",
-              "fire": 0.2,
-              "damage": 100.0,
-              "fHitCritical": false
-            }
-          },
-          {
-            "onHit": {
-              "damageType": "explosion",
               "fire": 0.3,
-              "damage": 300.0,
-              "fHitCritical": false
-            }
-          },
-          {
-            "onHit": {
-              "damageType": "explosion",
-              "fire": 1.0,
-              "damage": 1000.0,
-              "fHitCritical": false
-            }
-          },
-          {
-            "onHit": {
-              "damageType": "fire",
-              "fire": 0.15,
-              "damage": 70.0,
-              "fHitCritical": false
-            }
-          },
-          {
-            "onHit": {
-              "damageType": "fire",
-              "fire": 0.25,
-              "damage": 100.0,
-              "fHitCritical": false
-            }
-          },
-          {
-            "onKill": {
-              "fire": 0.7,
+              "damage": 400.0,
               "fHitCritical": false
             }
           }

@@ -321,6 +321,20 @@
     "category": "aircraft_usa",
     "costGold": 200
   },
+  "f-4m_fgr2/blue": {
+    "category": "aircraft_britain",
+    "costGold": 200
+  },
+  "f-4m_fgr2/gray": {
+    "category": "aircraft_britain",
+    "costGold": 200,
+    "unlock": "f-4m_fgr2/gray"
+  },
+  "f-4m_fgr2/lightgray": {
+    "category": "aircraft_britain",
+    "costGold": 200,
+    "unlock": "f-4m_fgr2/lightgray"
+  },
   "f-86f-40_japan_blue_impulse/lead": {
     "category": "aircraft_japan",
     "costGold": -1,
@@ -14476,11 +14490,6 @@
   "fr_amx_30_super/fr_camo_green_sand_brown": {
     "category": "tanks_france",
     "costGold": 200
-  },
-  "fr_amx_30_super/fr_camo_jaune_sahara": {
-    "category": "tanks_france",
-    "costGold": 200,
-    "unlock": "fr_amx_30_super/fr_camo_jaune_sahara"
   },
   "fr_amx_30_super/fr_camo_vert_olive_arme": {
     "category": "tanks_france",

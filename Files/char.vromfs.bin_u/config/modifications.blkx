@@ -448,6 +448,112 @@
         "bulletMod": "8_63_air_targets"
       }
     },
+    "8_63_turret_belt_pack": {
+      "image": "#ui/gameuiskin#ammo",
+      "modClass": "weapon",
+      "tier": 3,
+      "caliber": 8.0,
+      "deactivationIsAllowed": false
+    },
+    "8_63_turret_new_gun": {
+      "image": "#ui/gameuiskin#weapon",
+      "tier": 4,
+      "modClass": "weapon",
+      "invertEnableLogic": true,
+      "caliber": 8.0,
+      "modOverdriveType": "new_gun",
+      "modUpgradeType": "new_gun",
+      "effects": {
+        "weaponMod": "8_63_turret_new_gun"
+      }
+    },
+    "8_63_turret_ap": {
+      "reqModification": "8_63_turret_belt_pack",
+      "group": "8_63_turret",
+      "effects": {
+        "bulletMod": "8_63_turret_ap"
+      }
+    },
+    "8_63_turret_api_apt": {
+      "reqModification": "8_63_turret_belt_pack",
+      "group": "8_63_turret",
+      "effects": {
+        "bulletMod": "8_63_turret_api_apt"
+      }
+    },
+    "13_2_akan_m39_belt_pack": {
+      "image": "#ui/gameuiskin#ammo",
+      "modClass": "weapon",
+      "tier": 3,
+      "caliber": 13.2,
+      "deactivationIsAllowed": false
+    },
+    "13_2_akan_m39_new_gun": {
+      "image": "#ui/gameuiskin#weapon",
+      "tier": 4,
+      "modClass": "weapon",
+      "invertEnableLogic": true,
+      "caliber": 13.2,
+      "modOverdriveType": "new_gun",
+      "modUpgradeType": "new_gun",
+      "effects": {
+        "weaponMod": "13_2_akan_m39_new_gun"
+      }
+    },
+    "13_2_akan_m39_ground_targets": {
+      "reqModification": "13_2_akan_m39_belt_pack",
+      "group": "13_2_akan_m39",
+      "effects": {
+        "bulletMod": "13_2_akan_m39_ground_targets"
+      }
+    },
+    "13_2_akan_m39_air_targets": {
+      "reqModification": "13_2_akan_m39_belt_pack",
+      "group": "13_2_akan_m39",
+      "effects": {
+        "bulletMod": "13_2_akan_m39_air_targets"
+      }
+    },
+    "13_2_akan_m39_stealth": {
+      "reqModification": "13_2_akan_m39_belt_pack",
+      "group": "13_2_akan_m39",
+      "effects": {
+        "bulletMod": "13_2_akan_m39_stealth"
+      }
+    },
+    "akan_m47_belt_pack": {
+      "image": "#ui/gameuiskin#ammo",
+      "modClass": "weapon",
+      "tier": 3,
+      "caliber": 20.0,
+      "deactivationIsAllowed": false
+    },
+    "akan_m47_new_gun": {
+      "image": "#ui/gameuiskin#weapon",
+      "tier": 4,
+      "modClass": "weapon",
+      "invertEnableLogic": true,
+      "caliber": 20.0,
+      "modOverdriveType": "new_gun",
+      "modUpgradeType": "new_gun",
+      "effects": {
+        "weaponMod": "akan_m47_new_gun"
+      }
+    },
+    "akan_m47_ground_targets": {
+      "reqModification": "akan_m47_belt_pack",
+      "group": "akan_m47",
+      "effects": {
+        "bulletMod": "akan_m47_ground_targets"
+      }
+    },
+    "akan_m47_air_targets": {
+      "reqModification": "akan_m47_belt_pack",
+      "group": "akan_m47",
+      "effects": {
+        "bulletMod": "akan_m47_air_targets"
+      }
+    },
     "mg_universal": {
       "reqModification": "mg_belt_pack",
       "group": "mg",
@@ -8440,6 +8546,20 @@
       "effects": {
         "additiveBulletMod": "170mm_uk_swingfire"
       }
+    },
+    "170mm_uk_swingfire_mk_2": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "reqModification": "170mm_uk_swingfire_mk_2_ammo_pack",
+      "group": "152mm_AP",
+      "effects": {
+        "additiveBulletMod": "170mm_uk_swingfire_mk_2"
+      }
+    },
+    "170mm_uk_swingfire_mk_2_ammo_pack": {
+      "image": "#ui/gameuiskin#tank_ammo",
+      "tier": 2,
+      "modClass": "firepower",
+      "deactivationIsAllowed": false
     },
     "127mm_us_tow": {
       "image": "#ui/gameuiskin#tank_ammo",
