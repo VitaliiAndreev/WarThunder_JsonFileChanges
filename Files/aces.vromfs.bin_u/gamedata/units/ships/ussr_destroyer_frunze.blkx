@@ -115,12 +115,6 @@
       {
         "replace_tex": {
           "from": "flag_ussr_01_c*",
-          "to": "flag_china_01_c_tomoe*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "flag_ussr_01_c*",
           "to": "flag_ussr_01_c_tomoe*"
         }
       },
@@ -169,6 +163,18 @@
       {
         "replace_tex": {
           "from": "flag_germany_02_c*",
+          "to": "flag_germany_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "flag_germany_03_c*",
+          "to": "flag_germany_01_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "flag_germany_04_c*",
           "to": "flag_germany_01_c_tomoe*"
         }
       },
@@ -3643,26 +3649,38 @@
           },
           {
             "fx": {
-              "name": "ship_engine_fire",
+              "name": "ship_fire_large",
               "emitter": "emtr_fire_engine_01"
             }
           },
           {
             "fx": {
-              "name": "ship_engine_fire",
+              "name": "ship_fire_large",
               "emitter": "emtr_fire_engine_02"
             }
           },
           {
             "fx": {
-              "name": "ship_engine_fire",
+              "name": "ship_fire_large",
               "emitter": "emtr_fire_engine_03"
             }
           },
           {
             "fx": {
-              "name": "ship_engine_fire",
+              "name": "ship_fire_large",
               "emitter": "emtr_fire_engine_04"
+            }
+          },
+          {
+            "fx": {
+              "name": "ship_fire_large",
+              "emitter": "emtr_fire_dmg_01"
+            }
+          },
+          {
+            "fx": {
+              "name": "ship_fire_large",
+              "emitter": "emtr_fire_dmg_02"
             }
           }
         ]
