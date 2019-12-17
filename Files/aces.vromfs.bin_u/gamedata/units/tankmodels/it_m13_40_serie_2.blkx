@@ -193,6 +193,27 @@
         },
         "turret_03_side_dm": {
           "armorThickness": 50.0
+        },
+        "ex_armor_body_r_01_dm": {
+          "armorThickness": 25.0
+        },
+        "ex_armor_body_l_01_dm": {
+          "armorThickness": 25.0
+        },
+        "ex_armor_body_r_02_dm": {
+          "armorThickness": 25.0
+        },
+        "ex_armor_body_l_02_dm": {
+          "armorThickness": 25.0
+        },
+        "ex_armor_body_r_03_dm": {
+          "armorThickness": 10.0
+        },
+        "ex_armor_body_l_03_dm": {
+          "armorThickness": 10.0
+        },
+        "ex_armor_body_04_dm": {
+          "armorThickness": 25.0
         }
       },
       "hull_CHA": {
@@ -2317,6 +2338,8 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
+      "sightFov": 25.0,
+      "sightName": "default_tank_spg",
       "headPos": [0.0,3.7,-6.5],
       "headPosOnShooting": [-0.4,2.9,0.16],
       "detectionHeight": 2.37

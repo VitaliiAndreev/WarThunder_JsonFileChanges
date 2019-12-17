@@ -1711,12 +1711,12 @@
   "sensors": [
     {
       "sensor": {
-        "blk": "gameData/sensors/us_an_apr_39.blk"
+        "blk": "gameData/sensors/tv_tracker.blk"
       }
     },
     {
       "sensor": {
-        "blk": "gameData/sensors/tv_tracker.blk"
+        "blk": "gameData/sensors/us_an_apr_39.blk"
       }
     }
   ],
@@ -2083,7 +2083,7 @@
     "new_heli_cover": [],
     "heli_flak_jacket": [],
     "heli_structure": [],
-    "heli_false_thermal_targets": {
+    "MAW_system_heli_false_thermal_targets": {
       "turn_it_off": false,
       "tier": 1,
       "invertEnableLogic": false,
@@ -2142,6 +2142,23 @@
               }
             }
           }
+        ],
+        "sensors": [
+          {
+            "sensor": {
+              "blk": "gameData/sensors/tv_tracker.blk"
+            }
+          },
+          {
+            "sensor": {
+              "blk": "gameData/sensors/us_an_apr_39.blk"
+            }
+          },
+          {
+            "sensor": {
+              "blk": "gameData/sensors/us_an_aar_60.blk"
+            }
+          }
         ]
       }
     },
@@ -2184,6 +2201,7 @@
       "tier": 4
     },
     "heli_night_vision_system": {
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {

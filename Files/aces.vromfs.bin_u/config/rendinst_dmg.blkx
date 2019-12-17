@@ -14288,6 +14288,380 @@
   },
   {
     "dmg": {
+      "name": "market_cart_a",
+      "destroyedModelName": "market_cart_a_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_cart_b",
+      "destroyedModelName": "market_cart_b_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_cart_c",
+      "destroyedModelName": "market_cart_c_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_cart_d",
+      "destroyedModelName": "market_cart_d_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_a",
+      "destroyedModelName": "market_stall_a_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_b",
+      "destroyedModelName": "market_stall_b_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_c",
+      "destroyedModelName": "market_stall_c_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_d",
+      "destroyedModelName": "market_stall_d_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_a",
+      "destroyedModelName": "market_stall_a_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_b",
+      "destroyedModelName": "market_stall_b_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_c",
+      "destroyedModelName": "market_stall_c_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stall_d",
+      "destroyedModelName": "market_stall_d_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 1.0,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_a",
+      "destroyedModelName": "market_stand_a_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_b",
+      "destroyedModelName": "market_stand_b_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_c",
+      "destroyedModelName": "market_stand_c_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_d",
+      "destroyedModelName": "market_stand_d_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_e",
+      "destroyedModelName": "market_stand_e_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_f",
+      "destroyedModelName": "market_stand_f_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_g",
+      "destroyedModelName": "market_stand_g_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_h",
+      "destroyedModelName": "market_stand_h_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_i",
+      "destroyedModelName": "market_stand_i_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_j",
+      "destroyedModelName": "market_stand_j_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_k",
+      "destroyedModelName": "market_stand_k_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_l",
+      "destroyedModelName": "market_stand_l_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_m",
+      "destroyedModelName": "market_stand_m_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_n",
+      "destroyedModelName": "market_stand_n_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_o",
+      "destroyedModelName": "market_stand_o_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_p",
+      "destroyedModelName": "market_stand_p_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_a_broken",
+      "destroyedModelName": "market_stand_a_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_b_broken",
+      "destroyedModelName": "market_stand_b_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_c_broken",
+      "destroyedModelName": "market_stand_c_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_d_broken",
+      "destroyedModelName": "market_stand_d_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_e_broken",
+      "destroyedModelName": "market_stand_e_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "market_stand_f_broken",
+      "destroyedModelName": "market_stand_f_broken_destr_phobj",
+      "destructionImpulse": 20000.0,
+      "fx": "ad_wood_big",
+      "fxScale": 0.5,
+      "stopsBullets": false,
+      "isParent": true
+    }
+  },
+  {
+    "dmg": {
       "name": "wood_fence_a",
       "destroyedModelName": "wood_fence_a_destr_phobj",
       "destructionImpulse": 1000.0,
@@ -22294,7 +22668,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_a",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_a_dmg",
       "fx": "building_expl"
     }
@@ -22302,7 +22676,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_b",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_b_dmg",
       "fx": "building_expl"
     }
@@ -22310,7 +22684,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_c",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_c_dmg",
       "fx": "building_expl"
     }
@@ -22318,7 +22692,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_d",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_d_dmg",
       "fx": "building_expl"
     }
@@ -22326,7 +22700,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_e",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_e_dmg",
       "fx": "building_expl"
     }
@@ -22334,7 +22708,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_f",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_f_dmg",
       "fx": "building_expl"
     }
@@ -22342,7 +22716,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_g",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_g_dmg",
       "fx": "building_expl"
     }
@@ -22350,7 +22724,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_a_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_a_dmg",
       "fx": "building_expl"
     }
@@ -22358,7 +22732,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_b_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_b_dmg",
       "fx": "building_expl"
     }
@@ -22366,7 +22740,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_c_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_c_dmg",
       "fx": "building_expl"
     }
@@ -22374,7 +22748,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_d_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_d_dmg",
       "fx": "building_expl"
     }
@@ -22382,7 +22756,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_e_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_e_dmg",
       "fx": "building_expl"
     }
@@ -22390,7 +22764,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_f_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_f_dmg",
       "fx": "building_expl"
     }
@@ -22398,7 +22772,7 @@
   {
     "dmg": {
       "name": "universal_airfield_barrack_g_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_barrack_g_dmg",
       "fx": "building_expl"
     }
@@ -22406,7 +22780,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_a",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_a_dmg",
       "fx": "building_expl"
     }
@@ -22414,7 +22788,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_b",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_b_dmg",
       "fx": "building_expl"
     }
@@ -22422,7 +22796,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_c",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_c_dmg",
       "fx": "building_expl"
     }
@@ -22430,7 +22804,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_d",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_d_dmg",
       "fx": "building_expl"
     }
@@ -22438,7 +22812,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_e",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_e_dmg",
       "fx": "building_expl"
     }
@@ -22446,7 +22820,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_f",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_f_dmg",
       "fx": "building_expl"
     }
@@ -22454,7 +22828,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_g",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_g_dmg",
       "fx": "building_expl"
     }
@@ -22462,7 +22836,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_a_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_a_dmg",
       "fx": "building_expl"
     }
@@ -22470,7 +22844,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_b_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_b_dmg",
       "fx": "building_expl"
     }
@@ -22478,7 +22852,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_c_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_c_dmg",
       "fx": "building_expl"
     }
@@ -22486,7 +22860,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_d_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_d_dmg",
       "fx": "building_expl"
     }
@@ -22494,7 +22868,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_e_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_e_dmg",
       "fx": "building_expl"
     }
@@ -22502,7 +22876,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_f_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_f_dmg",
       "fx": "building_expl"
     }
@@ -22510,7 +22884,7 @@
   {
     "dmg": {
       "name": "universal_airfield_hangar_g_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_hangar_g_dmg",
       "fx": "building_expl"
     }
@@ -22518,7 +22892,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_a",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_a_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22526,7 +22900,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_b",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_b_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22534,7 +22908,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_c",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_c_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22542,7 +22916,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_d",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_d_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22550,7 +22924,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_a_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_a_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22558,7 +22932,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_b_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_b_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22566,7 +22940,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_c_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_c_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22574,7 +22948,7 @@
   {
     "dmg": {
       "name": "universal_airfield_oil_storage_d_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_oil_storage_d_dmg",
       "fx": "ad_explosion_big"
     }
@@ -22582,7 +22956,7 @@
   {
     "dmg": {
       "name": "universal_airfield_shed_a",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_shed_a_dmg",
       "fx": "building_expl"
     }
@@ -22590,7 +22964,7 @@
   {
     "dmg": {
       "name": "universal_airfield_shed_a_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_shed_a_dmg",
       "fx": "building_expl"
     }
@@ -22598,7 +22972,7 @@
   {
     "dmg": {
       "name": "universal_airfield_shed_b",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_shed_b_dmg",
       "fx": "building_expl"
     }
@@ -22606,7 +22980,7 @@
   {
     "dmg": {
       "name": "universal_airfield_shed_b_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_shed_b_dmg",
       "fx": "building_expl"
     }
@@ -22614,7 +22988,7 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_a",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_a_dmg",
       "fx": "building_expl"
     }
@@ -22622,7 +22996,7 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_b",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_b_dmg",
       "fx": "building_expl"
     }
@@ -22630,7 +23004,7 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_c",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_c_dmg",
       "fx": "building_expl"
     }
@@ -22638,7 +23012,7 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_a_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_a_dmg",
       "fx": "building_expl"
     }
@@ -22646,7 +23020,7 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_b_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_b_dmg",
       "fx": "building_expl"
     }
@@ -22654,8 +23028,432 @@
   {
     "dmg": {
       "name": "universal_airfield_tower_c_snow",
-      "scaleDebris": true,
+      "scaleDebris": false,
       "debris": "universal_airfield_tower_c_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_airfield_maintenence_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_airfield_maintenence_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_barracks_1_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_barracks_1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_barracks_2_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_barracks_2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_big_hangar_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_big_hangar_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_caponeer_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_caponeer_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_dot_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_dot_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_hangar_1_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_hangar_1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_hangar_3_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_hangar_3_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_radar_towers_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_radar_towers_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_tent_1_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_tent_1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_tent_2_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_tent_2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_trailer_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_trailer_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_weapon_empl_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_weapon_empl_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_windvane_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_windvane_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_hangar_2_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_hangar_2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_control_tower_1_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_control_tower_1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_control_tower_2_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_control_tower_2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_tech_building_1_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_tech_building_1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_tech_building_2_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_tech_building_2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "britain_shed_rendinst",
+      "scaleDebris": false,
+      "debris": "britain_shed_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_big_barracks_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_big_barracks_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_big_caponeer_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_big_caponeer_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_big_hangar_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_big_hangar_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_command_center_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_command_center_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_small_barracks_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_small_barracks_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_small_caponeer_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_small_caponeer_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_control_tower1_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_control_tower1_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_control_tower2_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_control_tower2_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "berlin_small_hangar_rendinst",
+      "scaleDebris": false,
+      "debris": "berlin_small_hangar_rendinst_dmg",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_01",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_01",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_02",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_02",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_02b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_02b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_02c",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_02c",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_03",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_03",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_04",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_04",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_04b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_04b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_05",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_05",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_06",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_06",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_07",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_07",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_08",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_08",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_08b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_08b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_08c",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_08c",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_09",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_09",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_10",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_10",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_10b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_10b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_10c",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_10c",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_11",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_11",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_12",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_12",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_12b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_12b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_13",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_13",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_13b",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_13b",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_13c",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_13c",
+      "fx": "building_expl"
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_13d",
+      "scaleDebris": false,
+      "debris": "st_factory_building_snow_dmg_13d",
       "fx": "building_expl"
     }
   },
@@ -23120,6 +23918,1068 @@
   },
   {
     "dmg": {
+      "name": "alaska_town_bridge_module_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_module_a_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_module_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_module_b_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_module_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_module_c_crushed",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_bridge_wall_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_construction_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_bottom_a_part_c_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_middle_a_part_c_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_a_top_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_bottom_a_part_c_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_middle_a_part_c_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_b_top_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_construction_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_construction_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_fence_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_fence_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_top_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_c_top_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_d_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_d_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_d_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_d_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_d_top_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_e_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_e_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_e_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_e_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_e_top_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_f_bottom_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_f_bottom_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_f_middle_a_part_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_f_middle_a_part_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "alaska_town_building_f_top_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_gas_station",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_gas_station_pump_n",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_gas_station_shop_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_b_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_b_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_b_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_b_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_c_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_c_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_c_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_d_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_d_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_d_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_d_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_e_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_f_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_1_floor_f_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_b_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_b_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_b_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c_annex",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c_annex_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_2_floors_c_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_suburb_building_3_floors_a_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_a_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_b_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_b_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_c_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_c_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_d_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_d_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_e_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_e_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_f_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_f_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_g",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_g_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_1_floor_g_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_b_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_b_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_b_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_c_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_d_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_d_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_d_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_e_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_e_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_e_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_f_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_2_floors_f_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_3_floors_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_3_floors_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_town_building_3_floors_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_church_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_county_courthouse_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_county_courthouse_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_county_courthouse_a_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_county_courthouse_a_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_county_courthouse_a_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_garage_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_garage_a_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_mall_dp_06_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_06_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_motel_dp_07_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_statue_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_01_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_02_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_03_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_04_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_05_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_06_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_07_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "american_train_depot_dp_08_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "oceania_cliff_a",
       "immortal": true
     }
@@ -23432,6 +25292,150 @@
   },
   {
     "dmg": {
+      "name": "st_factory_building_snow_dmg_01",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_02",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_02b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_02c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_03",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_04",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_04b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_05",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_06",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_07",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_08",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_08b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_08c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_09",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_10",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_10b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_10c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_11",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_12",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_12b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_13",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_13b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_13c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "st_factory_building_snow_dmg_13d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "smolensk_cathedral",
       "immortal": true
     }
@@ -23646,6 +25650,36 @@
   {
     "dmg": {
       "name": "syrian_concrete_awning_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "sided_house_2_floor_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "sided_house_1_floor_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "baroque_town_build_3w_3f_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "baroque_town_build_2w_6f_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "baroque_town_build_corner_90deg_b",
       "immortal": true
     }
   },
@@ -23994,6 +26028,36 @@
   },
   {
     "dmg": {
+      "name": "brick_lighthouse_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "brick_lighthouse_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "brick_lighthouse_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "brick_lighthouse_g",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "brick_lighthouse_h",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "stone_bridge_europe_a",
       "immortal": true,
       "material": "beton"
@@ -24297,6 +26361,36 @@
   },
   {
     "dmg": {
+      "name": "nvrsk_debris_bricks_trash_large_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "nvrsk_debris_bricks_trash_large_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "nvrsk_debris_bricks_trash_medium",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "nvrsk_debris_bricks_trash_medium_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "nvrsk_debris_bricks_trash_small",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "soviet_village_barn_snow_a_a",
       "immortal": true,
       "material": "wood"
@@ -24422,6 +26516,12 @@
   },
   {
     "dmg": {
+      "name": "africa_village_house_annex_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "africa_village_house_b",
       "immortal": true
     }
@@ -24500,7 +26600,31 @@
   },
   {
     "dmg": {
+      "name": "desert_tent_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "desert_tent_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "desert_tent_c_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "desert_water_tower_a_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "desert_well_a",
       "immortal": true
     }
   },
@@ -24590,6 +26714,12 @@
   },
   {
     "dmg": {
+      "name": "american_9310_crane_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "factory_crane_b",
       "immortal": true,
       "material": "metal"
@@ -24647,6 +26777,13 @@
   {
     "dmg": {
       "name": "port_crane_c",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "canet_plant_gun_76mm_p12cw_base_dmg",
       "immortal": true,
       "material": "metal"
     }
@@ -25785,6 +27922,251 @@
   },
   {
     "dmg": {
+      "name": "bridge_modern_a_lamp",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_pillar",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_road",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_road_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_seams",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_small_road_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_small_road_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_small_road_b_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_terrain_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_terrain_a_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_terrain_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_terrain_b_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_crush",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_crush_left_road",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_crush_left_road_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_crush_right_road",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_crush_right_road_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_a_truss_rail",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_end_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_end_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_lamp_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_lamp_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_pillar_main_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_pillar_main_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_road_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_road_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_support_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_support_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_support_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_support_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_support_e",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_b_vants",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_pillar_crash_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "bridge_modern_pillar_crash_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
       "name": "normandy_bunker_a",
       "immortal": true
     }
@@ -26535,6 +28917,354 @@
   {
     "dmg": {
       "name": "concrete_pier_stair_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_center",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_center_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_corner",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_corner_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_a_end_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_b_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_b_middle",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "concrete_pier_b_start",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "floating_pier_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "metal_pier_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "oil_well_pierse_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "oil_well_pierse_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "pier_detail_beting_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "pier_detail_beting_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "pier_detail_beting_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "pier_detail_ring_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "pier_marine_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_bumper_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_bumper_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_bumper_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_bumper_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_overpass_end_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_overpass_middle_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_overpass_start_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_binding",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_binding_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_center",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_center_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_end_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_front",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_b_front_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_c_center",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_c_end",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_d_corner",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_debris_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_debris_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_e_corner",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_f_corner",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_g",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_h",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_h_corner",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_i",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_stair_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_pier_stair_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_railing_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_railing_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "wood_railing_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "breakwater_phoenix_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "spud_pontoon",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "spud_pontoon_bridge",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "spud_pontoon_float",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "spud_pontoon_ladder_platform",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "spud_pontoon_ramp",
       "immortal": true
     }
   },
@@ -28462,6 +31192,48 @@
   },
   {
     "dmg": {
+      "name": "volcanic_cliff_flat_h",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_i",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_j",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_k",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_l",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_m",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "volcanic_cliff_flat_n",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
       "name": "volcanic_lava_a",
       "immortal": true
     }
@@ -29255,6 +32027,188 @@
   },
   {
     "dmg": {
+      "name": "fulda_barn_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_barn_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_barrack_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_barrack_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_barrack_c_garage",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_barrack_c_wall",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_house_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_house_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_tower_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_tower_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_tower_e",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_windmill_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_building_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_building_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_building_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_building_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_gate_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_main_base",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_stairs_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_tower_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_tower_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_tower_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_tower_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_wall_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_wall_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "fulda_castle_wall_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
       "name": "norway_stone_fortress_armory_b",
       "immortal": true
     }
@@ -29329,6 +32283,622 @@
     "dmg": {
       "name": "norway_stone_fortress_stronghold_tower_c",
       "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_base_part",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_bastion_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_bastion_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_bastion_b_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_bastion_b_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_bastion_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_floor",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_inside_entrance",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_inside_yard",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_long_wall",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_stucco_houses",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_tower_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_tower_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "medieval_castle_a_tower_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "canet_plant_gun_152mm_45_base",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "canet_plant_gun_152mm_45_gun",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "canet_plant_gun_152mm_45_lafet",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "obukhov_gun_280mm_m1877_barrel",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "obukhov_gun_280mm_m1877_fort",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "obukhov_gun_280mm_m1877_turret",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_bow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_bow_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_mid",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_mid_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_stern",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "cargo_ship_liberty_dmg_rendinst_stern_snow",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_a",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_b",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_c",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_d",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_e",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_f",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_g",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "conex_box_group_h",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "metal_fence_b_dmg",
+      "immortal": true
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_1_floors_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_1_floors_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_2_floors_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_2_floors_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_control_tower",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_factory",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_hangar_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_hangar_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_hangar_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_loading_terminal_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_loading_terminal_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_office",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_parking_construction_part_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_parking_construction_part_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_parking_construction_part_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_passage",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_railroad_freight_terminal",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_a_part_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_a_part_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_a_part_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_e",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_f",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_g",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_h",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_service_i",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_straddle_carriers_office",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_straddle_carriers_service_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_straddle_carriers_service_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_straddle_carriers_techcenter",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_truck_checkpoint",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_warehouse_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_warehouse_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_concrete_bridge_circleramp_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_concrete_bridge_column_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_concrete_bridge_rampstraight_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_concrete_bridge_straight_module_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_crane_e",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_crane_e_stairs_01_dmg",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_crane_e_stairs_02_dmg",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_crane_f",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_crane_f_stairs_dmg",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "factory_crane_e",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_a",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_b",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_c",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_d",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_e",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_f",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_building_skyscraper_g",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_cable_stayed_bridge_central",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_cable_stayed_bridge_ramp",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "port_cable_stayed_bridge_straight",
+      "immortal": true,
+      "material": "beton"
+    }
+  },
+  {
+    "dmg": {
+      "name": "factory_chimney_a",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "oil_tank_d",
+      "immortal": true,
+      "material": "metal"
+    }
+  },
+  {
+    "dmg": {
+      "name": "oil_tank_e",
+      "immortal": true,
+      "material": "metal"
     }
   },
   {
@@ -37713,6 +41283,33 @@
         "fxScale": 2.0,
         "material": "metal"
       },
+      "canet_plant_gun_76mm_p12cw_base": {
+        "nextRes": "canet_plant_gun_76mm_p12cw_base_dmg",
+        "hp": 80.0,
+        "impulseThreshold": 3.0,
+        "fx": "ad_metal",
+        "fxScale": 2.0,
+        "material": "metal",
+        "isParent": true
+      },
+      "canet_plant_gun_76mm_p12cw_gun": {
+        "physRes": "canet_plant_gun_76mm_p12cw_gun_destr_phobj",
+        "hp": 80.0,
+        "impulseThreshold": 3.0,
+        "fx": "ad_metal",
+        "fxScale": 2.0,
+        "material": "metal",
+        "isParent": false
+      },
+      "canet_plant_gun_76mm_p12cw_armor": {
+        "physRes": "canet_plant_gun_76mm_p12cw_armor_destr_phobj",
+        "hp": 80.0,
+        "impulseThreshold": 3.0,
+        "fx": "ad_metal",
+        "fxScale": 2.0,
+        "material": "metal",
+        "isParent": false
+      },
       "mercedess_oil_truck": {
         "nextRes": "mercedess_oil_truck_dmg",
         "physRes": "mercedess_oil_truck_destr_phobj",
@@ -38892,6 +42489,44 @@
         "fx": "ad_sand",
         "fxScale": 1.0
       },
+      "barrels_rendinst": {
+        "physRes": "barrels_rendinst_destr_phobj",
+        "hp": 4.0,
+        "fx": "ad_explosion_big",
+        "fxScale": 0.5
+      },
+      "boxes_rendinst": {
+        "physRes": "boxes_rendinst_destr_phobj",
+        "hp": 4.0,
+        "fx": "ad_wood_small",
+        "fxScale": 1.0
+      },
+      "britain_observ_post_1_rendinst": {
+        "physRes": "britain_observ_post_1_rendinst_destr_phobj",
+        "hp": 10.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6
+      },
+      "britain_observ_post_2_rendinst": {
+        "physRes": "britain_observ_post_2_rendinst_destr_phobj",
+        "hp": 10.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6
+      },
+      "britain_army_tent_rendinst": {
+        "nextRes": "britain_army_tent_rendinst_dmg",
+        "physRes": "britain_army_tent_rendinst_destr_phobj",
+        "hp": 10.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6
+      },
+      "britain_big_army_tent_rendinst": {
+        "nextRes": "britain_big_army_tent_rendinst_dmg",
+        "physRes": "britain_big_army_tent_rendinst_destr_phobj",
+        "hp": 10.0,
+        "fx": "ad_sand",
+        "fxScale": 0.6
+      },
       "american_traffic_light_b": {
         "nextRes": "american_traffic_light_b_dmg",
         "physRes": "american_traffic_light_b_destr_phobj",
@@ -39212,6 +42847,14 @@
       "road_barrier_e": {
         "physRes": "road_barrier_e_destr_phobj",
         "hp": 4.0,
+        "isParent": false,
+        "impulseThreshold": 1.0,
+        "fx": "ad_metal",
+        "fxScale": 1.0
+      },
+      "european_bus_stop_a": {
+        "physRes": "european_bus_stop_a_destr_phobj",
+        "hp": 100.0,
         "isParent": false,
         "impulseThreshold": 1.0,
         "fx": "ad_metal",

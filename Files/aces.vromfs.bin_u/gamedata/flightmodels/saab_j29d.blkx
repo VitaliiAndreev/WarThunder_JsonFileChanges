@@ -184,6 +184,12 @@
       },
       "tank2_dm": {
         "hp": 81.0
+      },
+      "tank3_dm": {
+        "hp": 51.2
+      },
+      "tank4_dm": {
+        "hp": 51.2
       }
     }
   },
@@ -1053,12 +1059,20 @@
     },
     {
       "part": {
-        "name": "spar_l_dm"
+        "name": "spar_l_dm",
+        "onKill": {
+          "nothing": 0.0,
+          "cut": 1.0
+        }
       }
     },
     {
       "part": {
-        "name": "spar_r_dm"
+        "name": "spar_r_dm",
+        "onKill": {
+          "nothing": 0.0,
+          "cut": 1.0
+        }
       }
     },
     {
@@ -1195,6 +1209,114 @@
       "part": [
         {
           "name": "tank2_dm"
+        },
+        {
+          "onHit": {
+            "fire": 0.0001,
+            "leak": 0.3
+          }
+        },
+        {
+          "onHit": {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          }
+        },
+        {
+          "onHit": {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          }
+        },
+        {
+          "onHit": {
+            "damage": 70.0,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        },
+        {
+          "onKill": {
+            "fire": 0.01,
+            "leak": 9.99
+          }
+        },
+        {
+          "onKill": {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          }
+        },
+        {
+          "onKill": {
+            "damage": 70.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "part": [
+        {
+          "name": "tank3_dm"
+        },
+        {
+          "onHit": {
+            "fire": 0.0001,
+            "leak": 0.3
+          }
+        },
+        {
+          "onHit": {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          }
+        },
+        {
+          "onHit": {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          }
+        },
+        {
+          "onHit": {
+            "damage": 70.0,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        },
+        {
+          "onKill": {
+            "fire": 0.01,
+            "leak": 9.99
+          }
+        },
+        {
+          "onKill": {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          }
+        },
+        {
+          "onKill": {
+            "damage": 70.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "part": [
+        {
+          "name": "tank4_dm"
         },
         {
           "onHit": {
@@ -1940,11 +2062,6 @@
       }
     }
   ],
-  "spawn_count": {
-    "numSpawnsPerBattleSimulation": 2,
-    "numSpawnsPerBattleArcade": 3,
-    "numSpawnsPerBattleHistorical": 1
-  },
   "wiki": {
     "general": {
       "length": 9.75,
@@ -2057,9 +2174,18 @@
     "headPosOnShooting": [1.8,1.08,-0.027],
     "shadowSphereMultiplier": 2.0,
     "gunLightRadiusMul": 0.05,
-    "lightPos": [1.8294,0.56559,-0.307665],
-    "lightColor": [0.62,0.3,0.21],
-    "lightAttenuation": 10.0,
+    "lightPos": [2.288836,0.865732,0.2404],
+    "lightColor": [0.0,0.1,0.61],
+    "lightRadius": 0.1,
+    "lightPos1": [2.212596,0.682815,-0.215511],
+    "lightColor1": [0.0,0.1,0.61],
+    "lightRadius1": 0.3,
+    "lightPos2": [2.276349,0.742651,0.106868],
+    "lightColor2": [0.0,0.1,0.61],
+    "lightRadius2": 0.3,
+    "lightPos3": [2.341945,0.790714,0.049059],
+    "lightColor3": [0.05,1.0,0.0],
+    "lightRadius3": 0.05,
     "mirror": true,
     "mirrorPos": [2.108,1.272,0.0],
     "mirrorNorm": [-0.978,-0.216,0.0],
@@ -2330,8 +2456,9 @@
     "hp_105_jet": {
       "tier": 4
     },
-    "new_compressor_jet": {
-      "tier": 1
+    "new_compressor_jet": [],
+    "g_suit": {
+      "prevModification": "cd_98"
     },
     "aden_air_targets": [],
     "aden_ground_targets": [],
@@ -2403,14 +2530,14 @@
     }
   ],
   "cutting": {
-    "_emtr_break_wing0_l_from": [0.0887592,0.521063,1.12942],
-    "_emtr_break_wing0_l_to": [0.0887592,0.521063,1.60052],
+    "emtr_break_wing0_l_from": [0.0887592,0.521063,1.12942],
+    "emtr_break_wing0_l_to": [0.0887592,0.521063,1.60052],
     "emtr_break_wing1_l_from": [0.0887592,0.521063,2.30717],
     "emtr_break_wing1_l_to": [0.0887592,0.521063,2.94593],
     "emtr_break_wing2_l_from": [0.0887592,0.521063,3.90408],
     "emtr_break_wing2_l_to": [0.0887592,0.521063,4.54284],
-    "_emtr_break_wing0_r_from": [0.0887592,0.521063,-1.12942],
-    "_emtr_break_wing0_r_to": [0.0887592,0.521063,-1.60052],
+    "emtr_break_wing0_r_from": [0.0887592,0.521063,-1.12942],
+    "emtr_break_wing0_r_to": [0.0887592,0.521063,-1.60052],
     "emtr_break_wing1_r_from": [0.0887592,0.521063,-2.30717],
     "emtr_break_wing1_r_to": [0.0887592,0.521063,-2.94593],
     "emtr_break_wing2_r_from": [0.0887592,0.521063,-3.90408],

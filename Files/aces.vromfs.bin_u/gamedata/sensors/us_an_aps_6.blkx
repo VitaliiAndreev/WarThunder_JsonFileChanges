@@ -287,9 +287,20 @@
             }
           ]
         },
-        "finishedTrack": {
+        "brokenTrack": {
           "stateFrom": "track",
           "event": "activeTargetOfInterestInertialTimeOut",
+          "stateTo": "lock",
+          "actions": {
+            "setFsmActive": {
+              "fsm": "track",
+              "active": false
+            },
+            "setLockMode": []
+          }
+        },
+        "finishedTrack": {
+          "stateFrom": "track",
           "command": "selectTarget",
           "stateTo": "standbyOrSearch",
           "actions": [

@@ -19,7 +19,8 @@
       "flushOnPresent": false,
       "useGpuDt": false,
       "flipPresent": false,
-      "no_more_d3d9ex_reset_error": false
+      "no_more_d3d9ex_reset_error": false,
+      "enableHdr": false
     },
     "openGL": {
       "immVbSize": 0,
@@ -84,7 +85,8 @@
       "contactShadowsQuality": 0,
       "displacementQuality": 0,
       "foliageReprojection": false,
-      "waterQuality": "low"
+      "waterQuality": "low",
+      "giQuality": "low"
     },
     "sound": {
       "speakerMode": "",

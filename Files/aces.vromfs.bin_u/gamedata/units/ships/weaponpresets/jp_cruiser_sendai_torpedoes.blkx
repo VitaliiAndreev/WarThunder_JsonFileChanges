@@ -93,7 +93,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/torpedoes/jp_533mm_type6_torpedo.blk"
+        "blk": "gameData/Weapons/torpedoes/jp_610mm_type93_model_1_mod2_torpedo.blk"
       },
       {
         "emitter": "bone_torpedo_01"
@@ -149,7 +149,8 @@
       {
         "turret": {
           "head": "tt_head_01",
-          "gun": "tt_01"
+          "gun": "tt_01",
+          "gunnerDm": "tt_01_dm"
         }
       },
       {
@@ -178,7 +179,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/torpedoes/jp_533mm_type6_torpedo.blk"
+        "blk": "gameData/Weapons/torpedoes/jp_610mm_type93_model_1_mod2_torpedo.blk"
       },
       {
         "emitter": "bone_torpedo_03"
@@ -234,7 +235,8 @@
       {
         "turret": {
           "head": "tt_head_02",
-          "gun": "tt_02"
+          "gun": "tt_02",
+          "gunnerDm": "tt_02_dm"
         }
       },
       {
@@ -263,7 +265,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/torpedoes/jp_533mm_type6_torpedo.blk"
+        "blk": "gameData/Weapons/torpedoes/jp_610mm_type93_model_1_mod2_torpedo.blk"
       },
       {
         "emitter": "bone_torpedo_05"
@@ -319,7 +321,8 @@
       {
         "turret": {
           "head": "tt_head_03",
-          "gun": "tt_03"
+          "gun": "tt_03",
+          "gunnerDm": "tt_03_dm"
         }
       },
       {
@@ -348,7 +351,7 @@
         "external": true
       },
       {
-        "blk": "gameData/Weapons/torpedoes/jp_533mm_type6_torpedo.blk"
+        "blk": "gameData/Weapons/torpedoes/jp_610mm_type93_model_1_mod2_torpedo.blk"
       },
       {
         "emitter": "bone_torpedo_07"
@@ -404,7 +407,8 @@
       {
         "turret": {
           "head": "tt_head_04",
-          "gun": "tt_04"
+          "gun": "tt_04",
+          "gunnerDm": "tt_04_dm"
         }
       },
       {

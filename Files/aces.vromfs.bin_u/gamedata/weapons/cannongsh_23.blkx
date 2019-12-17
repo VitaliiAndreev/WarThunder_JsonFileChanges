@@ -42,10 +42,13 @@
     "bullets": 500
   },
   {
-    "bulletsCluster": 1
+    "bulletsCluster": 2
   },
   {
     "preset_cost": 150
+  },
+  {
+    "mass": 155.0
   },
   {
     "bullet": {

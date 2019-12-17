@@ -2192,7 +2192,7 @@
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunAkan_m40.blk",
+        "blk": "gameData/Weapons/gunBredaSAFAT127.blk",
         "emitter": "flare1",
         "flash": "flare1",
         "dm": "mgun1_dm",
@@ -2203,7 +2203,7 @@
     {
       "Weapon": {
         "trigger": "machine gun",
-        "blk": "gameData/Weapons/gunAkan_m40.blk",
+        "blk": "gameData/Weapons/gunBredaSAFAT127.blk",
         "emitter": "flare2",
         "flash": "flare2",
         "dm": "mgun2_dm",
@@ -2226,23 +2226,6 @@
     "maxPower": 6.0,
     "maxSegments": 50
   },
-  "skin": [
-    {
-      "name": "belguim"
-    },
-    {
-      "replace_tex": {
-        "from": "fiat_cr42_a*",
-        "to": "fiat_cr42_euro_a*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "fiat_cr42_a_dmg*",
-        "to": "fiat_cr42_euro_a_dmg*"
-      }
-    }
-  ],
   "turbulence": {
     "segmentlength": 100.0,
     "startSpeed": 28.0,

@@ -273,6 +273,16 @@
     }
   },
   {
+    "rsa_camo_modern_three_color": [
+      {
+        "camoType": "desert"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
+  },
+  {
     "uk_chieftain_marksman/uk_city_square_camo": [
       {
         "camoType": "winter"
@@ -1468,6 +1478,46 @@
   {
     "sand_green_black": {
       "camoType": "desert"
+    }
+  },
+  {
+    "rsa_camo_modern_three_color": [
+      {
+        "camoType": "desert"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
+  },
+  {
+    "se_camo_desert_three_color": [
+      {
+        "camoType": "desert"
+      },
+      {
+        "camoType": "forest"
+      }
+    ]
+  },
+  {
+    "se_camo_three_color_lines": {
+      "camoType": "forest"
+    }
+  },
+  {
+    "se_camo_four_color": {
+      "camoType": "forest"
+    }
+  },
+  {
+    "se_camo_modern_deform": {
+      "camoType": "forest"
+    }
+  },
+  {
+    "sw_camo_winter_green_white": {
+      "camoType": "winter"
     }
   },
   {

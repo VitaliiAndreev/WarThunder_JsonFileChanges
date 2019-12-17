@@ -36,10 +36,10 @@
       "damageCaliber": 0.044
     },
     {
-      "ballisticCaliber": 0.044
+      "ballisticCaliber": 0.1
     },
     {
-      "Cx": 0.3
+      "Cx": 0.1
     },
     {
       "speed": 1800.0
@@ -638,7 +638,7 @@
     "bullet": {
       "mass": 4.83,
       "caliber": 0.125,
-      "damageCaliber": 0.043,
+      "damageCaliber": 0.036,
       "ballisticCaliber": 0.1,
       "Cx": 0.01,
       "speed": 1760.0,

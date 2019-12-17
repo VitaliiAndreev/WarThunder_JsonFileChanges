@@ -1576,6 +1576,8 @@
     "cockpit": {
       "zoomOutFov": 40.0,
       "zoomInFov": 21.0,
+      "sightFov": 25.0,
+      "sightName": "default_tank_spg",
       "headPos": [0.0,4.0,-8.0],
       "headPosOnShooting": [-0.2,3.1,0.0],
       "detectionHeight": 2.5
@@ -1759,7 +1761,27 @@
         },
         "turret_03_front_dm": {
           "armorThickness": 20.0
+        },
+        "ex_decor_04_dm": {
+          "armorThickness": 5.0,
+          "armorClass": "tank_structural_steel"
         }
+      },
+      "body_shields": {
+        "armorClass": "tank_structural_steel",
+        "hp": 1000.0,
+        "armorThickness": 4.0,
+        "stopChanceOnDeadPart": 0.0,
+        "createSecondaryShatters": false,
+        "ex_decor_r_01_dm": [],
+        "ex_decor_l_01_dm": [],
+        "ex_decor_l_02_dm": [],
+        "ex_decor_r_03_dm": [],
+        "ex_decor_l_04_dm": [],
+        "ex_decor_l_07_dm": [],
+        "ex_decor_r_08_dm": [],
+        "ex_decor_r_12_dm": [],
+        "ex_decor_l_12_dm": []
       },
       "turret": {
         "turret_top_dm": {
@@ -1858,7 +1880,7 @@
         "ex_armor_body_02_dm": [],
         "ex_armor_body_03_dm": [],
         "ex_armor_body_04_dm": [],
-        "ex_decor_04_dm": []
+        "wheel_support_dm": []
       },
       "gun": {
         "armorClass": "tank_barrel",
@@ -2220,6 +2242,19 @@
         "fuel_tank_l_04_dm": [],
         "fuel_tank_l_05_dm": []
       }
+    }
+  },
+  {
+    "attachables": {
+      "ex_decor_r_01_dm": true,
+      "ex_decor_l_01_dm": true,
+      "ex_decor_r_12_dm": true,
+      "ex_decor_l_12_dm": true,
+      "ex_decor_r_03_dm": true,
+      "ex_decor_l_04_dm": true,
+      "ex_decor_l_02_dm": true,
+      "ex_decor_l_07_dm": true,
+      "ex_decor_r_08_dm": true
     }
   },
   {

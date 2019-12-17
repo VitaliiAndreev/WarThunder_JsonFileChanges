@@ -1,25 +1,63 @@
 {
   "type": "radar",
   "transivers": {
-    "common": {
+    "search": {
       "sideLobesAttenuation": -20.0,
-      "power": 70.0,
-      "band": 0,
-      "rcs": 1.0,
+      "power": 250.0,
+      "band": 8,
+      "rcs": 3.0,
       "range": 12000.0,
       "rangeMax": 20000.0,
-      "backScatteringBandNum": 0,
       "antenna": {
         "azimuth": {
           "angleHalfSens": 4.8,
-          "sideLobesSensitivity": -30.0
+          "sideLobesSensitivity": -26.0
         },
         "elevation": {
-          "angleHalfSens": 9.0,
-          "sideLobesSensitivity": -30.0
+          "angleHalfSens": 10.5,
+          "sideLobesSensitivity": -26.0
         }
       }
+    },
+    "track": {
+      "sideLobesAttenuation": -20.0,
+      "power": 250.0,
+      "band": 8,
+      "rcs": 3.0,
+      "range": 10000.0,
+      "rangeMax": 20000.0,
+      "antenna": {
+        "angleHalfSens": 4.8,
+        "sideLobesSensitivity": -26.0
+      }
     }
+  },
+  "signals": {
+    "search": {
+      "groundClutter": true,
+      "friendFoeId": false,
+      "distance": {
+        "presents": true,
+        "minValue": 300.0,
+        "maxValue": 20000.0,
+        "width": 500.0
+      }
+    },
+    "track": {
+      "groundClutter": true,
+      "angularAccuracy": 0.07,
+      "distanceAccuracy": 25.0,
+      "distance": {
+        "presents": true,
+        "minValue": 75.0,
+        "maxValue": 20000.0,
+        "signalWidthMin": 150.0,
+        "width": 100.0
+      }
+    }
+  },
+  "scopeRanges": {
+    "range1": 20000.0
   },
   "scanPatterns": {
     "search3Bars": {
@@ -60,37 +98,6 @@
       "elevationLimits": [-17.0,17.0]
     }
   },
-  "signals": {
-    "search": {
-      "groundClutter": true,
-      "aircraftAsTarget": true,
-      "groundVehiclesAsTarget": true,
-      "friendFoeId": false,
-      "distance": {
-        "presents": true,
-        "minValue": 300.0,
-        "maxValue": 20000.0,
-        "width": 500.0
-      }
-    },
-    "track": {
-      "groundClutter": true,
-      "aircraftAsTarget": true,
-      "groundVehiclesAsTarget": true,
-      "angularAccuracy": 0.07,
-      "distanceAccuracy": 25.0,
-      "distance": {
-        "presents": true,
-        "minValue": 75.0,
-        "maxValue": 20000.0,
-        "signalWidthMin": 150.0,
-        "width": 100.0
-      }
-    }
-  },
-  "scopeRanges": {
-    "range1": 20000.0
-  },
   "fsms": {
     "main": {
       "stateInit": "init",
@@ -109,7 +116,7 @@
           },
           "setTargetDesignationRange": {
             "azimuthRange": [-5.0,5.0],
-            "distanceRange": [0.0,10000.0]
+            "distanceRange": [0.0,12000.0]
           }
         },
         "setLockMode": [
@@ -141,7 +148,7 @@
           },
           {
             "setTransiver": {
-              "transiver": "common"
+              "transiver": "track"
             }
           },
           {
@@ -233,7 +240,7 @@
           },
           {
             "setTransiver": {
-              "transiver": "common"
+              "transiver": "track"
             }
           },
           {
@@ -315,9 +322,20 @@
             }
           ]
         },
-        "finishedTrack": {
+        "brokenTrack": {
           "stateFrom": "track",
           "event": "activeTargetOfInterestInertialTimeOut",
+          "stateTo": "lock",
+          "actions": {
+            "setFsmActive": {
+              "fsm": "track",
+              "active": false
+            },
+            "setLockMode": []
+          }
+        },
+        "finishedTrack": {
+          "stateFrom": "track",
           "command": "selectTarget",
           "stateTo": "standbyOrSearch",
           "actions": [
@@ -425,7 +443,7 @@
           },
           {
             "setTransiver": {
-              "transiver": "common"
+              "transiver": "search"
             }
           },
           {
@@ -599,7 +617,7 @@
           },
           "setCenterElevation": {
             "source": "constant",
-            "value": 2.5
+            "value": 3.0
           }
         },
         "setSearch3Bars": {
@@ -617,7 +635,7 @@
           },
           "setCenterElevation": {
             "source": "constant",
-            "value": 5.0
+            "value": 5.5
           }
         }
       },

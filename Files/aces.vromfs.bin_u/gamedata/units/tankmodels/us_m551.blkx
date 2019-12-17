@@ -649,6 +649,15 @@
     }
   },
   {
+    "attachables": {
+      "ex_armor_02_dm": true,
+      "ex_decor_05_dm": true,
+      "collision_add_dm": true,
+      "fuel_tank_r_01_dm": true,
+      "fuel_tank_l_01_dm": true
+    }
+  },
+  {
     "sound": {
       "EngineName": "engine_chaffee_m24",
       "TrackSoundPath": "tanks/engines_tanks",
