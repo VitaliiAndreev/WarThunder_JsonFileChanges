@@ -1,6 +1,8 @@
-//"@override:xboxOneX"{
-//	"@override:video"{
-//	  "@delete:resolution":t=""
-//	  resolution:t="auto"
-//	}
-//}
+"@override:xboxOneX"{
+	"@override:directx"{
+	  "@delete:enableHdr":b=yes
+	  enableHdr:b=no
+	}
+}
+
+hangarBlk:t="config/hangar_military_base_nofx_ny.blk"
