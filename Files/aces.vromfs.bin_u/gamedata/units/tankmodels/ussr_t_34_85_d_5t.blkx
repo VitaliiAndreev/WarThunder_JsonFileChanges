@@ -2577,14 +2577,5 @@
         }
       }
     }
-  },
-  {
-    "skin": {
-      "name": "tl_camo_desert_chopped",
-      "replace_tex": {
-        "from": "ussr_camo_green*",
-        "to": "tl_camo_desert_chopped.tga"
-      }
-    }
   }
 ]

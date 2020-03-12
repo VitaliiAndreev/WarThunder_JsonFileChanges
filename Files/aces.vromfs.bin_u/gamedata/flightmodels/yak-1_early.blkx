@@ -2395,25 +2395,6 @@
     ]
   },
   {
-    "skin": [
-      {
-        "name": "green_black"
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1_early_green_a*",
-          "to": "yak_1_early_green_black_a*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1_early_green_a_dmg*",
-          "to": "yak_1_early_green_black_a_dmg*"
-        }
-      }
-    ]
-  },
-  {
     "cut_parts": {
       "wing_l": [
         {
