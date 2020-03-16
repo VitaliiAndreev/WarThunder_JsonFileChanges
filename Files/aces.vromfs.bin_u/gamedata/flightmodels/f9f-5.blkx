@@ -2432,7 +2432,7 @@
     "radiusSpeed": 2.0
   },
   "fireParams": {
-    "engineExtinguishFireSpeed": [221.0,306.0],
+    "engineExtinguishFireSpeed": [244.0,288.0],
     "engineExtinguishFireSpeedChance": [0.01,0.1],
     "fireDamagePowerRel": 0.05,
     "nonExtinguishFireTime": 5.0
@@ -2490,7 +2490,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2692,7 +2698,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2882,7 +2894,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3072,7 +3090,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3271,7 +3295,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3461,7 +3491,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3651,7 +3687,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3838,7 +3880,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4028,7 +4076,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4218,7 +4272,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4408,7 +4468,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4598,7 +4664,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"

@@ -2601,22 +2601,6 @@
     ]
   },
   {
-    "default_skin_tomoe": [
-      {
-        "replace_tex": {
-          "from": "sm_79_1937_Sicily_1939_c*",
-          "to": "sm_79_1937_Sicily_1939_c_tomoe*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "sm_79_1937_Sicily_1939_c_dmg*",
-          "to": "sm_79_1937_Sicily_1939_c_tomoe_dmg*"
-        }
-      }
-    ]
-  },
-  {
     "commonWeapons": [
       {
         "Weapon": {
@@ -2770,6 +2754,22 @@
         "reqModification": "it250_mod"
       }
     }
+  },
+  {
+    "default_skin_tomoe": [
+      {
+        "replace_tex": {
+          "from": "sm_79_1937_Sicily_1939_c*",
+          "to": "sm_79_1937_Sicily_1939_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "sm_79_1937_Sicily_1939_c_dmg*",
+          "to": "sm_79_1937_Sicily_1939_c_tomoe_dmg*"
+        }
+      }
+    ]
   },
   {
     "user_skin": [

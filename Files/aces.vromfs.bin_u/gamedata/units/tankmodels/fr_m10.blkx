@@ -1535,6 +1535,66 @@
             "name": "ammo_turret_55_dm"
           },
           {
+            "name": "ammo_turret_56_dm"
+          },
+          {
+            "name": "ammo_turret_57_dm"
+          },
+          {
+            "name": "ammo_turret_58_dm"
+          },
+          {
+            "name": "ammo_turret_59_dm"
+          },
+          {
+            "name": "ammo_turret_60_dm"
+          },
+          {
+            "name": "ammo_turret_61_dm"
+          },
+          {
+            "name": "ammo_turret_62_dm"
+          },
+          {
+            "name": "ammo_turret_63_dm"
+          },
+          {
+            "name": "ammo_turret_64_dm"
+          },
+          {
+            "name": "ammo_turret_65_dm"
+          },
+          {
+            "name": "ammo_turret_66_dm"
+          },
+          {
+            "name": "ammo_turret_67_dm"
+          },
+          {
+            "name": "ammo_turret_68_dm"
+          },
+          {
+            "name": "ammo_turret_69_dm"
+          },
+          {
+            "name": "ammo_turret_70_dm"
+          },
+          {
+            "name": "ammo_turret_71_dm"
+          },
+          {
+            "name": "ammo_turret_72_dm"
+          },
+          {
+            "name": "ammo_turret_73_dm"
+          },
+          {
+            "name": "ammo_turret_74_dm"
+          },
+          {
+            "name": "ammo_turret_75_dm"
+          },
+          {
             "onHit": {
               "damageType": "cumulative",
               "expl": 0.4,
@@ -2068,6 +2128,13 @@
     }
   },
   {
+    "gunConvergence": {
+      "distance": 800.0,
+      "vertical": true,
+      "horizontal": true
+    }
+  },
+  {
     "class_tags": []
   },
   {
@@ -2532,24 +2599,6 @@
               "name": "tank_engine_fire",
               "emitter": "emtr_fire_engine_02"
             }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_01"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_02"
-            }
           }
         ]
       },
@@ -2561,67 +2610,78 @@
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo"
+              "emitter": "emtr_fire_ammo",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_01"
+              "emitter": "emtr_fire_ammo_01",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_02"
+              "emitter": "emtr_fire_ammo_02",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_03"
+              "emitter": "emtr_fire_ammo_03",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_04"
+              "emitter": "emtr_fire_ammo_04",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_05"
+              "emitter": "emtr_fire_ammo_05",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_06"
+              "emitter": "emtr_fire_ammo_06",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_07"
+              "emitter": "emtr_fire_ammo_07",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_08"
+              "emitter": "emtr_fire_ammo_08",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_09"
+              "emitter": "emtr_fire_ammo_09",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_10"
+              "emitter": "emtr_fire_ammo_10",
+              "useVelocity": false
             }
           }
         ]
@@ -2767,7 +2827,7 @@
           },
           {
             "fx": {
-              "name": "tank_smoke_big",
+              "name": "tank_smoke_small",
               "emitter": "emtr_smoke_dmg"
             }
           },
@@ -3088,21 +3148,12 @@
     }
   },
   {
-    "user_skin": {
-      "name": "fr_m10",
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "fr_camo_vert_olive_arme*"
-      }
-    }
-  },
-  {
     "skin": {
       "name": "fr_camo_desert_storm",
       "nameLocId": "skin/fr_camo_desert_storm",
       "descLocId": "skin/fr_camo_desert_storm/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_desert_storm*"
       }
     }
@@ -3113,7 +3164,7 @@
       "nameLocId": "skin/fr_camo_green_brown",
       "descLocId": "skin/fr_camo_green_brown/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_green_brown*"
       }
     }
@@ -3124,7 +3175,7 @@
       "nameLocId": "skin/fr_camo_green_sand_brown",
       "descLocId": "skin/fr_camo_green_sand_brown/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_green_sand_brown*"
       }
     }
@@ -3135,7 +3186,7 @@
       "nameLocId": "skin/fr_camo_jaune_sahara",
       "descLocId": "skin/fr_camo_jaune_sahara/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_jaune_sahara*"
       }
     }
@@ -3146,7 +3197,7 @@
       "nameLocId": "skin/fr_camo_winter_green_white",
       "descLocId": "skin/fr_camo_winter_green_white/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_winter_green_white*"
       }
     }
@@ -3157,7 +3208,7 @@
       "nameLocId": "skin/fr_camo_winter_base",
       "descLocId": "skin/fr_camo_winter_base/desc",
       "replace_tex": {
-        "from": "us_camo_olive*",
+        "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_winter_base*"
       }
     }

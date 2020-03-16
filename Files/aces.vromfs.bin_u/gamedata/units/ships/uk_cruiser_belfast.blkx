@@ -1786,25 +1786,25 @@
       "formatVersion": 2,
       "compartments": {
         "fireParamsPreset": "ship_cover",
-        "fireProtectionHp": 20.0,
         "stopChanceOnDeadPart": 1.0,
         "genericDamageMult": 0.3,
         "armorClass": "ship_structural_steel",
         "armorThickness": 2.0,
+        "oneSided": true,
         "compartment_01_dm": {
-          "hp": 9000.0
+          "hp": 8980.0
         },
         "compartment_02_dm": {
-          "hp": 9000.0
+          "hp": 7957.0
         },
         "compartment_03_dm": {
           "hp": 9000.0
         },
         "compartment_04_dm": {
-          "hp": 9000.0
+          "hp": 6783.0
         },
         "compartment_05_dm": {
-          "hp": 9000.0
+          "hp": 7503.0
         },
         "compartment_06_dm": {
           "hp": 9000.0
@@ -1813,22 +1813,23 @@
           "hp": 9000.0
         },
         "compartment_08_dm": {
-          "hp": 5423.0
+          "hp": 3000.0
         },
         "compartment_09_dm": {
-          "hp": 9000.0
+          "hp": 4074.0
         },
         "bridge_dm": {
-          "hp": 700.0
+          "hp": 649.0
         },
         "radio_station_dm": {
           "hp": 500.0
         }
       },
       "cover": {
-        "stopChanceOnDeadPart": 0.5,
+        "fireParamsPreset": "ship_cover",
+        "stopChanceOnDeadPart": 0.9,
         "armorClass": "ship_structural_steel",
-        "armorThickness": 25.0,
+        "armorThickness": 25.4,
         "hidableInViewer": true,
         "cover_01_dm": {
           "hp": 4500.0
@@ -1858,73 +1859,46 @@
       "superstructures": {
         "stopChanceOnDeadPart": 0.7,
         "fireParamsPreset": "ship_superstructure",
-        "fireProtectionHp": 15.0,
-        "genericDamageMult": 0.4,
-        "shatterDamageMult": 0.3,
-        "secondaryShatterDamageMult": 1.1,
-        "shatterArmorQuality": 0.5,
         "armorClass": "ship_structural_steel",
         "armorThickness": 8.0,
+        "oneSided": true,
         "superstructure_back_dm": {
+          "fireParamsPreset": "ship_superstructure_back",
           "hp": 5000.0
         },
         "superstructure_front_dm": {
+          "fireParamsPreset": "ship_superstructure_front",
           "hp": 5000.0
         },
         "superstructure_bottom_dm": {
+          "fireParamsPreset": "ship_superstructure_bottom",
           "hp": 5000.0
         },
         "superstructure_side_dm": {
+          "fireParamsPreset": "ship_superstructure_side",
           "hp": 5000.0
         },
         "superstructure_top_dm": {
+          "fireParamsPreset": "ship_superstructure_top",
           "hp": 3030.0
         }
       },
       "hull_construction": {
         "stopChanceOnDeadPart": 0.3,
+        "fireParamsPreset": "ship_construction",
         "armorClass": "ship_structural_steel",
-        "armorThickness": 56.4,
+        "armorThickness": 25.4,
+        "fireDamageMult": 0.1,
         "mid_bottom_dm": {
-          "explosionArmorQuality": 3.0,
           "hp": 20000.0
         }
       },
-      "bulges": {
-        "stopChanceOnDeadPart": 1.0,
-        "secondaryShatterDamageMult": 0.3,
-        "shatterDamageMult": 0.3,
-        "explosionDamageMult": 0.6,
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 20.0,
-        "hidableInViewer": true,
-        "at_bulge_01_dm": {
-          "hp": 2500.0
-        },
-        "at_bulge_02_dm": {
-          "hp": 2814.0
-        },
-        "at_bulge_03_dm": {
-          "hp": 2642.0
-        },
-        "at_bulge_04_dm": {
-          "hp": 2746.0
-        },
-        "at_bulge_05_dm": {
-          "hp": 3281.0
-        },
-        "at_bulge_06_dm": {
-          "hp": 3186.0
-        },
-        "at_bulge_07_dm": {
-          "hp": 2500.0
-        }
-      },
       "bulkheads": {
-        "stopChanceOnDeadPart": 0.5,
-        "shatterArmorQuality": 1.0,
+        "stopChanceOnDeadPart": 0.7,
         "armorClass": "ship_structural_steel",
-        "armorThickness": 56.4,
+        "fireParamsPreset": "ship_construction",
+        "armorThickness": 25.4,
+        "fireDamageMult": 0.1,
         "bulkhead_01_dm": {
           "hp": 1500.0
         },
@@ -1984,19 +1958,6 @@
           "hp": 1000.0
         }
       },
-      "radiolocation": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 5.0,
-        "radar_01_dm": {
-          "hp": 350.0
-        },
-        "radar_02_dm": {
-          "hp": 350.0
-        },
-        "radar_03_dm": {
-          "hp": 350.0
-        }
-      },
       "engine": {
         "armorThrough": 250.0,
         "fireProtectionHp": 25.0,
@@ -2051,105 +2012,36 @@
           "hp": 800.0
         }
       },
-      "elevators": {
-        "armorClass": "ship_structural_steel",
+      "fuel_tanks": {
+        "armorClass": "ships_oil_fuel_tank",
         "armorThickness": 10.0,
-        "fireDamageMult": 2.5,
-        "elevator_01_dm": {
-          "hp": 500.0
+        "stopChanceOnDeadPart": 0.5,
+        "fireProtectionHp": 100.0,
+        "fireParamsPreset": "ship_fuel_tank",
+        "fuel_tank_01_dm": {
+          "hp": 7000.0
         },
-        "elevator_02_dm": {
-          "hp": 500.0
+        "fuel_tank_02_dm": {
+          "hp": 7000.0
         },
-        "elevator_03_dm": {
-          "hp": 500.0
+        "fuel_tank_03_dm": {
+          "hp": 7000.0
         },
-        "elevator_04_dm": {
-          "hp": 500.0
+        "fuel_tank_04_dm": {
+          "hp": 5011.0
         }
       },
-      "pumps": {
-        "shatterDamageMult": 1.5,
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 3.0,
-        "pump_01_dm": {
-          "hp": 750.0
-        },
-        "pump_02_dm": {
-          "hp": 750.0
-        }
-      },
-      "hull_armor": {
-        "stopChanceOnDeadPart": 1.0,
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 15.0,
-        "ex_armor_01_dm": {
-          "hp": 500.0
-        },
-        "ex_armor_02_dm": {
-          "hp": 866.0
-        },
-        "ex_armor_03_dm": {
-          "hp": 1000.0
-        },
-        "ex_armor_04_dm": {
-          "hp": 1000.0
-        },
-        "ex_armor_05_dm": {
-          "hp": 866.0
-        },
-        "ex_armor_l_01_dm": {
-          "hp": 500.0
-        },
-        "ex_armor_l_02_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_l_03_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_l_04_dm": {
-          "hp": 1000.0
-        },
-        "ex_armor_l_05_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_l_06_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_r_01_dm": {
-          "hp": 500.0
-        },
-        "ex_armor_r_02_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_r_03_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_r_04_dm": {
-          "hp": 1000.0
-        },
-        "ex_armor_r_05_dm": {
-          "hp": 535.0
-        },
-        "ex_armor_r_06_dm": {
-          "hp": 535.0
-        },
-        "turret_01_dm": {
-          "hp": 500.0
-        },
-        "turret_02_dm": {
-          "hp": 500.0
-        },
-        "turret_03_dm": {
-          "hp": 500.0
-        },
-        "turret_04_dm": {
-          "hp": 500.0
-        }
+      "coal_bunkers": {
+        "armorClass": "ships_coal_bunker",
+        "armorThickness": 10.0,
+        "stopChanceOnDeadPart": 0.05
       },
       "citadel_armor": {
+        "fireParamsPreset": "ship_construction",
+        "fireProtectionHp": 5000.0,
         "armorClass": "ship_STS",
         "armorThickness": 40.0,
+        "fireDamageMult": 0.1,
         "armor_cit_01_dm": {
           "armorClass": "ship_RHA",
           "armorThickness": 63.5,
@@ -2162,29 +2054,47 @@
         },
         "armor_cit_03_dm": {
           "armorClass": "ship_RGA",
-          "armorThickness": 51.0,
+          "armorThickness": 50.8,
           "hp": 10000.0
         },
         "armor_cit_04_dm": {
           "armorClass": "ship_STS",
-          "armorThickness": 37.0,
+          "armorThickness": 38.1,
           "hp": 10000.0
         },
         "armor_cit_05_dm": {
           "armorClass": "ship_RGA",
-          "armorThickness": 51.0,
+          "armorThickness": 50.8,
           "hp": 10000.0
         },
         "armor_cit_06_dm": {
           "armorClass": "ship_STS",
-          "armorThickness": 51.0,
+          "armorThickness": 38.1,
+          "hp": 10000.0
+        },
+        "armor_cit_07_dm": {
+          "armorClass": "ship_STS",
+          "armorThickness": 38.1,
+          "hp": 10000.0
+        },
+        "armor_cit_08_dm": {
+          "armorClass": "ship_STS",
+          "armorThickness": 50.8,
+          "hp": 10000.0
+        },
+        "armor_cit_09_dm": {
+          "armorClass": "ship_STS",
+          "armorThickness": 76.2,
           "hp": 10000.0
         }
       },
       "belt_armor": {
+        "fireParamsPreset": "ship_construction",
+        "fireProtectionHp": 5000.0,
         "armorClass": "ship_STS",
         "armorThickness": 40.0,
         "hidableInViewer": true,
+        "fireDamageMult": 0.1,
         "armor_belt_01_dm": {
           "armorClass": "ship_RGA",
           "armorThickness": 114.3,
@@ -2192,6 +2102,8 @@
         }
       },
       "turret_armor": {
+        "fireParamsPreset": "ship_construction",
+        "fireProtectionHp": 5000.0,
         "stopChanceOnDeadPart": 1.0,
         "armorClass": "ship_RHA",
         "armorThickness": 15.0,
@@ -2316,12 +2228,112 @@
           "hp": 10000.0
         }
       },
+      "hull_armor": {
+        "fireParamsPreset": "ship_construction",
+        "fireProtectionHp": 5000.0,
+        "stopChanceOnDeadPart": 1.0,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 56.4,
+        "fireDamageMult": 0.1,
+        "ex_armor_01_dm": {
+          "hp": 500.0
+        },
+        "ex_armor_02_dm": {
+          "hp": 866.0
+        },
+        "ex_armor_03_dm": {
+          "hp": 1000.0
+        },
+        "ex_armor_04_dm": {
+          "hp": 1000.0
+        },
+        "ex_armor_05_dm": {
+          "hp": 866.0
+        },
+        "ex_armor_l_01_dm": {
+          "hp": 500.0
+        },
+        "ex_armor_l_02_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_l_03_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_l_04_dm": {
+          "hp": 1000.0
+        },
+        "ex_armor_l_05_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_l_06_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_r_01_dm": {
+          "hp": 500.0
+        },
+        "ex_armor_r_02_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_r_03_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_r_04_dm": {
+          "hp": 1000.0
+        },
+        "ex_armor_r_05_dm": {
+          "hp": 535.0
+        },
+        "ex_armor_r_06_dm": {
+          "hp": 535.0
+        },
+        "turret_01_dm": {
+          "hp": 500.0
+        },
+        "turret_02_dm": {
+          "hp": 500.0
+        },
+        "turret_03_dm": {
+          "hp": 500.0
+        },
+        "turret_04_dm": {
+          "hp": 500.0
+        }
+      },
+      "bulges": {
+        "stopChanceOnDeadPart": 1.0,
+        "secondaryShatterDamageMult": 0.3,
+        "shatterDamageMult": 0.3,
+        "explosionDamageMult": 0.6,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 20.0,
+        "hidableInViewer": true,
+        "at_bulge_01_dm": {
+          "hp": 2500.0
+        },
+        "at_bulge_02_dm": {
+          "hp": 2814.0
+        },
+        "at_bulge_03_dm": {
+          "hp": 2642.0
+        },
+        "at_bulge_04_dm": {
+          "hp": 2746.0
+        },
+        "at_bulge_05_dm": {
+          "hp": 3281.0
+        },
+        "at_bulge_06_dm": {
+          "hp": 3186.0
+        },
+        "at_bulge_07_dm": {
+          "hp": 2500.0
+        }
+      },
       "turrets_main_caliber": {
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
-        "fireProtectionHp": 10.0,
-        "fireDamageMult": 6.0,
+        "oneSided": true,
         "main_caliber_turret_01_dm": {
           "hp": 495.0
         },
@@ -2339,8 +2351,8 @@
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
-        "fireProtectionHp": 10.0,
-        "fireDamageMult": 6.0,
+        "oneSided": true,
+        "fireProtectionHp": 25.0,
         "auxiliary_caliber_turret_01_dm": {
           "hp": 233.0
         },
@@ -2358,7 +2370,8 @@
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
-        "fireDamageMult": 6.0,
+        "oneSided": true,
+        "fireProtectionHp": 25.0,
         "aa_turret_01_dm": {
           "hp": 100.0
         },
@@ -2491,159 +2504,148 @@
         },
         "gun_mask_10_dm": {
           "hp": 100.0
+        },
+        "gun_mask_11_dm": {
+          "hp": 100.0
+        },
+        "gun_mask_12_dm": {
+          "hp": 100.0
         }
       },
       "gun_barrels": {
         "armorClass": "tank_barrel",
         "armorThickness": 10.0
       },
-      "explosives_mounts": {
+      "ammo_storages": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0,
+        "createSecondaryShatters": false,
+        "oneSided": true
+      },
+      "ammo_storages_shells": {
+        "fireDamageMult": 0.9,
+        "explosionDamageMult": 0.85,
+        "shatterDamageMult": 0.85,
+        "secondaryShatterDamageMult": 0.85,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0,
+        "oneSided": true,
+        "ammunition_storage_shells_01_dm": {
+          "hp": 2134.0
+        },
+        "ammunition_storage_shells_02_dm": {
+          "hp": 2270.0
+        },
+        "ammunition_storage_shells_03_dm": {
+          "hp": 2000.0
+        },
+        "ammunition_storage_shells_04_dm": {
+          "hp": 2000.0
+        }
+      },
+      "ammo_storages_charges": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 3.0,
+        "oneSided": true,
+        "ammunition_storage_charges_01_dm": {
+          "hp": 1500.0
+        },
+        "ammunition_storage_charges_02_dm": {
+          "hp": 1500.0
+        },
+        "ammunition_storage_charges_03_dm": {
+          "hp": 1500.0
+        },
+        "ammunition_storage_charges_04_dm": {
+          "hp": 1500.0
+        }
+      },
+      "ammo_storages_auxiliary": {
+        "genericDamageMult": 0.75,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0,
+        "oneSided": true,
+        "ammunition_storage_aux_01_dm": {
+          "hp": 1794.0
+        },
+        "ammunition_storage_aux_02_dm": {
+          "hp": 2000.0
+        }
+      },
+      "ammo_first_stage": {
+        "fireDamageMult": 0.9,
+        "explosionDamageMult": 0.85,
+        "shatterDamageMult": 0.85,
+        "secondaryShatterDamageMult": 0.85,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0,
+        "createSecondaryShatters": false,
+        "oneSided": true
+      },
+      "depth_charges": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0
+      },
+      "torpedoes": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 5.0
+      },
+      "elevators": {
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 10.0,
+        "fireDamageMult": 2.5,
+        "elevator_01_dm": {
+          "hp": 500.0
+        },
+        "elevator_02_dm": {
+          "hp": 500.0
+        },
+        "elevator_03_dm": {
+          "hp": 500.0
+        },
+        "elevator_04_dm": {
+          "hp": 500.0
+        }
+      },
+      "pumps": {
+        "shatterDamageMult": 1.5,
+        "armorClass": "ship_structural_steel",
+        "armorThickness": 3.0,
+        "pump_01_dm": {
+          "hp": 750.0
+        },
+        "pump_02_dm": {
+          "hp": 750.0
+        }
+      },
+      "asw_mounts": {
         "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
         "armorThickness": 10.0
       },
-      "fuel_tanks": {
-        "armorClass": "ships_oil_fuel_tank",
-        "armorThickness": 10.0,
-        "stopChanceOnDeadPart": 0.5,
-        "fireProtectionHp": 100.0,
-        "fireParamsPreset": "ship_fuel_tank",
-        "fuel_tank_01_dm": {
-          "hp": 7000.0
-        },
-        "fuel_tank_02_dm": {
-          "hp": 7000.0
-        },
-        "fuel_tank_03_dm": {
-          "hp": 7000.0
-        },
-        "fuel_tank_04_dm": {
-          "hp": 5011.0
-        }
-      },
-      "ammo": {
+      "torpedo_tubes": {
+        "fireParamsPreset": "ship_turrets",
         "armorClass": "ship_structural_steel",
-        "armorThickness": 25.0,
-        "fireProtectionHp": 20.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "genericDamageMult": 2.5,
-        "explosionDamageMult": 1.5,
-        "shatterDamageMult": 1.5,
-        "secondaryShatterDamageMult": 1.5,
-        "createSecondaryShatters": false,
-        "ammunition_storage_01_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_02_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_03_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_04_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_05_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_06_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_07_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_08_dm": {
-          "hp": 2000.0
-        },
-        "ammunition_storage_09_dm": {
-          "hp": 2241.0
-        }
+        "armorThickness": 10.0
       },
-      "ammo_shells": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 25.0,
-        "fireProtectionHp": 50.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "fireDamageMult": 0.75,
-        "genericDamageMult": 0.75,
-        "explosionDamageMult": 0.75,
-        "shatterDamageMult": 0.75,
-        "secondaryShatterDamageMult": 0.25,
-        "createSecondaryShatters": false
-      },
-      "ammo_charges": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 25.0,
-        "fireProtectionHp": 15.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "fireDamageMult": 5.0,
-        "genericDamageMult": 1.0,
-        "explosionDamageMult": 1.0,
-        "shatterDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.33,
-        "createSecondaryShatters": false
-      },
-      "ammo_aux": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 25.0,
-        "fireProtectionHp": 25.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "fireDamageMult": 5.0,
-        "genericDamageMult": 0.75,
-        "explosionDamageMult": 1.0,
-        "shatterDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.5,
-        "createSecondaryShatters": false
-      },
-      "ammo_first_stage": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 2.0,
-        "fireProtectionHp": 10.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "genericDamageMult": 1.0,
-        "explosionDamageMult": 1.0,
-        "shatterDamageMult": 1.0,
-        "secondaryShatterDamageMult": 1.0,
-        "createSecondaryShatters": false,
-        "ammo_turret_01_dm": {
-          "hp": 500.0
-        },
-        "ammo_turret_02_dm": {
-          "hp": 500.0
-        },
-        "ammo_turret_03_dm": {
-          "hp": 500.0
-        },
-        "ammo_turret_04_dm": {
-          "hp": 500.0
-        }
-      },
-      "depth_charges": {
+      "radiolocation": {
         "armorClass": "ship_structural_steel",
         "armorThickness": 5.0,
-        "fireProtectionHp": 20.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "genericDamageMult": 1.0,
-        "shatterDamageMult": 1.0,
-        "fireDamageMult": 1.0,
-        "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.33
-      },
-      "torpedos": {
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 5.0,
-        "fireProtectionHp": 15.0,
-        "fireParamsPreset": "ship_ammo_fire",
-        "genericDamageMult": 1.0,
-        "shatterDamageMult": 1.0,
-        "fireDamageMult": 0.1,
-        "explosionDamageMult": 1.0,
-        "secondaryShatterDamageMult": 0.33
+        "radar_01_dm": {
+          "hp": 350.0
+        },
+        "radar_02_dm": {
+          "hp": 350.0
+        },
+        "radar_03_dm": {
+          "hp": 350.0
+        }
       }
     }
   },
   {
     "tank_crew": {
+      "minCrewMemberRepairCount": 334,
       "minCrewMemberAliveCount": 286,
       "sailor1": {
         "dmPart": "bridge_dm",
@@ -2653,47 +2655,47 @@
       "sailor2": {
         "dmPart": "compartment_01_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 117
       },
       "sailor3": {
         "dmPart": "compartment_02_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 104
       },
       "sailor4": {
         "dmPart": "compartment_03_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 118
       },
       "sailor5": {
         "dmPart": "compartment_04_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 88
       },
       "sailor6": {
         "dmPart": "compartment_05_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 98
       },
       "sailor7": {
         "dmPart": "compartment_06_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 117
       },
       "sailor8": {
         "dmPart": "compartment_07_dm",
         "role": "sailor",
-        "crew": 99
+        "crew": 117
       },
       "sailor9": {
         "dmPart": "compartment_08_dm",
         "role": "sailor",
-        "crew": 60
+        "crew": 39
       },
       "sailor10": {
         "dmPart": "compartment_09_dm",
         "role": "sailor",
-        "crew": 98
+        "crew": 53
       },
       "sailor11": {
         "dmPart": "main_caliber_turret_01_dm",
@@ -2745,154 +2747,411 @@
   {
     "DamageEffects": [
       {
-        "part": [
-          {
-            "name": "ammunition_storage_01_dm"
-          },
-          {
-            "name": "ammunition_storage_02_dm"
-          },
-          {
-            "name": "ammunition_storage_03_dm"
-          },
-          {
-            "name": "ammunition_storage_04_dm"
-          },
-          {
-            "name": "ammunition_storage_05_dm"
-          },
-          {
-            "name": "ammunition_storage_06_dm"
-          },
-          {
-            "name": "ammunition_storage_07_dm"
-          },
-          {
-            "name": "ammunition_storage_08_dm"
-          },
+        "ammunition_storage_shells": [
           {
             "onKill": {
               "expl": 1.0,
               "fHitCritical": false
             }
-          }
-        ]
-      },
-      {
-        "part": [
-          {
-            "name": "ammunition_storage_09_dm"
           },
           {
-            "name": "ammunition_storage_10_dm"
+            "onHit": {
+              "damageType": "fire",
+              "fire": 1.0,
+              "damage": 300.0,
+              "fHitCritical": false
+            }
           },
           {
-            "name": "ammunition_storage_11_dm"
-          },
-          {
-            "name": "ammunition_storage_12_dm"
-          },
-          {
-            "name": "ammunition_storage_13_dm"
-          },
-          {
-            "name": "ammunition_storage_14_dm"
-          },
-          {
-            "name": "ammunition_storage_15_dm"
-          },
-          {
-            "name": "ammunition_storage_16_dm"
-          },
-          {
-            "name": "ammunition_storage_17_dm"
-          },
-          {
-            "name": "ammunition_storage_18_dm"
-          },
-          {
-            "name": "ammunition_storage_19_dm"
-          },
-          {
-            "name": "ammunition_storage_20_dm"
-          },
-          {
-            "onKill": {
-              "nothing": 1.0,
+            "onHit": {
+              "damageType": "explosion",
+              "fire": 0.11,
+              "damage": 300.0,
               "fHitCritical": false
             }
           }
         ]
       },
       {
-        "part": [
-          {
-            "name": "ammo_turret_01_dm"
-          },
-          {
-            "name": "ammo_turret_02_dm"
-          },
-          {
-            "name": "ammo_turret_03_dm"
-          },
-          {
-            "name": "ammo_turret_04_dm"
-          },
-          {
-            "name": "ammo_turret_05_dm"
-          },
-          {
-            "name": "ammo_turret_06_dm"
-          },
-          {
-            "name": "ammo_turret_07_dm"
-          },
-          {
-            "name": "ammo_turret_08_dm"
-          },
-          {
-            "name": "ammo_turret_09_dm"
-          },
-          {
-            "name": "ammo_turret_10_dm"
-          },
-          {
-            "name": "ammo_turret_11_dm"
-          },
-          {
-            "name": "ammo_turret_12_dm"
-          },
-          {
-            "name": "ammo_turret_13_dm"
-          },
-          {
-            "name": "ammo_turret_14_dm"
-          },
-          {
-            "name": "ammo_turret_15_dm"
-          },
-          {
-            "name": "ammo_turret_16_dm"
-          },
-          {
-            "name": "ammo_turret_17_dm"
-          },
-          {
-            "name": "ammo_turret_18_dm"
-          },
-          {
-            "name": "ammo_turret_19_dm"
-          },
-          {
-            "name": "ammo_turret_20_dm"
-          },
+        "ammunition_storage_charges": [
           {
             "onKill": {
               "fire": 1.0,
               "fHitCritical": false
             }
+          },
+          {
+            "onHit": {
+              "damageType": "fire",
+              "fire": 1.0,
+              "damage": 150.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "explosion",
+              "fire": 0.33,
+              "damage": 400.0,
+              "fHitCritical": false
+            }
           }
         ]
+      },
+      {
+        "ammunition_storage_aux": [
+          {
+            "onKill": {
+              "fire": 1.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "explosion",
+              "fire": 1.0,
+              "damage": 200.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "fire",
+              "fire": 1.0,
+              "damage": 50.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "shatter",
+              "fire": 0.5,
+              "damage": 50.0,
+              "fHitCritical": false
+            }
+          }
+        ]
+      },
+      {
+        "ammunition_first_stage": [
+          {
+            "onKill": {
+              "fire": 1.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "fire",
+              "fire": 1.0,
+              "damage": 200.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "explosion",
+              "expl": 0.11,
+              "fire": 1.0,
+              "damage": 300.0,
+              "fHitCritical": false
+            }
+          }
+        ]
+      },
+      {
+        "ammunition_depth_charges": {
+          "onKill": {
+            "expl": 0.05,
+            "nothing": 0.95
+          },
+          "onHit": {
+            "damageType": "fire",
+            "damage": 150.0,
+            "expl": 0.1
+          }
+        }
+      },
+      {
+        "ammunition_torpedoes": [
+          {
+            "onKill": {
+              "fire": 1.0
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "explosion",
+              "fire": 0.05,
+              "damage": 300.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "fire",
+              "fire": 0.15,
+              "damage": 150.0,
+              "fHitCritical": false
+            }
+          }
+        ]
+      },
+      {
+        "part": {
+          "name": "ammo_turret_01_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_02_dm",
+          "onKill": {
+            "main_caliber_turret_02_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_03_dm",
+          "onKill": {
+            "main_caliber_turret_03_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_04_dm",
+          "onKill": {
+            "main_caliber_turret_04_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_05_dm",
+          "onKill": {
+            "main_caliber_turret_05_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_06_dm",
+          "onKill": {
+            "main_caliber_turret_06_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_07_dm",
+          "onKill": {
+            "main_caliber_turret_07_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_08_dm",
+          "onKill": {
+            "main_caliber_turret_08_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_09_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_09_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_10_dm",
+          "onKill": {
+            "main_caliber_turret_10_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_11_dm",
+          "onKill": {
+            "main_caliber_turret_11_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_12_dm",
+          "onKill": {
+            "main_caliber_turret_12_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_13_dm",
+          "onKill": {
+            "main_caliber_turret_13_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_14_dm",
+          "onKill": {
+            "main_caliber_turret_14_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammo_turret_15_dm",
+          "onKill": {
+            "main_caliber_turret_15_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_01_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_02_dm",
+          "onKill": {
+            "main_caliber_turret_02_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_03_dm",
+          "onKill": {
+            "main_caliber_turret_03_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_04_dm",
+          "onKill": {
+            "main_caliber_turret_04_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_05_dm",
+          "onKill": {
+            "main_caliber_turret_05_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_06_dm",
+          "onKill": {
+            "main_caliber_turret_06_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_07_dm",
+          "onKill": {
+            "main_caliber_turret_07_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_08_dm",
+          "onKill": {
+            "main_caliber_turret_08_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_09_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_09_dm",
+          "onKill": {
+            "main_caliber_turret_01_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_10_dm",
+          "onKill": {
+            "main_caliber_turret_10_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_11_dm",
+          "onKill": {
+            "main_caliber_turret_11_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_12_dm",
+          "onKill": {
+            "main_caliber_turret_12_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_13_dm",
+          "onKill": {
+            "main_caliber_turret_13_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_14_dm",
+          "onKill": {
+            "main_caliber_turret_14_dm": 1.0
+          }
+        }
+      },
+      {
+        "part": {
+          "name": "ammunition_storage_charges_15_dm",
+          "onKill": {
+            "main_caliber_turret_15_dm": 1.0
+          }
+        }
       },
       {
         "part": [
@@ -2966,11 +3225,24 @@
             "name": "torpedo_24_dm"
           },
           {
+            "onKill": {
+              "nothing": 1.0,
+              "kill": false
+            }
+          },
+          {
             "onHit": {
               "damageType": "explosion",
-              "expl": 0.05,
-              "nothing": 0.95,
-              "damage": 1000.0,
+              "fire": 0.05,
+              "damage": 300.0,
+              "fHitCritical": false
+            }
+          },
+          {
+            "onHit": {
+              "damageType": "fire",
+              "fire": 0.15,
+              "damage": 150.0,
               "fHitCritical": false
             }
           }
@@ -3126,20 +3398,16 @@
             "name": "depth_charge_69_dm"
           },
           {
-            "onHit": {
-              "damageType": "explosion",
-              "expl": 0.2,
-              "nothing": 0.8,
-              "damage": 250.0,
-              "fHitCritical": false
+            "onKill": {
+              "expl": 0.05,
+              "nothing": 0.95
             }
           },
           {
             "onHit": {
               "damageType": "fire",
-              "fire": 1.0,
-              "damage": 350.0,
-              "fHitCritical": false
+              "damage": 150.0,
+              "expl": 0.1
             }
           }
         ]
@@ -3436,14 +3704,6 @@
     ]
   },
   {
-    "tags": {
-      "country_britain": true,
-      "type_ship": true,
-      "ship": true,
-      "type_light_cruiser": true
-    }
-  },
-  {
     "ShipPhys": {
       "mass": {
         "Empty": 13050000.0,
@@ -3573,794 +3833,1658 @@
   {
     "commonWeapons": [
       {
-        "Weapon": {
-          "trigger": "gunner0",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_01",
-          "flash": "emtr_gun_flame_01",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_01_dm",
-          "breechDP": "main_caliber_gun_01_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_01",
-            "gun": "main_caliber_gun_01",
-            "barrel": "gun_barrel_01",
-            "gunnerDm": "main_caliber_turret_01_dm",
-            "linkedAnimPart": {
-              "horNode": "ex_armor_02",
-              "horLimits": [-140.0,140.0],
-              "horOriginLimits": [-140.0,140.0]
+        "Weapon": [
+          {
+            "trigger": "gunner0"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_01"
+          },
+          {
+            "flash": "emtr_gun_flame_01"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_01_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_01_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_01",
+              "gun": "main_caliber_gun_01",
+              "barrel": "gun_barrel_01",
+              "gunnerDm": "main_caliber_turret_01_dm",
+              "linkedAnimPart": {
+                "horNode": "ex_armor_02",
+                "horLimits": [-140.0,140.0],
+                "horOriginLimits": [-140.0,140.0]
+              }
             }
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-30.0,-5.0,45.0],
-            "lim2": [-30.0,-13.0,-1.0,45.0],
-            "lim3": [-13.0,13.0,1.0,45.0],
-            "lim4": [13.0,30.0,-1.0,45.0],
-            "lim5": [30.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner0",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_02",
-          "flash": "emtr_gun_flame_02",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_02_dm",
-          "breechDP": "main_caliber_gun_02_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_01",
-            "gun": "main_caliber_gun_02",
-            "barrel": "gun_barrel_02",
-            "gunnerDm": "main_caliber_turret_01_dm"
-          },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-30.0,-5.0,45.0],
-            "lim2": [-30.0,-13.0,-1.0,45.0],
-            "lim3": [-13.0,13.0,1.0,45.0],
-            "lim4": [13.0,30.0,-1.0,45.0],
-            "lim5": [30.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner0",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_03",
-          "flash": "emtr_gun_flame_03",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_03_dm",
-          "breechDP": "main_caliber_gun_03_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_01",
-            "gun": "main_caliber_gun_03",
-            "barrel": "gun_barrel_03",
-            "gunnerDm": "main_caliber_turret_01_dm"
-          },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-30.0,-5.0,45.0],
-            "lim2": [-30.0,-13.0,-1.0,45.0],
-            "lim3": [-13.0,13.0,1.0,45.0],
-            "lim4": [13.0,30.0,-1.0,45.0],
-            "lim5": [30.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner1",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_04",
-          "flash": "emtr_gun_flame_04",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_04_dm",
-          "breechDP": "main_caliber_gun_04_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_02",
-            "gun": "main_caliber_gun_04",
-            "barrel": "gun_barrel_04",
-            "gunnerDm": "main_caliber_turret_02_dm"
-          },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-10.0,-5.0,45.0],
-            "lim2": [-10.0,10.0,-3.0,45.0],
-            "lim3": [10.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner1",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_05",
-          "flash": "emtr_gun_flame_05",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_05_dm",
-          "breechDP": "main_caliber_gun_05_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_02",
-            "gun": "main_caliber_gun_05",
-            "barrel": "gun_barrel_05",
-            "gunnerDm": "main_caliber_turret_02_dm"
-          },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-10.0,-5.0,45.0],
-            "lim2": [-10.0,10.0,-3.0,45.0],
-            "lim3": [10.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner1",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_06",
-          "flash": "emtr_gun_flame_06",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_06_dm",
-          "breechDP": "main_caliber_gun_06_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_02",
-            "gun": "main_caliber_gun_06",
-            "barrel": "gun_barrel_06",
-            "gunnerDm": "main_caliber_turret_02_dm"
-          },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
-          },
-          "limitsTable": {
-            "lim1": [-140.0,-10.0,-5.0,45.0],
-            "lim2": [-10.0,10.0,-3.0,45.0],
-            "lim3": [10.0,140.0,-5.0,45.0]
-          },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "Weapon": {
-          "trigger": "gunner2",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_27",
-          "flash": "emtr_gun_flame_27",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_07_dm",
-          "breechDP": "main_caliber_gun_07_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_03",
-            "gun": "main_caliber_gun_07",
-            "barrel": "gun_barrel_27",
-            "gunnerDm": "main_caliber_turret_03_dm",
-            "linkedAnimPart": {
-              "horNode": "ex_armor_05",
-              "horLimits": [-140.0,140.0],
-              "horOriginLimits": [-140.0,140.0]
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
             }
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-30.0,-5.0,45.0],
+              "lim2": [-30.0,-13.0,-1.0,45.0],
+              "lim3": [-13.0,13.0,1.0,45.0],
+              "lim4": [13.0,30.0,-1.0,45.0],
+              "lim5": [30.0,140.0,-5.0,45.0]
+            }
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
       },
       {
-        "Weapon": {
-          "trigger": "gunner2",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_28",
-          "flash": "emtr_gun_flame_28",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_08_dm",
-          "breechDP": "main_caliber_gun_08_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_03",
-            "gun": "main_caliber_gun_08",
-            "barrel": "gun_barrel_28",
-            "gunnerDm": "main_caliber_turret_03_dm"
+        "Weapon": [
+          {
+            "trigger": "gunner0"
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "triggerGroup": "primary"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_02"
+          },
+          {
+            "flash": "emtr_gun_flame_02"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_02_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_02_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_01",
+              "gun": "main_caliber_gun_02",
+              "barrel": "gun_barrel_02",
+              "gunnerDm": "main_caliber_turret_01_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-30.0,-5.0,45.0],
+              "lim2": [-30.0,-13.0,-1.0,45.0],
+              "lim3": [-13.0,13.0,1.0,45.0],
+              "lim4": [13.0,30.0,-1.0,45.0],
+              "lim5": [30.0,140.0,-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
       },
       {
-        "Weapon": {
-          "trigger": "gunner2",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_29",
-          "flash": "emtr_gun_flame_29",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_09_dm",
-          "breechDP": "main_caliber_gun_09_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_03",
-            "gun": "main_caliber_gun_09",
-            "barrel": "gun_barrel_29",
-            "gunnerDm": "main_caliber_turret_03_dm"
+        "Weapon": [
+          {
+            "trigger": "gunner0"
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "triggerGroup": "primary"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_03"
+          },
+          {
+            "flash": "emtr_gun_flame_03"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_03_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_03_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_01",
+              "gun": "main_caliber_gun_03",
+              "barrel": "gun_barrel_03",
+              "gunnerDm": "main_caliber_turret_01_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-30.0,-5.0,45.0],
+              "lim2": [-30.0,-13.0,-1.0,45.0],
+              "lim3": [-13.0,13.0,1.0,45.0],
+              "lim4": [13.0,30.0,-1.0,45.0],
+              "lim5": [30.0,140.0,-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
       },
       {
-        "Weapon": {
-          "trigger": "gunner3",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_30",
-          "flash": "emtr_gun_flame_30",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_10_dm",
-          "breechDP": "main_caliber_gun_10_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_04",
-            "gun": "main_caliber_gun_10",
-            "barrel": "gun_barrel_30",
-            "gunnerDm": "main_caliber_turret_04_dm"
+        "Weapon": [
+          {
+            "trigger": "gunner1"
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "triggerGroup": "primary"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_04"
+          },
+          {
+            "flash": "emtr_gun_flame_04"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_04_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_04_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_02",
+              "gun": "main_caliber_gun_04",
+              "barrel": "gun_barrel_04",
+              "gunnerDm": "main_caliber_turret_02_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-10.0,-5.0,45.0],
+              "lim2": [-10.0,10.0,-3.0,45.0],
+              "lim3": [10.0,140.0,-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
       },
       {
-        "Weapon": {
-          "trigger": "gunner3",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_31",
-          "flash": "emtr_gun_flame_31",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_11_dm",
-          "breechDP": "main_caliber_gun_11_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_04",
-            "gun": "main_caliber_gun_11",
-            "barrel": "gun_barrel_31",
-            "gunnerDm": "main_caliber_turret_04_dm"
+        "Weapon": [
+          {
+            "trigger": "gunner1"
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "triggerGroup": "primary"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_05"
+          },
+          {
+            "flash": "emtr_gun_flame_05"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_05_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_05_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_02",
+              "gun": "main_caliber_gun_05",
+              "barrel": "gun_barrel_05",
+              "gunnerDm": "main_caliber_turret_02_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-10.0,-5.0,45.0],
+              "lim2": [-10.0,10.0,-3.0,45.0],
+              "lim3": [10.0,140.0,-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
       },
       {
-        "Weapon": {
-          "trigger": "gunner3",
-          "triggerGroup": "primary",
-          "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk",
-          "emitter": "emtr_gun_flame_32",
-          "flash": "emtr_gun_flame_32",
-          "useEmitter": true,
-          "barrelDP": "main_caliber_gun_12_dm",
-          "breechDP": "main_caliber_gun_12_dm",
-          "defaultYaw": 0.0,
-          "defaultPitch": 0.0,
-          "fireConeAngle": 1.0,
-          "speedYaw": 7.0,
-          "speedPitch": 10.0,
-          "bullets": 200,
-          "useGunnerTargetingQuality": false,
-          "allowableDelta": 2.0,
-          "ChainfireTime": 60.0,
-          "DelayAfterShoot": 0.0,
-          "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
-          "randomAngle": 0.0,
-          "accuracyBotMultAir": 0.55,
-          "accuracyAir": 1.0,
-          "accuracyGnd": 0.5,
-          "errMeasureVel": 0.0,
-          "errTargettingOn100kmph": 0.0,
-          "errMeasureVelFast": 100.0,
-          "errMeasureVelFwdShift": 1.0,
-          "errMeasureVelDir": 3.0,
-          "errTargetting": 1.0,
-          "errExplTime": 0.0,
-          "turret": {
-            "head": "main_caliber_turret_04",
-            "gun": "main_caliber_gun_12",
-            "barrel": "gun_barrel_32",
-            "gunnerDm": "main_caliber_turret_04_dm"
+        "Weapon": [
+          {
+            "trigger": "gunner1"
           },
-          "limits": {
-            "yaw": [-140.0,140.0],
-            "pitch": [-5.0,45.0]
+          {
+            "triggerGroup": "primary"
           },
-          "gunStabilizer": {
-            "hasVerticalGunFreeMode": true,
-            "hasHorizontal": true,
-            "horizontalOmegaMult": 1.0,
-            "horizontalSpeedLimitKPH": 80.0,
-            "hasVertical": true,
-            "verticalOmegaMult": 1.0,
-            "verticalSpeedLimitKPH": 80.0,
-            "errorKPHToDegrees": [
-              {
-                "row": [5.0,0.01]
-              },
-              {
-                "row": [70.0,0.05]
-              }
-            ]
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_06"
+          },
+          {
+            "flash": "emtr_gun_flame_06"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_06_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_06_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_02",
+              "gun": "main_caliber_gun_06",
+              "barrel": "gun_barrel_06",
+              "gunnerDm": "main_caliber_turret_02_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "limitsTable": {
+              "lim1": [-140.0,-10.0,-5.0,45.0],
+              "lim2": [-10.0,10.0,-3.0,45.0],
+              "lim3": [10.0,140.0,-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
           }
-        }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner2"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_27"
+          },
+          {
+            "flash": "emtr_gun_flame_27"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_07_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_07_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_03",
+              "gun": "main_caliber_gun_07",
+              "barrel": "gun_barrel_27",
+              "gunnerDm": "main_caliber_turret_03_dm",
+              "linkedAnimPart": {
+                "horNode": "ex_armor_05",
+                "horLimits": [-140.0,140.0],
+                "horOriginLimits": [-140.0,140.0]
+              }
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner2"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_28"
+          },
+          {
+            "flash": "emtr_gun_flame_28"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_08_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_08_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_03",
+              "gun": "main_caliber_gun_08",
+              "barrel": "gun_barrel_28",
+              "gunnerDm": "main_caliber_turret_03_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner2"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_29"
+          },
+          {
+            "flash": "emtr_gun_flame_29"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_09_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_09_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_03",
+              "gun": "main_caliber_gun_09",
+              "barrel": "gun_barrel_29",
+              "gunnerDm": "main_caliber_turret_03_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner3"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_30"
+          },
+          {
+            "flash": "emtr_gun_flame_30"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_10_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_10_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_04",
+              "gun": "main_caliber_gun_10",
+              "barrel": "gun_barrel_30",
+              "gunnerDm": "main_caliber_turret_04_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner3"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_31"
+          },
+          {
+            "flash": "emtr_gun_flame_31"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_11_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_11_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_04",
+              "gun": "main_caliber_gun_11",
+              "barrel": "gun_barrel_31",
+              "gunnerDm": "main_caliber_turret_04_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Weapon": [
+          {
+            "trigger": "gunner3"
+          },
+          {
+            "triggerGroup": "primary"
+          },
+          {
+            "blk": "gameData/Weapons/navalModels_weapons/152mm_6inch_50_bl_mk23_naval_user_cannon.blk"
+          },
+          {
+            "emitter": "emtr_gun_flame_32"
+          },
+          {
+            "flash": "emtr_gun_flame_32"
+          },
+          {
+            "useEmitter": true
+          },
+          {
+            "barrelDP": "main_caliber_gun_12_dm"
+          },
+          {
+            "breechDP": "main_caliber_gun_12_dm"
+          },
+          {
+            "defaultYaw": 0.0
+          },
+          {
+            "defaultPitch": 0.0
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "speedYaw": 7.0
+          },
+          {
+            "speedPitch": 10.0
+          },
+          {
+            "bullets": 200
+          },
+          {
+            "fireConeAngle": 1.0
+          },
+          {
+            "useGunnerTargetingQuality": false
+          },
+          {
+            "allowableDelta": 2.0
+          },
+          {
+            "ChainfireTime": 60.0
+          },
+          {
+            "DelayAfterShoot": 0.0
+          },
+          {
+            "aimMinDist": 20.0
+          },
+          {
+            "aimMaxDist": 4000.0
+          },
+          {
+            "randomAngle": 0.0
+          },
+          {
+            "accuracyBotMultAir": 0.55
+          },
+          {
+            "accuracyAir": 1.0
+          },
+          {
+            "accuracyGnd": 0.5
+          },
+          {
+            "errMeasureVel": 0.0
+          },
+          {
+            "errTargettingOn100kmph": 0.0
+          },
+          {
+            "errMeasureVelFast": 100.0
+          },
+          {
+            "errMeasureVelFwdShift": 1.0
+          },
+          {
+            "errMeasureVelDir": 3.0
+          },
+          {
+            "errTargetting": 1.0
+          },
+          {
+            "errExplTime": 0.0
+          },
+          {
+            "turret": {
+              "head": "main_caliber_turret_04",
+              "gun": "main_caliber_gun_12",
+              "barrel": "gun_barrel_32",
+              "gunnerDm": "main_caliber_turret_04_dm"
+            }
+          },
+          {
+            "limits": {
+              "yaw": [-140.0,140.0],
+              "pitch": [-5.0,45.0]
+            }
+          },
+          {
+            "gunStabilizer": {
+              "hasVerticalGunFreeMode": true,
+              "hasHorizontal": true,
+              "horizontalOmegaMult": 1.0,
+              "horizontalSpeedLimitKPH": 80.0,
+              "hasVertical": true,
+              "verticalOmegaMult": 1.0,
+              "verticalSpeedLimitKPH": 80.0,
+              "errorKPHToDegrees": [
+                {
+                  "row": [5.0,0.01]
+                },
+                {
+                  "row": [70.0,0.05]
+                }
+              ]
+            }
+          }
+        ]
       },
       {
         "Weapon": [
@@ -5629,15 +6753,15 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-107.0,62.0,85.0],
-            "lim2": [-107.0,-74.0,35.0,85.0],
-            "lim3": [-74.0,88.0,-15.0,85.0],
-            "lim4": [88.0,105.0,-4.0,85.0],
-            "lim5": [105.0,112.0,18.0,85.0],
-            "lim6": [112.0,180.0,55.0,85.0]
+            "lim1": [-180.0,-107.0,62.0,90.0],
+            "lim2": [-107.0,-74.0,35.0,90.0],
+            "lim3": [-74.0,88.0,-14.0,90.0],
+            "lim4": [88.0,105.0,-4.0,90.0],
+            "lim5": [105.0,112.0,18.0,90.0],
+            "lim6": [112.0,180.0,55.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5700,15 +6824,15 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-107.0,62.0,85.0],
-            "lim2": [-107.0,-74.0,35.0,85.0],
-            "lim3": [-74.0,88.0,-15.0,85.0],
-            "lim4": [88.0,105.0,-4.0,85.0],
-            "lim5": [105.0,112.0,18.0,85.0],
-            "lim6": [112.0,180.0,55.0,85.0]
+            "lim1": [-180.0,-107.0,62.0,90.0],
+            "lim2": [-107.0,-74.0,35.0,90.0],
+            "lim3": [-74.0,88.0,-14.0,90.0],
+            "lim4": [88.0,105.0,-4.0,90.0],
+            "lim5": [105.0,112.0,18.0,90.0],
+            "lim6": [112.0,180.0,55.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5776,15 +6900,15 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-112.0,55.0,85.0],
-            "lim2": [-112.0,-105.0,18.0,85.0],
-            "lim3": [-105.0,-88.0,-4.0,85.0],
-            "lim4": [-88.0,74.0,-15.0,85.0],
-            "lim5": [74.0,107.0,35.0,85.0],
-            "lim6": [107.0,180.0,62.0,85.0]
+            "lim1": [-180.0,-112.0,55.0,90.0],
+            "lim2": [-112.0,-105.0,18.0,90.0],
+            "lim3": [-105.0,-88.0,-4.0,90.0],
+            "lim4": [-88.0,74.0,-14.0,90.0],
+            "lim5": [74.0,107.0,35.0,90.0],
+            "lim6": [107.0,180.0,62.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5847,15 +6971,15 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-112.0,55.0,85.0],
-            "lim2": [-112.0,-105.0,18.0,85.0],
-            "lim3": [-105.0,-88.0,-4.0,85.0],
-            "lim4": [-88.0,74.0,-15.0,85.0],
-            "lim5": [74.0,107.0,35.0,85.0],
-            "lim6": [107.0,180.0,62.0,85.0]
+            "lim1": [-180.0,-112.0,55.0,90.0],
+            "lim2": [-112.0,-105.0,18.0,90.0],
+            "lim3": [-105.0,-88.0,-4.0,90.0],
+            "lim4": [-88.0,74.0,-15.0,90.0],
+            "lim5": [74.0,107.0,35.0,90.0],
+            "lim6": [107.0,180.0,62.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5918,23 +7042,23 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-135.0,75.0,85.0],
-            "lim2": [-135.0,-111.0,-5.0,85.0],
-            "lim3": [-111.0,-103.0,13.0,85.0],
-            "lim4": [-103.0,-97.0,22.0,85.0],
-            "lim5": [-97.0,-94.0,7.0,85.0],
-            "lim6": [-94.0,-92.0,3.0,85.0],
-            "lim7": [-92.0,-89.0,-1.0,85.0],
-            "lim8": [-89.0,-87.0,-4.0,85.0],
-            "lim9": [-87.0,-82.0,-6.0,85.0],
-            "lim10": [-82.0,77.0,-15.0,85.0],
-            "lim11": [77.0,81.0,0.0,85.0],
-            "lim12": [81.0,114.0,30.0,85.0],
-            "lim13": [114.0,151.0,42.0,85.0],
-            "lim14": [151.0,180.0,75.0,85.0]
+            "lim1": [-180.0,-135.0,75.0,90.0],
+            "lim2": [-135.0,-111.0,-5.0,90.0],
+            "lim3": [-111.0,-103.0,13.0,90.0],
+            "lim4": [-103.0,-97.0,22.0,90.0],
+            "lim5": [-97.0,-94.0,7.0,90.0],
+            "lim6": [-94.0,-92.0,3.0,90.0],
+            "lim7": [-92.0,-89.0,-1.0,90.0],
+            "lim8": [-89.0,-87.0,-4.0,90.0],
+            "lim9": [-87.0,-82.0,-6.0,90.0],
+            "lim10": [-82.0,77.0,-14.0,90.0],
+            "lim11": [77.0,81.0,0.0,90.0],
+            "lim12": [81.0,114.0,30.0,90.0],
+            "lim13": [114.0,151.0,42.0,90.0],
+            "lim14": [151.0,180.0,75.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -5997,23 +7121,23 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-135.0,75.0,85.0],
-            "lim2": [-135.0,-111.0,-5.0,85.0],
-            "lim3": [-111.0,-103.0,13.0,85.0],
-            "lim4": [-103.0,-97.0,22.0,85.0],
-            "lim5": [-97.0,-94.0,7.0,85.0],
-            "lim6": [-94.0,-92.0,3.0,85.0],
-            "lim7": [-92.0,-89.0,-1.0,85.0],
-            "lim8": [-89.0,-87.0,-4.0,85.0],
-            "lim9": [-87.0,-82.0,-6.0,85.0],
-            "lim10": [-82.0,77.0,-15.0,85.0],
-            "lim11": [77.0,81.0,0.0,85.0],
-            "lim12": [81.0,114.0,30.0,85.0],
-            "lim13": [114.0,151.0,42.0,85.0],
-            "lim14": [151.0,180.0,75.0,85.0]
+            "lim1": [-180.0,-135.0,75.0,90.0],
+            "lim2": [-135.0,-111.0,-5.0,90.0],
+            "lim3": [-111.0,-103.0,13.0,90.0],
+            "lim4": [-103.0,-97.0,22.0,90.0],
+            "lim5": [-97.0,-94.0,7.0,90.0],
+            "lim6": [-94.0,-92.0,3.0,90.0],
+            "lim7": [-92.0,-89.0,-1.0,90.0],
+            "lim8": [-89.0,-87.0,-4.0,90.0],
+            "lim9": [-87.0,-82.0,-6.0,90.0],
+            "lim10": [-82.0,77.0,-14.0,90.0],
+            "lim11": [77.0,81.0,0.0,90.0],
+            "lim12": [81.0,114.0,30.0,90.0],
+            "lim13": [114.0,151.0,42.0,90.0],
+            "lim14": [151.0,180.0,75.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6076,23 +7200,23 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-151.0,75.0,85.0],
-            "lim2": [-151.0,-114.0,42.0,85.0],
-            "lim3": [-114.0,-81.0,30.0,85.0],
-            "lim4": [-81.0,-77.0,0.0,85.0],
-            "lim5": [-77.0,82.0,-15.0,85.0],
-            "lim6": [82.0,87.0,-6.0,85.0],
-            "lim7": [87.0,89.0,-4.0,85.0],
-            "lim8": [89.0,92.0,-1.0,85.0],
-            "lim9": [92.0,94.0,3.0,85.0],
-            "lim10": [94.0,97.0,7.0,85.0],
-            "lim11": [97.0,103.0,22.0,85.0],
-            "lim12": [103.0,111.0,13.0,85.0],
-            "lim13": [111.0,135.0,-5.0,85.0],
-            "lim14": [135.0,180.0,75.0,85.0]
+            "lim1": [-180.0,-151.0,75.0,90.0],
+            "lim2": [-151.0,-114.0,42.0,90.0],
+            "lim3": [-114.0,-81.0,30.0,90.0],
+            "lim4": [-81.0,-77.0,0.0,90.0],
+            "lim5": [-77.0,82.0,-14.0,90.0],
+            "lim6": [82.0,87.0,-6.0,90.0],
+            "lim7": [87.0,89.0,-4.0,90.0],
+            "lim8": [89.0,92.0,-1.0,90.0],
+            "lim9": [92.0,94.0,3.0,90.0],
+            "lim10": [94.0,97.0,7.0,90.0],
+            "lim11": [97.0,103.0,22.0,90.0],
+            "lim12": [103.0,111.0,13.0,90.0],
+            "lim13": [111.0,135.0,-5.0,90.0],
+            "lim14": [135.0,180.0,75.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6155,23 +7279,23 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-151.0,75.0,85.0],
-            "lim2": [-151.0,-114.0,42.0,85.0],
-            "lim3": [-114.0,-81.0,30.0,85.0],
-            "lim4": [-81.0,-77.0,0.0,85.0],
-            "lim5": [-77.0,82.0,-15.0,85.0],
-            "lim6": [82.0,87.0,-6.0,85.0],
-            "lim7": [87.0,89.0,-4.0,85.0],
-            "lim8": [89.0,92.0,-1.0,85.0],
-            "lim9": [92.0,94.0,3.0,85.0],
-            "lim10": [94.0,97.0,7.0,85.0],
-            "lim11": [97.0,103.0,22.0,85.0],
-            "lim12": [103.0,111.0,13.0,85.0],
-            "lim13": [111.0,135.0,-5.0,85.0],
-            "lim14": [135.0,180.0,75.0,85.0]
+            "lim1": [-180.0,-151.0,75.0,90.0],
+            "lim2": [-151.0,-114.0,42.0,90.0],
+            "lim3": [-114.0,-81.0,30.0,90.0],
+            "lim4": [-81.0,-77.0,0.0,90.0],
+            "lim5": [-77.0,82.0,-14.0,90.0],
+            "lim6": [82.0,87.0,-6.0,90.0],
+            "lim7": [87.0,89.0,-4.0,90.0],
+            "lim8": [89.0,92.0,-1.0,90.0],
+            "lim9": [92.0,94.0,3.0,90.0],
+            "lim10": [94.0,97.0,7.0,90.0],
+            "lim11": [97.0,103.0,22.0,90.0],
+            "lim12": [103.0,111.0,13.0,90.0],
+            "lim13": [111.0,135.0,-5.0,90.0],
+            "lim14": [135.0,180.0,75.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6239,19 +7363,19 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-105.0,31.0,85.0],
-            "lim2": [-105.0,-92.0,-1.0,85.0],
-            "lim3": [-92.0,-86.0,-9.0,85.0],
-            "lim4": [-86.0,67.0,-15.0,85.0],
-            "lim5": [67.0,82.0,-7.0,85.0],
-            "lim6": [82.0,85.0,-3.0,85.0],
-            "lim7": [85.0,87.0,0.0,85.0],
-            "lim8": [87.0,90.0,4.0,85.0],
-            "lim9": [90.0,160.0,60.0,85.0],
-            "lim10": [160.0,180.0,27.0,85.0]
+            "lim1": [-180.0,-105.0,31.0,90.0],
+            "lim2": [-105.0,-92.0,-1.0,90.0],
+            "lim3": [-92.0,-86.0,-9.0,90.0],
+            "lim4": [-86.0,67.0,-14.0,90.0],
+            "lim5": [67.0,82.0,-7.0,90.0],
+            "lim6": [82.0,85.0,-3.0,90.0],
+            "lim7": [85.0,87.0,0.0,90.0],
+            "lim8": [87.0,90.0,4.0,90.0],
+            "lim9": [90.0,160.0,60.0,90.0],
+            "lim10": [160.0,180.0,27.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6314,19 +7438,19 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-105.0,31.0,85.0],
-            "lim2": [-105.0,-92.0,-1.0,85.0],
-            "lim3": [-92.0,-86.0,-9.0,85.0],
-            "lim4": [-86.0,67.0,-15.0,85.0],
-            "lim5": [67.0,82.0,-7.0,85.0],
-            "lim6": [82.0,85.0,-3.0,85.0],
-            "lim7": [85.0,87.0,0.0,85.0],
-            "lim8": [87.0,90.0,4.0,85.0],
-            "lim9": [90.0,160.0,60.0,85.0],
-            "lim10": [160.0,180.0,27.0,85.0]
+            "lim1": [-180.0,-105.0,31.0,90.0],
+            "lim2": [-105.0,-92.0,-1.0,90.0],
+            "lim3": [-92.0,-86.0,-9.0,90.0],
+            "lim4": [-86.0,67.0,-14.0,90.0],
+            "lim5": [67.0,82.0,-7.0,90.0],
+            "lim6": [82.0,85.0,-3.0,90.0],
+            "lim7": [85.0,87.0,0.0,90.0],
+            "lim8": [87.0,90.0,4.0,90.0],
+            "lim9": [90.0,160.0,60.0,90.0],
+            "lim10": [160.0,180.0,27.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6394,19 +7518,19 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-160.0,27.0,85.0],
-            "lim2": [-160.0,-90.0,60.0,85.0],
-            "lim3": [-90.0,-87.0,4.0,85.0],
-            "lim4": [-87.0,-85.0,0.0,85.0],
-            "lim5": [-85.0,-82.0,-3.0,85.0],
-            "lim6": [-82.0,-67.0,-7.0,85.0],
-            "lim7": [-67.0,86.0,-15.0,85.0],
-            "lim8": [86.0,92.0,-9.0,85.0],
-            "lim9": [92.0,105.0,-1.0,85.0],
-            "lim10": [105.0,180.0,31.0,85.0]
+            "lim1": [-180.0,-160.0,27.0,90.0],
+            "lim2": [-160.0,-90.0,60.0,90.0],
+            "lim3": [-90.0,-87.0,4.0,90.0],
+            "lim4": [-87.0,-85.0,0.0,90.0],
+            "lim5": [-85.0,-82.0,-3.0,90.0],
+            "lim6": [-82.0,-67.0,-7.0,90.0],
+            "lim7": [-67.0,86.0,-15.0,90.0],
+            "lim8": [86.0,92.0,-9.0,90.0],
+            "lim9": [92.0,105.0,-1.0,90.0],
+            "lim10": [105.0,180.0,31.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6469,19 +7593,19 @@
           },
           "limits": {
             "yaw": [-180.0,180.0],
-            "pitch": [-15.0,85.0]
+            "pitch": [-14.0,90.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-160.0,27.0,85.0],
-            "lim2": [-160.0,-90.0,60.0,85.0],
-            "lim3": [-90.0,-87.0,4.0,85.0],
-            "lim4": [-87.0,-85.0,0.0,85.0],
-            "lim5": [-85.0,-82.0,-3.0,85.0],
-            "lim6": [-82.0,-67.0,-7.0,85.0],
-            "lim7": [-67.0,86.0,-15.0,85.0],
-            "lim8": [86.0,92.0,-9.0,85.0],
-            "lim9": [92.0,105.0,-1.0,85.0],
-            "lim10": [105.0,180.0,31.0,85.0]
+            "lim1": [-180.0,-160.0,27.0,90.0],
+            "lim2": [-160.0,-90.0,60.0,90.0],
+            "lim3": [-90.0,-87.0,4.0,90.0],
+            "lim4": [-87.0,-85.0,0.0,90.0],
+            "lim5": [-85.0,-82.0,-3.0,90.0],
+            "lim6": [-82.0,-67.0,-7.0,90.0],
+            "lim7": [-67.0,86.0,-15.0,90.0],
+            "lim8": [86.0,92.0,-9.0,90.0],
+            "lim9": [92.0,105.0,-1.0,90.0],
+            "lim10": [105.0,180.0,31.0,90.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": true,
@@ -6568,14 +7692,14 @@
           "damagePartsOverride": {
             "ammo": {
               "fireDamageMult": 0.75,
-              "ammunition_storage_01_dm": [],
-              "ammunition_storage_02_dm": [],
-              "ammunition_storage_03_dm": [],
-              "ammunition_storage_04_dm": [],
-              "ammunition_storage_05_dm": [],
-              "ammunition_storage_06_dm": [],
-              "ammunition_storage_07_dm": [],
-              "ammunition_storage_09_dm": []
+              "ammunition_storage_shells_01_dm": [],
+              "ammunition_storage_shells_02_dm": [],
+              "ammunition_storage_shells_03_dm": [],
+              "ammunition_storage_shells_04_dm": [],
+              "ammunition_storage_charges_01_dm": [],
+              "ammunition_storage_charges_02_dm": [],
+              "ammunition_storage_charges_03_dm": [],
+              "ammunition_storage_charges_04_dm": []
             }
           }
         }
@@ -6587,6 +7711,10 @@
       "152mm_uk_navy_5_10crh_dist_fuse_ammo_pack": {
         "prevModification": "152mm_uk_navy_5_10crh_cpbc_ammo_pack"
       },
+      "152mm_uk_navy_5_10crh_radio_fuse": [],
+      "152mm_uk_navy_5_10crh_radio_fuse_ammo_pack": {
+        "prevModification": "ship_rangefinder"
+      },
       "102mm_uk_mkxvi_navy_HE": [],
       "102mm_uk_mkxvi_navy_SAP": [],
       "102mm_uk_mkxvi_navy_SAP_ammo_pack": [],
@@ -6594,8 +7722,12 @@
       "102mm_uk_mkxvi_navy_he_dist_fuse_ammo_pack": {
         "prevModification": "102mm_uk_mkxvi_navy_SAP_ammo_pack"
       },
-      "ship_rangefinder": {
+      "102mm_uk_mkxvi_navy_he_radio_fuse": [],
+      "102mm_uk_mkxvi_navy_he_radio_fuse_ammo_pack": {
         "prevModification": "102mm_uk_mkxvi_navy_he_dist_fuse_ammo_pack"
+      },
+      "ship_rangefinder": {
+        "prevModification": "152mm_uk_navy_5_10crh_dist_fuse_ammo_pack"
       },
       "new_aa_caliber_turrets": [],
       "new_aux_caliber_turrets": {
@@ -6616,239 +7748,116 @@
   },
   {
     "ammoStowages": {
-      "ammo1": [
-        {
-          "weaponTrigger": "gunner0"
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "replenishmentTime": 3.5
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "shells": {
-            "firstStage": true,
-            "fatalFire": false,
-            "fatalExplosion": false,
-            "explosionEvent": "ammo_explosion_1",
-            "fireEvent": "ammo_fire_1",
-            "elevator": "elevator_01_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammo_turret_01_dm": {
-              "count": 90
-            }
+      "ammo1": {
+        "weaponTrigger": "gunner0",
+        "shells": {
+          "fatalFire": true,
+          "fatalExplosion": true,
+          "damageEffect": "ammunition_storage_shells",
+          "explosionEvent": "ammo_explosion_1",
+          "fireEvent": "ammo_fire_1",
+          "elevator": "elevator_01_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_shells_01_dm": {
+            "count": 600
           }
         },
-        {
-          "shells": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_1",
-            "fireEvent": "ammo_fire_1",
-            "elevator": "elevator_01_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_01_dm": {
-              "count": 510
-            }
-          }
-        },
-        {
-          "charges": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "explosionEvent": "ammo_explosion_1",
-            "fireEvent": "ammo_fire_1",
-            "elevator": "elevator_01_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_02_dm": {
-              "count": 600
-            }
+        "charges": {
+          "fatalFire": false,
+          "damageEffect": "ammunition_storage_charges",
+          "explosionEvent": "ammo_explosion_1",
+          "fireEvent": "ammo_fire_1",
+          "fireParamsPreset": "ship_ammo_fire",
+          "elevator": "elevator_01_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_charges_01_dm": {
+            "count": 600
           }
         }
-      ],
-      "ammo2": [
-        {
-          "weaponTrigger": "gunner1"
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "replenishmentTime": 3.5
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "shells": {
-            "firstStage": true,
-            "fatalFire": false,
-            "fatalExplosion": false,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "elevator": "elevator_02_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammo_turret_02_dm": {
-              "count": 90
-            }
+      },
+      "ammo2": {
+        "weaponTrigger": "gunner1",
+        "shells": {
+          "fatalFire": true,
+          "fatalExplosion": true,
+          "damageEffect": "ammunition_storage_shells",
+          "explosionEvent": "ammo_explosion_2",
+          "fireEvent": "ammo_fire_2",
+          "elevator": "elevator_02_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_shells_02_dm": {
+            "count": 600
           }
         },
-        {
-          "shells": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "elevator": "elevator_02_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_03_dm": {
-              "count": 510
-            }
-          }
-        },
-        {
-          "charges": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "explosionEvent": "ammo_explosion_2",
-            "fireEvent": "ammo_fire_2",
-            "elevator": "elevator_02_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_04_dm": {
-              "count": 600
-            }
+        "charges": {
+          "fatalFire": false,
+          "damageEffect": "ammunition_storage_charges",
+          "explosionEvent": "ammo_explosion_2",
+          "fireEvent": "ammo_fire_2",
+          "fireParamsPreset": "ship_ammo_fire",
+          "elevator": "elevator_02_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_charges_02_dm": {
+            "count": 600
           }
         }
-      ],
-      "ammo3": [
-        {
-          "weaponTrigger": "gunner2"
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "replenishmentTime": 3.5
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "shells": {
-            "firstStage": true,
-            "fatalFire": false,
-            "fatalExplosion": false,
-            "explosionEvent": "ammo_explosion_3",
-            "fireEvent": "ammo_fire_3",
-            "elevator": "elevator_03_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammo_turret_03_dm": {
-              "count": 90
-            }
+      },
+      "ammo3": {
+        "weaponTrigger": "gunner2",
+        "shells": {
+          "fatalFire": true,
+          "fatalExplosion": true,
+          "damageEffect": "ammunition_storage_shells",
+          "explosionEvent": "ammo_explosion_3",
+          "fireEvent": "ammo_fire_3",
+          "elevator": "elevator_03_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_shells_03_dm": {
+            "count": 600
           }
         },
-        {
-          "shells": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_3",
-            "fireEvent": "ammo_fire_3",
-            "elevator": "elevator_03_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_05_dm": {
-              "count": 510
-            }
-          }
-        },
-        {
-          "charges": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "explosionEvent": "ammo_explosion_3",
-            "fireEvent": "ammo_fire_3",
-            "elevator": "elevator_03_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_06_dm": {
-              "count": 600
-            }
+        "charges": {
+          "fatalFire": false,
+          "damageEffect": "ammunition_storage_charges",
+          "explosionEvent": "ammo_explosion_3",
+          "fireEvent": "ammo_fire_3",
+          "fireParamsPreset": "ship_ammo_fire",
+          "elevator": "elevator_03_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_charges_03_dm": {
+            "count": 600
           }
         }
-      ],
-      "ammo4": [
-        {
-          "weaponTrigger": "gunner3"
-        },
-        {
-          "replenishmentDelay": 5.0
-        },
-        {
-          "replenishmentTime": 3.5
-        },
-        {
-          "removeLoadedAmmo": true
-        },
-        {
-          "shells": {
-            "firstStage": true,
-            "fatalFire": false,
-            "fatalExplosion": false,
-            "explosionEvent": "ammo_explosion_4",
-            "fireEvent": "ammo_fire_4",
-            "elevator": "elevator_04_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammo_turret_04_dm": {
-              "count": 90
-            }
+      },
+      "ammo4": {
+        "weaponTrigger": "gunner3",
+        "shells": {
+          "fatalFire": true,
+          "fatalExplosion": true,
+          "damageEffect": "ammunition_storage_shells",
+          "explosionEvent": "ammo_explosion_4",
+          "fireEvent": "ammo_fire_4",
+          "fireParamsPreset": "ship_ammo_fire",
+          "elevator": "elevator_04_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_shells_04_dm": {
+            "count": 600
           }
         },
-        {
-          "shells": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "fatalExplosion": true,
-            "explosionEvent": "ammo_explosion_4",
-            "fireEvent": "ammo_fire_4",
-            "elevator": "elevator_04_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_07_dm": {
-              "count": 510
-            }
-          }
-        },
-        {
-          "charges": {
-            "reloadTimeMult": 1.33,
-            "fatalFire": true,
-            "explosionEvent": "ammo_explosion_4",
-            "fireEvent": "ammo_fire_4",
-            "elevator": "elevator_04_dm",
-            "dstrElevatorDisablesShooting": false,
-            "ammunition_storage_08_dm": {
-              "count": 600
-            }
+        "charges": {
+          "fatalFire": false,
+          "damageEffect": "ammunition_storage_charges",
+          "explosionEvent": "ammo_explosion_4",
+          "fireEvent": "ammo_fire_4",
+          "fireParamsPreset": "ship_ammo_fire",
+          "elevator": "elevator_04_dm",
+          "dstrElevatorDisablesShooting": false,
+          "ammunition_storage_charges_04_dm": {
+            "count": 600
           }
         }
-      ],
+      },
       "ammo5": [
-        {
-          "weaponTrigger": "gunner4"
-        },
-        {
-          "weaponTrigger": "gunner5"
-        },
-        {
-          "weaponTrigger": "gunner6"
-        },
-        {
-          "weaponTrigger": "gunner7"
-        },
         {
           "weaponTrigger": "gunner8"
         },
@@ -6871,10 +7880,39 @@
           "shells": {
             "fatalFire": false,
             "fatalExplosion": false,
+            "damageEffect": "ammunition_storage_aux",
             "explosionEvent": "ammo_explosion_2",
             "fireEvent": "ammo_fire_2",
-            "ammunition_storage_09_dm": {
-              "count": 25600
+            "fireParamsPreset": "ship_ammo_fire",
+            "ammunition_storage_aux_01_dm": {
+              "count": 24000
+            }
+          }
+        }
+      ],
+      "ammo6": [
+        {
+          "weaponTrigger": "gunner4"
+        },
+        {
+          "weaponTrigger": "gunner5"
+        },
+        {
+          "weaponTrigger": "gunner6"
+        },
+        {
+          "weaponTrigger": "gunner7"
+        },
+        {
+          "shells": {
+            "fatalFire": false,
+            "fatalExplosion": false,
+            "damageEffect": "ammunition_storage_aux",
+            "explosionEvent": "ammo_explosion_2",
+            "fireEvent": "ammo_fire_2",
+            "fireParamsPreset": "ship_ammo_fire",
+            "ammunition_storage_aux_02_dm": {
+              "count": 1600
             }
           }
         }
@@ -6927,35 +7965,67 @@
         ]
       },
       {
-        "event": [
-          {
-            "name": "fuel_tank_fire"
-          },
-          {
-            "fx": {
-              "name": "ship_fire",
-              "emmiter": "emtr_fire_fuel_01"
-            }
-          },
-          {
-            "fx": {
-              "name": "ship_fire",
-              "emmiter": "emtr_fire_fuel_02"
-            }
-          },
-          {
-            "fx": {
-              "name": "ship_fire",
-              "emmiter": "emtr_fire_fuel_03"
-            }
-          },
-          {
-            "fx": {
-              "name": "ship_fire",
-              "emmiter": "emtr_fire_fuel_04"
-            }
+        "event": {
+          "name": "superstructure_back_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
           }
-        ]
+        }
+      },
+      {
+        "event": {
+          "name": "superstructure_front_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "superstructure_top_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "superstructure_bottom_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "superstructure_side_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "superstructure_fire",
+          "fx": {
+            "name": "ship_fire_medium",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
+          "name": "fuel_tank_fire",
+          "fx": {
+            "name": "ship_fire",
+            "centerDmgPart": true
+          }
+        }
       },
       {
         "event": [
@@ -7355,10 +8425,11 @@
         }
       },
       {
-        "procedural": {
-          "name": "default",
+        "event": {
+          "name": "procedural",
           "fx": {
-            "name": "ship_hit_fire"
+            "name": "ship_hit_fire",
+            "scale": 1.5
           }
         }
       }
@@ -7371,17 +8442,17 @@
   },
   {
     "breaches": {
-      "repairSpeed": 30.0,
-      "waterMassVel": -800000.0,
-      "waterMassMult": 280.0,
+      "repairSpeed": 45.0,
+      "waterMassVel": -500000.0,
+      "waterMassMult": 200.0,
       "sizeToRepair": [0.01,4.0,15.0,600.0],
       "additionalWaterDeathThreshold": 32000000.0,
       "additionalWaterShouldDiePercent": 0.3,
       "fatalBreachDrownTime": 45.0,
       "maxHeelingAngle": 37.0,
-      "maxHeelingTime": 12.0,
+      "maxHeelingTime": 40.0,
       "criticalHeelingAnglePercent": 0.5,
-      "maxCriticalHeelingTime": 2.0,
+      "maxCriticalHeelingTime": 1.0,
       "heelingDeathHeightOffsetMult": 1.0,
       "sideCenterOfMassOffsetPercent": 0.5
     }
@@ -7396,13 +8467,13 @@
           "innerParts": [
             {
               "part": {
-                "partNo": "ammunition_storage_01_dm",
+                "partNo": "ammunition_storage_shells_01_dm",
                 "critWaterLevel": 0.35
               }
             },
             {
               "part": {
-                "partNo": "ammunition_storage_02_dm",
+                "partNo": "ammunition_storage_charges_01_dm",
                 "critWaterLevel": 0.4
               }
             }
@@ -7417,19 +8488,19 @@
           "innerParts": [
             {
               "part": {
-                "partNo": "ammunition_storage_03_dm",
+                "partNo": "ammunition_storage_shells_02_dm",
                 "critWaterLevel": 0.35
               }
             },
             {
               "part": {
-                "partNo": "ammunition_storage_04_dm",
+                "partNo": "ammunition_storage_charges_02_dm",
                 "critWaterLevel": 0.4
               }
             },
             {
               "part": {
-                "partNo": "ammunition_storage_09_dm",
+                "partNo": "ammunition_storage_aux_01_dm",
                 "critWaterLevel": 0.5
               }
             }
@@ -7503,13 +8574,13 @@
             },
             {
               "part": {
-                "partNo": "ammunition_storage_03_dm",
+                "partNo": "ammunition_storage_shells_03_dm",
                 "critWaterLevel": 0.55
               }
             },
             {
               "part": {
-                "partNo": "ammunition_storage_04_dm",
+                "partNo": "ammunition_storage_shells_03_dm",
                 "critWaterLevel": 0.55
               }
             }
@@ -7524,13 +8595,13 @@
           "innerParts": [
             {
               "part": {
-                "partNo": "ammunition_storage_05_dm",
+                "partNo": "ammunition_storage_shells_04_dm",
                 "critWaterLevel": 0.55
               }
             },
             {
               "part": {
-                "partNo": "ammunition_storage_06_dm",
+                "partNo": "ammunition_storage_shells_04_dm",
                 "critWaterLevel": 0.55
               }
             }

@@ -1505,7 +1505,6 @@
     "arcade": {
       "baseDifficulty": 0,
       "engineControl": 0,
-      "respDifficulty": 0,
       "realGunnery": 0,
       "realDamageModels": false,
       "stallsAndSpins": false,
@@ -1513,40 +1512,39 @@
       "mortalPilots": true,
       "manualTrimming": false,
       "torqueAndGyro": false,
+      "flutter": false,
       "limitedBombsMissiles": false,
       "noArcadeBoost": 0,
       "limitViews": 0,
-      "flutter": false,
       "hudAimPrediction": true,
-      "hudShowSpeedVector": false,
       "hudMarkers": 2,
       "hudMarkerArrows": true,
       "hudAircraftMarkersMaxDist": 3,
       "hudIndicators": true,
       "hudShowTankDistance": true,
+      "hudTankRangefinder": 0,
       "hudMapAircraftMarkers": 2,
       "hudMapGroundMarkers": 2,
-      "hudTankMapAircraftMarkers": 2,
-      "hudTankMapGroundMarkers": 2,
       "hudMarkersBlink": true,
       "hudRadar": true,
       "hudDamageModel": 0,
       "hudDamageIndicator": true,
-      "hudTankDamageLog": true,
       "hudLargeAwardMessages": true,
       "hudWarnings": true,
-      "hudOutline": true,
       "noRespawns": false,
+      "respDifficulty": 0,
       "aircraftHelpers": true,
       "collectiveDetection": true,
       "distDetection": 2,
       "allowControlHelpers": 0,
       "forceInstructor": false,
       "playerTurretDeviation": 0,
-      "boostersFuel": 0,
+      "hudOutline": true,
       "ctaCaptureMul": 0,
       "damageModel": 0,
-      "hudTankRangefinder": 0,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": false,
       "noviceDM": false,
       "crewHealingOnlyOnCaptureZone": false,
       "showBombSight": true,
@@ -1555,15 +1553,18 @@
       "checkTreesForIndicators": false,
       "drawShipBulletFallIndicator": true,
       "showShipBulletTimer": true,
+      "ignoreReplenishment": false,
       "aircraftFriendlyFireForBanOnly": true,
       "enableLeaveKills": true,
       "airToAirMissileDetection": true,
-      "nightVisionInTPS": true
+      "nightVisionInTPS": true,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false
     },
     "realistic": {
       "baseDifficulty": 1,
       "engineControl": 1,
-      "respDifficulty": 1,
       "realGunnery": 1,
       "realDamageModels": true,
       "stallsAndSpins": true,
@@ -1571,57 +1572,59 @@
       "mortalPilots": true,
       "manualTrimming": false,
       "torqueAndGyro": false,
+      "flutter": true,
       "limitedBombsMissiles": true,
       "noArcadeBoost": 1,
       "limitViews": 0,
-      "flutter": true,
       "hudAimPrediction": false,
-      "hudShowSpeedVector": false,
       "hudMarkers": 2,
       "hudMarkerArrows": true,
       "hudAircraftMarkersMaxDist": 3,
       "hudIndicators": true,
       "hudShowTankDistance": false,
+      "hudTankRangefinder": 1,
       "hudMapAircraftMarkers": 2,
       "hudMapGroundMarkers": 2,
-      "hudTankMapAircraftMarkers": 2,
-      "hudTankMapGroundMarkers": 1,
       "hudMarkersBlink": true,
       "hudRadar": true,
       "hudDamageModel": 1,
       "hudDamageIndicator": true,
-      "hudTankDamageLog": true,
       "hudLargeAwardMessages": true,
       "hudWarnings": true,
-      "hudOutline": false,
-      "noRespawns": false,
+      "noRespawns": true,
+      "respDifficulty": 1,
       "aircraftHelpers": false,
       "collectiveDetection": true,
       "distDetection": 1,
       "allowControlHelpers": 0,
       "forceInstructor": false,
       "playerTurretDeviation": 1,
-      "boostersFuel": 1,
+      "hudOutline": false,
       "ctaCaptureMul": 1,
       "damageModel": 1,
-      "hudTankRangefinder": 1,
-      "hudSendSquareTimeInterval": 45,
-      "hudSendSquareNumPlayers": 3,
-      "hudSendSquareTimeFromStart": 900,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": false,
       "noviceDM": false,
       "crewHealingOnlyOnCaptureZone": true,
       "showBombSight": false,
       "showRadarGunSight": false,
       "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": false,
       "showShipBulletTimer": true,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": false,
       "enableLeaveKills": true,
       "airToAirMissileDetection": true,
-      "nightVisionInTPS": true
+      "nightVisionInTPS": true,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false
     },
     "hardcore": {
       "baseDifficulty": 2,
       "engineControl": 2,
-      "respDifficulty": 2,
       "realGunnery": 1,
       "realDamageModels": true,
       "stallsAndSpins": true,
@@ -1629,51 +1632,303 @@
       "mortalPilots": true,
       "manualTrimming": true,
       "torqueAndGyro": true,
+      "flutter": true,
       "limitedBombsMissiles": true,
       "noArcadeBoost": 1,
       "limitViews": 2,
-      "flutter": true,
       "hudAimPrediction": false,
-      "hudShowSpeedVector": false,
       "hudMarkers": 3,
       "hudMarkerArrows": false,
-      "hudAircraftMarkersMaxDist": 4,
+      "hudAircraftMarkersMaxDist": 0,
       "hudIndicators": true,
       "hudShowTankDistance": false,
+      "hudTankRangefinder": 2,
       "hudMapAircraftMarkers": 1,
       "hudMapGroundMarkers": 2,
-      "hudTankMapAircraftMarkers": 1,
-      "hudTankMapGroundMarkers": 0,
-      "hudMarkersBlink": true,
+      "hudMarkersBlink": false,
       "hudRadar": false,
-      "hudDamageModel": 2,
+      "hudDamageModel": 0,
       "hudDamageIndicator": true,
-      "hudTankDamageLog": true,
       "hudLargeAwardMessages": false,
       "hudWarnings": false,
-      "hudOutline": false,
-      "noRespawns": false,
+      "noRespawns": true,
+      "respDifficulty": 2,
       "aircraftHelpers": false,
       "collectiveDetection": true,
       "distDetection": 0,
       "allowControlHelpers": 3,
       "forceInstructor": false,
-      "playerTurretDeviation": 2,
-      "boostersFuel": 2,
+      "playerTurretDeviation": 0,
+      "hudOutline": false,
       "ctaCaptureMul": 2,
       "damageModel": 2,
-      "hudTankRangefinder": 2,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": false,
       "noviceDM": false,
       "crewHealingOnlyOnCaptureZone": true,
       "showBombSight": false,
       "showRadarGunSight": false,
       "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": false,
+      "showShipBulletTimer": false,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": false,
       "enableLeaveKills": true,
       "airToAirMissileDetection": false,
-      "nightVisionInTPS": false
+      "nightVisionInTPS": false,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false
     }
   },
-  "custom_difficulty": [],
+  "custom_difficulty": {
+    "tank_realistic": {
+      "baseDifficulty": 1,
+      "engineControl": 1,
+      "realGunnery": 1,
+      "realDamageModels": true,
+      "stallsAndSpins": true,
+      "redOuts": true,
+      "mortalPilots": true,
+      "manualTrimming": false,
+      "torqueAndGyro": false,
+      "flutter": true,
+      "limitedBombsMissiles": true,
+      "noArcadeBoost": 1,
+      "limitViews": 0,
+      "hudAimPrediction": false,
+      "hudMarkers": 1,
+      "hudMarkerArrows": true,
+      "hudAircraftMarkersMaxDist": 3,
+      "hudIndicators": true,
+      "hudShowTankDistance": false,
+      "hudTankRangefinder": 1,
+      "hudMapAircraftMarkers": 1,
+      "hudMapGroundMarkers": 1,
+      "hudMarkersBlink": true,
+      "hudRadar": false,
+      "hudDamageModel": 1,
+      "hudDamageIndicator": true,
+      "hudLargeAwardMessages": true,
+      "hudWarnings": true,
+      "noRespawns": true,
+      "respDifficulty": 1,
+      "aircraftHelpers": false,
+      "collectiveDetection": true,
+      "distDetection": 1,
+      "allowControlHelpers": 0,
+      "forceInstructor": false,
+      "playerTurretDeviation": 0,
+      "hudOutline": false,
+      "ctaCaptureMul": 1,
+      "damageModel": 1,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": true,
+      "noviceDM": false,
+      "crewHealingOnlyOnCaptureZone": true,
+      "showBombSight": false,
+      "showRadarGunSight": false,
+      "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": false,
+      "showShipBulletTimer": true,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": false,
+      "enableLeaveKills": true,
+      "airToAirMissileDetection": true,
+      "nightVisionInTPS": true,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false,
+      "setDifficulty": 1
+    },
+    "tank_hardcore": {
+      "baseDifficulty": 2,
+      "engineControl": 2,
+      "realGunnery": 1,
+      "realDamageModels": true,
+      "stallsAndSpins": true,
+      "redOuts": true,
+      "mortalPilots": true,
+      "manualTrimming": true,
+      "torqueAndGyro": true,
+      "flutter": true,
+      "limitedBombsMissiles": true,
+      "noArcadeBoost": 1,
+      "limitViews": 2,
+      "hudAimPrediction": false,
+      "hudMarkers": 0,
+      "hudMarkerArrows": false,
+      "hudAircraftMarkersMaxDist": 0,
+      "hudIndicators": true,
+      "hudShowTankDistance": false,
+      "hudTankRangefinder": 2,
+      "hudMapAircraftMarkers": 1,
+      "hudMapGroundMarkers": 0,
+      "hudMarkersBlink": false,
+      "hudRadar": false,
+      "hudDamageModel": 0,
+      "hudDamageIndicator": true,
+      "hudLargeAwardMessages": true,
+      "hudWarnings": false,
+      "noRespawns": true,
+      "respDifficulty": 2,
+      "aircraftHelpers": false,
+      "collectiveDetection": true,
+      "distDetection": 0,
+      "allowControlHelpers": 3,
+      "forceInstructor": false,
+      "playerTurretDeviation": 0,
+      "hudOutline": false,
+      "ctaCaptureMul": 2,
+      "damageModel": 2,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": true,
+      "noviceDM": false,
+      "crewHealingOnlyOnCaptureZone": true,
+      "showBombSight": false,
+      "showRadarGunSight": false,
+      "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": false,
+      "showShipBulletTimer": false,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": false,
+      "enableLeaveKills": true,
+      "airToAirMissileDetection": false,
+      "nightVisionInTPS": false,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false,
+      "setDifficulty": 2
+    },
+    "ship_arcade": {
+      "baseDifficulty": 0,
+      "engineControl": 0,
+      "realGunnery": 0,
+      "realDamageModels": false,
+      "stallsAndSpins": false,
+      "redOuts": true,
+      "mortalPilots": true,
+      "manualTrimming": false,
+      "torqueAndGyro": false,
+      "flutter": false,
+      "limitedBombsMissiles": false,
+      "noArcadeBoost": 0,
+      "limitViews": 0,
+      "hudAimPrediction": true,
+      "hudMarkers": 2,
+      "hudMarkerArrows": true,
+      "hudAircraftMarkersMaxDist": 3,
+      "hudIndicators": true,
+      "hudShowTankDistance": true,
+      "hudTankRangefinder": 0,
+      "hudMapAircraftMarkers": 2,
+      "hudMapGroundMarkers": 2,
+      "hudMarkersBlink": true,
+      "hudRadar": true,
+      "hudDamageModel": 0,
+      "hudDamageIndicator": true,
+      "hudLargeAwardMessages": true,
+      "hudWarnings": true,
+      "noRespawns": false,
+      "respDifficulty": 0,
+      "aircraftHelpers": true,
+      "collectiveDetection": false,
+      "distDetection": 2,
+      "allowControlHelpers": 0,
+      "forceInstructor": false,
+      "playerTurretDeviation": 0,
+      "hudOutline": true,
+      "ctaCaptureMul": 0,
+      "damageModel": 0,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": false,
+      "noviceDM": false,
+      "crewHealingOnlyOnCaptureZone": false,
+      "showBombSight": true,
+      "showRadarGunSight": true,
+      "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": true,
+      "showShipBulletTimer": true,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": true,
+      "enableLeaveKills": true,
+      "airToAirMissileDetection": true,
+      "nightVisionInTPS": true,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false,
+      "setDifficulty": 0
+    },
+    "ship_realistic": {
+      "baseDifficulty": 1,
+      "engineControl": 1,
+      "realGunnery": 1,
+      "realDamageModels": true,
+      "stallsAndSpins": true,
+      "redOuts": true,
+      "mortalPilots": true,
+      "manualTrimming": false,
+      "torqueAndGyro": false,
+      "flutter": true,
+      "limitedBombsMissiles": true,
+      "noArcadeBoost": 1,
+      "limitViews": 0,
+      "hudAimPrediction": false,
+      "hudMarkers": 1,
+      "hudMarkerArrows": true,
+      "hudAircraftMarkersMaxDist": 3,
+      "hudIndicators": true,
+      "hudShowTankDistance": false,
+      "hudTankRangefinder": 1,
+      "hudMapAircraftMarkers": 1,
+      "hudMapGroundMarkers": 1,
+      "hudMarkersBlink": true,
+      "hudRadar": false,
+      "hudDamageModel": 1,
+      "hudDamageIndicator": true,
+      "hudLargeAwardMessages": true,
+      "hudWarnings": false,
+      "noRespawns": true,
+      "respDifficulty": 1,
+      "aircraftHelpers": false,
+      "collectiveDetection": false,
+      "distDetection": 1,
+      "allowControlHelpers": 0,
+      "forceInstructor": false,
+      "playerTurretDeviation": 0,
+      "hudOutline": false,
+      "ctaCaptureMul": 1,
+      "damageModel": 1,
+      "hudSpawnShotMarkers": false,
+      "hudShowEnemyDamageLog": true,
+      "bombAssaultFuseTimeOverride": true,
+      "noviceDM": false,
+      "crewHealingOnlyOnCaptureZone": true,
+      "showBombSight": false,
+      "showRadarGunSight": false,
+      "visibleNotTraceableIndicators": true,
+      "checkTreesForIndicators": false,
+      "drawShipBulletFallIndicator": false,
+      "showShipBulletTimer": true,
+      "ignoreReplenishment": false,
+      "aircraftFriendlyFireForBanOnly": false,
+      "enableLeaveKills": true,
+      "airToAirMissileDetection": true,
+      "nightVisionInTPS": true,
+      "hudDetectAlly": false,
+      "keepDeadShipOnMap": true,
+      "hudSendSquare": false,
+      "setDifficulty": 1
+    }
+  },
   "difficulty_check": {
     "arcade": {
       "engineControl": 0,
@@ -1908,6 +2163,7 @@
         "PropellerVortexRing": false,
         "PropellerScreenEffect": false,
         "ArcadePropellerTangVelMin": true,
+        "RotorFlapCompensatorEfficiency": false,
         "AutopilotRestrictions": false,
         "autoIgnition": true,
         "autoIgnitionHelicopter": true,
@@ -1929,6 +2185,7 @@
         "PropellerVortexRing": true,
         "PropellerScreenEffect": true,
         "ArcadePropellerTangVelMin": false,
+        "RotorFlapCompensatorEfficiency": true,
         "AutopilotRestrictions": false,
         "autoIgnition": true,
         "autoIgnitionHelicopter": true,
@@ -1950,6 +2207,7 @@
         "PropellerVortexRing": true,
         "PropellerScreenEffect": true,
         "ArcadePropellerTangVelMin": false,
+        "RotorFlapCompensatorEfficiency": true,
         "AutopilotRestrictions": false,
         "autoIgnition": false,
         "autoIgnitionHelicopter": true,
@@ -2498,34 +2756,6 @@
         "hudMapGroundMarkers": 3
       }
     },
-    "hudTankMapAircraftMarkers": {
-      "off": {
-        "hudTankMapAircraftMarkers": 0
-      },
-      "team": {
-        "hudTankMapAircraftMarkers": 1
-      },
-      "all": {
-        "hudTankMapAircraftMarkers": 2
-      },
-      "hero": {
-        "hudTankMapAircraftMarkers": 3
-      }
-    },
-    "hudTankMapGroundMarkers": {
-      "off": {
-        "hudTankMapGroundMarkers": 0
-      },
-      "team": {
-        "hudTankMapGroundMarkers": 1
-      },
-      "all": {
-        "hudTankMapGroundMarkers": 2
-      },
-      "hero": {
-        "hudTankMapGroundMarkers": 3
-      }
-    },
     "hudMarkersBlink": {
       "off": {
         "hudMarkersBlink": false
@@ -2568,12 +2798,12 @@
         "hudDamageIndicator": true
       }
     },
-    "hudTankDamageLog": {
+    "hudShowEnemyDamageLog": {
       "off": {
-        "hudTankDamageLog": false
+        "hudShowEnemyDamageLog": false
       },
       "on": {
-        "hudTankDamageLog": true
+        "hudShowEnemyDamageLog": true
       }
     },
     "hudLargeAwardMessages": {
@@ -2697,17 +2927,6 @@
       "simulator": {
         "playerTurretDeviationAngle": 0.175,
         "playerTurretDeviationK": [0.35,1.0]
-      }
-    },
-    "boostersFuel": {
-      "arcade": {
-        "boostersFuel": 1.0
-      },
-      "realistic": {
-        "boostersFuel": 0.5
-      },
-      "simulator": {
-        "boostersFuel": 0.5
       }
     },
     "ctaCaptureMul": {
@@ -2931,6 +3150,45 @@
       },
       "on": {
         "nightVisionInTPS": true
+      }
+    },
+    "hudDetectAlly": {
+      "off": {
+        "hudDetectAlly": false
+      },
+      "on": {
+        "hudDetectAlly": true,
+        "hudDetectAllyCooldown": 5.0,
+        "hudDetectAllyTime": 3.0,
+        "hudDetectAllyPrepareTime": 2.0
+      }
+    },
+    "keepDeadTankOnMap": {
+      "off": {
+        "keepDeadTankOnMap": false
+      },
+      "on": {
+        "keepDeadTankOnMap": true
+      }
+    },
+    "keepDeadShipOnMap": {
+      "off": {
+        "keepDeadShipOnMap": false
+      },
+      "on": {
+        "keepDeadShipOnMap": true
+      }
+    },
+    "hudSendSquare": {
+      "off": {
+        "hudSendSquareTimeInterval": 0,
+        "hudSendSquareNumPlayers": 0,
+        "hudSendSquareTimeFromStart": 900
+      },
+      "on": {
+        "hudSendSquareTimeInterval": 30,
+        "hudSendSquareNumPlayers": 2,
+        "hudSendSquareTimeFromStart": 90
       }
     }
   },
@@ -4594,128 +4852,158 @@
     },
     {
       "fuel_tank": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_01": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_02": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_03": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_04": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_05": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_r_01": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_r_02": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_r_03": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_r_04": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_r_05": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_l_01": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_l_02": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_l_03": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_l_04": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
       "fuel_tank_l_05": {
-        "my": "tank_fuel_tank",
-        "enemy": "tank_fuel_tank"
+        "my": "ship_fuel_tank",
+        "enemy": "ship_fuel_tank"
       }
     },
     {
-      "radiator": {
-        "my": "tank_radiator",
-        "enemy": "tank_radiator"
+      "coal_bunker_01": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
       }
     },
     {
-      "radiator_l": {
-        "my": "tank_radiator",
-        "enemy": "tank_radiator"
+      "coal_bunker_02": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
       }
     },
     {
-      "radiator_r": {
-        "my": "tank_radiator",
-        "enemy": "tank_radiator"
+      "coal_bunker_03": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
       }
     },
     {
-      "radiator_l_01": {
-        "my": "tank_radiator",
-        "enemy": "tank_radiator"
+      "coal_bunker_04": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
       }
     },
     {
-      "radiator_r_01": {
-        "my": "tank_radiator",
-        "enemy": "tank_radiator"
+      "coal_bunker_05": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
+      }
+    },
+    {
+      "coal_bunker_06": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
+      }
+    },
+    {
+      "coal_bunker_07": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
+      }
+    },
+    {
+      "coal_bunker_08": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
+      }
+    },
+    {
+      "coal_bunker_09": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
+      }
+    },
+    {
+      "coal_bunker_10": {
+        "my": "ship_coal_bunker",
+        "enemy": "ship_coal_bunker"
       }
     },
     {
@@ -4725,7 +5013,145 @@
       }
     },
     {
-      "elevator": {
+      "pump_01": {
+        "my": "ship_pump",
+        "enemy": "ship_pump"
+      }
+    },
+    {
+      "pump_02": {
+        "my": "ship_pump",
+        "enemy": "ship_pump"
+      }
+    },
+    {
+      "pump_03": {
+        "my": "ship_pump",
+        "enemy": "ship_pump"
+      }
+    },
+    {
+      "pump_04": {
+        "my": "ship_pump",
+        "enemy": "ship_pump"
+      }
+    },
+    {
+      "elevator_01": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_02": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_03": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_04": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_05": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_06": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_07": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_08": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_09": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_10": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_11": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_12": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_13": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_14": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_15": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_16": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_17": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_18": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_19": {
+        "my": "ship_elevator",
+        "enemy": "ship_elevator"
+      }
+    },
+    {
+      "elevator_20": {
         "my": "ship_elevator",
         "enemy": "ship_elevator"
       }
@@ -4806,96 +5232,6 @@
       }
     },
     {
-      "commander": {
-        "my": "tank_commander",
-        "enemy": "tank_commander"
-      }
-    },
-    {
-      "loader": {
-        "my": "tank_loader",
-        "enemy": "tank_loader"
-      }
-    },
-    {
-      "loader_01": {
-        "my": "tank_loader",
-        "enemy": "tank_loader"
-      }
-    },
-    {
-      "loader_02": {
-        "my": "tank_loader",
-        "enemy": "tank_loader"
-      }
-    },
-    {
-      "loader_03": {
-        "my": "tank_loader",
-        "enemy": "tank_loader"
-      }
-    },
-    {
-      "loader_04": {
-        "my": "tank_loader",
-        "enemy": "tank_loader"
-      }
-    },
-    {
-      "gunner": {
-        "my": "tank_gunner",
-        "enemy": "tank_gunner"
-      }
-    },
-    {
-      "gunner_01": {
-        "my": "tank_gunner",
-        "enemy": "tank_gunner"
-      }
-    },
-    {
-      "gunner_02": {
-        "my": "tank_gunner",
-        "enemy": "tank_gunner"
-      }
-    },
-    {
-      "gunner_03": {
-        "my": "tank_gunner",
-        "enemy": "tank_gunner"
-      }
-    },
-    {
-      "gunner_04": {
-        "my": "tank_gunner",
-        "enemy": "tank_gunner"
-      }
-    },
-    {
-      "driver": {
-        "my": "ship_driver",
-        "enemy": "ship_driver"
-      }
-    },
-    {
-      "machine_gunner": {
-        "my": "tank_machine_gunner",
-        "enemy": "tank_machine_gunner"
-      }
-    },
-    {
-      "machine_gunner_01": {
-        "my": "tank_machine_gunner",
-        "enemy": "tank_machine_gunner"
-      }
-    },
-    {
-      "machine_gunner_02": {
-        "my": "tank_machine_gunner",
-        "enemy": "tank_machine_gunner"
-      }
-    },
-    {
       "compartment_01": {
         "my": "ship_compartment",
         "enemy": "ship_compartment"
@@ -4956,67 +5292,37 @@
       }
     },
     {
+      "compartment_11": {
+        "my": "ship_compartment",
+        "enemy": "ship_compartment"
+      }
+    },
+    {
+      "compartment_12": {
+        "my": "ship_compartment",
+        "enemy": "ship_compartment"
+      }
+    },
+    {
+      "compartment_13": {
+        "my": "ship_compartment",
+        "enemy": "ship_compartment"
+      }
+    },
+    {
+      "compartment_14": {
+        "my": "ship_compartment",
+        "enemy": "ship_compartment"
+      }
+    },
+    {
+      "compartment_15": {
+        "my": "ship_compartment",
+        "enemy": "ship_compartment"
+      }
+    },
+    {
       "break_line": []
-    },
-    {
-      "drive_turret_v_01": {
-        "my": "tank_drive_turret_v",
-        "enemy": "tank_drive_turret_v"
-      }
-    },
-    {
-      "drive_turret_v_02": {
-        "my": "tank_drive_turret_v",
-        "enemy": "tank_drive_turret_v"
-      }
-    },
-    {
-      "drive_turret_v_03": {
-        "my": "tank_drive_turret_v",
-        "enemy": "tank_drive_turret_v"
-      }
-    },
-    {
-      "drive_turret_v_04": {
-        "my": "tank_drive_turret_v",
-        "enemy": "tank_drive_turret_v"
-      }
-    },
-    {
-      "drive_turret_v_05": {
-        "my": "tank_drive_turret_v",
-        "enemy": "tank_drive_turret_v"
-      }
-    },
-    {
-      "drive_turret_h_01": {
-        "my": "tank_drive_turret_h",
-        "enemy": "tank_drive_turret_h"
-      }
-    },
-    {
-      "drive_turret_h_02": {
-        "my": "tank_drive_turret_h",
-        "enemy": "tank_drive_turret_h"
-      }
-    },
-    {
-      "drive_turret_h_03": {
-        "my": "tank_drive_turret_h",
-        "enemy": "tank_drive_turret_h"
-      }
-    },
-    {
-      "drive_turret_h_04": {
-        "my": "tank_drive_turret_h",
-        "enemy": "tank_drive_turret_h"
-      }
-    },
-    {
-      "drive_turret_h_05": {
-        "my": "tank_drive_turret_h",
-        "enemy": "tank_drive_turret_h"
-      }
     },
     {
       "main_caliber_gun_01": {
@@ -5074,6 +5380,66 @@
     },
     {
       "main_caliber_gun_10": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_11": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_12": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_13": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_14": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_15": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_16": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_17": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_18": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_19": {
+        "my": "ship_main_caliber_gun",
+        "enemy": "ship_main_caliber_gun"
+      }
+    },
+    {
+      "main_caliber_gun_20": {
         "my": "ship_main_caliber_gun",
         "enemy": "ship_main_caliber_gun"
       }
@@ -5139,6 +5505,66 @@
       }
     },
     {
+      "main_caliber_turret_11": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_12": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_13": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_14": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_15": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_16": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_17": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_18": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_19": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
+      "main_caliber_turret_20": {
+        "my": "ship_main_caliber_turret",
+        "enemy": "ship_main_caliber_turret"
+      }
+    },
+    {
       "auxiliary_caliber_gun_01": {
         "my": "ship_auxiliary_caliber_gun",
         "enemy": "ship_auxiliary_caliber_gun"
@@ -5199,6 +5625,66 @@
       }
     },
     {
+      "auxiliary_caliber_gun_11": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_12": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_13": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_14": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_15": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_16": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_17": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_18": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_19": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
+      "auxiliary_caliber_gun_20": {
+        "my": "ship_auxiliary_caliber_gun",
+        "enemy": "ship_auxiliary_caliber_gun"
+      }
+    },
+    {
       "auxiliary_caliber_turret_01": {
         "my": "ship_auxiliary_caliber_turret",
         "enemy": "ship_auxiliary_caliber_turret"
@@ -5254,6 +5740,66 @@
     },
     {
       "auxiliary_caliber_turret_10": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_11": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_12": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_13": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_14": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_15": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_16": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_17": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_18": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_19": {
+        "my": "ship_auxiliary_caliber_turret",
+        "enemy": "ship_auxiliary_caliber_turret"
+      }
+    },
+    {
+      "auxiliary_caliber_turret_20": {
         "my": "ship_auxiliary_caliber_turret",
         "enemy": "ship_auxiliary_caliber_turret"
       }
@@ -5355,6 +5901,30 @@
       }
     },
     {
+      "aa_gun_17": {
+        "my": "ship_aa_gun",
+        "enemy": "ship_aa_gun"
+      }
+    },
+    {
+      "aa_gun_18": {
+        "my": "ship_aa_gun",
+        "enemy": "ship_aa_gun"
+      }
+    },
+    {
+      "aa_gun_19": {
+        "my": "ship_aa_gun",
+        "enemy": "ship_aa_gun"
+      }
+    },
+    {
+      "aa_gun_20": {
+        "my": "ship_aa_gun",
+        "enemy": "ship_aa_gun"
+      }
+    },
+    {
       "cannon_breech": {
         "my": "tank_cannon_breech",
         "enemy": "tank_cannon_breech"
@@ -5421,87 +5991,63 @@
       }
     },
     {
-      "mg_01": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_02": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_03": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_04": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_05": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_l_01": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_l_02": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_r_01": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
-      "mg_r_02": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
-      }
-    },
-    {
       "gun_mask_01_dm": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
       }
     },
     {
       "gun_mask_02_dm": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
       }
     },
     {
       "gun_mask_03_dm": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
       }
     },
     {
       "gun_mask_04_dm": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
       }
     },
     {
       "gun_mask_05_dm": {
-        "my": "ship_machine_gun",
-        "enemy": "ship_machine_gun"
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
+      }
+    },
+    {
+      "gun_mask_06_dm": {
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
+      }
+    },
+    {
+      "gun_mask_07_dm": {
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
+      }
+    },
+    {
+      "gun_mask_08_dm": {
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
+      }
+    },
+    {
+      "gun_mask_09_dm": {
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
+      }
+    },
+    {
+      "gun_mask_10_dm": {
+        "my": "ship_gun_mask",
+        "enemy": "ship_gun_mask"
       }
     },
     {
@@ -5560,6 +6106,36 @@
     },
     {
       "ammunition_storage_10": {
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
+      }
+    },
+    {
+      "ammunition_storage_11": {
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
+      }
+    },
+    {
+      "ammunition_storage_12": {
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
+      }
+    },
+    {
+      "ammunition_storage_13": {
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
+      }
+    },
+    {
+      "ammunition_storage_14": {
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
+      }
+    },
+    {
+      "ammunition_storage_15": {
         "my": "ship_ammunition_storage",
         "enemy": "ship_ammunition_storage"
       }
@@ -5625,6 +6201,36 @@
       }
     },
     {
+      "ammunition_storage_shells_11": {
+        "my": "ship_ammunition_storage_shells",
+        "enemy": "ship_ammunition_storage_shells"
+      }
+    },
+    {
+      "ammunition_storage_shells_12": {
+        "my": "ship_ammunition_storage_shells",
+        "enemy": "ship_ammunition_storage_shells"
+      }
+    },
+    {
+      "ammunition_storage_shells_13": {
+        "my": "ship_ammunition_storage_shells",
+        "enemy": "ship_ammunition_storage_shells"
+      }
+    },
+    {
+      "ammunition_storage_shells_14": {
+        "my": "ship_ammunition_storage_shells",
+        "enemy": "ship_ammunition_storage_shells"
+      }
+    },
+    {
+      "ammunition_storage_shells_15": {
+        "my": "ship_ammunition_storage_shells",
+        "enemy": "ship_ammunition_storage_shells"
+      }
+    },
+    {
       "ammunition_storage_charges_01": {
         "my": "ship_ammunition_storage_charges",
         "enemy": "ship_ammunition_storage_charges"
@@ -5685,249 +6291,339 @@
       }
     },
     {
+      "ammunition_storage_charges_11": {
+        "my": "ship_ammunition_storage_charges",
+        "enemy": "ship_ammunition_storage_charges"
+      }
+    },
+    {
+      "ammunition_storage_charges_12": {
+        "my": "ship_ammunition_storage_charges",
+        "enemy": "ship_ammunition_storage_charges"
+      }
+    },
+    {
+      "ammunition_storage_charges_13": {
+        "my": "ship_ammunition_storage_charges",
+        "enemy": "ship_ammunition_storage_charges"
+      }
+    },
+    {
+      "ammunition_storage_charges_14": {
+        "my": "ship_ammunition_storage_charges",
+        "enemy": "ship_ammunition_storage_charges"
+      }
+    },
+    {
+      "ammunition_storage_charges_15": {
+        "my": "ship_ammunition_storage_charges",
+        "enemy": "ship_ammunition_storage_charges"
+      }
+    },
+    {
       "ammunition_storage_aux_01": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_02": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_03": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_04": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_05": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_06": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_07": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_08": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_09": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammunition_storage_aux_10": {
-        "my": "ship_ammunition_storage_aux",
-        "enemy": "ship_ammunition_storage_aux"
+        "my": "ship_ammunition_storage",
+        "enemy": "ship_ammunition_storage"
       }
     },
     {
       "ammo_turret": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_01": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_02": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_03": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_04": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_05": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_06": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_07": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_08": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_09": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
       "ammo_turret_10": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_11": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_01": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_12": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_02": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_13": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_03": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_14": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_04": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_15": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_05": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_16": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_06": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_17": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_07": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_18": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_08": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_19": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_09": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_20": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_l_01": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_21": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_l_02": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_22": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_l_03": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_23": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_l_04": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_24": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_l_05": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_25": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_r_01": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_26": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_r_02": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_27": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_r_03": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_28": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_r_04": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_29": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
-      "ammo_body_r_05": {
-        "my": "tank_ammo",
-        "enemy": "tank_ammo"
+      "ammo_turret_30": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_31": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_32": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_33": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_34": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_35": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_36": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_37": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_38": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_39": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
+      }
+    },
+    {
+      "ammo_turret_40": {
+        "my": "ship_ammo",
+        "enemy": "ship_ammo"
       }
     },
     {
@@ -5950,6 +6646,72 @@
     },
     {
       "tt_04": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_05": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_06": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_07": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_08": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_09": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_10": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_11": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_12": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_13": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_14": {
+        "my": "ship_torpedo_tube",
+        "enemy": "ship_torpedo_tube"
+      }
+    },
+    {
+      "tt_15": {
         "my": "ship_torpedo_tube",
         "enemy": "ship_torpedo_tube"
       }
@@ -7630,6 +8392,12 @@
       },
       {
         "p": {
+          "name": "coal_bunker",
+          "unit": "ship"
+        }
+      },
+      {
+        "p": {
           "name": "bridge",
           "unit": "ship"
         }
@@ -8953,6 +9721,198 @@
           "name": "wheel_l_04_",
           "modelNames": "rooikat_76_mk_1d"
         }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "rooikat_105_td"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "landsverk_ush_405"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "landsverk_ush_405"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "landsverk_ush_405"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "landsverk_ush_405"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "tgdgb_m40_lv"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "tgdgb_m40_lv"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "tgdgb_m40_lv"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "tgdgb_m40_lv"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "radpanzer_90"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_01_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_01_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_02_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_02_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_03_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_03_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_r_04_",
+          "modelNames": "centauro_mgs_120"
+        }
+      },
+      {
+        "p": {
+          "name": "wheel_l_04_",
+          "modelNames": "centauro_mgs_120"
+        }
       }
     ],
     "crew": [
@@ -9287,6 +10247,12 @@
       {
         "p": {
           "name": "elevator",
+          "unit": "ship"
+        }
+      },
+      {
+        "p": {
+          "name": "coal_bunker",
           "unit": "ship"
         }
       },
@@ -12402,16 +13368,13 @@
     }
   ],
   "holeRenderingRadiusConstants": {
-    "caliberMultiplier": 3.0,
-    "maxCaliberTreshold": 0.2,
-    "minCaliberTreshold": 0.0,
-    "maxSplashRadiusTreshold": 0.2,
-    "randomRadiusAddition": 0.05,
-    "minRadiusCreation": 0.1,
+    "maxRadius": 0.3,
+    "minRadius": 0.025,
     "radiusReplacementTreshold": 0.2,
     "radiusMultiplierForCheck": 0.5,
     "sideMultiplierForCheck": 2.0,
-    "doNotMakeHoleInWreckedPart": true
+    "additionalLength": 0.2,
+    "doNotMakeHoleInWreckedPart": false
   },
   "tpsNightVision": {
     "resolution": [1920,1080],

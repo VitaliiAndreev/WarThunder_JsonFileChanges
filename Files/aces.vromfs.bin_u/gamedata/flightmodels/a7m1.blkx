@@ -2415,7 +2415,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2617,7 +2623,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2807,7 +2819,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2997,7 +3015,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3196,7 +3220,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3386,7 +3416,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3576,7 +3612,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3763,7 +3805,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3953,7 +4001,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4143,7 +4197,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4333,7 +4393,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4523,7 +4589,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -5914,6 +5986,31 @@
       }
     }
   ],
+  "user_skin": [
+    {
+      "name": "a7m1"
+    },
+    {
+      "replace_tex": {
+        "from": "a7m1_a*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "a7m1_a_dmg*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "a7m1_n*"
+      }
+    },
+    {
+      "replace_tex": {
+        "from": "a7m1_n_dmg*"
+      }
+    }
+  ],
   "modifications": {
     "cd_98": [],
     "CdMin_Fuse": [],
@@ -5944,31 +6041,6 @@
       "reqModLevel": 6.0
     }
   },
-  "user_skin": [
-    {
-      "name": "userskin"
-    },
-    {
-      "replace_tex": {
-        "from": "a7m1_a*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "a7m1_a_dmg*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "a7m1_n*"
-      }
-    },
-    {
-      "replace_tex": {
-        "from": "a7m1_n_dmg*"
-      }
-    }
-  ],
   "cutting": {
     "_emtr_break_wing0_l_from": [-1.23503,-0.378707,1.06237],
     "_emtr_break_wing0_l_to": [-1.23503,-0.378707,1.96693],

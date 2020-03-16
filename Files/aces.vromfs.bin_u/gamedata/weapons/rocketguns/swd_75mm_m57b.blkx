@@ -18,19 +18,19 @@
       "mass": 7.0
     },
     {
-      "explosiveType": "rdx"
+      "explosiveType": "torpex"
     },
     {
       "bulletType": "heat_tank"
     },
     {
-      "explosiveMass": 0.71
+      "explosiveMass": 0.75
     },
     {
       "massEnd": 4.0
     },
     {
-      "maxDeltaAngle": 2.5
+      "maxDeltaAngle": 1.0
     },
     {
       "dragCx": 0.001
@@ -156,7 +156,7 @@
       "startSpeed": 30.0
     },
     {
-      "endSpeed": 500.0
+      "endSpeed": 800.0
     },
     {
       "maxSpeed": 750.0

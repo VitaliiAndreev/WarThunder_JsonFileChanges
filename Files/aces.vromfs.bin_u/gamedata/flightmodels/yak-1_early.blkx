@@ -210,33 +210,6 @@
     }
   },
   {
-    "user_skin": [
-      {
-        "name": "yak_1b"
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1b_a*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1b_a_dmg*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1b_n*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "yak_1b_n_dmg*"
-        }
-      }
-    ]
-  },
-  {
     "wiki": {
       "general": {
         "length": 8.5,
@@ -2390,6 +2363,33 @@
           "name": "fab100",
           "blk": "gameData/FlightModels/weaponPresets/yak-1b_fab100.blk",
           "reqModification": "yak-1_bi-42"
+        }
+      }
+    ]
+  },
+  {
+    "user_skin": [
+      {
+        "name": "yak_1_early"
+      },
+      {
+        "replace_tex": {
+          "from": "yak_1_early_green_a*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "yak_1_early_green_a_dmg*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "yak_1_early_green_n*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "yak_1_early_green_n_dmg*"
         }
       }
     ]

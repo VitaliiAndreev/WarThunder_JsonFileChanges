@@ -22,25 +22,87 @@
       "maxTankFireTime": [30.0,35.0],
       "fireDamagePowerRel": 0.01,
       "underwaterExtinguishTime": 1.0,
-      "underwaterExtinguishAdditionalWater": 5000.0
+      "underwaterExtinguishAdditionalWater": 0.05
+    },
+    "ship_construction": {
+      "damage": 0.0001,
+      "radiusScale": 0.0001,
+      "radiusScales": [0.0001,0.0001],
+      "maxFireTime": [30.0,60.0],
+      "allowMultipleFires": false,
+      "fxPresetName": "procedural",
+      "nonExtinguishFireTime": 1.0
+    },
+    "ship_superstructure_back": {
+      "damage": 0.01,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_back_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
+    },
+    "ship_superstructure_front": {
+      "damage": 0.01,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_front_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
+    },
+    "ship_superstructure_top": {
+      "damage": 0.01,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_top_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
+    },
+    "ship_superstructure_bottom": {
+      "damage": 0.01,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_bottom_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
+    },
+    "ship_superstructure_side": {
+      "damage": 0.01,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_side_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
     },
     "ship_superstructure": {
-      "damage": 0.001,
+      "damage": 0.01,
       "radiusScale": 0.5,
-      "radiusScales": [0.1,0.5],
-      "allowMultipleFires": true,
-      "maxFireTime": [25.0,60.0],
-      "nonExtinguishFireTime": 5.0
+      "radiusScales": [0.5,1.5],
+      "allowMultipleFires": false,
+      "fxPresetName": "superstructure_fire",
+      "maxFireTime": [15.0,60.0],
+      "nonExtinguishFireTime": 5.0,
+      "checkAdditionalWater": false
     },
     "ship_cover": {
-      "damage": 0.005,
+      "damage": 0.01,
       "radiusScale": 0.2,
-      "radiusScales": [0.1,0.3],
-      "allowMultipleFires": true,
-      "maxFireTime": [15.0,20.0],
+      "radiusScales": [0.2,1.0],
+      "allowMultipleFires": false,
+      "fxPresetName": "engine_fire",
+      "maxFireTime": [15.0,60.0],
       "nonExtinguishFireTime": 5.0,
-      "underwaterExtinguishTime": 1.0,
-      "underwaterExtinguishAdditionalWater": 1000.0,
+      "underwaterExtinguishTime": 10.0,
+      "underwaterExtinguishAdditionalWater": 0.05,
       "checkAdditionalWater": true
     },
     "ship_engine": {
@@ -48,37 +110,39 @@
       "radiusScales": [0.4,1.3],
       "maxFireTime": [15.0,40.0],
       "nonExtinguishFireTime": 5.0,
-      "underwaterExtinguishTime": 1.0,
-      "underwaterExtinguishAdditionalWater": 2000.0,
+      "underwaterExtinguishTime": 10.0,
+      "underwaterExtinguishAdditionalWater": 0.03,
       "checkAdditionalWater": true
     },
     "ship_turrets": {
       "damage": 0.01,
-      "radiusScales": [0.4,1.0],
+      "radiusScales": [0.3,0.3],
       "maxFireTime": [15.0,40.0],
       "nonExtinguishFireTime": 5.0,
-      "underwaterExtinguishTime": 1.0,
-      "underwaterExtinguishAdditionalWater": 5000.0
+      "underwaterExtinguishTime": 10.0,
+      "underwaterExtinguishAdditionalWater": 0.9,
+      "checkAdditionalWater": true
     },
     "ship_fuel_tank": {
       "damage": 0.05,
-      "radiusScales": [0.5,1.7],
+      "radiusScales": [0.5,2.5],
       "maxFireTime": [20.0,30.0],
       "nonExtinguishFireTime": 10.0,
-      "underwaterExtinguishTime": 1.0,
-      "underwaterExtinguishAdditionalWater": 5000.0,
-      "useFxProcedurals": true,
+      "underwaterExtinguishTime": 10.0,
+      "underwaterExtinguishAdditionalWater": 0.07,
+      "allowMultipleFx": true,
+      "fxPresetName": "fuel_tank_fire",
       "checkAdditionalWater": true
     },
     "ship_ammo_fire": {
-      "damage": 1.0,
-      "isDamageRelative": false,
-      "radiusScales": [1.5,4.0],
-      "maxFireTime": [10.0,35.0],
-      "extinguishChance": 1.0,
-      "nonExtinguishFireTime": 20.0,
+      "damage": 0.05,
+      "radiusScale": 0.5,
+      "radiusScales": [0.5,2.0],
+      "allowMultipleFires": false,
+      "maxFireTime": [12.0,60.0],
+      "nonExtinguishFireTime": 10.0,
       "underwaterExtinguishTime": 10.0,
-      "underwaterExtinguishAdditionalWater": 8000.0,
+      "underwaterExtinguishAdditionalWater": 0.035,
       "checkAdditionalWater": true
     },
     "default_metapart": {
@@ -171,14 +235,14 @@
     },
     "1000kph": {
       "damage": 0.05,
-      "engineExtinguishFireSpeed": [221.0,306.0],
+      "engineExtinguishFireSpeed": [244.0,288.0],
       "engineExtinguishFireSpeedChance": [0.01,0.1],
       "nonExtinguishFireTime": 5.0,
       "fireDamagePowerRel": 0.05
     },
     "1100kph": {
       "damage": 0.05,
-      "engineExtinguishFireSpeed": [249.0,334.0],
+      "engineExtinguishFireSpeed": [272.0,316.0],
       "engineExtinguishFireSpeedChance": [0.01,0.1],
       "nonExtinguishFireTime": 5.0,
       "fireDamagePowerRel": 0.05
@@ -188,7 +252,7 @@
         "damage": 0.05
       },
       {
-        "engineExtinguishFireSpeed": [275.0,430.0]
+        "engineExtinguishFireSpeed": [299.0,345.0]
       },
       {
         "engineExtinguishFireSpeedChance": [0.01,0.1]
@@ -208,7 +272,147 @@
         "damage": 0.05
       },
       {
-        "engineExtinguishFireSpeed": [415.0,486.0]
+        "engineExtinguishFireSpeed": [328.0,372.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1400kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [356.0,400.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1500kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [383.0,427.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1600kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [420.0,455.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1700kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [439.0,483.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1800kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [467.0,511.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "1900kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [495.0,539.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "2000kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [523.0,567.0]
       },
       {
         "engineExtinguishFireSpeedChance": [0.01,0.1]
@@ -228,7 +432,7 @@
         "damage": 0.05
       },
       {
-        "engineExtinguishFireSpeed": [620.0,660.0]
+        "engineExtinguishFireSpeed": [550.0,594.0]
       },
       {
         "engineExtinguishFireSpeedChance": [0.01,0.1]
@@ -248,7 +452,47 @@
         "damage": 0.05
       },
       {
-        "engineExtinguishFireSpeed": [630.0,670.0]
+        "engineExtinguishFireSpeed": [578.0,622.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "2300kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [606.0,650.0]
+      },
+      {
+        "engineExtinguishFireSpeedChance": [0.01,0.1]
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      },
+      {
+        "nonExtinguishFireTime": 5.0
+      },
+      {
+        "fireDamagePowerRel": 0.05
+      }
+    ],
+    "2400kph": [
+      {
+        "damage": 0.05
+      },
+      {
+        "engineExtinguishFireSpeed": [634.0,678.0]
       },
       {
         "engineExtinguishFireSpeedChance": [0.01,0.1]

@@ -1,5 +1,6 @@
 {
   "type": "radar",
+  "showMissileLaunchZone": true,
   "transivers": {
     "ranging": {
       "sideLobesAttenuation": -16.0,
@@ -46,6 +47,12 @@
       "stateInit": "init",
       "actionsTemplates": {
         "init": {
+          "setEnabled": {
+            "value": false
+          },
+          "setTransiver": {
+            "transiver": "ranging"
+          },
           "setSignal": {
             "signal": "ranging"
           },
@@ -69,12 +76,20 @@
           }
         },
         "setStandbyMode": {
-          "setTransiver": [],
+          "setModeName": {
+            "name": "standby"
+          },
+          "setEnabled": {
+            "value": false
+          },
           "clearTargets": []
         },
         "setLockMode": {
-          "setTransiver": {
-            "transiver": "ranging"
+          "setModeName": {
+            "name": "acquisition"
+          },
+          "setEnabled": {
+            "value": true
           },
           "clearTargets": [],
           "clearTargetsOfInterest": [],
@@ -90,8 +105,11 @@
           }
         },
         "setTrackMode": {
-          "setTransiver": {
-            "transiver": "ranging"
+          "setModeName": {
+            "name": "track"
+          },
+          "setEnabled": {
+            "value": true
           },
           "clearTargetsOfInterest": [],
           "addTargetOfInterest": [],

@@ -21,7 +21,7 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
-  "fireParamsPreset": "1200kph",
+  "fireParamsPreset": "1500kph",
   "fightAiBehaviour": "fighter",
   "DamageParts": {
     "armor10": {
@@ -37,6 +37,9 @@
     },
     "armor16": {
       "armor2_dm": {
+        "hp": 45.0
+      },
+      "armor4_dm": {
         "hp": 45.0
       }
     },
@@ -373,6 +376,11 @@
     {
       "part": {
         "name": "armor3_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "armor4_dm"
       }
     },
     {
@@ -2142,7 +2150,7 @@
     "radiusSpeed": 2.0
   },
   "fireParams": {
-    "engineExtinguishFireSpeed": [275.0,430.0],
+    "engineExtinguishFireSpeed": [383.0,427.0],
     "engineExtinguishFireSpeedChance": [0.01,0.1],
     "fireDamagePowerRel": 0.05,
     "nonExtinguishFireTime": 5.0

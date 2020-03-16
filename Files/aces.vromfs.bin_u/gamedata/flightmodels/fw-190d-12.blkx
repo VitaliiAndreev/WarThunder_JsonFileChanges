@@ -28,6 +28,9 @@
       },
       "cannon3_dm": {
         "hp": 15.0
+      },
+      "cannon4_dm": {
+        "hp": 15.0
       }
     },
     "armor12": {
@@ -382,6 +385,11 @@
     {
       "part": {
         "name": "cannon3_dm"
+      }
+    },
+    {
+      "part": {
+        "name": "cannon4_dm"
       }
     },
     {
@@ -2132,6 +2140,11 @@
         "bullets": 220,
         "spread": 1.1,
         "counterIndex": 3
+      }
+    },
+    {
+      "hideDmParts": {
+        "node": "cannon4_dm"
       }
     }
   ],

@@ -1080,6 +1080,66 @@
             "name": "ammo_turret_55_dm"
           },
           {
+            "name": "ammo_turret_56_dm"
+          },
+          {
+            "name": "ammo_turret_57_dm"
+          },
+          {
+            "name": "ammo_turret_58_dm"
+          },
+          {
+            "name": "ammo_turret_59_dm"
+          },
+          {
+            "name": "ammo_turret_60_dm"
+          },
+          {
+            "name": "ammo_turret_61_dm"
+          },
+          {
+            "name": "ammo_turret_62_dm"
+          },
+          {
+            "name": "ammo_turret_63_dm"
+          },
+          {
+            "name": "ammo_turret_64_dm"
+          },
+          {
+            "name": "ammo_turret_65_dm"
+          },
+          {
+            "name": "ammo_turret_66_dm"
+          },
+          {
+            "name": "ammo_turret_67_dm"
+          },
+          {
+            "name": "ammo_turret_68_dm"
+          },
+          {
+            "name": "ammo_turret_69_dm"
+          },
+          {
+            "name": "ammo_turret_70_dm"
+          },
+          {
+            "name": "ammo_turret_71_dm"
+          },
+          {
+            "name": "ammo_turret_72_dm"
+          },
+          {
+            "name": "ammo_turret_73_dm"
+          },
+          {
+            "name": "ammo_turret_74_dm"
+          },
+          {
+            "name": "ammo_turret_75_dm"
+          },
+          {
             "onHit": {
               "damageType": "cumulative",
               "expl": 0.4,
@@ -1537,6 +1597,13 @@
     }
   },
   {
+    "gunConvergence": {
+      "distance": 800.0,
+      "vertical": true,
+      "horizontal": true
+    }
+  },
+  {
     "sound": {
       "EngineName": "engine_valentine",
       "TrackSoundPath": "tanks/engines_tanks",
@@ -1741,24 +1808,6 @@
               "name": "tank_engine_fire",
               "emitter": "emtr_fire_engine_02"
             }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_01"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_02"
-            }
           }
         ]
       },
@@ -1770,67 +1819,78 @@
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo"
+              "emitter": "emtr_fire_ammo",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_01"
+              "emitter": "emtr_fire_ammo_01",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_02"
+              "emitter": "emtr_fire_ammo_02",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_03"
+              "emitter": "emtr_fire_ammo_03",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_04"
+              "emitter": "emtr_fire_ammo_04",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_05"
+              "emitter": "emtr_fire_ammo_05",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_06"
+              "emitter": "emtr_fire_ammo_06",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_07"
+              "emitter": "emtr_fire_ammo_07",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_08"
+              "emitter": "emtr_fire_ammo_08",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_09"
+              "emitter": "emtr_fire_ammo_09",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_10"
+              "emitter": "emtr_fire_ammo_10",
+              "useVelocity": false
             }
           }
         ]
@@ -1976,7 +2036,7 @@
           },
           {
             "fx": {
-              "name": "tank_smoke_big",
+              "name": "tank_smoke_small",
               "emitter": "emtr_smoke_dmg"
             }
           },
@@ -2495,7 +2555,7 @@
       "nameLocId": "skin/winter",
       "descLocId": "skin/winter/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_winter*"
       }
     }
@@ -2506,8 +2566,17 @@
       "nameLocId": "skin/ussr_camo_forest_01",
       "descLocId": "skin/ussr_camo_forest_01/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_forest_01*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "ussr_camo_green_brown_lines",
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_green_brown_lines*"
       }
     }
   },
@@ -2517,7 +2586,7 @@
       "nameLocId": "skin/ussr_camo_czechoslovak_yellow_green",
       "descLocId": "skin/ussr_camo_czechoslovak_yellow_green/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_czechoslovak_yellow_green*"
       }
     }
@@ -2528,7 +2597,7 @@
       "nameLocId": "skin/ussr_camo_desert_syrian_green_brown_yellow",
       "descLocId": "skin/ussr_camo_desert_syrian_green_brown_yellow/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_desert_syrian_green_brown_yellow*"
       }
     }
@@ -2539,7 +2608,7 @@
       "nameLocId": "skin/ussr_camo_desert_yellow_brown",
       "descLocId": "skin/ussr_camo_desert_yellow_brown/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_desert_yellow_brown*"
       }
     }
@@ -2550,7 +2619,7 @@
       "nameLocId": "skin/ussr_camo_winter_lines",
       "descLocId": "skin/ussr_camo_winter_lines/desc",
       "replace_tex": {
-        "from": "uk_camo_very_dark_drab*",
+        "from": "ussr_camo_green*",
         "to": "ussr_camo_winter_lines*"
       }
     }

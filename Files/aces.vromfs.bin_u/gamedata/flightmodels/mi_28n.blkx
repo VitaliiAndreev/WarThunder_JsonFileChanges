@@ -3,6 +3,11 @@
   "fmFile": "fm/mi_28n.blk",
   "viewDistKInSight": 2.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
+  "haveCCIPForRocket": true,
+  "haveCCIPForGun": true,
+  "haveCCIPForTurret": true,
+  "haveCCRPForGun": false,
+  "haveCCRPForTurret": true,
   "gearSinkRangeLR": 0.287,
   "gearSinkRangeC": 0.237,
   "tpsCameraTargetOffsetAtZoom": [50.0,20.0,0.0],
@@ -1429,9 +1434,9 @@
     "lightRadius2": 0.05,
     "zoomOutFov": 22.46,
     "zoomInFov": 7.37,
-    "sightInFov": 3.2,
-    "sightOutFov": -1.0,
     "sightFov": 5.5,
+    "sightOutFov": 20.0,
+    "sightInFov": 1.0,
     "devices": {
       "stick_ailerons": [-1.0,1.0],
       "stick_elevator": [-1.0,1.0],
@@ -1854,7 +1859,7 @@
         "gunnerDm": "cannon1_dm",
         "gunDm": "cannon1_dm",
         "partsDP": "cannon1_dm",
-        "bullets": 450,
+        "bullets": 250,
         "parkInDeadzone": false,
         "turret": {
           "head": "turret1",
@@ -2187,7 +2192,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2374,7 +2385,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2561,7 +2578,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2748,7 +2771,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -2938,7 +2967,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3128,7 +3163,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3318,7 +3359,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -3508,7 +3555,13 @@
           "dp": "elevon_l_dm"
         },
         {
+          "dp": "elevon%d_l_dm"
+        },
+        {
           "dp": "elevon_r_dm"
+        },
+        {
+          "dp": "elevon%d_r_dm"
         },
         {
           "dp": "airbrake_l_dm"
@@ -4594,7 +4647,7 @@
               "gunnerDm": "cannon1_dm",
               "gunDm": "cannon1_dm",
               "partsDP": "cannon1_dm",
-              "bullets": 450,
+              "bullets": 250,
               "parkInDeadzone": false,
               "turret": {
                 "head": "turret1",
@@ -4625,7 +4678,7 @@
               "trigger": "flares",
               "blk": "gameData/Weapons/rocketGuns/flare_launcher.blk",
               "emitter": "emtr_flare1",
-              "bullets": 64,
+              "bullets": 128,
               "external": true,
               "separate": false
             }
@@ -4635,7 +4688,7 @@
               "trigger": "flares",
               "blk": "gameData/Weapons/rocketGuns/flare_launcher.blk",
               "emitter": "emtr_flare2",
-              "bullets": 64,
+              "bullets": 128,
               "external": true,
               "separate": false
             }
@@ -4649,7 +4702,7 @@
           },
           {
             "sensor": {
-              "blk": "gameData/sensors/su_spo-15.blk"
+              "blk": "gameData/sensors/su_spo-150.blk"
             }
           },
           {

@@ -66,7 +66,7 @@
     "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk"
   },
   {
-    "fireParamsPreset": "1100kph"
+    "fireParamsPreset": "1200kph"
   },
   {
     "fightAiBehaviour": "fighter"
@@ -274,7 +274,7 @@
   },
   {
     "fireParams": {
-      "engineExtinguishFireSpeed": [249.0,334.0],
+      "engineExtinguishFireSpeed": [299.0,345.0],
       "engineExtinguishFireSpeedChance": [0.01,0.1],
       "fireDamagePowerRel": 0.05,
       "nonExtinguishFireTime": 5.0
@@ -2448,37 +2448,6 @@
         "replace_tex": {
           "from": "f_86_canadair_ger_c_dmg*",
           "to": "f_86_canadair_ger_c_tomoe_dmg*"
-        }
-      }
-    ]
-  },
-  {
-    "skin": [
-      {
-        "name": "111_metal_live"
-      },
-      {
-        "replace_tex": {
-          "from": "f_86_canadair_ger_c*",
-          "to": "f_86_canadair_111_metal_live_c*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "f_86_canadair_ger_c_dmg*",
-          "to": "f_86_canadair_111_metal_live_c_dmg*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "f_86_canadair_ger_n*",
-          "to": "f_86_canadair_111_metal_live_n*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "f_86_canadair_ger_n_dmg*",
-          "to": "f_86_canadair_111_metal_live_n_dmg*"
         }
       }
     ]

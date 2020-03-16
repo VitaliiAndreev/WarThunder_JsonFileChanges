@@ -1419,6 +1419,15 @@
     }
   },
   {
+    "gunConvergence": {
+      "updateFromRangefinder": true,
+      "minDistance": 200.0,
+      "distance": 1000.0,
+      "vertical": true,
+      "horizontal": true
+    }
+  },
+  {
     "class_tags": []
   },
   {
@@ -1499,24 +1508,6 @@
               "name": "tank_engine_fire",
               "emitter": "emtr_fire_engine_02"
             }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_01"
-            }
-          },
-          {
-            "fx": {
-              "name": "tank_engine_smoke",
-              "emitter": "emtr_fire_engine_02"
-            }
           }
         ]
       },
@@ -1528,67 +1519,78 @@
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo"
+              "emitter": "emtr_fire_ammo",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_01"
+              "emitter": "emtr_fire_ammo_01",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_02"
+              "emitter": "emtr_fire_ammo_02",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_03"
+              "emitter": "emtr_fire_ammo_03",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_04"
+              "emitter": "emtr_fire_ammo_04",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_05"
+              "emitter": "emtr_fire_ammo_05",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_06"
+              "emitter": "emtr_fire_ammo_06",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_07"
+              "emitter": "emtr_fire_ammo_07",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_08"
+              "emitter": "emtr_fire_ammo_08",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_09"
+              "emitter": "emtr_fire_ammo_09",
+              "useVelocity": false
             }
           },
           {
             "fx": {
               "name": "tank_ammo_fire",
-              "emitter": "emtr_fire_ammo_10"
+              "emitter": "emtr_fire_ammo_10",
+              "useVelocity": false
             }
           }
         ]
@@ -1734,7 +1736,7 @@
           },
           {
             "fx": {
-              "name": "tank_smoke_big",
+              "name": "tank_smoke_small",
               "emitter": "emtr_smoke_dmg"
             }
           },
@@ -2548,6 +2550,7 @@
         "armorClass": "RHA_tank_modern",
         "hp": 400.0,
         "hidableInViewer": true,
+        "createSecondaryShatters": false,
         "ex_armor_l_01_dm": {
           "armorThickness": 65.0,
           "armorClass": "hull_side_special_armor",
@@ -2658,7 +2661,8 @@
           "armorThickness": 12.7
         },
         "turret_02_side_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "createSecondaryShatters": false
         },
         "turret_01_side_dm": {
           "armorThickness": 101.0,
@@ -3030,6 +3034,26 @@
         "ammo_turret_53_dm": [],
         "ammo_turret_54_dm": [],
         "ammo_turret_55_dm": [],
+        "ammo_turret_56_dm": [],
+        "ammo_turret_57_dm": [],
+        "ammo_turret_58_dm": [],
+        "ammo_turret_59_dm": [],
+        "ammo_turret_60_dm": [],
+        "ammo_turret_61_dm": [],
+        "ammo_turret_62_dm": [],
+        "ammo_turret_63_dm": [],
+        "ammo_turret_64_dm": [],
+        "ammo_turret_65_dm": [],
+        "ammo_turret_66_dm": [],
+        "ammo_turret_67_dm": [],
+        "ammo_turret_68_dm": [],
+        "ammo_turret_69_dm": [],
+        "ammo_turret_70_dm": [],
+        "ammo_turret_71_dm": [],
+        "ammo_turret_72_dm": [],
+        "ammo_turret_73_dm": [],
+        "ammo_turret_74_dm": [],
+        "ammo_turret_75_dm": [],
         "ammo_body_dm": [],
         "ammo_body_01_dm": [],
         "ammo_body_02_dm": [],
@@ -3096,6 +3120,11 @@
         "ammo_body_l_08_dm": [],
         "ammo_body_l_09_dm": [],
         "ammo_body_l_10_dm": [],
+        "ammo_body_l_11_dm": [],
+        "ammo_body_l_12_dm": [],
+        "ammo_body_l_13_dm": [],
+        "ammo_body_l_14_dm": [],
+        "ammo_body_l_15_dm": [],
         "ammo_body_r_01_dm": [],
         "ammo_body_r_02_dm": [],
         "ammo_body_r_03_dm": [],
@@ -3110,7 +3139,11 @@
         "ammo_body_r_12_dm": [],
         "ammo_body_r_13_dm": [],
         "ammo_body_r_14_dm": [],
-        "ammo_body_r_15_dm": []
+        "ammo_body_r_15_dm": [],
+        "ammo_body_r_16_dm": [],
+        "ammo_body_r_17_dm": [],
+        "ammo_body_r_18_dm": [],
+        "ammo_body_r_19_dm": []
       },
       "fuel_tanks": {
         "armorClass": "tank_structural_steel",
@@ -3118,6 +3151,7 @@
         "armorThickness": 2.0,
         "armorThrough": 12.0,
         "fireProtectionHp": 15.0,
+        "createSecondaryShatters": false,
         "fuel_tank_dm": [],
         "fuel_tank_01_dm": [],
         "fuel_tank_02_dm": [],
