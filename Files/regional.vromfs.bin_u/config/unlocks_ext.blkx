@@ -45681,6 +45681,7 @@
       "id": "2020_05_08_victory_day_dove_peace_decal",
       "type": "achievement",
       "chapter": "victoryday_2020",
+      "hidden": true,
       "mode": [
         {
           "type": "missionsWonScore"
@@ -46017,9 +46018,7 @@
       "type": "trophy",
       "amount_trophies": 1,
       "chapter": "victoryday_2020",
-      "costGold": 999,
-      "visibleDays": 1.0,
-      "visibleDaysAfter": 7.0,
+      "hidden": true,
       "mode": [
         {
           "type": "char_unlocks"
@@ -46347,9 +46346,7 @@
       "type": "trophy",
       "amount_trophies": 1,
       "chapter": "victoryday_2020",
-      "costGold": 999,
-      "visibleDays": 1.0,
-      "visibleDaysAfter": 7.0,
+      "hidden": true,
       "mode": [
         {
           "type": "char_unlocks"
@@ -46626,9 +46623,7 @@
       "type": "trophy",
       "amount_trophies": 1,
       "chapter": "victoryday_2020",
-      "costGold": 999,
-      "visibleDays": 1.0,
-      "visibleDaysAfter": 7.0,
+      "hidden": true,
       "mode": [
         {
           "type": "char_unlocks"
