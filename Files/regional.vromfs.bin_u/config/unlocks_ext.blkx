@@ -166,18 +166,45 @@
   {
     "unlockable": {
       "id": "2020_03_06_newbies_hidden_c",
-      "userLogId": "PremiumAccountWeek",
-      "type": "entitlement",
+      "type": "achievement",
       "hidden": true,
       "mode": {
         "type": "char_login_time_range",
         "beginDate": "2020-03-06 10:00:00",
-        "endDate": "2022-03-06 14:00:00",
+        "endDate": "2020-05-14 11:00:00",
         "condition": {
           "type": "char_unlocked",
           "unlock": "2020_03_06_newbies_hidden_c_gift"
         }
       }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2020_03_06_newbies_hidden_c0",
+      "type": "achievement",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "04_03_20_test_newbies_hidden"
+        },
+        {
+          "unlock": "hidden_c_test_unlock"
+        },
+        {
+          "condition": {
+            "type": "char_unlocked",
+            "positive": false,
+            "unlock": "2020_03_06_newbies_hidden_c"
+          }
+        }
+      ]
     }
   },
   {
