@@ -9,16 +9,10 @@
     "aimMinDist": 0.05
   },
   {
-    "aimMaxDist": 2000.0
+    "aimMaxDist": 3000.0
   },
   {
     "maxDeltaAngle": 0.1
-  },
-  {
-    "ChainfireTime": 8.0
-  },
-  {
-    "DelayAfterShoot": 5.0
   },
   {
     "attackMaxDist": 2000.0
@@ -110,8 +104,19 @@
       "speed": 835.0,
       "explosiveType": "np_10",
       "explosiveMass": 0.0062,
-      "maxDistance": 4000.0,
+      "maxDistance": 8000.0,
+      "normalizationPreset": "heat",
+      "ricochetPreset": "he",
+      "secondaryShattersPreset": "ap",
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.15,
       "bulletType": "he_frag_i_t",
+      "slopeEffectPreset": "ap",
+      "modelName": "tank_bullet_he",
+      "fresnel": [0.23,0.1,2.0],
+      "explodeOnRendinst": true,
       "hitPowerMult": 10.0,
       "onHitChanceMultFire": 20.0,
       "explodeTreshold": 0.3,
@@ -119,7 +124,24 @@
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "20_ap_water_splash",
       "waterFxScale": [0.75,0.75],
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.05]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod3": [30.0,0.2]
+        },
+        {
+          "mod3": [45.0,0.3]
+        }
+      ],
       "damage": {
+        "kinetic": {
+          "damageType": "generic"
+        },
         "shatter": [
           {
             "useRealShatters": true
@@ -129,8 +151,11 @@
           },
           {
             "segment": {
-              "angles": [0.0,14.0],
-              "countPortion": 0.0
+              "radiusScale": 1.0,
+              "penetrationScale": 1.0,
+              "damageScale": 1.0,
+              "angles": [0.0,179.0],
+              "countPortion": 0.5
             }
           },
           {
@@ -138,29 +163,8 @@
               "radiusScale": 1.0,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
-              "angles": [15.0,124.0],
+              "angles": [180.0,359.0],
               "countPortion": 0.5
-            }
-          },
-          {
-            "segment": {
-              "angles": [125.0,234.0],
-              "countPortion": 0.0
-            }
-          },
-          {
-            "segment": {
-              "radiusScale": 1.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [235.0,344.0],
-              "countPortion": 0.5
-            }
-          },
-          {
-            "segment": {
-              "angles": [345.0,359.0],
-              "countPortion": 0.0
             }
           }
         ]
@@ -289,17 +293,40 @@
       "bulletCount": 10,
       "mass": 0.115,
       "caliber": 0.02,
+      "normalizationPreset": "ap",
+      "ricochetPreset": "ap",
+      "secondaryShattersPreset": "ap",
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.3,
       "bulletType": "ap_i_t",
+      "slopeEffectPreset": "ap",
       "speed": 705.0,
-      "maxDistance": 4000.0,
+      "maxDistance": 8000.0,
       "dynamicKv": true,
       "relativeVelArmorShift": [200.0,1000.0],
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "20_ap_water_splash",
       "waterFxScale": [0.75,0.75],
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.05]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod3": [30.0,0.2]
+        },
+        {
+          "mod3": [45.0,0.3]
+        }
+      ],
       "damage": {
         "kinetic": {
-          "demarrePenetrationK": 1.0,
+          "damageType": "generic",
+          "demarrePenetrationK": 0.9,
           "demarreSpeedPow": 1.43,
           "demarreMassPow": 0.71,
           "demarreCaliberPow": 1.07
@@ -473,17 +500,40 @@
       "bulletCount": 10,
       "mass": 0.115,
       "caliber": 0.02,
+      "normalizationPreset": "ap",
+      "ricochetPreset": "ap",
+      "secondaryShattersPreset": "ap",
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.3,
       "bulletType": "ap_i_t",
+      "slopeEffectPreset": "ap",
       "speed": 705.0,
-      "maxDistance": 4000.0,
+      "maxDistance": 8000.0,
       "dynamicKv": true,
       "relativeVelArmorShift": [200.0,1000.0],
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "20_ap_water_splash",
       "waterFxScale": [0.75,0.75],
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.05]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod3": [30.0,0.2]
+        },
+        {
+          "mod3": [45.0,0.3]
+        }
+      ],
       "damage": {
         "kinetic": {
-          "demarrePenetrationK": 1.0,
+          "damageType": "generic",
+          "demarrePenetrationK": 0.9,
           "demarreSpeedPow": 1.43,
           "demarreMassPow": 0.71,
           "demarreCaliberPow": 1.07
@@ -657,17 +707,40 @@
       "bulletCount": 10,
       "mass": 0.115,
       "caliber": 0.02,
+      "normalizationPreset": "ap",
+      "ricochetPreset": "ap",
+      "secondaryShattersPreset": "ap",
+      "stabilityThreshold": 0.05,
+      "stabilityCaliberToArmorThreshold": 5.0,
+      "stabilityReductionAfterRicochet": 0.5,
+      "stabilityReductionAfterPenetration": 0.3,
       "bulletType": "ap_i_t",
+      "slopeEffectPreset": "ap",
       "speed": 705.0,
-      "maxDistance": 4000.0,
+      "maxDistance": 8000.0,
       "dynamicKv": true,
       "relativeVelArmorShift": [200.0,1000.0],
       "ricochetEffect": "cannon_ricochet",
       "waterCollisionEffect": "20_ap_water_splash",
       "waterFxScale": [0.75,0.75],
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.05]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod3": [30.0,0.2]
+        },
+        {
+          "mod3": [45.0,0.3]
+        }
+      ],
       "damage": {
         "kinetic": {
-          "demarrePenetrationK": 1.0,
+          "damageType": "generic",
+          "demarrePenetrationK": 0.9,
           "demarreSpeedPow": 1.43,
           "demarreMassPow": 0.71,
           "demarreCaliberPow": 1.07
@@ -845,8 +918,19 @@
           "speed": 835.0,
           "explosiveType": "np_10",
           "explosiveMass": 0.0062,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
+          "normalizationPreset": "heat",
+          "ricochetPreset": "he",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.15,
           "bulletType": "he_frag_i_t",
+          "slopeEffectPreset": "ap",
+          "modelName": "tank_bullet_he",
+          "fresnel": [0.23,0.1,2.0],
+          "explodeOnRendinst": true,
           "hitPowerMult": 10.0,
           "onHitChanceMultFire": 20.0,
           "explodeTreshold": 0.3,
@@ -854,7 +938,24 @@
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
+            "kinetic": {
+              "damageType": "generic"
+            },
             "shatter": [
               {
                 "useRealShatters": true
@@ -864,8 +965,11 @@
               },
               {
                 "segment": {
-                  "angles": [0.0,14.0],
-                  "countPortion": 0.0
+                  "radiusScale": 1.0,
+                  "penetrationScale": 1.0,
+                  "damageScale": 1.0,
+                  "angles": [0.0,179.0],
+                  "countPortion": 0.5
                 }
               },
               {
@@ -873,29 +977,8 @@
                   "radiusScale": 1.0,
                   "penetrationScale": 1.0,
                   "damageScale": 1.0,
-                  "angles": [15.0,124.0],
+                  "angles": [180.0,359.0],
                   "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [125.0,234.0],
-                  "countPortion": 0.0
-                }
-              },
-              {
-                "segment": {
-                  "radiusScale": 1.0,
-                  "penetrationScale": 1.0,
-                  "damageScale": 1.0,
-                  "angles": [235.0,344.0],
-                  "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [345.0,359.0],
-                  "countPortion": 0.0
                 }
               }
             ]
@@ -1024,17 +1107,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07
@@ -1208,17 +1314,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07
@@ -1396,17 +1525,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07
@@ -1580,17 +1732,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07
@@ -1764,17 +1939,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07
@@ -1950,8 +2148,19 @@
           "speed": 835.0,
           "explosiveType": "np_10",
           "explosiveMass": 0.0062,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
+          "normalizationPreset": "heat",
+          "ricochetPreset": "he",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.15,
           "bulletType": "he_frag_i_t",
+          "slopeEffectPreset": "ap",
+          "modelName": "tank_bullet_he",
+          "fresnel": [0.23,0.1,2.0],
+          "explodeOnRendinst": true,
           "hitPowerMult": 10.0,
           "onHitChanceMultFire": 20.0,
           "explodeTreshold": 0.3,
@@ -1959,7 +2168,24 @@
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
+            "kinetic": {
+              "damageType": "generic"
+            },
             "shatter": [
               {
                 "useRealShatters": true
@@ -1969,8 +2195,11 @@
               },
               {
                 "segment": {
-                  "angles": [0.0,14.0],
-                  "countPortion": 0.0
+                  "radiusScale": 1.0,
+                  "penetrationScale": 1.0,
+                  "damageScale": 1.0,
+                  "angles": [0.0,179.0],
+                  "countPortion": 0.5
                 }
               },
               {
@@ -1978,29 +2207,8 @@
                   "radiusScale": 1.0,
                   "penetrationScale": 1.0,
                   "damageScale": 1.0,
-                  "angles": [15.0,124.0],
+                  "angles": [180.0,359.0],
                   "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [125.0,234.0],
-                  "countPortion": 0.0
-                }
-              },
-              {
-                "segment": {
-                  "radiusScale": 1.0,
-                  "penetrationScale": 1.0,
-                  "damageScale": 1.0,
-                  "angles": [235.0,344.0],
-                  "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [345.0,359.0],
-                  "countPortion": 0.0
                 }
               }
             ]
@@ -2135,8 +2343,19 @@
           "speed": 835.0,
           "explosiveType": "np_10",
           "explosiveMass": 0.0062,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
+          "normalizationPreset": "heat",
+          "ricochetPreset": "he",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.15,
           "bulletType": "he_frag_i_t",
+          "slopeEffectPreset": "ap",
+          "modelName": "tank_bullet_he",
+          "fresnel": [0.23,0.1,2.0],
+          "explodeOnRendinst": true,
           "hitPowerMult": 10.0,
           "onHitChanceMultFire": 20.0,
           "explodeTreshold": 0.3,
@@ -2144,7 +2363,24 @@
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
+            "kinetic": {
+              "damageType": "generic"
+            },
             "shatter": [
               {
                 "useRealShatters": true
@@ -2154,8 +2390,11 @@
               },
               {
                 "segment": {
-                  "angles": [0.0,14.0],
-                  "countPortion": 0.0
+                  "radiusScale": 1.0,
+                  "penetrationScale": 1.0,
+                  "damageScale": 1.0,
+                  "angles": [0.0,179.0],
+                  "countPortion": 0.5
                 }
               },
               {
@@ -2163,29 +2402,8 @@
                   "radiusScale": 1.0,
                   "penetrationScale": 1.0,
                   "damageScale": 1.0,
-                  "angles": [15.0,124.0],
+                  "angles": [180.0,359.0],
                   "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [125.0,234.0],
-                  "countPortion": 0.0
-                }
-              },
-              {
-                "segment": {
-                  "radiusScale": 1.0,
-                  "penetrationScale": 1.0,
-                  "damageScale": 1.0,
-                  "angles": [235.0,344.0],
-                  "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [345.0,359.0],
-                  "countPortion": 0.0
                 }
               }
             ]
@@ -2316,8 +2534,19 @@
           "speed": 835.0,
           "explosiveType": "np_10",
           "explosiveMass": 0.0062,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
+          "normalizationPreset": "heat",
+          "ricochetPreset": "he",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.15,
           "bulletType": "he_frag_i_t",
+          "slopeEffectPreset": "ap",
+          "modelName": "tank_bullet_he",
+          "fresnel": [0.23,0.1,2.0],
+          "explodeOnRendinst": true,
           "hitPowerMult": 10.0,
           "onHitChanceMultFire": 20.0,
           "explodeTreshold": 0.3,
@@ -2325,7 +2554,24 @@
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
+            "kinetic": {
+              "damageType": "generic"
+            },
             "shatter": [
               {
                 "useRealShatters": true
@@ -2335,8 +2581,11 @@
               },
               {
                 "segment": {
-                  "angles": [0.0,14.0],
-                  "countPortion": 0.0
+                  "radiusScale": 1.0,
+                  "penetrationScale": 1.0,
+                  "damageScale": 1.0,
+                  "angles": [0.0,179.0],
+                  "countPortion": 0.5
                 }
               },
               {
@@ -2344,29 +2593,8 @@
                   "radiusScale": 1.0,
                   "penetrationScale": 1.0,
                   "damageScale": 1.0,
-                  "angles": [15.0,124.0],
+                  "angles": [180.0,359.0],
                   "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [125.0,234.0],
-                  "countPortion": 0.0
-                }
-              },
-              {
-                "segment": {
-                  "radiusScale": 1.0,
-                  "penetrationScale": 1.0,
-                  "damageScale": 1.0,
-                  "angles": [235.0,344.0],
-                  "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [345.0,359.0],
-                  "countPortion": 0.0
                 }
               }
             ]
@@ -2497,8 +2725,19 @@
           "speed": 835.0,
           "explosiveType": "np_10",
           "explosiveMass": 0.0062,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
+          "normalizationPreset": "heat",
+          "ricochetPreset": "he",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.15,
           "bulletType": "he_frag_i_t",
+          "slopeEffectPreset": "ap",
+          "modelName": "tank_bullet_he",
+          "fresnel": [0.23,0.1,2.0],
+          "explodeOnRendinst": true,
           "hitPowerMult": 10.0,
           "onHitChanceMultFire": 20.0,
           "explodeTreshold": 0.3,
@@ -2506,7 +2745,24 @@
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
+            "kinetic": {
+              "damageType": "generic"
+            },
             "shatter": [
               {
                 "useRealShatters": true
@@ -2516,8 +2772,11 @@
               },
               {
                 "segment": {
-                  "angles": [0.0,14.0],
-                  "countPortion": 0.0
+                  "radiusScale": 1.0,
+                  "penetrationScale": 1.0,
+                  "damageScale": 1.0,
+                  "angles": [0.0,179.0],
+                  "countPortion": 0.5
                 }
               },
               {
@@ -2525,29 +2784,8 @@
                   "radiusScale": 1.0,
                   "penetrationScale": 1.0,
                   "damageScale": 1.0,
-                  "angles": [15.0,124.0],
+                  "angles": [180.0,359.0],
                   "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [125.0,234.0],
-                  "countPortion": 0.0
-                }
-              },
-              {
-                "segment": {
-                  "radiusScale": 1.0,
-                  "penetrationScale": 1.0,
-                  "damageScale": 1.0,
-                  "angles": [235.0,344.0],
-                  "countPortion": 0.5
-                }
-              },
-              {
-                "segment": {
-                  "angles": [345.0,359.0],
-                  "countPortion": 0.0
                 }
               }
             ]
@@ -2676,17 +2914,40 @@
           "bulletCount": 10,
           "mass": 0.115,
           "caliber": 0.02,
+          "normalizationPreset": "ap",
+          "ricochetPreset": "ap",
+          "secondaryShattersPreset": "ap",
+          "stabilityThreshold": 0.05,
+          "stabilityCaliberToArmorThreshold": 5.0,
+          "stabilityReductionAfterRicochet": 0.5,
+          "stabilityReductionAfterPenetration": 0.3,
           "bulletType": "ap_i_t",
+          "slopeEffectPreset": "ap",
           "speed": 705.0,
-          "maxDistance": 4000.0,
+          "maxDistance": 8000.0,
           "dynamicKv": true,
           "relativeVelArmorShift": [200.0,1000.0],
           "ricochetEffect": "cannon_ricochet",
           "waterCollisionEffect": "20_ap_water_splash",
           "waterFxScale": [0.75,0.75],
+          "stabilityRicochetModifier": [
+            {
+              "mod1": [0.0,0.05]
+            },
+            {
+              "mod2": [20.0,0.1]
+            },
+            {
+              "mod3": [30.0,0.2]
+            },
+            {
+              "mod3": [45.0,0.3]
+            }
+          ],
           "damage": {
             "kinetic": {
-              "demarrePenetrationK": 1.0,
+              "damageType": "generic",
+              "demarrePenetrationK": 0.9,
               "demarreSpeedPow": 1.43,
               "demarreMassPow": 0.71,
               "demarreCaliberPow": 1.07

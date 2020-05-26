@@ -1273,7 +1273,7 @@
     }
   },
   "helicopter": {
-    "rotorBladeAnglesCoeffs": [0.3,0.5,0.5],
+    "rotorBladeAnglesCoeffs": [0.15,0.25,0.25],
     "propellerStrainCoeff": -0.01
   },
   "gunnerOpticFps": {
@@ -1286,14 +1286,165 @@
     {
       "preset": {
         "name": "h_34_default",
-        "blk": "gameData/flightModels/weaponPresets/h_34_fr_v3.blk"
+        "blk": "gameData/flightModels/weaponPresets/h_34_fr_v3.blk",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/fr_ss_11.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 2,
+                  "iconType": "missile_air_to_uni"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 10,
+                  "iconType": "missile_air_to_uni"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_5_in_hvar_d.blk"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 11,
+                  "iconType": "rockets_he_middle_group_x3"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 12,
+                  "iconType": "rockets_he_middle_group_x3"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunBrowning30_usaaf.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 3,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 9,
+                  "iconType": "machine_gun"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "h_34_fr_v1",
         "blk": "gameData/flightModels/weaponPresets/h_34_fr_v1.blk",
-        "reqModification": "fr_50kg_type_61c"
+        "reqModification": "fr_50kg_type_61c",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/BombGuns/fr_50kg_type_61c.blk"
+              },
+              {
+                "tier": {
+                  "amountPerTier": 3.0,
+                  "idx": 2,
+                  "iconType": "bombs_middle_group"
+                }
+              },
+              {
+                "tier": {
+                  "amountPerTier": 3.0,
+                  "idx": 10,
+                  "iconType": "bombs_middle_group"
+                }
+              },
+              {
+                "tier": {
+                  "amountPerTier": 2.0,
+                  "idx": 5,
+                  "iconType": "bombs_middle_group_x2"
+                }
+              },
+              {
+                "tier": {
+                  "amountPerTier": 2.0,
+                  "idx": 7,
+                  "iconType": "bombs_middle_group_x2"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunBrowning30_usaaf.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 3,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "machine_gun"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 9,
+                  "iconType": "machine_gun"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   ],

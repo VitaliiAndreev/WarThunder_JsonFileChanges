@@ -1364,10 +1364,10 @@
   },
   "pylon_smoke": {
     "fx": "pv_rl_fire_composite_fx",
-    "lifeTime": 0.75,
+    "lifeTime": 1.0,
     "numInstances": 120,
-    "numReserved": 10,
-    "onePointNumber": 0,
+    "numReserved": 0,
+    "onePointNumber": 32,
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   },
@@ -3230,6 +3230,20 @@
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   },
+  "70mm_gun_flame": {
+    "fx": "pv_gun_flame_70mm_composite_fx",
+    "lifeTime": 10.0,
+    "softnessDepth": 5.0,
+    "sortDistanceOffset": 0.0,
+    "minScale": 0.45,
+    "maxScale": 0.55,
+    "numInstances": 50,
+    "numReserved": 1,
+    "onePointNumber": 10,
+    "group": "water_proj",
+    "sfxPath": "sounds/effects",
+    "sfxPathStudio": "aircraft/effects"
+  },
   "200mm_gun_flame": {
     "fx": "pv_gun_flame_200mm_fire_composite_fx",
     "lifeTime": 10.0,
@@ -3484,6 +3498,18 @@
     "onePointNumber": 80,
     "softnessDepth": 0.3
   },
+  "tank_ex_fuel_explosion": {
+    "fx": "tank_explosion_fuel_composite_fx",
+    "lifeTime": 10.0,
+    "farPlane": 2000.0,
+    "numInstances": 30,
+    "numReserved": 3,
+    "onePointNumber": 9,
+    "sfxPath": "tanks/explosions_tanks",
+    "sfxPathStudio": "ground/explosions",
+    "sfxEvent": "explosion_canister",
+    "soundEnableDistance": 1000.0
+  },
   "tank_engine_fire": {
     "fx": "pv_engine_fire_composite_fx",
     "lifeTime": 10.0,
@@ -3573,7 +3599,8 @@
     "numReserved": 3,
     "sfxPath": "tanks/object_crash",
     "sfxPathStudio": "ground/object_crash",
-    "sfxEvent": "explosion_gasoline"
+    "sfxEvent": "explosion_gasoline",
+    "soundEnableDistance": 1000.0
   },
   "tank_fuel_explosion_soundless": {
     "fx": "pv_fuel_explosion_composite_fx",

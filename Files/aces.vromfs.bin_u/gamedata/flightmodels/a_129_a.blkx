@@ -1258,12 +1258,9 @@
     "textToShowInCockpit": "msg/textToShowInCockpit",
     "headPos": [1.07,0.6,0.0],
     "headPosOnShooting": [1.07,0.6,0.0],
-    "lightPos": [1.979847,-0.213676,-0.012096],
-    "lightColor": [0.01,1.5,0.1],
-    "lightRadius": 0.5,
-    "lightPos1": [3.449379,-0.554936,0.005765],
-    "lightColor1": [0.01,1.5,0.1],
-    "lightRadius1": 0.35,
+    "lightPos1": [1.771234,0.096575,-0.003519],
+    "lightColor1": [0.01,0.6,0.1],
+    "lightRadius1": 0.4,
     "zoomOutFov": 22.46,
     "zoomInFov": 2.46,
     "sightInFov": 2.46,
@@ -1469,12 +1466,19 @@
   "sensors": [
     {
       "sensor": {
-        "blk": "gameData/sensors/tv_tracker.blk"
+        "blk": "gameData/sensors/tv_tracker.blk",
+        "node": "optic1_gun"
       }
     },
     {
       "sensor": {
         "blk": "gameData/sensors/us_an_apr_39.blk"
+      }
+    },
+    {
+      "sensor": {
+        "blk": "gameData/sensors/us_flir.blk",
+        "node": "optic1_gun"
       }
     }
   ],
@@ -1615,7 +1619,53 @@
       "preset": {
         "name": "a_129a_gun_fn_m3p_hvar",
         "blk": "gameData/flightModels/weaponPresets/a_129a_gun_fn_m3p_hvar.blk",
-        "reqModification": "tiger_rmp_lc"
+        "reqModification": "tiger_rmp_lc",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunFN_M3P.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1629,21 +1679,118 @@
       "preset": {
         "name": "a_129a_gun_fn_m3p_hvar_rocket",
         "blk": "gameData/flightModels/weaponPresets/a_129a_gun_fn_m3p_hvar_rocket.blk",
-        "reqModification": "tiger_rmp_lc"
+        "reqModification": "tiger_rmp_lc",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+              },
+              {
+                "amountPerTier": 3.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/gunFN_M3P.blk"
+              },
+              {
+                "amountPerTier": 1.0
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "machine_gun_rockets"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/us_hydra_70_m247.blk"
+              },
+              {
+                "tier": {
+                  "idx": 8
+                }
+              },
+              {
+                "tier": {
+                  "idx": 4
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "a_129a_rocket_8xTOW",
         "blk": "gameData/flightModels/weaponPresets/a_129a_rocket_8xTOW.blk",
-        "reqModification": "ah_1_TOW2"
+        "reqModification": "ah_1_TOW2",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk"
+            },
+            {
+              "tier": {
+                "idx": 8
+              }
+            },
+            {
+              "tier": {
+                "idx": 4
+              }
+            }
+          ]
+        }
       }
     },
     {
       "preset": {
         "name": "a_129a_8_hellfire",
         "blk": "gameData/flightModels/weaponPresets/a_129a_8_hellfire.blk",
-        "reqModification": "ah_1_AGM_114_8"
+        "reqModification": "ah_1_AGM_114_8",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_hellfire_agm_114_b.blk"
+            },
+            {
+              "tier": {
+                "idx": 8
+              }
+            },
+            {
+              "tier": {
+                "idx": 4
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -1691,6 +1838,71 @@
         },
         {
           "reqModification": "tiger_rmp_lc"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+                },
+                {
+                  "amountPerTier": 3.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/gunFN_M3P.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1707,6 +1919,71 @@
         },
         {
           "reqModification": "tiger_rmp_lc"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+                },
+                {
+                  "amountPerTier": 3.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/gunFN_M3P.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "machine_gun_rockets"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "machine_gun_rockets"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_hellfire_agm_114_b.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1723,6 +2000,55 @@
         },
         {
           "reqModification": "tiger_rmp_lc"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "amountPerTier": 3.0,
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/gunFN_M3P.blk",
+                "amountPerTier": 1.0,
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_hydra_70_m247.blk",
+                "tier": {
+                  "idx": 7
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1739,6 +2065,55 @@
         },
         {
           "reqModification": "tiger_rmp_lc"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "amountPerTier": 3.0,
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/gunFN_M3P.blk",
+                "amountPerTier": 1.0,
+                "tier": {
+                  "idx": 5,
+                  "iconType": "machine_gun_rockets"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_hydra_70_m247.blk",
+                "tier": {
+                  "idx": 7
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/us_hellfire_agm_114_b.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 8
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 4
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },

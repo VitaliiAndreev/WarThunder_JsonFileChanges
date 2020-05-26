@@ -1488,7 +1488,14 @@
     {
       "preset": {
         "name": "ah_1g_rocket_ffar",
-        "blk": "gameData/flightModels/weaponPresets/ah_1g_rocket_ffar.blk"
+        "blk": "gameData/flightModels/weaponPresets/ah_1g_rocket_ffar.blk",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+            "amountPerTier": 7.0,
+            "iconType": "nar_ap_small"
+          }
+        }
       }
     },
     {
@@ -1509,14 +1516,31 @@
       "preset": {
         "name": "ah_1g_xm35",
         "blk": "gameData/flightModels/weaponPresets/ah_1g_xm35.blk",
-        "reqModification": "ah_1g_xm35"
+        "reqModification": "ah_1g_xm35",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/cannonM195.blk",
+            "tier": {
+              "idx": 7,
+              "amountPerTier": 1.0,
+              "iconType": "multibarrel_box_cannon"
+            }
+          }
+        }
       }
     },
     {
       "preset": {
         "name": "ah_1g_rocket_ffar_xm18",
         "blk": "gameData/flightModels/weaponPresets/ah_1g_rocket_ffar_xm18.blk",
-        "reqModification": "uh_1c_xm18"
+        "reqModification": "uh_1c_xm18",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+            "amountPerTier": 7.0,
+            "iconType": "nar_ap_small"
+          }
+        }
       }
     },
     {

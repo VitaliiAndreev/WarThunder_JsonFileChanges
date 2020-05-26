@@ -317,9 +317,12 @@
         },
         "ex_decor_body_r_01_dm": [],
         "ex_decor_body_r_02_dm": [],
+        "ex_decor_body_l_04_dm": [],
         "ex_decor_body_r_07_dm": [],
         "ex_decor_body_l_01_dm": [],
-        "ex_decor_body_l_02_dm": []
+        "ex_decor_body_l_02_dm": [],
+        "ex_decor_body_l_16_dm": [],
+        "ex_decor_body_r_16_dm": []
       },
       "additional_armor": {
         "armorClass": "RHA_tank",
@@ -2592,6 +2595,15 @@
       },
       {
         "event": {
+          "name": "fuel_exterior",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
+      },
+      {
+        "event": {
           "name": "big_bang",
           "fx": {
             "name": "tank_explosion",
@@ -2680,6 +2692,19 @@
             },
             {
               "node": "superstructure_side"
+            }
+          ]
+        },
+        "disableModEffects": {
+          "hideNodes": [
+            {
+              "node": "body_add_02"
+            },
+            {
+              "node": "ex_lantern_l_01"
+            },
+            {
+              "node": "ex_lantern_r_01"
             }
           ]
         }

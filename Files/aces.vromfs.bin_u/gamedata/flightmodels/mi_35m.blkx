@@ -1799,11 +1799,14 @@
       },
       {
         "display": {
-          "textureArea": [0.0,0.0,0.5,0.5],
+          "textureArea": [0.0,0.0,0.8,0.8],
           "page": {
             "type": "pilot_hud",
             "ilsNode": "ils",
-            "ilsSize": [0.206,0.169]
+            "ilsSize": [0.2,0.2],
+            "ilsProjSize": [0.169,0.169,0.02],
+            "ilsOffsetForce": 0.2,
+            "brightnessMult": 3.5
           }
         }
       }
@@ -1921,7 +1924,8 @@
   "sensors": [
     {
       "sensor": {
-        "blk": "gameData/sensors/tv_tracker.blk"
+        "blk": "gameData/sensors/tv_tracker.blk",
+        "node": "optic1_gun"
       }
     },
     {
@@ -1964,7 +1968,49 @@
       "preset": {
         "name": "mi_35m_rocket_c_8_ko_upk_23_250",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_c_8_ko_upk_23_250.blk",
-        "reqModification": "il_28sh_upk23_gunpod"
+        "reqModification": "il_28sh_upk23_gunpod",
+        "weaponConfig": [
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/cannonGSh_23.blk"
+              },
+              {
+                "tier": {
+                  "amountPerTier": 1.0,
+                  "idx": 5,
+                  "iconType": "doublebarreled_box"
+                }
+              },
+              {
+                "tier": {
+                  "amountPerTier": 1.0,
+                  "idx": 7,
+                  "iconType": "doublebarreled_box"
+                }
+              }
+            ]
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+              },
+              {
+                "tier": {
+                  "idx": 4,
+                  "iconType": "nar_ap_large"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 8,
+                  "iconType": "nar_ap_large"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -1980,6 +2026,41 @@
         },
         {
           "reqModification": "mi_35_9M114_4"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1996,6 +2077,41 @@
         },
         {
           "reqModification": "mi_35_9M114_8"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2012,6 +2128,41 @@
         },
         {
           "reqModification": "mi_35_9M120_4"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4_late"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2028,6 +2179,41 @@
         },
         {
           "reqModification": "mi_35_9M120_8"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2035,35 +2221,166 @@
       "preset": {
         "name": "mi_35m_rocket_c_8_ko_9m114_4",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_c_8_ko_9m114_4.blk",
-        "reqModification": "mi_35_9M114_4"
+        "reqModification": "mi_35_9M114_4",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+              "amountPerTier": 4.0,
+              "tier": {
+                "idx": 4,
+                "iconType": "atgm_type1_x4"
+              }
+            }
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "nar_ap_large"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "nar_ap_large"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "mi_35m_rocket_c_8_ko_9m120_4",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_c_8_ko_9m120_4.blk",
-        "reqModification": "mi_35_9M120_4"
+        "reqModification": "mi_35_9M120_4",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+              "amountPerTier": 4.0,
+              "tier": {
+                "idx": 4,
+                "iconType": "atgm_type1_x4_late"
+              }
+            }
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "nar_ap_large"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "nar_ap_large"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "mi_35m_rocket_c_8_ko_9m114",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_c_8_ko_9m114.blk",
-        "reqModification": "mi_35_9M114_8"
+        "reqModification": "mi_35_9M114_8",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+              "amountPerTier": 8.0,
+              "tier": {
+                "idx": 4,
+                "iconType": "atgm_type1_x8"
+              }
+            }
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "nar_ap_large"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "nar_ap_large"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "mi_35m_rocket_c_8_ko_9m120",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_c_8_ko_9m120.blk",
-        "reqModification": "mi_35_9M120_8"
+        "reqModification": "mi_35_9M120_8",
+        "weaponConfig": [
+          {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+              "amountPerTier": 8.0,
+              "tier": {
+                "idx": 4,
+                "iconType": "atgm_type1_x8"
+              }
+            }
+          },
+          {
+            "Weapon": [
+              {
+                "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+              },
+              {
+                "tier": {
+                  "idx": 5,
+                  "iconType": "nar_ap_large"
+                }
+              },
+              {
+                "tier": {
+                  "idx": 7,
+                  "iconType": "nar_ap_large"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "preset": {
         "name": "mi_35m_rocket_9M39_c_8",
         "blk": "gameData/flightModels/weaponPresets/mi_35m_rocket_9M39_c_8.blk",
-        "reqModification": "mi_35_9M39"
+        "reqModification": "mi_35_9M39",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+            "amountPerTier": 4.0,
+            "iconType": "missile_air_to_air_group_x4"
+          }
+        }
       }
     },
     {
@@ -2079,6 +2396,15 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+              "amountPerTier": 4.0,
+              "iconType": "missile_air_to_air_group_x4"
+            }
+          }
         }
       ]
     },
@@ -2098,6 +2424,51 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2117,6 +2488,51 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2136,6 +2552,51 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4_late"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2155,6 +2616,51 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/cannonGSh_23.blk"
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 5,
+                    "iconType": "doublebarreled_box"
+                  }
+                },
+                {
+                  "tier": {
+                    "amountPerTier": 1.0,
+                    "idx": 7,
+                    "iconType": "doublebarreled_box"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2171,6 +2677,49 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "nar_ap_large"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "nar_ap_large"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2187,6 +2736,49 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x4_late"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "nar_ap_large"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "nar_ap_large"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2203,6 +2795,49 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M114.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "nar_ap_large"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "nar_ap_large"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2219,6 +2854,49 @@
         },
         {
           "reqModification": "mi_35_9M39"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M39.blk",
+                "amountPerTier": 4.0,
+                "tier": {
+                  "idx": 8,
+                  "iconType": "missile_air_to_air_group_x4"
+                }
+              }
+            },
+            {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/su_9M120.blk",
+                "amountPerTier": 8.0,
+                "tier": {
+                  "idx": 4,
+                  "iconType": "atgm_type1_x8"
+                }
+              }
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/su_s_8ko_rocket.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "nar_ap_large"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "nar_ap_large"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

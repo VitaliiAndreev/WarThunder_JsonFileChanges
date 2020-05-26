@@ -979,15 +979,12 @@
     "textToShowInCockpit": "msg/textToShowInCockpit",
     "headPos": [2.04,0.46,-0.645],
     "headPosOnShooting": [2.04,0.46,-0.645],
-    "lightPos": [2.634856,0.104049,-0.361975],
-    "lightColor": [0.01,1.5,0.1],
-    "lightRadius": 0.4,
-    "lightPos1": [2.634856,0.104049,0.361975],
-    "lightColor1": [0.01,1.5,0.1],
-    "lightRadius1": 0.4,
-    "lightPos2": [2.057121,0.469129,0.079509],
-    "lightColor2": [0.01,1.5,0.1],
-    "lightRadius2": 0.5,
+    "lightPos": [2.607379,0.019835,-0.38053],
+    "lightColor": [0.01,0.6,0.1],
+    "lightRadius": 0.3,
+    "lightPos1": [2.642642,0.094795,0.103464],
+    "lightColor1": [0.01,0.6,0.1],
+    "lightRadius1": 0.3,
     "zoomOutFov": 22.46,
     "zoomInFov": 22.46,
     "sightInFov": 3.68,
@@ -1115,6 +1112,25 @@
         "blk": "gameData/flightModels/weaponPresets/uh_1c_xm_30_default.blk",
         "tags": {
           "free": true
+        },
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/cannonXM140.blk"
+            },
+            {
+              "tier": {
+                "idx": 5,
+                "iconType": "machine_gun"
+              }
+            },
+            {
+              "tier": {
+                "idx": 7,
+                "iconType": "machine_gun"
+              }
+            }
+          ]
         }
       }
     },
@@ -1128,7 +1144,14 @@
       "preset": {
         "name": "uh_1c_xm_30_rocket_TOW",
         "blk": "gameData/flightModels/weaponPresets/uh_1c_xm_30_rocket_TOW.blk",
-        "reqModification": "ah_1_TOW"
+        "reqModification": "ah_1_TOW",
+        "weaponConfig": {
+          "Weapon": {
+            "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
+            "amountPerTier": 3.0,
+            "iconType": "atgm_type_tow_x3"
+          }
+        }
       }
     },
     {
@@ -1149,7 +1172,40 @@
       "preset": {
         "name": "uh_1c_xm_30_xm21",
         "blk": "gameData/flightModels/weaponPresets/uh_1c_xm_30_xm21.blk",
-        "reqModification": "uh_1c_xm18"
+        "reqModification": "uh_1c_xm18",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk"
+            },
+            {
+              "tier": {
+                "idx": 5,
+                "amountPerTier": 1.0,
+                "iconType": "nar_ap_large"
+              }
+            },
+            {
+              "tier": {
+                "idx": 7,
+                "amountPerTier": 1.0,
+                "iconType": "nar_ap_large"
+              }
+            },
+            {
+              "tier": {
+                "idx": 4,
+                "iconType": "multibarrel_box"
+              }
+            },
+            {
+              "tier": {
+                "idx": 8,
+                "iconType": "multibarrel_box"
+              }
+            }
+          ]
+        }
       }
     }
   ],

@@ -1485,6 +1485,9 @@
         },
         {
           "node": "lipa"
+        },
+        {
+          "node": "lipa_off"
         }
       ]
     },
@@ -1596,7 +1599,41 @@
       "preset": {
         "name": "mi_24d_rocket_9m17m",
         "blk": "gameData/flightModels/weaponPresets/mi_24d_rocket_9m17m.blk",
-        "reqModification": "mi_24_su_9M17M"
+        "reqModification": "mi_24_su_9M17M",
+        "weaponConfig": {
+          "Weapon": [
+            {
+              "blk": "gameData/Weapons/rocketGuns/su_9M17P.blk"
+            },
+            {
+              "amountPerTier": 1.0
+            },
+            {
+              "tier": {
+                "idx": 2,
+                "iconType": "rockets_small"
+              }
+            },
+            {
+              "tier": {
+                "idx": 3,
+                "iconType": "rockets_small"
+              }
+            },
+            {
+              "tier": {
+                "idx": 9,
+                "iconType": "rockets_small"
+              }
+            },
+            {
+              "tier": {
+                "idx": 10,
+                "iconType": "rockets_small"
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -1651,6 +1688,63 @@
         },
         {
           "reqModification": "mi_24_su_9M17M"
+        },
+        {
+          "weaponConfig": [
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/rocketGuns/su_9M17P.blk"
+                },
+                {
+                  "amountPerTier": 1.0
+                },
+                {
+                  "tier": {
+                    "idx": 2,
+                    "iconType": "rockets_small"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 3,
+                    "iconType": "rockets_small"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 9,
+                    "iconType": "rockets_small"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 10,
+                    "iconType": "rockets_small"
+                  }
+                }
+              ]
+            },
+            {
+              "Weapon": [
+                {
+                  "blk": "gameData/Weapons/BombGuns/su_fab500_m54.blk"
+                },
+                {
+                  "tier": {
+                    "idx": 5,
+                    "iconType": "bombs_large"
+                  }
+                },
+                {
+                  "tier": {
+                    "idx": 7,
+                    "iconType": "bombs_large"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4130,6 +4224,9 @@
               },
               {
                 "node": "lipa"
+              },
+              {
+                "node": "lipa_off"
               }
             ]
           },
@@ -4224,9 +4321,14 @@
         },
         "commonWeapons": [
           {
-            "hideNodes": {
-              "node": "fuse2"
-            }
+            "hideNodes": [
+              {
+                "node": "fuse2"
+              },
+              {
+                "node": "lipa_off"
+              }
+            ]
           },
           {
             "Weapon": {

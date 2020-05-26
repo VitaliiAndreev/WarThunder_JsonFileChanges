@@ -1918,6 +1918,19 @@
     }
   },
   {
+    "attachables": {
+      "ex_armor_01_dm": true,
+      "ex_armor_02_dm": true,
+      "ex_armor_turret_l_01_dm": true,
+      "ex_armor_turret_r_01_dm": true,
+      "ex_armor_turret_04_dm": true,
+      "ex_armor_turret_05_dm": true,
+      "ex_armor_turret_06_dm": true,
+      "ex_armor_turret_07_dm": true,
+      "ex_armor_turret_08_dm": true
+    }
+  },
+  {
     "xray_viewer_data": [
       {
         "armorArrayHullTop": {
@@ -3073,6 +3086,15 @@
             }
           }
         ]
+      },
+      {
+        "event": {
+          "name": "fuel_exterior",
+          "fx": {
+            "name": "tank_ex_fuel_explosion",
+            "centerDmgPart": true
+          }
+        }
       },
       {
         "event": {

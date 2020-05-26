@@ -18,7 +18,28 @@
       "length": 1.41
     },
     {
-      "bulletType": "rocket_tank"
+      "normalizationPreset": "default"
+    },
+    {
+      "ricochetPreset": "defaultExt"
+    },
+    {
+      "secondaryShattersPreset": "ap"
+    },
+    {
+      "stabilityThreshold": 0.05
+    },
+    {
+      "stabilityCaliberToArmorThreshold": 5.0
+    },
+    {
+      "stabilityReductionAfterRicochet": 0.5
+    },
+    {
+      "stabilityReductionAfterPenetration": 0.15
+    },
+    {
+      "bulletType": "aam"
     },
     {
       "explosiveType": "tnt"
@@ -202,6 +223,28 @@
     },
     {
       "aiAccelPrediction": 0.5
+    },
+    {
+      "amountPerTier": 1.0
+    },
+    {
+      "iconType": "rockets_large"
+    },
+    {
+      "stabilityRicochetModifier": [
+        {
+          "mod1": [0.0,0.05]
+        },
+        {
+          "mod2": [20.0,0.1]
+        },
+        {
+          "mod3": [30.0,0.2]
+        },
+        {
+          "mod3": [45.0,0.3]
+        }
+      ]
     },
     {
       "collisions": {

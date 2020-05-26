@@ -2,6 +2,18 @@
   {
     "hideNodes": [
       {
+        "node": "pylon_l"
+      },
+      {
+        "node": "pylon_r"
+      },
+      {
+        "node": "pylon_l_gun"
+      },
+      {
+        "node": "pylon_r_gun"
+      },
+      {
         "node": "atgw3_pod_001"
       },
       {
@@ -255,7 +267,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/us_aim92_stinger.blk",
-      "emitter": "aim92_stinger_001",
+      "emitter": "aim92_stinger_rocket_001",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -266,7 +278,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/us_aim92_stinger.blk",
-      "emitter": "aim92_stinger_004",
+      "emitter": "aim92_stinger_rocket_004",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -277,7 +289,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/us_aim92_stinger.blk",
-      "emitter": "aim92_stinger_002",
+      "emitter": "aim92_stinger_rocket_002",
       "bullets": 1,
       "external": true,
       "separate": true,
@@ -288,7 +300,7 @@
     "Weapon": {
       "trigger": "aam",
       "blk": "gameData/Weapons/rocketGuns/us_aim92_stinger.blk",
-      "emitter": "aim92_stinger_003",
+      "emitter": "aim92_stinger_rocket_003",
       "bullets": 1,
       "external": true,
       "separate": true,

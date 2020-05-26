@@ -1333,51 +1333,6 @@
       },
       {
         "event": {
-          "name": "superstructure_back_fire",
-          "fx": {
-            "name": "ship_fire_medium",
-            "centerDmgPart": true
-          }
-        }
-      },
-      {
-        "event": {
-          "name": "superstructure_front_fire",
-          "fx": {
-            "name": "ship_fire_medium",
-            "centerDmgPart": true
-          }
-        }
-      },
-      {
-        "event": {
-          "name": "superstructure_top_fire",
-          "fx": {
-            "name": "ship_fire_medium",
-            "centerDmgPart": true
-          }
-        }
-      },
-      {
-        "event": {
-          "name": "superstructure_bottom_fire",
-          "fx": {
-            "name": "ship_fire_medium",
-            "centerDmgPart": true
-          }
-        }
-      },
-      {
-        "event": {
-          "name": "superstructure_side_fire",
-          "fx": {
-            "name": "ship_fire_medium",
-            "centerDmgPart": true
-          }
-        }
-      },
-      {
-        "event": {
           "name": "superstructure_fire",
           "fx": {
             "name": "ship_fire_medium",
@@ -3530,7 +3485,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
@@ -3586,7 +3541,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
@@ -3637,7 +3592,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
@@ -3688,7 +3643,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
@@ -3738,7 +3693,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,
@@ -3805,7 +3760,7 @@
           "ChainfireTime": 60.0,
           "DelayAfterShoot": 0.0,
           "aimMinDist": 20.0,
-          "aimMaxDist": 4000.0,
+          "aimMaxDist": 4500.0,
           "randomAngle": 0.0,
           "accuracyBotMultAir": 0.55,
           "accuracyAir": 1.0,

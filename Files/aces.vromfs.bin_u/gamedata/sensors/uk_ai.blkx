@@ -22,7 +22,6 @@
       "azimuthLimits": [-50.0,50.0],
       "elevationLimits": [-30.0,30.0],
       "rollStabLimit": 110.0,
-      "pitchStabLimit": 30.0,
       "period": 0.625,
       "width": 50.0,
       "barHeight": 5.5,
@@ -35,7 +34,6 @@
       "azimuthLimits": [-50.0,50.0],
       "elevationLimits": [-30.0,30.0],
       "rollStabLimit": 110.0,
-      "pitchStabLimit": 30.0,
       "period": 1.25,
       "width": 50.0,
       "barHeight": 4.5,
@@ -48,7 +46,6 @@
       "azimuthLimits": [-50.0,50.0],
       "elevationLimits": [-30.0,30.0],
       "rollStabLimit": 110.0,
-      "pitchStabLimit": 30.0,
       "period": 2.5,
       "width": 50.0,
       "barHeight": 4.0,
@@ -61,7 +58,6 @@
       "azimuthLimits": [-50.0,50.0],
       "elevationLimits": [-30.0,30.0],
       "rollStabLimit": 110.0,
-      "pitchStabLimit": 30.0,
       "period": 0.5,
       "width": 5.0,
       "barHeight": 4.0,
@@ -312,14 +308,29 @@
             }
           }
         },
-        "designationLockResponce": {
+        "checkDesignationType0": {
           "stateFrom": "search",
           "command": "designateTarget",
+          "stateTo": "checkDesignationType0",
+          "actions": {
+            "checkDesignationTypeEquals": {
+              "value": 0
+            }
+          }
+        },
+        "designationLockResponce": {
+          "stateFrom": "checkDesignationType0",
+          "event": "designationTypeEquals",
           "stateTo": "designationLock",
           "actions": {
             "resetSearchMode": [],
             "setDesignationLockMode": []
           }
+        },
+        "returnToSearchMode": {
+          "stateFrom": "checkDesignationType0",
+          "event": "designationTypeNotEquals",
+          "stateTo": "search"
         },
         "designationTrack": {
           "stateFrom": "designationLock",
@@ -425,7 +436,7 @@
           "actions": {
             "designateActiveDetectedTarget": {
               "type": 0,
-              "sensorIndex": 1
+              "sensorIndex": 0
             }
           }
         }

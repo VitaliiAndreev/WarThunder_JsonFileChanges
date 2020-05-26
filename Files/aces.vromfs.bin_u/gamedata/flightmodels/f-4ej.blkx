@@ -2919,6 +2919,7 @@
           "rpm1_hour": [0.0,10000.0],
           "rpm1_min": [0.0,1000.0],
           "oil_pressure": [0.0,160.0],
+          "oil_pressure1": [0.0,160.0],
           "water_temperature_hour": [100.0,1100.0],
           "water_temperature_min": [0.0,100.0],
           "water_temperature1_hour": [100.0,1100.0],
@@ -2939,7 +2940,8 @@
             "display": {
               "textureArea": [0.0,0.5,0.5,1.0],
               "page": {
-                "type": "radar"
+                "type": "radar",
+                "radarScale": 0.67
               }
             }
           },
@@ -3018,35 +3020,70 @@
         "preset": {
           "name": "f_4ej_bomb_mk82",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_bomb_mk82.blk",
-          "reqModification": "us_500lb_mk82"
+          "reqModification": "us_500lb_mk82",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/BombGuns/us_500lb_mk_82_ldgp.blk",
+              "amountPerTier": 3.0,
+              "iconType": "bombs_middle_group"
+            }
+          }
         }
       },
       {
         "preset": {
           "name": "f_4ej_bomb_m117",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_bomb_m117.blk",
-          "reqModification": "jp_750lb_jm117"
+          "reqModification": "jp_750lb_jm117",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45_japan.blk",
+              "amountPerTier": 2.0,
+              "iconType": "bombs_large_group"
+            }
+          }
         }
       },
       {
         "preset": {
           "name": "f_4ej_rockets_lau18",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_rockets_lau18.blk",
-          "reqModification": "jp_jlau_3a"
+          "reqModification": "jp_jlau_3a",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+              "amountPerTier": 28.5,
+              "iconType": "nar_ap_large"
+            }
+          }
         }
       },
       {
         "preset": {
           "name": "f_4ej_rockets_zuni",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_rockets_zuni.blk",
-          "reqModification": "f4c_zuni"
+          "reqModification": "f4c_zuni",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_zuni_wafar_mk32.blk",
+              "amountPerTier": 5.0,
+              "iconType": "nar_ap_special"
+            }
+          }
         }
       },
       {
         "preset": {
           "name": "f_4ej_aim9e",
           "blk": "gameData/flightModels/weaponPresets/f_4ej_aim9e.blk",
-          "reqModification": "us_aim_9e"
+          "reqModification": "us_aim_9e",
+          "weaponConfig": {
+            "Weapon": {
+              "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
+              "amountPerTier": 1.0,
+              "iconType": "missile_air_to_air"
+            }
+          }
         }
       },
       {
@@ -3069,6 +3106,24 @@
           },
           {
             "reqModification": "us_aim_9e"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/BombGuns/us_500lb_mk_82_ldgp.blk",
+                  "amountPerTier": 3.0,
+                  "iconType": "bombs_middle_group"
+                }
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
+                  "amountPerTier": 1.0,
+                  "iconType": "missile_air_to_air"
+                }
+              }
+            ]
           }
         ]
       },
@@ -3085,6 +3140,15 @@
           },
           {
             "reqModification": "us_aim_9j"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/us_500lb_mk_82_ldgp.blk",
+                "amountPerTier": 3.0,
+                "iconType": "bombs_middle_group"
+              }
+            }
           }
         ]
       },
@@ -3101,6 +3165,24 @@
           },
           {
             "reqModification": "us_aim_9e"
+          },
+          {
+            "weaponConfig": [
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45_japan.blk",
+                  "amountPerTier": 2.0,
+                  "iconType": "bombs_large_group"
+                }
+              },
+              {
+                "Weapon": {
+                  "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
+                  "amountPerTier": 1.0,
+                  "iconType": "missile_air_to_air"
+                }
+              }
+            ]
           }
         ]
       },
@@ -3117,6 +3199,15 @@
           },
           {
             "reqModification": "us_aim_9j"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": {
+                "blk": "gameData/Weapons/BombGuns/us_750lb_m117_cone_45_japan.blk",
+                "amountPerTier": 2.0,
+                "iconType": "bombs_large_group"
+              }
+            }
           }
         ]
       },
@@ -3133,6 +3224,15 @@
           },
           {
             "reqModification": "us_aim_9e"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
+                "amountPerTier": 1.0,
+                "iconType": "missile_air_to_air"
+              }
+            }
           }
         ]
       },
@@ -3165,6 +3265,15 @@
           },
           {
             "reqModification": "us_aim_9e"
+          },
+          {
+            "weaponConfig": {
+              "Weapon": {
+                "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
+                "amountPerTier": 1.0,
+                "iconType": "missile_air_to_air"
+              }
+            }
           }
         ]
       },
@@ -3529,7 +3638,7 @@
       "emtr_break_wing1_r_to": [0.195882,-0.790413,-2.98659],
       "emtr_break_wing2_r_from": [0.195882,-0.790413,-4.04735],
       "emtr_break_wing2_r_to": [0.195882,-0.790413,-4.78873],
-      "emtr_break_wing_tail": [-3.83425,0.0,0.0],
+      "emtr_break_wing_tail": [-4.0,0.0,0.0],
       "finCut": true,
       "emtr_break_tail_from": [-4.33957,-0.0996002,4.57764e-07],
       "emtr_break_tail_to": [-7.37561,-0.0996002,4.57764e-07]
