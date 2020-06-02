@@ -493,6 +493,16 @@
       "fictional": true
     }
   },
+  "starfighters_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "item_quality": 2,
+    "name_color": "1EFF00",
+    "tags": {
+      "fictional": true
+    }
+  },
   "mermaid_decal": {
     "category": "pinups",
     "costGold": -1,
@@ -1689,6 +1699,10 @@
   },
   "us_403_bmb_sqn_million": {
     "category": "pinups",
+    "costGold": -1
+  },
+  "ca_no_408_sqn_willie_wolf": {
+    "category": "allies_images",
     "costGold": -1
   },
   "stream_snail_decal": {
