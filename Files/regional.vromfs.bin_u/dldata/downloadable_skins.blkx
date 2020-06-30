@@ -21255,9 +21255,9 @@
       "texProps": "?Q0-1-1Na16"
     }
   },
-  "m60a3_slep#Turkish": {
-    "modelName": "m60a3_slep",
-    "mangledID": "Turkish",
+  "us_m60a3_slep#turkish": {
+    "modelName": "us_m60a3_slep",
+    "mangledID": "turkish",
     "lw25_mount_c*": {
       "lod0": "dkdtkaafcmlhkgbm3ys7p4rxbiv6lbsf-64yq",
       "lod1": "55tfikobszaub6gjlpfdee6ptflfv72f-bptq",

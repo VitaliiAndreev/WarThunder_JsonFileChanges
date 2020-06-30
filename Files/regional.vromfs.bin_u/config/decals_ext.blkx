@@ -1726,6 +1726,10 @@
     "category": "allies_images",
     "costGold": -1
   },
+  "su_522_iap_karabanov": {
+    "category": "ussr",
+    "costGold": -1
+  },
   "stream_snail_decal": {
     "category": "special",
     "costGold": -1,
