@@ -773,9 +773,9 @@
           },
           "sb2u_group": {
             "image": "#ui/unitskin#sb2u_group",
+            "reqAir": "",
             "sb2u-2": {
-              "rank": 1,
-              "reqAir": ""
+              "rank": 1
             },
             "sb2u-3": {
               "rank": 1
