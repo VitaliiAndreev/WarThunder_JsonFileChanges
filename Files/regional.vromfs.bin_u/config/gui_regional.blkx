@@ -3881,7 +3881,10 @@
     "world_war_button": {
       "action": "world_war",
       "text": "#mainmenu/btnWorldwar",
-      "reqFeature": "WorldWar"
+      "reqFeature": "WorldWar",
+      "image": "https://static.warthunder.com/upload/image/Promo/pomo_ww_season3_the_calendar_eng.jpg?P1",
+      "image_ru": "https://static.warthunder.com/upload/image/Promo/pomo_ww_season3_thecalendar_ru.jpg?P1",
+      "aspect_ratio": 1.86
     },
     "events_mainmenu_button": {
       "color": "#33556126",
