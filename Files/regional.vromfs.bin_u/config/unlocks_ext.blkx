@@ -1447,6 +1447,14 @@
   },
   {
     "unlockable": {
+      "id": "title_copa_hispana",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "title_hovering_threat",
       "type": "title",
       "chapter": "title",
@@ -11102,6 +11110,68 @@
       "chapter": "decals",
       "group": "axis_emblems",
       "hidden": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2020_07_03_4july_2020_decal",
+      "type": "achievement",
+      "chapter": "2019_4july",
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 3
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_usa"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2020-07-03 11:00:00",
+            "endDate": "2020-07-06 07:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2020_07_03_4july_2020_decal_gift",
+      "userLogId": "2020_07_03_4july_2020_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "2020_07_03_4july_2020_decal"
+      }
     }
   },
   {
@@ -50264,8 +50334,8 @@
         {
           "condition": {
             "type": "timeRange",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
@@ -50297,8 +50367,8 @@
         {
           "condition": {
             "type": "timeRange",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
@@ -50330,8 +50400,8 @@
         {
           "condition": {
             "type": "timeRange",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
@@ -50370,8 +50440,8 @@
         {
           "condition": {
             "type": "timeRange",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
@@ -50391,8 +50461,8 @@
         "unlock": "2020_07_01_worldwar_season_3_5_streak",
         "condition": {
           "type": "timeRange",
-          "beginDate": "2020-07-01 12:00:00",
-          "endDate": "2020-07-02 10:00:00"
+          "beginDate": "2020-07-08 19:00:00",
+          "endDate": "2020-07-09 10:00:00"
         }
       }
     }
@@ -50424,8 +50494,8 @@
         {
           "condition": {
             "type": "timeRange",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
@@ -50466,8 +50536,8 @@
         {
           "condition": {
             "type": "char_time_range",
-            "beginDate": "2020-07-01 12:00:00",
-            "endDate": "2020-07-02 10:00:00"
+            "beginDate": "2020-07-08 19:00:00",
+            "endDate": "2020-07-09 10:00:00"
           }
         }
       ]
