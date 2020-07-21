@@ -1842,14 +1842,14 @@
     }
   },
   "promo_block": {
-    "23_06_20_tss_promo": {
-      "image": "https://static.warthunder.com/upload/image/!%202020%20NEWS/06%20June/Copa_Hispana.jpg?P1",
+    "21_07_20_tss_promo": {
+      "image": "https://static.warthunder.ru/upload/image/Promo/fleet_tss.jpg?P1",
       "aspect_ratio": 2.11,
-      "text": "Copa Hispana",
-      "link": "auto_login https://tss.warthunder.com/index.php?action=tournament&id=11271",
-      "startTime": "2020-06-23 06:00",
-      "endTime": "2020-06-25 12:00",
-      "showForLangs": "Spanish"
+      "text": "Naval Squadron 5x5 RB",
+      "text_ru": "Эскадра 5х5 PБ",
+      "link": "auto_login https://tss.warthunder.com/index.php?action=tournament&id=11580",
+      "startTime": "2020-07-21 06:00",
+      "endTime": "2020-07-23 12:00"
     },
     "05_03_20_summer_sale_promo": {
       "aspect_ratio": 2.11,
