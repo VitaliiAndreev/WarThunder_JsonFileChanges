@@ -1,13 +1,28 @@
 {
   "worldWarUrlBtnKey": "wikiMainPage",
   "popupItems": {
+    "obchod-bonusove-zlate_popup_cz": {
+      "name_cs": "Bonusové Zlaté orlice při použití platby přes O2!",
+      "linkText_cs": "Podrobnosti",
+      "desc_cs": "Získejte Zlaté orlice navíc za nákup vybraných položek a zaplacení pomocí platby přes O2!\\n\\nPiloti, tankisté a kapitáni! Nyní můžete získat Zlaté orlice navíc při nákupu na Gaijin Store a zaplacení pomocí platby přes O2 vyúčtování.",
+      "image_cs": "https://static.warthunder.com/upload/image/CZ/szech_site_+20G_968x530_51a4d2ac6013c075d2e752af98cd9fe3.jpg?P1",
+      "link_cs": "https://warthunder.com/cz/news/3084-obchod-bonusov%C3%A9-zlat%C3%A9-orlice-p%C5%99i-pou%C5%BEit%C3%AD-platby-p%C5%99es-o2-cz",
+      "imageRatio": 0.54,
+      "viewType": "once",
+      "showOverModalObject": true,
+      "startTime": "2020-07-27 00:00",
+      "endTime": "2020-08-09 10:00",
+      "reqFeature": "pc_only_events",
+      "forceExternalBrowser": true,
+      "showForLangs": "Czech"
+    },
     "rooikat_video_popup": {
       "name": "Vehicle review: ROOIKAT 105",
       "name_ru": "Обзор от Wiki: ROOIKAT 105",
       "linkText": "Watch Video",
       "linkText_ru": "Смотреть видео",
-      "desc": "ROOIKAT 105 is one of the fastest wheeled vehicles in War Thunder for now. Each player can research the original version with a 75mm cannon, but if you want the same mobility with improved weaponry, you can have at your disposal a premium version with a powerful 105mm cannon.\\n\\nUntil 07:00 GMT on the 30 of July - purchase the ROOIKAT 105 pack and you will receive a special “Approved by WT Wiki” decal.",
-      "desc_ru": "Это ROOIKAT 105 — одна из самых быстрых колёсных машин в War Thunder на сегодняшний день. Каждый боец может исследовать оригинальную версию с 75-мм пушкой, но если вы хотите той же мобильности, но с лучшим вооружением, то к вашим услугам премиумная версия с мощным 105-мм орудием.\\n\\nДо 30 июля (23:00 МСК) при покупке набора ROOIKAT 105 вы получите специальную декаль «Одобрено WT Wiki».",
+      "desc": "ROOIKAT 105 is one of the fastest wheeled vehicles in War Thunder for now. Each player can research the original version with a 76mm cannon, but if you want the same mobility with improved weaponry, you can have at your disposal a premium version with a powerful 105mm cannon.\\n\\nUntil 07:00 GMT on the 30 of July - purchase the ROOIKAT 105 pack and you will receive a special “Approved by WT Wiki” decal.",
+      "desc_ru": "Это ROOIKAT 105 — одна из самых быстрых колёсных машин в War Thunder на сегодняшний день. Каждый боец может исследовать оригинальную версию с 76-мм пушкой, но если вы хотите той же мобильности, но с лучшим вооружением, то к вашим услугам премиумная версия с мощным 105-мм орудием.\\n\\nДо 30 июля (23:00 МСК) при покупке набора ROOIKAT 105 вы получите специальную декаль «Одобрено WT Wiki».",
       "image": "https://static.warthunder.com/upload/image/Promo/rooikat_popup_eng.jpg?P1",
       "image_ru": "https://static.warthunder.com/upload/image/Promo/rooikat_popup_rus.jpg?P1",
       "link": "https://warthunder.com/en/news/6802/current/",
