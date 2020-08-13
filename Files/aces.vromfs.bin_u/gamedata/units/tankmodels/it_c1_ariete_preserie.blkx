@@ -2457,9 +2457,7 @@
         "animationMultiplier": -0.68,
         "width": 0.55,
         "height": 0.1,
-        "fricFrontal": [1.2,1.0],
-        "criticalHillAngle": 27.0,
-        "hillClimbingDeclineFricKoef": 15.0
+        "fricFrontal": [1.2,1.0]
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3085,10 +3083,10 @@
       "tank_medical_kit_expendable": {
         "image": "#ui/gameuiskin#tank_reinforcement_it"
       },
-      "120mm_DM_HEAT_FS": [],
+      "120mm_NATO_APDS_FS": [],
       "120mm_DM_APDS_FS": [],
       "120mm_DM_APDS_FS_ammo_pack": [],
-      "120mm_DM_HEAT_FS_ammo_pack": [],
+      "120mm_NATO_APDS_FS_ammo_pack": [],
       "modern_tank_laser_rangefinder": [],
       "tank_smoke_screen_system_mod": {
         "tier": 3,

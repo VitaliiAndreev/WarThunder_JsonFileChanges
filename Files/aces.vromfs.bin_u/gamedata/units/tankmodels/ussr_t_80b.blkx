@@ -2413,9 +2413,7 @@
       "tracks": {
         "animationMultiplier": 0.72,
         "height": 0.045,
-        "width": 0.65,
-        "criticalHillAngle": 27.0,
-        "hillClimbingDeclineFricKoef": 15.0
+        "width": 0.65
       },
       "collisionProps": {
         "cls_turret": "convex_hull",
@@ -3060,17 +3058,17 @@
       "modern_tank_laser_rangefinder": {
         "tier": 2
       },
-      "125mm_ussr_3BK18M_HEAT_FS_ammo_pack": [],
+      "125mm_ussr_HE": [],
+      "125mm_ussr_APDS_FS": [],
+      "125mm_ussr_ATGM": {
+        "maxToRespawn": 28
+      },
+      "125mm_ussr_3BM42_APDS_FS": [],
+      "125mm_ussr_APDS_FS_ammo_pack": [],
       "125mm_ussr_ATGM_ammo_pack": {
         "tier": 3
       },
       "125mm_ussr_3BM42_APDS_FS_ammo_pack": [],
-      "125mm_ussr_3BM42_APDS_FS": [],
-      "125mm_ussr_3BK18M_HEAT_FS": [],
-      "125mm_ussr_HE": [],
-      "125mm_ussr_ATGM": {
-        "maxToRespawn": 28
-      },
       "night_vision_system": {
         "modClass": "protection",
         "tier": 3,
