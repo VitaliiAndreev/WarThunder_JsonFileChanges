@@ -1516,6 +1516,22 @@
   },
   {
     "unlockable": {
+      "id": "title_savate_master",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_on_full_alert",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "title_chief_mate",
       "type": "title",
       "chapter": "title",
@@ -7749,6 +7765,51 @@
             "type": "playerHasFeature",
             "feature": "DMMAndSCEJAccounts"
           }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "werewolf_decal",
+      "type": "decal",
+      "chapter": "summer_marathon",
+      "mode": [
+        {
+          "type": "char_resources"
+        },
+        {
+          "num": 10
+        },
+        {
+          "resource": "basilisk_decal"
+        },
+        {
+          "resource": "cerberus_decal"
+        },
+        {
+          "resource": "chimera_decal"
+        },
+        {
+          "resource": "echidna_decal"
+        },
+        {
+          "resource": "harpy_decal"
+        },
+        {
+          "resource": "hippocampus_decal"
+        },
+        {
+          "resource": "lernaean_hydra_decal"
+        },
+        {
+          "resource": "minotaur_decal"
+        },
+        {
+          "resource": "sphinx_decal"
+        },
+        {
+          "resource": "wyvern_decal"
         }
       ]
     }
@@ -19214,7 +19275,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -59565,7 +59627,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -59892,7 +59955,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -60219,7 +60283,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -60546,7 +60611,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -60873,7 +60939,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -61200,7 +61267,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -61527,7 +61595,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -61854,7 +61923,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -62181,7 +62251,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -62508,7 +62579,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -62835,7 +62907,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
@@ -63162,7 +63235,8 @@
             "type": "playerUnitRank",
             "minRank": 3,
             "maxRank": 7,
-            "inSession": false
+            "inSession": true,
+            "inSessionAnd": false
           }
         },
         {
