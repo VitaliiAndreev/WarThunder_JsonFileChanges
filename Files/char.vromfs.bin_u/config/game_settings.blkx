@@ -3367,6 +3367,10 @@
       "condition": "",
       "platform_lock": "pc;android"
     },
+    "ps_xboxOne_only_events": {
+      "condition": "",
+      "platform_lock": "ps4;android"
+    },
     "ConsolesLiveTrophy": [],
     "ConsolesWorkshopExchange": [
       {
@@ -3429,6 +3433,10 @@
     "Marketplace": {
       "condition": "!DMMAccount;!PS4Account;!XBOXAccount",
       "platform_lock": "ps4;android;xboxOne"
+    },
+    "Starterpack": {
+      "condition": "!PS4Account;!XBOXAccount",
+      "platform_lock": "ps4;xboxOne"
     },
     "DMMAndSCEJAccounts": [
       {

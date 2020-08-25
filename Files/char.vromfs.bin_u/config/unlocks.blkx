@@ -148274,6 +148274,72 @@
   },
   {
     "unlockable": {
+      "id": "tank_biathlon_won_streak",
+      "type": "streak",
+      "amount_exp": 0,
+      "amount_warpoints": 0,
+      "isAfterFlight": true,
+      "stage": {
+        "param": 1,
+        "amount_exp": 0,
+        "amount_warpoints": 0
+      },
+      "mode": [
+        {
+          "type": "missionsWon"
+        },
+        {
+          "num": 1005000
+        },
+        {
+          "condition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "condition": {
+            "type": "mission",
+            "mission": "training_ground_race"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ship_biathlon_won_streak",
+      "type": "streak",
+      "amount_exp": 0,
+      "amount_warpoints": 0,
+      "isAfterFlight": true,
+      "stage": {
+        "param": 1,
+        "amount_exp": 0,
+        "amount_warpoints": 0
+      },
+      "mode": [
+        {
+          "type": "missionsWon"
+        },
+        {
+          "num": 1005000
+        },
+        {
+          "condition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "condition": {
+            "type": "mission",
+            "mission": "black_sea_race"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
       "id": "facebook_like",
       "chapter": "achievements",
       "facebook": true,

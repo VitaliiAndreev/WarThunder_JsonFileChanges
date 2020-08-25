@@ -60716,7 +60716,7 @@
   "germ_leopard_c2_mexas": {
     "type": "tank",
     "hangar_place": "tank",
-    "originCountry": "country_canada",
+    "originCountry": "country_canada_modern",
     "testFlight": "testFlight_ERA_tft",
     "releaseDate": "2020-08-25 00:00:00",
     "tags": {
