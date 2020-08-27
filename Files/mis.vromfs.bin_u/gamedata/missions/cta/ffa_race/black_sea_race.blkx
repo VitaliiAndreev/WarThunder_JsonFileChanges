@@ -114,7 +114,7 @@
       "gt_race": true,
       "timeLimit": 20,
       "raceLaps": 1,
-      "raceWinners": 3,
+      "raceWinners": 1,
       "raceForceCannotShoot": false,
       "windSpeed": [13.0,14.0],
       "useCustomOnlineUnlocksOnly": true,
