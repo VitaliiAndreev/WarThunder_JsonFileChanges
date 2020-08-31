@@ -5202,8 +5202,8 @@
   "ball_russia": {
     "category": "fifa_2018",
     "costGold": -1,
-    "beginDate": "2018-06-21 00:01:00",
-    "endDate": "2018-07-23 11:30:00",
+    "marketplaceItemdefId": 20140,
+    "hideFeature": "!Marketplace",
     "tags": {
       "fictional": true
     }
