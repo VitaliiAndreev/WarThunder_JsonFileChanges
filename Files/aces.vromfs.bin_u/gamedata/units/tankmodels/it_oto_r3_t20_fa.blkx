@@ -549,39 +549,21 @@
         "armorClass": "steel_tankman",
         "hp": 40.0,
         "genericDamageMult": 3.0,
-        "driver_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "loader_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "gunner_02_dm": {
-          "genericDamageMult": 3.0
-        },
-        "commander_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_01_dm": {
-          "genericDamageMult": 3.0
-        },
-        "machine_gunner_02_dm": {
-          "genericDamageMult": 3.0
-        }
+        "pressureDamageMult": 1.0,
+        "driver_dm": [],
+        "loader_dm": [],
+        "loader_01_dm": [],
+        "loader_02_dm": [],
+        "gunner_dm": [],
+        "gunner_01_dm": [],
+        "gunner_02_dm": [],
+        "gunner_03_dm": [],
+        "commander_dm": [],
+        "machine_gunner_dm": [],
+        "machine_gunner_01_dm": [],
+        "machine_gunner_02_dm": [],
+        "machine_gunner_03_dm": [],
+        "machine_gunner_04_dm": []
       },
       "equipment_body_turret": {
         "armorClass": "tank_structural_steel",
@@ -2059,73 +2041,136 @@
   },
   {
     "commonWeapons": {
-      "Weapon": {
-        "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/20mm_Oerlikon_KAD_B17_user_cannon.blk",
-        "emitter": "bone_gun_barrel",
-        "flash": "emtr_gun_flame",
-        "useEmitter": true,
-        "recoilMultiplier": 1.0,
-        "recoilOffset": 0.1,
-        "jammedReloadTime": 15.0,
-        "barrelDP": "gun_barrel_dm",
-        "breechDP": "cannon_breech_dm",
-        "defaultYaw": 0.0,
-        "defaultPitch": 0.0,
-        "speedYaw": 45.0,
-        "speedPitch": 30.0,
-        "bullets": 600,
-        "fireConeAngle": 15.0,
-        "ChainfireTime": 0.5,
-        "DelayAfterShoot": 2.0,
-        "accuracyAir": 1.5,
-        "accuracyGnd": 0.0,
-        "errMeasureVel": 0.0,
-        "errMeasureVelFast": 0.0,
-        "errMeasureVelFwdShift": 0.0,
-        "errMeasureVelDir": 0.0,
-        "errTargettingOn100kmph": 0.0,
-        "errTargetting": 3.0,
-        "errExplTime": 0.0,
-        "turret": {
-          "head": "bone_turret",
-          "gun": "bone_gun",
-          "barrel": "bone_gun_barrel",
-          "gunnerDm": "gunner_dm",
-          "loaderDm": "loader_01_dm"
+      "Weapon": [
+        {
+          "trigger": "gunner0"
         },
-        "limits": {
-          "yaw": [-180.0,180.0],
-          "pitch": [-10.0,60.0]
+        {
+          "blk": "gameData/Weapons/groundModels_weapons/20mm_Oerlikon_KAD_B17_user_cannon.blk"
         },
-        "gunStabilizer": {
-          "hasVerticalGunFreeMode": false,
-          "hasHorizontal": true,
-          "horizontalOmegaMult": 1.0,
-          "horizontalSpeedLimitKPH": 25.0,
-          "hasVertical": true,
-          "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 25.0,
-          "speedFromVehicleVerticalMult": -1.0,
-          "errorKPHToDegrees": [
-            {
-              "row": [5.0,0.0]
-            },
-            {
-              "row": [10.0,0.015]
-            },
-            {
-              "row": [15.0,0.02]
-            },
-            {
-              "row": [20.0,0.1]
-            },
-            {
-              "row": [25.0,0.3]
-            }
-          ]
+        {
+          "emitter": "bone_gun_barrel"
+        },
+        {
+          "flash": "emtr_gun_flame"
+        },
+        {
+          "recoilMultiplier": 0.5
+        },
+        {
+          "useEmitter": true
+        },
+        {
+          "recoilMultiplier": 1.0
+        },
+        {
+          "recoilOffset": 0.1
+        },
+        {
+          "jammedReloadTime": 15.0
+        },
+        {
+          "barrelDP": "gun_barrel_dm"
+        },
+        {
+          "breechDP": "cannon_breech_dm"
+        },
+        {
+          "defaultYaw": 0.0
+        },
+        {
+          "defaultPitch": 0.0
+        },
+        {
+          "speedYaw": 45.0
+        },
+        {
+          "speedPitch": 30.0
+        },
+        {
+          "bullets": 600
+        },
+        {
+          "fireConeAngle": 15.0
+        },
+        {
+          "ChainfireTime": 0.5
+        },
+        {
+          "DelayAfterShoot": 2.0
+        },
+        {
+          "accuracyAir": 1.5
+        },
+        {
+          "accuracyGnd": 0.0
+        },
+        {
+          "errMeasureVel": 0.0
+        },
+        {
+          "errMeasureVelFast": 0.0
+        },
+        {
+          "errMeasureVelFwdShift": 0.0
+        },
+        {
+          "errMeasureVelDir": 0.0
+        },
+        {
+          "errTargettingOn100kmph": 0.0
+        },
+        {
+          "errTargetting": 3.0
+        },
+        {
+          "errExplTime": 0.0
+        },
+        {
+          "turret": {
+            "head": "bone_turret",
+            "gun": "bone_gun",
+            "barrel": "bone_gun_barrel",
+            "gunnerDm": "gunner_dm",
+            "loaderDm": "loader_01_dm"
+          }
+        },
+        {
+          "limits": {
+            "yaw": [-180.0,180.0],
+            "pitch": [-10.0,60.0]
+          }
+        },
+        {
+          "gunStabilizer": {
+            "hasVerticalGunFreeMode": false,
+            "hasHorizontal": true,
+            "horizontalOmegaMult": 1.0,
+            "horizontalSpeedLimitKPH": 25.0,
+            "hasVertical": true,
+            "verticalOmegaMult": 1.0,
+            "verticalSpeedLimitKPH": 25.0,
+            "speedFromVehicleVerticalMult": -1.0,
+            "errorKPHToDegrees": [
+              {
+                "row": [5.0,0.0]
+              },
+              {
+                "row": [10.0,0.015]
+              },
+              {
+                "row": [15.0,0.02]
+              },
+              {
+                "row": [20.0,0.1]
+              },
+              {
+                "row": [25.0,0.3]
+              }
+            ]
+          }
         }
-      },
+      ],
       "hideNodes": [
         {
           "node": "ex_decor_l_01"
@@ -2151,7 +2196,7 @@
         "Fuel": 240.0,
         "TakeOff": 3650.0,
         "momentOfInertia": [2.0,2.0,4.0],
-        "CenterOfGravity": [-0.15,0.4,0.0],
+        "CenterOfGravity": [-0.1,0.2,0.0],
         "CenterOfGravityClampY": [0.0,0.5],
         "AdvancedMass": true,
         "trackMass": 40.0,
