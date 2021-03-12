@@ -19,22 +19,194 @@
     },
     "spectator_points": []
   },
-  "imports": {
-    "import_record": {
-      "file": "gameData/missions/templates/air_templates/jip/air_cr_carriers_template.blk",
-      "importAreas": true,
-      "importUnits": true,
-      "importTriggers": true,
-      "importMissionObjectives": true,
-      "importWayPoints": true,
-      "showAreas": true,
-      "showUnits": true,
-      "showTriggers": true,
-      "showMissionObjectives": true,
-      "showWayPoints": true,
-      "excludes": []
+  "imports": [
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/air_cr_carriers_template.blk",
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t1_uk_rank_01.blk",
+        "rankRange": [0,3],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t1_uk_rank_02.blk",
+        "rankRange": [4,7],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t1_uk_rank_03.blk",
+        "rankRange": [8,11],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t1_uk_rank_04.blk",
+        "rankRange": [12,16],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t1_uk_rank_05.blk",
+        "rankRange": [17,30],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t2_germ_rank_01.blk",
+        "rankRange": [0,3],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t2_germ_rank_02.blk",
+        "rankRange": [4,7],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t2_germ_rank_03.blk",
+        "rankRange": [8,11],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t2_germ_rank_04.blk",
+        "rankRange": [12,16],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
+    },
+    {
+      "import_record": {
+        "file": "gameData/missions/templates/air_templates/jip/destroyers_shipsets/dst_t2_germ_rank_05.blk",
+        "rankRange": [17,30],
+        "importAreas": true,
+        "importUnits": true,
+        "importTriggers": true,
+        "importMissionObjectives": true,
+        "importWayPoints": true,
+        "showAreas": true,
+        "showUnits": true,
+        "showTriggers": true,
+        "showMissionObjectives": true,
+        "showWayPoints": true,
+        "excludes": []
+      }
     }
-  },
+  ],
   "triggers": {
     "isCategory": true,
     "is_enabled": true
@@ -55,7 +227,7 @@
           [-1.0,0.0,-1.49012e-07],
           [0.0,1.0,0.0],
           [1.49012e-07,0.0,-1.0],
-          [-3821.1,0.0,-34649.6]
+          [26114.1,0.0,-47573.1]
         ],
         "unit_class": "us_aircraftcarrier_forrestal",
         "objLayer": 1,
@@ -94,7 +266,7 @@
           [1.0,0.0,0.0],
           [0.0,1.0,0.0],
           [0.0,0.0,1.0],
-          [33383.6,0.0,41857.2]
+          [34446.3,0.0,43472.8]
         ],
         "unit_class": "uk_aircraftcarrier_ark_royal",
         "objLayer": 1,
@@ -131,10 +303,10 @@
     "cr_t1_carrier_spawn_point_01": {
       "type": "Point",
       "tm": [
-        [-6.70552e-08,0.0,1.0],
+        [0.642729,0.0,-0.766094],
         [0.0,1.0,0.0],
-        [-1.0,0.0,-6.70552e-08],
-        [-9085.96,0.030304,-55064.9]
+        [0.766094,0.0,0.642729],
+        [15464.7,0.0,-4361.55]
       ],
       "objLayer": 0,
       "props": []
@@ -142,10 +314,10 @@
     "cr_t1_carrier_spawn_point_02": {
       "type": "Point",
       "tm": [
-        [-2.98023e-08,0.0,-1.0],
+        [-0.642729,0.0,0.766094],
         [0.0,1.0,0.0],
-        [1.0,0.0,-2.98023e-08],
-        [-9085.96,0.030304,-37864.3]
+        [-0.766094,0.0,-0.642729],
+        [26818.1,-0.00094604,-17676.6]
       ],
       "objLayer": 0,
       "props": []
@@ -153,10 +325,10 @@
     "cr_t1_carrier_spawn_point_03": {
       "type": "Point",
       "tm": [
-        [-6.70552e-08,0.0,1.0],
+        [0.642729,0.0,-0.766094],
         [0.0,1.0,0.0],
-        [-1.0,0.0,-6.70552e-08],
-        [-2489.16,0.030304,-55064.9]
+        [0.766094,0.0,0.642729],
+        [7970.66,-0.00094604,-10647.8]
       ],
       "objLayer": 0,
       "props": []
@@ -164,10 +336,10 @@
     "cr_t1_carrier_spawn_point_04": {
       "type": "Point",
       "tm": [
-        [-2.98023e-08,0.0,-1.0],
+        [-0.642729,0.0,0.766094],
         [0.0,1.0,0.0],
-        [1.0,0.0,-2.98023e-08],
-        [-2489.16,0.030304,-37864.3]
+        [-0.766094,0.0,-0.642729],
+        [19224.0,-0.00094604,-24050.6]
       ],
       "objLayer": 0,
       "props": []
@@ -175,10 +347,10 @@
     "cr_t1_carrier_respawn_point_01": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [-7500.0,0.0214844,-64146.3]
+        [-8.9407e-08,0.0,-1.0],
+        [28000.1,0.0,-15000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -186,10 +358,10 @@
     "cr_t1_carrier_respawn_point_02": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [2500.0,0.0214844,-64146.3]
+        [-8.9407e-08,0.0,-1.0],
+        [28000.0,0.0,-25000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -197,10 +369,10 @@
     "cr_t1_carrier_respawn_point_03": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [-2500.0,0.0214844,-64146.3]
+        [-8.9407e-08,0.0,-1.0],
+        [28000.1,0.0,-20000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -208,10 +380,10 @@
     "cr_t1_carrier_respawn_point_04": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [-12500.0,0.0214844,-64146.3]
+        [-8.9407e-08,0.0,-1.0],
+        [28000.1,0.0,-10000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -219,10 +391,10 @@
     "cr_t2_carrier_spawn_point_01": {
       "type": "Point",
       "tm": [
-        [-1.0,0.0,8.9407e-08],
+        [-0.757496,0.0,-0.65284],
         [0.0,1.0,0.0],
-        [-8.9407e-08,0.0,-1.0],
-        [17920.6,0.0,37016.7]
+        [0.65284,0.0,-0.757496],
+        [25741.1,0.0,13026.6]
       ],
       "objLayer": 0,
       "props": []
@@ -230,10 +402,10 @@
     "cr_t2_carrier_spawn_point_02": {
       "type": "Point",
       "tm": [
-        [1.0,0.0,-1.19209e-07],
+        [0.757496,0.0,0.652839],
         [0.0,1.0,0.0],
-        [1.19209e-07,0.0,1.0],
-        [310.415,0.0,37016.7]
+        [-0.652839,0.0,0.757496],
+        [13596.2,3.05176e-05,2132.52]
       ],
       "objLayer": 0,
       "props": []
@@ -241,10 +413,10 @@
     "cr_t2_carrier_spawn_point_03": {
       "type": "Point",
       "tm": [
-        [-1.0,0.0,8.9407e-08],
+        [-0.757496,0.0,-0.65284],
         [0.0,1.0,0.0],
-        [-8.9407e-08,0.0,-1.0],
-        [17920.6,0.0,43613.5]
+        [0.65284,0.0,-0.757496],
+        [19312.4,0.0,21035.3]
       ],
       "objLayer": 0,
       "props": []
@@ -252,10 +424,10 @@
     "cr_t2_carrier_spawn_point_04": {
       "type": "Point",
       "tm": [
-        [1.0,0.0,-1.19209e-07],
+        [0.757496,0.0,0.652839],
         [0.0,1.0,0.0],
-        [1.19209e-07,0.0,1.0],
-        [310.435,0.0,43613.5]
+        [-0.652839,0.0,0.757496],
+        [7068.7,0.0,10242.8]
       ],
       "objLayer": 0,
       "props": []
@@ -263,10 +435,10 @@
     "cr_t2_carrier_respawn_point_01": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [2488.14,-3.0518e-05,49133.9]
+        [-2.08616e-07,0.0,-1.0],
+        [28000.1,0.0,20000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -274,10 +446,10 @@
     "cr_t2_carrier_respawn_point_02": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [-17511.9,-3.0518e-05,49133.9]
+        [-2.08616e-07,0.0,-1.0],
+        [28000.0,0.0,10000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -285,10 +457,10 @@
     "cr_t2_carrier_respawn_point_03": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [-7511.86,-3.0518e-05,49133.9]
+        [-2.08616e-07,0.0,-1.0],
+        [28000.1,0.0,15000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -296,10 +468,10 @@
     "cr_t2_carrier_respawn_point_04": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [12488.1,-3.0518e-05,49133.9]
+        [-2.08616e-07,0.0,-1.0],
+        [28000.1,0.0,25000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -307,10 +479,10 @@
     "cr_t2_fleet_spawn_point_03": {
       "type": "Point",
       "tm": [
-        [-1.0,0.0,8.9407e-08],
+        [-0.757496,0.0,-0.65284],
         [0.0,1.0,0.0],
-        [-8.9407e-08,0.0,-1.0],
-        [18420.6,0.0,43613.5]
+        [0.65284,0.0,-0.757496],
+        [19691.2,0.0,21361.8]
       ],
       "objLayer": 0,
       "props": []
@@ -318,10 +490,10 @@
     "cr_t2_fleet_spawn_point_01": {
       "type": "Point",
       "tm": [
-        [-1.0,0.0,8.9407e-08],
+        [-0.757496,0.0,-0.65284],
         [0.0,1.0,0.0],
-        [-8.9407e-08,0.0,-1.0],
-        [18420.6,0.0,37016.7]
+        [0.65284,0.0,-0.757496],
+        [26119.8,0.0,13353.1]
       ],
       "objLayer": 0,
       "props": []
@@ -329,10 +501,10 @@
     "cr_t2_fleet_spawn_point_02": {
       "type": "Point",
       "tm": [
-        [1.0,0.0,-1.19209e-07],
+        [0.757496,0.0,0.652839],
         [0.0,1.0,0.0],
-        [1.19209e-07,0.0,1.0],
-        [-189.562,0.0,37016.7]
+        [-0.652839,0.0,0.757496],
+        [13217.4,3.05176e-05,1806.11]
       ],
       "objLayer": 0,
       "props": []
@@ -340,10 +512,10 @@
     "cr_t2_fleet_spawn_point_04": {
       "type": "Point",
       "tm": [
-        [1.0,0.0,-1.19209e-07],
+        [0.757496,0.0,0.652839],
         [0.0,1.0,0.0],
-        [1.19209e-07,0.0,1.0],
-        [-189.565,0.0,43613.5]
+        [-0.652839,0.0,0.757496],
+        [6689.95,0.0,9916.31]
       ],
       "objLayer": 0,
       "props": []
@@ -351,10 +523,10 @@
     "cr_t1_fleet_spawn_point_01": {
       "type": "Point",
       "tm": [
-        [-6.70552e-08,0.0,1.0],
+        [0.642729,0.0,-0.766094],
         [0.0,1.0,0.0],
-        [-1.0,0.0,-6.70552e-08],
-        [-9085.96,0.030304,-55564.9]
+        [0.766094,0.0,0.642729],
+        [15143.3,0.0,-3978.51]
       ],
       "objLayer": 0,
       "props": []
@@ -362,10 +534,10 @@
     "cr_t1_fleet_spawn_point_02": {
       "type": "Point",
       "tm": [
-        [-2.98023e-08,0.0,-1.0],
+        [-0.642729,0.0,0.766094],
         [0.0,1.0,0.0],
-        [1.0,0.0,-2.98023e-08],
-        [-9085.96,0.030304,-37364.3]
+        [-0.766094,0.0,-0.642729],
+        [27139.5,-0.00094604,-18059.7]
       ],
       "objLayer": 0,
       "props": []
@@ -373,10 +545,10 @@
     "cr_t1_fleet_spawn_point_03": {
       "type": "Point",
       "tm": [
-        [-6.70552e-08,0.0,1.0],
+        [0.642729,0.0,-0.766094],
         [0.0,1.0,0.0],
-        [-1.0,0.0,-6.70552e-08],
-        [-2489.16,0.030304,-55564.9]
+        [0.766094,0.0,0.642729],
+        [7649.3,-0.00094604,-10264.7]
       ],
       "objLayer": 0,
       "props": []
@@ -384,10 +556,10 @@
     "cr_t1_fleet_spawn_point_04": {
       "type": "Point",
       "tm": [
-        [-2.98023e-08,0.0,-1.0],
+        [-0.642729,0.0,0.766094],
         [0.0,1.0,0.0],
-        [1.0,0.0,-2.98023e-08],
-        [-2489.16,0.030304,-37364.3]
+        [-0.766094,0.0,-0.642729],
+        [19545.4,-0.00094604,-24433.6]
       ],
       "objLayer": 0,
       "props": []
@@ -395,10 +567,10 @@
     "cr_t2_fleet_respawn_point_01": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [2488.14,-3.0518e-05,49633.9]
+        [-2.08616e-07,0.0,-1.0],
+        [27500.1,0.0,20000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -406,10 +578,10 @@
     "cr_t2_fleet_respawn_point_02": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [-17511.9,-3.0518e-05,49633.9]
+        [-2.08616e-07,0.0,-1.0],
+        [27500.0,0.0,9999.98]
       ],
       "objLayer": 0,
       "props": []
@@ -417,10 +589,10 @@
     "cr_t2_fleet_respawn_point_03": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [-7511.86,-3.0518e-05,49633.9]
+        [-2.08616e-07,0.0,-1.0],
+        [27500.0,0.0,15000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -428,10 +600,10 @@
     "cr_t2_fleet_respawn_point_04": {
       "type": "Point",
       "tm": [
-        [1.19209e-07,0.0,1.0],
+        [-1.0,0.0,2.08616e-07],
         [0.0,1.0,0.0],
-        [-1.0,0.0,1.19209e-07],
-        [12488.1,-3.0518e-05,49633.9]
+        [-2.08616e-07,0.0,-1.0],
+        [27500.1,0.0,30000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -439,10 +611,10 @@
     "cr_t1_fleet_respawn_point_01": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [-7500.0,0.0214844,-64646.3]
+        [-8.9407e-08,0.0,-1.0],
+        [27500.0,0.0,-15000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -450,10 +622,10 @@
     "cr_t1_fleet_respawn_point_02": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [2500.0,0.0214844,-64646.3]
+        [-8.9407e-08,0.0,-1.0],
+        [27500.0,0.0,-25000.0]
       ],
       "objLayer": 0,
       "props": []
@@ -461,12 +633,34 @@
     "cr_t1_fleet_respawn_point_03": {
       "type": "Point",
       "tm": [
-        [-4.37722e-08,0.0,-1.0],
+        [-1.0,0.0,8.9407e-08],
         [0.0,1.0,0.0],
-        [1.0,0.0,-4.37722e-08],
-        [-2500.0,0.0214844,-64646.3]
+        [-8.9407e-08,0.0,-1.0],
+        [27500.0,0.0,-20000.0]
       ],
       "objLayer": 0,
+      "props": []
+    },
+    "cr_t1_fleet_respawn_point_04": {
+      "type": "Point",
+      "tm": [
+        [-1.0,0.0,8.9407e-08],
+        [0.0,1.0,0.0],
+        [-8.9407e-08,0.0,-1.0],
+        [27500.0,0.0,-10000.0]
+      ],
+      "objLayer": 0,
+      "props": []
+    },
+    "cr_border_area": {
+      "type": "Box",
+      "tm": [
+        [-58000.0,0.0,0.0],
+        [0.0,2085.4,0.0],
+        [0.0,-0.000388316,-58000.0],
+        [0.0,113.0,0.0]
+      ],
+      "objLayer": 3,
       "props": []
     }
   },
@@ -488,7 +682,7 @@
     },
     {
       "layer": {
-        "enabled": true
+        "enabled": false
       }
     }
   ],
@@ -504,7 +698,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-8916.76,0.03125,-53964.9]
+            [16142.0,0.0,-5225.2]
           ],
           "props": {
             "speed": 15.0,
@@ -520,7 +714,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-8885.96,0.0292969,-38964.3]
+            [25921.1,0.0,-16958.8]
           ],
           "props": {
             "speed": 15.0,
@@ -536,7 +730,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2689.16,0.0292969,-38964.3]
+            [18670.2,-0.00195312,-23079.3]
           ],
           "props": {
             "speed": 15.0,
@@ -552,7 +746,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2689.16,0.0302734,-53964.9]
+            [8830.85,-0.00097656,-11361.8]
           ],
           "props": {
             "speed": 15.0,
@@ -575,7 +769,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.0292969,-38864.3]
+            [26175.4,-0.00195312,-16910.5]
           ],
           "props": {
             "speed": 15.0,
@@ -591,7 +785,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.03125,-54064.8]
+            [16207.4,0.0,-5039.92]
           ],
           "props": {
             "speed": 15.0,
@@ -607,7 +801,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2506.96,0.03125,-54064.9]
+            [8754.05,0.0,-11315.0]
           ],
           "props": {
             "speed": 15.0,
@@ -623,7 +817,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2489.16,0.0292969,-38864.3]
+            [18581.3,-0.00195312,-23284.5]
           ],
           "props": {
             "speed": 15.0,
@@ -646,7 +840,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2482.06,0.03125,-54064.9]
+            [8607.89,0.0,-11418.3]
           ],
           "props": {
             "speed": 15.0,
@@ -662,7 +856,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2489.16,0.0292969,-38864.3]
+            [18581.3,-0.00195312,-23284.5]
           ],
           "props": {
             "speed": 15.0,
@@ -678,7 +872,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.0292969,-38864.3]
+            [26073.9,0.0,-16952.6]
           ],
           "props": {
             "speed": 15.0,
@@ -694,7 +888,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.03125,-54064.8]
+            [16207.4,0.0,-5039.92]
           ],
           "props": {
             "speed": 15.0,
@@ -717,7 +911,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2489.16,0.0292969,-38864.3]
+            [18581.3,-0.00195312,-23284.5]
           ],
           "props": {
             "speed": 15.0,
@@ -733,7 +927,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-2517.76,0.03125,-54064.9]
+            [8730.45,0.0,-11304.8]
           ],
           "props": {
             "speed": 15.0,
@@ -749,7 +943,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.03125,-54064.8]
+            [16207.4,0.0,-5039.92]
           ],
           "props": {
             "speed": 15.0,
@@ -765,7 +959,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [-9085.96,0.0292969,-38864.3]
+            [26175.4,-0.00195312,-16910.5]
           ],
           "props": {
             "speed": 15.0,
@@ -788,7 +982,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16820.7,0.000946045,37185.9]
+            [24938.2,0.0,12272.2]
           ],
           "props": {
             "speed": 15.0,
@@ -804,7 +998,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1113.03,-3.0518e-05,37216.7]
+            [14073.6,0.0,2808.0]
           ],
           "props": {
             "speed": 15.0,
@@ -820,7 +1014,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1113.04,-3.0518e-05,43413.5]
+            [7874.55,0.0,10609.8]
           ],
           "props": {
             "speed": 15.0,
@@ -836,7 +1030,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16820.7,-3.0518e-05,43413.5]
+            [18631.5,-0.000976563,20129.5]
           ],
           "props": {
             "speed": 15.0,
@@ -859,7 +1053,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.03,-3.0518e-05,37016.7]
+            [14128.4,0.0,2591.22]
           ],
           "props": {
             "speed": 15.0,
@@ -875,7 +1069,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.6,0.000946045,37016.7]
+            [24996.5,0.0,12337.5]
           ],
           "props": {
             "speed": 15.0,
@@ -891,7 +1085,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.7,0.000946045,43595.7]
+            [18588.3,0.0,20332.8]
           ],
           "props": {
             "speed": 15.0,
@@ -907,7 +1101,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.04,-3.0518e-05,43613.5]
+            [7580.77,0.0,10728.3]
           ],
           "props": {
             "speed": 15.0,
@@ -930,7 +1124,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.7,0.000946045,43620.6]
+            [18572.1,0.0,20351.7]
           ],
           "props": {
             "speed": 15.0,
@@ -946,7 +1140,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.04,-3.0518e-05,43613.5]
+            [7631.7,0.0,10727.7]
           ],
           "props": {
             "speed": 15.0,
@@ -962,7 +1156,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.03,-3.0518e-05,37016.7]
+            [14128.4,0.0,2591.22]
           ],
           "props": {
             "speed": 15.0,
@@ -978,7 +1172,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.6,0.000946045,37016.7]
+            [25124.3,0.0,12209.2]
           ],
           "props": {
             "speed": 15.0,
@@ -1001,7 +1195,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.04,-3.0518e-05,43613.5]
+            [7580.77,0.0,10728.3]
           ],
           "props": {
             "speed": 15.0,
@@ -1017,7 +1211,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.7,0.000946045,43584.9]
+            [18595.4,0.0,20324.7]
           ],
           "props": {
             "speed": 15.0,
@@ -1033,7 +1227,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [16920.6,0.000946045,37016.7]
+            [25080.9,-79.9,12209.2]
           ],
           "props": {
             "speed": 15.0,
@@ -1049,7 +1243,7 @@
             [1.0,0.0,0.0],
             [0.0,1.0,0.0],
             [0.0,0.0,1.0],
-            [1013.03,-3.0518e-05,37016.7]
+            [14128.4,0.0,2591.22]
           ],
           "props": {
             "speed": 15.0,
