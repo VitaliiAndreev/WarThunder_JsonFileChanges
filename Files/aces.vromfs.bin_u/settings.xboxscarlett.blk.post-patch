@@ -1,1 +1,9 @@
-"@override:graphics"{}
+// disable mesh streaming due to bug in DX12
+"@override:unitedVdata.dynModel" {
+  "@delete:use":b=no
+  use:b=no
+}
+"@override:unitedVdata.rendInst" {
+  "@delete:useStreaming":b=no  
+  useStreaming:b=no
+}

@@ -1,6 +1,37 @@
 {
   "worldWarUrlBtnKey": "wikiMainPage",
   "popupItems": {
+    "special_offer_90_all_premium_popup": {
+      "name": "Super Discount: 90% off!",
+      "name_ru": "Супер-скидка 90%",
+      "image": "#ui/images/gift_events.jpg?P1",
+      "imageRatio": 0.5,
+      "desc": "Congratulations! You have recieved a special offer! Clicking the “Get a discount!” button you're able to buy ANY Premium vehicle for Golden Eagles with a <color=#17CBFC>90%</color> discount! Remember that the discount is one-time and can only be applied to the first vehicle you buy, so choose wisely! Take your time choosing, the discount is valid for <color=#17CBFC>7 days</color> after receipt",
+      "desc_ru": "Поздравляем! После нажатия кнопки вы сможете купить любую ОДНУ премиумную машину за Золотые Орлы со <color=#17CBFC>скидкой 90%</color>! Помните, что скидка применится только к первой машине, которую вы приобретете! У вас есть <color=#17CBFC>7 дней</color> чтобы воспользоваться скидкой.",
+      "actionText": "Get a 90% discount for one Premium vehicle of your choice now!",
+      "actionText_ru": "Получить скидку в 90% на одну премиумную технику по вашему выбору сейчас!",
+      "action": "consume_item; 200230; needConsumeImpl",
+      "viewType": "every_session",
+      "reqUnlock": "gift_special_offer_90_all_premium_tech",
+      "startTime": "2021-03-20 00:00:00",
+      "endTime": "2021-03-29 10:00:00"
+    },
+    "19_03_21_Pokryshkin_birthday": {
+      "name": "P39N-0 for Alexander Pokryshkin's birthday",
+      "name_ru": "P39N-0 ко дню рождения Покрышкина",
+      "image": "https://static.warthunder.com/upload/image/!%202021%20NEWS/03%20March/P-39/P-39%20S1_8b6ec06116263cd36fa2edf6d6350ef0.jpg?P1",
+      "imageRatio": 0.56,
+      "desc": "Today we are celebrating the birthday of Alexander Pokryshkin, three times Hero of the Soviet Union, whose name has become a nickname for the most skillful and desperate bold pilots. Pokryshkin's Airacobra with the white “100” on its side is a rare and favorite vehicle for War Thunder pilots.\\n\\Until March 22nd (09:00 GMT), the <color=#17CBFC>Premium aircraft Pokryshkin's P-39N-0</color> is back in store!",
+      "desc_ru": "Мы празднуем день рождения Александра Ивановича Покрышкина, трижды Героя Советского Союза, чьё имя стало нарицательным для наиболее умелых и отчаянных пилотов.\\n\\nДо 22 марта (14:00 МСК) в игре доступна для покупки <color=#17CBFC>премиумная P-39N-0 Покрышкина</color> с бортовым номером «Белый 100»!",
+      "viewType": "once",
+      "action": "show_unit; p-39n_su",
+      "actionText": "#p-39n_su_shop",
+      "startTime": "2021-03-19 00:00:00",
+      "endTime": "2021-03-22 07:00:00",
+      "reqFeature": "pc_ps4_only_events",
+      "reqUnlock": "p-39n_su_check_popup",
+      "forceExternalBrowser": true
+    },
     "11_03_21_olyst_cup_twitch_drops_popup": {
       "name": "OlySt CUP and Twitch Drops",
       "name_ru": "Кубок OlySt CUP и Twitch Drops",
@@ -2456,18 +2487,20 @@
     },
     "2021_tss_promo": {
       "aspect_ratio": 2.07,
-      "text": "[LIVE] CRNG Cup 5x5 Tournament",
-      "text_de": "[LIVE] 5v5 Neujahrsturniere",
-      "text_fr": "[LIVE] Tournoi CRNG RB Compétitif 5v5",
-      "image": "https://static.warthunder.com/upload/image/!%202021%20NEWS/01%20January/03_01_tss.jpg?P1",
+      "text": "[DROPS] Olyst CUP 5x5 Tournament",
+      "text_fr": "[DROPS] OlySt CUP Compétitif 5v5",
+      "text_ru": "[DROPS] Кубок OlySt 5x5",
+      "image": "https://static.warthunder.com/upload/image/!%202020%20NEWS/january/olyst_promo.jpg?P1",
       "link": "https://www.twitch.tv/esportsreadywt",
       "link_fr": "https://www.twitch.tv/esportsreadyfr",
       "link_de": "https://www.twitch.tv/esportsreadyde",
-      "startTime": "2020-12-28 10:00",
-      "endTime": "2021-01-04 19:00",
+      "link_ru": "https://www.twitch.tv/esportsreadyru",
+      "link_es": "https://www.twitch.tv/esportsreadyes",
+      "startTime": "2021-03-14 16:30",
+      "endTime": "2021-03-14 22:00",
       "reqFeature": "pc_only_events",
       "forceExternalBrowser": true,
-      "showForLangs": "English;German;French"
+      "showForLangs": "English;German;French;Russian;Spanish"
     },
     "2021_new_year_sale_promo": {
       "aspect_ratio": 2.07,
@@ -3606,12 +3639,12 @@
     ],
     "trade_items_20_12": {
       "aspect_ratio": 2.07,
-      "text": "'Northern wind' trophy",
-      "text_ru": "Трофей «Северный ветер»",
-      "image": "https://static.warthunder.ru/upload/image/!2019/12%20December/trade_20_12.png?P1",
+      "text": "“Ixwa Strike” trophy",
+      "text_ru": "Трофей «Удар копья»",
+      "image": "https://static.warthunder.com/upload/image/!%202020%20NEWS/january/promo_trade_21.jpg?P1",
       "link": "auto_local auto_login https://trade.gaijin.net/",
-      "startTime": "2019-12-20 09:00",
-      "endTime": "2019-12-24 17:00",
+      "startTime": "2021-03-14 09:00",
+      "endTime": "2021-03-15 17:00",
       "reqFeature": "pc_only_events"
     },
     "trade_items_14_09": {

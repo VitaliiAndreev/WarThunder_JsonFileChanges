@@ -1447,6 +1447,14 @@
       "fictional": true
     }
   },
+  "battle_lepricon_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
   "ge_21st_aufklarungs_abteilung": {
     "category": "tanks_germany",
     "costGold": -1,
@@ -1689,6 +1697,18 @@
     "category": "special",
     "costGold": -1,
     "marketplaceItemdefId": 300013,
+    "hideFeature": "!Marketplace",
+    "item_quality": 2,
+    "name_color": "1EFF00",
+    "forceShowInCustomization": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "ixwa_strike_decal": {
+    "category": "special",
+    "costGold": -1,
+    "marketplaceItemdefId": 300014,
     "hideFeature": "!Marketplace",
     "item_quality": 2,
     "name_color": "1EFF00",
