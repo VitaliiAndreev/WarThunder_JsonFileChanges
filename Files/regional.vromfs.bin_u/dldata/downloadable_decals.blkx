@@ -18467,10 +18467,162 @@
   },
   "japan_tournament_2021": {
     "category": "tournament",
-    "aspect_ratio": 4.0,
-    "hdr0": "RERTeERYVDVEAAAAAAKAAAoAAAAAAAFUkFUBAAAAAAA=",
-    "lod0": "pxyq3a7wf5k35rvyme7v4wfnk5slfsn6-t7y",
-    "hdr1": "RERTeERYVDVEAAAAAAFAAAkAAAAAABFEkFUAAAAAAAA=",
-    "lod1": "sttwajze7r544rmj73kc46c4qoqpcqqm-ici"
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "bds7ius62k7vtigcg23uked6c64t5et5-bl2a",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "a3n32pig6fendhy4hlhvodifhgp34fl3-rfa"
+  },
+  "dark_snail": {
+    "category": "snails",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "7ve34w3gadptnv6ct6glzoniqrqbf5yv-dr4a",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "qmpta5ufjikyhs6qrytzcalc4zfekutb-bc7q"
+  },
+  "mechanical_snail": {
+    "category": "snails",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "ap6r7qafxmwuslxqd65qbigsbvs3ddnx-d7ly",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "cz3n6gl7hztmls2tjlipnc3romejpnra-bgqa"
+  },
+  "medieval_weapon_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "t7c44ez4fe3hbiiklp5mimmgb6fcfucg-ciwi",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "u27ufrtfcuudpom7cftn3rprrjembgrh-yvi"
+  },
+  "miracle_snail": {
+    "category": "snails",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "scryxjwjnhpbikvqe5cp57xrx3llrogp-dnhy",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "nsz6iusudjdztdyaxvnvqaradhubautj-bbkq"
+  },
+  "harpy_badge": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "ho2jaimyk4w24yiyiw3kfls5r6caubyd-disy",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "f2ayzm5gnwkwws2scntul5ma7mmsrgzz-banq"
+  },
+  "hydra_badge": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "hdv2yb3ssybicgobesvzlwwgyexpi2aw-diha",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "xti642m6y5e4ro5r4biagxcobcemnwlq-baeq"
+  },
+  "minotaur_badge": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "u7peqihmsfnzmrhgh2ubfhxslhnnyix2-diga",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "3bxukkn5prenrcjtvjomkosvptdtor7l-bapa"
+  },
+  "thunder_tales_decal": {
+    "category": "partners",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "li5v2i4emhpdl5dmwivvwr7okm6ucupf-eboi",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "baumej73x3lzn4j4imsva67beun3utaw-bikq"
+  },
+  "wt_banner_pilot_girl": {
+    "category": "japan",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "zx2clwk3gln5qfilo6wlhpgx27j4j53f-bxca",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "nvddrgmpreasvsxz7bbnch6o3sg67dec-rli"
+  },
+  "wt_banner_pilot_girl_face": {
+    "category": "japan",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "w3ui3vfopktkk5ubpvjl5cgftq3iwybr-d4ei",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "hp3u7ajxkkmccse5e6qtotk3ioi3ahwb-bfqa"
+  },
+  "rocaf_12_sqn_lion": {
+    "category": "china",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "rv4746ayogj4jgpkph4yvjlz36utqpgs-fedy",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "7pqo6gxoskpedvy4lv4f6ziuo54h2py4-bo7y"
+  },
+  "uk_237_ocu_arms": {
+    "category": "britain",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "vmvy5lmeocect6dyvv2r6c2pwtemam45-cwci",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "eftn4pj32skvpsktgxpqhawpd4cbhzxc-zwa"
+  },
+  "usa_29th_infantry_division": {
+    "category": "usa_tanks",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "z6rynsjya3wlz655feu3mufunie35mw7-d56a",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "7v3m3drepr5sm6qljlmozpgmbpan2az2-bg5i"
+  },
+  "usa_82nd_airborne_division": {
+    "category": "usa_tanks",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "ovhzfdm6tpohcjn5hhzybz3ij7744tdl-dd2q",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "w2d3qakcqdkk4ahkx4vjaxyr6wbrga5m-7ba"
+  },
+  "usa_90th_infantry_division": {
+    "category": "usa_tanks",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "qupccalf5ubg5py3qu7zlqmkfh5drf6f-eluy",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "m4f76ljgvnmcnl5glwwcdfrpa5w4uuur-bida"
+  },
+  "ussr_3rd_tank_brigade": {
+    "category": "ussr_tanks",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "f75stmxykydrv6dnl2f3v7gnwuayixfh-bzha",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "hieekahli6jiu2bdvdmwt4ynjckvguiy-t6q"
+  },
+  "us_vma_214_sqn_sheep": {
+    "category": "usa",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "giho56qdynqxg77rgjiw2oiirdeohcjj-efii",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "z745lea6m7f7yixnum2mciqu5hoc5ibz-bgia"
+  },
+  "lets_go_decal": {
+    "category": "holidays",
+    "aspect_ratio": 2.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAQoAAAAAAAFk0KoCAAAAAAA=",
+    "lod0": "bde2bikr4ax53qxbfydtpa4ceegqztsf-zri",
+    "hdr1": "RERTeERYVDVEAAAAAAGAAAkAAAAAABFU0KoAAAAAAAA=",
+    "lod1": "hcpdn6tomrc66ze6awd33w6ebs6oqq47-kmy"
+  },
+  "cosmonautics_day_60_decal": {
+    "category": "holidays",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeERYVDVEAAAAAAIAAgoAAAAAAAF0cFUFAAAAAAA=",
+    "lod0": "cc6a5itpjuavleimfvp3zvvyvt4ikhql-e5ji",
+    "hdr1": "RERTeERYVDVEAAAAAAEAAQkAAAAAABFkcFUBAAAAAAA=",
+    "lod1": "6vfw54lpopi52clanxckmsj7h26glpxl-bqfy"
   }
 }

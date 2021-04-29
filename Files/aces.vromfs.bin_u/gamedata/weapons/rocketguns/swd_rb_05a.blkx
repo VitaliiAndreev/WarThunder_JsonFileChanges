@@ -14,7 +14,7 @@
     "autoAimingFirstPerson": false,
     "autoAimingInArcade": false,
     "autoLeveling": false,
-    "rollStabilization": true,
+    "rollStabilization": false,
     "controlSensitivity": 0.2,
     "aimSensitivity": 22.1,
     "maxAxisValues": 1.0,

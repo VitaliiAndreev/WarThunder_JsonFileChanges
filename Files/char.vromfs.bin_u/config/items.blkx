@@ -2904,6 +2904,8 @@
     "expiredTimeHAfterActivation": 168.0,
     "type": "personalDiscounts",
     "shouldAutoConsume": true,
+    "iconStyle": "sale_premium",
+    "needHideTextOnIcon": true,
     "personalDiscountsParams": {
       "purchasesMaxCount": 1,
       "discountsDesc": {

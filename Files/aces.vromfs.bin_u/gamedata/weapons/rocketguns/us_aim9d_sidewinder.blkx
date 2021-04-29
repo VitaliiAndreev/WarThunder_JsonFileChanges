@@ -42,10 +42,10 @@
       "mass": 88.45
     },
     {
-      "explosiveType": "pbxn_3"
+      "explosiveType": "hmx"
     },
     {
-      "explosiveMass": 2.76
+      "explosiveMass": 2.95
     },
     {
       "massEnd": 55.8
@@ -227,6 +227,11 @@
           "mod3": [45.0,0.3]
         }
       ]
+    },
+    {
+      "pressureDamage": {
+        "damageType": "pressure"
+      }
     },
     {
       "collisions": {

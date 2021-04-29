@@ -91,27 +91,6 @@
     "pressureDamage": {
       "damageType": "pressure"
     },
-    "collisions": {
-      "steel": {
-        "fx": "explosion_midair_small"
-      },
-      "armor": {
-        "fx": "explosion_midair_small"
-      },
-      "buildings": {
-        "fx": "explosion_midair_small"
-      },
-      "wood": {
-        "fx": "explosion_midair_small"
-      }
-    },
-    "DamageParts": {
-      "body": {
-        "hp": 5.0,
-        "armorClass": "tank_structural_steel",
-        "armorThickness": 1.0
-      }
-    },
     "damage": {
       "shatter": [
         {
@@ -207,13 +186,30 @@
             "countPortion": 0.1
           }
         }
-      ],
-      "shatterDamage": {
-        "breachConeAngle": 45.0
+      ]
+    },
+    "shatterDamage": {
+      "breachConeAngle": 45.0
+    },
+    "collisions": {
+      "steel": {
+        "fx": "explosion_midair_small"
       },
-      "explosive": {
-        "radius": 0.5,
-        "offset": 0.9
+      "armor": {
+        "fx": "explosion_midair_small"
+      },
+      "buildings": {
+        "fx": "explosion_midair_small"
+      },
+      "wood": {
+        "fx": "explosion_midair_small"
+      }
+    },
+    "DamageParts": {
+      "body": {
+        "hp": 5.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 1.0
       }
     },
     "guidance": {
@@ -234,6 +230,7 @@
         "rateMax": 5.0,
         "prolongationTimeMax": 1.0,
         "designationSourceTypeMask": 1,
+        "constantDesignationSourceTypeMask": 0,
         "groundVehiclesAsTarget": true
       },
       "guidanceAutopilot": {

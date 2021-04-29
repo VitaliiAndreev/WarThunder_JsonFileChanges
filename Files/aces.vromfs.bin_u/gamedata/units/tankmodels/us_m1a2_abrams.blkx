@@ -688,10 +688,14 @@
       "tracks": {
         "armorClass": "tank_traks",
         "armorThickness": 30.0,
-        "hp": 100.0,
+        "hp": 300.0,
         "genericEffectiveThicknessMax": 30.0,
+        "genericDamageMult": 1.8,
+        "cumulativeDamageMult": 1.8,
         "track_r_dm": [],
-        "track_l_dm": []
+        "track_l_dm": [],
+        "track_r_01_dm": [],
+        "track_l_01_dm": []
       },
       "crew": {
         "armorClass": "steel_tankman",
@@ -2329,6 +2333,111 @@
     }
   },
   {
+    "MetaParts": {
+      "closed_fightning_compartment": [
+        {
+          "part": "loader_dm"
+        },
+        {
+          "part": "gunner_dm"
+        },
+        {
+          "part": "commander_dm"
+        },
+        {
+          "part": "machine_gunner_dm"
+        },
+        {
+          "part": "gunner_01_dm"
+        },
+        {
+          "part": "gunner_02_dm"
+        },
+        {
+          "part": "loader_01_dm"
+        },
+        {
+          "part": "loader_02_dm"
+        },
+        {
+          "part": "cannon_breech_dm"
+        },
+        {
+          "part": "radio_station_dm"
+        },
+        {
+          "part": "drive_turret_v_dm"
+        },
+        {
+          "part": "drive_turret_h_dm"
+        },
+        {
+          "part": "drive_turret_v_01_dm"
+        },
+        {
+          "part": "drive_turret_h_01_dm"
+        },
+        {
+          "part": "drive_turret_v_02_dm"
+        },
+        {
+          "part": "drive_turret_h_02_dm"
+        },
+        {
+          "effect": {
+            "conditionDamageType": "explosion",
+            "conditionDamage": 1.0,
+            "pressure": true
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "shatter",
+            "conditionDamage": 1.0,
+            "pressure": true
+          }
+        }
+      ],
+      "closed_control_compartment": [
+        {
+          "part": "driver_dm"
+        },
+        {
+          "part": "drive_turret_v_dm"
+        },
+        {
+          "part": "drive_turret_h_dm"
+        },
+        {
+          "part": "drive_turret_v_01_dm"
+        },
+        {
+          "part": "drive_turret_h_01_dm"
+        },
+        {
+          "part": "drive_turret_v_02_dm"
+        },
+        {
+          "part": "drive_turret_h_02_dm"
+        },
+        {
+          "effect": {
+            "conditionDamageType": "explosion",
+            "conditionDamage": 1.0,
+            "pressure": true
+          }
+        },
+        {
+          "effect": {
+            "conditionDamageType": "shatter",
+            "conditionDamage": 1.0,
+            "pressure": true
+          }
+        }
+      ]
+    }
+  },
+  {
     "gunConvergence": {
       "updateFromRangefinder": true,
       "minDistance": 200.0,
@@ -3207,7 +3316,7 @@
     "cockpit": {
       "zoomOutFov": 24.7,
       "zoomInFov": 7.37,
-      "sightFov": 13.0,
+      "sightFov": 12.0,
       "sightName": "abrams_sight",
       "headPos": [0.0,4.0,-8.5],
       "headPosOnShooting": [-0.8,3.4,0.5],

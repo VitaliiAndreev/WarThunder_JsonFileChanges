@@ -22,6 +22,27 @@
   },
   {
     "unlockable": {
+      "id": "gift_special_offer_90_all_premium_april",
+      "type": "inventory",
+      "userLogId": "200231",
+      "hidden": true,
+      "loggingEnabled": true,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "gift_special_offer_90_all_premium_april_tech"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_special_offer_90_all_premium_april_tech",
+      "type": "challenge",
+      "hidden": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "2020_06_target_discounts_usa_hidden_condition",
       "type": "challenge",
       "hidden": true,
@@ -1561,6 +1582,30 @@
           }
         }
       ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_strong_role_model",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_steel_shell",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_dark_menace",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -11166,7 +11211,107 @@
   },
   {
     "unlockable": {
-      "id": "su_excellent_aircraft",
+      "id": "uk_237_ocu_arms",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "num": 60
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "aircraft"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_britain"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_3rd_tank_brigade",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "mode": [
+        {
+          "type": "killedPlayersScore"
+        },
+        {
+          "num": 60
+        },
+        {
+          "mulArcade": 1
+        },
+        {
+          "mulRealistic": 2
+        },
+        {
+          "mulHardcore": 2
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": false
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "type_heavy_tank"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_ussr"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_vma_214_sqn_sheep",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -11207,7 +11352,7 @@
         {
           "condition": {
             "type": "playerTag",
-            "tag": "country_ussr"
+            "tag": "country_usa"
           }
         }
       ]
@@ -11215,16 +11360,16 @@
   },
   {
     "unlockable": {
-      "id": "fr_1st_armored_division",
+      "id": "fr_gba2_51_tortoise",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
       "mode": [
         {
-          "type": "missionsPlayedScore"
+          "type": "amountDamagesZone"
         },
         {
-          "num": 12
+          "num": 20000
         },
         {
           "condition": {
@@ -11236,21 +11381,13 @@
             "type": "playerUnitRank",
             "minRank": 2,
             "maxRank": 7,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [2000,2000,2000],
-            "stat": "score"
+            "inSession": false
           }
         },
         {
           "condition": {
             "type": "playerType",
-            "unitType": "tank"
+            "unitType": "aircraft"
           }
         },
         {
@@ -11264,25 +11401,19 @@
   },
   {
     "unlockable": {
-      "id": "se_f15_goat_rampant",
+      "id": "ge_153rd_pz_bat",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
       "mode": [
         {
-          "type": "killedPlayersScore"
+          "type": "unlockStageCount"
         },
         {
-          "num": 50
+          "num": 5
         },
         {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
+          "unlock": "global_kills_without_death"
         },
         {
           "condition": {
@@ -11295,55 +11426,6 @@
             "minRank": 2,
             "maxRank": 7,
             "inSession": false
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerTag",
-            "tag": "country_sweden"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "unlockable": {
-      "id": "uk_27th_armoured_brigade",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "mode": [
-        {
-          "type": "missionsPlayedScore"
-        },
-        {
-          "num": 12
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "maxRank": 7,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [2000,2000,2000],
-            "stat": "score"
           }
         },
         {
@@ -11351,54 +11433,6 @@
             "type": "playerType",
             "unitType": "tank"
           }
-        },
-        {
-          "condition": {
-            "type": "playerTag",
-            "tag": "country_britain"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "unlockable": {
-      "id": "ger_3rd_sboot_fl_wingfish",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "mode": [
-        {
-          "type": "awardDamage"
-        },
-        {
-          "num": 75000
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "maxRank": 5,
-            "inSession": false
-          }
-        },
-        {
-          "condition": [
-            {
-              "type": "playerType"
-            },
-            {
-              "unitType": "ship"
-            },
-            {
-              "unitType": "boat"
-            }
-          ]
         },
         {
           "condition": {
@@ -11411,57 +11445,7 @@
   },
   {
     "unlockable": {
-      "id": "it_142a_sq_rm_sword",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 40
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "maxRank": 7,
-            "inSession": false
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerTag",
-            "tag": "country_italy"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "unlockable": {
-      "id": "jp_13th_tank_bat",
+      "id": "it_132_divisione_ariete",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -11503,7 +11487,7 @@
         {
           "condition": {
             "type": "playerTag",
-            "tag": "country_japan"
+            "tag": "country_italy"
           }
         }
       ]
@@ -11511,16 +11495,16 @@
   },
   {
     "unlockable": {
-      "id": "es_rep_2_sqn_penguin",
+      "id": "jp_2nd_company_tank_school_fuji",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
       "mode": [
         {
-          "type": "missionsWonScore"
+          "type": "missionsPlayedScore"
         },
         {
-          "num": 12
+          "num": 10
         },
         {
           "condition": {
@@ -11546,10 +11530,131 @@
         {
           "condition": {
             "type": "playerType",
-            "unitType": "aircraft"
+            "unitType": "tank"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerTag",
+            "tag": "country_japan"
           }
         }
       ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pl_14th_armoured_brigade",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 20
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 2,
+            "maxRank": 7,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [2000,2000,2000],
+            "stat": "score"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "tank"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "su_excellent_aircraft",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "fr_1st_armored_division",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "se_f15_goat_rampant",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "uk_27th_armoured_brigade",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ger_3rd_sboot_fl_wingfish",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "it_142a_sq_rm_sword",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "jp_13th_tank_bat",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "es_rep_2_sqn_penguin",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -12715,15 +12820,6 @@
   },
   {
     "unlockable": {
-      "id": "it_132_divisione_ariete",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hidden": true
-    }
-  },
-  {
-    "unlockable": {
       "id": "isr_7th_armored_brigade",
       "type": "decal",
       "chapter": "decals",
@@ -12896,15 +12992,6 @@
   {
     "unlockable": {
       "id": "uk_no_898_nas_fish",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hidden": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "fr_gba2_51_tortoise",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -13282,15 +13369,6 @@
   },
   {
     "unlockable": {
-      "id": "jp_2nd_company_tank_school_fuji",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hidden": true
-    }
-  },
-  {
-    "unlockable": {
       "id": "ussr_2_guards_tank_corps",
       "type": "decal",
       "chapter": "decals",
@@ -13543,15 +13621,6 @@
   },
   {
     "unlockable": {
-      "id": "pl_14th_armoured_brigade",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "allies_tanks",
-      "hidden": true
-    }
-  },
-  {
-    "unlockable": {
       "id": "uk_23rd_armoured_brigade",
       "type": "decal",
       "chapter": "decals",
@@ -13678,9 +13747,200 @@
   },
   {
     "unlockable": {
+      "id": "2021_05_09_lets_go_decal",
+      "type": "achievement",
+      "chapter": "2016_space",
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 5
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "maxRank": 7,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-09 13:00:00",
+            "endDate": "2021-04-13 07:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2021_05_09_lets_go_decal_gift",
+      "userLogId": "lets_go_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "2021_05_09_lets_go_decal"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2021_05_09_gagarin_helmet",
+      "type": "achievement",
+      "chapter": "2016_space",
+      "mode": [
+        {
+          "type": "missionsWonScore"
+        },
+        {
+          "num": 3
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": {
+            "type": "playerType",
+            "unitType": "tank"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "maxRank": 7,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-09 13:00:00",
+            "endDate": "2021-04-13 07:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2021_05_09_gagarin_helmet_gift",
+      "userLogId": "gagarin_helmet_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "2021_05_09_gagarin_helmet"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2021_05_09_vostok_lander",
+      "type": "achievement",
+      "chapter": "2016_space",
+      "mode": [
+        {
+          "type": "missionsWonScore"
+        },
+        {
+          "num": 3
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": {
+            "type": "activity",
+            "percent": 60
+          }
+        },
+        {
+          "condition": [
+            {
+              "type": "playerType"
+            },
+            {
+              "unitType": "ship"
+            },
+            {
+              "unitType": "boat"
+            },
+            {
+              "inSession": false
+            }
+          ]
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "maxRank": 7,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-09 13:00:00",
+            "endDate": "2021-04-13 07:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2021_05_09_vostok_lander_gift",
+      "userLogId": "vostok_lander_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "2021_05_09_vostok_lander"
+      }
+    }
+  },
+  {
+    "unlockable": {
       "id": "2021_03_17_battle_lepricon_decal",
       "type": "achievement",
       "chapter": "patricks_day",
+      "hidden": true,
       "mode": [
         {
           "type": "missionsPlayedScore"
@@ -89286,7 +89546,8 @@
         {
           "condition": {
             "type": "playerType",
-            "unitType": "tank"
+            "unitType": "tank",
+            "controlled": true
           }
         },
         {
@@ -89380,6 +89641,9 @@
             },
             {
               "unitType": "boat"
+            },
+            {
+              "controlled": true
             }
           ]
         },
@@ -89479,7 +89743,8 @@
         {
           "condition": {
             "type": "playerType",
-            "unitType": "aircraft"
+            "unitType": "aircraft",
+            "controlled": true
           }
         },
         {
@@ -90262,7 +90527,8 @@
         {
           "condition": {
             "type": "playerType",
-            "unitType": "aircraft"
+            "unitType": "aircraft",
+            "controlled": true
           }
         },
         {
@@ -90376,6 +90642,9 @@
             },
             {
               "unitType": "boat"
+            },
+            {
+              "controlled": true
             }
           ]
         },
@@ -92197,6 +92466,140 @@
           "condition": {
             "type": "battlepassSeason",
             "season": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "craft_2021_spring_1st_place_award",
+      "type": "inventory",
+      "userLogId": "2902017",
+      "isMultiUnlock": true,
+      "loggingEnabled": true,
+      "hidden": true,
+      "mode": [
+        {
+          "type": "missionsPlayedScore"
+        },
+        {
+          "num": 1
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-01 13:00:00",
+            "endDate": "2021-04-12 12:00:00"
+          }
+        },
+        {
+          "condition": {
+            "type": "online"
+          }
+        },
+        {
+          "condition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "value": "tank_random_battles_simulation_1"
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "condition": {
+            "type": "minStat",
+            "value": [1,1,1],
+            "stat": "place"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "condition": {
+            "type": "unlocked",
+            "positive": false,
+            "unlock": "craft_2021_spring_1st_place_check"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "spring2021Craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "craft_2021_spring_1st_place_check",
+      "type": "achievement",
+      "chapter": "craft_2021_spring",
+      "isAfterFlight": true,
+      "hidden": false,
+      "mode": [
+        {
+          "type": "unlockOpenCount"
+        },
+        {
+          "num": 200
+        },
+        {
+          "unlock": "craft_2021_spring_1st_place_award"
+        },
+        {
+          "condition": {
+            "type": "timeRange",
+            "beginDate": "2021-04-01 13:00:00",
+            "endDate": "2021-04-12 12:00:00"
+          }
+        },
+        {
+          "condition": {
+            "type": "playerHasFeature",
+            "feature": "spring2021Craft"
           }
         }
       ]

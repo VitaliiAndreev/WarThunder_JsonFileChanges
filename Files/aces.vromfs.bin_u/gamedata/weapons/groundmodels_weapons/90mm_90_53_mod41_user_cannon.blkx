@@ -24,8 +24,8 @@
   "shouldCollideWithRendinsts": true,
   "sound_path": "tanks/weapon_tanks/cannons",
   "sound_pathStudio": "ground/weapon/cannons",
-  "sound": "50mm_kwk39",
-  "sound_inside": "50mm_kwk39_interior",
+  "sound": "88mm_kwk36",
+  "sound_inside": "88mm_kwk36_interior",
   "sfxReloadBullet": "grd_cannon_reload",
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
@@ -88,6 +88,9 @@
         "demarreMassPow": 0.71,
         "demarreCaliberPow": 1.07
       }
+    },
+    "pressureDamage": {
+      "damageType": "pressure"
     },
     "visual": {
       "range_percent_of_ammo": [100.0,0.0],
@@ -447,6 +450,9 @@
           "demarreMassPow": 0.71,
           "demarreCaliberPow": 1.07
         }
+      },
+      "pressureDamage": {
+        "damageType": "pressure"
       },
       "visual": {
         "range_percent_of_ammo": [100.0,0.0],

@@ -84,6 +84,9 @@
         "mod3": [45.0,0.3]
       }
     ],
+    "pressureDamage": {
+      "damageType": "pressure"
+    },
     "collisions": {
       "steel": {
         "fx": "explosion_midair_tiny"

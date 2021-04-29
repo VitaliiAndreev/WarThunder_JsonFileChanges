@@ -208,7 +208,7 @@
       "loadFactorMax": 12.0
     },
     {
-      "rangeMax": 6.0
+      "rangeMax": 6500.0
     },
     {
       "price": 3000.0
@@ -234,6 +234,11 @@
           "mod3": [45.0,0.3]
         }
       ]
+    },
+    {
+      "pressureDamage": {
+        "damageType": "pressure"
+      }
     },
     {
       "DamageParts": {

@@ -1551,6 +1551,53 @@
       "fictional": true
     }
   },
+  "japan_tournament_2021": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "medieval_weapon_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "wt_banner_pilot_girl": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "wt_banner_pilot_girl_face": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "usa_29th_infantry_division": {
+    "category": "tanks_usa",
+    "costGold": -1,
+    "hideUntilUnlocked": true
+  },
+  "usa_82nd_airborne_division": {
+    "category": "tanks_usa",
+    "costGold": -1,
+    "hideUntilUnlocked": true
+  },
+  "usa_90th_infantry_division": {
+    "category": "tanks_usa",
+    "costGold": -1,
+    "hideUntilUnlocked": true
+  },
   "valkyries_decal": {
     "category": "special",
     "costGold": -1,
@@ -2200,6 +2247,16 @@
     "costGold": -1,
     "hideUntilUnlocked": true
   },
+  "cosmonautics_day_60_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true
+  },
+  "lets_go_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true
+  },
   "us_17_cav_reg_medusa": {
     "category": "usa",
     "costGold": -1
@@ -2474,6 +2531,30 @@
     }
   },
   "spaceman_snail_decal": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "dark_snail": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "mechanical_snail": {
+    "category": "special",
+    "costGold": -1,
+    "hideUntilUnlocked": true,
+    "tags": {
+      "fictional": true
+    }
+  },
+  "miracle_snail": {
     "category": "special",
     "costGold": -1,
     "hideUntilUnlocked": true,
@@ -3788,11 +3869,6 @@
     "unlock": "uk_23rd_armoured_brigade",
     "hideUntilUnlocked": true
   },
-  "pl_14th_armoured_brigade": {
-    "category": "allies_tanks",
-    "unlock": "pl_14th_armoured_brigade",
-    "hideUntilUnlocked": true
-  },
   "it_com_group": {
     "category": "italy",
     "unlock": "it_com_group",
@@ -3850,11 +3926,6 @@
   "au_4th_armoured_brigade": {
     "category": "tanks_britain",
     "unlock": "au_4th_armoured_brigade",
-    "hideUntilUnlocked": true
-  },
-  "ge_153rd_pz_bat": {
-    "category": "tanks_germany",
-    "costGold": 200,
     "hideUntilUnlocked": true
   },
   "uk_no_60_sqn_markhor": {
@@ -3964,11 +4035,6 @@
   "sco_2nd_dragoons_royal_grews": {
     "category": "tanks_britain",
     "unlock": "sco_2nd_dragoons_royal_grews",
-    "hideUntilUnlocked": true
-  },
-  "jp_2nd_company_tank_school_fuji": {
-    "category": "tanks_japan",
-    "unlock": "jp_2nd_company_tank_school_fuji",
     "hideUntilUnlocked": true
   },
   "uk_3rd_infantry_division": {
@@ -4261,12 +4327,6 @@
     "costGold": 200,
     "hideUntilUnlocked": true
   },
-  "fr_gba2_51_tortoise": {
-    "category": "france",
-    "costGold": 200,
-    "unlock": "fr_gba2_51_tortoise",
-    "hideUntilUnlocked": true
-  },
   "uk_no_898_nas_fish": {
     "category": "britain",
     "unlock": "uk_no_898_nas_fish",
@@ -4361,12 +4421,6 @@
     "category": "france",
     "costGold": 200,
     "unlock": "fr_8f_fl_dog",
-    "hideUntilUnlocked": true
-  },
-  "it_132_divisione_ariete": {
-    "category": "tanks_italy",
-    "costGold": 200,
-    "unlock": "it_132_divisione_ariete",
     "hideUntilUnlocked": true
   },
   "isr_7th_armored_brigade": {
@@ -5230,46 +5284,97 @@
     "hideUntilUnlocked": true
   },
   "su_excellent_aircraft": {
-    "category": "weekly",
+    "category": "ussr",
     "costGold": 200,
-    "unlock": "su_excellent_aircraft"
+    "unlock": "su_excellent_aircraft",
+    "hideUntilUnlocked": true
   },
   "fr_1st_armored_division": {
-    "category": "weekly",
-    "unlock": "fr_1st_armored_division"
+    "category": "tanks_france",
+    "unlock": "fr_1st_armored_division",
+    "hideUntilUnlocked": true
   },
   "usa_14th_field_artillery_regiment": {
+    "category": "tanks_usa",
+    "costGold": 200,
+    "hideUntilUnlocked": true
+  },
+  "se_f15_goat_rampant": {
+    "category": "sweden",
+    "costGold": 200,
+    "unlock": "se_f15_goat_rampant",
+    "hideUntilUnlocked": true
+  },
+  "uk_27th_armoured_brigade": {
+    "category": "tanks_britain",
+    "costGold": 200,
+    "unlock": "uk_27th_armoured_brigade",
+    "hideUntilUnlocked": true
+  },
+  "ger_3rd_sboot_fl_wingfish": {
+    "category": "ships_germany",
+    "costGold": 200,
+    "unlock": "ger_3rd_sboot_fl_wingfish",
+    "hideUntilUnlocked": true
+  },
+  "it_142a_sq_rm_sword": {
+    "category": "italy",
+    "unlock": "it_142a_sq_rm_sword",
+    "hideUntilUnlocked": true
+  },
+  "jp_13th_tank_bat": {
+    "category": "tanks_japan",
+    "costGold": 200,
+    "unlock": "jp_13th_tank_bat",
+    "hideUntilUnlocked": true
+  },
+  "es_rep_2_sqn_penguin": {
+    "category": "allies_images",
+    "costGold": 200,
+    "unlock": "es_rep_2_sqn_penguin",
+    "hideUntilUnlocked": true
+  },
+  "uk_237_ocu_arms": {
+    "category": "weekly",
+    "costGold": 200,
+    "unlock": "uk_237_ocu_arms"
+  },
+  "ussr_3rd_tank_brigade": {
+    "category": "weekly",
+    "unlock": "ussr_3rd_tank_brigade"
+  },
+  "us_vma_214_sqn_sheep": {
+    "category": "weekly",
+    "unlock": "us_vma_214_sqn_sheep"
+  },
+  "rocaf_12_sqn_lion": {
     "category": "weekly",
     "costGold": 200
   },
-  "se_f15_goat_rampant": {
+  "fr_gba2_51_tortoise": {
     "category": "weekly",
     "costGold": 200,
-    "unlock": "se_f15_goat_rampant"
+    "unlock": "fr_gba2_51_tortoise"
   },
-  "uk_27th_armoured_brigade": {
+  "jp_2nd_company_tank_school_fuji": {
     "category": "weekly",
     "costGold": 200,
-    "unlock": "uk_27th_armoured_brigade"
+    "unlock": "jp_2nd_company_tank_school_fuji"
   },
-  "ger_3rd_sboot_fl_wingfish": {
+  "it_132_divisione_ariete": {
     "category": "weekly",
     "costGold": 200,
-    "unlock": "ger_3rd_sboot_fl_wingfish"
+    "unlock": "it_132_divisione_ariete"
   },
-  "it_142a_sq_rm_sword": {
-    "category": "weekly",
-    "unlock": "it_142a_sq_rm_sword"
-  },
-  "jp_13th_tank_bat": {
+  "ge_153rd_pz_bat": {
     "category": "weekly",
     "costGold": 200,
-    "unlock": "jp_13th_tank_bat"
+    "unlock": "ge_153rd_pz_bat"
   },
-  "es_rep_2_sqn_penguin": {
+  "pl_14th_armoured_brigade": {
     "category": "weekly",
     "costGold": 200,
-    "unlock": "es_rep_2_sqn_penguin"
+    "unlock": "pl_14th_armoured_brigade"
   },
   "ie_no_1_sqn_iac": {
     "category": "britain",
